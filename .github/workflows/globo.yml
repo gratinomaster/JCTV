@@ -1,4 +1,4 @@
-name: Baixando Lista
+name: Baixando GLOBO
 
 on:
   schedule:
@@ -36,9 +36,9 @@ jobs:
         python3 --version
 
 
-    - name: Rodar script agrupadordelistas.py
+    - name: Rodar script GLOBO.py
       run: |
-        python3 agrupadordelistas.py
+        python3 GLOBO.py
 
 
     - name: Adicionar Mudanças ao Controle de Versão
