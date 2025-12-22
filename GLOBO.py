@@ -88,5 +88,4 @@ with open("lista1.m3u", "w") as output_file:
                     print(f"M3U8 não encontrado para {url}")
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
-# Executa o processamento
-process_m3u_file(input_url, output_file)
+
