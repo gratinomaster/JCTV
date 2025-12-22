@@ -1,0 +1,56 @@
+name: Baixando Lista
+
+on:
+  schedule:
+    - cron: '*/45 * * * *'  # Schedule to run every 30 minutes
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repositório
+      uses: actions/checkout@v4  # Updated to use a newer version
+
+    - name: Configurar Git
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+    - name: Deletar Log
+      run: |
+        rm -rf ./log.txt
+
+    - name: Instalando dependências
+      run: |
+        # Install required Python dependencies
+        python3 -m pip install --upgrade pip
+        python3 -m pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz gdown requests streamlink beautifulsoup4 selenium yt_dlp playwright
+
+    - name: Verificar versão do Python
+      run: |
+        python3 --version
+
+
+    - name: Rodar script agrupadordelistas.py
+      run: |
+        python3 agrupadordelistas.py
+
+
+    - name: Adicionar Mudanças ao Controle de Versão
+      run: |
+        git add -A
+        git status
+
+    - name: Garantir alterações mais recentes do repositório remoto
+      run: |
+        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+
+    - name: Commit e Push
+      run: |
+        git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+        git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
