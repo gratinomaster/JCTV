@@ -1,340 +1,47 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1194" tvg-id="192TVCE.ec" tvg-logo="http://descargas.podzone.net/logos/-13C.png" tvg-name="CHILE - 13C FHD" , CHILE - 13C FHD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1091369
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1195" tvg-id="192TVCE.ec" tvg-logo="http://descargas.podzone.net/logos/-13C.png" tvg-name="CHILE - 13C HD" , CHILE - 13C HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1091370
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1196" tvg-id="24Horas.es" tvg-logo="http://descargas.podzone.net/logos/-24-horas.png" tvg-name="CHILE - 24 HORAS" , CHILE - 24 HORAS
-http://tv.nstvlatino.com:8080/UY1108/@373839/23237
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1197" tvg-id="CHILE - NTV HD" tvg-logo="http://descargas.podzone.net/logos/-NTV.png" tvg-name="CHILE - NTV HD" , CHILE - NTV HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/27103
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1198" tvg-id="CHILE - TV+ HD" tvg-logo="http://descargas.podzone.net/logos/-TV+.png" tvg-name="CHILE - TV+ HD" , CHILE - TV+ HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/30700
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1199" tvg-id="CHILE - TV+" tvg-logo="http://descargas.podzone.net/logos/-TV+.png" tvg-name="CHILE - TV+" , CHILE - TV+
-http://tv.nstvlatino.com:8080/UY1108/@373839/1094403
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1200" tvg-id="CHILE - ZONA LATINA" tvg-logo="http://descargas.podzone.net/logos/-zona-latina.png" tvg-name="CHILE - ZONA LATINA" , CHILE - ZONA LATINA
-http://tv.nstvlatino.com:8080/UY1108/@373839/1141627
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1201" tvg-id="CHILE - VIAX" tvg-logo="http://descargas.podzone.net/logos2/-VIAX-chile.png" tvg-name="CHILE - VIAX" , CHILE - VIAX
-http://tv.nstvlatino.com:8080/UY1108/@373839/1142322
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1202" tvg-id="CHILE - REC TV" tvg-logo="http://descargas.podzone.net/logos/-REC-TV.png" tvg-name="CHILE - REC TV" , CHILE - REC TV
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155840
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1203" tvg-id="Teletrak.cl" tvg-logo="http://descargas.podzone.net/logos/-teletrak.png" tvg-name="CHILE - TELETRAK HD" , CHILE - TELETRAK HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/3854
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1204" tvg-id="CHILE - CNN CHILE" tvg-logo="http://descargas.podzone.net/logos/-CNN.png" tvg-name="CHILE - CNN CHILE" , CHILE - CNN CHILE
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155843
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1205" tvg-id="CHILE - ESPN CHILE HD" tvg-logo="http://descargas.podzone.net/logos/-ESPN-1.png" tvg-name="CHILE - ESPN CHILE HD" , CHILE - ESPN CHILE HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1068348
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1206" tvg-id="TNTSports.ar" tvg-logo="http://descargas.podzone.net/logos/-ESPN-1.png" tvg-name="CHILE - ESPN CHILE" , CHILE - ESPN CHILE
-http://tv.nstvlatino.com:8080/UY1108/@373839/1117657
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1207" tvg-id="TNTSports.ar" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE - TNT SPORTS" , CHILE - TNT SPORTS
-http://tv.nstvlatino.com:8080/UY1108/@373839/16138
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1208" tvg-id="CHILE - TNT SPORTS HD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE - TNT SPORTS HD" , CHILE - TNT SPORTS HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1156014
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1209" tvg-id="CHILE-TNT SPORTS FHD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE-TNT SPORTS FHD" , CHILE-TNT SPORTS FHD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1160041
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1210" tvg-id="CHILE - TNT SPORTS 2 FHD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE - TNT SPORTS 2 FHD" , CHILE - TNT SPORTS 2 FHD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1129864
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1211" tvg-id="CHILE - TNT SPORTS 2 HD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE - TNT SPORTS 2 HD" , CHILE - TNT SPORTS 2 HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1129865
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1212" tvg-id="CHILE - TNT SPORTS 3" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" tvg-name="CHILE - TNT SPORTS 3" , CHILE - TNT SPORTS 3
-http://tv.nstvlatino.com:8080/UY1108/@373839/1068349
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1213" tvg-id="CDFBasico.cl" tvg-logo="http://descargas.podzone.net/logos/-estadio-TNT.png" tvg-name="CHILE - ESTADIO TNT" , CHILE - ESTADIO TNT
-http://tv.nstvlatino.com:8080/UY1108/@373839/6979
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1214" tvg-id="CHILE - CDO PREMIUM " tvg-logo="http://descargas.podzone.net/logos/-CDO-premium.png" tvg-name="CHILE - CDO PREMIUM " , CHILE - CDO PREMIUM
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155837
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1215" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155826
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1216" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155817
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1217" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
-https://marine2.miplay.cl/tvnchile/playlist.m3u8
-
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1218" tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVChile
-http://45.181.123.233:8000/play/a0qg
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1219" tvg-id="NTV.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/ntv-cl.png" , NTV
-https://marine2.miplay.cl/ntv/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1220" tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" , La Red HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/51823
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1221" tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" , La Red HD
-https://unlimited2-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1222" tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" , La Red
-https://marine2.miplay.cl/lared/playlist.m3u8
-
+#EXTM3U
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1224" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV
-https://marine2.miplay.cl/ucv3/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1225" tvg-id="tvmas.cl" tvg-logo="https://img.soy-chile.cl/Fotos/2018/10/29/file_20181029173540.jpg" , TV+
-https://marine2.miplay.cl/tvmas/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1226" tvg-id="24Horas.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tvn_24_horas_cl.png" , 24 Horas
-https://marine2.miplay.cl/24horas/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1227" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155841
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1228" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155842
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1229" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega
-https://marine2.miplay.cl/megacl/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1230" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega SD
-http://45.181.123.233:8000/play/a0qh
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1231" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega HD
-http://45.181.123.233:8000/play/a0is
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1232" tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" , CHV
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155835
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1233" tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" , CHV
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155836
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1234" tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" , CHV
-https://marine2.miplay.cl/chvchile/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1235" tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" , CHV SD
-http://45.181.123.233:8000/play/a0qi
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1236" tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" , CHV HD
-http://45.181.123.233:8000/play/a0kl
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1237" tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , Canal 13
-http://tv.nstvlatino.com:8080/UY1108/@373839/1145137
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1238" tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , Canal 13
-http://tv.nstvlatino.com:8080/UY1108/@373839/3853
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1239" tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , Canal 13
-https://marine2.miplay.cl/c13/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1240" tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , Canal 13 SD
-http://45.181.123.233:8000/play/a0qj
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1241" tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , Canal 13 HD
-http://45.181.123.233:8000/play/a0lh
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1242" tvg-id="13C.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" , T13
-https://marine2.miplay.cl/t13/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1243" tvg-id="ZonaLatina.cl" tvg-logo="https://zonalatinatv.com/wp-content/uploads/2023/04/ZL-Lateral-NO-OFICIAL.png" , Zona Latina
-http://45.181.123.233:8000/play/a15n
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1244" tvg-id="ViaX.cl" tvg-logo="https://cdn.mitvstatic.com/channels/cl_via-x_m.png" , ViaX HD
-http://45.181.123.233:8000/play/a0oh
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1245" tvg-id="TVU.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1024px-Logo_tvu.png" , TVU
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1246" tvg-id="UChile.cl" tvg-logo="https://www.uchile.cl/.imaging/default/dam/imagenes/Uchile/imagenes-noticias/172128_1_u-chile-tv-logo-1200px-fondo-negro_S/jcr:content.png" , U Chile TV (geo)
-https://unlimited1-cl-isp.dps.live/uchiletv/uchiletv.smil/uchiletv/livestream0/chunks.m3u8?nimblesessionid=9302469
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1247" tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" , TVR HD
 https://pantera1-100gb-cl-movistar.dps.live/tvr/tvr.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1248" tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" , TVR
-https://marine2.miplay.cl/tvr/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1249" tvg-id="STGOTV.cl" tvg-logo="https://pbs.twimg.com/media/DmuwuKqXsAUevyn.jpg" , STGO TV
-https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=3&id=m30upk7m&q=&d=w
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1250" tvg-id="CNNChile.cl" tvg-logo="http://i.imgur.com/Dd9PMar.png" , CNN Chile
-http://45.181.123.233:8000/play/a15o
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1251" tvg-id="Undefined" tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png" , Radio Portal FoxMix Chile
-https://sonic.portalfoxmix.cl/8002/stream
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1252" tvg-id="Teletrak" tvg-logo="https://i.imgur.com/iHhc7PK.png" , Teletrak | Chile
 http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1253" tvg-id="Iquique Tv" tvg-logo="https://iquiquetv.cl/wp-content/uploads/2020/05/iquiqueTV_logo_202005_272x90.png" , Iquique Tv | Chile
-https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-
+#EXTINF:-1 group-title="CHILE" tvg-chno="1251" tvg-id="Undefined" tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png" , Radio Portal FoxMix Chile
+https://sonic.portalfoxmix.cl/8002/stream
+#EXTINF:-1 group-title="CHILE" tvg-chno="1249" tvg-id="STGOTV.cl" tvg-logo="https://pbs.twimg.com/media/DmuwuKqXsAUevyn.jpg" , STGO TV
+https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=3&id=m30upk7m&q=&d=w
 #EXTINF:-1 group-title="CHILE" tvg-chno="1254" tvg-id="Buin Somos Todos" tvg-logo="https://i.ytimg.com/vi/k_Q7-gqkfAo/maxresdefault.jpg" , Buin Somos Todos | Chile
 https://bst.buin.cl/0.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1255" tvg-id="Caracola TV" tvg-logo="https://www.caracolatv.cl/wp-content/uploads/2021/12/logo-296x300.jpg" , Caracola TV | Chile
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
-
-#EXTINF:-1 group-title="INFANTILES" tvg-chno="1256" tvg-id="NTV" tvg-logo="https://i.imgur.com/w1jK0n7.png" tvg-name="NTV" , NTV | Chile
-https://marine2.miplay.cl/ntv/playlist.m3u8
-
-#EXTINF:-1 group-title="INFANTILES" tvg-chno="1257" tvg-id="Kids 90" tvg-logo="https://i.imgur.com/A5U3jer.png" tvg-name="Kids 90" , Kids 90 | Chile
-https://videostreaming.cloudserverlatam.com/Kids90/Kids90/playlist.m3u8
-
-#EXTINF:-1 group-title="INFANTILES" tvg-chno="1258" tvg-id="PlanetaTV Kids" tvg-logo="https://i.imgur.com/ZN3ry2f.png" tvg-name="PlanetaTV Kids" , PlanetaTV Kids | Chile
-https://tls-cl.cdnz.cl/planetatvkids/live/chunklist_w1953958808.m3u8
-
-#EXTINF:-1 group-title="INFANTILES" tvg-chno="1259" tvg-id="PlanetaTV Kids" tvg-logo="https://i.imgur.com/ZN3ry2f.png" tvg-name="PlanetaTV Kids" , PlanetaTV Kids | Chile
-https://scl.edge.grupoz.cl/planetatvkids/live/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1260" tvg-id="CNN Chile" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
-http://newultra.xyz:8080/34tehu87se24ma97/m37me65wu93m/57269
-
-#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1261" tvg-id="CNN Chile" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
-http://fortv.cc:8080/DeishouV2573/120712/164892
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1262" tvg-id="mega-hd.cl" tvg-logo="http://yourlogourl.com/mega-hd.png" tvg-name="MEGA HD" , MEGA HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164883.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1263" tvg-id="chilevision-hd.cl" tvg-logo="http://yourlogourl.com/chilevision-hd.png" tvg-name="CHILEVISION HD" , CHILEVISION HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164884.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1264" tvg-id="13i.cl" tvg-logo="http://yourlogourl.com/13i.png" tvg-name="13I" , 13I
-http://cord-cutter.net:8080/live/j3McKd/673709/164885.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1265" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://yourlogourl.com/tvn-chile-hd.png" tvg-name="TVN CHILE HD" , TVN CHILE HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164888.m3u8
-
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1266" tvg-id="cnn-chile-hd.cl" tvg-logo="http://yourlogourl.com/cnn-chile-hd.png" tvg-name="CNN CHILE HD" , CNN CHILE HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164892.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1267" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-thmb.png" tvg-name="TVN" , TVN (CHILE)
-https://streamer01.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/TVNCHILE/__op/hls-default/__f/index.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1268" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/tvn.jpg" , TVN (VPN) ACHO
-https://cvthmk.000webhostapp.com/tvn.php
-
-
-#EXTINF:-1 tvg-chno="1269" , 
-https://cvthmk.000webhostapp.com/tvnhd.php
-
-#EXTINF:-1 tvg-chno="1270" , 
-https://tvn--24df53d9e0.repl.co/
-
-#EXTINF:-1 tvg-chno="1271" , 
-https://mdstrm.com/live-stream-playlist-v/57a498c4d7b86d600e5461cb.m3u8?access_token=FmNotzoOXDoZWaHupBbLurn8Ijrjq1C1gAOHRTaBvcLr3K6T00meQLanhm4zCOLXtFHlVUR8wAc
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1272" tvg-id="CHVAAH" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X_0xaKkuCYoGKPL_-hbrOy6TaaN6EC_eDJyzmXiMgM4Gg.png" tvg-name="Chilevisión" xui-id="125" , Chilevisión
-https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBNaTAhytRXgJHnEzvivdqpz/ts
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1273" tvg-id="CHILEVISIONCONTIGO" tvg-logo="https://media.cnnchile.com/sites/2/2021/04/22-11-2019-Chilevision.jpg" tvg-name="CHILEVISIONCONTIGO" , CANAL 13
-http://daleplay.club:8080/listatbsdaleplay22/listatbsdaleplaypararepetircanales/156122
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1274" tvg-id="Chilevision" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/chv.jpg" , Chilevision (VPN)
-https://cvthmk.000webhostapp.com/chvhd.php
-
-#EXTINF:-1 tvg-chno="1275" , 
-https://chilevision--92fbc459f4.repl.co/
-
-#EXTINF:-1 tvg-chno="1276" , 
-https://chv-m3u.chorroaeboy.repl.co/
-
-#EXTINF:-1 tvg-chno="1277" , 
-https://mdstrm.com/live-stream-playlist-v/5c928b7f6d6f41084bdae898.m3u8?access_token=SX4xOAnbdD56p36OoVCv45HGPNgEMrMV9D8icJTVvzlCYKzRCZQtxOJ2kcrWje3YgXPvTmZttHX
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1278" tvg-id="MEGA" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X-phSNZlGbmiki05OMDvwB3.png" tvg-name="Mega" xui-id="128" , Mega
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1279" tvg-id="Ntv" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/ntv.jpg" , NTV (VPN)
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
-
-#EXTINF:-1 group-title="Televisión" tvg-chno="1280" tvg-id="24 Play" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/24 play.jpg" , 24 Play
-https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1281" tvg-id="C13STGO" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X9UAj6nCi9ytepPsaKrCz8k.png" tvg-name="Canal 13" xui-id="123" , Canal 13
-https://ythls.onrender.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1282" tvg-id="La Red HD" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/lared.jpg" , La Red
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-chno="1283" , 
-https://d2ab26kihxq8p0.cloudfront.net/hls/live.m3u8
-
-#EXTINF:-1 tvg-chno="1284" , 
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1285" tvg-id="1437" tvg-logo="https://i2.paste.pics/2ba64b67051e159ff48060da1a687fd0.png" tvg-name="TVN3" , TVN3
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1286" tvg-id="UCL" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/UCLTV.png?raw=true" , UCL
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1287" tvg-id="CHV Noticias" tvg-logo="https://yt3.ggpht.com/clEeO22ukG6jvOlhK3EDIszMjjcNfZ5xJY4fVEUrN3bki3RYs8RiATTjqPXGVTCP0XFN7W046A=s88-c-k-c0x00ffffff-no-rj" tvg-name="CHV Noticias" , CHV Noticias
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1750787500/ei/TJFaaP-8Fvb3sfIPwO2diQs/ip/52.225.37.48/id/c8e3QQXKaGQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-5uaeznyk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/siu/1/bui/AY1jyLM3s0MQkfVOhDM9AQnF0RU5fdmWradHjSD9M_ISCq5WeWakn-TII6TbvCgBRj1-AANtJw/spc/l3OVKX-CCSjHgIEPDubV8hel0rLflFxnbK9-xyq8sA7lGvjCuPQ2fhF8w5F7L3M_t0nC9bigb-II6eNPEfE/vprv/1/playlist_type/DVR/met/1750765901,/mh/pv/mm/44/mn/sn-5uaeznyk/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51466643,51466698/mt/1750764117/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgZvMb6ow6bDHy07cJlfyTYE_YKlFLweRw4C5XOD1oLmUCIQCjIqPYkGOuZbJoSwPtXiK8etKK23VwCatFAbpuXG6G4A%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgDJdq8sq0x_QySHVr-QUpUOXzy7H_00Nt3k4jeFuXnsgCIFSVU9zSNrmEYAQ-FLhEVNzc04XjfFZeYBPKNIUVI1dT/playlist/index.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1288" tvg-id="Meganoticias" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l790QCWpgPDcehyjzfhDKe2MqcuwGJc6HbUR4Q%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1" tvg-name="Meganoticias" , Meganoticias
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1750787506/ei/UpFaaOyqJ6PzsfIPlvWxoQ8/ip/52.225.37.48/id/BgZQtYHIvJ4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-5uaeznyk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/siu/1/bui/AY1jyLNdq-714pGGc0vHkFh2YKBnDq-GhxWy6LD6els5LHEpnhp3vJ6AghFJDihc23jwiiU3qQ/spc/l3OVKXGYs-iIwZJ5sWcz92SH3KrhpO_ZATX9sjMFkmxPQqB69VVgkPys_408aJJbdOnCatXFcQa37M3qrLg/vprv/1/playlist_type/DVR/met/1750765907,/mh/pa/mm/44/mn/sn-5uaeznyk/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51466643,51466698/mt/1750764117/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgVBaOUgiVXAAe_p9PFaepWyEwQbGliWJp34jgDgejwxQCIQD3wZJzpCrhEK9QI4drqZ7kR1EJDB8oIs3SYjgKrSmPkg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgbSwJotroinzGNy_DAxHLJ7louB7Kf1tXGTVQR2tRY0ECIGZtPeIT5Zc4k9q9v2sw_Vysgcgsgf988_ZwBPTfujZm/playlist/index.m3u8
-
-#EXTINF:-1 group-title="Política" tvg-chno="1289" tvg-id="TV SENADO CHILE" tvg-logo="https://yt3.ggpht.com/rzWmoueYLYs4hpK1mwVFnyafADTztytGuZFiPJEVd1lyCZKFyYebzLPV1P9BB4xB6rEIiEKSug=s48-c-k-c0x00ffffff-no-rj" tvg-name="TV SENADO CHILE" , TV SENADO CHILE
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1750787516/ei/XJFaaLeKIPmWsfIPwpTf-Qc/ip/52.225.37.48/id/1_3DHk8v1ss.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-5uaeznyk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AY1jyLOrgYTRFGNCKnbglfKlBYUXw9adUfYuNUinK9_xMkiKYyu9bpqNc-bk9yPp33X39xp4gA/spc/l3OVKRjec81qi2Uqi5ld1mfd0AgJLqo0aD96c6XgvWd-eqCHGwO2K50lh4Dy0v1ejRBvMhhUTob5nC39-gw/vprv/1/playlist_type/DVR/met/1750765917,/mh/sb/mm/44/mn/sn-5uaeznyk/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51466643,51466698/mt/1750764117/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAMxmbdgi9WEI4XJ9_PpIxYm0sXPx5kQVFS22jDORfERAAiEA5Hp-w0KUIciWQ-8ce09kMbkk8iQ3kIwn3-G5OPUuFAY%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgWArSH9UjXeEoOvprqDoaSW7BX3wz_YWB_RvyJP-XS1ACIQDer4jPUJGeV-lzusVBL-0E0--RpvC3w7wgMyMJxP0k5Q%3D%3D/playlist/index.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1290" tvg-id="Undefined" tvg-logo="https://i.imgur.com/S8VPPgr.png" , Red Fueguina Medios | SD | Porvenir
 https://inliveserver.com:1936/11012/11012/playlist.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1291" tvg-id="Undefined" tvg-logo="https://i.imgur.com/ilCiqga.png" , Canal 21 | HD | Chillan
 https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1292" tvg-id="Undefined" tvg-logo="https://i.imgur.com/saLbzvM.png" , Iquique TV | HD | Iquique
-https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1293" tvg-id="Undefined" tvg-logo="https://i.imgur.com/FMFLFIL.png" , Atacama TV | HD | Copiapó
-https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1294" tvg-id="Undefined" tvg-logo="https://i.imgur.com/aPA11ts.png" , Holvoet TV | SD | Copiapó
-https://pantera1-100gb-cl-movistar.dps.live/holvoettv/holvoettv.smil/holvoettv/livestream3/chunks.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1295" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VsfXiJy.png" , Pop Media | HD | Santiago
-https://v4.tustreaming.cl/poptv/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1296" tvg-id="Undefined" tvg-logo="https://i.imgur.com/jL7zgG5.png" , Tele Angol | HD | Angol
-https://pantera1-100gb-cl-movistar.dps.live/teleangol/teleangol.smil/teleangol/livestream1/chunks.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1297" tvg-id="Undefined" tvg-logo="https://i.imgur.com/GG8zE02.png" , T-Vinet | HD | Osorno
-https://unlimited1-cl-isp.dps.live/inet2/inet2.smil/inet2/livestream1/chunks.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1298" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JHG0k6v.png" , Santa María Televisión | SD | Coyhaique
-https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1299" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VhOolgs.png" , El Pingüino | HD | Punta Arenas
 http://streaming.elpinguino.com:1935/live/pinguinotv_720p/livestream.m3u8
-
+#EXTINF:-1 group-title="CHILE" tvg-chno="1294" tvg-id="Undefined" tvg-logo="https://i.imgur.com/aPA11ts.png" , Holvoet TV | SD | Copiapó
+https://pantera1-100gb-cl-movistar.dps.live/holvoettv/holvoettv.smil/holvoettv/livestream3/chunks.m3u8
+#EXTINF:-1 group-title="CHILE" tvg-chno="1293" tvg-id="Undefined" tvg-logo="https://i.imgur.com/FMFLFIL.png" , Atacama TV | HD | Copiapó
+https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1300" tvg-id="Undefined" tvg-logo="https://i.imgur.com/mjX7HC0.png" , Soberanía| HD | Punta Arenas
 https://tls-cl.cdnz.cl/radiosoberania/live/chunklist_w1753930486.m3u8
-
+#EXTINF:-1 group-title="CHILE" tvg-chno="1296" tvg-id="Undefined" tvg-logo="https://i.imgur.com/jL7zgG5.png" , Tele Angol | HD | Angol
+https://pantera1-100gb-cl-movistar.dps.live/teleangol/teleangol.smil/teleangol/livestream1/chunks.m3u8
+#EXTINF:-1 group-title="CHILE" tvg-chno="1298" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JHG0k6v.png" , Santa María Televisión | SD | Coyhaique
+https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1301" tvg-id="Undefined" tvg-logo="https://i.imgur.com/Vx20KSy.jpg" , Umag TV 2| HD | Punta Arenas
 https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1978" tvg-id="Undefined" tvg-logo="https://i.imgur.com/S8VPPgr.png" , Red Fueguina Medios | SD | Porvenir
 https://inliveserver.com:1936/11012/11012/playlist.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1979" tvg-id="Undefined" tvg-logo="https://i.imgur.com/ilCiqga.png" , Canal 21 | HD | Chillan
 https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
-
-#EXTINF:-1 group-title="CHILE" tvg-chno="1980" tvg-id="Undefined" tvg-logo="https://i.imgur.com/saLbzvM.png" , Iquique TV | HD | Iquique
-https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 group-title="CHILE" tvg-chno="1981" tvg-id="Undefined" tvg-logo="https://i.imgur.com/FMFLFIL.png" , Atacama TV | HD | Copiapó
 https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.m3u8
