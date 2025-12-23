@@ -1,82 +1,19 @@
 
-
-# --- TV ABERTA BRASIL ---
-
-#EXTINF:-1 tvg-id="São.Paulo/SP..GloboNews.HD.³.br" tvg-logo="" tvg-name="BR: GLOBO HD" group-title="BRAZIL",BR: GLOBO HD
-http://xxip25.top:8080/Alan/Alan1234/164943
 #EXTINF:-1 tvg-id="São.Paulo/SP..GloboNews.HD.³.br" tvg-logo="" tvg-name="BR: GLOBO MINAS HD" group-title="BRAZIL",BR: GLOBO MINAS HD
 http://xxip25.top:8080/Alan/Alan1234/164944
-#EXTINF:-1 tvg-id="São.Paulo/SP..SBT.br" tvg-logo="" tvg-name="BR: SBT HD" group-title="BRAZIL",BR: SBT HD
-http://xxip25.top:8080/Alan/Alan1234/20978
-
-
-# --- TV ABERTA PORTUGAL ---
+#EXTINF:-1 tvg-id="São.Paulo/SP..GloboNews.HD.³.br" tvg-logo="" tvg-name="BR: GLOBO HD" group-title="BRAZIL",BR: GLOBO HD
+http://xxip25.top:8080/Alan/Alan1234/164943
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: RTP 1 FHD" group-title="Portugal",PT: RTP 1 FHD
 http://xxip25.top:8080/Alan/Alan1234/164792
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: TVI" group-title="Portugal",PT: TVI
-http://xxip25.top:8080/Alan/Alan1234/78526
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: CMTV" group-title="Portugal",PT: CMTV
-http://xxip25.top:8080/Alan/Alan1234/78441
-
-# --- RESTANTE DOS CANAIS ---
+#EXTINF:-1 tvg-id="São.Paulo/SP..SBT.br" tvg-logo="" tvg-name="BR: SBT HD" group-title="BRAZIL",BR: SBT HD
+http://xxip25.top:8080/Alan/Alan1234/20978
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: TVI REALITY" group-title="BRAZIL",PT: TVI REALITY
 http://xxip25.top:8080/Alan/Alan1234/164861
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: CLUBBING TV" group-title="BRAZIL",PT: CLUBBING TV
-http://xxip25.top:8080/Alan/Alan1234/164850
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: CMTV" group-title="Portugal",PT: CMTV
+http://xxip25.top:8080/Alan/Alan1234/78441
 #EXTINF:-1 tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-logo="" tvg-name="PT: ZAP VIVA FHD" group-title="BRAZIL",PT: ZAP VIVA FHD
 http://xxip25.top:8080/Alan/Alan1234/164853
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: TPA INTERNACIONAL SD" group-title="BRAZIL",PT: TPA INTERNACIONAL SD
-http://xxip25.top:8080/Alan/Alan1234/164855
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: TVC CABO VERDE" group-title="BRAZIL",PT: TVC CABO VERDE
-http://xxip25.top:8080/Alan/Alan1234/164858
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: EURONEWS" group-title="BRAZIL",PT: EURONEWS
-http://xxip25.top:8080/Alan/Alan1234/164859
-#EXTINF:-1 tvg-id="São.Paulo/SP..AMC.HD.br" tvg-logo="" tvg-name="BR: AMC HD" group-title="BRAZIL",BR: AMC HD
-http://xxip25.top:8080/Alan/Alan1234/164938
-#EXTINF:-1 tvg-id="ESPN.br" tvg-logo="" tvg-name="BR: ESPN" group-title="BRAZIL",BR: ESPN
-http://xxip25.top:8080/Alan/Alan1234/164948
-#EXTINF:-1 tvg-id="São.Paulo/SP..HBO.Xtreme.HD.br" tvg-logo="" tvg-name="BR: HBO HD" group-title="BRAZIL",BR: HBO HD
-http://xxip25.top:8080/Alan/Alan1234/164950
-#EXTINF:-1 tvg-id="São.Paulo/SP..TNT.SÉRIES.HD.br" tvg-logo="" tvg-name="BR: TNT SERIES HD" group-title="BRAZIL",BR: TNT SERIES HD
-http://xxip25.top:8080/Alan/Alan1234/164958
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT BENFICA TV HD  (P)" group-title="Portugal",PT BENFICA TV HD  (P)
-http://xxip25.top:8080/Alan/Alan1234/136726
-#EXTINF:-1 tvg-id="São.Paulo/SP..CNN.Brasil.HD.br" tvg-logo="" tvg-name="PT: CNN HD" group-title="Portugal",PT: CNN HD
-http://xxip25.top:8080/Alan/Alan1234/164802
-#EXTINF:-1 tvg-id="São.Paulo/SP..Telecine.Pipoca.HD.³.br" tvg-logo="" tvg-name="PT: TV CINE ACTION FHD" group-title="Portugal",PT: TV CINE ACTION FHD
-http://xxip25.top:8080/Alan/Alan1234/164809
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: NOS STUDIOS FHD" group-title="Portugal",PT: NOS STUDIOS FHD
-http://xxip25.top:8080/Alan/Alan1234/164811
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: HOLLYWOOD FHD" group-title="Portugal",PT: HOLLYWOOD FHD
-http://xxip25.top:8080/Alan/Alan1234/164813
-#EXTINF:-1 tvg-id="São.Paulo/SP..AXN.HD.³.br" tvg-logo="" tvg-name="PT: AXN WHITE FHD" group-title="Portugal",PT: AXN WHITE FHD
-http://xxip25.top:8080/Alan/Alan1234/164815
-#EXTINF:-1 tvg-id="São.Paulo/SP..AXN.HD.³.br" tvg-logo="" tvg-name="PT: AXN MOVIES  HD" group-title="Portugal",PT: AXN MOVIES  HD
-http://xxip25.top:8080/Alan/Alan1234/164818
-#EXTINF:-1 tvg-id="São.Paulo/SP..Syfy.HD.br" tvg-logo="" tvg-name="PT: SYFY FHD" group-title="Portugal",PT: SYFY FHD
-http://xxip25.top:8080/Alan/Alan1234/164821
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: SPORT TV 1 FHD" group-title="Portugal",PT: SPORT TV 1 FHD
-http://xxip25.top:8080/Alan/Alan1234/167742
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: SPORT TV 2 HD" group-title="Portugal",PT: SPORT TV 2 HD
-http://xxip25.top:8080/Alan/Alan1234/167743
 #EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: SPORT TV 3 HD" group-title="Portugal",PT: SPORT TV 3 HD
 http://xxip25.top:8080/Alan/Alan1234/167744
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: SPORT TV 4 FHD" group-title="Portugal",PT: SPORT TV 4 FHD
-http://xxip25.top:8080/Alan/Alan1234/167745
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: ELEVEN SPORTS 3 HD" group-title="Portugal",PT: ELEVEN SPORTS 3 HD
-http://xxip25.top:8080/Alan/Alan1234/167748
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: ELEVEN SPORTS 4 HD" group-title="Portugal",PT: ELEVEN SPORTS 4 HD
-http://xxip25.top:8080/Alan/Alan1234/167749
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.Sports.br" tvg-logo="" tvg-name="PT: ELEVEN SPORTS 5 HD" group-title="Portugal",PT: ELEVEN SPORTS 5 HD
-http://xxip25.top:8080/Alan/Alan1234/167750
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" tvg-name="F1TV: F1-TV FHD" group-title="F1 Formula",F1TV: F1-TV FHD
-http://xxip25.top:8080/Alan/Alan1234/125947
-#EXTINF:-1 tvg-id="" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" tvg-name="F1TV: Data" group-title="F1 Formula",F1TV: Data
-http://xxip25.top:8080/Alan/Alan1234/135044
-#EXTINF:-1 tvg-id="São.Paulo/SP..Animal.Planet.HD.br" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" tvg-name="F1TV: Pit Lane" group-title="F1 Formula",F1TV: Pit Lane
-http://xxip25.top:8080/Alan/Alan1234/135045
-#EXTINF:-1 tvg-id="" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" tvg-name="F1TV: Tracker" group-title="F1 Formula",F1TV: Tracker
-http://xxip25.top:8080/Alan/Alan1234/135046
-
-# (continua com todos os outros pilotos Helmet Cam da F1TV...)
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="PT: TVI" group-title="Portugal",PT: TVI
+http://xxip25.top:8080/Alan/Alan1234/78526
