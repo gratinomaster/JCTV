@@ -1,1525 +1,461 @@
 #EXTM3U
-
-
 #EXTINF:-1 group-title="Canais | ABERTO;Canais | RECORD TV" tvg-chno="846" tvg-id="RecordTV" tvg-logo="https://i.imgur.com/lyQ1v9M.png" , RecordTV Conquista HD
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8?ManoTV
-
-#EXTINF:-1 group-title="VOD" tvg-chno="847" tvg-id="ABC World News Tonight - January 8, 1982" tvg-logo="https://archive.org/services/img/WNBDJanuary91982" , ABC World News Tonight - January 8, 1982
-https://archive.org/download/WNBDJanuary91982/WNBD%20January%208%2C%201982.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="848" tvg-id="NBC February 1985 Commercial Collection" tvg-logo="https://archive.org/services/img/yt-5s.com-80s-commercials-nbc-february-1985-1080p" , NBC February 1985 Commercial Collection
-https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/yt5s.com-80%27s%20Commercials%20-%20NBC%20February%201985-%281080p%29.ia.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="849" tvg-id="NBC Nightly News Liberty Weekend 2 Tom Brokaw And Connie Chung WTVG 13" tvg-logo="https://archive.org/services/img/nbc-nightly-news-liberty-weekend-2-tom-brokaw-and-connie-chung-wtvg-13" , NBC Nightly News Liberty Weekend 2 Tom Brokaw And Connie Chung WTVG 13
-https://archive.org/download/nbc-nightly-news-liberty-weekend-2-tom-brokaw-and-connie-chung-wtvg-13/NBC%20Nightly%20News%20Liberty%20Weekend%202%20Tom%20Brokaw%20and%20Connie%20Chung%20WTVG%2013.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="850" tvg-id="KTPX/NBC Commercial Breaks, 3/14/1988" tvg-logo="https://archive.org/services/img/ktpxcommercial-breaks-mar-141988wm" , KTPX/NBC Commercial Breaks, 3/14/1988
-https://archive.org/download/ktpxcommercial-breaks-mar-141988wm/KTPXCommercialBreaks_Mar141988wm.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="851" tvg-id="WPXI May 24, 1988 Commercials" tvg-logo="https://archive.org/services/img/wjac-may-24-1988-commercials" , WPXI May 24, 1988 Commercials
-https://archive.org/download/wjac-may-24-1988-commercials/WJAC%20May%2024%2C%201988%20Commercials.ia.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="852" tvg-id="News NBC Nightly News 1989-01-30 (incomplete)" tvg-logo="https://archive.org/services/img/news-nbc-nightly-news-1989-01-30-incomplete" , News NBC Nightly News 1989-01-30 (incomplete)
-https://archive.org/download/news-nbc-nightly-news-1989-01-30-incomplete/News%20-%20NBC%20Nightly%20News%20-%201989-01-30%20%28incomplete%29.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="853" tvg-id="NBC July 1989 Commercial Collection" tvg-logo="https://archive.org/services/img/80s-commercials-nbc-july-1989-720p" , NBC July 1989 Commercial Collection
-https://archive.org/download/80s-commercials-nbc-july-1989-720p/80s%20Commercials%20NBC%20July%201989%20720p.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="854" tvg-id="NBC October 1989 Commercial Collection" tvg-logo="https://archive.org/services/img/nbc-commercial-break-october-19-1989-another-world-360p" , NBC October 1989 Commercial Collection
-https://archive.org/download/nbc-commercial-break-october-19-1989-another-world-360p/NBC%20Commercial%20Break%20October%2019%201989%20Another%20World%20360p.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="855" tvg-id="NBC/KMOL Commercial Breaks, 4/7/1991" tvg-logo="https://archive.org/services/img/kmolcommercials-apr-71991wm" , NBC/KMOL Commercial Breaks, 4/7/1991
-https://archive.org/download/kmolcommercials-apr-71991wm/KMOLCommercials_Apr71991wm.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="856" tvg-id="23 October 1993 SAS-7 commercial break (1)" tvg-logo="https://archive.org/services/img/23-october-1993-sas-7-commercial-break-1" , 23 October 1993 SAS-7 commercial break (1)
-https://archive.org/download/23-october-1993-sas-7-commercial-break-1/23%20October%201993%20SAS-7%20commercial%20break%20%281%29.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="857" tvg-id="Seven Nightly News promo - Carmen Lawrence (20/03/1994)" tvg-logo="https://archive.org/services/img/sevennightlynews-promo-carmen-lawrence-19940320" , Seven Nightly News promo - Carmen Lawrence (20/03/1994)
-https://archive.org/download/sevennightlynews-promo-carmen-lawrence-19940320/1-4%20-%20Seven%20Nightly%20News%20promo%20-%20Carmen%20Lawrence%20%2820-03-1994%29.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="858" tvg-id="90s Australian Commercials (BTQ-7, 18/9/94)" tvg-logo="https://archive.org/services/img/90saustraliancommercialsbtq718994" , 90s Australian Commercials (BTQ-7, 18/9/94)
-https://archive.org/download/90saustraliancommercialsbtq718994/90s%20Australian%20commercials%20%28BTQ-7%2C%20Sep%2018%201994%29.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="859" tvg-id="1994 Recorded VHS: Angels II: Beyond The Light, Commercials, Promos, Local News" tvg-logo="https://archive.org/services/img/1994recordedvhs" , 1994 Recorded VHS: Angels II: Beyond The Light, Commercials, Promos, Local News
-https://archive.org/download/1994recordedvhs/Angels%20II.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="860" tvg-id="1997 Tv Block Channel 7" tvg-logo="https://archive.org/services/img/90s-tv-block" , 1997 Tv Block Channel 7
-https://archive.org/download/90s-tv-block/90s%20Tv%20Block.m4v
-
-#EXTINF:-1 group-title="VOD" tvg-chno="861" tvg-id="Channel 7 TV Block 1997" tvg-logo="https://archive.org/services/img/channel-7-block" , Channel 7 TV Block 1997
-https://archive.org/download/channel-7-block/Channel%207%20Block.m4v
-
-#EXTINF:-1 group-title="VOD" tvg-chno="862" tvg-id="2000 promo for Southern Cross Nightly News" tvg-logo="https://archive.org/services/img/2000-promo-for-southern-cross-nightly-news" , 2000 promo for Southern Cross Nightly News
-https://archive.org/download/2000-promo-for-southern-cross-nightly-news/2000%20promo%20for%20Southern%20Cross%20Nightly%20News.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="863" tvg-id="NBC Nightly News : WRC : September 10, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010910_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 10, 2001 7:00pm-7:30pm EDT
-https://archive.org/download/WRC_20010910_230000_NBC_Nightly_News/WRC_20010910_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="864" tvg-id="Access Hollywood : WRC : September 10, 2001 7:30pm-7:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010910_233000_Access_Hollywood" , Access Hollywood : WRC : September 10, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010910_233000_Access_Hollywood/WRC_20010910_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="862" tvg-id="2000 promo for Southern Cross Nightly News" tvg-logo="https://archive.org/services/img/2000-promo-for-southern-cross-nightly-news" , 2000 promo for Southern Cross Nightly News
+https://archive.org/download/2000-promo-for-southern-cross-nightly-news/2000%20promo%20for%20Southern%20Cross%20Nightly%20News.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="865" tvg-id="News 4 at 6 : WRC : September 10, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010910_220000_News_4_at_6" , News 4 at 6 : WRC : September 10, 2001 6:00pm-7:00pm EDT
 https://archive.org/download/WRC_20010910_220000_News_4_at_6/WRC_20010910_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="853" tvg-id="NBC July 1989 Commercial Collection" tvg-logo="https://archive.org/services/img/80s-commercials-nbc-july-1989-720p" , NBC July 1989 Commercial Collection
+https://archive.org/download/80s-commercials-nbc-july-1989-720p/80s%20Commercials%20NBC%20July%201989%20720p.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="850" tvg-id="KTPX/NBC Commercial Breaks, 3/14/1988" tvg-logo="https://archive.org/services/img/ktpxcommercial-breaks-mar-141988wm" , KTPX/NBC Commercial Breaks, 3/14/1988
+https://archive.org/download/ktpxcommercial-breaks-mar-141988wm/KTPXCommercialBreaks_Mar141988wm.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="847" tvg-id="ABC World News Tonight - January 8, 1982" tvg-logo="https://archive.org/services/img/WNBDJanuary91982" , ABC World News Tonight - January 8, 1982
+https://archive.org/download/WNBDJanuary91982/WNBD%20January%208%2C%201982.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="863" tvg-id="NBC Nightly News : WRC : September 10, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010910_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 10, 2001 7:00pm-7:30pm EDT
+https://archive.org/download/WRC_20010910_230000_NBC_Nightly_News/WRC_20010910_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="849" tvg-id="NBC Nightly News Liberty Weekend 2 Tom Brokaw And Connie Chung WTVG 13" tvg-logo="https://archive.org/services/img/nbc-nightly-news-liberty-weekend-2-tom-brokaw-and-connie-chung-wtvg-13" , NBC Nightly News Liberty Weekend 2 Tom Brokaw And Connie Chung WTVG 13
+https://archive.org/download/nbc-nightly-news-liberty-weekend-2-tom-brokaw-and-connie-chung-wtvg-13/NBC%20Nightly%20News%20Liberty%20Weekend%202%20Tom%20Brokaw%20and%20Connie%20Chung%20WTVG%2013.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="856" tvg-id="23 October 1993 SAS-7 commercial break (1)" tvg-logo="https://archive.org/services/img/23-october-1993-sas-7-commercial-break-1" , 23 October 1993 SAS-7 commercial break (1)
+https://archive.org/download/23-october-1993-sas-7-commercial-break-1/23%20October%201993%20SAS-7%20commercial%20break%20%281%29.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="861" tvg-id="Channel 7 TV Block 1997" tvg-logo="https://archive.org/services/img/channel-7-block" , Channel 7 TV Block 1997
+https://archive.org/download/channel-7-block/Channel%207%20Block.m4v
 #EXTINF:-1 group-title="VOD" tvg-chno="866" tvg-id="News 4 at 6 : WRC : September 11, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010911_220000_News_4_at_6" , News 4 at 6 : WRC : September 11, 2001 6:00pm-7:00pm EDT
 https://archive.org/download/WRC_20010911_220000_News_4_at_6/WRC_20010911_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="867" tvg-id="NBC Nightly News : WRC : September 11, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010911_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 11, 2001 7:00pm-7:30pm EDT
-https://archive.org/download/WRC_20010911_230000_NBC_Nightly_News/WRC_20010911_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="858" tvg-id="90s Australian Commercials (BTQ-7, 18/9/94)" tvg-logo="https://archive.org/services/img/90saustraliancommercialsbtq718994" , 90s Australian Commercials (BTQ-7, 18/9/94)
+https://archive.org/download/90saustraliancommercialsbtq718994/90s%20Australian%20commercials%20%28BTQ-7%2C%20Sep%2018%201994%29.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="854" tvg-id="NBC October 1989 Commercial Collection" tvg-logo="https://archive.org/services/img/nbc-commercial-break-october-19-1989-another-world-360p" , NBC October 1989 Commercial Collection
+https://archive.org/download/nbc-commercial-break-october-19-1989-another-world-360p/NBC%20Commercial%20Break%20October%2019%201989%20Another%20World%20360p.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="852" tvg-id="News NBC Nightly News 1989-01-30 (incomplete)" tvg-logo="https://archive.org/services/img/news-nbc-nightly-news-1989-01-30-incomplete" , News NBC Nightly News 1989-01-30 (incomplete)
+https://archive.org/download/news-nbc-nightly-news-1989-01-30-incomplete/News%20-%20NBC%20Nightly%20News%20-%201989-01-30%20%28incomplete%29.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="851" tvg-id="WPXI May 24, 1988 Commercials" tvg-logo="https://archive.org/services/img/wjac-may-24-1988-commercials" , WPXI May 24, 1988 Commercials
+https://archive.org/download/wjac-may-24-1988-commercials/WJAC%20May%2024%2C%201988%20Commercials.ia.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="859" tvg-id="1994 Recorded VHS: Angels II: Beyond The Light, Commercials, Promos, Local News" tvg-logo="https://archive.org/services/img/1994recordedvhs" , 1994 Recorded VHS: Angels II: Beyond The Light, Commercials, Promos, Local News
+https://archive.org/download/1994recordedvhs/Angels%20II.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="860" tvg-id="1997 Tv Block Channel 7" tvg-logo="https://archive.org/services/img/90s-tv-block" , 1997 Tv Block Channel 7
+https://archive.org/download/90s-tv-block/90s%20Tv%20Block.m4v
+#EXTINF:-1 group-title="VOD" tvg-chno="855" tvg-id="NBC/KMOL Commercial Breaks, 4/7/1991" tvg-logo="https://archive.org/services/img/kmolcommercials-apr-71991wm" , NBC/KMOL Commercial Breaks, 4/7/1991
+https://archive.org/download/kmolcommercials-apr-71991wm/KMOLCommercials_Apr71991wm.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="868" tvg-id="Access Hollywood : WRC : September 11, 2001 7:30pm-7:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010911_233000_Access_Hollywood" , Access Hollywood : WRC : September 11, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010911_233000_Access_Hollywood/WRC_20010911_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="869" tvg-id="News 4 at 6 : WRC : September 12, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010912_220000_News_4_at_6" , News 4 at 6 : WRC : September 12, 2001 6:00pm-7:00pm EDT
 https://archive.org/download/WRC_20010912_220000_News_4_at_6/WRC_20010912_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="857" tvg-id="Seven Nightly News promo - Carmen Lawrence (20/03/1994)" tvg-logo="https://archive.org/services/img/sevennightlynews-promo-carmen-lawrence-19940320" , Seven Nightly News promo - Carmen Lawrence (20/03/1994)
+https://archive.org/download/sevennightlynews-promo-carmen-lawrence-19940320/1-4%20-%20Seven%20Nightly%20News%20promo%20-%20Carmen%20Lawrence%20%2820-03-1994%29.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="867" tvg-id="NBC Nightly News : WRC : September 11, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010911_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 11, 2001 7:00pm-7:30pm EDT
+https://archive.org/download/WRC_20010911_230000_NBC_Nightly_News/WRC_20010911_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="848" tvg-id="NBC February 1985 Commercial Collection" tvg-logo="https://archive.org/services/img/yt-5s.com-80s-commercials-nbc-february-1985-1080p" , NBC February 1985 Commercial Collection
+https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/yt5s.com-80%27s%20Commercials%20-%20NBC%20February%201985-%281080p%29.ia.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="870" tvg-id="America Under Attack : WRC : September 12, 2001 7:30pm-7:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010912_233000_America_Under_Attack" , America Under Attack : WRC : September 12, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010912_233000_America_Under_Attack/WRC_20010912_233000_America_Under_Attack.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="871" tvg-id="NBC Nightly News : WRC : September 12, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010912_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 12, 2001 7:00pm-7:30pm EDT
 https://archive.org/download/WRC_20010912_230000_NBC_Nightly_News/WRC_20010912_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="872" tvg-id="NBC Nightly News : WRC : September 13, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010913_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 13, 2001 7:00pm-7:30pm EDT
 https://archive.org/download/WRC_20010913_230000_NBC_Nightly_News/WRC_20010913_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="873" tvg-id="Redskins Report : WRC : September 13, 2001 7:30pm-7:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010913_233000_Redskins_Report" , Redskins Report : WRC : September 13, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="874" tvg-id="News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010913_220000_News_4_at_6" , News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT
-https://archive.org/download/WRC_20010913_220000_News_4_at_6/WRC_20010913_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="875" tvg-id="Access Hollywood : WRC : September 14, 2001 7:30pm-8:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010914_233000_Access_Hollywood" , Access Hollywood : WRC : September 14, 2001 7:30pm-8:00pm EDT
-https://archive.org/download/WRC_20010914_233000_Access_Hollywood/WRC_20010914_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="876" tvg-id="NBC Nightly News : WRC : September 14, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010914_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 14, 2001 7:00pm-7:30pm EDT
 https://archive.org/download/WRC_20010914_230000_NBC_Nightly_News/WRC_20010914_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="875" tvg-id="Access Hollywood : WRC : September 14, 2001 7:30pm-8:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010914_233000_Access_Hollywood" , Access Hollywood : WRC : September 14, 2001 7:30pm-8:00pm EDT
+https://archive.org/download/WRC_20010914_233000_Access_Hollywood/WRC_20010914_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" tvg-chno="877" tvg-id="News 4 at 6 : WRC : September 14, 2001 6:00pm-6:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010914_220000_News_4_at_6" , News 4 at 6 : WRC : September 14, 2001 6:00pm-6:59pm EDT
 https://archive.org/download/WRC_20010914_220000_News_4_at_6/WRC_20010914_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="878" tvg-id="NBC Nightly News : WRC : September 15, 2001 6:30pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010915_223000_NBC_Nightly_News" , NBC Nightly News : WRC : September 15, 2001 6:30pm-7:00pm EDT
-https://archive.org/download/WRC_20010915_223000_NBC_Nightly_News/WRC_20010915_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="874" tvg-id="News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010913_220000_News_4_at_6" , News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT
+https://archive.org/download/WRC_20010913_220000_News_4_at_6/WRC_20010913_220000_News_4_at_6.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" tvg-chno="879" tvg-id="News 4 at 6 : WRC : September 15, 2001 6:00pm-6:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010915_220000_News_4_at_6" , News 4 at 6 : WRC : September 15, 2001 6:00pm-6:30pm EDT
 https://archive.org/download/WRC_20010915_220000_News_4_at_6/WRC_20010915_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="880" tvg-id="Redskins Report : WRC : September 15, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010915_230000_Redskins_Report" , Redskins Report : WRC : September 15, 2001 7:00pm-7:30pm EDT
-https://archive.org/download/WRC_20010915_230000_Redskins_Report/WRC_20010915_230000_Redskins_Report.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="881" tvg-id="News 4 at 6 : WRC : September 16, 2001 6:00pm-6:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010916_220000_News_4_at_6" , News 4 at 6 : WRC : September 16, 2001 6:00pm-6:30pm EDT
 https://archive.org/download/WRC_20010916_220000_News_4_at_6/WRC_20010916_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="882" tvg-id="NBC Nightly News : WRC : September 16, 2001 6:30pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010916_223000_NBC_Nightly_News" , NBC Nightly News : WRC : September 16, 2001 6:30pm-7:00pm EDT
 https://archive.org/download/WRC_20010916_223000_NBC_Nightly_News/WRC_20010916_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="883" tvg-id="America Under Attack : WRC : September 16, 2001 7:00pm-8:59pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010916_230000_America_Under_Attack" , America Under Attack : WRC : September 16, 2001 7:00pm-8:59pm EDT
 https://archive.org/download/WRC_20010916_230000_America_Under_Attack/WRC_20010916_230000_America_Under_Attack.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="878" tvg-id="NBC Nightly News : WRC : September 15, 2001 6:30pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010915_223000_NBC_Nightly_News" , NBC Nightly News : WRC : September 15, 2001 6:30pm-7:00pm EDT
+https://archive.org/download/WRC_20010915_223000_NBC_Nightly_News/WRC_20010915_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" tvg-chno="884" tvg-id="News 4 at 6 : WRC : September 18, 2001 6:00pm-7:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010918_220000_News_4_at_6" , News 4 at 6 : WRC : September 18, 2001 6:00pm-7:00pm EDT
 https://archive.org/download/WRC_20010918_220000_News_4_at_6/WRC_20010918_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="885" tvg-id="Access Hollywood : WRC : September 18, 2001 7:30pm-8:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010918_233000_Access_Hollywood" , Access Hollywood : WRC : September 18, 2001 7:30pm-8:00pm EDT
-https://archive.org/download/WRC_20010918_233000_Access_Hollywood/WRC_20010918_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="886" tvg-id="NBC Nightly News : WRC : September 18, 2001 7:00pm-7:29pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010918_230000_NBC_Nightly_News" , NBC Nightly News : WRC : September 18, 2001 7:00pm-7:29pm EDT
 https://archive.org/download/WRC_20010918_230000_NBC_Nightly_News/WRC_20010918_230000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="887" tvg-id="NBC (KARE) Commercials 10-3-2001" tvg-logo="https://archive.org/services/img/NBCKARECommercials1032001" , NBC (KARE) Commercials 10-3-2001
-https://archive.org/download/NBCKARECommercials1032001/NBC%20%28KARE%29%20Commercials%2010-3-2001.mp4
-
+#EXTINF:-1 group-title="VOD" tvg-chno="885" tvg-id="Access Hollywood : WRC : September 18, 2001 7:30pm-8:00pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010918_233000_Access_Hollywood" , Access Hollywood : WRC : September 18, 2001 7:30pm-8:00pm EDT
+https://archive.org/download/WRC_20010918_233000_Access_Hollywood/WRC_20010918_233000_Access_Hollywood.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="880" tvg-id="Redskins Report : WRC : September 15, 2001 7:00pm-7:30pm EDT" tvg-logo="https://archive.org/services/img/WRC_20010915_230000_Redskins_Report" , Redskins Report : WRC : September 15, 2001 7:00pm-7:30pm EDT
+https://archive.org/download/WRC_20010915_230000_Redskins_Report/WRC_20010915_230000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" tvg-chno="888" tvg-id="2002 promo for Southern Cross Nightly News" tvg-logo="https://archive.org/services/img/2002-promo-for-southern-cross-nightly-news" , 2002 promo for Southern Cross Nightly News
 https://archive.org/download/2002-promo-for-southern-cross-nightly-news/2002%20promo%20for%20Southern%20Cross%20Nightly%20News.mp4
-
+#EXTINF:-1 group-title="VOD" tvg-chno="887" tvg-id="NBC (KARE) Commercials 10-3-2001" tvg-logo="https://archive.org/services/img/NBCKARECommercials1032001" , NBC (KARE) Commercials 10-3-2001
+https://archive.org/download/NBCKARECommercials1032001/NBC%20%28KARE%29%20Commercials%2010-3-2001.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="889" tvg-id="2008 promo for NBC Nightly News netcast" tvg-logo="https://archive.org/services/img/2008-promo-for-nbc-nightly-news-netcast" , 2008 promo for NBC Nightly News netcast
 https://archive.org/download/2008-promo-for-nbc-nightly-news-netcast/2008%20promo%20for%20NBC%20Nightly%20News%20Netcast.mp4
-
 #EXTINF:-1 group-title="VOD" tvg-chno="890" tvg-id="2008 promo for America's Nightly Scoreboard" tvg-logo="https://archive.org/services/img/2008-promo-for-americas-nightly-scoreboard" , 2008 promo for America's Nightly Scoreboard
 https://archive.org/download/2008-promo-for-americas-nightly-scoreboard/2008%20promo%20for%20America%27s%20Nightly%20Scoreboard.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="891" tvg-id="Sponsor tags from a 2008 episode of Nightly Business Report (2)" tvg-logo="https://archive.org/services/img/sponsor-tags-from-a-2008-episode-of-nightly-business-report-2" , Sponsor tags from a 2008 episode of Nightly Business Report (2)
-https://archive.org/download/sponsor-tags-from-a-2008-episode-of-nightly-business-report-2/Sponsor%20tags%20from%20a%202008%20episode%20of%20Nightly%20Business%20Report%20%282%29.mp4
-
 #EXTINF:-1 group-title="VOD" tvg-chno="892" tvg-id="Sponsor tags from a 2008 episode of Nightly Business Report" tvg-logo="https://archive.org/services/img/sponsor-tags-from-a-2008-episode-of-nightly-business-report" , Sponsor tags from a 2008 episode of Nightly Business Report
 https://archive.org/download/sponsor-tags-from-a-2008-episode-of-nightly-business-report/Sponsor%20tags%20from%20a%202008%20episode%20of%20Nightly%20Business%20Report.ia.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="893" tvg-id="Sponsor tags from a 2009 episode of Nightly Business Report" tvg-logo="https://archive.org/services/img/sponsor-tags-from-a-2009-episode-of-nightly-business-report" , Sponsor tags from a 2009 episode of Nightly Business Report
-https://archive.org/download/sponsor-tags-from-a-2009-episode-of-nightly-business-report/Sponsor%20tags%20from%20a%202009%20episode%20of%20Nightly%20Business%20Report.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="894" tvg-id="Obama Deception: Extended Extras" tvg-logo="https://archive.org/services/img/20090602-extended-extras-bilderberg" , Obama Deception: Extended Extras
-https://archive.org/download/20090602-extended-extras-bilderberg/20090602_ExtendedExtrasBilderberg.mp4
-
-#EXTINF:-1 group-title="VOD" tvg-chno="895" tvg-id="PBS NewsHour : KQED : December 30, 2011 6:00pm-7:00pm PST" tvg-logo="https://archive.org/services/img/KQED_20111231_020000_PBS_NewsHour" , PBS NewsHour : KQED : December 30, 2011 6:00pm-7:00pm PST
-https://archive.org/download/KQED_20111231_020000_PBS_NewsHour/KQED_20111231_020000_PBS_NewsHour.mp4
-
+#EXTINF:-1 group-title="VOD" tvg-chno="891" tvg-id="Sponsor tags from a 2008 episode of Nightly Business Report (2)" tvg-logo="https://archive.org/services/img/sponsor-tags-from-a-2008-episode-of-nightly-business-report-2" , Sponsor tags from a 2008 episode of Nightly Business Report (2)
+https://archive.org/download/sponsor-tags-from-a-2008-episode-of-nightly-business-report-2/Sponsor%20tags%20from%20a%202008%20episode%20of%20Nightly%20Business%20Report%20%282%29.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="896" tvg-id="NBC Nightly News : WCAU : September 5, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140905_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 5, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140905_223000_NBC_Nightly_News/WCAU_20140905_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="897" tvg-id="NBC Nightly News : WCAU : September 10, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140910_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 10, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140910_223000_NBC_Nightly_News/WCAU_20140910_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="894" tvg-id="Obama Deception: Extended Extras" tvg-logo="https://archive.org/services/img/20090602-extended-extras-bilderberg" , Obama Deception: Extended Extras
+https://archive.org/download/20090602-extended-extras-bilderberg/20090602_ExtendedExtrasBilderberg.mp4
+#EXTINF:-1 group-title="VOD" tvg-chno="895" tvg-id="PBS NewsHour : KQED : December 30, 2011 6:00pm-7:00pm PST" tvg-logo="https://archive.org/services/img/KQED_20111231_020000_PBS_NewsHour" , PBS NewsHour : KQED : December 30, 2011 6:00pm-7:00pm PST
+https://archive.org/download/KQED_20111231_020000_PBS_NewsHour/KQED_20111231_020000_PBS_NewsHour.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="898" tvg-id="NBC Nightly News : WCAU : September 11, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140911_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 11, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140911_223000_NBC_Nightly_News/WCAU_20140911_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="899" tvg-id="NBC Nightly News : WCAU : September 13, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140913_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 13, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140913_223000_NBC_Nightly_News/WCAU_20140913_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="900" tvg-id="NBC Nightly News : WCAU : September 15, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140915_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 15, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140915_223000_NBC_Nightly_News/WCAU_20140915_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="901" tvg-id="NBC Nightly News : WCAU : September 16, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140916_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 16, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140916_223000_NBC_Nightly_News/WCAU_20140916_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="902" tvg-id="NBC Nightly News : WCAU : September 22, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140922_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 22, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140922_223000_NBC_Nightly_News/WCAU_20140922_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
 #EXTINF:-1 group-title="VOD" tvg-chno="903" tvg-id="NBC Nightly News : WCAU : September 23, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140923_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 23, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140923_223000_NBC_Nightly_News/WCAU_20140923_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="904" tvg-id="NBC Nightly News : WCAU : September 25, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140925_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 25, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20140925_223000_NBC_Nightly_News/WCAU_20140925_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="905" tvg-id="2014 Political Ad by Tom Wolf for Governor" tvg-logo="https://archive.org/services/img/PolAd_TomWolf_puk6z" , 2014 Political Ad by Tom Wolf for Governor
-https://archive.org/download/PolAd_TomWolf_puk6z/PolAd_TomWolf_puk6z.webm
-
+#EXTINF:-1 group-title="VOD" tvg-chno="902" tvg-id="NBC Nightly News : WCAU : September 22, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140922_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 22, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140922_223000_NBC_Nightly_News/WCAU_20140922_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="897" tvg-id="NBC Nightly News : WCAU : September 10, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140910_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 10, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140910_223000_NBC_Nightly_News/WCAU_20140910_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="900" tvg-id="NBC Nightly News : WCAU : September 15, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140915_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 15, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140915_223000_NBC_Nightly_News/WCAU_20140915_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="893" tvg-id="Sponsor tags from a 2009 episode of Nightly Business Report" tvg-logo="https://archive.org/services/img/sponsor-tags-from-a-2009-episode-of-nightly-business-report" , Sponsor tags from a 2009 episode of Nightly Business Report
+https://archive.org/download/sponsor-tags-from-a-2009-episode-of-nightly-business-report/Sponsor%20tags%20from%20a%202009%20episode%20of%20Nightly%20Business%20Report.mp4
 #EXTINF:-1 group-title="VOD" tvg-chno="906" tvg-id="NBC Nightly News : WCAU : September 26, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140926_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 26, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140926_223000_NBC_Nightly_News/WCAU_20140926_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="904" tvg-id="NBC Nightly News : WCAU : September 25, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140925_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 25, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140925_223000_NBC_Nightly_News/WCAU_20140925_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="901" tvg-id="NBC Nightly News : WCAU : September 16, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140916_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 16, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140916_223000_NBC_Nightly_News/WCAU_20140916_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="899" tvg-id="NBC Nightly News : WCAU : September 13, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140913_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 13, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20140913_223000_NBC_Nightly_News/WCAU_20140913_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" tvg-chno="907" tvg-id="NBC Nightly News : WCAU : September 29, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140929_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 29, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140929_223000_NBC_Nightly_News/WCAU_20140929_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
+#EXTINF:-1 group-title="VOD" tvg-chno="905" tvg-id="2014 Political Ad by Tom Wolf for Governor" tvg-logo="https://archive.org/services/img/PolAd_TomWolf_puk6z" , 2014 Political Ad by Tom Wolf for Governor
+https://archive.org/download/PolAd_TomWolf_puk6z/PolAd_TomWolf_puk6z.webm
 #EXTINF:-1 group-title="VOD" tvg-chno="908" tvg-id="NBC Nightly News : WCAU : September 30, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20140930_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : September 30, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20140930_223000_NBC_Nightly_News/WCAU_20140930_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="909" tvg-id="NBC Nightly News : WCAU : October 1, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141001_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 1, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141001_223000_NBC_Nightly_News/WCAU_20141001_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="910" tvg-id="NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141002_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="911" tvg-id="NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141003_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141003_223000_NBC_Nightly_News/WCAU_20141003_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="912" tvg-id="NBC Nightly News : WCAU : October 6, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141006_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 6, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141006_223000_NBC_Nightly_News/WCAU_20141006_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="913" tvg-id="NBC Nightly News : WCAU : October 7, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141007_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 7, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141007_223000_NBC_Nightly_News/WCAU_20141007_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="VOD" tvg-chno="914" tvg-id="NBC Nightly News : WCAU : October 8, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141008_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 8, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141008_223000_NBC_Nightly_News/WCAU_20141008_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="915" tvg-id="UNIFÉ" , UNIFÉ
-https://view.dacast.com/24b61c472d976075ed46ad1eb530e6ae-live-fdc85437d7631afb59fe3767dcc464dd/f5a81ae3-05ce-24c6-1b16-2341fd51909d.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="916" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" , RTP 1 BR
-#KODIPROP:http-user-agent=Firefox
-https://video09.logicahost.com.br/tvportuguesa/tvportuguesa/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="917" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" , RTP 1
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="918" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" , RTP 1 - 2
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="919" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png" , RTP 2
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="920" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png" , RTP 2
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="921" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png" , RTP 2
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8
-
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="922" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" , RTP 3
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tvipt/py/rtp_3.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="923" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png" , RTP 3
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="924" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png" , SIC SEM VPN
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="925" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png" , SIC COM VPN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://sic.live.impresa.pt/sic.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="926" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png" , SIC COM VPN 2
-https://sic.live.impresa.pt/sic540p.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="927" tvg-id="sicnovelashd.tv.vodafone.pt" tvg-logo="https://cfvod.kaltura.com/p/4526593/sp/452659300/thumbnail/entry_id/1_5w7rptsp/width/0/height/0/quality/85/format/png32" , SIC NOVELAS
-https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="928" tvg-id="CMTV" tvg-logo="data:image/jpeg;base64,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" , CMTV
-http://xxip25.top:8080/Alan/Alan1234/78441
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="929" tvg-id="CMTV 2" tvg-logo="data:image/jpeg;base64,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" , CMTV 2
-http://cord-cutter.net:8080/live/j3McKd/673709/78441.m3u8
-
+#EXTINF:-1 group-title="VOD" tvg-chno="909" tvg-id="NBC Nightly News : WCAU : October 1, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141001_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 1, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141001_223000_NBC_Nightly_News/WCAU_20141001_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="911" tvg-id="NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141003_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141003_223000_NBC_Nightly_News/WCAU_20141003_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" tvg-chno="913" tvg-id="NBC Nightly News : WCAU : October 7, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141007_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 7, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141007_223000_NBC_Nightly_News/WCAU_20141007_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="PORTUGAL" tvg-chno="915" tvg-id="UNIFÉ" , UNIFÉ
+https://view.dacast.com/24b61c472d976075ed46ad1eb530e6ae-live-fdc85437d7631afb59fe3767dcc464dd/f5a81ae3-05ce-24c6-1b16-2341fd51909d.m3u8
+#EXTINF:-1 group-title="VOD" tvg-chno="910" tvg-id="NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141002_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="Portugal" tvg-chno="930" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/Logos/tvi.png" , TVI
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="931" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM1IEFNJmhhc2hfdmFsdWU9QWtKMGxNV2c1TGVUaG8ybGljV2pPZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTlhNTZhYzljLTE2MWEtNDgzZS04Y2MwLTUwMDU0ZWIwNTM2Yw==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="932" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM1IEFNJmhhc2hfdmFsdWU9QWtKMGxNV2c1TGVUaG8ybGljV2pPZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTlhNTZhYzljLTE2MWEtNDgzZS04Y2MwLTUwMDU0ZWIwNTM2Yw==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="933" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI 3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM1IEFNJmhhc2hfdmFsdWU9QWtKMGxNV2c1TGVUaG8ybGljV2pPZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTlhNTZhYzljLTE2MWEtNDgzZS04Y2MwLTUwMDU0ZWIwNTM2Yw==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="934" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI 4
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM1IEFNJmhhc2hfdmFsdWU9QWtKMGxNV2c1TGVUaG8ybGljV2pPZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTlhNTZhYzljLTE2MWEtNDgzZS04Y2MwLTUwMDU0ZWIwNTM2Yw==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="935" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI 5
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth2.iol.pt/live_edge/tvi_abr/edge_servers/tvi-480p/chunks.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="936" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png" , TVI 6
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth4.iol.pt/live_edge/tvi_abr/edge_servers/tvi-480p/chunks.m3u8
-
+#EXTINF:-1 group-title="VOD" tvg-chno="912" tvg-id="NBC Nightly News : WCAU : October 6, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141006_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 6, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141006_223000_NBC_Nightly_News/WCAU_20141006_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="PORTUGAL" tvg-chno="924" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png" , SIC SEM VPN
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-chno="937" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Replay.png" , SIC Replay
-#KODIPROP:http-user-agent=Firefox
-#KODIPROP:http-referrer=https://opto.sic.pt/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-chno="938" tvg-id="SIC Alta Definição" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Alta-Definição.png" , SIC Alta Definição
-#KODIPROP:http-user-agent=Firefox
-#KODIPROP:http-referrer=https://opto.sic.pt/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="939" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png" , SIC Notícias - SEM VPN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="940" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png" , SIC Notícias ( COM VPN ) 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://sicnot.live.impresa.pt/sicnot540p.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="941" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png" , 🇵🇹 ●| SIC Noticiasᴴᴰ
-https://bit.ly/sicnotici?/index.m3u8
-
-#EXTINF:-1 group-title="CNN's" tvg-chno="942" tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png" , CNN Portugal
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM2IEFNJmhhc2hfdmFsdWU9dGUxdXJNOVdwWmdGT1lPeWFSeDQrQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTg0OWUxODkzLWI5YjgtNDg5OC04MTJhLTE4MjkzODcyYWU5Yw==/
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="943" tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png" , CNN Portugal 2
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM2IEFNJmhhc2hfdmFsdWU9dGUxdXJNOVdwWmdGT1lPeWFSeDQrQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTg0OWUxODkzLWI5YjgtNDg5OC04MTJhLTE4MjkzODcyYWU5Yw==/
-
-#EXTINF:-1 group-title="TV" tvg-chno="944" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8
-
+#EXTINF:-1 group-title="VOD" tvg-chno="914" tvg-id="NBC Nightly News : WCAU : October 8, 2014 6:30pm-7:01pm EDT" tvg-logo="https://archive.org/services/img/WCAU_20141008_223000_NBC_Nightly_News" , NBC Nightly News : WCAU : October 8, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141008_223000_NBC_Nightly_News/WCAU_20141008_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="TV" tvg-chno="945" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="946" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV 3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-chno="947" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV 4
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8?prj=artvlive+env=web_browser
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="948" tvg-id="RTPAcores.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png" , RTP Açores
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="949" tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png" , RTP Madeira
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="950" tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png" , RTP África
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="951" tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png" , RTP África - 2
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="952" tvg-id="RTP África" tvg-logo="http://logosandepg.selfip.com/LOGOS/PT/rtpafrica.png" , 🇵🇹 ●| RTP África ѕᴅ [ON|VLC]
-#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/inspiration.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="953" tvg-id="RTP África" tvg-logo="http://logosandepg.selfip.com/LOGOS/PT/rtpafrica.png" , 🇵🇹 ●| RTP África ѕᴅ [ON|VLC]
-#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/inspiration.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="954" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png" , RTP Internacional
-#KODIPROP:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="955" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png" , RTP Internacional - 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtpi.smil/rtp_playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="956" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png" , TVI Internacional
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM3IEFNJmhhc2hfdmFsdWU9S3lqdmlIQW9OdGNIQ0QrWXp0N3VGUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTdiNDI1MzBiLTRiYWItNGEwZi04MTZkLWQ5N2E2YzViODI3NA==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="957" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png" , TVI Internacional 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM3IEFNJmhhc2hfdmFsdWU9S3lqdmlIQW9OdGNIQ0QrWXp0N3VGUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTdiNDI1MzBiLTRiYWItNGEwZi04MTZkLWQ5N2E2YzViODI3NA==/
-
+#EXTINF:-1 group-title="TV" tvg-chno="946" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV 3
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-chno="944" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png" , ARTV
+https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="958" tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png" , TVI Ficção
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
-
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="939" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png" , SIC Notícias - SEM VPN
+https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="959" tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png" , TVI Ficção 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth7.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8
-
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="960" tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png" , TVI Ficção 3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth4.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8
-
+#EXTINF:-1 group-title="PORTUGAL" tvg-chno="974" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png" , MyTime Movie Network (BR)
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="961" tvg-id="VmaisTVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/vmaistvi.png" , V+ TVI
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
-
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="962" tvg-id="🇵🇹 ●| TVI Ficção" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/tvificcao.png" , 🇵🇹 ●| TVI Ficção
 https://bit.ly/3gejKxf?720p/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="963" tvg-id="TVIR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png" , TVI Reality
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM4IEFNJmhhc2hfdmFsdWU9SGVCRFduS2ttcHZ1dk4rWUZicExnZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWE0ZWZkZTA0LTk5MzktNDQ5Yi04YmNmLTJiOThhMjZkODY0Mw==/
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="964" tvg-id="TVIR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png" , TVI Reality 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDEwOjIxOjM4IEFNJmhhc2hfdmFsdWU9SGVCRFduS2ttcHZ1dk4rWUZicExnZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWE0ZWZkZTA0LTk5MzktNDQ5Yi04YmNmLTJiOThhMjZkODY0Mw==/
-
-#EXTINF:-1 group-title="TV" tvg-chno="965" tvg-id="sicnovelashd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Novelas.png" , SIC Novelas
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://fast.live.impresa.pt/out/v1/b5be42c4a68d4ee18461a7156bb8ecf2/sic-novelas.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="966" tvg-id="SIC Replay" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Replay.png" , SIC Replay
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a32a3b6cc344dbd6c/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="967" tvg-id="SIC Alta Definição" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Alta-Definição.png" , SIC Alta Definição
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a863b1c5e7e32550b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="968" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png" , Porto Canal
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streamer-a03.videos.sapo.pt/live/portocanal/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="969" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png" , Porto Canal Opção 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streamer-b02.videos.sapo.pt/live/portocanal/playlist.m3u8
-
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="970" tvg-id="REAL MADRID - ESPANHOL" tvg-logo="https://www.realmadrid.com/StaticFiles/RealMadridResponsive/images/static/realmadridtv.jpg" , REAL MADRID - ESPANHOL
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="971" tvg-id="REAL MADRID - INGLÊS" tvg-logo="https://www.realmadrid.com/StaticFiles/RealMadridResponsive/images/static/realmadridtv.jpg" , REAL MADRID - INGLÊS
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="972" tvg-id="Fama TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg" , Fama TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streamer-b02.videos.sapo.pt/live/famatv/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="973" tvg-id="canal11hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-11.png" , Canal 11
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://d2ve4fchffi4n1.cloudfront.net/out/v1/df356edd16f3434ab417f2c48cb1d516/index.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="974" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png" , MyTime Movie Network (BR)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="975" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg" , MovieSphere
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://moviesphere-plex.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="976" tvg-id="Love Nature TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png" , Love Nature TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://bamus-eng-roku.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="977" tvg-id="BraziTV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BraziTV.png" , BraziTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://oj7lng29dg82-hls-live.5centscdn.com/lives/f7b44cfafd5c52223d5498196c8a2e7b.sdp/index.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="978" tvg-id="TV Câmara" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TV-camara.png" , TV Câmara
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://stream3.camara.gov.br/tv1/manifest.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="979" tvg-id="SBT [Brazil]" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SBT.png" , SBT
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://evpp.mm.uol.com.br/ne10/ne10.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="980" tvg-id="TDM - Teledifusão de Macau (PT)" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifusão_de_Macau.png" , TDM - Teledifusão de Macau (PT)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="981" tvg-id="TDM - Teledifusão de Macau (CN)" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifusão_de_Macau.png" , TDM - Teledifusão de Macau (CN)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="982" tvg-id="TVM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVM.png" , TVM
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-chno="983" tvg-id="TVM Internacional" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVMI.png" , TVM Internacional
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://196.28.226.121:1935/live/smil:Channel2.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="984" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png" , Euronews EN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://euronews-euronews-world-1-au.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="985" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png" , Euronews ES
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rakuten-euronews-4-es.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="986" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png" , Euronews IT
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="987" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png" , Euronews FR
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rakuten-euronews-2-fr.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="988" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png" , Euronews DE
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="989" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png" , teleSUR
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="990" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png" , teleSUR English
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="991" tvg-id="HispanTV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HispanTV.png" , HispanTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live1.presstv.ir/live/hispan.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="992" tvg-id="Press TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Press-TV.png" , Press TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live1.presstv.ir/live/presstv.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="993" tvg-id="Press TV 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Press-TV.png" , Press TV 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live.presstv.ir/liveprs/smil:liveprs/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="994" tvg-id="TRT WORLD" tvg-logo="" , TRT WORLD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tv-trtworld.live.trt.com.tr/master.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="995" tvg-id="Free Speech TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Free-Speech-TV.webp" , Free Speech TV
-https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/04.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="996" tvg-id="RTNews.ru" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-News.png" , RT News
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="997" tvg-id="RTDocumentary.ru" tvg-logo="https://i.imgur.com/XJGki3v.png" , RT Documentary (1080p) [Geo-blocked]
-https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="998" tvg-id="RUSSTHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-America.png" , RT America
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="999" tvg-id="RUSSTHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-America.png" , RT America
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-usa.gcdn.co/live/rtusa/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="1000" tvg-id="RT HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-UK.png" , RT UK
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-uk.gcdn.co/live/rtuk/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="1001" tvg-id="RT Español" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-Español.png" , RT Español
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1002" tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" , RT Español 2
-https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-chno="1003" tvg-id="RT Francia HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-France.png" , RT France
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rt-fra.gcdn.co/live/rtfrance/playlist.m3u8
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1306" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png" , RAI 3
-http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1307" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png" , RTL-TVI (1080p) [Not 24/7]
-https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-
+#EXTINF:-1 group-title="TV" tvg-chno="982" tvg-id="TVM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVM.png" , TVM
+http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1308" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTZf/france2.png" , FRANCE 2
 http://69.64.57.208/france2/playlist.m3u8
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1309" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTRf/france5.jpeg" , FRANCE 5
 http://69.64.57.208/france5/playlist.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1310" tvg-id="FRANCE 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s" , FRANCE 2 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1311" tvg-id="FRANCE 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s" , FRANCE 3 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1312" tvg-id="FRANCE 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s" , FRANCE 4 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1313" tvg-id="FRANCE 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu32fM_Xm6U-85aB1LCxFXx6tYjCCu1SdpmlXj5xLUwdm5dCbriIctZf2QHbk&s" , FRANCE 5 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
-
-#EXTINF:-1 group-title="CAMERA AO VIVO" tvg-chno="1314" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s" , Undefined
-http://80.61.63.103:81/cam_1.cgi
-
+#EXTINF:-1 group-title="TV" tvg-chno="995" tvg-id="Free Speech TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Free-Speech-TV.webp" , Free Speech TV
+https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/04.m3u8
+#EXTINF:-1 group-title="TV" tvg-chno="978" tvg-id="TV Câmara" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TV-camara.png" , TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 group-title="🇧🇷 | BRAZIL" tvg-chno="1315" tvg-id="NovaEraTV.br" tvg-logo="https://i.imgur.com/IK3F9Uq.png" , Nova Era TV
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
-
-#EXTINF:-1 group-title="KOREA" tvg-chno="1316" tvg-id="DITADURA COREIA" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png" , DITADURA COREIA
-https://tv.nknews.org/tvhls/stream.m3u8
-
-#EXTINF:-1 group-title="Undefined" tvg-chno="1317" tvg-id="CanalMetropolitanodeNoticias.br" tvg-logo="https://i.imgur.com/G0x4xqa.png" , Canal Metropolitano de Noticia (720p)
-https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
-
-#EXTINF:-1 group-title="Undefined" tvg-chno="1318" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp" , TV Cidade de Petrópolis
-https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
-
-#EXTINF:-1 group-title="N/A" tvg-chno="1319" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s" , TV CULTURA SP HD
-https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
-
-#EXTINF:-1 group-title="N/A" tvg-chno="1320" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s" , TV CÂMARA DOS DEPUTADOS HD
-https://stream3.camara.gov.br/tv1/manifest.m3u8
-
-#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1321" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s" , TV Brasil Central
-https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
-
-#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1322" tvg-id="RedeMeioNorte.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU" , Rede Meio Norte HD
-https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
-
-#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1323" tvg-id="RBATV.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp" , Band Belém
-https://streaming.gruporba.com.br/rba.m3u8
-
+#EXTINF:-1 group-title="CAMERA AO VIVO" tvg-chno="1314" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s" , Undefined
+http://80.61.63.103:81/cam_1.cgi
+#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1306" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png" , RAI 3
+http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="997" tvg-id="RTDocumentary.ru" tvg-logo="https://i.imgur.com/XJGki3v.png" , RT Documentary (1080p) [Geo-blocked]
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-chno="998" tvg-id="RUSSTHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-America.png" , RT America
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1307" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png" , RTL-TVI (1080p) [Not 24/7]
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1002" tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" , RT Español 2
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="996" tvg-id="RTNews.ru" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-News.png" , RT News
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 group-title="ITALIA" tvg-chno="1324" tvg-id="Senato Web TV 1" tvg-logo="https://webtv.senato.it/application/xmanager/projects/leg18/img/webtv/logo_senatoTV.jpg" , Senado Italiano - CAMERA 1
 https://senato-live.morescreens.com/SENATO_1_001/1080p/chunklist.m3u8
-
-#EXTINF:-1 group-title="ITALIA" tvg-chno="1325" tvg-id="Senato Web TV 1" tvg-logo="https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png" , Camara dos Deputados - ITALIA
-https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
-
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1321" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s" , TV Brasil Central
+https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-chno="1326" tvg-id="AuroraArte.it" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdx4BTYOwpZph1zKpl1LlGxc20icdDjmxxwoWuDqljlwR42vkH8qhl0shyR5Q&s" , Aurora Arte (480p)
 https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
-
-#EXTINF:-1 group-title="N/A" tvg-chno="1327" tvg-id="N/A" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png" , AMAZON SAT
-https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1328" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg" , BR - 277 - Sentido Ponte da Amizade em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1329" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg" , Ponte da Amizade - Sentido Brasil em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1330" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png" , Ponte da Amizade - Sentido Paraguai em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1331" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png" , BR - 277 - Aduana Ponte da Amizade em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
-
+#EXTINF:-1 group-title="Undefined" tvg-chno="1318" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp" , TV Cidade de Petrópolis
+https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
+#EXTINF:-1 group-title="N/A" tvg-chno="1319" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s" , TV CULTURA SP HD
+https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1322" tvg-id="RedeMeioNorte.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU" , Rede Meio Norte HD
+https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-chno="1323" tvg-id="RBATV.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp" , Band Belém
+https://streaming.gruporba.com.br/rba.m3u8
+#EXTINF:-1 group-title="N/A" tvg-chno="1320" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s" , TV CÂMARA DOS DEPUTADOS HD
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1332" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/27a8790f-c496-4e66-aec2-6ad5b4f6f9d8.jpg" , GOIÂNIA - Morro do Mendanha
 https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1333" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg" , GOIÂNIA - AV 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
-
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1334" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg" , GOIÂNIA - AV 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w1795256914.m3u8
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1335" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png" , CANAL 5
 http://181.78.106.127:9000/play/ca012/index.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1336" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png" , CANAL 5 - 4
-http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1337" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png" , CANAL 5 - 6
-https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1338" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png" , CANAL 5 - 7
-http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1339" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png" , CANAL 5 - 9
 http://181.78.106.127:9000/play/ca012/index.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1340" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png" , CANAL 5 - 12
-http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1341" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png" , CANAL 5 - 14
-https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1342" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png" , CANAL 5 - 15
-http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
-
-#EXTINF:-1 group-title="Globoplay" tvg-chno="1343" tvg-name="" , 
-https://live-as-10-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ2MzUyMzcxLCJpYXQiOjE3NDYyNjU5NzEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiNGI5MGNmNzEtMmJlYi00MmYyLWE1ZTQtOWJmZDNjODhhYTYzIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tc3AxL3BsYXlsaXN0Lm0zdTgifQ.PbBqayfswTVX6b4SlhWvmJmkqRPVhl7FXWoTRll6avVI7A2GyugOkf6_qL-SR-22OE1YueNzrmj3U7Ey9cT6323liTksNM5Co33JFqJE-dPkvPb2DoKyEozDbup2-XHojMFsaRsqS-wzYGI04Zo7rAtFZxwdaKYWYkfp0XLbmHPHD2uxnI_SB3rDTeW5kQCn0Yy66N-_zFRM2AmZ-ywLy27w8AtXrAj_V4cORC2laO-xAsYvQVTv3bwosO2OVq7VFZiH6Z5taSPIPzpVoGCRJtyXhoO8F9G8auq3tbYuJiOLcCfMoq8B3JBLX0Wut-xhKgIXEWdd94849SsWJdybrQ/nu/f(i=2)/globo-sp1/playlist.m3u8?originpath=/linear/hls/pa/event/lb_QsoB0Q7m6E7QST-DXmA/stream/e3f4c704-8521-4ac6-af0d-75addad2c8ab:SCL/master.m3u8
-
-#EXTINF:-1 group-title="Globoplay" tvg-chno="1344" tvg-name="" , 
-https://live-as-02-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ2MzUyNDAzLCJpYXQiOjE3NDYyNjYwMDMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiNGI5MGNmNzEtMmJlYi00MmYyLWE1ZTQtOWJmZDNjODhhYTYzIiwicGF0aCI6Ii9udS9mKGk9Mikvc3BvMTI0aGEvcGxheWxpc3QubTN1OCJ9.zP1ulJjsMNNmqJjAnbLOXK_lW7Jv9KIBuVoWHtGF5w6EPvjzi-Ajhbcvt49Ax5Tf24qSH8lMTskVVEhpgJozqNhWF_dj5CXM2Rf6C9HLKL6vlpCbWxGiWyC0hlpWgCEDsRuEPflQWX0kqMQr6yxC1IdG_ApYeoKmGy5jwth41ILlGnnmRPT0TNI__5MGOQ13lztNhG1XBeW06yiKlC31wTMLzfRyEPyL5s7_GJkY1vPtle5aQZOXXeqKiEMTHGFrLQeOuwV3EuCaALXp4YOi5IuujEQj3xFNGt6iLCwEvXu4xCQhZJdu_RvyzK7MLkka6NyzuLwK1-BsR3Cy874YgQ/nu/f(i=2)/spo124ha/playlist.m3u8?originpath=/linear/hls/pa/event/UKxyvvINRw-WS1bFZFI0hw/stream/2839b3bc-5423-4f03-a1d3-3f7a5956f744:SCL/master.m3u8
-
-#EXTINF:-1 group-title="Globoplay" tvg-chno="1345" tvg-name="" , 
-https://live-as-09-07.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMDktMDcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ2MzUyNDM1LCJpYXQiOjE3NDYyNjYwMzUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiNGI5MGNmNzEtMmJlYi00MmYyLWE1ZTQtOWJmZDNjODhhYTYzIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tc3AxL3BsYXlsaXN0Lm0zdTgifQ.aGZNmw7kfyEuc5G0vBhje0NBhblV27hCpOyU0gA5OIBAK3FPd_tmKQdi1yNTrEd5I02a0eKZwNc1wchi6Pa1Anl9MNJofZYRt0ZN3UlgLvVUV52YGmIW-SpdRU4qc6kbDwVG-88BS4F8e6w2YjdmfMIwsjeWgHEuH7P-guxcfJKvysW7b23Zq0hLpuo-VAAi-OPsUlS3Wjtw-SFMR5ZrY3iAFDws4qwth0cJPYnyw8o_LBSMXbZK38MqmK1HehBnk0g_qcgjmvLmr4OSX2DOeKCndPyadTMavxNPlFbajUOoGtsE70aSqQPunDtXZXhm582qBX_QG9RW2stHFVRtcw/nu/f(i=2)/globo-sp1/playlist.m3u8?originpath=/linear/hls/pa/event/lb_QsoB0Q7m6E7QST-DXmA/stream/c6fd5924-5934-466b-9c3b-dd590f6e8b52:SCL/master.m3u8
-
-#EXTINF:-1 group-title="Globoplay" tvg-chno="1346" tvg-name="" , 
-https://live-as-03-08.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ2MzUyNDYyLCJpYXQiOjE3NDYyNjYwNjIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiNGI5MGNmNzEtMmJlYi00MmYyLWE1ZTQtOWJmZDNjODhhYTYzIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tc3AxL3BsYXlsaXN0Lm0zdTgifQ.YdLI1MH3l6ljkkEv22OdB0RHAjRU_bB95cOdX9hIvZ8Zmy481m_f6KS1Q9yAF1l9K5puMFvBV-3e-OksAHLk3Zde-2rPWul53PFLwsiFuByK0mStD8PBGUH_cG3F3cVt5JZx_tjqKESQbiFlLx3lSD0VY8h-IhjXmFQKadAkYlo4CS9Okrs2B8lEfrmUW9apyGK7U8KcBBcC4AnDQ5bzU2dJ8HygD6EiYEHVHBGtFomj9vaxFWeu5-y-2GypShQNuIvDnu-8dSr-tkburYjG3crOm815aL9fu2WEDcOyoD0KaQVoIrNTctOlZ3rDDwRM15_ihMGy1QlGpDSwPloNuw/nu/f(i=2)/globo-sp1/playlist.m3u8?originpath=/linear/hls/pa/event/lb_QsoB0Q7m6E7QST-DXmA/stream/ed38c543-04b7-4209-8f73-a6448ad414ec:SCL/master.m3u8
-
-#EXTINF:-1 group-title="Globoplay" tvg-chno="1347" tvg-name="" , 
-https://live-as-10-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ2MzUyNDk2LCJpYXQiOjE3NDYyNjYwOTYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiNGI5MGNmNzEtMmJlYi00MmYyLWE1ZTQtOWJmZDNjODhhYTYzIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tc3AxL3BsYXlsaXN0Lm0zdTgifQ.GGejQ25ciiUEJbq7Dt4TLagKiaO_v8IRkI-FDThDTXNlOU-Xq13geiiGXCZ6yomHcozYwL_K39pn7iOQ8hT2fdpTyE5LLTAzKAaHlwD62bwLdgPZkl7pSvMK5teE7q_6bvSvjv-CWqJ0DFdvMNlgZ3EiW8nURJwZLbPoWwDhC68HzW7AN87iWMhob0FHBGN1U9TSeoknZbX-T7GLloRPwz5DK8gWIOIb1tJlPZSMmy6V9gj5c3tSB4IzXy7NMtFQV-Ipy9hCu9o3UdcobWgIcb2ODHsMKS3Q8uYvIZC6Hkef1arNy5zfQYu3YAaQF-OpJIfS00_F2GaNzpu3hE1nDQ/nu/f(i=2)/globo-sp1/playlist.m3u8?originpath=/linear/hls/pa/event/lb_QsoB0Q7m6E7QST-DXmA/stream/1ffa841d-81d7-4e4a-ba43-1a87332bd56f:SCL/master.m3u8
-
+#EXTINF:-1 group-title="ITALIA" tvg-chno="1325" tvg-id="Senato Web TV 1" tvg-logo="https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png" , Camara dos Deputados - ITALIA
+https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1329" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg" , Ponte da Amizade - Sentido Brasil em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1330" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png" , Ponte da Amizade - Sentido Paraguai em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1331" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png" , BR - 277 - Aduana Ponte da Amizade em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1348" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/" , TVI REALITY
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1349" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg" , RCN
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155793
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1350" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg" , RCN 2
-http://tv.nstvlatino.com:8080/UY1108/@373839/4002#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 3
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1351" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg" , RCN 4
-http://200.59.188.3:8000/play/a03a
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1352" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg" , RCN 5
-http://38.41.8.1:8000/play/a06j
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1353" tvg-id="Undefined" tvg-logo="https://i.imgur.com/q6BQ5YO.png" , Telefe Canal 7 Jujuy
-https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1354" tvg-id="Undefined" tvg-logo="https://www.m3u.cl/logo/251_13_Max_Television.png" , Telefe 13 Max Television
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/playlist.m3u8?PlaylistM3UCL
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1355" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png" , 13 Max HD
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
-
 #EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1356" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png" , 13 Max FHD
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1357" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg" , NBC 7 San Diego
-https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
-
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1333" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg" , GOIÂNIA - AV 85
+https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-chno="1334" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg" , GOIÂNIA - AV 85
+https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w1795256914.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1353" tvg-id="Undefined" tvg-logo="https://i.imgur.com/q6BQ5YO.png" , Telefe Canal 7 Jujuy
+https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="USA" tvg-chno="1358" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png" , Canal 57 Miami
 https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1359" tvg-id="Undefined" tvg-logo="https://i.ibb.co/yY68NHt/vtv.png" , VTv Canal 17
-https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist.m3u8
-
-#EXTINF:-1 group-title="Reality Show's Live" tvg-chno="1360" tvg-id="Zadruga live 1.rs" tvg-logo="https://i.ytimg.com/vi/5fClkAjVp8k/hq720.jpg?v=106&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBwg594eYR--IPNXzPSBAPXJ2fKkA" , Televisa Piedras Negras
-https://ythls-v3.onrender.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1361" tvg-id="Pres. Trump departs Washington, DC en route to the Netherlands" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider3.jpg" , Pres. Trump departs Washington, DC en route to the Netherlands
-https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
-
 #EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1362" tvg-id="Tracking Dangerous Heat and Severe Storms" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" , Tracking Dangerous Heat and Severe Storms
 https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
-
 #EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1363" tvg-id="View of Tel Aviv amid Iranian-Israeli ceasefire announcement" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider4.jpg" , View of Tel Aviv amid Iranian-Israeli ceasefire announcement
 https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
-
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2029" tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" , La 1
-https://ztnr.rtve.es/ztnr/1688877.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2030" tvg-id="La1.TV" tvg-logo="https://img2.rtve.es/resources/thumbslive/H_1688877.jpg" , La 1 - 2
-https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2031" tvg-id="La 1 - 3" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/TVE-1.png" , La 1 - 3
-http://eja.tv/?f637f17a2fdc60ed45df337e150c36fa.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2032" tvg-id="La1.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" , La 1 - 4
-https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2033" tvg-id="La1.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" , La 1 - 5
-https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2034" tvg-id="La2.TV" tvg-logo="https://www.camilos.es/wp-content/uploads/2018/03/logo_tve-2-750699.png" , La 2
-https://di2qeq48iv8ps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8u23e6v7vptv/La_2_ES.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2035" tvg-id="La2.TV" tvg-logo="https://www.camilos.es/wp-content/uploads/2018/03/logo_tve-2-750699.png" , La 2
-https://di2qeq48iv8ps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8u23e6v7vptv/La_2_ES.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2036" tvg-id="LA 1" tvg-logo="https://img2.rtve.es/resources/thumbslive/H_3293681.jpg" , La 1 - CATALUNHA
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rtvelivestream-clnx.rtve.es/rtvesec/cat/la1_cat_main_720.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2037" tvg-id="LA 1" tvg-logo="https://img2.rtve.es/resources/thumbslive/H_5190066.jpg" , La 1 - CANARIAS
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rtvelivestream.akamaized.net/rtvesec/can/la1_can_main.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2038" tvg-id="La2.TV" tvg-logo="https://img2.rtve.es/resources/thumbslive/H_1688885.jpg" , La 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2039" tvg-id="LA 2" tvg-logo="https://img2.rtve.es/resources/thumbslive/H_3987218.jpg" , La 2 - CATALUNHA
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rtvelivestream-clnx.rtve.es/rtvesec/cat/la2_cat_main.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2040" tvg-id="La 1" tvg-logo="" , La 1 - 2
-https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2041" tvg-id="Teledeporte.es" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20231213T103944SQUARE.png_20231213103945.png" , Tdp TVE
-https://d2a02gfcid1k4a.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-clihr3vf54f9j/Teledeporte_ES.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2042" tvg-id="La2.es" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20240117T032718SQUARE.png_20240117032719.png" , La 2
-https://di2qeq48iv8ps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8u23e6v7vptv/La_2_ES.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2043" tvg-id="Cuatro.TV" tvg-logo="https://album.mediaset.es/file/10002/2017/11/17/cuatro_circular_500_-1_d4a5.png" , Cuatro
-http://tv.nstvlatino.com:8080/UY1108/@373839/17191
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2044" tvg-id="Telecinco.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telecinco.svg/1200px-Telecinco.svg.png" , Telecinco
-http://tv.nstvlatino.com:8080/UY1108/@373839/1156017
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2045" tvg-id="LaSexta.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/712px-La_Sexta_%28A3M%29.svg.png" , laSexta
-http://tv.nstvlatino.com:8080/UY1108/@373839/1156020
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2046" tvg-id="24Horas.TV" tvg-logo="https://seeklogo.com/images/T/tve_24h-logo-CF2D2CC96E-seeklogo.com.jpg" , Informativos: 24h
-https://ztnr.rtve.es/ztnr/1694255.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2047" tvg-id="ahlakid.com - Canal 2000 La Solana (720p)" , ahlakid.com - Canal 2000 La Solana (720p)
-http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8?checkedby:ahlakid.com
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2048" tvg-id="Beteve" tvg-logo="https://beteve.cat/wp-content/themes/beteve/img/logo.svg" , 🇪🇸 betevéᴴᴰ
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
-
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1361" tvg-id="Pres. Trump departs Washington, DC en route to the Netherlands" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider3.jpg" , Pres. Trump departs Washington, DC en route to the Netherlands
+https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1357" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg" , NBC 7 San Diego
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-chno="2049" tvg-id="Alcarria TV" tvg-logo="https://i.imgur.com/9Xn7ZEZ.jpg" , Alcarria TV
 http://217.182.77.27/live/alcarriatv-livestream.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2050" tvg-id="Negocios.TV" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" , Informativos: Negocios TV
-https://streaming013.gestec-video.com/hls/negociostv.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2051" tvg-id="Informativos: El Confidencial" tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" , Informativos: El Confidencial
-https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2047" tvg-id="ahlakid.com - Canal 2000 La Solana (720p)" , ahlakid.com - Canal 2000 La Solana (720p)
+http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8?checkedby:ahlakid.com
 #EXTINF:-1 group-title="ESPANHA" tvg-chno="2052" tvg-id="ETBD.TV" tvg-logo="https://graph.facebook.com/deportes.eitb.kirolak/picture?width=200&height=200" , Deportivos: ETB Deportes
 https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-chno="2053" tvg-id="Canal 56" tvg-logo="https://i.imgur.com/FYIM7SD.png" tvg-name="Canal 56" , Canal 56
-https://videos.canal56.com/directe/stream/index.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2054" tvg-id="N/A" tvg-logo="https://i.imgur.com/ssf1GfC.png" , Italia Channel LCN 123 - Italy
-https://stream1.aswifi.it/italiachannel/stream/index.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2055" tvg-id="N/A" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" , QVC - Italy
-https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2056" tvg-id="N/A" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" , QVC - Japan
-https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
-
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2029" tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" , La 1
+https://ztnr.rtve.es/ztnr/1688877.m3u8
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2046" tvg-id="24Horas.TV" tvg-logo="https://seeklogo.com/images/T/tve_24h-logo-CF2D2CC96E-seeklogo.com.jpg" , Informativos: 24h
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2031" tvg-id="La 1 - 3" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/TVE-1.png" , La 1 - 3
+http://eja.tv/?f637f17a2fdc60ed45df337e150c36fa.m3u8
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2050" tvg-id="Negocios.TV" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" , Informativos: Negocios TV
+https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2057" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/ningtvHDF.jpg" , NING TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2055" tvg-id="N/A" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" , QVC - Italy
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+#EXTINF:-1 group-title="ESPANHA" tvg-chno="2053" tvg-id="Canal 56" tvg-logo="https://i.imgur.com/FYIM7SD.png" tvg-name="Canal 56" , Canal 56
+https://videos.canal56.com/directe/stream/index.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2058" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/airtvchannelHDF.jpg" , AIR TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2059" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/TeaTvLaoHDF.jpg" , TEA TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2060" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/houngfaHDF.jpg" , HOUNG FA - Laos
 https://livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2054" tvg-id="N/A" tvg-logo="https://i.imgur.com/ssf1GfC.png" , Italia Channel LCN 123 - Italy
+https://stream1.aswifi.it/italiachannel/stream/index.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2061" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/vatilaotv2016HDF.jpg" , VATI LAO - Laos
 https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2062" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/LoneSinhLaov2HDF.jpg" , LONE SINH LAO TV - Laos
-https://livefta.malimarcdn.com/ftaedge00/lonesinhlao.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2063" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laoplanetHDF.jpg" , LAOS PLANET TV - Laos
-https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2064" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/lstv1v3HDF.jpg" , LS TV 1 - Laos
-https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2065" tvg-id="N/A" tvg-logo="https://i.imgur.com/HCzlTR0.png" , Juwelo - Germany
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8?latency=low
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2066" tvg-id="N/A" tvg-logo="https://i.imgur.com/YKx8IXY.png" , Good Idea TV (GTV) - USA Thai (Estados Unidos da América)
 http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2063" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laoplanetHDF.jpg" , LAOS PLANET TV - Laos
+https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2064" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/lstv1v3HDF.jpg" , LS TV 1 - Laos
+https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2062" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/LoneSinhLaov2HDF.jpg" , LONE SINH LAO TV - Laos
+https://livefta.malimarcdn.com/ftaedge00/lonesinhlao.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2067" tvg-id="N/A" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" , QVC - Japan
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2056" tvg-id="N/A" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png" , QVC - Japan
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2068" tvg-id="N/A" tvg-logo="https://od.lk/s/MF8yMjM5NTI2OTZf/TV25_360x360.png" , Shop LC (KCKS-LD10) - USA (STK)
 https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2069" tvg-id="N/A" tvg-logo="https://i.imgur.com/S0IK0mB.jpg" , Shopping 21TV - Israel
-http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2070" tvg-id="N/A" tvg-logo="https://i.imgur.com/En7RSKE.jpg" , The Craft Store Hochanda - UK
-https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2071" tvg-id="N/A" tvg-logo="https://i.imgur.com/cNgwmz3.jpg" , Tommy Teleshopping - Netherlands
-http://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2072" tvg-id="N/A" tvg-logo="https://i.imgur.com/k0kyRSM.png" , TV Warehouse - UK
-https://tvwarehouse.r.worldssl.net/mystream.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2073" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/TeaTvLaoHDF.jpg" , TEA TV - Laos
-https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2074" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/ningtvHDF.jpg" , NING TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2073" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/TeaTvLaoHDF.jpg" , TEA TV - Laos
+https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2065" tvg-id="N/A" tvg-logo="https://i.imgur.com/HCzlTR0.png" , Juwelo - Germany
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8?latency=low
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2071" tvg-id="N/A" tvg-logo="https://i.imgur.com/cNgwmz3.jpg" , Tommy Teleshopping - Netherlands
+http://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2075" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/airtvchannelHDF.jpg" , AIR TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2076" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laothaiusHDF.jpg" , LAO THAI TV - Laos
-https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2069" tvg-id="N/A" tvg-logo="https://i.imgur.com/S0IK0mB.jpg" , Shopping 21TV - Israel
+http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2077" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/vatilaotv2016HDF.jpg" , VATI LAO - Laos
 https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2078" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/houngfaHDF.jpg" , HOUNG FA - Laos
-https://livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2079" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/LoneSinhLaov2HDF.jpg" , LONE SINH LAO TV - Laos
 https://livefta.malimarcdn.com/ftaedge00/lonesinhlao.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2080" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laoplanetHDF.jpg" , LAOS PLANET TV - Laos
-https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2076" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laothaiusHDF.jpg" , LAO THAI TV - Laos
+https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2078" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/houngfaHDF.jpg" , HOUNG FA - Laos
+https://livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2081" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/lstv1v3HDF.jpg" , LS TV 1 - Laos
 https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2080" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/laoplanetHDF.jpg" , LAOS PLANET TV - Laos
+https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2082" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/LOOKTHOONGTVNEW2HDF.jpg" , LOOK THOONG TV HD - Laos
 https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2083" tvg-id="N/A" tvg-logo="https://i.malimarcdn.com/UniquelyThaiHDF.jpg" , UNIQUELY THAI - Laos
 https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2084" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1JZ0jmqPxmOYP1BLVy0JkMu38bMh4EmAt5CXKhb2DSsFrQm8J0KIOU4CpSk&s" , telfar
-https://install.telfarcontrol.com/speed/broadcast/12/file-4692k.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2085" tvg-id="HSE24Extra.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9d6EuIAXhjooVyCS53ulHjzTCBAnQJUV7mcpPEFOfXxlbLnA2wQ5YIZ6_YI&s" , HSE24 Extra (1080p) (Alemanha)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2086" tvg-id="HSE24Trend.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR3JrOTrL2J2A6WxD8qpgHbJr2DI7RPCEAYoFlizz7dZ_LcvBQNW9TqqDA3g&s" , HSE24 Trend (576p) (Alemanha)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2087" tvg-id="HSE.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFyvjxQXC8uW9BkxFwDr4vS6ziJOxcQlxtETif13Nq3EIIdq_ekJgn29_oe0&s" , HSE (1080p) (Alemanha)
-https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2088" tvg-id="Juwelo.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSutNAZaRcGwuXsi4clfmy_1Z_UrOIk_5xZ3GWpv7gC-hiNpyhlWJy3p-W-9Q&s" , Juwelo (720p) (Alemanha)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2089" tvg-id="KaufBeiTV.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuy07ePxASgeKtDht2E8Bs4qJSXuJu-U5YB9s_v7iQJsCEHTNyOSLpBfQLsQ&s" , KaufBei TV (576p) (Alemanha)
-https://api.alpaca.t62a.com/hls/9103/index.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2090" tvg-id="CasaItalia53.it" tvg-logo="https://i.imgur.com/X8BI1Md.png" , Casa Italia 53 (720p) (Itália)
-https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2091" tvg-id="GemShoppingNetwork.us" tvg-logo="https://i.imgur.com/WlHEpAu.png" , Gem Shopping Network (720p) (Estados Unidos)
 https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2092" tvg-id="LaoSVTV.vn" tvg-logo="https://i.imgur.com/ZIXtazI.png" , Lao SV TV (480p) (Vietnã)
-https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2085" tvg-id="HSE24Extra.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9d6EuIAXhjooVyCS53ulHjzTCBAnQJUV7mcpPEFOfXxlbLnA2wQ5YIZ6_YI&s" , HSE24 Extra (1080p) (Alemanha)
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2093" tvg-id="LaoThaiTV.us" tvg-logo="https://i.imgur.com/q6cQzbv.png" , Lao-Thai TV (720p) (Estados Unidos)
 https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2094" tvg-id="LaosPlanetTV.la" tvg-logo="https://i.imgur.com/u4ynifa.png" , Laos Planet TV (720p) (Laos)
-https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2089" tvg-id="KaufBeiTV.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuy07ePxASgeKtDht2E8Bs4qJSXuJu-U5YB9s_v7iQJsCEHTNyOSLpBfQLsQ&s" , KaufBei TV (576p) (Alemanha)
+https://api.alpaca.t62a.com/hls/9103/index.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2092" tvg-id="LaoSVTV.vn" tvg-logo="https://i.imgur.com/ZIXtazI.png" , Lao SV TV (480p) (Vietnã)
+https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2087" tvg-id="HSE.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFyvjxQXC8uW9BkxFwDr4vS6ziJOxcQlxtETif13Nq3EIIdq_ekJgn29_oe0&s" , HSE (1080p) (Alemanha)
+https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2095" tvg-id="LSTV.la" tvg-logo="https://i.imgur.com/fs3dQ6J.png" , LS TV (480p) (Laos)
 https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2096" tvg-id="NATTV.th" tvg-logo="https://i.imgur.com/a7tNaD5.png" , NAT TV (1080p) (Tailândia)
-https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2094" tvg-id="LaosPlanetTV.la" tvg-logo="https://i.imgur.com/u4ynifa.png" , Laos Planet TV (720p) (Laos)
+https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2097" tvg-id="QVC3.us" tvg-logo="https://i.imgur.com/edswdOO.png" , QVC 3 (1080p) (Estados Unidos)
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2086" tvg-id="HSE24Trend.de" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR3JrOTrL2J2A6WxD8qpgHbJr2DI7RPCEAYoFlizz7dZ_LcvBQNW9TqqDA3g&s" , HSE24 Trend (576p) (Alemanha)
+https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2096" tvg-id="NATTV.th" tvg-logo="https://i.imgur.com/a7tNaD5.png" , NAT TV (1080p) (Tailândia)
+https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2098" tvg-id="QVCJapan.jp" tvg-logo="https://i.imgur.com/xWSzQ34.png" , QVC Japan (720p) (Japão)
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2099" tvg-id="KCKSLD10.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Logo_of_Liquidation_Channel.svg/512px-Logo_of_Liquidation_Channel.svg.png" , Shop LC (KCKS-LD10) (480p) [Not 24/7] (Estados Unidos)
-https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2100" tvg-id="ShoppingLive.ru" tvg-logo="https://i.imgur.com/EMmGnjV.png" , Shopping Live (576p) [Not 24/7] (Rússia)
 http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2101" tvg-id="TeaTVKhmer.vn" tvg-logo="https://i.imgur.com/u6SMbOQ.jpg" , Tea TV 2 (720p) (Camboja)
-https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2099" tvg-id="KCKSLD10.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Logo_of_Liquidation_Channel.svg/512px-Logo_of_Liquidation_Channel.svg.png" , Shop LC (KCKS-LD10) (480p) [Not 24/7] (Estados Unidos)
+https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2102" tvg-id="TeaTV.vn" tvg-logo="https://i.imgur.com/WorbnyD.jpg" , Tea TV (720p) (Vietnã)
 https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2103" tvg-id="TSC.ca" tvg-logo="https://i.imgur.com/XBbisjT.png" , Today's Shopping Choice (TSC) (720p) (Canadá)
 https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2104" tvg-id="TommyTeleshopping.nl" tvg-logo="https://i.imgur.com/zxyYP7y.png" , Tommy Teleshopping (480p) (Países Baixos)
-https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2105" tvg-id="UniquelyThai.vn" tvg-logo="https://i.imgur.com/cTSDB8O.png" , Uniquely Thai (720p) (Tailândia)
-https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2106" tvg-id="VatiLao.la" tvg-logo="https://i.imgur.com/NwxXABV.png" , Vati Lao TV (720p) (Laos)
-https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2107" tvg-id="Yuvelirochka.ru" tvg-logo="https://i.imgur.com/IcWtXCZ.png" , Ювелирочка ТВ (576p) (Rússia)
-https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-
 #EXTINF:-1 group-title="USA" tvg-chno="2108" tvg-id="WABCDT1.us" tvg-logo="https://iili.io/JmoUd6g.png" tvg-name="ABC_EAST" , ABC East
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2105" tvg-id="UniquelyThai.vn" tvg-logo="https://i.imgur.com/cTSDB8O.png" , Uniquely Thai (720p) (Tailândia)
+https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2090" tvg-id="CasaItalia53.it" tvg-logo="https://i.imgur.com/X8BI1Md.png" , Casa Italia 53 (720p) (Itália)
+https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2106" tvg-id="VatiLao.la" tvg-logo="https://i.imgur.com/NwxXABV.png" , Vati Lao TV (720p) (Laos)
+https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2104" tvg-id="TommyTeleshopping.nl" tvg-logo="https://i.imgur.com/zxyYP7y.png" , Tommy Teleshopping (480p) (Países Baixos)
+https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
 #EXTINF:-1 group-title="USA" tvg-chno="2109" tvg-id="KTVODT2.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/CBS_logo.svg" , CBS
 https://cvtv.cvalley.net/hls/KTVOCBS/KTVOCBS.m3u8
-
 #EXTINF:-1 group-title="USA" tvg-chno="2110" tvg-id="KRCGDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/CBS_logo.svg" , CBS
 https://cvtv.cvalley.net/hls/KRCGCBS/KRCGCBS.m3u8
-
 #EXTINF:-1 group-title="USA" tvg-chno="2111" tvg-id="KCTVDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/CBS_logo.svg" , CBS 5
 https://cvtv.cvalley.net/hls/KCTVCBS/KCTVCBS.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2112" tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CBS_New_York_logo.svg/2560px-CBS_New_York_logo.svg.png" , CBS (WCBS)
-https://ft.fbcdntv247.cfd/memfs/f52160c3-ffe2-4eea-9315-b47c57c06dad_output_0.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2113" tvg-id="WCBS.us" tvg-logo="https://iili.io/JmoUFcJ.png" tvg-name="WCBS (New York) CBS East" , CBS East
-http://fl3.moveonjoy.com/CBSEAST/index.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2114" tvg-id="WSBK.(TV-38).Boston.us" tvg-logo="https://iili.io/JmoUFcJ.png" tvg-name="CBS" , CBS: NY NEW YORK WCBS
-http://cord-cutter.net:8080/live/j3McKd/673709/120681.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2115" tvg-id="ALBANY NY WRGB" tvg-logo="" tvg-name="CBS: NY ALBANY WRGB" , CBS: NY ALBANY WRGB
-http://cord-cutter.net:8080/live/j3McKd/673709/120676.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2116" tvg-id="TROY NY WRGB" tvg-logo="" tvg-name="CBS: NY TROY WRGB" , CBS: NY TROY WRGB
-http://cord-cutter.net:8080/live/j3McKd/673709/120679.m3u8
-
-#EXTINF:-1 group-title="USA" tvg-chno="2117" tvg-id="FoxEast.us" tvg-logo="https://iili.io/JmoUJMF.png" , Fox East
-http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2118" tvg-id="rai1" tvg-logo="" tvg-name="Rai 1" , Rai 1
-plugin://plugin.video.wltvhelper/play/rai/Rai 1
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2119" tvg-id="rai2" tvg-logo="" tvg-name="Rai 2" , Rai 2
-plugin://plugin.video.wltvhelper/play/rai/Rai 2
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2120" tvg-id="rai3" tvg-logo="" tvg-name="Rai 3" , Rai 3
-plugin://plugin.video.wltvhelper/play/rai/Rai 3
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2121" tvg-id="rete4" tvg-logo="" tvg-name="Rete 4" , Rete 4
-plugin://plugin.video.wltvhelper/play/mediaset/$R4
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2122" tvg-id="canale5" tvg-logo="" tvg-name="Canale 5" , Canale 5
-plugin://plugin.video.wltvhelper/play/mediaset/$C5
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2123" tvg-id="italia1" tvg-logo="" tvg-name="Italia 1" , Italia 1
-plugin://plugin.video.wltvhelper/play/mediaset/$I1
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2124" tvg-id="la7" tvg-logo="" tvg-name="La7" , La7
-plugin://plugin.video.wltvhelper/play/la7/La7
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2125" tvg-id="tv8" tvg-logo="" tvg-name="Tv8" , Tv8
-plugin://plugin.video.wltvhelper/play/sky/TV8
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2126" tvg-id="nove" tvg-logo="" tvg-name="Nove" , Nove
-plugin://plugin.video.wltvhelper/play/discovery/Nove
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2127" tvg-id="mediaset20" tvg-logo="" tvg-name="Mediaset 20" , Mediaset 20
-plugin://plugin.video.wltvhelper/play/mediaset/$LB
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2128" tvg-id="rai4" tvg-logo="" tvg-name="Rai 4" , Rai 4
-plugin://plugin.video.wltvhelper/play/rai/Rai 4
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2129" tvg-id="iris" tvg-logo="" tvg-name="Iris" , Iris
-plugin://plugin.video.wltvhelper/play/mediaset/$KI
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2130" tvg-id="rai5" tvg-logo="" tvg-name="Rai 5" , Rai 5
-plugin://plugin.video.wltvhelper/play/rai/Rai 5
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2131" tvg-id="raimovie" tvg-logo="" tvg-name="Rai Movie" , Rai Movie
-plugin://plugin.video.wltvhelper/play/rai/Rai Movie
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2132" tvg-id="raipremium" tvg-logo="" tvg-name="Rai Premium" , Rai Premium
-plugin://plugin.video.wltvhelper/play/rai/Rai Premium
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2133" tvg-id="cielo" tvg-logo="" tvg-name="Cielo" , Cielo
-plugin://plugin.video.wltvhelper/play/sky/Cielo
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2134" tvg-id="twentyseven" tvg-logo="" tvg-name="TwentySeven" , 27 Twentyseven
-plugin://plugin.video.wltvhelper/play/mediaset/$TS
-
-#EXTINF:-1 group-title="Religione" tvg-chno="2135" tvg-id="tv2000" tvg-logo="" tvg-name="Tv2000" , TV2000
-plugin://plugin.video.wltvhelper/play/tv2000/tv2000
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2136" tvg-id="la7d" tvg-logo="" tvg-name="La7 d" , La7d
-plugin://plugin.video.wltvhelper/play/la7/La7d
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2137" tvg-id="la5" tvg-logo="" tvg-name="La 5" , La5
-plugin://plugin.video.wltvhelper/play/mediaset/$KA
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2138" tvg-id="realtime" tvg-logo="" tvg-name="Real Time" , Real Time
-plugin://plugin.video.wltvhelper/play/discovery/Real Time
-
+#EXTINF:-1 group-title="HOME SHOPPING" tvg-chno="2107" tvg-id="Yuvelirochka.ru" tvg-logo="https://i.imgur.com/IcWtXCZ.png" , Ювелирочка ТВ (576p) (Rússia)
+https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #EXTINF:-1 group-title="Moda/Shopping" tvg-chno="2139" tvg-id="qvcitalia" tvg-logo="" tvg-name="QVC" , QVC Italia
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=qvcitalia&group=Moda__Shopping
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2140" tvg-id="foodnetwork" tvg-logo="" tvg-name="Food Network" , Food Network
-plugin://plugin.video.wltvhelper/play/discovery/Food Network
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2141" tvg-id="cine34" tvg-logo="" tvg-name="Cine 34" , Cine34
-plugin://plugin.video.wltvhelper/play/mediaset/$B6
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2142" tvg-id="focus" tvg-logo="" tvg-name="Focus" , Focus
-plugin://plugin.video.wltvhelper/play/mediaset/$FU
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2143" tvg-id="rtl102.5tv" tvg-logo="" tvg-name="RTL 102.5" , RTL 102.5
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rtl102.5tv&group=Musica
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2144" tvg-id="warnertv" tvg-logo="" tvg-name="Warner Tv" , Warner Tv
-plugin://plugin.video.wltvhelper/play/discovery/Warner TV
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2145" tvg-id="giallo" tvg-logo="" tvg-name="Giallo" , Giallo
-plugin://plugin.video.wltvhelper/play/discovery/Giallo
-
-#EXTINF:-1 group-title="Movie/Fiction" tvg-chno="2146" tvg-id="topcrime" tvg-logo="" tvg-name="Top Crime" , Top Crime
-plugin://plugin.video.wltvhelper/play/mediaset/$LT
-
-#EXTINF:-1 group-title="Bambini" tvg-chno="2147" tvg-id="boing" tvg-logo="" tvg-name="Boing" , Boing
-plugin://plugin.video.wltvhelper/play/mediaset/$KB
-
 #EXTINF:-1 group-title="Bambini" tvg-chno="2148" tvg-id="k2" tvg-logo="" tvg-name="K2" , K2
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=k2&group=Bambini
-
-#EXTINF:-1 group-title="Bambini" tvg-chno="2149" tvg-id="raigulp" tvg-logo="" tvg-name="Rai Gulp" , Rai Gulp
-plugin://plugin.video.wltvhelper/play/rai/Rai Gulp
-
-#EXTINF:-1 group-title="Bambini" tvg-chno="2150" tvg-id="raiyoyo" tvg-logo="" tvg-name="Rai YoYo" , Rai Yoyo
-plugin://plugin.video.wltvhelper/play/rai/Rai Yoyo
-
 #EXTINF:-1 group-title="Bambini" tvg-chno="2151" tvg-id="frisbee" tvg-logo="" tvg-name="Frisbee" , Frisbee
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=frisbee&group=Bambini
-
-#EXTINF:-1 group-title="Bambini" tvg-chno="2152" tvg-id="cartoonito" tvg-logo="" tvg-name="Cartoonito" , Cartoonito
-plugin://plugin.video.wltvhelper/play/mediaset/$LA
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2143" tvg-id="rtl102.5tv" tvg-logo="" tvg-name="RTL 102.5" , RTL 102.5
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rtl102.5tv&group=Musica
 #EXTINF:-1 group-title="Bambini" tvg-chno="2153" tvg-id="super" tvg-logo="" tvg-name="Super!" , Super!
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=super&group=Bambini
-
-#EXTINF:-1 group-title="News" tvg-chno="2154" tvg-id="rainews24" tvg-logo="" tvg-name="Rai News 24" , Rai News 24
-plugin://plugin.video.wltvhelper/play/rai/Rai News 24
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2155" tvg-id="italia2" tvg-logo="" tvg-name="Italia 2" , Italia 2
-plugin://plugin.video.wltvhelper/play/mediaset/$I2
-
-#EXTINF:-1 group-title="News" tvg-chno="2156" tvg-id="skytg24" tvg-logo="" tvg-name="Sky TG24" , Sky TG24
-plugin://plugin.video.wltvhelper/play/sky/Sky TG24
-
-#EXTINF:-1 group-title="News" tvg-chno="2157" tvg-id="tgcom24" tvg-logo="" tvg-name="TgCom 24" , Tgcom24
-plugin://plugin.video.wltvhelper/play/mediaset/$KF
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2158" tvg-id="dmax" tvg-logo="" tvg-name="Dmax" , DMAX
-plugin://plugin.video.wltvhelper/play/discovery/DMAX
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2159" tvg-id="raistoria" tvg-logo="" tvg-name="Rai Storia" , Rai Storia
-plugin://plugin.video.wltvhelper/play/rai/Rai Storia
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2160" tvg-id="mediasetextra" tvg-logo="" tvg-name="Mediaset Extra" , Mediaset Extra
-plugin://plugin.video.wltvhelper/play/mediaset/$KQ
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2161" tvg-id="hgtv" tvg-logo="" tvg-name="HGTV" , Home and Garden TV
-plugin://plugin.video.wltvhelper/play/discovery/HGTV
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2162" tvg-id="raiscuola" tvg-logo="" tvg-name="Rai Scuola" , Rai Scuola
-plugin://plugin.video.wltvhelper/play/rai/Rai Scuola
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2163" tvg-id="raisport" tvg-logo="" tvg-name="Rai Sport" , Rai Sport HD
-plugin://plugin.video.wltvhelper/play/rai/Rai Sport
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2164" tvg-id="motortrend" tvg-logo="" tvg-name="Motor Trend" , Motor Trend
-plugin://plugin.video.wltvhelper/play/discovery/MotorTrend
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2165" tvg-id="sportitalia" tvg-logo="" tvg-name="Sport Italia" , Sport Italia HD
-plugin://plugin.video.wltvhelper/play/sportitalia/sihd
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2166" tvg-id="traveltv" tvg-logo="" tvg-name="Travel TV" , Travel TV
-plugin://plugin.video.wltvhelper/play/sciscione/travel-tv
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2167" tvg-id="donnatv" tvg-logo="" tvg-name="Donna TV" , Donna TV
-plugin://plugin.video.wltvhelper/play/sciscione/donna-tv-2
-
-#EXTINF:-1 group-title="Shopping" tvg-chno="2168" tvg-id="cs24.live" tvg-logo="" tvg-name="CS24.Live" , CS24.Live
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=cs24.live&group=Shopping
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2169" tvg-id="supertennis" tvg-logo="" tvg-name="Super Tennis" , Super Tennis
-plugin://plugin.video.wltvhelper/play/supertennis/Supertennis
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2170" tvg-id="almatv" tvg-logo="" tvg-name="Alma TV" , Alma TV
-plugin://plugin.video.wltvhelper/play/sciscione/alma-tv
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2171" tvg-id="radio105tv" tvg-logo="" tvg-name="Radio 105 TV" , Radio 105
-plugin://plugin.video.wltvhelper/play/mediaset/$EC
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2172" tvg-id="r101tv" tvg-logo="" tvg-name="R101 TV" , R101 TV
-plugin://plugin.video.wltvhelper/play/mediaset/$ER
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2173" tvg-id="bomchannel" tvg-logo="" tvg-name="BOM Channel" , BOM Channel
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=bomchannel&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2174" tvg-id="deejaytv" tvg-logo="" tvg-name="Deejay TV" , Deejay TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=deejaytv&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2175" tvg-id="radioitaliatv" tvg-logo="" tvg-name="Radio Italia Tv" , Radio Italia TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radioitaliatv&group=Musica
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2176" tvg-id="rai4k" tvg-logo="" tvg-name="Rai 4K" , Rai 4K
-plugin://plugin.video.wltvhelper/play/rai/Rai 4K
-
 #EXTINF:-1 group-title="Musica" tvg-chno="2177" tvg-id="kisskissitaliatv" tvg-logo="" tvg-name="Kiss Kiss Italia TV" , Kiss Kiss Italia TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=kisskissitaliatv&group=Musica
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2178" tvg-id="vh1" tvg-logo="" tvg-name="VH1" , VH1
-plugin://plugin.video.wltvhelper/play/paramount/VH1
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2179" tvg-id="rairadio2visualradio" tvg-logo="" tvg-name="Rai Radio 2 Visual Radio" , Rai Radio 2 Visual Radio
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rairadio2visualradio&group=Musica
-
-#EXTINF:-1 group-title="-unknown-" tvg-chno="2180" tvg-id="welcomein" tvg-logo="" tvg-name="Welcome In" , Welcome In
-plugin://plugin.video.wltvhelper/play/premio/welcomein
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2174" tvg-id="deejaytv" tvg-logo="" tvg-name="Deejay TV" , Deejay TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=deejaytv&group=Musica
 #EXTINF:-1 group-title="Musica" tvg-chno="2181" tvg-id="rtl102.5tvnews" tvg-logo="" tvg-name="RTL 102.5 News" , RTL 102.5 News
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rtl102.5tvnews&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2182" tvg-id="radiobrunotv" tvg-logo="" tvg-name="Radio Bruno TV" , Radio Bruno TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiobrunotv&group=Musica
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2183" tvg-id="gamberorosso" tvg-logo="" tvg-name="Gambero Rosso" , Gambero Rosso
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=gamberorosso&group=Intrattenimento
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2184" tvg-id="radiofreccia" tvg-logo="" tvg-name="Radio Freccia" , Radio Freccia
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiofreccia&group=Musica
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2185" tvg-id="bikechannel" tvg-logo="" tvg-name="Bike Channel" , Bike Channel
-plugin://plugin.video.wltvhelper/play/generics/bike
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2186" tvg-id="radiozeta" tvg-logo="" tvg-name="Radio Zeta" , Radio Zeta
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiozeta&group=Musica
-
-#EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2187" tvg-id="business24" tvg-logo="https://business24tv.it/wp-content/uploads/2024/01/logo-b24.png" tvg-name="Business24" , Business24
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=business24&group=Economia__Finanza
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2175" tvg-id="radioitaliatv" tvg-logo="" tvg-name="Radio Italia Tv" , Radio Italia TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radioitaliatv&group=Musica
 #EXTINF:-1 group-title="Sport" tvg-chno="2188" tvg-id="italianfishingtv" tvg-logo="https://www.italianfishingtv.it/img/italian-fishing-tv-logo.png" tvg-name="Italian Fishing TV" , Italian Fishing Tv
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=italianfishingtv&group=Sport
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2189" tvg-id="rairadio2" tvg-logo="" tvg-name="Rai Radio 2" , Rai Radio 2
-plugin://plugin.video.wltvhelper/play/rai/Rai Radio 2
-
-#EXTINF:-1 group-title="News" tvg-chno="2190" tvg-id="rai3tgraosta" tvg-logo="" tvg-name="Rai 3 TGR Valle d'Aosta" , RaiNews Valle d'Aosta
-plugin://plugin.video.wltvhelper/play/rainewsrg/vda
-
-#EXTINF:-1 group-title="News" tvg-chno="2191" tvg-id="rai3tgrpiemonte" tvg-logo="" tvg-name="Rai 3 TGR Piemonte" , RaiNews Piemonte
-plugin://plugin.video.wltvhelper/play/rainewsrg/piemonte
-
-#EXTINF:-1 group-title="News" tvg-chno="2192" tvg-id="rai3tgrliguria" tvg-logo="" tvg-name="Rai 3 TGR Liguria" , RaiNews Liguria
-plugin://plugin.video.wltvhelper/play/rainewsrg/liguria
-
-#EXTINF:-1 group-title="News" tvg-chno="2193" tvg-id="rai3tgrlombardia" tvg-logo="" tvg-name="Rai 3 TGR Lombardia" , RaiNews Lombardia
-plugin://plugin.video.wltvhelper/play/rainewsrg/lombardia
-
-#EXTINF:-1 group-title="News" tvg-chno="2194" tvg-id="rai3tgrveneto" tvg-logo="" tvg-name="Rai 3 TGR Veneto" , RaiNews Veneto
-plugin://plugin.video.wltvhelper/play/rainewsrg/veneto
-
-#EXTINF:-1 group-title="News" tvg-chno="2195" tvg-id="rai3tgraltoadige" tvg-logo="" tvg-name="Rai 3 TGR Trentino Alto Adige Bolzano" , RaiNews Alto Adige
-plugin://plugin.video.wltvhelper/play/rainewsrg/bolzano
-
-#EXTINF:-1 group-title="News" tvg-chno="2196" tvg-id="rai3tgrtrentino" tvg-logo="" tvg-name="Rai 3 TGR Trentino Alto Adige Trento" , RaiNews Trentino
-plugin://plugin.video.wltvhelper/play/rainewsrg/trento
-
-#EXTINF:-1 group-title="News" tvg-chno="2197" tvg-id="rai3tgrfriuliveneziagiulia" tvg-logo="" tvg-name="Rai 3 TGR Friuli Venezia Giulia" , RaiNews Friuli Venezia Giulia
-plugin://plugin.video.wltvhelper/play/rainewsrg/fvg
-
-#EXTINF:-1 group-title="News" tvg-chno="2198" tvg-id="rai3tgremiliaromagna" tvg-logo="" tvg-name="Rai 3 TGR Emilia Romagna" , RaiNews Emilia Romagna
-plugin://plugin.video.wltvhelper/play/rainewsrg/emiliaromagna
-
-#EXTINF:-1 group-title="News" tvg-chno="2199" tvg-id="rai3tgrtoscana" tvg-logo="" tvg-name="Rai 3 TGR Toscana" , RaiNews Toscana
-plugin://plugin.video.wltvhelper/play/rainewsrg/toscana
-
-#EXTINF:-1 group-title="News" tvg-chno="2200" tvg-id="rai3tgrmarche" tvg-logo="" tvg-name="Rai 3 TGR Marche" , RaiNews Marche
-plugin://plugin.video.wltvhelper/play/rainewsrg/marche
-
-#EXTINF:-1 group-title="News" tvg-chno="2201" tvg-id="rai3tgrumbria" tvg-logo="" tvg-name="Rai 3 TGR Umbria" , RaiNews Umbria
-plugin://plugin.video.wltvhelper/play/rainewsrg/umbria
-
-#EXTINF:-1 group-title="News" tvg-chno="2202" tvg-id="rai3tgrlazio" tvg-logo="" tvg-name="Rai 3 TGR Lazio" , RaiNews Lazio
-plugin://plugin.video.wltvhelper/play/rainewsrg/lazio
-
-#EXTINF:-1 group-title="News" tvg-chno="2203" tvg-id="rai3tgrabruzzo" tvg-logo="" tvg-name="Rai 3 TGR Abruzzo" , RaiNews Abruzzo
-plugin://plugin.video.wltvhelper/play/rainewsrg/abruzzo
-
-#EXTINF:-1 group-title="News" tvg-chno="2204" tvg-id="rai3tgrmolise" tvg-logo="" tvg-name="Rai 3 TGR Molise" , RaiNews Molise
-plugin://plugin.video.wltvhelper/play/rainewsrg/molise
-
-#EXTINF:-1 group-title="News" tvg-chno="2205" tvg-id="rai3tgrcampania" tvg-logo="" tvg-name="Rai 3 TGR Campania" , RaiNews Campania
-plugin://plugin.video.wltvhelper/play/rainewsrg/campania
-
-#EXTINF:-1 group-title="News" tvg-chno="2206" tvg-id="rai3tgrpuglia" tvg-logo="" tvg-name="Rai 3 TGR Puglia" , RaiNews Puglia
-plugin://plugin.video.wltvhelper/play/rainewsrg/puglia
-
-#EXTINF:-1 group-title="News" tvg-chno="2207" tvg-id="rai3tgrbasilicata" tvg-logo="" tvg-name="Rai 3 TGR Basilicata" , RaiNews Basilicata
-plugin://plugin.video.wltvhelper/play/rainewsrg/basilicata
-
-#EXTINF:-1 group-title="News" tvg-chno="2208" tvg-id="rai3tgrcalabria" tvg-logo="" tvg-name="Rai 3 TGR Calabria" , RaiNews Calabria
-plugin://plugin.video.wltvhelper/play/rainewsrg/calabria
-
-#EXTINF:-1 group-title="News" tvg-chno="2209" tvg-id="rai3tgrsardegna" tvg-logo="" tvg-name="Rai 3 TGR Sardegna" , RaiNews Sardegna
-plugin://plugin.video.wltvhelper/play/rainewsrg/sardegna
-
-#EXTINF:-1 group-title="News" tvg-chno="2210" tvg-id="rai3tgrsicilia" tvg-logo="" tvg-name="Rai 3 TGR Sicilia" , RaiNews Sicilia
-plugin://plugin.video.wltvhelper/play/rainewsrg/sicilia
-
-#EXTINF:-1 group-title="Intrattenimento" tvg-chno="2211" tvg-id="sanmarinortv" tvg-logo="" tvg-name="San Marino Rtv" , San Marino Rtv
-plugin://plugin.video.wltvhelper/play/smtv/SMRTV
-
-#EXTINF:-1 group-title="Bambini" tvg-chno="2212" tvg-id="supersix" tvg-logo="" tvg-name="Super Six" , Super Six
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=supersix&group=Bambini
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2213" tvg-id="rdstvseriea" tvg-logo="" tvg-name="RDS TV Serie A" , RDS TV Serie A
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rdstvseriea&group=Sport
-
-#EXTINF:-1 group-title="-unknown-" tvg-chno="2214" tvg-id="radio24tv" tvg-logo="" tvg-name="Radio 24 Tv" , Radio 24 Tv
-plugin://plugin.video.wltvhelper/play/sole24/tv
-
-#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2215" tvg-id="uninettuno" tvg-logo="" tvg-name="Uninettuno University Tv" , Uninettuno University TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=uninettuno&group=Doc__Cultura
-
 #EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2216" tvg-id="bloombergasia" tvg-logo="" tvg-name="Bloomberg Asian Tv" , Bloomberg
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=bloombergasia&group=Economia__Finanza
-
 #EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2217" tvg-id="bloombergaus" tvg-logo="" tvg-name="Bloomberg Australian Tv" , Bloomberg
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=bloombergaus&group=Economia__Finanza
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2186" tvg-id="radiozeta" tvg-logo="" tvg-name="Radio Zeta" , Radio Zeta
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiozeta&group=Musica
+#EXTINF:-1 group-title="Musica" tvg-chno="2182" tvg-id="radiobrunotv" tvg-logo="" tvg-name="Radio Bruno TV" , Radio Bruno TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiobrunotv&group=Musica
+#EXTINF:-1 group-title="Musica" tvg-chno="2184" tvg-id="radiofreccia" tvg-logo="" tvg-name="Radio Freccia" , Radio Freccia
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiofreccia&group=Musica
+#EXTINF:-1 group-title="Bambini" tvg-chno="2212" tvg-id="supersix" tvg-logo="" tvg-name="Super Six" , Super Six
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=supersix&group=Bambini
+#EXTINF:-1 group-title="Doc/Cultura" tvg-chno="2215" tvg-id="uninettuno" tvg-logo="" tvg-name="Uninettuno University Tv" , Uninettuno University TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=uninettuno&group=Doc__Cultura
 #EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2218" tvg-id="bloombergeu" tvg-logo="" tvg-name="Bloomberg European Tv" , Bloomberg
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=bloombergeu&group=Economia__Finanza
-
 #EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2219" tvg-id="bloombergus" tvg-logo="" tvg-name="Bloomberg Usa Tv" , Bloomberg
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=bloombergus&group=Economia__Finanza
-
-#EXTINF:-1 group-title="Economia/Finanza" tvg-chno="2220" tvg-id="classcnbc" tvg-logo="" tvg-name="Class CNBC" , Class CNBC
-plugin://plugin.video.wltvhelper/play/dailymotion/x91c8ww
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2221" tvg-id="explorer" tvg-logo="" tvg-name="Explorer" , Explorer
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=explorer&group=Generalisti
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2222" tvg-id="odeon24" tvg-logo="" tvg-name="Odeon 24" , Odeon 24
-plugin://plugin.video.wltvhelper/play/sciscione/odeon-2
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2223" tvg-id="raiplay1" tvg-logo="" tvg-name="Rai Play 1" , Rai Play 1
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2224" tvg-id="raiplay2" tvg-logo="" tvg-name="Rai Play 2" , Rai Play 2
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay 2
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2225" tvg-id="raiplay3" tvg-logo="" tvg-name="Rai Play 3" , Rai Play 3
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay 3
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2226" tvg-id="rsila1vpn" tvg-logo="" tvg-name="RSI La 1 (solo in vpn)" , RSI La 1 (solo in vpn)
-plugin://plugin.video.wltvhelper/play/rsi/LA 1
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2227" tvg-id="rsila2vpn" tvg-logo="" tvg-name="RSI La 2 (solo in vpn)" , RSI La 2 (solo in vpn)
-plugin://plugin.video.wltvhelper/play/rsi/LA 2
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2228" tvg-id="rsila1" tvg-logo="" tvg-name="RSI La1 (instabile)" , RSI La1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rsila1&group=Generalisti
-
-#EXTINF:-1 group-title="Generalisti" tvg-chno="2229" tvg-id="rsila2" tvg-logo="" tvg-name="RSI La2 (instabile)" , RSI La2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rsila2&group=Generalisti
-
-#EXTINF:-1 group-title="Grande Fratello" tvg-chno="2230" tvg-id="grandefratelloparty" tvg-logo="" tvg-name="GF Party" , GF Party
-plugin://plugin.video.wltvhelper/play/mediaset/$B1
-
-#EXTINF:-1 group-title="Grande Fratello" tvg-chno="2231" tvg-id="grandefratello1" tvg-logo="" tvg-name="GF Regia 1" , GF Regia 1
-plugin://plugin.video.wltvhelper/play/mediaset/$B7
-
-#EXTINF:-1 group-title="Grande Fratello" tvg-chno="2232" tvg-id="grandefratello2" tvg-logo="" tvg-name="GF Regia 2" , GF Regia 2
-plugin://plugin.video.wltvhelper/play/mediaset/$B8
-
-#EXTINF:-1 group-title="Grande Fratello" tvg-chno="2233" tvg-id="grandefratelloplus1" tvg-logo="" tvg-name="GF Un'ora fa" , GF Un'ora fa
-plugin://plugin.video.wltvhelper/play/mediaset/$B9
-
-#EXTINF:-1 group-title="Moda/Shopping" tvg-chno="2234" tvg-id="arteatelier" tvg-logo="" tvg-name="Arte Atelier" , Arte Atelier
-plugin://plugin.video.wltvhelper/play/premio/arteatelier
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2235" tvg-id="capitaltv" tvg-logo="" tvg-name="Capital TV" , Capital TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=capitaltv&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2236" tvg-id="fmitalia" tvg-logo="" tvg-name="FM Italia" , FM Italia
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=fmitalia&group=Musica
-
 #EXTINF:-1 group-title="Musica" tvg-chno="2237" tvg-id="ibizatv" tvg-logo="" tvg-name="Ibiza TV" , Ibiza TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=ibizatv&group=Musica
-
 #EXTINF:-1 group-title="Musica" tvg-chno="2238" tvg-id="kisskissnapolitv" tvg-logo="" tvg-name="Kiss Kiss Napoli TV" , Kiss Kiss Napoli TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=kisskissnapolitv&group=Musica
-
 #EXTINF:-1 group-title="Musica" tvg-chno="2239" tvg-id="kisskisstv" tvg-logo="" tvg-name="Kiss Kiss TV" , Kiss Kiss TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=kisskisstv&group=Musica
-
+#EXTINF:-1 group-title="Generalisti" tvg-chno="2229" tvg-id="rsila2" tvg-logo="" tvg-name="RSI La2 (instabile)" , RSI La2
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rsila2&group=Generalisti
+#EXTINF:-1 group-title="Musica" tvg-chno="2235" tvg-id="capitaltv" tvg-logo="" tvg-name="Capital TV" , Capital TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=capitaltv&group=Musica
 #EXTINF:-1 group-title="Musica" tvg-chno="2240" tvg-id="m2otv" tvg-logo="" tvg-name="M2O TV" , M2o TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=m2otv&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2241" tvg-id="ottofm" tvg-logo="" tvg-name="Otto FM" , Otto FM
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=ottofm&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2242" tvg-id="radiomontecarlotv" tvg-logo="" tvg-name="Radio Monte Carlo TV" , Radio Montecarlo TV
-plugin://plugin.video.wltvhelper/play/mediaset/$BB
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2243" tvg-id="radionorbatv" tvg-logo="" tvg-name="Radio Norba TV" , Radio Norba TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radionorbatv&group=Musica
-
+#EXTINF:-1 group-title="Generalisti" tvg-chno="2228" tvg-id="rsila1" tvg-logo="" tvg-name="RSI La1 (instabile)" , RSI La1
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rsila1&group=Generalisti
 #EXTINF:-1 group-title="Musica" tvg-chno="2244" tvg-id="radiopiterpantv" tvg-logo="" tvg-name="Radio Piterpan TV" , Radio Piterpan TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radiopiterpantv&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2245" tvg-id="rds" tvg-logo="" tvg-name="RDS" , RDS Social TV
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rds&group=Musica
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2246" tvg-id="virgintv" tvg-logo="" tvg-name="Virgin Radio TV" , Virgin Radio
-plugin://plugin.video.wltvhelper/play/mediaset/$EW
-
-#EXTINF:-1 group-title="Musica" tvg-chno="2247" tvg-id="vuemme" tvg-logo="" tvg-name="Vuemme" , Vuemme
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=vuemme&group=Musica
-
 #EXTINF:-1 group-title="News" tvg-chno="2248" tvg-id="aljazeeraenglish" tvg-logo="" tvg-name="AlJazeera English" , AlJazeera (EN)
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=aljazeeraenglish&group=News
-
-#EXTINF:-1 group-title="News" tvg-chno="2249" tvg-id="euronewsit" tvg-logo="" tvg-name="Euronews (IT)" , Euronews
-plugin://plugin.video.wltvhelper/play/rakuten/euronews-live-it$ITA
-
-#EXTINF:-1 group-title="News" tvg-chno="2250" tvg-id="france24ar" tvg-logo="" tvg-name="France 24 (AR)" , France 24 (AR)
-plugin://plugin.video.wltvhelper/play/yt/l/@France24_ar/
-
-#EXTINF:-1 group-title="News" tvg-chno="2251" tvg-id="france24en" tvg-logo="" tvg-name="France 24 (EN)" , France 24 (EN)
-plugin://plugin.video.wltvhelper/play/yt/l/@France24_en/
-
-#EXTINF:-1 group-title="News" tvg-chno="2252" tvg-id="france24es" tvg-logo="" tvg-name="France 24 (ES)" , France 24 (ES)
-plugin://plugin.video.wltvhelper/play/yt/l/@France24_es/
-
-#EXTINF:-1 group-title="News" tvg-chno="2253" tvg-id="france24fr" tvg-logo="" tvg-name="France 24 (FR)" , France 24 (FR)
-plugin://plugin.video.wltvhelper/play/yt/l/@FRANCE24/
-
-#EXTINF:-1 group-title="News" tvg-chno="2254" tvg-id="rai3tgrfvgbis" tvg-logo="" tvg-name="RaiNews Furlanija Julijska krajina" , RaiNews Furlanija Julijska krajina
-plugin://plugin.video.wltvhelper/play/rainewsrg/fjk
-
-#EXTINF:-1 group-title="Olympics" tvg-chno="2255" tvg-id="olympicsoic" tvg-logo="" tvg-name="Olympics On Ice Channel" , Olympics On Ice Channel
-plugin://plugin.video.wltvhelper/play/olympics/oc2
-
-#EXTINF:-1 group-title="Olympics" tvg-chno="2256" tvg-id="olympicstv" tvg-logo="" tvg-name="Olympics TV" , Olympics TV
-plugin://plugin.video.wltvhelper/play/olympics/octv
-
-#EXTINF:-1 group-title="SenatoTV" tvg-chno="2257" tvg-id="senatotv1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 1" , SenatoTV 1
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv1&group=SenatoTV
-
-#EXTINF:-1 group-title="SenatoTV" tvg-chno="2258" tvg-id="senatotv2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 2" , SenatoTV 2
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv2&group=SenatoTV
-
-#EXTINF:-1 group-title="SenatoTV" tvg-chno="2259" tvg-id="senatotv3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 3" , SenatoTV 3
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv3&group=SenatoTV
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2245" tvg-id="rds" tvg-logo="" tvg-name="RDS" , RDS Social TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=rds&group=Musica
 #EXTINF:-1 group-title="SenatoTV" tvg-chno="2260" tvg-id="senatotv4" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 4" , SenatoTV 4
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv4&group=SenatoTV
-
+#EXTINF:-1 group-title="SenatoTV" tvg-chno="2259" tvg-id="senatotv3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 3" , SenatoTV 3
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv3&group=SenatoTV
 #EXTINF:-1 group-title="SenatoTV" tvg-chno="2261" tvg-id="senatotv5" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 5" , SenatoTV 5
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv5&group=SenatoTV
-
-#EXTINF:-1 group-title="SenatoTV" tvg-chno="2262" tvg-id="senatotv6" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 6" , SenatoTV 6
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv6&group=SenatoTV
-
+#EXTINF:-1 group-title="Musica" tvg-chno="2247" tvg-id="vuemme" tvg-logo="" tvg-name="Vuemme" , Vuemme
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=vuemme&group=Musica
+#EXTINF:-1 group-title="SenatoTV" tvg-chno="2257" tvg-id="senatotv1" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 1" , SenatoTV 1
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv1&group=SenatoTV
 #EXTINF:-1 group-title="SenatoTV" tvg-chno="2263" tvg-id="senatotv7" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 7" , SenatoTV 7
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv7&group=SenatoTV
-
 #EXTINF:-1 group-title="Sport" tvg-chno="2264" tvg-id="acisporttv" tvg-logo="" tvg-name="ACI Sport TV" , ACI Sport TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=acisporttv&group=Sport
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2265" tvg-id="laziostylechannel" tvg-logo="" tvg-name="Lazio Style Channel" , Lazio Style Channel
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=laziostylechannel&group=Sport
-
-
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2276" tvg-id="sportmediaset" tvg-logo="" tvg-name="Sport Mediaset" , Sport Mediaset
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=sportmediaset&group=Sport
+#EXTINF:-1 group-title="SenatoTV" tvg-chno="2258" tvg-id="senatotv2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 2" , SenatoTV 2
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv2&group=SenatoTV
+#EXTINF:-1 group-title="SenatoTV" tvg-chno="2262" tvg-id="senatotv6" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Logo_Senato_TV.png" tvg-name="SenatoTV 6" , SenatoTV 6
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv6&group=SenatoTV
+#EXTINF:-1 group-title="Musica" tvg-chno="2243" tvg-id="radionorbatv" tvg-logo="" tvg-name="Radio Norba TV" , Radio Norba TV
+https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radionorbatv&group=Musica
