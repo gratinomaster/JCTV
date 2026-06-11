@@ -1,0 +1,34 @@
+name: ya
+
+on:
+  workflow_dispatch:
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Run OpenCode
+        run: |
+          opencode run "LEIA https://timesbrasil.com.br/ https://www.cnnbrasil.com.br/money/ https://valor.globo.com/ https://investnews.com.br/ https://www.bloomberglinea.com.br/ e crie um arquivo INVEST.txt com um resumo consolidado das principais notícias de todos os sites."
+          opencode run "Eu tenho R%100,00 diga o que comprar para receber dividendos mês que vem, quero apenas as boas"
+
+      - name: Commit INVEST.txt
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add INVEST.txt
+          git commit -m "Atualiza resumo de investimentos" || echo "Nada para commit"
+          git push
