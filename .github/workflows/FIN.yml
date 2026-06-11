@@ -1,0 +1,64 @@
+name: FIN
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Executa a cada 6 horas
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Garantir alterações mais recentes do repositório remoto
+        run: |
+          git pull origin main || true
+
+      - name: Deletar Log
+        run: |
+          rm -f log.txt
+
+      - name: Instalando dependências
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install --no-cache-dir crawl4ai selenium-wire streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz gdown playwright
+
+      - name: Instalar navegadores do Playwright
+        run: |
+          playwright install --with-deps chromium
+
+      - name: Verificar versão do Python
+        run: |
+          python3 --version
+
+      - name: Rodar script stream_finder.py
+        run: |
+          python3 stream_finder.py
+
+      - name: Adicionar Mudanças ao Controle de Versão
+        run: |
+          git add -A
+
+      - name: Commit
+        run: |
+          git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+
+      - name: Push
+        run: |
+          git push origin main
