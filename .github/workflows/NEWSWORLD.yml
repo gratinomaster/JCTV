@@ -1,0 +1,91 @@
+name: NEWSWORLD
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */8 * * *"
+
+concurrency:
+  group: newsworld-playlist
+  cancel-in-progress: false
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Create prompt
+        run: |
+          cat << 'EOF' > prompt.txt
+          acesse NEWSWORLDNOVOS.m3u
+          adcione 1 canal do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
+          adcione tvg-logo em canais que estejam sem ou invalidos
+          exclua os canais offline
+          remova #extinf que não tenham links dos canais
+          teste os links para não me deixar usar links com virus
+          corrija caso o epg não funcione nos canais corretamente
+          veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
+          tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
+          não salve o .py que for gerado
+          o link do epg deve começar com https
+          abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
+          não use tvg-ids inventados, apenas reais
+          se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje
+          use leitor de imagens para ver se o tvg logo está correto
+          não quero .svg
+          EOF
+
+      - name: Run OpenCode
+        run: |
+          echo "Executando OpenCode..."
+          opencode run "$(cat prompt.txt)"
+
+      - name: Check generated files
+        run: |
+          echo "Arquivos no diretório:"
+          ls -la
+
+          if [ -f lista5.m3u ]; then
+            echo "Playlist criada:"
+            cat lista5.m3u
+          else
+            echo "lista5.m3u não foi criado"
+          fi
+
+      - name: Commit and Push safely
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add . || true
+          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
+
+          # tenta sincronizar e enviar sem sobrescrever ninguém
+          for i in {1..10}; do
+            echo "Tentativa $i de push..."
+
+            git fetch origin
+
+            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
+              echo "Conflito no rebase, abortando e tentando novamente..."
+              git rebase --abort
+              sleep 5
+              continue
+            }
+
+            git push origin HEAD && break
+
+            echo "Push falhou, tentando novamente em 5s..."
+            sleep 5
+          done
