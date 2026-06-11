@@ -1,0 +1,67 @@
+name: Baixando GLOBO3
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # Executa a cada 3 horas
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Deletar Log
+        run: |
+          rm -f log.txt
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp pytz gdown playwright
+
+      - name: Verificar versão do Python
+        run: python --version
+
+      - name: Rodar script GLOBO3.py
+        run: python GLOBO3.py
+
+      - name: Instalar OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Criar prompt
+        run: |
+          cat << 'EOF' > prompt.txt
+          corrija o lista1.m3u para que use url-tvg https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml corrigindo tvg-ids
+          EOF
+
+      - name: Rodar OpenCode
+        run: |
+          echo "Executando OpenCode..."
+          opencode run "$(cat prompt.txt)"
+
+      - name: Commit e Push
+        run: |
+          git add -A
+          git pull origin main --rebase || echo "Sem atualizações remotas"
+          git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança"
+          git push origin main
