@@ -1,0 +1,78 @@
+name: LINK
+
+on:
+  schedule:
+    - cron: '*/35 * * * *'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Deletar log antigo
+        run: |
+          rm -f log.txt
+
+      - name: Instalar dependências Python
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install selenium crawl4ai playwright requests beautifulsoup4 lxml python-dateutil pytz gdown streamlink yt-dlp
+
+      
+      - name: Rodar script Python
+        run: |
+          python3 LINK.py
+          
+          
+      - name: Install OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Create prompt
+        run: |
+          cat << 'EOF' > prompt.txt
+          acesse lista5.m3u
+          teste todos os canais dessa lista e exclua canais que não estejam funcionando
+          sobescreva o lista5.m3u
+          EOF      
+      
+      - name: Run OpenCode
+        run: |
+          echo "Executando OpenCode..."
+          opencode run "$(cat prompt.txt)"
+          
+          
+      - name: Instalar browsers do Playwright
+        run: |
+          playwright install chromium
+
+      - name: Verificar versão do Python
+        run: |
+          python3 --version
+
+      - name: Adicionar mudanças ao Git
+        run: |
+          git add -A
+          git status
+
+      - name: Garantir alterações mais recentes do repositório remoto
+        run: |
+          git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+
+      - name: Commit e Push automático
+        run: |
+          git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+          git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
