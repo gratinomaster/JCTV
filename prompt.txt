@@ -1,16 +1,1 @@
-acesse NEWSWORLDNOVOS.m3u
-adcione 1 canal do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
-adcione tvg-logo em canais que estejam sem ou invalidos
-exclua os canais offline
-remova #extinf que não tenham links dos canais
-teste os links para não me deixar usar links com virus
-corrija caso o epg não funcione nos canais corretamente
-veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
-tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
-não salve o .py que for gerado
-o link do epg deve começar com https
-abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
-não use tvg-ids inventados, apenas reais
-se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje
-use leitor de imagens para ver se o tvg logo está correto
-não quero .svg
+corrija o lista1.m3u para que use url-tvg https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml corrigindo tvg-ids
