@@ -1,0 +1,88 @@
+================================================================================
+CANAIS AO VIVO - GLOBOPLAY
+================================================================================
+Data de extração: 12/06/2026 03:51:20
+Total de canais: 10
+================================================================================
+
+1. Associar operadora
+   URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
+
+2. Autoclassificação etária: livre
+AL
+
+03:30 - 04:19
+
+Jornal da Globo
+   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
+
+3. Ao vivo
+
+03:00 - 03:59
+
+Jornal GloboNews Edição da Meia-noite
+   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
+
+4. Classificação etária: 12
+12
+
+03:31 - 04:12
+
+Sessão Nostalgia - A Grande Fa
+
+Test-Drive
+   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+
+5. Autoclassificação etária: 10
+A10
+
+03:29 - 04:19
+
+Sessão sportv - Copa Do Mundo
+
+Vai, Brasil! - Ep. 1
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+6. 03:19 - 04:18
+
+Brasileirão - Coritiba X Bragantino - 28012026
+
+Coritiba X Bragantino
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+7. Classificação etária: 14
+14
+
+02:57 - 03:57
+
+Que História É Essa, Porchat?
+
+Mateus Solano, Otávio Muller e Gabriel Louchard
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+8. Classificação etária: 14
+14
+
+02:48 - 03:51
+
+Salve Jorge
+   URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
+
+9. Sinal gratuito
+
+Ao vivo
+
+Agora
+
+CBN Ao Vivo SP
+   URL: https://globoplay.globo.com/cbn-sp/ao-vivo/9212712/
+
+10. Sinal gratuito
+
+Ao vivo
+
+Agora
+
+CBN Ao Vivo RJ
+   URL: https://globoplay.globo.com/cbn-rj/ao-vivo/9212676/
+
