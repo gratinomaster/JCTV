@@ -1,16 +1,4 @@
-acesse MÉXICO.m3u
-adcione 1 canal do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
-adcione tvg-logo em canais que estejam sem ou invalidos
-exclua os canais offline
-remova #extinf que não tenham links dos canais
-teste os links para não me deixar usar links com virus
-corrija caso o epg não funcione nos canais corretamente
-veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
-tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
-não salve o .py que for gerado
-o link do epg deve começar com https
-abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
-não use tvg-ids inventados, apenas reais
-se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje
-use leitor de imagens para ver se o tvg logo está correto
-não quero .svg
+acesse https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u
+crie EPGFULL.xml.gz sem os canais que não estão no arquivo .m3u, para que o guia não fique maior do que preciso
+caso este arquivo já exista .xml.gz já exista, sobescreva
+teste para ver se o novo epg está funcionando e tem as informações dos programas de hoje e amanhã
