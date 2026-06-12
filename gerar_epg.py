@@ -15,6 +15,7 @@ EPG_URLS = [
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
 ]
 
 CHANNEL_NAMES = {
@@ -22,7 +23,8 @@ CHANNEL_NAMES = {
     "g1": "G1",
     "g1-caruaru": "G1 Caruaru",
     "ge-tv": "ge TV",
-    "cbn": "CBN",
+    "cbn-sp": "CBN SP",
+    "cbn-rj": "CBN RJ",
     "tv-vanguarda": "TV Vanguarda",
     "tv-verdes-mares": "TV Verdes Mares",
     "tv-gazeta-es": "TV Gazeta ES",
@@ -31,6 +33,16 @@ CHANNEL_NAMES = {
     "tv-integracao-uberaba": "TV Integração Uberaba",
     "rede-amazonica": "Rede Amazônica",
     "tv-liberal": "TV Liberal",
+    "ABC.News.Live.us2": "ABC News Live",
+    "FRANCE 24 HD": "France 24 Español",
+    "DW-TV": "DW",
+    "Bloomberg.HD.us2": "Bloomberg TV",
+    "ESTRELLA.NEWS.us2": "Estrella News",
+    "al-jazeera-english": "Al Jazeera English",
+    "rt-espanol": "RT Español",
+    "24-horas-rtve": "24 Horas RTVE",
+    "univision-noticias": "Univision Noticias",
+    "telemundo": "Telemundo",
 }
 
 EXACT_ALIASES = {
@@ -89,6 +101,39 @@ GENERIC_SCHEDULE_CBN = [
     ("22:00", "07:00", "CBN Late Night"),
 ]
 
+GENERIC_SCHEDULE_NEWS = [
+    ("00:00", "01:00", "News Update"),
+    ("01:00", "01:00", "News Update"),
+    ("02:00", "01:00", "News Update"),
+    ("03:00", "01:00", "News Update"),
+    ("04:00", "01:00", "News Update"),
+    ("05:00", "01:00", "News Update"),
+    ("06:00", "01:00", "Morning News"),
+    ("07:00", "01:00", "Morning News"),
+    ("08:00", "01:00", "Morning News"),
+    ("09:00", "01:00", "News Update"),
+    ("10:00", "01:00", "News Update"),
+    ("11:00", "01:00", "News Update"),
+    ("12:00", "01:00", "Midday News"),
+    ("13:00", "01:00", "News Update"),
+    ("14:00", "01:00", "News Update"),
+    ("15:00", "01:00", "News Update"),
+    ("16:00", "01:00", "News Update"),
+    ("17:00", "01:00", "Evening News"),
+    ("18:00", "01:00", "Evening News"),
+    ("19:00", "01:00", "Evening News"),
+    ("20:00", "01:00", "Prime Time News"),
+    ("21:00", "01:00", "Prime Time News"),
+    ("22:00", "01:00", "Late Night News"),
+    ("23:00", "01:00", "Late Night News"),
+]
+
+
+def slugify(name):
+    import unicodedata
+    nfkd = unicodedata.normalize('NFKD', name)
+    ascii_only = nfkd.encode('ascii', 'ignore').decode('ascii')
+    return re.sub(r'[^a-z0-9]+', '-', ascii_only.lower()).strip('-')
 
 def get_tvg_ids_from_m3u(m3u_path):
     ids = OrderedDict()
@@ -97,14 +142,29 @@ def get_tvg_ids_from_m3u(m3u_path):
             m = re.search(r'tvg-id="([^"]*)"', line)
             if m:
                 ids[m.group(1)] = True
+            elif line.startswith("#EXTINF:"):
+                name_m = re.search(r',\s*(.+?)\s*$', line)
+                if name_m:
+                    name = name_m.group(1).strip().split("|")[0].strip()
+                    gen_id = slugify(name)
+                    if gen_id and gen_id not in ids:
+                        ids[gen_id] = True
     return list(ids.keys())
 
 
 def fetch_epg_xml(url):
     import urllib.request
     try:
-        with urllib.request.urlopen(url, timeout=60) as resp:
-            return resp.read().decode("utf-8")
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
+        )
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = resp.read()
+            if url.endswith(".gz"):
+                import gzip
+                data = gzip.decompress(data)
+            return data.decode("utf-8")
     except Exception as e:
         print(f"  Erro ao baixar {url}: {e}")
         return None
@@ -165,8 +225,8 @@ def main():
             print(f"   {wid} -> não encontrado (será gerado)")
 
     tv_root = ET.Element("tv", {
-        "source-info-url": "https://github.com/limaalef/BrazilTVEPG",
-        "source-info-name": "BrazilTVEPG + JCTV",
+        "source-info-url": "https://epgshare01.online",
+        "source-info-name": "EPGShare01 + BrazilTVEPG + JCTV",
         "generator-info-name": "JCTV EPG Filter"
     })
 
@@ -196,10 +256,13 @@ def main():
         name = CHANNEL_NAMES.get(wid, wid)
         print(f"   {wid} ({name})...")
 
-        if wid == "g1" or wid == "g1-caruaru":
+        if wid in ("g1", "g1-caruaru"):
             sched = GENERIC_SCHEDULE_G1
-        elif wid == "cbn":
+        elif wid in ("cbn", "cbn-sp", "cbn-rj"):
             sched = GENERIC_SCHEDULE_CBN
+        elif wid in ("ABC.News.Live.us2", "FRANCE 24 HD", "DW-TV", "Bloomberg.HD.us2", "ESTRELLA.NEWS.us2",
+                     "al-jazeera-english", "rt-espanol", "24-horas-rtve", "univision-noticias", "telemundo"):
+            sched = GENERIC_SCHEDULE_NEWS
         else:
             sched = GENERIC_SCHEDULE
 
