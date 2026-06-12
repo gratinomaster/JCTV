@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse NEWSWORLDNOVOS.m3u
+          acesse MÉXICO.m3u
           adcione 1 canal do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
           adcione tvg-logo em canais que estejam sem ou invalidos
           exclua os canais offline
