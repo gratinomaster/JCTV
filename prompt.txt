@@ -14,3 +14,4 @@ não use tvg-ids inventados, apenas reais
 se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje
 use leitor de imagens para ver se o tvg logo está correto
 não quero .svg
+o logo das emissoras tem que ser atual
