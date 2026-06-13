@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 13/06/2026 08:56:59
+Data de extração: 13/06/2026 11:17:12
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
-
-08:15 - 09:19
-
-Quem Ama Cuida
-   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
-
-3. 06:30 - 08:59
-
-Jornal das Dez
-   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
-
-4. Autoclassificação etária: livre
+2. Autoclassificação etária: livre
 AL
 
-08:36 - 09:08
+10:50 - 11:29
 
-Reclame
+Pequenas Empresas &amp; Grandes Negócios
+   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-Reclame - 20ª Temporada
-   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+3. Ao vivo
 
-5. 08:54 - 09:56
+11:00 - 11:59
 
-Copa Do Mundo Da FIFA 2026™
+Jornal GloboNews - Edição das 08h
+   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-Eua X Paraguai - Los Angeles,EUA
-   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
-
-6. 08:39 - 09:38
-
-Brasileirão - Vasco X Bahia - 11022026
-
-Vasco X Bahia
-   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
-
-7. Autoclassificação etária: 10
-A10
-
-08:13 - 09:06
-
-Food Truck - A Batalha
-
-Truck Bistrô
-   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
-
-8. Autoclassificação etária: 12
+4. Autoclassificação etária: 12
 A12
 
-08:29 - 09:12
+11:02 - 11:32
 
-Penso Em Ti
+Tô De Graça
 
-Capítulo 59
+Disputa Acirrada
+   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+
+5. 11:17 - 12:22
+
+Que Copa É Essa?
+
+Episódio 13 - Copa Do Mundo De 2018
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+6. 11:01 - 11:36
+
+Campeonato Brasileiro De Futebol
+
+Bragantino X Athletico-PR
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+7. Classificação etária: 12
+12
+
+10:35 - 11:21
+
+Alma De Cozinheira
+
+Pabllo Vittar e Welder Rodrigues
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+8. Classificação etária: 14
+14
+
+10:45 - 11:22
+
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
