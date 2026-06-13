@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 13/06/2026 11:17:12
+Data de extração: 13/06/2026 13:57:30
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-10:50 - 11:29
+11:30 - 14:44
 
-Pequenas Empresas &amp; Grandes Negócios
+É de Casa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-11:00 - 11:59
+13:00 - 14:14
 
-Jornal GloboNews - Edição das 08h
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-11:02 - 11:32
+13:19 - 14:06
 
-Tô De Graça
+Vila, A
 
-Disputa Acirrada
+Deu Match Na Vila
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 11:17 - 12:22
+5. 12:59 - 13:59
 
-Que Copa É Essa?
+Amistoso Internacional De Futebol
 
-Episódio 13 - Copa Do Mundo De 2018
+Brasil X Egito - Cleveland,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:01 - 11:36
+6. 13:35 - 14:34
 
 Campeonato Brasileiro De Futebol
 
-Bragantino X Athletico-PR
+Cruzeiro X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
-
-10:35 - 11:21
-
-Alma De Cozinheira
-
-Pabllo Vittar e Welder Rodrigues
-   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
-
-8. Classificação etária: 14
+7. Classificação etária: 14
 14
 
-10:45 - 11:22
+13:29 - 14:45
 
-Salve Jorge
+Que História É Essa, Porchat?
+
+Marcia Sensitiva + Isabel Teixeira + Gabriel Godoy
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+8. Autoclassificação etária: 14
+A14
+
+13:39 - 14:29
+
+Minha Vida Perfeita
+
+Capítulo 28
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
