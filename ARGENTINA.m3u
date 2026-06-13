@@ -1,5 +1,33 @@
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/T16tVjFT/TVP-ARGENTINA.jpg" group-title="ARGENTINA",TVP ARGENTINA HD
-https://edgetvp.global.ssl.fastly.net/b16/ngrp:c7_vivo01_dai_source-20001_all/c7_vivo01_dai_source-20001_1080p.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZK7AQFg.png" group-title="ARGENTINA",EL TRECE HD
+#EXTVLCOPT:http-referrer=https://vodgc.net
+https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/cLCrSRdh/CRONICA-TV-HD.jpg" group-title="ARGENTINA",CRONICA TV HD
-https://g2.proy-slo.transport.edge-access.net/a14/ngrp:cronicatv_video1-100044_all/cronicatv_video1-100044_720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Jt7dOQm.png" group-title="ARGENTINA",AMERICA TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/TN_todo_noticias_logo.svg" group-title="ARGENTINA",TN TODO NOTICIAS HD
+https://genoa-player-api.vodgc.net/content/manifest/1879139?pid=1&.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OdhF7ym.png" group-title="ARGENTINA",A24 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xDjOUuz.png" group-title="ARGENTINA",CANAL 26 HD
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EWmshtx.png" group-title="ARGENTINA",NET TV HD
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="ARGENTINA",CANAL E HD
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gfX0hdB.png" group-title="ARGENTINA",TELEMAX HD
+https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tvLHiAT.png" group-title="ARGENTINA",TV UNIVERSIDAD HD
+https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg" group-title="ARGENTINA",TYC SPORTS HD
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
