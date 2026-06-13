@@ -1,4 +1,25 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/fvKmINMYNkVgrxSxY-TDJK8E1tgQQRJKW_OiBozHV3jVdOVPAQiPmcr6sQZ2fuYp25p2LE3tXm8YCzGph_kY5OZct1_IR7YHI43coF6BHoc6Bw" group-title="NEWS WORLD",Univision Noticias
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTINF:-1 tvg-id="Univision.mx" tvg-logo="https://iptv-epg.org/images/fvKmINMYNkVgrxSxY-TDJK8E1tgQQRJKW_OiBozHV3jVdOVPAQiPmcr6sQZ2fuYp25p2LE3tXm8YCzGph_kY5OZct1_IR7YHI43coF6BHoc6Bw" group-title="NEWS WORLD",Univision Noticias
 https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8
-
+#EXTINF:-1 tvg-id="adn40.mx" tvg-logo="https://iptv-epg.org/images/ADBN1fq3hOsfMtZnXz0wiQGUDCaLvwX-tf5ewuQQOZVT9-yufrJK1m44MggceOzp5z-4PK4hwvOKe5YAtsc0F-qzTmRqbX5bpc38IAHx" group-title="NEWS WORLD",ADN 40
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+#EXTINF:-1 tvg-id="MilenioTV.mx" tvg-logo="https://iptv-epg.org/images/2eGmh8SKNh4f8rZnFsple8cQaAVwddRPA0AeJI25ocb4yFfrwTSqJG_nlpGVxt97qSgUl9NSpdVYUy9ep3cVQVTISbtkiQRed9AN1p9MxM73KA" group-title="NEWS WORLD",Milenio Televisión
+https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
+#EXTINF:-1 tvg-id="ImagenTV.mx" tvg-logo="https://iptv-epg.org/images/k_qE8E3YzXDXKm8ZH1W3-j8wccP95nzhrEZvPGa6tX5_FIorFOexUqaeEGY8DT_jD_mwbzzpixZne1-jE4OW4O7_h0LooeEXfN-mBDLgcoGx" group-title="NEWS WORLD",Imagen TV
+https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
+#EXTINF:-1 tvg-id="RussiaToday.mx" tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL" group-title="NEWS WORLD",RT Noticias
+https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8
+#EXTINF:-1 tvg-id="DWEnglish.us" tvg-logo="https://iptv-epg.org/images/YKBvG_teN00N0aV6gYqe6OEXOZRvuTKqPNnhHBm0UkWbcy5yW0-YNu2O5Jc5CC_-L4e8R7sgsigZvgVIUsghv7_Mp6tLQf2CeGL0FFujFA" group-title="NEWS WORLD",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://iptv-epg.org/images/SahzDtrVi8vJkOtJDbLBp9c-7tbHwGaM5TERCrf3kaNgT0kTB0mmPd4o6g3Sb5VQ4EqPoCS77cTeul1ZcF9g94CIIOz31tJZvuHLcQ7VVv4xalbZvhPm" group-title="NEWS WORLD",France 24 Español
+https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.us" tvg-logo="https://iptv-epg.org/images/h-wzShY-N9g6v3RPbiwP_zv1bQriNpnSFRBj2csWfZ6UoDXtMktZVDUKdlZDgIQoNsKBjoiEysIy6NDES8MbuV_Jp0-L6aixix-jrk-0Uw" group-title="NEWS WORLD",Al Jazeera English
+https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://iptv-epg.org/images/UzSaPnQDACUI6Zdh1Epl3ZTQqi5K3kIE_NlRkiFEjhBn9LC_MQYf6Vf5xkxCRIrHJmB0rtBG9i_Ye3sI_jqsVkYjj7eeyFBJEvky1Wu-SbsV" group-title="NEWS WORLD",ABC News Live
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1781442455~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=fbaf3632-848e-4a82-9ab0-de36bc43deb9~did=2d5e41e2-eae9-4b62-9f28-035452e06bd1~country=US~kid=k02~hmac=6113dc729689fb02626537d3801e5ee4b42c469a779c900a1623c3e6316ee00b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://iptv-epg.org/images/6OFgwUd0ncrUp8J0xH__YDJZ-ZaLMU9NUZB7QvfQ7wev4gMw43IWW0eh3BvAZwIvzCugXN5WPg3j75EOhoAuocCgGPJ5SYwfVeb8k8o" group-title="NEWS WORLD",CBS News 24/7
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/3069ec9c-797e-4f31-918c-dcfc08fd5379:TUL/master.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-logo="https://iptv-epg.org/images/K-6FVoIes_IP_v2URQvPxRBtPRLLPa2BcIZPSGrYXW5W3Jnc6A-KPZvIf1VN6HXPQNs8m0liy_e1GXVOHVLukyiU7Wj20oTdAaOjr9yYJg" group-title="NEWS WORLD",Telemundo Noticias
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://iptv-epg.org/images/Qyji90LnAFwQ_yIaRoJ53JVW0B13pbcEVtex7m-9g_J1EBlj2xffQepj9RuNIuM0bKuUlUdVASR4FuIv4wWTFS-1Z9Ewf6M_6kmHh2ZVXUQ" group-title="NEWS WORLD",Estrella News
+https://estrella-news-oando.amagi.tv/playlist.m3u8
