@@ -1,70 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 12/06/2026 22:25:17
+Data de extração: 13/06/2026 03:36:05
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. 02:20 - 03:44
 
-22:15 - 22:49
+Papo De Segunda
 
-Jornal Nacional
+Espaço “No Kids”/ A.A.: Anabolizados Assumidos / Queima Filma
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 03:59
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-22:01 - 22:41
+03:12 - 03:44
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia - A Grande Fa
 
-Família Vende Tudo
+O Amyr Klink invisível
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:01 - 23:15
+02:59 - 04:30
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Seleção Copa - Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:56 - 22:56
+6. 02:50 - 03:49
 
-Brasileirão - Remo X Mirassol - 04022026
+Campeonato Brasileiro De Futebol
 
-Remo X Mirassol
+Goiás X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-22:15 - 22:45
+02:38 - 03:44
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Medalhão De Filé Mignon Ao Molho Madeira E Batatas Ao Murro
+Sheron Menezzes + Deborah Evelyn + Jards Macalé
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-22:23 - 23:11
+02:51 - 03:57
 
-O Rei Do Gado
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
