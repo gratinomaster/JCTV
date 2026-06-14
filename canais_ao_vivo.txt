@@ -1,67 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/06/2026 19:25:28
+Data de extração: 14/06/2026 22:08:19
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 19:05 - 19:39
+2. Autoclassificação etária: 12
+A12
 
-A Reinvenção Do Flamengo
+21:25 - 22:29
 
-Segurando a Onda
+Comédia Na Madruga - Vai Que Cola
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-18:00 - 20:29
+21:00 - 22:29
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Autoclassificação etária: 12
+A12
 
-19:17 - 19:57
+22:01 - 22:48
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-Família Vende Tudo
+Vai Que Cola - Chá Das Fadas - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:02 - 20:59
+22:00 - 22:58
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Holanda X Japão - Dallas, Eua
+Aquecimento sportv
 
-Holanda X Japão - Dallas,EUA
+Costa Do Marfim X Equador
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:13 - 19:42
+6. 22:07 - 22:36
 
-Brasileirão - Internacional X Chapecoense - 22032026
+Brasileirão - Botafogo X Mirassol - 01042026
 
-Internacional X Chapecoense
+Botafogo X Mirassol
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-19:17 - 19:53
+22:06 - 22:54
 
-No Fogo Com Bronze
+Geladeiras Em Ação
 
-Voando Para O Pará
+Fitness
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-19:19 - 20:02
+21:55 - 22:11
 
 Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
