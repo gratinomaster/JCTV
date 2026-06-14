@@ -1,7 +1,3 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e790a0dc-ce08-4498-a144-68787e7e7bc9/e4c82513-ede3-4d5c-87f7-2521634ebf74/1280x720/match/896/504/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1781430909~acl=/*~hmac=665408e44f031be911692543c4d3088cebd624eff2fcac2803f1914aa0b93561
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e790a0dc-ce08-4498-a144-68787e7e7bc9/e4c82513-ede3-4d5c-87f7-2521634ebf74/1280x720/match/896/504/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1781430909~acl=/*~hmac=665408e44f031be911692543c4d3088cebd624eff2fcac2803f1914aa0b93561
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",CBS News 24/7 -CBS News
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz, https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7" tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",CBS News 24/7 - CBS News
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/b762b652-ba27-41da-a607-133795b485ab:ATL/master.m3u8
