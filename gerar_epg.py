@@ -12,6 +12,8 @@ M3U_PATH = "NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
 
 EPG_URLS = [
+    "https://iptv-epg.org/files/epg-mx.xml.gz",
+    "https://iptv-epg.org/files/epg-us.xml.gz",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml",
@@ -19,38 +21,21 @@ EPG_URLS = [
 ]
 
 CHANNEL_NAMES = {
-    "tv-globo": "TV Globo",
-    "g1": "G1",
-    "g1-caruaru": "G1 Caruaru",
-    "ge-tv": "ge TV",
-    "cbn-sp": "CBN SP",
-    "cbn-rj": "CBN RJ",
-    "tv-vanguarda": "TV Vanguarda",
-    "tv-verdes-mares": "TV Verdes Mares",
-    "tv-gazeta-es": "TV Gazeta ES",
-    "tv-integracao-jf": "TV Integração Juiz de Fora",
-    "tv-integracao-uberlandia": "TV Integração Uberlândia",
-    "tv-integracao-uberaba": "TV Integração Uberaba",
-    "rede-amazonica": "Rede Amazônica",
-    "tv-liberal": "TV Liberal",
-    "ABC.News.Live.us2": "ABC News Live",
-    "FRANCE 24 HD": "France 24 Español",
-    "DW-TV": "DW",
-    "Bloomberg.HD.us2": "Bloomberg TV",
-    "ESTRELLA.NEWS.us2": "Estrella News",
-    "al-jazeera-english": "Al Jazeera English",
-    "rt-espanol": "RT Español",
-    "24-horas-rtve": "24 Horas RTVE",
-    "univision-noticias": "Univision Noticias",
-    "telemundo": "Telemundo",
+    "Univision.mx": "Univision Noticias",
+    "adn40.mx": "ADN 40",
+    "MilenioTV.mx": "Milenio Televisión",
+    "ImagenTV.mx": "Imagen TV",
+    "RussiaToday.mx": "RT Noticias",
+    "DWEnglish.us": "DW English",
+    "France24enEspanol.us": "France 24 Español",
+    "AlJazeera.us": "Al Jazeera English",
+    "ABCNewsLive.us": "ABC News Live",
+    "CBSNews.us": "CBS News 24/7",
+    "Telemundo.us": "Telemundo Noticias",
+    "EstrellaTV.us": "Estrella News",
 }
 
-EXACT_ALIASES = {
-    "tv-globo": ["tv-globo"],
-    "ge-tv": ["ge-tv", "ge tv hd", "ge"],
-    "tv-gazeta-es": ["gazeta"],
-    "tv-verdes-mares": ["tv-verdes-mares", "tvverdesmares"],
-}
+EXACT_ALIASES = {}
 
 GENERIC_SCHEDULE = [
     ("04:00", "01:00", "Hora 1"),
@@ -260,8 +245,9 @@ def main():
             sched = GENERIC_SCHEDULE_G1
         elif wid in ("cbn", "cbn-sp", "cbn-rj"):
             sched = GENERIC_SCHEDULE_CBN
-        elif wid in ("ABC.News.Live.us2", "FRANCE 24 HD", "DW-TV", "Bloomberg.HD.us2", "ESTRELLA.NEWS.us2",
-                     "al-jazeera-english", "rt-espanol", "24-horas-rtve", "univision-noticias", "telemundo"):
+        elif wid in ("ABCNewsLive.us", "CBSNews.us", "AlJazeera.us", "DWEnglish.us",
+                     "France24enEspanol.us", "Telemundo.us", "EstrellaTV.us",
+                     "Univision.mx", "adn40.mx", "MilenioTV.mx", "ImagenTV.mx", "RussiaToday.mx"):
             sched = GENERIC_SCHEDULE_NEWS
         else:
             sched = GENERIC_SCHEDULE
