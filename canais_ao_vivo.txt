@@ -1,65 +1,69 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/06/2026 16:20:48
+Data de extração: 14/06/2026 19:25:28
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 15:50 - 16:24
+2. 19:05 - 19:39
 
-Terra de Minas
+A Reinvenção Do Flamengo
+
+Segurando a Onda
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-15:30 - 17:19
+18:00 - 20:29
 
-Jornal GloboNews - Edição do Meio-dia
+Jornal GloboNews - Edição das 15h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 14
+14
 
-16:06 - 16:50
+19:17 - 19:57
 
-Vila, A
+Sessão Nostalgia - Toma Lá Da
 
-Betes Motel
+Família Vende Tudo
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-14:35 - 16:57
+19:02 - 20:59
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Holanda X Japão - Dallas, Eua
+
+Holanda X Japão - Dallas,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 15:59 - 16:46
+6. 19:13 - 19:42
 
-Giro Da Rodada
+Brasileirão - Internacional X Chapecoense - 22032026
 
-Brasileirão - 7ª Rodada
+Internacional X Chapecoense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: 12
 A12
 
-16:13 - 16:46
+19:17 - 19:53
 
-Diogo Na Cozinha
+No Fogo Com Bronze
 
-Dilsinho e Arlindinho
+Voando Para O Pará
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 10
-10
+8. Classificação etária: 14
+14
 
-16:06 - 16:41
+19:19 - 20:02
 
-Rock Story
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
