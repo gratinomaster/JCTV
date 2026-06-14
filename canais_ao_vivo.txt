@@ -1,69 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/06/2026 03:57:26
+Data de extração: 14/06/2026 14:00:40
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 03:40 - 04:19
+2. Autoclassificação etária: livre
+AL
 
-Copa E Cozinha
+14:00 - 14:59
 
-Vampeta, Luizão e Edilson Capetinha
+Globo Rural
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 14:00 - 15:29
 
-03:00 - 04:29
-
-Jornal GloboNews Edição da Meia-noite
+Globo Rural
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-03:35 - 04:26
+13:32 - 14:02
 
-Vai Que Cola
+Tô De Graça
 
-Vai Que Cola - A Volta De Tiziu - 4ª Temp
+A Rainha do Bonde do Lixão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-03:21 - 05:21
+13:58 - 16:22
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Austrália X Turquia - Vancouver, Canadá
-
-Austrália X Turquia, Vancouver,Canadá
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:42 - 04:12
+6. Ao vivo
 
-Brasileirão - Fluminense X Athletico-Pr - 15032026
+13:44 - 15:58
 
-Fluminense X Athletico-Pr
+Campeonato Brasileiro Série B - Ao Vivo
+
+São Bernardo-SP X Sport
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 14
-A14
+7. Autoclassificação etária: livre
+AL
 
-03:21 - 04:46
+13:26 - 14:12
 
-Angélica Ao Vivo
+Geladeiras Em Ação
 
-Xuxa + Milton Cunha + Ana Beatriz Barbosa + Convidado Surpresa
+Prática
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 10
+10
 
-03:38 - 04:22
+13:50 - 14:33
 
-Paraíso
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
