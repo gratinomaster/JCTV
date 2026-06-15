@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/06/2026 22:08:19
+Data de extração: 15/06/2026 12:11:46
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-21:25 - 22:29
+11:20 - 12:19
 
 Comédia Na Madruga - Vai Que Cola
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:29
+10:00 - 12:29
 
-Jornal GloboNews Edição das 18h
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-22:01 - 22:48
+11:29 - 12:14
 
-Vai Que Cola
+Vila, A
 
-Vai Que Cola - Chá Das Fadas - 4ª Temp
+Entre Tapas E Beijos
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-22:00 - 22:58
+12:02 - 15:01
 
-Aquecimento sportv
-
-Costa Do Marfim X Equador
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:07 - 22:36
+6. 11:42 - 12:12
 
-Brasileirão - Botafogo X Mirassol - 01042026
+Brasileirão - Athletico-Pr X Chapecoense - 12042026
 
-Botafogo X Mirassol
+Athletico-PR X Chapecoense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-22:06 - 22:54
+11:34 - 12:33
 
-Geladeiras Em Ação
+Decora
 
-Fitness
+Edícula para jogos e visitas
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-21:55 - 22:11
+12:02 - 12:47
 
-Salve Jorge
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
