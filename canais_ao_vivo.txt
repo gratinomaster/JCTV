@@ -1,69 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 15/06/2026 19:03:36
+Data de extração: 15/06/2026 23:02:38
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 18:30 - 19:24
-
-Vai Que Cola
-
-A Grande Surpresa
-   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
-
-3. Ao vivo
-
-19:00 - 20:59
-
-GloboNews Mais
-   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
-
-4. Autoclassificação etária: 12
+2. Autoclassificação etária: 12
 A12
 
-18:46 - 19:39
+22:00 - 23:39
 
-Vai Que Cola
+Cinema Especial - O Shaolin Do Sertão
 
-Vai Que Cola - Mudança De Hábito - 4ª Temp
+O Shaolin Do Sertão
+   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
+
+3. 23:00 - 00:59
+
+GloboNews Em Pauta
+   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
+
+4. Classificação etária: 12
+12
+
+23:02 - 23:36
+
+Sessão Nostalgia - A Grande Fa
+
+Um homem de famílias
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-17:58 - 19:59
+21:29 - 23:54
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Bélgica X Egito - Seattle, Eua
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Arábia Saudita X Uruguai - Miami, Eua
 
-Bélgica X Egito - Seatle,EUA
+Arábia Saudita X Uruguai - Miami,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 18:44 - 19:13
+6. 22:33 - 23:03
 
-Brasileirão - Bragantino X Remo - 19042026
+Brasileirão - Grêmio X Coritiba - 26042026
 
-Bragantino X Remo
+Grêmio X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-19:03 - 19:33
+22:47 - 23:47
 
-Que Marravilha!
+Que Seja Doce
 
-Cassoulet de dois
+O bolo De Desenho Animado
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 10
-10
+8. Classificação etária: 14
+14
 
-18:46 - 19:14
+22:44 - 23:11
 
-Rock Story
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
