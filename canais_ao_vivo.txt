@@ -1,68 +1,69 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 15/06/2026 12:11:46
+Data de extração: 15/06/2026 19:03:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 18:30 - 19:24
 
-11:20 - 12:19
+Vai Que Cola
 
-Comédia Na Madruga - Vai Que Cola
+A Grande Surpresa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+19:00 - 20:59
 
-GloboNews Em Ponto
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-11:29 - 12:14
+18:46 - 19:39
 
-Vila, A
+Vai Que Cola
 
-Entre Tapas E Beijos
+Vai Que Cola - Mudança De Hábito - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-12:02 - 15:01
+17:58 - 19:59
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Bélgica X Egito - Seattle, Eua
+
+Bélgica X Egito - Seatle,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:42 - 12:12
+6. 18:44 - 19:13
 
-Brasileirão - Athletico-Pr X Chapecoense - 12042026
+Brasileirão - Bragantino X Remo - 19042026
 
-Athletico-PR X Chapecoense
+Bragantino X Remo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-11:34 - 12:33
+19:03 - 19:33
 
-Decora
+Que Marravilha!
 
-Edícula para jogos e visitas
+Cassoulet de dois
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: 10
+10
 
-12:02 - 12:47
+18:46 - 19:14
 
-Vale Tudo
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
