@@ -18,6 +18,7 @@ EPG_URLS = [
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://i.mjh.nz/SamsungTVPlus/us.xml.gz",
 ]
 
 CHANNEL_NAMES = {
@@ -35,7 +36,20 @@ CHANNEL_NAMES = {
     "EstrellaTV.us": "Estrella News",
 }
 
-EXACT_ALIASES = {}
+EXACT_ALIASES = {
+    "Univision.mx": ["n+ univision"],
+    "adn40.mx": ["adn 40"],
+    "MilenioTV.mx": ["milenio television"],
+    "ImagenTV.mx": ["imagen tv", "imagen television"],
+    "RussiaToday.mx": ["rt noticias", "rt español"],
+    "DWEnglish.us": ["dw english", "dw"],
+    "France24enEspanol.us": ["france 24"],
+    "AlJazeera.us": ["al jazeera"],
+    "ABCNewsLive.us": ["abc news live"],
+    "CBSNews.us": ["cbs news"],
+    "Telemundo.us": ["telemundo"],
+    "EstrellaTV.us": ["estrella tv", "estrella news"],
+}
 
 GENERIC_SCHEDULE = [
     ("04:00", "01:00", "Hora 1"),
@@ -163,13 +177,13 @@ def find_source_channel_id(tvg_id, epg_roots):
         for ch in root.findall("channel"):
             cid = ch.get("id", "").lower().strip()
             for alias in aliases:
-                if cid == alias.lower():
+                if alias.lower() in cid or cid == alias.lower():
                     return ch.get("id"), root
             dn = ch.find("display-name")
             if dn is not None and dn.text:
                 dnt = dn.text.strip().lower()
                 for alias in aliases:
-                    if dnt == alias.lower():
+                    if alias.lower() in dnt or dnt == alias.lower():
                         return ch.get("id"), root
     return None, None
 
