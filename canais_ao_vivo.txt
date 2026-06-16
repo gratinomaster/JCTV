@@ -1,67 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/06/2026 03:59:14
+Data de extração: 16/06/2026 11:09:37
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 03:15 - 04:29
+2. Autoclassificação etária: livre
+AL
 
-Papo De Segunda
+11:00 - 11:34
 
-Tua Paixão Não Me Diverte / Chá De Despedida / Péssimas Maneiras
+Pequenas Empresas &amp; Grandes Negócios
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+10:00 - 12:29
 
-Jornal GloboNews Edição da Meia-noite
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-03:56 - 04:38
+11:05 - 11:13
 
-Sessão Nostalgia - A Grande Fa
+Tvz
 
-Um homem chamado Flor
+Di Propósito - Mesmo Se O Mundo Acabar
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 03:06 - 04:07
+5. 10:35 - 11:29
 
-Copa Do Mundo Da FIFA 2026™
+Que Copa É Essa?
 
-Bélgica X Egito - Seatle,EUA
+Episódio 1 - Copa Do Mundo De 1930 A 1938
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:58 - 04:31
+6. 10:59 - 11:28
 
-Brasileirão - Flamengo X Vasco - 03052026
+Brasileirão - Grêmio X Flamengo - 10052026
 
-Flamengo X Vasco
+Grêmio X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
+7. Autoclassificação etária: livre
+AL
 
-03:46 - 04:36
+11:06 - 12:03
 
-Avisa Lá Que Eu Vou
+Santa Ajuda
 
-Piranhas
+Sala + Oficina E Escritório De Marcenaria+ Cantinho De Ginástica – Léo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-03:52 - 04:38
+10:57 - 11:17
 
-Paraíso
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
