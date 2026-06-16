@@ -1,72 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/06/2026 20:50:07
+Data de extração: 16/06/2026 22:53:15
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: 12
+A12
 
-19:50 - 21:04
+22:30 - 23:29
 
-Quem Ama Cuida
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-20:24 - 21:00
+22:22 - 23:05
 
-Sessão Nostalgia Tapas E Beijo
+Sessão Nostalgia - Toma Lá Da
 
-O Vestido Lilás
+A Caminho das Estrelas
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-18:23 - 21:05
+21:18 - 23:19
 
-Copa Do Mundo Da FIFA 2026™
-
-França X Senegal - Nova Iorque,EUA
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 20:28 - 20:59
+6. 22:27 - 22:56
 
-Brasileirão - Coritiba X Bahia - 25052026
+Brasileirão - Vitória X Internacional - 23052026
 
-Coritiba X Bahia
+Vitória X Internacional
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-20:35 - 21:21
+22:42 - 23:44
 
-Que Marravilha!
+Que Seja Doce
 
-Não Chego Nem Perto!
+Doces Com Proporções Modernistas
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 12
-A12
+8. Classificação etária: 14
+14
 
-20:21 - 21:10
+22:38 - 23:10
 
-Penso Em Ti
-
-Capítulo 61
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
