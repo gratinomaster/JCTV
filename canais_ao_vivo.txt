@@ -1,66 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/06/2026 11:09:37
+Data de extração: 16/06/2026 16:50:03
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
+2. Ao vivo
+
+Autoclassificação etária: livre
 AL
 
-11:00 - 11:34
+16:25 - 17:44
 
-Pequenas Empresas &amp; Grandes Negócios
+Jornal Hoje
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+16:00 - 18:59
 
-GloboNews Em Ponto
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-11:05 - 11:13
+16:27 - 17:11
 
-Tvz
+Vila, A
 
-Di Propósito - Mesmo Se O Mundo Acabar
+O Casamento De Isabela
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 10:35 - 11:29
+5. Ao vivo
 
-Que Copa É Essa?
+15:00 - 17:57
 
-Episódio 1 - Copa Do Mundo De 1930 A 1938
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 10:59 - 11:28
+6. 16:27 - 16:57
 
-Brasileirão - Grêmio X Flamengo - 10052026
+Brasileirão - Chapecoense X Remo - 17052026
 
-Grêmio X Flamengo
+Chapecoense X Remo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-11:06 - 12:03
+16:36 - 17:04
 
-Santa Ajuda
+Eliana
 
-Sala + Oficina E Escritório De Marcenaria+ Cantinho De Ginástica – Léo
+Xuxa e Família
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-10:57 - 11:17
+16:29 - 16:50
 
 Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
