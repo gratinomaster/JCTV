@@ -1,70 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 15/06/2026 23:02:38
+Data de extração: 16/06/2026 03:59:14
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 03:15 - 04:29
 
-22:00 - 23:39
+Papo De Segunda
 
-Cinema Especial - O Shaolin Do Sertão
-
-O Shaolin Do Sertão
+Tua Paixão Não Me Diverte / Chá De Despedida / Péssimas Maneiras
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 23:00 - 00:59
+3. Ao vivo
 
-GloboNews Em Pauta
+03:00 - 03:59
+
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-23:02 - 23:36
+03:56 - 04:38
 
 Sessão Nostalgia - A Grande Fa
 
-Um homem de famílias
+Um homem chamado Flor
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 03:06 - 04:07
 
-21:29 - 23:54
+Copa Do Mundo Da FIFA 2026™
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Arábia Saudita X Uruguai - Miami, Eua
-
-Arábia Saudita X Uruguai - Miami,EUA
+Bélgica X Egito - Seatle,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:33 - 23:03
+6. 03:58 - 04:31
 
-Brasileirão - Grêmio X Coritiba - 26042026
+Brasileirão - Flamengo X Vasco - 03052026
 
-Grêmio X Coritiba
+Flamengo X Vasco
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 12
+12
 
-22:47 - 23:47
+03:46 - 04:36
 
-Que Seja Doce
+Avisa Lá Que Eu Vou
 
-O bolo De Desenho Animado
+Piranhas
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-22:44 - 23:11
+03:52 - 04:38
 
-O Rei Do Gado
+Paraíso
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
