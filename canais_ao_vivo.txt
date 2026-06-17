@@ -1,66 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/06/2026 15:25:53
+Data de extração: 17/06/2026 20:11:39
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-14:55 - 15:59
+19:30 - 20:29
 
-Mais Você
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
-
-14:41 - 15:27
-
-Vai Que Cola
-
-Vai Que Cola - Chá Das Fadas - 4ª Temp
-   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
-
-5. 15:18 - 15:27
-
-1/1 COPA DO MUNDO - BRASIL x MARROCOS - 13/06/2026
-   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
-
-6. 15:20 - 16:19
-
-Brasileirão - Santos X São Paulo - 04022026
-
-Santos X São Paulo
-   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
-
-7. Classificação etária: 12
+4. Classificação etária: 12
 12
 
-15:17 - 16:01
+19:42 - 20:17
 
-Alma De Cozinheira
+Sessão Nostalgia Tapas E Beijo
 
-Duda Beat e Fabíula Nascimento
+Tudo Pelo Fábio Jr
+   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+
+5. Ao vivo
+
+19:10 - 21:53
+
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Inglaterra X Croácia, Dallas, Eua
+
+Inglaterra X Croácia
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+6. 19:15 - 20:14
+
+Brasileirão - Bahia X Fluminense - 05022026
+
+Bahia X Fluminense
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+7. Autoclassificação etária: livre
+AL
+
+20:02 - 20:33
+
+Tempero De Família
+
+Honduras
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-15:03 - 15:47
+19:12 - 20:21
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
