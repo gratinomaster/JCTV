@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/06/2026 04:00:30
+Data de extração: 17/06/2026 10:53:51
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 14
+A14
 
-03:55 - 04:24
+10:00 - 10:59
 
-A Nobreza do Amor
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 04:00 - 05:59
+3. Ao vivo
 
-GloboNews Em Pauta
+10:00 - 12:29
+
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-03:33 - 04:05
+10:52 - 11:00
 
-Aquecimento Rock In Rio
+Humor Multishow
 
-Sepultura Live at Hellfest 2022
+Episódio 3 - Golfinho
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
-
-03:11 - 05:12
+5. 10:29 - 11:29
 
 Copa Do Mundo Da FIFA 2026™
 
-Áustria X Jordânia - São Francisco,EUA
+França X Senegal - Nova Iorque,EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:55 - 04:56
+6. 10:28 - 11:27
 
-Giro Da Rodada
+Campeonato Brasileiro De Futebol
 
-Brasileirão - 18ª Rodada
+Fluminense X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
+7. Autoclassificação etária: livre
+AL
 
-03:30 - 04:15
+10:49 - 11:43
 
-Avisa Lá Que Eu Vou
+Santa Ajuda
 
-Amazônia Brasileira
+Despensa da Fabiana e da Ieda
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-03:54 - 04:35
+10:18 - 11:20
 
-Paraíso
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
