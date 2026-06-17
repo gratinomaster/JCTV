@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/06/2026 20:11:39
+Data de extração: 17/06/2026 22:44:56
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-19:30 - 20:29
+22:25 - 22:49
 
-Coração Acelerado
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-19:42 - 20:17
+22:01 - 22:56
 
-Sessão Nostalgia Tapas E Beijo
+Sessão Nostalgia - Toma Lá Da
 
-Tudo Pelo Fábio Jr
+Especial de Fim de Ano
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:10 - 21:53
+22:13 - 01:07
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Inglaterra X Croácia, Dallas, Eua
-
-Inglaterra X Croácia
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:15 - 20:14
+6. 22:12 - 23:13
 
-Brasileirão - Bahia X Fluminense - 05022026
+Brasileirão - Cruzeiro X Coritiba - 05022026
 
-Bahia X Fluminense
+Cruzeiro X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-20:02 - 20:33
+22:44 - 23:45
 
-Tempero De Família
+Que Seja Doce
 
-Honduras
+Doces Da Palmirinha
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-19:12 - 20:21
+22:39 - 23:19
 
-Amor À Vida
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
