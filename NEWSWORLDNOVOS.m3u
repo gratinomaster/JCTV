@@ -1,5 +1,4 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz"
-url-tvg="https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz"
 #EXTINF:-1 tvg-id="Univision.mx" tvg-logo="https://iptv-epg.org/images/fvKmINMYNkVgrxSxY-TDJK8E1tgQQRJKW_OiBozHV3jVdOVPAQiPmcr6sQZ2fuYp25p2LE3tXm8YCzGph_kY5OZct1_IR7YHI43coF6BHoc6Bw" group-title="NEWS WORLD",Univision Noticias
 https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="adn40.mx" tvg-logo="https://iptv-epg.org/images/ADBN1fq3hOsfMtZnXz0wiQGUDCaLvwX-tf5ewuQQOZVT9-yufrJK1m44MggceOzp5z-4PK4hwvOKe5YAtsc0F-qzTmRqbX5bpc38IAHx" group-title="NEWS WORLD",ADN 40
