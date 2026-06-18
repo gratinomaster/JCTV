@@ -30,25 +30,41 @@ CHANNEL_NAMES = {
     "DWEnglish.us": "DW English",
     "France24enEspanol.us": "France 24 Español",
     "AlJazeera.us": "Al Jazeera English",
-    "ABCNewsLive.us": "ABC News Live",
-    "CBSNews.us": "CBS News 24/7",
-    "Telemundo.us": "Telemundo Noticias",
+    "NoticiasTelemundoAHORA.us": "Telemundo Noticias",
     "EstrellaTV.us": "Estrella News",
+    "CGTNEspanol.us": "CGTN Español",
+    "CGTNCCTVNews.us": "CGTN News",
+    "Bloomberg.us": "Bloomberg Television",
+    "CanalOnce.mx": "Canal Once",
+    "Canal22.mx": "Canal 22",
+    "Canal14.mx": "Canal 14",
+    "Euronews.us": "Euronews",
+    "BBCWorldNews.us": "BBC World News",
+    "NHKWorld.us": "NHK World",
+    "Canal6CDMX.mx": "Canal 6 CDMX",
 }
 
 EXACT_ALIASES = {
-    "Univision.mx": ["n+ univision"],
+    "Univision.mx": ["n+ univision", "univision noticias"],
     "adn40.mx": ["adn 40"],
     "MilenioTV.mx": ["milenio television"],
     "ImagenTV.mx": ["imagen tv", "imagen television"],
     "RussiaToday.mx": ["rt noticias", "rt español"],
     "DWEnglish.us": ["dw english", "dw"],
-    "France24enEspanol.us": ["france 24"],
-    "AlJazeera.us": ["al jazeera"],
-    "ABCNewsLive.us": ["abc news live"],
-    "CBSNews.us": ["cbs news"],
-    "Telemundo.us": ["telemundo"],
+    "France24enEspanol.us": ["france 24", "france 24 español"],
+    "AlJazeera.us": ["al jazeera", "al jazeera english"],
+    "NoticiasTelemundoAHORA.us": ["telemundo", "telemundo noticias"],
     "EstrellaTV.us": ["estrella tv", "estrella news"],
+    "CGTNEspanol.us": ["cgtn español", "cgtn espanol"],
+    "CGTNCCTVNews.us": ["cgtn news", "cctv news"],
+    "Bloomberg.us": ["bloomberg", "bloomberg television"],
+    "CanalOnce.mx": ["canal once"],
+    "Canal22.mx": ["canal 22"],
+    "Canal14.mx": ["canal 14"],
+    "Euronews.us": ["euronews"],
+    "BBCWorldNews.us": ["bbc world news", "bbc"],
+    "NHKWorld.us": ["nhk world", "nhk"],
+    "Canal6CDMX.mx": ["canal 6", "canal 6 cdmx"],
 }
 
 GENERIC_SCHEDULE = [
@@ -260,8 +276,10 @@ def main():
         elif wid in ("cbn", "cbn-sp", "cbn-rj"):
             sched = GENERIC_SCHEDULE_CBN
         elif wid in ("ABCNewsLive.us", "CBSNews.us", "AlJazeera.us", "DWEnglish.us",
-                     "France24enEspanol.us", "Telemundo.us", "EstrellaTV.us",
-                     "Univision.mx", "adn40.mx", "MilenioTV.mx", "ImagenTV.mx", "RussiaToday.mx"):
+                     "France24enEspanol.us", "NoticiasTelemundoAHORA.us", "EstrellaTV.us",
+                     "Univision.mx", "adn40.mx", "MilenioTV.mx", "ImagenTV.mx", "RussiaToday.mx",
+                     "CGTNEspanol.us", "CGTNCCTVNews.us", "Bloomberg.us",
+                     "Euronews.us", "BBCWorldNews.us", "NHKWorld.us"):
             sched = GENERIC_SCHEDULE_NEWS
         else:
             sched = GENERIC_SCHEDULE
