@@ -1,69 +1,71 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/06/2026 03:51:33
+Data de extração: 18/06/2026 10:19:25
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 03:35 - 04:04
+2. Autoclassificação etária: 14
+A14
 
-A Reinvenção Do Flamengo
+10:00 - 10:54
 
-Segurando a Onda
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+10:00 - 12:29
 
-Jornal GloboNews Edição da Meia-noite
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 10
+10
 
-03:45 - 04:20
+10:00 - 10:26
 
-Sessão Nostalgia Tapas E Beijo
+Chaves
 
-Tudo Pelo Fábio Jr
+O Estilingue
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. Autoclassificação etária: livre
+AL
 
-01:17 - 03:55
+09:51 - 10:35
 
-Copa Do Mundo Da FIFA 2026™
+Sessão sportv - Copa Do Mundo
 
-Uzbequistão X Colômbia
+Copa E Cozinha - Ep. 3
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:12 - 04:12
+6. 10:03 - 10:57
 
-Brasileirão - Vasco X Bahia - 11022026
+Giro Da Rodada
 
-Vasco X Bahia
+Brasileirão - 18ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-02:47 - 03:51
+09:46 - 10:44
 
-Que História É Essa, Porchat?
+Fazendo A Festa
 
-Talitha Morete + Rafael Infante + Bruno Cabrerizo
+Matteus e Guilherme: Flamengo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-03:11 - 04:01
+09:48 - 10:40
 
-Paraíso
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
