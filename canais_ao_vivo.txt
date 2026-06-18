@@ -1,68 +1,72 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/06/2026 15:21:10
+Data de extração: 18/06/2026 20:24:55
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 14
+A14
 
-14:55 - 15:59
+20:00 - 20:59
 
-Mais Você
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-14:46 - 15:38
+20:19 - 21:00
 
-Vai Que Cola
+Sessão Nostalgia Tapas E Beijo
 
-Vai Que Cola - Tetezuda Fits - 4ª Temp
+Fátima E Sueli São Despejadas
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-14:57 - 15:45
+17:53 - 20:56
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™
+
+Suíça X Bósnia E Herzegovina - Los Angeles, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 14:51 - 15:49
+6. 20:12 - 20:42
 
-Brasileirão - Cruzeiro X Corinthians - 25022026
+Brasileirão - Vasco X Palmeiras - 12032026
 
-Cruzeiro X Corinthians
+Vasco X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-14:52 - 15:34
+20:03 - 20:35
 
-No Fogo Com Bronze
+Tempero De Família
 
-Pelos Aires
+Cerveja
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Autoclassificação etária: 12
+A12
 
-15:16 - 16:03
+20:06 - 21:05
 
-Anjo Mau
+Penso Em Ti
+
+Capítulo 63
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
