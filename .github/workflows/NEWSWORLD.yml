@@ -45,6 +45,7 @@ jobs:
           use leitor de imagens para ver se o tvg logo está correto
           não quero .svg
           o logo das emissoras tem que ser atual
+          veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija
           EOF
 
       - name: Run OpenCode
