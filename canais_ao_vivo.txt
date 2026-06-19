@@ -1,70 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/06/2026 22:56:10
+Data de extração: 19/06/2026 04:10:56
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-22:10 - 22:59
+03:40 - 04:19
 
-Coração Acelerado
+Jornal da Globo
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 04:00 - 05:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+GloboNews Em Pauta
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: livre
+AL
 
-22:56 - 23:32
+03:43 - 04:15
 
-Sessão Nostalgia - A Grande Fa
+Aquecimento Rock In Rio
 
-Só love
+Gilsons - The Moods 2023
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:06 - 23:10
+03:05 - 05:13
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:11 - 23:07
+6. 03:47 - 04:40
 
 Giro Da Rodada
 
-Brasileirão - 5ª Rodada
+Brasileirão - 6ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 12
+12
 
-22:45 - 23:46
+03:50 - 04:35
 
-Que Seja Doce
+Avisa Lá Que Eu Vou
 
-Técnica Mista
+Uruana
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-22:25 - 23:09
+03:47 - 04:40
 
-O Rei Do Gado
+Paraíso
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
