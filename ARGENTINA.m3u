@@ -31,7 +31,7 @@ https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-
 
 #EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://i.imgur.com/4hYYpiu.png" group-title="ARGENTINA",TV PUBLICA HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
+https://ola1.com.ar/tvpublica/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal10Cordoba.ar" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="ARGENTINA",CANAL 10 CORDOBA
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
