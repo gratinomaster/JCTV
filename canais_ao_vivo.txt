@@ -1,66 +1,71 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 19/06/2026 15:13:18
+Data de extração: 19/06/2026 19:48:40
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 14
+A14
 
-14:55 - 15:59
+19:45 - 20:44
 
-Mais Você
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-14:46 - 16:35
+19:37 - 20:17
 
-Cine Hahaha
+Sessão Nostalgia Tapas E Beijo
 
-De Pernas Pro Ar 2
+Copacabana Vira Um Grande "Arraiá"
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 14:16 - 15:59
-
-Seleção Copa
-   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
-
-6. 15:12 - 16:06
-
-Giro Da Rodada
-
-Brasileirão - 8ª Rodada
-   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
-
-7. Autoclassificação etária: 10
+5. Autoclassificação etária: 10
 A10
 
-14:28 - 15:22
+19:06 - 19:54
 
-Food Truck - A Batalha
+Sessão sportv - Copa Do Mundo
 
-Frango
+Vai, Brasil! - Ep. 1
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+6. 19:35 - 20:04
+
+Brasileirão - Palmeiras X Grêmio - 02042026
+
+Palmeiras X Grêmio
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+7. Autoclassificação etária: livre
+AL
+
+19:09 - 19:51
+
+Que Marravilha!
+
+A Mãe Coragem
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-15:04 - 15:49
+19:20 - 20:30
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
