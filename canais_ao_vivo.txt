@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 20/06/2026 14:00:54
+Data de extração: 20/06/2026 19:24:55
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-11:30 - 14:44
+19:15 - 19:54
 
-É de Casa
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-13:00 - 14:19
+18:00 - 20:59
 
-Jornal GloboNews - Edição das 10h
+Jornal GloboNews - Edição das 15h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-13:57 - 14:44
+18:46 - 19:33
 
-Vila, A
+Vai Que Cola
 
-O Casamento De Isabela
+Vai Que Cola - Chá Das Fadas - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-13:58 - 16:27
+18:51 - 20:54
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Alemanha X Costa Do Marfim
+
+Alemanha X Costa Do Marfim - Toronto, Canadá
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:05 - 14:02
+6. 18:32 - 19:30
 
 Giro Da Rodada
 
-Brasileirão - 12ª Rodada
+Brasileirão - 13ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Classificação etária: 14
 14
 
-13:39 - 14:43
+18:39 - 19:44
 
 Que História É Essa, Porchat?
 
 Alanis Guillen + Luis Salem + Bianca Rinaldi
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-13:40 - 14:31
+19:24 - 20:21
 
-Minha Vida Perfeita
-
-Capítulo 34
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
