@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 19/06/2026 22:03:19
+Data de extração: 20/06/2026 03:33:48
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-21:50 - 22:29
+03:15 - 04:04
 
-Coração Acelerado
+Vai Que Cola
+
+A Morte de Terezinha
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 03:59
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-21:47 - 22:18
+03:30 - 04:11
 
-Tô De Graça
+Sessão Nostalgia - A Grande Fa
 
-Pulando a Cerca Errada
+Mudanças Carrara
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:00 - 22:14
+02:55 - 04:29
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:01 - 22:31
+6. 03:31 - 04:01
 
-Brasileirão - Coritiba X Fluminense - 04042026
+Brasileirão - Remo X Vasco - 11042026
 
-Coritiba X Fluminense
+Remo X Vasco
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-22:02 - 22:49
+02:33 - 03:38
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Ovo
+Luciana Gimenez + Mateus Carrieri + Fabão
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:46 - 22:29
+02:38 - 03:45
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
