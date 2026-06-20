@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 20/06/2026 11:17:52
+Data de extração: 20/06/2026 14:00:54
 Total de canais: 10
 ================================================================================
 
@@ -11,56 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-10:50 - 11:29
+11:30 - 14:44
 
-Pequenas Empresas &amp; Grandes Negócios
+É de Casa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-11:00 - 11:59
+13:00 - 14:19
 
-Jornal GloboNews - Edição das 08h
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-11:00 - 11:29
+13:57 - 14:44
 
-Tô De Graça
+Vila, A
 
-Segue de Volta
+O Casamento De Isabela
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 11:13 - 11:23
+5. Ao vivo
 
-1/1 GIRO COPA DO MUNDO - SUIÇA X BOSNIA
+13:58 - 16:27
+
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:06 - 11:35
+6. 13:05 - 14:02
 
-Brasileirão - Coritiba X Atlético-Mg - 19042026
+Giro Da Rodada
 
-Coritiba X Atlético-MG
+Brasileirão - 12ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
+7. Classificação etária: 14
+14
 
-10:50 - 11:36
+13:39 - 14:43
 
-Alma De Cozinheira
+Que História É Essa, Porchat?
 
-Marcelo Mello Jr. e Péricles
+Alanis Guillen + Luis Salem + Bianca Rinaldi
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Autoclassificação etária: 14
+A14
 
-11:13 - 12:07
+13:40 - 14:31
 
-Paraíso
+Minha Vida Perfeita
+
+Capítulo 34
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
