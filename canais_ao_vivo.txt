@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 20/06/2026 19:24:55
+Data de extração: 20/06/2026 22:05:46
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-19:15 - 19:54
+20:30 - 22:29
 
-Coração Acelerado
+Caldeirão Com Mion
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-18:00 - 20:59
+21:00 - 22:59
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 14
+14
 
-18:46 - 19:33
+21:42 - 22:20
 
-Vai Que Cola
+Sessão Nostalgia - Toma Lá Da
 
-Vai Que Cola - Chá Das Fadas - 4ª Temp
+Revolução no Jambalaya
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-18:51 - 20:54
+22:01 - 00:24
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Alemanha X Costa Do Marfim
+Troca De Passes - Copa Do Mundo
 
-Alemanha X Costa Do Marfim - Toronto, Canadá
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 18:32 - 19:30
+6. 21:56 - 22:26
 
-Giro Da Rodada
+Brasileirão - São Paulo X Bahia - 03052026
 
-Brasileirão - 13ª Rodada
+São Paulo X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-18:39 - 19:44
+21:34 - 22:20
 
-Que História É Essa, Porchat?
+Cozinha Prática Com Rita Lobo
 
-Alanis Guillen + Luis Salem + Bianca Rinaldi
+Risoni De Espinafre Com Gengibre, Iogurte E Farofinha De Pão
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:24 - 20:21
+21:49 - 22:31
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
