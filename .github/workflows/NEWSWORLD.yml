@@ -29,7 +29,6 @@ jobs:
         run: |
           cat << 'EOF' > prompt.txt
           acesse MÉXICO.m3u
-          coloque group-title="MÉXICO" em todos os canais
           adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
           adcione tvg-logo em canais que estejam sem ou invalidos
           exclua os canais offline
