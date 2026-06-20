@@ -91,8 +91,9 @@ def main():
         name = extinf.split(',')[-1]
         print(f"  REMOVED: {name[:60]}")
     
-    # Build new file content
-    new_lines = ['#EXTM3U\n']
+    # Build new file content - preserve existing #EXTM3U header with attributes
+    header_line = lines[0] if lines and lines[0].startswith('#EXTM3U') else '#EXTM3U\n'
+    new_lines = [header_line]
     for extinf, url in working:
         new_lines.append(extinf + '\n')
         new_lines.append(url + '\n')
