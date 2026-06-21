@@ -43,13 +43,14 @@ EPG_URLS = [
 ]
 
 # --- Mapeamento completo de canais ---
-# (keyword, tvg-id, tvg-name, tvg-logo, preferred_url_filter)
+# (keywords list, tvg-id, tvg-name, tvg-logo, preferred_url_filter)
 CHANNEL_MAP = OrderedDict([
     ("ABC News Live", {
         "tvg-id": "ABC.News.Live.us2",
         "tvg-name": "ABC News Live",
         "tvg-logo": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
-        "preferred": lambda u: "akamaized" in u
+        "preferred": lambda u: "akamaized" in u,
+        "match_keywords": ["abc news live", "abcnl", "abc news", "this week with george", "abc news network"]
     }),
     ("Fox Business", {
         "tvg-id": "Fox.Business.HD.us2",
@@ -358,6 +359,10 @@ def identify_channel(extinf_line):
     for name, info in CHANNEL_MAP.items():
         if name.lower() in line_lower:
             return name, info
+        match_kw = info.get("match_keywords", [])
+        for kw in match_kw:
+            if kw in line_lower:
+                return name, info
     return None, None
 
 
@@ -409,10 +414,15 @@ def test_stream_url(url, timeout=15):
             capture_output=True, text=True, timeout=timeout+5
         )
         content = result.stdout
-        if "#EXTM3U" in content or "#EXTINF" in content:
+        # Must start with #EXTM3U or contain #EXTINF to be a valid stream
+        if "#EXTM3U" in content or content.strip().startswith("#EXTM3U"):
             return True
-        if len(content) > 100:
+        if "#EXTINF" in content:
             return True
+        # Check for non-HTML stream content (binary/mpegts)
+        if content and not content.strip().lower().startswith("<!doctype") and not content.strip().lower().startswith("<html"):
+            if len(content) > 100 and "#EXT" in content:
+                return True
         return False
     except:
         return False
