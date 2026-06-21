@@ -1,66 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/06/2026 09:48:50
+Data de extração: 21/06/2026 14:08:25
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: livre
+AL
 
-08:55 - 09:54
+13:40 - 14:09
 
-Quem Ama Cuida
+Auto Esporte
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 09:20 - 09:59
+3. 14:00 - 14:59
 
-Globonews Documento
+Globo Rural
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-09:33 - 09:55
+13:56 - 14:39
 
-Chapolin
+Sessão Nostalgia Tapas E Beijo
 
-O Roubo Das Maçãs / A Fuga / Visita Ao Museu
+Aderbal Freire Vive O Boa Pinta Norberto
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 08:59 - 10:06
+5. Ao vivo
 
-Que Copa É Essa?
+14:00 - 15:22
 
-Episódio 14
+sportv News
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:40 - 10:09
+6. 14:03 - 14:33
 
-Brasileirão - Chapecoense X Remo - 17052026
+Brasileirão - Coritiba X Bahia - 25052026
 
-Chapecoense X Remo
+Coritiba X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-09:05 - 09:51
+13:29 - 14:15
 
-Sábia Ignorância
+Geladeiras Em Ação
 
-Por Que Temos Fé?
+Fitness
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 10
+10
 
-09:47 - 10:26
+13:50 - 14:32
 
-Anjo Mau
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
