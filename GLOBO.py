@@ -110,9 +110,37 @@ def extract_globoplay_data(url):
             driver.quit()
 
 
+def get_tvg_id(title):
+    title_lower = title.lower()
+    if "globonews" in title_lower:
+        return "globonews"
+    if "ge.globo" in title_lower or "ge-tv" in title_lower or "ge tv" in title_lower or "globo esporte" in title_lower:
+        return "ge-tv"
+    if "g1" in title_lower or "jornal" in title_lower:
+        return "globonews"
+    if "sportv" in title_lower:
+        return "sportv"
+    if "multishow" in title_lower:
+        return "multishow"
+    if "premiere" in title_lower:
+        return "premiere"
+    if "gnt" in title_lower:
+        return "gnt"
+    if "cbn" in title_lower:
+        return ""
+    return "tv-globo"
+
+
 def generate_m3u():
+    epg_urls = [
+        "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml",
+        "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml",
+        "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml",
+    ]
+    url_tvg_line = "#EXTM3U " + " ".join(f'url-tvg="{url}"' for url in epg_urls)
+
     with open("lista1.m3u", "w", encoding="utf-8") as output_file:
-        output_file.write("#EXTM3U\n")
+        output_file.write(url_tvg_line + "\n")
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
             futures = {
@@ -128,9 +156,11 @@ def generate_m3u():
 
                     if m3u8_url:
                         thumbnail_url = thumbnail_url or ""
+                        tvg_id = get_tvg_id(title)
+                        tvg_id_attr = f' tvg-id="{tvg_id}"' if tvg_id else ""
 
                         output_file.write(
-                            f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO",{title}\n'
+                            f'#EXTINF:-1{tvg_id_attr} tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO",{title}\n'
                         )
                         output_file.write(f"{m3u8_url}\n")
 
