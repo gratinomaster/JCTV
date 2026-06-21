@@ -1,67 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/06/2026 04:05:21
+Data de extração: 21/06/2026 09:48:50
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 03:45 - 04:59
-
-Saia Justa
-   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
-
-3. Ao vivo
-
-03:00 - 04:29
-
-Jornal GloboNews Edição da Meia-noite
-   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
-
-4. Autoclassificação etária: 12
-A12
-
-03:32 - 04:22
-
-Vai Que Cola
-
-Vai Que Cola - Campanha Do Agasalho - 4ª Temp
-   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
-
-5. Ao vivo
-
-03:03 - 05:04
-
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Tunísia X Japão
-
-Tunísia X Japão - Monterrey, México
-   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
-
-6. 03:55 - 04:24
-
-Brasileirão - Mirassol X Chapecoense - 10052026
-
-Mirassol X Chapecoense
-   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
-
-7. Autoclassificação etária: 14
+2. Autoclassificação etária: 14
 A14
 
-03:21 - 04:45
+08:55 - 09:54
 
-Angélica Ao Vivo
+Quem Ama Cuida
+   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-Camila Pitanga + Rafael Portugal + Mario Sergio Cortella + Convidado Surpresa
+3. 09:20 - 09:59
+
+Globonews Documento
+   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
+
+4. Classificação etária: 12
+12
+
+09:33 - 09:55
+
+Chapolin
+
+O Roubo Das Maçãs / A Fuga / Visita Ao Museu
+   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+
+5. 08:59 - 10:06
+
+Que Copa É Essa?
+
+Episódio 14
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+6. 09:40 - 10:09
+
+Brasileirão - Chapecoense X Remo - 17052026
+
+Chapecoense X Remo
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+7. Autoclassificação etária: 12
+A12
+
+09:05 - 09:51
+
+Sábia Ignorância
+
+Por Que Temos Fé?
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: livre
 L
 
-03:48 - 04:43
+09:47 - 10:26
 
-Paraíso
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
