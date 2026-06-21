@@ -1,70 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 20/06/2026 22:05:46
+Data de extração: 21/06/2026 04:05:21
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. 03:45 - 04:59
 
-20:30 - 22:29
-
-Caldeirão Com Mion
+Saia Justa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 04:29
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Autoclassificação etária: 12
+A12
 
-21:42 - 22:20
+03:32 - 04:22
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-Revolução no Jambalaya
+Vai Que Cola - Campanha Do Agasalho - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-22:01 - 00:24
+03:03 - 05:04
 
-Troca De Passes - Copa Do Mundo
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Tunísia X Japão
 
-TROCA DE PASSES - COPA DO MUNDO
+Tunísia X Japão - Monterrey, México
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:56 - 22:26
+6. 03:55 - 04:24
 
-Brasileirão - São Paulo X Bahia - 03052026
+Brasileirão - Mirassol X Chapecoense - 10052026
 
-São Paulo X Bahia
+Mirassol X Chapecoense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 14
+A14
 
-21:34 - 22:20
+03:21 - 04:45
 
-Cozinha Prática Com Rita Lobo
+Angélica Ao Vivo
 
-Risoni De Espinafre Com Gengibre, Iogurte E Farofinha De Pão
+Camila Pitanga + Rafael Portugal + Mario Sergio Cortella + Convidado Surpresa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: livre
 L
 
-21:49 - 22:31
+03:48 - 04:43
 
-Anjo Mau
+Paraíso
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
