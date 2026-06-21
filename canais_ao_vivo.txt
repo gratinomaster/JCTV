@@ -1,46 +1,45 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/06/2026 16:45:24
+Data de extração: 21/06/2026 19:28:33
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. 19:20 - 19:49
 
-16:35 - 17:29
+A Reinvenção Do Flamengo
 
-Terra da Gente
+Dor e Glória
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-15:00 - 17:19
+18:00 - 20:29
 
-Jornal GloboNews - Edição do Meio-dia
+Jornal GloboNews - Edição das 15h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-16:41 - 17:23
+19:03 - 19:40
 
-Vila, A
+Sessão Nostalgia Tapas E Beijo
 
-O Incrível Rique
+O Vestido Lilás
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-15:50 - 17:27
+18:58 - 20:30
 
-Partiu Copa - Partiu Copa
+Radar Da Seleção
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:31 - 17:27
+6. 19:27 - 19:45
 
 Giro Da Rodada
 
@@ -50,17 +49,17 @@ Brasileirão - 17ª Rodada
 7. Autoclassificação etária: 12
 A12
 
-16:17 - 16:51
+19:24 - 20:05
 
-Diogo Na Cozinha
+No Fogo Com Bronze
 
-Luedji Luna e Gabi Melim
+Pelos Aires
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-16:42 - 17:46
+19:27 - 20:28
 
 Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
