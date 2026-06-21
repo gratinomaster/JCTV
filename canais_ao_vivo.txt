@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/06/2026 14:08:25
+Data de extração: 21/06/2026 16:45:24
 Total de canais: 10
 ================================================================================
 
@@ -11,56 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-13:40 - 14:09
+16:35 - 17:29
 
-Auto Esporte
+Terra da Gente
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 14:00 - 14:59
+3. Ao vivo
 
-Globo Rural
+15:00 - 17:19
+
+Jornal GloboNews - Edição do Meio-dia
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-13:56 - 14:39
+16:41 - 17:23
 
-Sessão Nostalgia Tapas E Beijo
+Vila, A
 
-Aderbal Freire Vive O Boa Pinta Norberto
+O Incrível Rique
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-14:00 - 15:22
+15:50 - 17:27
 
-sportv News
+Partiu Copa - Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 14:03 - 14:33
+6. 16:31 - 17:27
 
-Brasileirão - Coritiba X Bahia - 25052026
+Giro Da Rodada
 
-Coritiba X Bahia
+Brasileirão - 17ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 12
+A12
 
-13:29 - 14:15
+16:17 - 16:51
 
-Geladeiras Em Ação
+Diogo Na Cozinha
 
-Fitness
+Luedji Luna e Gabi Melim
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 10
-10
+8. Classificação etária: 14
+14
 
-13:50 - 14:32
+16:42 - 17:46
 
-Rock Story
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
