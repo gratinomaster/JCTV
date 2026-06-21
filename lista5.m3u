@@ -1,12 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/us.xml.gz https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/us.xml.gz https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml GLOBOEPG.xml.gz"
 #EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-id="Fox.Business.HD.us2" tvg-logo="https://a57.foxnews.com/static/694940094001/42cadbe8-971a-43f3-8bd5-121dc91dd120/d1de5ed5-ad2a-4a4c-a6a2-6972164b9739/1280x720/match/808/455/image.jpg" group-title="NEWS WORLD",Fox Business
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1782013928~acl=/*~hmac=ea974b0b920467157172faff635f9d81ae9f8c71356df797a3eea0ad13e84443
-#EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-logo="https://a57.foxnews.com/static/694940094001/42cadbe8-971a-43f3-8bd5-121dc91dd120/d1de5ed5-ad2a-4a4c-a6a2-6972164b9739/1280x720/match/808/455/image.jpg" group-title="NEWS WORLD",Fox News Channel
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1782013929~acl=/*~hmac=b658fe35095ae79eed2f2bb4ea27244f423921ad498079a6ee2b4db9a7c97a6c
-#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",CBS News 24/7
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0800a900-b9c5-4450-847c-7822927c1f06:ATL/master.m3u8
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",TV Globo Nacional
 https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 #EXTINF:-1 tvg-id="g1" tvg-logo="https://s04.video.glbimg.com/x720/4064559.jpg" group-title="GLOBO AO VIVO",G1
