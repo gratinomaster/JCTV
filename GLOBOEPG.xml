@@ -64,91 +64,6 @@
     <display-name>Globo Amazonas</display-name>
     <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
   </channel>
-  <programme channel="globo_am" start="20260621T040000 -0400" end="20260621T050000 -0400">
-    <title lang="pt-BR">Hora 1</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T050000 -0400" end="20260621T070000 -0400">
-    <title lang="pt-BR">Bom Dia Local</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T070000 -0400" end="20260621T090000 -0400">
-    <title lang="pt-BR">Bom Dia Brasil</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T090000 -0400" end="20260621T100000 -0400">
-    <title lang="pt-BR">Mais Você</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T100000 -0400" end="20260621T110000 -0400">
-    <title lang="pt-BR">Encontro</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T110000 -0400" end="20260621T120000 -0400">
-    <title lang="pt-BR">Jornal Local 1</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T120000 -0400" end="20260621T130000 -0400">
-    <title lang="pt-BR">Globo Esporte</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T130000 -0400" end="20260621T140000 -0400">
-    <title lang="pt-BR">Jornal Hoje</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T140000 -0400" end="20260621T150000 -0400">
-    <title lang="pt-BR">Novela I</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T150000 -0400" end="20260621T170000 -0400">
-    <title lang="pt-BR">Sessão da Tarde</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T170000 -0400" end="20260621T180000 -0400">
-    <title lang="pt-BR">Vale a Pena Ver de Novo</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T180000 -0400" end="20260621T190000 -0400">
-    <title lang="pt-BR">Novela II</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T190000 -0400" end="20260621T200000 -0400">
-    <title lang="pt-BR">Jornal Nacional</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T200000 -0400" end="20260621T210000 -0400">
-    <title lang="pt-BR">Novela III</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T210000 -0400" end="20260621T220000 -0400">
-    <title lang="pt-BR">Big Brother Brasil</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T220000 -0400" end="20260621T230000 -0400">
-    <title lang="pt-BR">Jornal da Globo</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="globo_am" start="20260621T230000 -0400" end="20260622T040000 -0400">
-    <title lang="pt-BR">Filme / Série</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
   <programme channel="globo_am" start="20260622T040000 -0400" end="20260622T050000 -0400">
     <title lang="pt-BR">Hora 1</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
@@ -489,6 +404,91 @@
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
+  <programme channel="globo_am" start="20260626T040000 -0400" end="20260626T050000 -0400">
+    <title lang="pt-BR">Hora 1</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T050000 -0400" end="20260626T070000 -0400">
+    <title lang="pt-BR">Bom Dia Local</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T070000 -0400" end="20260626T090000 -0400">
+    <title lang="pt-BR">Bom Dia Brasil</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T090000 -0400" end="20260626T100000 -0400">
+    <title lang="pt-BR">Mais Você</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T100000 -0400" end="20260626T110000 -0400">
+    <title lang="pt-BR">Encontro</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T110000 -0400" end="20260626T120000 -0400">
+    <title lang="pt-BR">Jornal Local 1</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T120000 -0400" end="20260626T130000 -0400">
+    <title lang="pt-BR">Globo Esporte</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T130000 -0400" end="20260626T140000 -0400">
+    <title lang="pt-BR">Jornal Hoje</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T140000 -0400" end="20260626T150000 -0400">
+    <title lang="pt-BR">Novela I</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T150000 -0400" end="20260626T170000 -0400">
+    <title lang="pt-BR">Sessão da Tarde</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T170000 -0400" end="20260626T180000 -0400">
+    <title lang="pt-BR">Vale a Pena Ver de Novo</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T180000 -0400" end="20260626T190000 -0400">
+    <title lang="pt-BR">Novela II</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T190000 -0400" end="20260626T200000 -0400">
+    <title lang="pt-BR">Jornal Nacional</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T200000 -0400" end="20260626T210000 -0400">
+    <title lang="pt-BR">Novela III</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T210000 -0400" end="20260626T220000 -0400">
+    <title lang="pt-BR">Big Brother Brasil</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T220000 -0400" end="20260626T230000 -0400">
+    <title lang="pt-BR">Jornal da Globo</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="globo_am" start="20260626T230000 -0400" end="20260627T040000 -0400">
+    <title lang="pt-BR">Filme / Série</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
   <channel id="globo_al">
     <display-name>Globo Alagoas</display-name>
     <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
@@ -497,61 +497,6 @@
     <display-name>Globo SporTV</display-name>
     <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
   </channel>
-  <programme channel="sportv" start="20260621T050000 -0300" end="20260621T060000 -0300">
-    <title lang="pt-BR">sportv News</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T060000 -0300" end="20260621T080000 -0300">
-    <title lang="pt-BR">Redação sportv</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T080000 -0300" end="20260621T100000 -0300">
-    <title lang="pt-BR">Tá na Área</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T100000 -0300" end="20260621T120000 -0300">
-    <title lang="pt-BR">Troca de Passes</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T120000 -0300" end="20260621T140000 -0300">
-    <title lang="pt-BR">sportv News</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T140000 -0300" end="20260621T160000 -0300">
-    <title lang="pt-BR">Redação sportv</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T160000 -0300" end="20260621T180000 -0300">
-    <title lang="pt-BR">Tá na Área</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T180000 -0300" end="20260621T200000 -0300">
-    <title lang="pt-BR">sportv News</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T200000 -0300" end="20260621T220000 -0300">
-    <title lang="pt-BR">Seleção sportv</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T220000 -0300" end="20260622T000000 -0300">
-    <title lang="pt-BR">Tá na Área</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="sportv" start="20260621T000000 -0300" end="20260621T050000 -0300">
-    <title lang="pt-BR">sportv News</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
   <programme channel="sportv" start="20260622T050000 -0300" end="20260622T060000 -0300">
     <title lang="pt-BR">sportv News</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
@@ -772,65 +717,65 @@
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
+  <programme channel="sportv" start="20260626T050000 -0300" end="20260626T060000 -0300">
+    <title lang="pt-BR">sportv News</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T060000 -0300" end="20260626T080000 -0300">
+    <title lang="pt-BR">Redação sportv</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T080000 -0300" end="20260626T100000 -0300">
+    <title lang="pt-BR">Tá na Área</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T100000 -0300" end="20260626T120000 -0300">
+    <title lang="pt-BR">Troca de Passes</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T120000 -0300" end="20260626T140000 -0300">
+    <title lang="pt-BR">sportv News</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T140000 -0300" end="20260626T160000 -0300">
+    <title lang="pt-BR">Redação sportv</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T160000 -0300" end="20260626T180000 -0300">
+    <title lang="pt-BR">Tá na Área</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T180000 -0300" end="20260626T200000 -0300">
+    <title lang="pt-BR">sportv News</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T200000 -0300" end="20260626T220000 -0300">
+    <title lang="pt-BR">Seleção sportv</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T220000 -0300" end="20260627T000000 -0300">
+    <title lang="pt-BR">Tá na Área</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="sportv" start="20260626T000000 -0300" end="20260626T050000 -0300">
+    <title lang="pt-BR">sportv News</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
   <channel id="cbn_sp">
     <display-name>Globo CBN São Paulo</display-name>
     <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
   </channel>
-  <programme channel="cbn_sp" start="20260621T050000 -0300" end="20260621T080000 -0300">
-    <title lang="pt-BR">CBN no Ar</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T080000 -0300" end="20260621T090000 -0300">
-    <title lang="pt-BR">CBN Entrevista</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T090000 -0300" end="20260621T100000 -0300">
-    <title lang="pt-BR">CBN Dinheiro</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T100000 -0300" end="20260621T110000 -0300">
-    <title lang="pt-BR">CBN Tecnologia</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T110000 -0300" end="20260621T120000 -0300">
-    <title lang="pt-BR">CBN No Caminho</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T120000 -0300" end="20260621T130000 -0300">
-    <title lang="pt-BR">CBN Esportes</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T130000 -0300" end="20260621T160000 -0300">
-    <title lang="pt-BR">CBN No Ar</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T160000 -0300" end="20260621T180000 -0300">
-    <title lang="pt-BR">CBN Dinheiro</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T180000 -0300" end="20260621T190000 -0300">
-    <title lang="pt-BR">CBN Brasil</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T190000 -0300" end="20260621T220000 -0300">
-    <title lang="pt-BR">CBN No Ar</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
-  <programme channel="cbn_sp" start="20260621T220000 -0300" end="20260622T050000 -0300">
-    <title lang="pt-BR">CBN Late Night</title>
-    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
-    <category lang="pt-BR">program</category>
-  </programme>
   <programme channel="cbn_sp" start="20260622T050000 -0300" end="20260622T080000 -0300">
     <title lang="pt-BR">CBN no Ar</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
@@ -1051,65 +996,65 @@
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <channel id="cbn_rj">
-    <display-name>Globo CBN Rio de Janeiro</display-name>
-    <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
-  </channel>
-  <programme channel="cbn_rj" start="20260621T050000 -0300" end="20260621T080000 -0300">
+  <programme channel="cbn_sp" start="20260626T050000 -0300" end="20260626T080000 -0300">
     <title lang="pt-BR">CBN no Ar</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T080000 -0300" end="20260621T090000 -0300">
+  <programme channel="cbn_sp" start="20260626T080000 -0300" end="20260626T090000 -0300">
     <title lang="pt-BR">CBN Entrevista</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T090000 -0300" end="20260621T100000 -0300">
+  <programme channel="cbn_sp" start="20260626T090000 -0300" end="20260626T100000 -0300">
     <title lang="pt-BR">CBN Dinheiro</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T100000 -0300" end="20260621T110000 -0300">
+  <programme channel="cbn_sp" start="20260626T100000 -0300" end="20260626T110000 -0300">
     <title lang="pt-BR">CBN Tecnologia</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T110000 -0300" end="20260621T120000 -0300">
+  <programme channel="cbn_sp" start="20260626T110000 -0300" end="20260626T120000 -0300">
     <title lang="pt-BR">CBN No Caminho</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T120000 -0300" end="20260621T130000 -0300">
+  <programme channel="cbn_sp" start="20260626T120000 -0300" end="20260626T130000 -0300">
     <title lang="pt-BR">CBN Esportes</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T130000 -0300" end="20260621T160000 -0300">
+  <programme channel="cbn_sp" start="20260626T130000 -0300" end="20260626T160000 -0300">
     <title lang="pt-BR">CBN No Ar</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T160000 -0300" end="20260621T180000 -0300">
+  <programme channel="cbn_sp" start="20260626T160000 -0300" end="20260626T180000 -0300">
     <title lang="pt-BR">CBN Dinheiro</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T180000 -0300" end="20260621T190000 -0300">
+  <programme channel="cbn_sp" start="20260626T180000 -0300" end="20260626T190000 -0300">
     <title lang="pt-BR">CBN Brasil</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T190000 -0300" end="20260621T220000 -0300">
+  <programme channel="cbn_sp" start="20260626T190000 -0300" end="20260626T220000 -0300">
     <title lang="pt-BR">CBN No Ar</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
-  <programme channel="cbn_rj" start="20260621T220000 -0300" end="20260622T050000 -0300">
+  <programme channel="cbn_sp" start="20260626T220000 -0300" end="20260627T050000 -0300">
     <title lang="pt-BR">CBN Late Night</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
   </programme>
+  <channel id="cbn_rj">
+    <display-name>Globo CBN Rio de Janeiro</display-name>
+    <icon src="https://s.glbimg.com/og/rg/static/img/redeglobo/logo-60x60.png"/>
+  </channel>
   <programme channel="cbn_rj" start="20260622T050000 -0300" end="20260622T080000 -0300">
     <title lang="pt-BR">CBN no Ar</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
@@ -1326,6 +1271,61 @@
     <category lang="pt-BR">program</category>
   </programme>
   <programme channel="cbn_rj" start="20260625T220000 -0300" end="20260626T050000 -0300">
+    <title lang="pt-BR">CBN Late Night</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T050000 -0300" end="20260626T080000 -0300">
+    <title lang="pt-BR">CBN no Ar</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T080000 -0300" end="20260626T090000 -0300">
+    <title lang="pt-BR">CBN Entrevista</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T090000 -0300" end="20260626T100000 -0300">
+    <title lang="pt-BR">CBN Dinheiro</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T100000 -0300" end="20260626T110000 -0300">
+    <title lang="pt-BR">CBN Tecnologia</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T110000 -0300" end="20260626T120000 -0300">
+    <title lang="pt-BR">CBN No Caminho</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T120000 -0300" end="20260626T130000 -0300">
+    <title lang="pt-BR">CBN Esportes</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T130000 -0300" end="20260626T160000 -0300">
+    <title lang="pt-BR">CBN No Ar</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T160000 -0300" end="20260626T180000 -0300">
+    <title lang="pt-BR">CBN Dinheiro</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T180000 -0300" end="20260626T190000 -0300">
+    <title lang="pt-BR">CBN Brasil</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T190000 -0300" end="20260626T220000 -0300">
+    <title lang="pt-BR">CBN No Ar</title>
+    <desc lang="pt-BR">Programação local da Rede Globo.</desc>
+    <category lang="pt-BR">program</category>
+  </programme>
+  <programme channel="cbn_rj" start="20260626T220000 -0300" end="20260627T050000 -0300">
     <title lang="pt-BR">CBN Late Night</title>
     <desc lang="pt-BR">Programação local da Rede Globo.</desc>
     <category lang="pt-BR">program</category>
