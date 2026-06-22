@@ -1,72 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 22/06/2026 20:46:54
+Data de extração: 22/06/2026 22:47:03
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-20:10 - 20:59
+22:30 - 22:59
 
-Vale a Pena Ver De Novo - Avenida Brasil
+Jornal Nacional
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-20:20 - 21:00
+22:21 - 23:02
 
-Sessão Nostalgia Tapas E Beijo
+Sessão Nostalgia - Toma Lá Da
 
-O Retorno De Sueli
+Quando Paris Ilumina
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:23 - 21:18
+22:30 - 23:21
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 20:31 - 21:30
+6. 22:32 - 23:33
 
-Brasileirão - Mirassol X Cruzeiro - 11022026
+Brasileirão - Atlético-Mg X Remo - 11022026
 
-Mirassol X Cruzeiro
+Atlético-MG X Remo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-20:29 - 21:16
+22:42 - 23:43
 
-Que Marravilha!
+Que Seja Doce
 
-Pode Tirar?
+Catedrais
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 12
-A12
+8. Classificação etária: 14
+14
 
-20:19 - 21:06
+22:21 - 23:06
 
-Penso Em Ti
-
-Capítulo 66
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
