@@ -1,67 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/06/2026 22:14:31
+Data de extração: 22/06/2026 04:06:04
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 21:40 - 22:54
+2. 03:50 - 04:39
 
-Em Família Com Eliana
+Vai Que Cola
+
+É Big
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:29
+03:20 - 04:29
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-21:35 - 22:30
+03:36 - 04:19
 
-Vai Que Cola
+Vila, A
 
-Vai Que Cola - Maicol, O Retorno 4ª Temp
+O Síndico Da Vila
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-20:45 - 23:57
+03:07 - 04:44
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Uruguai X Cabo Verde
-
-Uruguai X Cabo Verde - Miami, EUA
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:01 - 22:47
+6. 03:50 - 04:49
 
-Giro Da Rodada
+Brasileirão - Fluminense X Grêmio - 28012026
 
-Brasileirão - 18ª Rodada
+Fluminense X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-22:05 - 22:52
+03:58 - 04:41
 
-Geladeiras Em Ação
+Infiltrado Na Cozinha
 
-Americana
+Espírito de Porco
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-21:33 - 22:37
+03:39 - 04:38
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
