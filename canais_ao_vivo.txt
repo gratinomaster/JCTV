@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 22/06/2026 11:52:12
+Data de extração: 22/06/2026 20:46:54
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,62 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-11:10 - 11:59
+20:10 - 20:59
 
-Comédia Na Madruga - Vai Que Cola
+Vale a Pena Ver De Novo - Avenida Brasil
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+19:00 - 20:59
 
-GloboNews Em Ponto
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-11:30 - 12:20
+20:20 - 21:00
 
-Vila, A
+Sessão Nostalgia Tapas E Beijo
 
-Um Lupércio Muito Louco
+O Retorno De Sueli
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-11:30 - 12:29
+19:23 - 21:18
 
-sportv News
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:40 - 12:39
+6. 20:31 - 21:30
 
-Brasileirão - Palmeiras X Vitória - 04022026
+Brasileirão - Mirassol X Cruzeiro - 11022026
 
-Palmeiras X Vitória
+Mirassol X Cruzeiro
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-11:29 - 12:13
+20:29 - 21:16
 
-Decora
+Que Marravilha!
 
-Dois Em Um
+Pode Tirar?
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Autoclassificação etária: 12
+A12
 
-11:06 - 12:02
+20:19 - 21:06
 
-Paraíso
+Penso Em Ti
+
+Capítulo 66
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
