@@ -1,70 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 23/06/2026 03:27:36
+Data de extração: 23/06/2026 09:37:06
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 16
-A16
+2. Autoclassificação etária: 12
+A12
 
-03:15 - 03:59
+09:15 - 10:04
 
-Verdades Secretas
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+09:00 - 09:59
 
-Jornal GloboNews Edição da Meia-noite
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-03:22 - 03:57
+09:30 - 10:00
 
-Sessão Nostalgia - A Grande Fa
+O Dono Do Lar
 
-Uma biografia não autorizada
+Vestindo a Camisa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 09:06 - 10:08
 
-02:50 - 04:56
+Copa Do Mundo Da FIFA 2026™
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Jordânia X Argélia
-
-Jordânia X Argélia - São Francisco, EUA
+Nova Zelândia X Egito - Vancouver, Canadá
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:26 - 03:27
+6. 09:16 - 10:15
 
-Brasileirão - Fluminense X Botafogo - 12022026
+Brasileirão - Cruzeiro X Corinthians - 25022026
 
-Fluminense X Botafogo
+Cruzeiro X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 12
+A12
 
-02:46 - 03:53
+09:06 - 09:53
 
-Que História É Essa, Porchat?
+Sábia Ignorância
 
-Thais Fersoza + Duda Santos + Pedro Carvalho
+Somos Todos Ignorantes?
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-02:47 - 03:56
+08:45 - 09:51
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
