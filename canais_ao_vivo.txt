@@ -1,68 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 23/06/2026 14:46:05
+Data de extração: 23/06/2026 17:17:13
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Ao vivo
 
-13:55 - 14:54
+Autoclassificação etária: livre
+AL
 
-Encontro Com Patrícia Poeta
+16:25 - 17:44
+
+Jornal Hoje
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+16:00 - 18:59
 
-Conexão GloboNews
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-14:20 - 14:49
+17:11 - 17:52
 
-Chapolin
+Sessão Nostalgia - Toma Lá Da
 
-Arruaceiros / Os Prisioneiros / Jantar Executivo 2
+Quando Paris Ilumina
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-13:59 - 15:36
+13:59 - 17:21
 
 Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 14:35 - 15:04
+6. 17:03 - 18:00
 
-Brasileirão - Remo X Fluminense - 12032026
+Giro Da Rodada
 
-Remo X Fluminense
+Brasileirão - 5ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Classificação etária: 14
+14
 
-14:27 - 15:22
+17:02 - 18:07
 
-Food Truck - A Batalha
+Que História É Essa, Porchat?
 
-Comida Árabe
+Marcos Frota + José Augusto + Anderson Bizzocch
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-14:21 - 15:02
+16:53 - 17:37
 
-O Rei Do Gado
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
