@@ -28,6 +28,8 @@ OUTPUT_EPG = "EPGFULL.xml.gz"
 
 # --- Fontes EPG ---
 EPG_URLS = [
+    "https://iptv-epg.org/files/epg-mx.xml.gz",
+    "https://iptv-epg.org/files/epg-us.xml.gz",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/us.xml.gz",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/SamsungTVPlus/us.xml.gz",
     "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/globo.xml",
