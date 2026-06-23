@@ -1,1 +1,4 @@
-corrija o lista1.m3u para que use url-tvg https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml corrigindo tvg-ids
+acesse https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u
+crie EPGFULL.xml.gz sem os canais que não estão no arquivo .m3u, para que o guia não fique maior do que preciso
+caso este arquivo já exista .xml.gz já exista, sobescreva
+teste para ver se o novo epg está funcionando e tem as informações dos programas de hoje e amanhã
