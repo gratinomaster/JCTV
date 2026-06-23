@@ -1,68 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 22/06/2026 22:47:03
+Data de extração: 23/06/2026 03:27:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 16
+A16
 
-22:30 - 22:59
+03:15 - 03:59
 
-Jornal Nacional
+Verdades Secretas
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 03:59
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-22:21 - 23:02
+03:22 - 03:57
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia - A Grande Fa
 
-Quando Paris Ilumina
+Uma biografia não autorizada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-22:30 - 23:21
+02:50 - 04:56
 
-Seleção Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Jordânia X Argélia
+
+Jordânia X Argélia - São Francisco, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:32 - 23:33
+6. 02:26 - 03:27
 
-Brasileirão - Atlético-Mg X Remo - 11022026
+Brasileirão - Fluminense X Botafogo - 12022026
 
-Atlético-MG X Remo
+Fluminense X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-22:42 - 23:43
+02:46 - 03:53
 
-Que Seja Doce
+Que História É Essa, Porchat?
 
-Catedrais
+Thais Fersoza + Duda Santos + Pedro Carvalho
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-22:21 - 23:06
+02:47 - 03:56
 
-O Rei Do Gado
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
