@@ -1,66 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/06/2026 14:27:36
+Data de extração: 24/06/2026 17:03:50
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Ao vivo
 
-13:55 - 14:54
+Autoclassificação etária: livre
+AL
 
-Encontro Com Patrícia Poeta
+16:25 - 17:44
+
+Jornal Hoje
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+16:00 - 18:59
 
-Conexão GloboNews
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-14:20 - 14:47
+16:57 - 17:06
 
-Chapolin
+Humor Multishow
 
-Confusão No Celeiro / Encontro Às Escuras / Garçom Desastrado
+Bodas de Separação
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 13:44 - 14:39
+5. Ao vivo
 
-Seleção Copa
+16:03 - 17:24
+
+Partiu Copa - Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 14:25 - 14:53
+6. 16:50 - 17:19
 
-Brasileirão - Palmeiras X Grêmio - 02042026
+Brasileirão - Coritiba X Fluminense - 04042026
 
-Palmeiras X Grêmio
+Coritiba X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Classificação etária: 14
+14
 
-14:21 - 15:17
+17:00 - 18:00
 
-Food Truck - A Batalha
+Que História É Essa, Porchat?
 
-Brunch
+Maria Clara Gueiros, Deborah Secco e Mumuzinho
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-14:20 - 15:05
+16:50 - 17:42
 
-O Rei Do Gado
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
