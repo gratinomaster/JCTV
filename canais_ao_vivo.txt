@@ -1,69 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/06/2026 03:29:27
+Data de extração: 24/06/2026 09:27:20
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 03:05 - 03:34
+2. Autoclassificação etária: 12
+A12
 
-Os Suburbanos
+09:00 - 09:29
 
-Tô Tatuano!
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+09:00 - 09:59
 
-Jornal GloboNews Edição da Meia-noite
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: livre
 AL
 
-03:25 - 03:59
+09:26 - 10:00
 
 Aquecimento Rock In Rio
 
 Gilberto Gil: A God In His Garden
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
-
-01:23 - 03:54
+5. 08:54 - 09:53
 
 Copa Do Mundo Da FIFA 2026™
 
-Colômbia X Rd Congo - Guadalajara, México
+Noruega X Senegal - Nova Iorque, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:17 - 03:48
+6. 09:04 - 09:58
 
-Brasileirão - Flamengo X Remo - 19032026
+Giro Da Rodada
 
-Flamengo X Remo
+Brasileirão - 8ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
+7. Autoclassificação etária: 12
+A12
 
-03:29 - 04:17
+09:00 - 09:47
 
-Avisa Lá Que Eu Vou
+Dani-Se
 
-Círio de Nazaré
+Originalidade
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-02:41 - 03:42
+09:10 - 10:09
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
