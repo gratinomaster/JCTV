@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/06/2026 17:03:50
+Data de extração: 24/06/2026 19:44:48
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. Autoclassificação etária: 12
+A12
 
-Autoclassificação etária: livre
-AL
+19:15 - 19:49
 
-16:25 - 17:44
-
-Jornal Hoje
+A Grande Família
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-16:57 - 17:06
+18:50 - 19:45
 
-Humor Multishow
+Vai Que Cola
 
-Bodas de Separação
+Vai Que Cola – Problema De Encosto - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-16:03 - 17:24
+18:59 - 21:59
 
-Partiu Copa - Partiu Copa
+Aquecimento sportv
+
+Escócia X Brasil
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:50 - 17:19
+6. 19:16 - 19:46
 
-Brasileirão - Coritiba X Fluminense - 04042026
+Brasileirão - Bahia X Palmeiras - 05042026
 
-Coritiba X Fluminense
+Bahia X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-17:00 - 18:00
+19:32 - 20:03
 
-Que História É Essa, Porchat?
+Tempero De Família
 
-Maria Clara Gueiros, Deborah Secco e Mumuzinho
+Cannolis Siciliano, Pappa Al Pomodoro E Tagliatelle Al Zuchini
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-16:50 - 17:42
+19:17 - 20:21
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
