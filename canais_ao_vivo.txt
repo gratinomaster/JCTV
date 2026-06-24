@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/06/2026 19:44:48
+Data de extração: 24/06/2026 22:16:34
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-19:15 - 19:49
+21:45 - 22:29
 
-A Grande Família
+Vale a Pena Ver De Novo - Avenida Brasil - Parte 2
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-18:50 - 19:45
+21:54 - 22:25
 
-Vai Que Cola
+O Dono Do Lar
 
-Vai Que Cola – Problema De Encosto - 4ª Temp
+Vestindo a Camisa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-18:59 - 21:59
+20:34 - 23:58
 
-Aquecimento sportv
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Escócia X Brasil
 
 Escócia X Brasil
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:16 - 19:46
+6. 22:12 - 22:42
 
-Brasileirão - Bahia X Palmeiras - 05042026
+Brasileirão - Remo X Vasco - 11042026
 
-Bahia X Palmeiras
+Remo X Vasco
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-19:32 - 20:03
+21:58 - 22:42
 
-Tempero De Família
+Cozinha Prática Com Rita Lobo
 
-Cannolis Siciliano, Pappa Al Pomodoro E Tagliatelle Al Zuchini
+Torta de liquidificador com abobrinha e bacon
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:17 - 20:21
+21:55 - 22:36
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
