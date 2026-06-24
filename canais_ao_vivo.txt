@@ -1,68 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/06/2026 09:27:20
+Data de extração: 24/06/2026 14:27:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-09:00 - 09:29
+13:55 - 14:54
 
-A Nobreza do Amor
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-09:00 - 09:59
+12:30 - 15:59
 
-Jornal GloboNews
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: livre
-AL
+4. Classificação etária: 12
+12
 
-09:26 - 10:00
+14:20 - 14:47
 
-Aquecimento Rock In Rio
+Chapolin
 
-Gilberto Gil: A God In His Garden
+Confusão No Celeiro / Encontro Às Escuras / Garçom Desastrado
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 08:54 - 09:53
+5. 13:44 - 14:39
 
-Copa Do Mundo Da FIFA 2026™
-
-Noruega X Senegal - Nova Iorque, EUA
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:04 - 09:58
+6. 14:25 - 14:53
 
-Giro Da Rodada
+Brasileirão - Palmeiras X Grêmio - 02042026
 
-Brasileirão - 8ª Rodada
+Palmeiras X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: 10
+A10
 
-09:00 - 09:47
+14:21 - 15:17
 
-Dani-Se
+Food Truck - A Batalha
 
-Originalidade
+Brunch
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-09:10 - 10:09
+14:20 - 15:05
 
-Amor À Vida
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
