@@ -35,6 +35,7 @@ jobs:
           remova #extinf que não tenham links dos canais
           teste os links para não me deixar usar links com virus
           corrija caso o epg não funcione nos canais corretamente
+          substitua logos quebrados, inválidos, desatualizados ou inacessíveis
           veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
           tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
           não salve o .py que for gerado
