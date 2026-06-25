@@ -1,68 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 25/06/2026 14:30:48
+Data de extração: 25/06/2026 17:12:12
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Ao vivo
 
-13:55 - 14:54
+Autoclassificação etária: livre
+AL
 
-Encontro Com Patrícia Poeta
+16:25 - 17:44
+
+Jornal Hoje
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+16:00 - 18:59
 
-Conexão GloboNews
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-14:29 - 15:01
+16:55 - 17:40
 
-Chapolin
+Sessão Nostalgia - Toma Lá Da
 
-Operação De Salvamento / Problemas De Peso / A Lenda Da Chorona
+A Língua Não Tem Osso
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-13:33 - 16:27
+16:31 - 18:19
 
-Partiu Copa
+Radar Da Seleção
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:32 - 14:31
+6. 16:57 - 17:27
 
-Giro Da Rodada
+Brasileirão - São Paulo X Bahia - 03052026
 
-Brasileirão - 13ª Rodada
+São Paulo X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Classificação etária: 14
+14
 
-14:07 - 15:01
+16:58 - 17:56
 
-Food Truck - A Batalha
+Que História É Essa, Porchat?
 
-Inspiração América Do Sul
+Regina Casé, Ingrid Guimarães, Alex Escobar
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-14:24 - 15:13
+16:49 - 17:37
 
-O Rei Do Gado
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
