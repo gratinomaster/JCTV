@@ -1,70 +1,72 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 25/06/2026 17:12:12
+Data de extração: 25/06/2026 19:59:30
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. Autoclassificação etária: 14
+A14
 
-Autoclassificação etária: livre
-AL
+19:15 - 20:04
 
-16:25 - 17:44
+Vai Que Cola
 
-Jornal Hoje
+Existe Poliamor No Méier
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-16:55 - 17:40
+19:32 - 20:17
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia Tapas E Beijo
 
-A Língua Não Tem Osso
+Uma Mentirinha Não Faz Mal?
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-16:31 - 18:19
+18:46 - 20:49
 
-Radar Da Seleção
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Equador X Alemanha
+
+Equador X Alemanha - Nova Jersey, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:57 - 17:27
+6. 19:50 - 20:20
 
-Brasileirão - São Paulo X Bahia - 03052026
+Brasileirão - Coritiba X Internacional - 09052026
 
-São Paulo X Bahia
+Coritiba X Internacional
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-16:58 - 17:56
+19:59 - 20:29
 
-Que História É Essa, Porchat?
+Tempero De Família
 
-Regina Casé, Ingrid Guimarães, Alex Escobar
+Rachel
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-16:49 - 17:37
+19:19 - 20:01
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
