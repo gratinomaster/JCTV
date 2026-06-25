@@ -1,70 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 25/06/2026 09:19:53
+Data de extração: 25/06/2026 14:30:48
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: 10
+A10
 
-09:15 - 10:19
+13:55 - 14:54
 
-Vai Que Cola
-
-De Repente Bangladesh
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-09:00 - 09:59
+12:30 - 15:59
 
-Jornal GloboNews
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-07:59 - 09:29
+14:29 - 15:01
 
-Cine Hahaha
+Chapolin
 
-Minha Mãe É Uma Peça
+Operação De Salvamento / Problemas De Peso / A Lenda Da Chorona
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 07:43 - 09:22
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+13:33 - 16:27
 
-Escócia X Brasil
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:09 - 09:40
+6. 13:32 - 14:31
 
-Brasileirão - Remo X Cruzeiro - 25042026
+Giro Da Rodada
 
-Remo X Cruzeiro
+Brasileirão - 13ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: 10
+A10
 
-09:00 - 09:44
+14:07 - 15:01
 
-Sábia Ignorância
+Food Truck - A Batalha
 
-Você É O Seu Trabalho?
+Inspiração América Do Sul
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-09:12 - 09:49
+14:24 - 15:13
 
-Amor À Vida
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
