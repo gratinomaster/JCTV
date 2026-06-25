@@ -15,14 +15,11 @@ https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 
-#EXTINF:-1 tvg-id="Canal5.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",Canal 5 (US)
+#EXTINF:-1 tvg-id="Canal5.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",Canal 57 (US)
 https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="Canal6CDMX.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/6Auk-WnCFAvrbyrmjeoJHBtAyCdUXh_EKh1-GyWK_EhwmeiDdM153z199jlaz0iR3FA2LAiHNOEhoPXtN2lhhF9ie7BFyKmTyVCX-vLt9CgxeMg",Canal 6 CDMX
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6405
-
-#EXTINF:-1 tvg-id="CanalOnce.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/Rs82drCMaij586gjO4z8cFXgHPsBXeH4Fmp1MzBijzab4QJWwTVQPDN0RsLnPXQsB4QbF5SpH6JQmPadokgtpFQeD4GjH4PfjGg8TgA5ksjT3w",Canal Once (1080p)
-https://d24sa4vr9gvjv.cloudfront.net/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal14.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/DfXkxV-939ociQQ4tpVZqPl1yVPs9UyQbCFg5SjPbW5q7_BQUXcmT9R9oe15MAPzaEuv6O9-L_e1-aX2vLRI5-y6qPWhAXx1yuDwX7im-to",Canal 14 (1080p)
 https://s5.mexside.net:1936/canal14/canal14/chunklist.m3u8
