@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz https://iptv-epg.org/files/epg-us.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz"
 
 #EXTINF:-1 tvg-id="AztecaUno.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/AP9vXjbBBVbU_jPtdkBUh0_S18KDIY0Udol-wdTBY1YVQ-eZbxXxn1VCZp53pDw3pv1V9ijDLps6Hj_sqw9lAVbXIW_i3cAjA4uNeSQRheFeKQ",Azteca Uno (-1h)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4833
@@ -309,9 +309,6 @@ https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
 #EXTINF:-1 group-title="MÉXICO" tvg-logo="https://i.imgur.com/kaUhEQy.png",B15 Fresnillo (1080p)
 https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://i.imgur.com/aKvPd4g.jpg",El Sonorense (1080p) [Not 24/7]
-https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
-
 #EXTINF:-1 tvg-id="TeleFormula.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/9TpqOzAayfqAZ2M6J7trQ7Qz9G21FRAkMn41H48NhZ1AogFDW8Q6l9MMTrFkj2W36Mx0T_rFNtJq-6UAAsyOR97wbSYb2JpFv8Dk4I4A1e3g",TeleFórmula (1080p)
 https://linear-255.frequency.stream/mt/studio/255/hls/master/playlist.m3u8
 
@@ -321,54 +318,59 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404
 #EXTINF:-1 tvg-id="RussiaToday.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",RT Noticias (1080p)
 https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8
 
-#EXTINF:-1 tvg-id="ElChavoTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/El_Chavo_%28simple_logo%29.svg/512px-El_Chavo_%28simple_logo%29.svg.png",El Chavo TV (720p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/El_Chavo_%28simple_logo%29.svg/512px-El_Chavo_%28simple_logo%29.svg.png",El Chavo TV (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TeleYucatan.mx" group-title="MÉXICO" tvg-logo="https://teleyucatan.com/img/texto_logo_blanco.webp",Tele Yucatán (1080p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://teleyucatan.com/img/texto_logo_blanco.webp",Tele Yucatán (1080p)
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
-#EXTINF:-1 tvg-id="XHMNLTDT.mx" group-title="MÉXICO" tvg-logo="https://canal28.mx/wp-content/uploads/2025/03/Logo2.png",Canal 28 Nuevo León (720p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://canal28.mx/wp-content/uploads/2025/03/Logo2.png",Canal 28 Nuevo León (720p)
 https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MariaVision.mx" group-title="MÉXICO" tvg-logo="https://static.wixstatic.com/media/ae9e39_98c192d6a3754e0188199e96fc46b514~mv2.png",María Visión (360p) [Not 24/7]
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://static.wixstatic.com/media/ae9e39_98c192d6a3754e0188199e96fc46b514~mv2.png",María Visión (360p) [Not 24/7]
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 
 #EXTINF:-1 tvg-id="DePelícula.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/De_Pel%C3%ADcula_2016.png",De Película Latin America
 http://181.119.93.83:8000/play/a1jw/index.m3u8
 
-#EXTINF:-1 tvg-id="ZAZ.mx" group-title="MÉXICO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/6IJzCfVk_400x400.jpg",ZAZ (1080p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/6IJzCfVk_400x400.jpg",ZAZ (1080p)
 https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
 
 #EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/ViX_Logo.png",Canal ViX (1080p)
 https://streaming-live-fcdn.api.prd.univisionnow.com/vix/vix.isml/hls/vix.m3u8
 
-#EXTINF:-1 group-title="MÉXICO",Capital 21 (1080p)
-https://video.cdmx.gob.mx/redes/stream.m3u8
-
-#EXTINF:-1 group-title="MÉXICO",Ingenio TV (720p)
-https://aprende-usea.streaming.media.azure.net/9317ea3f-03a0-4266-9292-ac97a0e41c4d/output-20230609-123537-manifest.ism/manifest(format=m3u8-cmaf).m3u8
-
-#EXTINF:-1 group-title="MÉXICO",Meganoticias MX (1080p)
-https://pctv-meganoticias-1-mx.tcl.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="MÉXICO",TV Guanajuato (720p)
-https://stream.oursnetworktv.com/latin/tvguanajuato/playlist.m3u8
-
-#EXTINF:-1 group-title="MÉXICO",TV BUAP (1080p)
-https://tvenvivo.buap.mx/livestream/stream/index.m3u8
-
-#EXTINF:-1 group-title="MÉXICO",Sistema Michoacano de TV (1080p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://sistemamichoacano.tv/wp-content/uploads/2026/05/cropped-LOGO-SM-negro-1.png",Sistema Michoacano de TV (1080p)
 https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
 
 #EXTINF:-1 group-title="MÉXICO",TV Migrante (720p)
 https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/76/Teleritmo_2023.png",Teleritmo (720p)
-https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+#EXTINF:-1 tvg-id="CanalOnce.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/Rs82drCMaij586gjO4z8cFXgHPsBXeH4Fmp1MzBijzab4QJWwTVQPDN0RsLnPXQsB4QbF5SpH6JQmPadokgtpFQeD4GjH4PfjGg8TgA5ksjT3w",Canal Once (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4836
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9f/Canal_13_Mexico.png",Canal 13 Michoacán (720p)
-https://stream-207963.castr.net/65313d270e749722b6474684/live_0424eb20dfbf11ee821911a0b6ba5091/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="CanalNU.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/O1tax7bFXPrVoltyhHlfDP-3rtdNW2kTfAoB6EkFEPzb2LDm8Da9v-cGwTkMR3V-_4CcrvH6s218zYIwBXlbtCaoSUAZEKd0Z2gppn4Ul1Y",Canal NU (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6408
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://nrtmexico.mx/wp-content/uploads/2019/09/nrt-footer-1.png",NRT México Internacional (720p)
-https://5c001c2729b09.streamlock.net:4443/live/_definst_/canal24nrt/playlist.m3u8
+#EXTINF:-1 tvg-id="Bandamax.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/SVskjEdNtuEjSnBwQaULmsBZ94oaX_Pio_XSqe9m6zjc3WMH1sq_-GhbYElGjkkZB2D1w4pkGgyFHBxhcZINwDIlxgqgfVINIs4MZwRv4E46",Bandamax (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4840
 
+#EXTINF:-1 tvg-id="Telehit.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/sWZAzMw6COq5aFjGY39s8LKmFiXFjXXDj-_smezuAx_IYzQ0iW87XDxEzLZoumJfQU14RUoic-jmmMjAA8XUQI7zmJxHpgZQdsAgqssP8zY",Telehit (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4841
+
+#EXTINF:-1 tvg-id="Cinecanal.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/wXS_NPRoIhhzXIhOqPYQdZrVOALWpf5lVubkIYo94iVOVQUm7aXnKvKqAnM8nbc-Gr4OtL5Pz1PPSqPjBiCKYD1Ocwhr9VdasZjl32op_oOxDg",Cinecanal (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4831
+
+#EXTINF:-1 tvg-id="WarnerChannel.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/2UF-DH_mviRpA_npG-_sXOGtypKbrZBJajjN5IGxvWuKPM6kyiOL-iWPpy-OP9YuKS8dz8bPD6oUuqNWPo6G2Igg_k9LVMim-w3odtOaIWEfK5DBXMw",Warner Channel (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4829
+
+#EXTINF:-1 tvg-id="CNNenEspañol.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/tr-NRx7-p8k4Dv6tplW_ruQsFUQaAegPuDHpJieMfi1PIe58hPEzGDUAO9RDikRi-5q0AmnUKS9lgc_DuoJK2NRpnum0BJijcTJ8EqA3M-_7ZFfhdI_CL5eP",CNN en Español (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11019
+
+#EXTINF:-1 tvg-id="TUDNMexico.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/1rpExtt2TJem52VDhPngsJTJD0_9gcWvOGs9vBGylobrr6BekGDCadD17FZFS-m9jC_7BEX4EJ8DM38lMeif5IsbnHR9hmWZs9RvBXBYtFNPAPg",TUDN México (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4838
+
+#EXTINF:-1 tvg-id="Canal5Galavision.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/VFNh_aB9nrBOBjEVKC08ae-a21aOzYm1G7-utSNd2juj5uHzaSgOM8lpqrZu-NoMPtziJinsA-oHP8he6VLqxU7QMrWpjTfv8ysoZdpAyWPKCwBr9RfBzmk",Televisa Puebla (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404
+
+#EXTINF:-1 tvg-id="Golden.mx" group-title="MÉXICO" tvg-logo="https://iptv-epg.org/images/0uspBvMb_PtszIexu3L3rXXXpeWiiHABEYXSGf1cZDzMScCej_3gChC-9wLrklcB7JSgU_nfXt6YG9TbtTHAB1boaaG8afjDLZohk_z55A",Golden (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4839
