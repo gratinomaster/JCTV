@@ -1,2 +1,23 @@
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz"
 #EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://iptv-epg.org/images/fLPTx5ngKloy0Tzt3SI8XmBcEfitZONzPpoLCul3pV8VnBtmPw6tDu2zzpmChyV_wXNeb4xCGCINxWLp_nFLn2e9OMV_QrDppmu7vajDrA" group-title="NEWS WORLD",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="NEWS WORLD",ABC News Live
+https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="NEWS WORLD",CBS News 24/7
+https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="NEWS WORLD",Fox News Channel
+http://138.121.15.230:9002/FOX-NEWS/index.m3u8
+#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="NEWS WORLD",CNBC
+http://rezofoot.tv/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="BBCNewsNorthAmerica.us" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="NEWS WORLD",BBC News North America
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="SkyNews.pluto" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" group-title="NEWS WORLD",Sky News
+https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.us" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="NEWS WORLD",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="DWEnglish.us" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="NEWS WORLD",DW English
+https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews.us" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg" group-title="NEWS WORLD",Euronews
+https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
+#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="NEWS WORLD",France 24 Español
+https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
