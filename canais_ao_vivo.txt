@@ -1,72 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 26/06/2026 17:00:22
+Data de extração: 26/06/2026 19:45:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. Autoclassificação etária: 12
+A12
 
-Autoclassificação etária: livre
-AL
+19:10 - 19:54
 
-16:25 - 17:44
-
-Jornal Hoje
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-16:58 - 17:39
+19:29 - 20:24
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia Tapas E Beijo
 
-Espelho, Espelho Meu
+O Final Feliz De Fátima E Sueli
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-17:11 - 18:39
+17:59 - 20:32
 
-Aquecimento sportv
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Noruega X França
 
-Noruega X França
+Noruega X França - Boston, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:50 - 17:19
+6. 19:42 - 20:41
 
-Brasileirão - Santos X Vitória - 30052026
+Brasileirão - Internacional X Athletico-Pr - 28012026
 
-Santos X Vitória
+Internacional X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 14
-A14
+7. Autoclassificação etária: livre
+AL
 
-16:00 - 17:20
+19:43 - 20:15
 
-Saia Justa
+Tempero De Família
 
-Sincerona / Sexy além do óbvio / Influências campeãs
+Juliana e Alexandre
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-16:54 - 17:39
+19:08 - 20:15
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
