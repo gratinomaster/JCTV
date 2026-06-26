@@ -42,6 +42,12 @@ CHANNEL_NAMES = {
     "BBCWorldNews.us": "BBC World News",
     "NHKWorld.us": "NHK World",
     "Canal6CDMX.mx": "Canal 6 CDMX",
+    "ABCNewsLive.us": "ABC News Live",
+    "CBSNews.us": "CBS News 24/7",
+    "FoxNewsChannel.us": "Fox News Channel",
+    "CNBC.us": "CNBC",
+    "BBCNewsNorthAmerica.us": "BBC News North America",
+    "SkyNews.pluto": "Sky News",
 }
 
 EXACT_ALIASES = {
@@ -65,6 +71,12 @@ EXACT_ALIASES = {
     "BBCWorldNews.us": ["bbc world news", "bbc"],
     "NHKWorld.us": ["nhk world", "nhk"],
     "Canal6CDMX.mx": ["canal 6", "canal 6 cdmx"],
+    "ABCNewsLive.us": ["abc news live", "abc news"],
+    "CBSNews.us": ["cbs news", "cbs news 24/7"],
+    "FoxNewsChannel.us": ["fox news", "fox news channel"],
+    "CNBC.us": ["cnbc"],
+    "BBCNewsNorthAmerica.us": ["bbc news north america", "bbc news"],
+    "SkyNews.pluto": ["sky news"],
 }
 
 GENERIC_SCHEDULE = [
@@ -275,7 +287,9 @@ def main():
             sched = GENERIC_SCHEDULE_G1
         elif wid in ("cbn", "cbn-sp", "cbn-rj"):
             sched = GENERIC_SCHEDULE_CBN
-        elif wid in ("ABCNewsLive.us", "CBSNews.us", "AlJazeera.us", "DWEnglish.us",
+        elif wid in ("ABCNewsLive.us", "CBSNews.us", "FoxNewsChannel.us", "CNBC.us",
+                     "BBCNewsNorthAmerica.us", "SkyNews.pluto",
+                     "AlJazeera.us", "DWEnglish.us",
                      "France24enEspanol.us", "NoticiasTelemundoAHORA.us", "EstrellaTV.us",
                      "Univision.mx", "adn40.mx", "MilenioTV.mx", "ImagenTV.mx", "RussiaToday.mx",
                      "CGTNEspanol.us", "CGTNCCTVNews.us", "Bloomberg.us",
