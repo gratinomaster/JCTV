@@ -1,68 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 26/06/2026 09:23:42
+Data de extração: 26/06/2026 14:22:27
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-09:10 - 09:59
+13:55 - 14:54
 
-Coração Acelerado
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-09:00 - 09:59
+12:30 - 15:59
 
-Jornal GloboNews
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 10
+10
 
-09:01 - 09:32
+13:57 - 14:23
 
-O Dono Do Lar
+Chaves
 
-De Perna Bamba
+Nasce Uma Bisavó
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 08:30 - 09:24
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+13:15 - 14:59
 
-Equador X Alemanha - Nova Jersey, EUA
+Partiu Copa - Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 08:58 - 09:28
+6. 14:21 - 14:51
 
-Brasileirão - Grêmio X Santos - 23052026
+Brasileirão - Santos X Vitória - 30052026
 
-Grêmio X Santos
+Santos X Vitória
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: 10
 A10
 
-08:30 - 09:23
+14:21 - 15:16
 
 Food Truck - A Batalha
 
-Inspiração América Do Sul
+Agridoce
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Autoclassificação etária: 14
+A14
 
-09:04 - 10:10
+13:33 - 14:23
 
-Amor À Vida
+Minha Vida Perfeita
+
+Capítulo 39
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
