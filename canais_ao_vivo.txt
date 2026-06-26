@@ -1,70 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 25/06/2026 22:20:37
+Data de extração: 26/06/2026 03:34:42
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 02:10 - 03:39
 
-21:55 - 22:39
-
-A Nobreza do Amor
+Saia Justa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 03:59
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-22:05 - 22:47
+03:15 - 03:51
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia - A Grande Fa
 
-Espelho, Espelho Meu
+A copa dos que não foram
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-22:14 - 23:14
+03:03 - 03:53
 
-Aquecimento sportv
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Turquia X Eua
 
-Japão X Suécia
+Turquia X Eua - Los Angeles, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:51 - 22:21
+6. 03:11 - 03:41
 
-Brasileirão - Remo X Palmeiras - 10052026
+Brasileirão - Botafogo X Corinthians - 17052026
 
-Remo X Palmeiras
+Botafogo X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:44 - 22:44
+02:47 - 03:47
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Bisteca com Molho de Limão
+Regina Casé, Ingrid Guimarães, Alex Escobar
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:32 - 22:20
+02:48 - 03:52
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
