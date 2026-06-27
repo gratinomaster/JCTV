@@ -1,67 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 27/06/2026 06:31:31
+Data de extração: 27/06/2026 10:57:22
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 06:00 - 06:44
+2. Autoclassificação etária: livre
+AL
 
-Lady Night
+10:50 - 11:29
 
-MC Daniel
+Pequenas Empresas &amp; Grandes Negócios
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-06:00 - 06:59
+10:00 - 10:59
 
-Jornal GloboNews
+Jornal GloboNews - Edição das 07h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-06:30 - 06:56
+10:30 - 11:01
 
-Chapolin
+Tô De Graça
 
-Confusão No Celeiro / Encontro Às Escuras / Garçom Desastrado
+De Volta Pro Passado
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 05:36 - 06:40
+5. 10:55 - 11:57
 
 Copa Do Mundo Da FIFA 2026™
 
 Noruega X França - Boston, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 05:34 - 06:34
+6. 10:30 - 11:30
 
-Brasileirão - Grêmio X Botafogo - 04022026
+Brasileirão - Athletico-Pr X Corinthians - 19022026
 
-Grêmio X Botafogo
+Athletico-PR X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 12
+12
 
-06:23 - 07:14
+10:31 - 11:17
 
-Fazendo A Festa
+Alma De Cozinheira
 
-Frutas
+Monica Iozzi e João Vicente
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-06:13 - 06:54
+10:14 - 11:18
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
