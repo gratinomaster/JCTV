@@ -1,68 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 26/06/2026 22:12:56
+Data de extração: 27/06/2026 02:57:07
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 02:50 - 03:19
 
-21:55 - 22:39
+A Reinvenção Do Flamengo
 
-A Nobreza do Amor
+Dor e Glória
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 02:30 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Diálogos com Mario Sergio Conti
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Autoclassificação etária: 12
+A12
 
-22:03 - 22:42
+02:34 - 03:05
 
-Sessão Nostalgia - Toma Lá Da
+Vila, A
 
-Dolly, Pancada Seca
+O Novo Síndico Da Vila
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:10 - 23:09
+02:49 - 04:48
 
-Seleção Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Egito X Irã
+
+Egito X Irã - Seattle, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:42 - 22:38
+6. 02:38 - 03:38
 
-Brasileirão - Vitória X Remo - 28012026
+Brasileirão - São Paulo X Flamengo - 28012026
 
-Vitória X Remo
+São Paulo X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-22:01 - 22:47
+02:36 - 03:42
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Risoto
+Samuel de Assis + Pepita + Ravel Andrade
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:30 - 22:19
+02:45 - 03:50
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
