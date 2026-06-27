@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 27/06/2026 19:18:50
+Data de extração: 27/06/2026 22:02:08
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: 10
+A10
 
-19:05 - 19:54
+19:55 - 22:04
 
-Quem Ama Cuida
+Caldeirão Com Mion
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-18:00 - 20:59
+21:00 - 22:59
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 14
+14
 
-18:51 - 19:42
+21:43 - 22:29
 
-Vai Que Cola
+Sessão Nostalgia - Toma Lá Da
 
-Vai Que Cola - Zona Norte Sul - 4ª Temp
+Boi Sonso, Marrada Certa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:00 - 21:04
+19:29 - 22:55
 
-Aquecimento sportv
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Panamá X Inglaterra
 
-Panamá X Inglaterra
+Panamá X Inglaterra - Nova Jersey, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 18:46 - 19:37
+6. 21:35 - 22:35
 
-Giro Da Rodada
+Brasileirão - Palmeiras X Fluminense - 25022026
 
-Brasileirão - 3ª Rodada
+Palmeiras X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-18:35 - 19:41
+21:32 - 22:18
 
-Que História É Essa, Porchat?
+Cozinha Prática Com Rita Lobo
 
-Alice Carvalho + Diego Martins + João Vítor Silva
+Torta de liquidificador com abobrinha e bacon
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:15 - 20:19
+21:50 - 22:31
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
