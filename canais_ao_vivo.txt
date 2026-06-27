@@ -1,67 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 27/06/2026 02:57:07
+Data de extração: 27/06/2026 06:31:31
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 02:50 - 03:19
+2. 06:00 - 06:44
 
-A Reinvenção Do Flamengo
+Lady Night
 
-Dor e Glória
+MC Daniel
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 02:30 - 02:59
+3. Ao vivo
 
-Diálogos com Mario Sergio Conti
+06:00 - 06:59
+
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-02:34 - 03:05
+06:30 - 06:56
 
-Vila, A
+Chapolin
 
-O Novo Síndico Da Vila
+Confusão No Celeiro / Encontro Às Escuras / Garçom Desastrado
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 05:36 - 06:40
 
-02:49 - 04:48
+Copa Do Mundo Da FIFA 2026™
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Egito X Irã
-
-Egito X Irã - Seattle, EUA
+Noruega X França - Boston, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:38 - 03:38
+6. 05:34 - 06:34
 
-Brasileirão - São Paulo X Flamengo - 28012026
+Brasileirão - Grêmio X Botafogo - 04022026
 
-São Paulo X Flamengo
+Grêmio X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-02:36 - 03:42
+06:23 - 07:14
 
-Que História É Essa, Porchat?
+Fazendo A Festa
 
-Samuel de Assis + Pepita + Ravel Andrade
+Frutas
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-02:45 - 03:50
+06:13 - 06:54
 
-Salve Jorge
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
