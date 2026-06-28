@@ -1,65 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 28/06/2026 19:17:59
+Data de extração: 28/06/2026 22:01:21
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 18:25 - 19:19
+2. 21:40 - 22:54
 
-Alta Fidelidade
-
-Alta Fidelidade – As Dez Maiores Torcidas Do Mundo
+Em Família Com Eliana
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-18:00 - 20:29
+21:00 - 22:29
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-19:16 - 19:53
+21:40 - 22:26
 
-Sessão Nostalgia Tapas E Beijo
+Vai Que Cola
 
-Um Lar Para Sueli
+Vai Que Cola - Quem Dá Mais - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 19:04 - 20:00
+5. Ao vivo
 
-Giro Da Copa
+21:00 - 22:55
 
-Copa Do Mundo 2026 - 2ª Rodada
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 18:59 - 19:29
+6. Ao vivo
 
-Brasileirão - Bahia X Bragantino - 18032026
+21:14 - 23:27
 
-Bahia X Bragantino
+Campeonato Brasileiro De Futebol Série B
+
+Náutico X Goiás
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-18:37 - 19:18
+21:59 - 22:47
 
-No Fogo Com Bronze
+Geladeiras Em Ação
 
-Caipixaba
+Pé na areia
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-18:25 - 19:25
+21:14 - 22:19
 
 Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
