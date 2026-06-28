@@ -30,10 +30,9 @@ jobs:
           cat << 'EOF' > prompt.txt
           acesse ARGENTINA.m3u
           coloque os canais na ordem do line-up do tdt
-          teste com ffmpeg
           adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
           adcione tvg-logo em canais que estejam sem ou invalidos
-          exclua os canais offline
+          exclua os canais offline, teste com ffmpeg
           remova #extinf que não tenham links dos canais
           teste os links para não me deixar usar links com virus
           corrija caso o epg não funcione nos canais corretamente
