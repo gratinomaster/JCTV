@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caracol_Televisi%C3%B3n_2024.svg/1200px-Caracol_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Caracol TV
+http://138.121.15.230:9002/CARACOL/index.m3u8
+#EXTINF:-1 tvg-id="CanalRCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RCN_Televisi%C3%B3n_2024.svg/1200px-RCN_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Canal RCN
+http://138.121.15.230:9002/RCN/index.m3u8
 #EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://iptv-epg.org/images/fLPTx5ngKloy0Tzt3SI8XmBcEfitZONzPpoLCul3pV8VnBtmPw6tDu2zzpmChyV_wXNeb4xCGCINxWLp_nFLn2e9OMV_QrDppmu7vajDrA" group-title="NEWS WORLD",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="NEWS WORLD",ABC News Live
