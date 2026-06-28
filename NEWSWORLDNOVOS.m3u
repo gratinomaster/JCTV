@@ -3,6 +3,8 @@
 http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RCN_Televisi%C3%B3n_2024.svg/1200px-RCN_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Win_Sports_logo.png" group-title="COLOMBIA",Win Sports
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=817
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RTP1_-_Logo_2016.svg/640px-RTP1_-_Logo_2016.svg.png" group-title="PORTUGAL",RTP 1
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/SPMqiDG.png" group-title="PORTUGAL",SIC
@@ -13,6 +15,8 @@ http://h13v6kkes7i.a.trbcdn.net/SportTV1/track-v1a1/mono.m3u8
 http://h13v6kkes7i.a.trbcdn.net/SportTV2/track-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/abdumajit768/Logo/refs/heads/main/IMG_20241020_190952.png" group-title="PORTUGAL",Sport TV 3
 http://h13v6kkes7i.a.trbcdn.net/SportTV3/track-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/TVI_2023.svg/960px-TVI_2023.svg.png" group-title="PORTUGAL",TVI
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
 #EXTINF:-1 tvg-id="BBCOne.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" group-title="UK",BBC One
 https://d20opqftbkv2z0.cloudfront.net/live11/bbcone/bitrate1-clear.isml/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/FOX_2024.svg/960px-FOX_2024.svg.png" group-title="USA",FOX
@@ -41,3 +45,11 @@ https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
 #EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="NEWS WORLD",France 24 Español
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Telemundo_2024.svg/960px-Telemundo_2024.svg.png" group-title="USA",Telemundo
+http://cors.tundracast.com:2000/https://streamer2.nexgen.bz/77-TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Telemundo_2024.svg/960px-Telemundo_2024.svg.png" group-title="USA",Telemundo (Alt)
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/TyC_Sports_2022.svg/960px-TyC_Sports_2022.svg.png" group-title="ARGENTINA",TyC Sports
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
+#EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TUDN_2022.svg/960px-TUDN_2022.svg.png" group-title="MEXICO",TUDN
+https://d162h6qqsk8wvl.cloudfront.net/c559b991-93f6-4dc3-a065-e05f28341fe9/manifest.m3u8
