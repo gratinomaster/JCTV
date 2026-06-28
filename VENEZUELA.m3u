@@ -1,13 +1,7 @@
-#EXTM3U x-tvg-url="https://epg.jesmann.com/iptv/Venezuela.xml.gz" url-tvg="https://epg.jesmann.com/iptv/Venezuela.xml.gz"
+#EXTM3U x-tvg-url="https://epg.jesmann.com/iptv/Venezuela.xml.gz" url-tvg="https://epg.jesmann.com/iptv/LatinSouthAmerica.xml.gz"
 
 #EXTINF:-1 tvg-id="VTVVenezolanaTV(VTV).ve" tvg-logo="https://i.imgur.com/FeRTDqz.png" group-title="VENEZUELA",VTV VENEZOLANA DE TELEVISION
 http://181.78.8.199:8000/play/a091/index.m3u8
-
-#EXTINF:-1 tvg-id="VENEVISION(VENE).ve" tvg-logo="https://i.imgur.com/gm1m8hW.png" group-title="VENEZUELA",VENEVISION
-http://181.78.8.199:8000/play/a0if/index.m3u8
-
-#EXTINF:-1 tvg-id="Globovision(GLOVIS).ve" tvg-logo="https://i.imgur.com/v6nRdxQ.png" group-title="VENEZUELA",GLOBOVISION
-http://181.78.8.199:8000/play/a09k/index.m3u8
 
 #EXTINF:-1 tvg-id="TeleSur(TELESUR).ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="VENEZUELA",TELESUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
@@ -15,20 +9,35 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="ValeTVVenezuela(VALETV).ve" tvg-logo="https://i.imgur.com/NMI2Wed.png" group-title="VENEZUELA",VALE TV
 https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
 
+#EXTINF:-1 tvg-id="TELEVEN(TELEVEN).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Televen_logo.PNG" group-title="VENEZUELA",TELEVEN
+http://181.78.8.199:8000/play/a09j/index.m3u8
+
+#EXTINF:-1 tvg-id="VENEVISION(VENE).ve" tvg-logo="https://i.imgur.com/gm1m8hW.png" group-title="VENEZUELA",VENEVISION
+http://181.78.8.199:8000/play/a0if/index.m3u8
+
+#EXTINF:-1 tvg-id="Globovision(GLOVIS).ve" tvg-logo="https://i.imgur.com/v6nRdxQ.png" group-title="VENEZUELA",GLOBOVISION
+http://181.78.8.199:8000/play/a09k/index.m3u8
+
 #EXTINF:-1 tvg-id="MeridianoTV(MERIDNO).ve" tvg-logo="https://i.imgur.com/I6gsUqD.png" group-title="VENEZUELA",MERIDIANO TV
 http://181.78.8.199:8000/play/a0fr/index.m3u8
+
+#EXTINF:-1 tvg-id="CanalI(CANALI).ve" tvg-logo="https://canal-i.com/favicon.ico" group-title="VENEZUELA",CANAL I
+https://streaming.canal-i.com/canal-i/live/master.m3u8
+
+#EXTINF:-1 tvg-id="TeleAragua.ve" group-title="VENEZUELA",TELEARAGUA
+http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 
 #EXTINF:-1 tvg-id="TLTLaTeleTuya(TLT).ve" tvg-logo="https://i.ibb.co/vvqk2hw/LOGO-HORIZONTAL-text.png" group-title="VENEZUELA",LA TELE TUYA
 http://181.78.8.199:8000/play/a0fs/index.m3u8
 
-#EXTINF:-1 tvg-id="VenevisionInternacional.ve@SD" tvg-logo="https://i.imgur.com/vtGED07.jpg" group-title="VENEZUELA",VENEVISION INTERNACIONAL
+#EXTINF:-1 tvg-id="VenevisionInternacional.ve" tvg-logo="https://i.imgur.com/vtGED07.jpg" group-title="VENEZUELA",VENEVISION INTERNACIONAL
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png" group-title="VENEZUELA",PROMAR TV
+#EXTINF:-1 tvg-id="PromarTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png" group-title="VENEZUELA",PROMAR TV
 http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="VENEZUELA",LATINA TV
+#EXTINF:-1 tvg-id="LatinaTV.ve" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="VENEZUELA",LATINA TV
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="VENEZUELA",INTER TV
+#EXTINF:-1 tvg-id="InterTV.ve" tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="VENEZUELA",INTER TV
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
