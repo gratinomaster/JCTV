@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 28/06/2026 11:06:40
+Data de extração: 28/06/2026 13:44:03
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: livre
+AL
 
-11:00 - 11:49
+13:25 - 13:54
 
-Tapas e Beijos
-
-Sueli é acolhida por Fátima e Armane
+Auto Esporte
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-11:00 - 12:59
+13:00 - 13:59
 
-Jornal GloboNews - Edição das 08h
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-10:59 - 11:29
+13:31 - 14:01
 
-O Dono Do Lar
+Tô De Graça
 
-Cabo da Discórdia
+De Volta Pro Passado
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 10:38 - 11:37
+5. 13:30 - 13:59
 
-Copa Do Mundo Da FIFA 2026™
+Baú Do Esporte
 
-Panamá X Inglaterra - Nova Jersey, EUA
+Lendas - Pelé - Parte 2
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 10:19 - 11:15
+6. 13:37 - 14:07
 
-1/1 CAMPEONATO BRASILEIRO - REMO X FLUMINENSE 120326
+Brasileirão - Fluminense X Athletico-Pr - 15032026
+
+Fluminense X Athletico-Pr
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-10:49 - 11:17
+13:25 - 14:08
 
-Eliana
+Geladeiras Em Ação
 
-Dilsinho e Família
+Americana
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 10
+10
 
-10:52 - 11:32
+13:37 - 14:24
 
-Anjo Mau
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
