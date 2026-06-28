@@ -1,67 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 28/06/2026 08:50:03
+Data de extração: 28/06/2026 11:06:40
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 08:10 - 09:04
+2. Autoclassificação etária: 14
+A14
 
-Alta Fidelidade
+11:00 - 11:49
 
-Chivas (MEX)
+Tapas e Beijos
+
+Sueli é acolhida por Fátima e Armane
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 08:00 - 08:59
+3. Ao vivo
 
-Jornal das Dez
+11:00 - 12:59
+
+Jornal GloboNews - Edição das 08h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-08:34 - 09:05
+10:59 - 11:29
 
-Chapolin
+O Dono Do Lar
 
-Operação De Salvamento / Problemas De Peso / A Lenda Da Chorona
+Cabo da Discórdia
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 08:36 - 09:36
+5. 10:38 - 11:37
 
 Copa Do Mundo Da FIFA 2026™
 
-Argélia X Áustria - Kansas City, EUA
+Panamá X Inglaterra - Nova Jersey, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 08:23 - 08:52
+6. 10:19 - 11:15
 
-Brasileirão - Remo X Fluminense - 12032026
-
-Remo X Fluminense
+1/1 CAMPEONATO BRASILEIRO - REMO X FLUMINENSE 120326
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-08:46 - 09:14
+10:49 - 11:17
 
-Lar: Vida Interior
+Eliana
 
-Poliana Abritta
+Dilsinho e Família
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 12
-A12
+8. Classificação etária: livre
+L
 
-08:12 - 08:55
+10:52 - 11:32
 
-Penso Em Ti
-
-Capítulo 72
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
