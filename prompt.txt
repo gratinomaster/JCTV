@@ -1,5 +1,5 @@
 acesse ARGENTINA.m3u
-adcione algumas afiliadas da telefe
+adcione algumas afiliadas da telefe e 3 sinais alternativos da televisão publica argentina
 adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
 adcione tvg-logo em canais que estejam sem ou invalidos
 exclua os canais offline
