@@ -1,0 +1,4 @@
+#EXTM3U x-tvg-url="https://epg.jesmann.com/iptv/Venezuela.xml.gz"
+
+#EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/VTV_logo.PNG" group-title="VENEZUELA",VTV VENEZOLANA DE TELEVISION HD
+http://181.78.8.199:8000/play/a091/index.m3u8
