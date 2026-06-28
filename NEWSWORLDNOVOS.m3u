@@ -3,6 +3,22 @@
 http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RCN_Televisi%C3%B3n_2024.svg/1200px-RCN_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RTP1_-_Logo_2016.svg/640px-RTP1_-_Logo_2016.svg.png" group-title="PORTUGAL",RTP 1
+https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/SPMqiDG.png" group-title="PORTUGAL",SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/abdumajit768/Logo/refs/heads/main/IMG_20241020_181059.png" group-title="PORTUGAL",Sport TV 1
+http://h13v6kkes7i.a.trbcdn.net/SportTV1/track-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/abdumajit768/Logo/refs/heads/main/IMG_20241020_180603.png" group-title="PORTUGAL",Sport TV 2
+http://h13v6kkes7i.a.trbcdn.net/SportTV2/track-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/abdumajit768/Logo/refs/heads/main/IMG_20241020_190952.png" group-title="PORTUGAL",Sport TV 3
+http://h13v6kkes7i.a.trbcdn.net/SportTV3/track-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="BBCOne.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" group-title="UK",BBC One
+https://d20opqftbkv2z0.cloudfront.net/live11/bbcone/bitrate1-clear.isml/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/FOX_2024.svg/960px-FOX_2024.svg.png" group-title="USA",FOX
+http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1 tvg-id="RedeGlobo.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Rede_Globo_logo.svg/960px-Rede_Globo_logo.svg.png" group-title="BRAZIL",Rede Globo
+https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://iptv-epg.org/images/fLPTx5ngKloy0Tzt3SI8XmBcEfitZONzPpoLCul3pV8VnBtmPw6tDu2zzpmChyV_wXNeb4xCGCINxWLp_nFLn2e9OMV_QrDppmu7vajDrA" group-title="NEWS WORLD",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="NEWS WORLD",ABC News Live
