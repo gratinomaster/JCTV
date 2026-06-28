@@ -168,7 +168,9 @@ def get_tvg_ids_from_m3u(m3u_path):
         for line in f:
             m = re.search(r'tvg-id="([^"]*)"', line)
             if m:
-                ids[m.group(1)] = True
+                tvg_id = m.group(1).strip()
+                if tvg_id:
+                    ids[tvg_id] = True
             elif line.startswith("#EXTINF:"):
                 name_m = re.search(r',\s*(.+?)\s*$', line)
                 if name_m:
