@@ -1,1 +1,19 @@
-crie VENEZUELA.m3u e adcione o principal canal estatal, deve estar funcionando, adcione tvg-logo
+acesse VENEZUELA.m3u
+adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
+adcione tvg-logo em canais que estejam sem ou invalidos
+exclua os canais offline
+remova #extinf que não tenham links dos canais
+teste os links para não me deixar usar links com virus
+corrija caso o epg não funcione nos canais corretamente
+substitua logos quebrados, inválidos, desatualizados ou inacessíveis
+veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
+tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
+não salve o .py que for gerado
+o link do epg deve começar com https
+abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
+não use tvg-ids inventados, apenas reais
+se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje, caso haja mais de um divida com virgulas
+use leitor de imagens para ver se o tvg logo está correto
+não quero .svg
+o logo das emissoras tem que ser atual
+veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija, assista ao primeiro frame para ver se é o canal certo, veja se cada canal está exibindo o logo dele para ver se está correto o nome do canal, mas antes pesquise se os links já tem algum titulo em algum site na internet, de forma a saber o titulo de cada canal, sabe?
