@@ -28,9 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse NEWSWORLDNOVOS.m3u
-          adcione o canal colombiano que está transmitindo o jogo em que portugal está jogando neste exato momento, ou os canais e deve estar funcionando
-          adcione os de outros paises tambem
+          crie VENEZUELA.m3u e adcione o principal canal estatal, deve estar funcionando, adcione tvg-logo
           EOF
 
       - name: Run OpenCode
