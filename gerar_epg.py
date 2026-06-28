@@ -17,8 +17,8 @@ EPG_URLS = [
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml",
     "https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml",
-    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
     "https://i.mjh.nz/SamsungTVPlus/us.xml.gz",
+    "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/us.xml.gz",
 ]
 
 CHANNEL_NAMES = {
@@ -48,6 +48,17 @@ CHANNEL_NAMES = {
     "CNBC.us": "CNBC",
     "BBCNewsNorthAmerica.us": "BBC News North America",
     "SkyNews.pluto": "Sky News",
+    "CaracolTV.co": "Caracol TV",
+    "CanalRCN.co": "Canal RCN",
+    "WinSports.co": "Win Sports",
+    "TVI.pt": "TVI",
+    "BBCOne.uk": "BBC One",
+    "RedeGlobo.br": "Rede Globo",
+    "Telemundo.us": "Telemundo",
+    "TyCSports.ar": "TyC Sports",
+    "TUDN.mx": "TUDN",
+    "Canal5.mx": "Canal 5",
+    "Azteca7.mx": "Azteca 7",
 }
 
 EXACT_ALIASES = {
@@ -56,7 +67,7 @@ EXACT_ALIASES = {
     "MilenioTV.mx": ["milenio television"],
     "ImagenTV.mx": ["imagen tv", "imagen television"],
     "RussiaToday.mx": ["rt noticias", "rt español"],
-    "DWEnglish.us": ["dw english", "dw"],
+    "DWEnglish.us": ["dw english"],
     "France24enEspanol.us": ["france 24", "france 24 español"],
     "AlJazeera.us": ["al jazeera", "al jazeera english"],
     "NoticiasTelemundoAHORA.us": ["telemundo", "telemundo noticias"],
@@ -68,8 +79,8 @@ EXACT_ALIASES = {
     "Canal22.mx": ["canal 22"],
     "Canal14.mx": ["canal 14"],
     "Euronews.us": ["euronews"],
-    "BBCWorldNews.us": ["bbc world news", "bbc"],
-    "NHKWorld.us": ["nhk world", "nhk"],
+    "BBCWorldNews.us": ["bbc world news"],
+    "NHKWorld.us": ["nhk world"],
     "Canal6CDMX.mx": ["canal 6", "canal 6 cdmx"],
     "ABCNewsLive.us": ["abc news live", "abc news"],
     "CBSNews.us": ["cbs news", "cbs news 24/7"],
@@ -77,6 +88,17 @@ EXACT_ALIASES = {
     "CNBC.us": ["cnbc"],
     "BBCNewsNorthAmerica.us": ["bbc news north america", "bbc news"],
     "SkyNews.pluto": ["sky news"],
+    "CaracolTV.co": ["caracol tv internacional", "caracol television"],
+    "CanalRCN.co": ["rcn novelas", "rcn mas", "rcn television"],
+    "WinSports.co": ["win sports"],
+    "TVI.pt": ["tvi internacional"],
+    "BBCOne.uk": ["bbc one"],
+    "RedeGlobo.br": ["tv globo internacional", "tv globo", "rede globo"],
+    "Telemundo.us": ["telemundo"],
+    "TyCSports.ar": ["tyc sports"],
+    "TUDN.mx": ["tudn.us"],
+    "Canal5.mx": ["canal 5"],
+    "Azteca7.mx": ["azteca 7"],
 }
 
 GENERIC_SCHEDULE = [
@@ -207,13 +229,19 @@ def find_source_channel_id(tvg_id, epg_roots):
         for ch in root.findall("channel"):
             cid = ch.get("id", "").lower().strip()
             for alias in aliases:
-                if alias.lower() in cid or cid == alias.lower():
+                al = alias.lower()
+                if cid == al:
+                    return ch.get("id"), root
+                if len(al) >= 4 and al in cid:
                     return ch.get("id"), root
             dn = ch.find("display-name")
             if dn is not None and dn.text:
                 dnt = dn.text.strip().lower()
                 for alias in aliases:
-                    if alias.lower() in dnt or dnt == alias.lower():
+                    al = alias.lower()
+                    if dnt == al:
+                        return ch.get("id"), root
+                    if len(al) >= 4 and al in dnt:
                         return ch.get("id"), root
     return None, None
 
