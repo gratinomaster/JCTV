@@ -8,6 +8,7 @@ from collections import OrderedDict
 from io import StringIO
 import os
 
+M3U_URL = "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u"
 M3U_PATH = "NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
 
@@ -251,11 +252,20 @@ def main():
     print("Gerador de EPGFULL.xml.gz filtrado pelo M3U")
     print("=" * 60)
 
-    print("\n1. Lendo tvg-ids do M3U...")
+    print(f"\n1. Baixando M3U de: {M3U_URL}")
+    m3u_content = fetch_epg_xml(M3U_URL)
+    if m3u_content:
+        with open(M3U_PATH, "w", encoding="utf-8") as f:
+            f.write(m3u_content)
+        print("   M3U salvo em", M3U_PATH)
+    else:
+        print("   Falha ao baixar M3U, usando existente")
+
+    print("\n2. Lendo tvg-ids do M3U...")
     wanted_ids = get_tvg_ids_from_m3u(M3U_PATH)
     print(f"   IDs encontrados: {wanted_ids}")
 
-    print("\n2. Baixando EPGs de origem...")
+    print("\n3. Baixando EPGs de origem...")
     epg_roots = []
     for url in EPG_URLS:
         fname = url.rstrip("/").split("/")[-1]
@@ -271,7 +281,7 @@ def main():
         except Exception as e:
             print(f"   Erro ao parsear: {e}")
 
-    print("\n3. Mapeando canais do M3U para fontes EPG...")
+    print("\n4. Mapeando canais do M3U para fontes EPG...")
     channel_map = {}
     for wid in wanted_ids:
         src_id, src_root = find_source_channel_id(wid, epg_roots)
@@ -292,7 +302,7 @@ def main():
         ch = ET.SubElement(tv_root, "channel", id=wid)
         ET.SubElement(ch, "display-name", lang="pt").text = name
 
-    print("\n4. Extraindo programmes das fontes EPG...")
+    print("\n5. Extraindo programmes das fontes EPG...")
     matched_progs = 0
     for wid in wanted_ids:
         if wid not in channel_map:
@@ -305,7 +315,7 @@ def main():
                 matched_progs += 1
     print(f"   Programmes copiados das fontes: {matched_progs}")
 
-    print("\n5. Gerando programação genérica para canais sem EPG...")
+    print("\n6. Gerando programação genérica para canais sem EPG...")
     generated_progs = 0
     for wid in wanted_ids:
         if wid in channel_map:
@@ -347,13 +357,13 @@ def main():
                 prog = ET.SubElement(tv_root, "programme", {
                     "channel": wid,
                     "start": start_fmt,
-                    "end": end_fmt,
+                    "stop": end_fmt,
                 })
                 ET.SubElement(prog, "title", lang="pt").text = prog_name
                 generated_progs += 1
     print(f"   Programmes gerados: {generated_progs}")
 
-    print(f"\n6. Salvando {OUTPUT}...")
+    print(f"\n7. Salvando {OUTPUT}...")
     xml_str = ET.tostring(tv_root, encoding="utf-8")
     parsed = minidom.parseString(xml_str)
     pretty_xml = parsed.toprettyxml(indent="  ", encoding="utf-8")
