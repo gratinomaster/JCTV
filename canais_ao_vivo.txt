@@ -1,69 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 28/06/2026 22:01:21
+Data de extração: 29/06/2026 03:45:30
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 21:40 - 22:54
+2. Autoclassificação etária: livre
+AL
 
-Em Família Com Eliana
+01:45 - 04:39
+
+Fantástico
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 02:35 - 05:34
 
-21:00 - 22:29
-
-Jornal GloboNews Edição das 18h
+Fantástico
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-21:40 - 22:26
+02:05 - 03:58
 
-Vai Que Cola
+Cine Hahaha
 
-Vai Que Cola - Quem Dá Mais - 1ª temporada
+Tô Ryca!
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:00 - 22:55
+02:32 - 03:46
 
-Troca De Passes - Copa Do Mundo
+sportv News - Noite
 
-TROCA DE PASSES - COPA DO MUNDO
+sportv News
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. Ao vivo
+6. 03:39 - 04:09
 
-21:14 - 23:27
+Brasileirão - Cruzeiro X Santos - 22032026
 
-Campeonato Brasileiro De Futebol Série B
-
-Náutico X Goiás
+Cruzeiro X Santos
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-21:59 - 22:47
+03:38 - 04:20
 
-Geladeiras Em Ação
+Infiltrado Na Cozinha
 
-Pé na areia
+O Peixe Fora d'água
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-21:14 - 22:19
+03:13 - 04:17
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
