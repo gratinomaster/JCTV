@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 29/06/2026 03:45:30
+Data de extração: 29/06/2026 10:56:25
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,56 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-01:45 - 04:39
+08:25 - 11:04
 
 Fantástico
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 02:35 - 05:34
+3. Ao vivo
 
-Fantástico
+10:00 - 12:29
+
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-02:05 - 03:58
+10:55 - 11:00
 
-Cine Hahaha
+Tvz
 
-Tô Ryca!
+Ariana Grande - Hate That I Made You Love Me
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 09:25 - 11:25
 
-02:32 - 03:46
-
-sportv News - Noite
-
-sportv News
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:39 - 04:09
+6. 10:55 - 11:26
 
-Brasileirão - Cruzeiro X Santos - 22032026
+Brasileirão - Bragantino X Flamengo - 02042026
 
-Cruzeiro X Santos
+Bragantino X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-03:38 - 04:20
+10:36 - 11:34
 
-Infiltrado Na Cozinha
+Santa Ajuda
 
-O Peixe Fora d'água
+Bagunceira no trabalho
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-03:13 - 04:17
+10:21 - 11:24
 
-Amor À Vida
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
