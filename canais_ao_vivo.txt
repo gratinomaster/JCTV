@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 29/06/2026 19:56:04
+Data de extração: 29/06/2026 22:08:10
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-19:50 - 20:34
+22:00 - 22:39
 
-Coração Acelerado
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-19:55 - 20:28
+21:57 - 22:40
 
-Sessão Nostalgia Tapas E Beijo
+Sessão Nostalgia - Toma Lá Da
 
-Fátima Completa Bodas De Cera E Sueli Tem Recaída
+Boa Noite, Seu Ladir
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:42 - 21:21
+20:15 - 22:27
 
-Aquecimento sportv
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Alemanha X Paraguai
 
 Alemanha X Paraguai
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:48 - 20:18
+6. 21:49 - 22:18
 
-Brasileirão - Santos X Atlético-Mg - 11042026
+Brasileirão - Fluminense X Flamengo - 12042026
 
-Santos X Atlético-MG
+Fluminense X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-19:27 - 20:00
+21:49 - 22:46
 
-Tempero De Família
+Cozinha Prática Com Rita Lobo
 
-Argentina
+Filé de Frango Ao Poivre
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:20 - 20:21
+21:35 - 22:16
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
