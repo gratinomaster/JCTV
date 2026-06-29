@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 29/06/2026 10:56:25
+Data de extração: 29/06/2026 15:43:47
 Total de canais: 10
 ================================================================================
 
@@ -11,56 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-08:25 - 11:04
+14:55 - 15:59
 
-Fantástico
+Mais Você
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-10:55 - 11:00
+14:51 - 15:46
 
-Tvz
+Vai Que Cola
 
-Ariana Grande - Hate That I Made You Love Me
+Vai Que Cola - Existe Amor No Méier - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 09:25 - 11:25
+5. Ao vivo
 
-Seleção Copa
+14:32 - 17:07
+
+Aquecimento sportv
+
+Brasil X Japão
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 10:55 - 11:26
+6. 15:21 - 15:51
 
-Brasileirão - Bragantino X Flamengo - 02042026
+Brasileirão - Bahia X Palmeiras - 05042026
 
-Bragantino X Flamengo
+Bahia X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 12
+12
 
-10:36 - 11:34
+15:07 - 15:51
 
-Santa Ajuda
+Alma De Cozinheira
 
-Bagunceira no trabalho
+Thalita Carauta  e Luis Miranda
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-10:21 - 11:24
+15:11 - 15:51
 
-Salve Jorge
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
