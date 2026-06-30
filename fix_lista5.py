@@ -36,6 +36,8 @@ EPG_URLS = [
     "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/claro.xml",
     "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/vivoplay.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://iptv-epg.org/files/epg-br.xml.gz",
+    "https://iptv-epg.org/files/epg-ar.xml.gz",
     "GLOBOEPG.xml.gz",
 ]
 
@@ -53,18 +55,7 @@ CHANNEL_MAP = OrderedDict([
         "tvg-logo": "https://keyframe-cdn.abcnews.com/streamprovider10.jpg",
         "preferred": lambda u: "akamaized" in u and "index.m3u8" in u,
     }),
-    ("Fox Business", {
-        "tvg-id": "Fox.Business.HD.us2",
-        "tvg-name": "Fox Business",
-        "tvg-logo": "https://a57.foxnews.com/static/694940094001/42cadbe8-971a-43f3-8bd5-121dc91dd120/d1de5ed5-ad2a-4a4c-a6a2-6972164b9739/1280x720/match/808/455/image.jpg",
-        "preferred": lambda u: "247.foxbusiness" in u and "master.m3u8" in u,
-    }),
-    ("Fox News", {
-        "tvg-id": "Fox.News.Channel.HD.us2",
-        "tvg-name": "Fox News Channel",
-        "tvg-logo": "https://a57.foxnews.com/static/694940094001/42cadbe8-971a-43f3-8bd5-121dc91dd120/d1de5ed5-ad2a-4a4c-a6a2-6972164b9739/1280x720/match/808/455/image.jpg",
-        "preferred": lambda u: "247.foxnews" in u and "master.m3u8" in u,
-    }),
+    ("Fox News", None),
     ("CBS News", {
         "tvg-id": "CBS.News.National.Stream.us2",
         "tvg-name": "CBS News 24/7",
@@ -75,6 +66,12 @@ CHANNEL_MAP = OrderedDict([
 
 # --- Canais adicionais do NEWSWORLDNOVOS ---
 ADDITIONAL_CHANNELS = OrderedDict([
+    ("Fox News Channel", {
+        "tvg-id": "Fox.News.Channel.HD.us2",
+        "tvg-name": "Fox News Channel",
+        "tvg-logo": "https://a57.foxnews.com/static/694940094001/42cadbe8-971a-43f3-8bd5-121dc91dd120/d1de5ed5-ad2a-4a4c-a6a2-6972164b9739/1280x720/match/808/455/image.jpg",
+        "group": "NEWS WORLD",
+    }),
     ("Univision Noticias", {
         "tvg-id": "Univision.mx",
         "tvg-name": "Univision Noticias",
@@ -389,6 +386,7 @@ GLOBO_URL_PATTERNS = {
 
 # URLs dos canais adicionais do NEWSWORLDNOVOS
 ADDITIONAL_URLS = OrderedDict([
+    ("Fox News Channel", "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"),
     ("Univision Noticias", "https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8"),
     ("ADN 40", "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8"),
     ("Milenio Televisión", "https://jmp2.uk/plu-652e922db4b047000825f975.m3u8"),
@@ -457,7 +455,7 @@ def deduplicate(channels):
     seen = OrderedDict()
     for extinf, url in channels:
         name, info = identify_channel(extinf)
-        if name is None:
+        if name is None or info is None:
             continue
         if name not in seen:
             seen[name] = (extinf, url, info)
@@ -721,7 +719,7 @@ def main():
                 break
             ch_name = None
             for name, info in CHANNEL_MAP.items():
-                if info["tvg-id"] == tvg_id:
+                if info is not None and info["tvg-id"] == tvg_id:
                     ch_name = info["tvg-name"]
                     break
             if not ch_name:
