@@ -1,66 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 30/06/2026 09:32:57
+Data de extração: 30/06/2026 14:16:19
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-09:15 - 09:59
+13:55 - 14:54
 
-Coração Acelerado
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-09:00 - 09:59
+12:30 - 15:59
 
-Jornal GloboNews
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-09:27 - 10:00
+14:03 - 14:31
 
-O Dono Do Lar
+Chapolin
 
-Se Melhorar Estraga
+Uma Investigação Perigosa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 09:06 - 10:30
+5. Ao vivo
 
-Seleção Copa
+13:45 - 15:28
+
+Partiu Copa - Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:23 - 09:54
+6. 13:47 - 14:17
 
-Brasileirão - Fluminense X Chapecoense - 26042026
+Brasileirão - Internacional X Fluminense - 03052026
 
-Fluminense X Chapecoense
+Internacional X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-09:06 - 09:49
+14:09 - 14:32
 
-Sábia Ignorância
+Pode Entrar - Refúgios
 
-Afinal, O Que É Gênero?
+Nicole Bahls
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-09:04 - 09:58
+14:15 - 15:00
 
-Amor À Vida
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
