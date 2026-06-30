@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 30/06/2026 19:55:04
+Data de extração: 30/06/2026 22:15:12
 Total de canais: 10
 ================================================================================
 
@@ -11,60 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-19:40 - 20:24
+22:00 - 22:39
 
-Coração Acelerado
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 14
+14
 
-19:50 - 20:24
+22:04 - 22:50
 
-Sessão Nostalgia Tapas E Beijo
+Sessão Nostalgia - Toma Lá Da
 
-Fátima E Sueli Se Desentendem Com Motorista De Ônibus
+Freud Já Não Explica Mais
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:14 - 21:22
+21:00 - 22:55
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Radar Da Seleção
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:38 - 20:07
+6. 21:57 - 22:27
 
-Brasileirão - Grêmio X Flamengo - 10052026
+Brasileirão - Fluminense X São Paulo - 16052026
 
-Grêmio X Flamengo
+Fluminense X São Paulo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-19:45 - 20:11
+22:02 - 22:43
 
-Tempero De Família
+Cozinha Prática Com Rita Lobo
 
-Barreado, Farofa De Banana E Manjar
+Meu Filho Não Come
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:17 - 20:12
+21:30 - 22:18
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
