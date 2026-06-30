@@ -1,72 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 30/06/2026 03:32:36
+Data de extração: 30/06/2026 09:32:57
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-03:25 - 03:54
+09:15 - 09:59
 
-Em Família Com Eliana: Pode Entrar
-
-Solange Almeida e Família
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+09:00 - 09:59
 
-Jornal GloboNews Edição da Meia-noite
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-03:06 - 03:40
+09:27 - 10:00
 
-Sessão Nostalgia - A Grande Fa
+O Dono Do Lar
 
-40 Anos essa noite
+Se Melhorar Estraga
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 09:06 - 10:30
 
-03:01 - 04:02
-
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:29 - 03:59
+6. 09:23 - 09:54
 
-Brasileirão - Palmeiras X Athletico-Pr - 19042026
+Brasileirão - Fluminense X Chapecoense - 26042026
 
-Palmeiras X Athletico-PR
+Fluminense X Chapecoense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 12
+A12
 
-02:44 - 03:46
+09:06 - 09:49
 
-Que História É Essa, Porchat?
+Sábia Ignorância
 
-Luciana Braga + Lucas Gutierrez + Carol Marra
+Afinal, O Que É Gênero?
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-02:34 - 03:38
+09:04 - 09:58
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
