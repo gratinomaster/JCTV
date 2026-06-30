@@ -1,70 +1,72 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 29/06/2026 22:08:10
+Data de extração: 30/06/2026 03:32:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-22:00 - 22:39
+03:25 - 03:54
 
-A Nobreza do Amor
+Em Família Com Eliana: Pode Entrar
+
+Solange Almeida e Família
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:59
+03:00 - 03:59
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews Edição da Meia-noite
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-21:57 - 22:40
+03:06 - 03:40
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia - A Grande Fa
 
-Boa Noite, Seu Ladir
+40 Anos essa noite
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-20:15 - 22:27
+03:01 - 04:02
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Alemanha X Paraguai
+Troca De Passes - Copa Do Mundo
 
-Alemanha X Paraguai
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:49 - 22:18
+6. 03:29 - 03:59
 
-Brasileirão - Fluminense X Flamengo - 12042026
+Brasileirão - Palmeiras X Athletico-Pr - 19042026
 
-Fluminense X Flamengo
+Palmeiras X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:49 - 22:46
+02:44 - 03:46
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Filé de Frango Ao Poivre
+Luciana Braga + Lucas Gutierrez + Carol Marra
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:35 - 22:16
+02:34 - 03:38
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
