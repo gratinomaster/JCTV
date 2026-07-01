@@ -1,70 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 01/07/2026 03:41:37
+Data de extração: 01/07/2026 09:43:26
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-03:10 - 03:59
+09:15 - 09:49
 
-Jornal da Globo
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+09:00 - 09:59
 
-Jornal GloboNews Edição da Meia-noite
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 14
 A14
 
-03:37 - 04:09
+09:29 - 10:00
 
 Aquecimento Rock In Rio
 
 Fatboy Slim
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 09:08 - 10:11
 
-23:56 - 03:57
-
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - México X Equador
+Copa Do Mundo Da FIFA 2026™
 
 México X Equador
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 03:24 - 03:53
+6. 09:31 - 10:00
 
-Brasileirão - Remo X Athletico-Pr - 24052026
+Brasileirão - Palmeiras X Chapecoense - 31052026
 
-Remo X Athletico-PR
+Palmeiras X Chapecoense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: 12
 A12
 
-03:33 - 04:19
+09:01 - 09:47
 
-Avisa Lá Que Eu Vou
+Dani-Se
 
-Barra do Garças
+Falsidade
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-02:46 - 03:55
+09:09 - 10:14
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
