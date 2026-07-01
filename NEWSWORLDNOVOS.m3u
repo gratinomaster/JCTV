@@ -1,81 +1,175 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-br.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz"
-# News World - International 24h News Channels
-#EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/Bloomberg_Logo_2025.svg" group-title="NEWS WORLD",Bloomberg Television
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-br.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz,https://iptv-epg.org/files/epg-co.xml.gz,https://iptv-epg.org/files/epg-pt.xml.gz"
+# News World - International 24h News Channels (Updated & Organized)
+
+# 🌍 NEWS WORLD - INTERNATIONAL NEWS
+
+#EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bloomberg_Logo_2025.svg/256px-Bloomberg_Logo_2025.svg.png" group-title="NEWS WORLD",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/ABC_News_Live_logo_2021.svg" group-title="NEWS WORLD",ABC News Live
+
+#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/256px-ABC_News_Live_logo_2021.svg.png" group-title="NEWS WORLD",ABC News Live
 https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/CBS_News_247_logo.svg" group-title="NEWS WORLD",CBS News 24/7
+
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/256px-CBS_News_247_logo.svg.png" group-title="NEWS WORLD",CBS News 24/7
 https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg" group-title="NEWS WORLD",Fox News Channel
+
+#EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://i.imgur.com/OdhF7ym.png" group-title="NEWS WORLD",A24
+https://www.youtube.com/c/A24com/live
+
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/256px-Fox_News_Channel_logo.svg.png" group-title="NEWS WORLD",Fox News Channel
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" group-title="NEWS WORLD",CNBC
+
+#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/256px-CNBC_2025.svg.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="BBCNewsNorthAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/BBC_News_logo_2022.svg" group-title="NEWS WORLD",BBC News North America
+
+#EXTINF:-1 tvg-id="BBCNewsNorthAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_News_logo_2022.svg/256px-BBC_News_logo_2022.svg.png" group-title="NEWS WORLD",BBC News North America
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="SkyNews.pluto" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Sky_News_logo_2023.svg" group-title="NEWS WORLD",Sky News
+
+#EXTINF:-1 tvg-id="SkyNews.pluto" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sky_News_logo_2023.svg/256px-Sky_News_logo_2023.svg.png" group-title="NEWS WORLD",Sky News
 https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Al_Jazeera_English_logo.svg" group-title="NEWS WORLD",Al Jazeera English
+
+#EXTINF:-1 tvg-id="AlJazeera.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Al_Jazeera_English_logo.svg/256px-Al_Jazeera_English_logo.svg.png" group-title="NEWS WORLD",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="DWEnglish.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/Deutsche_Welle_Logo.svg" group-title="NEWS WORLD",DW English
+
+#EXTINF:-1 tvg-id="DWEnglish.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deutsche_Welle_Logo.svg/256px-Deutsche_Welle_Logo.svg.png" group-title="NEWS WORLD",DW English
 https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
-#EXTINF:-1 tvg-id="Euronews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/Euronews_2022.svg" group-title="NEWS WORLD",Euronews
+
+#EXTINF:-1 tvg-id="Euronews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Euronews_2022.svg/256px-Euronews_2022.svg.png" group-title="NEWS WORLD",Euronews
 https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
-#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/France_24_logo.svg" group-title="NEWS WORLD",France 24 Español
+
+#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 Español
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="CGTNCCTVNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/CGTN_logo.svg" group-title="NEWS WORLD",CGTN News
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/France_24_logo.svg" group-title="NEWS WORLD",France 24 English
+
+#EXTINF:-1 tvg-id="France24.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 English
 https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
-#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/France_24_logo.svg" group-title="NEWS WORLD",France 24 Français
+
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 Français
 https://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8
-#EXTINF:-1 tvg-id="RussiaToday.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/RT_logo_2023.svg" group-title="NEWS WORLD",RT News Español
+
+#EXTINF:-1 tvg-id="CGTNCCTVNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/CGTN_logo.svg/256px-CGTN_logo.svg.png" group-title="NEWS WORLD",CGTN News
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+
+#EXTINF:-1 tvg-id="RussiaToday.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/RT_logo_2023.svg/256px-RT_logo_2023.svg.png" group-title="NEWS WORLD",RT News Español
 https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
-# Colombia
-#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8d/Caracol_Televisi%C3%B3n_2024.svg" group-title="COLOMBIA",Caracol TV
-http://138.121.15.230:9002/CARACOL/index.m3u8
-#EXTINF:-1 tvg-id="CanalRCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/RCN_Televisi%C3%B3n_2024.svg" group-title="COLOMBIA",Canal RCN
-http://138.121.15.230:9002/RCN/index.m3u8
-# Brazil
-#EXTINF:-1 tvg-id="RedeGlobo.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/Rede_Globo_logo.svg" group-title="BRAZIL",Rede Globo
-https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-# Mexico - Open TV
-#EXTINF:-1 tvg-id="AztecaUno.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Azteca_Uno_logo.svg" group-title="MEXICO",Azteca Uno
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4833
-#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/53/Estrellas_2023.svg" group-title="MEXICO",Las Estrellas
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5397
-#EXTINF:-1 tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Canal_5_2024.svg" group-title="MEXICO",Canal 5
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404
-#EXTINF:-1 tvg-id="ImagenTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Imagen_Televisi%C3%B3n_2021.svg" group-title="MEXICO",Imagen TV
-https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
-#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Azteca_7_2025.svg" group-title="MEXICO",Azteca 7
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4835
-# Mexico - News Channels
-#EXTINF:-1 tvg-id="MilenioTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Milenio_Televisi%C3%B3n_logo.svg" group-title="MEXICO NEWS",Milenio TV
-https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
-#EXTINF:-1 tvg-id="adn40.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/ADN40_2020.png" group-title="MEXICO NEWS",ADN 40
-https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
-# Argentina
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV_P%C3%BAblica_Argentina_logo.svg" group-title="ARGENTINA",TV Pública Argentina
-https://ola1.com.ar/tvpublica/index.m3u8
-#EXTINF:-1 tvg-id="ELTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/El_Trece_2024.svg" group-title="ARGENTINA",El Trece
-https://livetrx01.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Am%C3%A9rica_TV_2022.svg" group-title="ARGENTINA",América TV
-https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/TyC_Sports_2022.svg" group-title="ARGENTINA",TyC Sports
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/Canal_26_logo_2022.svg" group-title="ARGENTINA NEWS",Canal 26
-https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/52/Cronica_TV_2022.svg" group-title="ARGENTINA NEWS",Crónica TV
-https://www.youtube.com/c/cronicatv/live
-# USA - Open TV
-#EXTINF:-1 tvg-id="FoxEast_WNYW.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/FOX_2024.svg" group-title="USA",FOX
-http://84.17.50.102/fox/index.m3u8
-#EXTINF:-1 tvg-id="Telemundo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Telemundo_2024.svg" group-title="USA",Telemundo
-https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
-#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9b/Estrella_TV_logo_2023.svg" group-title="USA",Estrella TV
-https://estrellatv-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9b/Estrella_TV_logo_2023.svg" group-title="USA",Estrella News
-https://estrella-news-oando.amagi.tv/playlist.m3u8
-# Portugal
-#EXTINF:-1 tvg-id="RTPMundo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/RTP1_-_Logo_2016.svg" group-title="PORTUGAL",RTP 1
+
+#EXTINF:-1 tvg-id="TeleSur.ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="NEWS WORLD",TeleSUR
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+
+# 🇵🇹 PORTUGAL
+
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" group-title="PORTUGAL",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png" group-title="PORTUGAL",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png" group-title="PORTUGAL",RTP 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
+
+#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPMemoria.png" group-title="PORTUGAL",RTP Memória
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpmemoria
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmemoria.smil/playlist.m3u8
+
+# 🇧🇷 BRAZIL
+
+#EXTINF:-1 tvg-id="GloboBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Rede_Globo_logo.svg/256px-Rede_Globo_logo.svg.png" group-title="BRAZIL",Rede Globo
+https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+
+# 🇲🇽 MEXICO
+
+#EXTINF:-1 tvg-id="AztecaUno.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Azteca_Uno_logo.svg/256px-Azteca_Uno_logo.svg.png" group-title="MEXICO",Azteca Uno
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4833
+
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Estrellas_2023.svg/256px-Estrellas_2023.svg.png" group-title="MEXICO",Las Estrellas
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5397
+
+#EXTINF:-1 tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Canal_5_2024.svg/256px-Canal_5_2024.svg.png" group-title="MEXICO",Canal 5
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404
+
+#EXTINF:-1 tvg-id="ImagenTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Imagen_Televisi%C3%B3n_2021.svg/256px-Imagen_Televisi%C3%B3n_2021.svg.png" group-title="MEXICO",Imagen TV
+https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
+
+#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Azteca_7_2025.svg/256px-Azteca_7_2025.svg.png" group-title="MEXICO",Azteca 7
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4835
+
+# 🇲🇽 MEXICO NEWS
+
+#EXTINF:-1 tvg-id="MilenioTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Milenio_Televisi%C3%B3n_logo.svg/256px-Milenio_Televisi%C3%B3n_logo.svg.png" group-title="MEXICO NEWS",Milenio TV
+https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
+
+#EXTINF:-1 tvg-id="adn40.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ADN40_2020.png/256px-ADN40_2020.png" group-title="MEXICO NEWS",ADN 40
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+
+# 🇨🇴 COLOMBIA
+
+#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caracol_Televisi%C3%B3n_2024.svg/256px-Caracol_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Caracol TV
+http://138.121.15.230:9002/CARACOL/index.m3u8
+
+#EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RCN_Televisi%C3%B3n_2024.svg/256px-RCN_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Canal RCN
+http://138.121.15.230:9002/RCN/index.m3u8
+
+# 🇦🇷 ARGENTINA
+
+#EXTINF:-1 tvg-id="ELTrece.ar" tvg-logo="https://i.imgur.com/ZK7AQFg.png" group-title="ARGENTINA",El Trece
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://vodgc.net
+https://livetrx01.vodgc.net/eltrecetv/index.m3u8
+
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://i.imgur.com/qjZnrR3.png" group-title="ARGENTINA",Telefe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
+https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
+
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://i.imgur.com/Jt7dOQm.png" group-title="ARGENTINA",América TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="https://i.imgur.com/rLHM9fC.png" group-title="ARGENTINA",TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+
+# 🇦🇷 ARGENTINA NEWS
+
+#EXTINF:-1 tvg-id="TN.ar" tvg-logo="https://i.imgur.com/gMFCSEl.png" group-title="ARGENTINA NEWS",TN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
+https://genoa-player-api.vodgc.net/content/manifest/1879139?pid=1&.m3u8
+
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://i.imgur.com/xDjOUuz.png" group-title="ARGENTINA NEWS",Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
+
+#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://i.imgur.com/k2Ku8Ib.png" group-title="ARGENTINA NEWS",Crónica TV
+https://www.youtube.com/c/cronicatv/live
+
+#EXTINF:-1 tvg-id="LN+.ar" tvg-logo="https://i.imgur.com/vJYzGt1.png" group-title="ARGENTINA NEWS",LN+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
+http://playcom.trapemn.tv:1935/transcoderip/lanacionplus.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="C5N.ar" tvg-logo="https://i.imgur.com/E3pamA5.png" group-title="ARGENTINA NEWS",C5N
+https://www.youtube.com/c/c5n/live
+
+# 🇺🇸 USA
+
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Telemundo_2024.svg/256px-Telemundo_2024.svg.png" group-title="USA",Telemundo
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
+
+#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Estrella_TV_logo_2023.svg/256px-Estrella_TV_logo_2023.svg.png" group-title="USA",Estrella TV
+https://estrellatv-oando.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Estrella_TV_logo_2023.svg/256px-Estrella_TV_logo_2023.svg.png" group-title="USA",Estrella News
+https://estrella-news-oando.amagi.tv/playlist.m3u8
+
+# 🇻🇪 VENEZUELA
+
+#EXTINF:-1 tvg-id="Venevision.ve" tvg-logo="https://i.imgur.com/gm1m8hW.png" group-title="VENEZUELA",Venevision
+http://181.78.8.199:8000/play/a0if/index.m3u8
+
+#EXTINF:-1 tvg-id="Globovision.ve" tvg-logo="https://i.imgur.com/v6nRdxQ.png" group-title="VENEZUELA",Globovision
+http://181.78.8.199:8000/play/a09k/index.m3u8
