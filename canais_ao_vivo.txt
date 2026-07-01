@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 01/07/2026 09:43:26
+Data de extração: 01/07/2026 14:32:33
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-09:15 - 09:49
+13:55 - 14:54
 
-Coração Acelerado
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-09:00 - 09:59
+12:30 - 15:59
 
-Jornal GloboNews
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 14
-A14
+4. Classificação etária: 12
+12
 
-09:29 - 10:00
+14:10 - 14:43
 
-Aquecimento Rock In Rio
+Chapolin
 
-Fatboy Slim
+O Cão Raivoso
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 09:08 - 10:11
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+13:31 - 16:05
 
-México X Equador
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:31 - 10:00
+6. 13:51 - 14:51
 
-Brasileirão - Palmeiras X Chapecoense - 31052026
+Brasileirão - Internacional X Athletico-Pr - 28012026
 
-Palmeiras X Chapecoense
+Internacional X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: 10
+A10
 
-09:01 - 09:47
+14:13 - 15:08
 
-Dani-Se
+Food Truck - A Batalha
 
-Falsidade
+Direto Do Produtor
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-09:09 - 10:14
+14:26 - 15:09
 
-Amor À Vida
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
