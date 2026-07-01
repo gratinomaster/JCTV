@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 01/07/2026 17:13:38
+Data de extração: 01/07/2026 19:52:46
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. Autoclassificação etária: 12
+A12
 
-Autoclassificação etária: livre
-AL
+19:10 - 19:54
 
-16:25 - 17:44
-
-Jornal Hoje
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Autoclassificação etária: 12
+A12
 
-16:48 - 17:33
+19:03 - 19:53
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-Freud Já Não Explica Mais
+Vai Que Cola - Mercado Paralelo - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 17:04 - 18:00
+5. Ao vivo
 
-Giro Da Copa
+18:51 - 20:51
 
-Copa Do Mundo 2026 - 3ª Rodada
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Bélgica X Senegal
+
+Bélgica X Senegal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:49 - 17:48
+6. 19:48 - 20:46
 
-Brasileirão - Mirassol X Vasco - 29012026
+Brasileirão - Atlético-Mg X Palmeiras - 28012026
 
-Mirassol X Vasco
+Atlético-MG X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-16:48 - 17:49
+19:47 - 20:16
 
-Que História É Essa, Porchat?
+Tempero De Família
 
-Theodoro Cochrane + Gi Fernandes + Livia Silva
+Rabada
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-17:01 - 17:48
+19:15 - 20:21
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
