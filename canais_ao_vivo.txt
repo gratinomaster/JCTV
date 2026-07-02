@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 02/07/2026 11:33:20
+Data de extração: 02/07/2026 13:57:12
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,60 @@ Total de canais: 10
 2. Autoclassificação etária: 10
 A10
 
-11:05 - 11:54
+13:55 - 14:54
 
-Viver Sertanejo
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 10
+10
 
-11:29 - 11:59
+13:40 - 14:05
 
-Tô De Graça
+Chaves
 
-Festa Surpresa
+O Sonho Que Deu Bolo
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 13:30 - 14:30
 
-11:30 - 13:28
+Copa Do Mundo Da FIFA 2026™
 
-sportv News
+Brasil X Japão
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:27 - 11:57
+6. 13:26 - 14:20
 
-Brasileirão - Vasco X Bahia - 11022026
+Brasileirão - Chapecoense X Coritiba - 11022026
 
-Vasco X Bahia
+Chapecoense X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-10:40 - 11:33
+13:44 - 14:38
 
-Santa Ajuda
+Food Truck - A Batalha
 
-Bagunceira Meu escritório é na sala
+Javaporco
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Autoclassificação etária: 14
+A14
 
-11:05 - 11:50
+13:25 - 14:15
 
-O Profeta
+Minha Vida Perfeita
+
+Capítulo 44
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
