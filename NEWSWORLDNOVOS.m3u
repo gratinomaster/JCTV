@@ -1,23 +1,3 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-br.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz,https://iptv-epg.org/files/epg-co.xml.gz,https://iptv-epg.org/files/epg-pt.xml.gz"
-# News World - International 24h News Channels (Updated & Organized)
-
-# 🌍 NEWS WORLD - INTERNATIONAL NEWS
-
-#EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bloomberg_Logo_2025.svg/256px-Bloomberg_Logo_2025.svg.png" group-title="NEWS WORLD",Bloomberg Television
-https://www.bloomberg.com/media-manifest/streams/us.m3u8
-
-#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/256px-ABC_News_Live_logo_2021.svg.png" group-title="NEWS WORLD",ABC News Live
-https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8
-
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/256px-CBS_News_247_logo.svg.png" group-title="NEWS WORLD",CBS News 24/7
-https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-
-#EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://i.imgur.com/OdhF7ym.png" group-title="NEWS WORLD",A24
-https://www.youtube.com/c/A24com/live
-
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/256px-Fox_News_Channel_logo.svg.png" group-title="NEWS WORLD",Fox News Channel
-http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/256px-CNBC_2025.svg.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
