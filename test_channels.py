@@ -1,79 +1,65 @@
-#!/usr/bin/env python3
-import urllib.request
-import urllib.error
-import ssl
+import asyncio
+import aiohttp
 import sys
-import time
 
-INPUT = "lista5.m3u"
-OUTPUT = "lista5.m3u"
-TIMEOUT = 15
-MAX_RETRIES = 2
+async def test_url(session, url, timeout=10):
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=timeout), allow_redirects=True) as resp:
+            return url, resp.status == 200, resp.status
+    except asyncio.TimeoutError:
+        return url, False, 'timeout'
+    except Exception as e:
+        return url, False, f'{type(e).__name__}: {str(e)[:50]}'
 
-ssl_ctx = ssl.create_default_context()
-ssl_ctx.check_hostname = False
-ssl_ctx.verify_mode = ssl.CERT_NONE
+async def main():
+    with open('lista5.m3u', 'r') as f:
+        lines = f.readlines()
 
-def test_url(url):
-    for attempt in range(MAX_RETRIES):
-        try:
-            req = urllib.request.Request(url, method="HEAD")
-            req.add_header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36")
-            resp = urllib.request.urlopen(req, timeout=TIMEOUT, context=ssl_ctx)
-            code = resp.getcode()
-            if code == 200 or code == 206:
-                return True
-            else:
-                return False
-        except (urllib.error.HTTPError, urllib.error.URLError, ConnectionResetError, TimeoutError, OSError) as e:
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(2)
-                continue
-            return False
-    return False
-
-with open(INPUT, "r", encoding="utf-8") as f:
-    lines = f.readlines()
-
-entries = []
-i = 0
-while i < len(lines):
-    line = lines[i].strip()
-    if line.startswith("#EXTM3U"):
-        entries.append(("#EXTM3U\n", None))
-        i += 1
-    elif line.startswith("#EXTINF:"):
-        extinf = lines[i]
-        i += 1
-        if i < len(lines):
-            url = lines[i]
-            entries.append((extinf, url))
-            i += 1
-    else:
+    entries = []
+    urls = []
+    i = 0
+    while i < len(lines):
+        if lines[i].startswith('#EXTINF'):
+            if i + 1 < len(lines) and not lines[i+1].startswith('#'):
+                url = lines[i+1].strip()
+                if url.startswith('http'):
+                    entries.append((lines[i], lines[i+1]))
+                    urls.append(url)
+                    i += 2
+                    continue
         i += 1
 
-print(f"Found {len(entries) - 1} channel entries to test (excluding header)", flush=True)
+    print(f"Found {len(urls)} URLs to test", file=sys.stderr)
 
-working = []
-for idx, (extinf, url) in enumerate(entries):
-    if extinf.strip() == "#EXTM3U":
-        working.append((extinf, url))
-        continue
-    
-    channel_name = extinf.strip().split(",")[-1] if "," in extinf else "unknown"
-    sys.stdout.write(f"[{idx}/{len(entries)-1}] Testing: {channel_name[:50]:50s} ... ")
-    sys.stdout.flush()
-    
-    if test_url(url.strip()):
-        print("OK")
-        working.append((extinf, url))
-    else:
-        print("FAIL")
+    connector = aiohttp.TCPConnector(limit=50, force_close=True)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        tasks = [test_url(session, url) for url in urls]
+        results = await asyncio.gather(*tasks)
 
-with open(OUTPUT, "w", encoding="utf-8") as f:
-    for extinf, url in working:
-        f.write(extinf)
-        if url is not None:
-            f.write(url)
+    working = set()
+    dead = []
+    error_counts = {}
+    for url, ok, detail in results:
+        if ok:
+            working.add(url)
+        else:
+            dead.append((url, detail))
+            error_counts[detail] = error_counts.get(detail, 0) + 1
 
-print(f"\nDone. {len(working) - 1} working channels kept out of {len(entries) - 1}.")
+    print(f"\nResults: Working={len(working)}, Dead={len(dead)}", file=sys.stderr)
+    for detail, count in sorted(error_counts.items(), key=lambda x: -x[1]):
+        print(f"  {detail}: {count}", file=sys.stderr)
+
+    with open('lista5.m3u', 'w') as f:
+        f.write('#EXTM3U\n')
+        kept = 0
+        for extinf, url_line in entries:
+            if url_line.strip() in working:
+                f.write(extinf)
+                f.write(url_line)
+                kept += 1
+
+    print(f"\nKept {kept} working entries in lista5.m3u", file=sys.stderr)
+
+if __name__ == '__main__':
+    asyncio.run(main())
