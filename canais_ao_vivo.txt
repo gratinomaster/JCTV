@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 02/07/2026 13:57:12
+Data de extração: 02/07/2026 19:23:09
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Autoclassificação etária: 12
+A12
 
-13:55 - 14:54
+18:50 - 19:34
 
-Encontro Com Patrícia Poeta
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 10
-10
+4. Autoclassificação etária: 12
+A12
 
-13:40 - 14:05
+18:55 - 19:50
 
-Chaves
+Vai Que Cola
 
-O Sonho Que Deu Bolo
+Vai Que Cola - Junto E Separado - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 13:30 - 14:30
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+17:27 - 20:54
 
-Brasil X Japão
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Espanha X Áustria
+
+Espanha X Áustria
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:26 - 14:20
+6. 19:10 - 20:10
 
-Brasileirão - Chapecoense X Coritiba - 11022026
+Brasileirão - Cruzeiro X Corinthians - 25022026
 
-Chapecoense X Coritiba
+Cruzeiro X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-13:44 - 14:38
+18:28 - 19:32
 
-Food Truck - A Batalha
+Que Marravilha!
 
-Javaporco
+Simplicidade Complexa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-13:25 - 14:15
+19:16 - 20:00
 
-Minha Vida Perfeita
-
-Capítulo 44
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
