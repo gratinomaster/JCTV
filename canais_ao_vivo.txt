@@ -1,69 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 02/07/2026 03:27:57
+Data de extração: 02/07/2026 08:55:01
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 02:55 - 03:49
+2. Autoclassificação etária: 12
+A12
 
-Alta Fidelidade
+08:30 - 09:14
 
-América (MEX)
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-03:00 - 03:59
+08:00 - 08:59
 
-Jornal GloboNews Edição da Meia-noite
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-02:58 - 03:38
+07:57 - 09:47
 
-Sessão Nostalgia - A Grande Fa
+Cine Hahaha
 
-Segredos e mentiras
+Tô Ryca!
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 08:09 - 09:14
 
-02:10 - 04:07
+Copa Do Mundo Da FIFA 2026™
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Brasil X Haiti - Philadelphia, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:41 - 03:39
+6. 08:30 - 09:30
 
-Brasileirão - Bahia X Fluminense - 05022026
+Brasileirão - São Paulo X Grêmio - 11022026
 
-Bahia X Fluminense
+São Paulo X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 10
+A10
 
-02:49 - 03:48
+08:07 - 09:01
 
-Que História É Essa, Porchat?
+Food Truck - A Batalha
 
-Theodoro Cochrane + Gi Fernandes + Livia Silva
+Direto Do Produtor
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Autoclassificação etária: 12
+A12
 
-03:12 - 04:14
+08:22 - 09:09
 
-O Profeta
+Penso Em Ti
+
+Capítulo 75
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
