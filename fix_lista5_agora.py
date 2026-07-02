@@ -79,42 +79,42 @@ ADDITIONAL_CHANNELS = OrderedDict([
     ("Univision Noticias", {
         "tvg-id": "Univision.mx",
         "tvg-name": "Univision Noticias",
-        "tvg-logo": "https://logowik.com/content/uploads/images/univision-communications-inc9112.jpg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Univision_logo_2020.svg/320px-Univision_logo_2020.svg.png",
         "group": "NEWS WORLD",
         "url": "https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8",
     }),
     ("ADN 40", {
         "tvg-id": "adn40.mx",
         "tvg-name": "ADN 40",
-        "tvg-logo": "https://logowik.com/content/uploads/images/adn408406.jpg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ADN40_2020.png/320px-ADN40_2020.png",
         "group": "NEWS WORLD",
         "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
     }),
     ("Al Jazeera English", {
         "tvg-id": "AlJazeera.us",
         "tvg-name": "Al Jazeera English",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Al_Jazeera_English_-_Logo_2018.svg/1200px-Al_Jazeera_English_-_Logo_2018.svg.jpg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Al_Jazeera_English_logo.svg/320px-Al_Jazeera_English_logo.svg.png",
         "group": "NEWS WORLD",
         "url": "https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8",
     }),
     ("DW English", {
         "tvg-id": "DWEnglish.us",
         "tvg-name": "DW English",
-        "tvg-logo": "https://www.dw.com/images/logo_dw_en.jpg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deutsche_Welle_Logo.svg/320px-Deutsche_Welle_Logo.svg.png",
         "group": "NEWS WORLD",
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
     }),
     ("France 24 Español", {
         "tvg-id": "France24enEspanol.us",
         "tvg-name": "France 24 Español",
-        "tvg-logo": "https://www.france24.com/sites/all/themes/france24/img/logo-france24.svg.jpg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/320px-France_24_logo.svg.png",
         "group": "NEWS WORLD",
         "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
     }),
     ("Bloomberg Television", {
         "tvg-id": "Bloomberg.us",
         "tvg-name": "Bloomberg Television",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bloomberg_logo.svg/1200px-Bloomberg_logo.svg.jpg",
+        "tvg-logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",
         "group": "NEWS WORLD",
         "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8",
     }),
@@ -138,6 +138,12 @@ def fix_logo_url(url):
         if "logo" in url.lower():
             return url + ("" if url.endswith("/") else "/") + "logo.jpg"
         return None
+    # Keep Wikimedia and GitHub raw URLs as-is (extension must match actual file)
+    if "wikimedia.org" in url or "raw.githubusercontent.com" in url:
+        return url
+    # Keep .svg.png as-is (Wikimedia thumbnail format)
+    if basename.lower().endswith('.svg.png'):
+        return url
     url = re.sub(r'\.(png|jpeg)(\?.*)?$', r'.jpg\2', url)
     if not url.lower().endswith('.jpg') and not url.lower().endswith('.jpg?'):
         if re.search(r'\.(png|jpeg|gif|svg|webp)', url):
@@ -288,6 +294,7 @@ def main():
     # Step 3: Test URLs (anti-virus)
     print("\n[3] Testando URLs (anti-virus)...")
     working = OrderedDict()
+    working_ids = set()
     for name, (extinf, url, info) in unique.items():
         print(f"  Testando: {name}...", end=" ", flush=True)
         is_ok = test_stream_url(url)
@@ -296,13 +303,17 @@ def main():
         if is_ok:
             print("OK")
             working[name] = (extinf, url, info)
+            working_ids.add(info["tvg-id"])
         else:
             print("FALHOU - removido")
 
-    # Step 4: Test additional channel URLs
+    # Step 4: Test additional channel URLs (skip if already in working)
     print("\n[4] Testando URLs de canais adicionais...")
     working_additional = OrderedDict()
     for name, info in ADDITIONAL_CHANNELS.items():
+        if info["tvg-id"] in working_ids:
+            print(f"  Pulando: {name} (já incluso)")
+            continue
         url = info["url"]
         print(f"  Testando: {name}...", end=" ", flush=True)
         is_ok = test_stream_url(url)
