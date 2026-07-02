@@ -60,11 +60,6 @@ https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR=
 #EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpmemoria
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmemoria.smil/playlist.m3u8
 
-# 🇧🇷 BRAZIL
-
-#EXTINF:-1 tvg-id="GloboBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Rede_Globo_logo.svg/256px-Rede_Globo_logo.svg.png" group-title="BRAZIL",Rede Globo
-https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-
 # 🇲🇽 MEXICO
 
 #EXTINF:-1 tvg-id="AztecaUno.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Azteca_Uno_logo.svg/256px-Azteca_Uno_logo.svg.png" group-title="MEXICO",Azteca Uno
