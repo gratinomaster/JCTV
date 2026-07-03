@@ -1,65 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 03/07/2026 02:50:22
+Data de extração: 03/07/2026 06:31:49
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 02:45 - 03:54
+2. Autoclassificação etária: 10
+A10
 
-Saia Justa
+06:15 - 07:19
+
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 01:00 - 02:59
+3. 06:00 - 07:59
 
 Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 10
+10
 
-02:29 - 03:07
+06:06 - 06:32
 
-Sessão Nostalgia Tapas E Beijo
+Chaves
 
-Helô Siqueira, Com Sônia Braga
+Vamos Ao Parque?
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 06:06 - 07:08
 
-01:11 - 03:07
+Copa Do Mundo Da FIFA 2026™
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Bélgica X Senegal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 01:58 - 02:54
+6. 06:20 - 06:50
 
-Giro Da Rodada
+Brasileirão - Cruzeiro X Vasco - 15032026
 
-Brasileirão - 5ª Rodada
+Cruzeiro X Vasco
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 12
+A12
 
-02:46 - 03:55
+06:05 - 06:38
 
-Que História É Essa, Porchat?
+Diogo Na Cozinha
 
-Bela Gil + Leonardo Brício + Bia Guedes
+Teresa Cristina e Pretinho da Serrinha
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-02:46 - 03:55
+06:20 - 07:01
 
-Salve Jorge
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
