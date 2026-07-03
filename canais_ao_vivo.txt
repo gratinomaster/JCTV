@@ -1,68 +1,65 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 02/07/2026 22:05:27
+Data de extração: 03/07/2026 02:50:22
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 02:45 - 03:54
 
-21:55 - 22:39
-
-A Nobreza do Amor
+Saia Justa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-21:40 - 22:12
+02:29 - 03:07
 
-O Dono Do Lar
+Sessão Nostalgia Tapas E Beijo
 
-O Tênis
+Helô Siqueira, Com Sônia Braga
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:09 - 22:48
+01:11 - 03:07
 
-Seleção Copa
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:01 - 22:30
+6. 01:58 - 02:54
 
-Brasileirão - Flamengo X Cruzeiro - 11032026
+Giro Da Rodada
 
-Flamengo X Cruzeiro
+Brasileirão - 5ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:41 - 22:39
+02:46 - 03:55
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Carne de Panela com Batata e Cenoura
+Bela Gil + Leonardo Brício + Bia Guedes
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:32 - 22:18
+02:46 - 03:55
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
