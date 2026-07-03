@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 03/07/2026 14:01:02
+Data de extração: 03/07/2026 16:23:45
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Autoclassificação etária: livre
+AL
 
-13:55 - 14:54
+16:00 - 16:24
 
-Encontro Com Patrícia Poeta
+Globo Esporte
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+16:00 - 18:59
 
-Conexão GloboNews
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 10
-10
+4. Classificação etária: 12
+12
 
-13:41 - 14:06
+14:38 - 16:28
 
-Chaves
+Cine Hahaha
 
-Eu Sou A Mosca Que Pousou Na Sua Sopa
+Tô Ryca!
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-13:32 - 16:02
+16:02 - 17:08
 
-Partiu Copa
+Aquecimento sportv
+
+Austrália X Egito
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:48 - 14:48
+6. 16:21 - 17:19
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Giro Da Rodada
 
-Santos X Internacional
+Brasileirão - 7ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
-
-13:59 - 14:18
-
-Superbonita
-
-Saúde Mental
-   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
-
-8. Autoclassificação etária: 14
+7. Autoclassificação etária: 14
 A14
 
-13:23 - 14:15
+15:59 - 17:17
 
-Minha Vida Perfeita
+Saia Justa
 
-Capítulo 45
+Ocupar e transformar/ Depois melhora/ Boas influências dos campeões
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+8. Classificação etária: 14
+14
+
+15:47 - 16:57
+
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
