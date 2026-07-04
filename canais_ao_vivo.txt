@@ -1,63 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 04/07/2026 02:46:16
+Data de extração: 04/07/2026 06:19:05
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 02:10 - 02:59
-
-Globo Repórter
-   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
-
-3. 02:30 - 02:59
-
-Diálogos com Mario Sergio Conti
-   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
-
-4. Autoclassificação etária: 12
+2. Autoclassificação etária: 12
 A12
 
-02:36 - 03:05
+05:30 - 06:44
 
-Vila, A
+Comédia Na Madruga - Vai Que Cola
+   URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-O Apagão
+3. Ao vivo
+
+06:00 - 06:59
+
+Jornal GloboNews
+   URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
+
+4. Classificação etária: 12
+12
+
+05:48 - 06:19
+
+Chapolin
+
+Fila e Fichas no Hospital / Duas Vezes Chapolin
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 06:12 - 07:16
 
-02:52 - 03:23
+Copa Do Mundo Da FIFA 2026™
 
-Radar Da Seleção
+Austrália X Egito
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:42 - 03:13
+6. 06:09 - 06:38
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Chapecoense X Atlético-MG
+Vasco X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 12
+A12
 
-02:36 - 03:39
+05:44 - 06:20
 
-Que História É Essa, Porchat?
+No Fogo Com Bronze
 
-Raul Gazolla + Bento Ribeiro + Grace Gianoukas
+Pintado Roots
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Autoclassificação etária: 14
+A14
 
-01:40 - 02:47
+05:35 - 06:25
 
-Amor À Vida
+Minha Vida Perfeita
+
+Capítulo 46
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
