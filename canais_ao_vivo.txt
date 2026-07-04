@@ -1,70 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 04/07/2026 06:19:05
+Data de extração: 04/07/2026 10:53:46
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-05:30 - 06:44
+10:50 - 11:29
 
-Comédia Na Madruga - Vai Que Cola
+Pequenas Empresas &amp; Grandes Negócios
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 10:30 - 10:59
 
-06:00 - 06:59
-
-Jornal GloboNews
+GloboNews Especial
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-05:48 - 06:19
+10:29 - 10:59
 
-Chapolin
+Tô De Graça
 
-Fila e Fichas no Hospital / Duas Vezes Chapolin
+Não Tá Fácil Pra Ninguém
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 06:12 - 07:16
+5. 10:52 - 11:29
 
 Copa Do Mundo Da FIFA 2026™
 
-Austrália X Egito
+Alemanha X Paraguai
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 06:09 - 06:38
+6. 10:04 - 11:05
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Giro Da Rodada
 
-Vasco X Botafogo
+Brasileirão - 10ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Classificação etária: 12
+12
 
-05:44 - 06:20
+10:41 - 11:27
 
-No Fogo Com Bronze
+Alma De Cozinheira
 
-Pintado Roots
+Thalita Carauta  e Luis Miranda
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-05:35 - 06:25
+09:50 - 11:04
 
-Minha Vida Perfeita
-
-Capítulo 46
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
