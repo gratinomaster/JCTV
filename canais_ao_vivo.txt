@@ -1,70 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 04/07/2026 16:01:19
+Data de extração: 04/07/2026 19:10:06
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 14
+A14
 
-16:00 - 16:24
+18:45 - 19:44
 
-Globo Esporte
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-15:00 - 17:29
+18:00 - 20:19
 
-Jornal GloboNews - Edição do Meio-dia
+Jornal GloboNews - Edição das 15h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-15:44 - 16:17
+18:16 - 19:11
 
-Tô De Graça
+Vai Que Cola
 
-Acorda, Menina!
+Vai Que Cola - Junto E Separado - 4ª Temp
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-15:36 - 17:36
+19:01 - 20:55
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Canadá X Marrocos
-
-Canadá X Marrocos - Oitavas De Final
+Troca De Passes - Copa Do Mundo
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 15:36 - 16:05
+6. 19:04 - 19:40
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Cruzeiro X Bragantino
+Santos X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
-
-15:32 - 16:18
-
-Geladeiras Em Ação
-
-Pé na areia
-   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
-
-8. Classificação etária: 14
+7. Classificação etária: 14
 14
 
-15:46 - 17:00
+18:33 - 19:41
 
-Salve Jorge
+Que História É Essa, Porchat?
+
+Lauana Prado + Monica Iozzi + João Lucas
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+8. Classificação etária: 10
+10
+
+18:47 - 19:34
+
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
