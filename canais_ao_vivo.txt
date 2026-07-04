@@ -1,70 +1,63 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 03/07/2026 22:03:27
+Data de extração: 04/07/2026 02:46:16
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. 02:10 - 02:59
 
-21:55 - 22:39
-
-A Nobreza do Amor
+Globo Repórter
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 02:30 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Diálogos com Mario Sergio Conti
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-21:44 - 22:14
+02:36 - 03:05
 
-O Dono Do Lar
+Vila, A
 
-Nível Inferior
+O Apagão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:26 - 23:55
+02:52 - 03:23
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Argentina X Cabo Verde
-
-Argentina X Cabo Verde
+Radar Da Seleção
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:00 - 22:29
+6. 02:42 - 03:13
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Corinthians X Flamengo
+Chapecoense X Atlético-MG
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:47 - 22:45
+02:36 - 03:39
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Frango Com Leite De Coco E Especiarias
+Raul Gazolla + Bento Ribeiro + Grace Gianoukas
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:40 - 22:22
+01:40 - 02:47
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
