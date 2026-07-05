@@ -1,68 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 04/07/2026 21:58:24
+Data de extração: 05/07/2026 02:56:57
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Autoclassificação etária: 12
+A12
 
-19:45 - 22:04
+01:25 - 03:14
 
-Caldeirão Com Mion
+Altas Horas
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-21:49 - 22:36
+02:45 - 03:43
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-Freud Já Não Explica Mais
+Vai Que Cola - Se Gritar Pega Ladrão - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:03 - 22:35
+01:00 - 03:17
 
-Radar Da Seleção
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:38 - 22:35
+6. 02:32 - 03:00
 
-Giro Da Rodada
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Brasileirão - 12ª Rodada
+Atlético-MG X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-21:30 - 22:30
+02:56 - 03:30
 
-Cozinha Prática Com Rita Lobo
+Chegadas E Partidas
 
-Canjiquinha com Abóbora
+Sobre Coragem E Novos Caminhos
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:32 - 22:21
+02:36 - 03:51
 
-Anjo Mau
+Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
