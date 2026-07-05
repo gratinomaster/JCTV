@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 05/07/2026 02:56:57
+Data de extração: 05/07/2026 06:43:04
 Total de canais: 10
 ================================================================================
 
@@ -11,56 +11,56 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-01:25 - 03:14
+06:40 - 07:19
 
-Altas Horas
+A Grande Família
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 01:00 - 02:59
+3. 05:40 - 06:59
 
-Jornal das Dez
+GloboNews Documentário
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-02:45 - 03:43
+06:15 - 06:43
 
-Vai Que Cola
+Chapolin
 
-Vai Que Cola - Se Gritar Pega Ladrão - 1ª temporada
+Uma Investigação Perigosa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 06:09 - 07:10
 
-01:00 - 03:17
+Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+Austrália X Egito
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:32 - 03:00
+6. 06:24 - 06:53
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Atlético-MG X Flamengo
+São Paulo X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-02:56 - 03:30
+06:28 - 07:14
 
-Chegadas E Partidas
+Geladeiras Em Ação
 
-Sobre Coragem E Novos Caminhos
+Pé na areia
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-02:36 - 03:51
+06:26 - 07:16
 
-Salve Jorge
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
