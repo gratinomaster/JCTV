@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse NEWSWORLDNOVOS.m3u
+          acesse https://github.com/gratinomaster/JCTVV/raw/refs/heads/main/CABOBRASIL.m3u
           coloque os canais na ordem do line-up do tdt
           adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
           adcione tvg-logo em canais que estejam sem ou invalidos
