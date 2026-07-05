@@ -1,67 +1,63 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 05/07/2026 19:16:02
+Data de extração: 05/07/2026 22:00:34
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 18:25 - 19:19
+2. 21:40 - 22:54
 
-Alta Fidelidade
-
-Real Madrid (ESP)
+Em Família Com Eliana
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-18:00 - 20:09
+20:40 - 22:29
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-19:36 - 20:11
+21:37 - 22:22
 
-Sessão Nostalgia - A Grande Fa
+Vai Que Cola
 
-Um dia a casa cai
+Vai Que Cola - Pensão Mal Assombrada - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-18:59 - 20:58
+21:58 - 22:45
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Brasil X Noruega
-
-Brasil X Noruega - Oitavas De Final
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:00 - 19:51
+6. 21:45 - 22:13
 
-Giro Da Rodada
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Brasileirão - 16ª Rodada
+Mirassol X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: 12
 A12
 
-18:36 - 19:16
+21:27 - 22:00
 
-No Fogo Com Bronze
+Diogo Na Cozinha
 
-É Os Guri!
+Leci Brandão e BK'
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-18:34 - 19:43
+21:36 - 22:51
 
 Salve Jorge
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
