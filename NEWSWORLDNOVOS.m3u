@@ -1,6 +1,9 @@
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/cnbc-1-logo-png-transparent.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
+#EXTINF:-1 tvg-id="NRK1.no" tvg-logo="https://i.imgur.com/9tj8ds7.png" group-title="NORWAY",NRK1 (Geo-blocked - Brasil x Noruega ao vivo)
+https://nrk-live-no.akamaized.net/nrk1/muxed.m3u8
+
 #EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Caracol_Televisi%C3%B3n_logo_2023.png" group-title="COLOMBIA",Caracol TV
 http://138.121.15.230:9002/CARACOL/index.m3u8
 
