@@ -1,10 +1,34 @@
-#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/256px-CNBC_2025.svg.png" group-title="NEWS WORLD",CNBC
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/gratinomaster/JCTV/main/EPGFULL.xml.gz"
+
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
+https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
+
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/46429b26-6512-4d1b-8cf0-2cac88e842d6:ATL/master.m3u8
+
+#EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/cnbc-1-logo-png-transparent.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
+#EXTINF:-1 tvg-id="TeleSur.ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="NEWS WORLD",TeleSUR
+https://www.youtube.com/@teleSUR/live
 
-#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caracol_Televisi%C3%B3n_2024.svg/256px-Caracol_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Caracol TV
+#EXTINF:-1 tvg-id="TN.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Todo_Noticias_logo.svg/240px-Todo_Noticias_logo.svg.png" group-title="NEWS WORLD",TN
+https://genoa-player-api.vodgc.net/content/manifest/1879139?pid=1&.m3u8
+
+#EXTINF:-1 tvg-id="C5N.ar" tvg-logo="https://i.imgur.com/E3pamA5.png" group-title="NEWS WORLD",C5N
+https://www.youtube.com/c/c5n/live
+
+#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://i.imgur.com/k2Ku8Ib.png" group-title="NEWS WORLD",Cronica TV
+https://www.youtube.com/c/cronicatv/live
+
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://i.imgur.com/xDjOUuz.png" group-title="NEWS WORLD",Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
+
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://i.imgur.com/Jt7dOQm.png" group-title="NEWS WORLD",América TV
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Caracol_Televisi%C3%B3n_logo_2023.png" group-title="COLOMBIA",Caracol TV
 http://138.121.15.230:9002/CARACOL/index.m3u8
 
-#EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RCN_Televisi%C3%B3n_2024.svg/256px-RCN_Televisi%C3%B3n_2024.svg.png" group-title="COLOMBIA",Canal RCN
+#EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/10/RCN-Television-Logo-Vector.svg-.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
-
