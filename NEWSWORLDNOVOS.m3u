@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/cnbc-1-logo-png-transparent.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
@@ -9,3 +10,19 @@ http://138.121.15.230:9002/CARACOL/index.m3u8
 
 #EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/10/RCN-Television-Logo-Vector.svg-.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
+
+#EXTINF:-1 tvg-id="KNSD481.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1200px-Telemundo_logo_2018.svg.png" group-title="USA",Telemundo (EUA - Espanhol) - Brasil x Noruega ao vivo
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
+
+#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Azteca_7_logo_2023.svg/1200px-Azteca_7_logo_2023.svg.png" group-title="MEXICO",Azteca 7 (Mexico) - Brasil x Noruega ao vivo
+http://45.189.62.33:8002/play/a0fm/index.m3u8
+
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Das_Erste_Logo_2019.svg/1200px-Das_Erste_Logo_2019.svg.png" group-title="GERMANY",Das Erste (ARD) (Alemanha) - Brasil x Noruega ao vivo
+https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TF1_logo_2023.svg/1200px-TF1_logo_2023.svg.png" group-title="FRANCE",TF1 (Franca) - Brasil x Noruega ao vivo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://151.80.18.177:86/TF1_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/America_TV_2021_logo.svg/1200px-America_TV_2021_logo.svg.png" group-title="ARGENTINA",America TV (Argentina) - Brasil x Noruega ao vivo
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
