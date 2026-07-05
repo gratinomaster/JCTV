@@ -1,66 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 05/07/2026 06:43:04
+Data de extração: 05/07/2026 13:28:08
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-06:40 - 07:19
+13:20 - 13:54
 
-A Grande Família
+Auto Esporte
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 05:40 - 06:59
+3. Ao vivo
 
-GloboNews Documentário
+13:00 - 13:59
+
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-06:15 - 06:43
+12:59 - 13:29
 
-Chapolin
+Tô De Graça
 
-Uma Investigação Perigosa
+Festa Surpresa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 06:09 - 07:10
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+13:27 - 16:44
 
-Austrália X Egito
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 06:24 - 06:53
+6. 13:12 - 13:42
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-São Paulo X Bahia
+Vasco X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-06:28 - 07:14
+12:38 - 13:33
 
-Geladeiras Em Ação
+Bem Juntinhos
 
-Pé na areia
+Tô Sem Tempo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 10
+10
 
-06:26 - 07:16
+13:07 - 13:52
 
-Anjo Mau
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
