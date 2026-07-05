@@ -79,35 +79,35 @@ ADDITIONAL_CHANNELS = OrderedDict([
     ("Univision Noticias", {
         "tvg-id": "Univision.mx",
         "tvg-name": "Univision Noticias",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Univision_logo_2020.svg/320px-Univision_logo_2020.svg.png",
+        "tvg-logo": "https://1000logos.net/wp-content/uploads/2023/09/Univision-Logo.jpg",
         "group": "NEWS WORLD",
         "url": "https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8",
     }),
     ("ADN 40", {
         "tvg-id": "adn40.mx",
         "tvg-name": "ADN 40",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ADN40_2020.png/320px-ADN40_2020.png",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/ADN40_2022.svg",
         "group": "NEWS WORLD",
         "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
     }),
     ("Al Jazeera English", {
         "tvg-id": "AlJazeera.us",
         "tvg-name": "Al Jazeera English",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Al_Jazeera_English_logo.svg/320px-Al_Jazeera_English_logo.svg.png",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/AlJazeera_logo_only_%28cropped%29.jpg",
         "group": "NEWS WORLD",
         "url": "https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8",
     }),
     ("DW English", {
         "tvg-id": "DWEnglish.us",
         "tvg-name": "DW English",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deutsche_Welle_Logo.svg/320px-Deutsche_Welle_Logo.svg.png",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/YT_GTB_DW_Deutsche_Welle_logo.png",
         "group": "NEWS WORLD",
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
     }),
     ("France 24 Español", {
         "tvg-id": "France24enEspanol.us",
         "tvg-name": "France 24 Español",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/320px-France_24_logo.svg.png",
+        "tvg-logo": "https://www.france24.com/sites/all/themes/france24/img/logo.svg",
         "group": "NEWS WORLD",
         "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
     }),
@@ -138,16 +138,7 @@ def fix_logo_url(url):
         if "logo" in url.lower():
             return url + ("" if url.endswith("/") else "/") + "logo.jpg"
         return None
-    # Keep Wikimedia and GitHub raw URLs as-is (extension must match actual file)
-    if "wikimedia.org" in url or "raw.githubusercontent.com" in url:
-        return url
-    # Keep .svg.png as-is (Wikimedia thumbnail format)
-    if basename.lower().endswith('.svg.png'):
-        return url
-    url = re.sub(r'\.(png|jpeg)(\?.*)?$', r'.jpg\2', url)
-    if not url.lower().endswith('.jpg') and not url.lower().endswith('.jpg?'):
-        if re.search(r'\.(png|jpeg|gif|svg|webp)', url):
-            url = re.sub(r'\.(png|jpeg|gif|svg|webp)(\?.*)?$', r'.jpg\2', url)
+    url = re.sub(r'\.(png|jpeg|gif|svg|webp|svg\.png)(\?.*)?$', r'.jpg\2', url)
     return url
 
 
