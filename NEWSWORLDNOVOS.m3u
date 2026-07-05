@@ -1,39 +1,6 @@
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/256px-CNBC_2025.svg.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
-#EXTINF:-1 tvg-id="BBCNewsNorthAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_News_logo_2022.svg/256px-BBC_News_logo_2022.svg.png" group-title="NEWS WORLD",BBC News North America
-http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
-
-#EXTINF:-1 tvg-id="SkyNews.pluto" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sky_News_logo_2023.svg/256px-Sky_News_logo_2023.svg.png" group-title="NEWS WORLD",Sky News
-https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
-
-#EXTINF:-1 tvg-id="AlJazeera.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Al_Jazeera_English_logo.svg/256px-Al_Jazeera_English_logo.svg.png" group-title="NEWS WORLD",Al Jazeera English
-https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-
-#EXTINF:-1 tvg-id="DWEnglish.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Deutsche_Welle_Logo.svg/256px-Deutsche_Welle_Logo.svg.png" group-title="NEWS WORLD",DW English
-https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Euronews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Euronews_2022.svg/256px-Euronews_2022.svg.png" group-title="NEWS WORLD",Euronews
-https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
-
-#EXTINF:-1 tvg-id="France24enEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 Español
-https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
-
-#EXTINF:-1 tvg-id="France24.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 English
-https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
-
-#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 Français
-https://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8
-
-#EXTINF:-1 tvg-id="CGTNCCTVNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/CGTN_logo.svg/256px-CGTN_logo.svg.png" group-title="NEWS WORLD",CGTN News
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-
-#EXTINF:-1 tvg-id="RussiaToday.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/RT_logo_2023.svg/256px-RT_logo_2023.svg.png" group-title="NEWS WORLD",RT News Español
-https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TeleSur.ve" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="NEWS WORLD",TeleSUR
-https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-
 # 🇵🇹 PORTUGAL
 
 #EXTINF:-1 tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" group-title="PORTUGAL",RTP 1
