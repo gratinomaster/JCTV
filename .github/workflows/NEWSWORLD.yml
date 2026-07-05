@@ -48,6 +48,7 @@ jobs:
           não quero .svg
           o logo das emissoras tem que ser atual
           veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija, assista ao primeiro frame para ver se é o canal certo, veja se cada canal está exibindo o logo dele para ver se está correto o nome do canal, mas antes pesquise se os links já tem algum titulo em algum site na internet, de forma a saber o titulo de cada canal, sabe?
+          não gosto de i.imgur.com
           EOF
 
       - name: Run OpenCode
