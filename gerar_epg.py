@@ -63,6 +63,10 @@ CHANNEL_NAMES = {
     "EstrellaTV.us": "Estrella News",
     "Venevision.ve": "Venevision",
     "Globovision.ve": "Globovision",
+    "NRK1.no": "NRK1",
+    "DasErste.de": "Das Erste",
+    "TF1.fr": "TF1",
+    "KNSD481.us": "Telemundo San Diego",
 }
 
 EXACT_ALIASES = {
@@ -104,6 +108,10 @@ EXACT_ALIASES = {
     "EstrellaTV.us": ["estrella tv", "estrella news"],
     "Venevision.ve": ["venevision", "venevision internacional"],
     "Globovision.ve": ["globovision"],
+    "NRK1.no": ["nrk1", "nrk 1"],
+    "DasErste.de": ["das erste", "ard", "ard das erste"],
+    "TF1.fr": ["tf1"],
+    "KNSD481.us": ["telemundo", "knsd"],
 }
 
 GENERIC_SCHEDULE = [
