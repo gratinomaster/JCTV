@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 06/07/2026 15:29:43
+Data de extração: 06/07/2026 19:54:18
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-14:55 - 15:59
+19:35 - 20:19
 
-Mais Você
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-15:28 - 15:59
+19:46 - 20:20
 
-Vila, A
+Sessão Nostalgia Tapas E Beijo
 
-Vila Após A Morte
+Flagrante No Pôquer
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-13:32 - 16:35
+19:23 - 20:17
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Portugal X Espanha - Portugal X Espanha - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 14:35 - 15:35
+6. 19:31 - 20:31
 
-Brasileirão - Corinthians X Bahia - 28012026
+Brasileirão - Grêmio X Botafogo - 04022026
 
-Corinthians X Bahia
+Grêmio X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 12
-12
+7. Autoclassificação etária: livre
+AL
 
-15:07 - 15:53
+19:30 - 20:01
 
-Alma De Cozinheira
+Tempero De Família
 
-Juliette e Fátima Bernardes
+Episódio do amor
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-15:03 - 15:49
+19:13 - 20:11
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
