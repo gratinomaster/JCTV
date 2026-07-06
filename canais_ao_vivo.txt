@@ -1,65 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 05/07/2026 22:00:34
+Data de extração: 06/07/2026 10:17:53
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 21:40 - 22:54
+2. Autoclassificação etária: livre
+AL
 
-Em Família Com Eliana
+08:25 - 11:04
+
+Fantástico
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-20:40 - 22:29
+10:00 - 12:29
 
-Jornal GloboNews Edição das 18h
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Classificação etária: 10
+10
 
-21:37 - 22:22
+10:00 - 10:26
 
-Vai Que Cola
+Chaves
 
-Vai Que Cola - Pensão Mal Assombrada - 1ª temporada
+Eu Sou A Mosca Que Pousou Na Sua Sopa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 09:24 - 10:29
 
-21:58 - 22:45
+Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+Brasil X Noruega - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:45 - 22:13
+6. 09:19 - 10:18
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Brasileirão - Internacional X Athletico-Pr - 28012026
 
-Mirassol X Fluminense
+Internacional X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: livre
+AL
 
-21:27 - 22:00
+09:41 - 10:36
 
-Diogo Na Cozinha
+Fazendo A Festa
 
-Leci Brandão e BK'
+A Bela E A Fera – Aniversariante Nicole
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-21:36 - 22:51
+09:15 - 10:19
 
-Salve Jorge
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
