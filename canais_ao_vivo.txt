@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 06/07/2026 10:17:53
+Data de extração: 06/07/2026 15:29:43
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-08:25 - 11:04
+14:55 - 15:59
 
-Fantástico
+Mais Você
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 10
-10
+4. Autoclassificação etária: 12
+A12
 
-10:00 - 10:26
+15:28 - 15:59
 
-Chaves
+Vila, A
 
-Eu Sou A Mosca Que Pousou Na Sua Sopa
+Vila Após A Morte
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 09:24 - 10:29
+5. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™
+13:32 - 16:35
 
-Brasil X Noruega - Oitavas De Final
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 09:19 - 10:18
+6. 14:35 - 15:35
 
-Brasileirão - Internacional X Athletico-Pr - 28012026
+Brasileirão - Corinthians X Bahia - 28012026
 
-Internacional X Athletico-PR
+Corinthians X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 12
+12
 
-09:41 - 10:36
+15:07 - 15:53
 
-Fazendo A Festa
+Alma De Cozinheira
 
-A Bela E A Fera – Aniversariante Nicole
+Juliette e Fátima Bernardes
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-09:15 - 10:19
+15:03 - 15:49
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
