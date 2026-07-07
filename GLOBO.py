@@ -112,11 +112,12 @@ def extract_globoplay_data(url):
 
 def get_tvg_id(title):
     title_lower = title.lower()
+    words = title_lower.split()
     if "globonews" in title_lower:
         return "globonews"
     if "ge.globo" in title_lower or "ge-tv" in title_lower or "ge tv" in title_lower or "globo esporte" in title_lower:
         return "ge-tv"
-    if "g1" in title_lower or "jornal" in title_lower:
+    if "g1" in words or "jornal" in words:
         return "globonews"
     if "sportv" in title_lower:
         return "sportv"
