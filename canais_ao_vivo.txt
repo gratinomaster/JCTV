@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 07/07/2026 11:49:32
+Data de extração: 07/07/2026 14:30:32
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-11:40 - 12:29
+13:55 - 14:54
 
-Comédia Na Madruga - Vai Que Cola
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-11:30 - 12:02
+14:11 - 14:40
 
-Tô De Graça
+Chapolin
 
-Larga Meu Bofe
+Médicos Birutas / O Minidisco Voador
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-11:00 - 11:57
+14:04 - 16:05
 
-sportv News
+Aquecimento sportv
+
+Argentina X Egito - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:45 - 12:20
+6. 14:17 - 14:39
 
-Brasileirão - Bragantino X Athletico-Pr - 25022026
-
-Bragantino X Athletico-PR
+1/2 CAMPEONATO BRASILEIRO - GRÊMIO X ATLÉTICO-MG - 25/02/2026
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-11:40 - 12:26
+14:17 - 15:14
 
-Decora
+Food Truck - A Batalha
 
-A Casa das Cinco Mulheres
+Comida Japonesa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-11:07 - 11:50
+14:15 - 15:04
 
-O Profeta
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
