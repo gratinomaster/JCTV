@@ -1,68 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 06/07/2026 22:13:23
+Data de extração: 07/07/2026 02:57:09
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 14
+A14
 
-21:55 - 22:39
+02:10 - 03:19
 
-A Nobreza do Amor
+Papo De Segunda
+
+O Valor Da Desobediência / Cancela A Data De Vencimento / Não Sou, Não!
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 02:30 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+GloboNews Especial
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-22:12 - 22:55
+02:47 - 03:20
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia - A Grande Fa
 
-Atrás do Trio Elétrico
+Pesadelos De Uma Noite De Verão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:19 - 22:53
+01:59 - 03:55
 
-Seleção Copa
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:30 - 22:30
+6. 02:27 - 03:26
 
-Brasileirão - Flamengo X Internacional - 04022026
+Brasileirão - Remo X Mirassol - 04022026
 
-Flamengo X Internacional
+Remo X Mirassol
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:44 - 22:41
+02:44 - 03:47
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Escondidinho de Costela
+Tati Machado + Bebel Gilberto + Pedro Caetano
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:33 - 22:22
+02:34 - 03:40
 
-Anjo Mau
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
