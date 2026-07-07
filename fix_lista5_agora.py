@@ -107,14 +107,14 @@ ADDITIONAL_CHANNELS = OrderedDict([
     ("France 24 Español", {
         "tvg-id": "France24enEspanol.us",
         "tvg-name": "France 24 Español",
-        "tvg-logo": "https://www.france24.com/sites/all/themes/france24/img/logo.svg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg",
         "group": "NEWS WORLD",
         "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
     }),
     ("Bloomberg Television", {
         "tvg-id": "Bloomberg.us",
         "tvg-name": "Bloomberg Television",
-        "tvg-logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bloomberg_Television_logo.svg",
         "group": "NEWS WORLD",
         "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8",
     }),
@@ -128,6 +128,21 @@ ADDITIONAL_CHANNELS = OrderedDict([
 ])
 
 
+def verify_logo_url(url, timeout=8):
+    if not url:
+        return False
+    try:
+        result = subprocess.run(
+            ["curl", "-sL", "-o", "/dev/null", "-w", "%{http_code}", "--max-time", str(timeout),
+             "-A", "Mozilla/5.0", url],
+            capture_output=True, text=True, timeout=timeout+5
+        )
+        code = result.stdout.strip()
+        return code and code[0] in ("2", "3")
+    except:
+        return False
+
+
 def fix_logo_url(url):
     if not url:
         return None
@@ -136,10 +151,22 @@ def fix_logo_url(url):
     basename = url.rstrip("/").split("/")[-1]
     if not re.search(r'\.(jpg|png|jpeg|gif|svg|webp)', basename):
         if "logo" in url.lower():
-            return url + ("" if url.endswith("/") else "/") + "logo.jpg"
+            candidate = url + ("" if url.endswith("/") else "/") + "logo.jpg"
+            if verify_logo_url(candidate):
+                return candidate
+            return url
         return None
-    url = re.sub(r'\.(png|jpeg|gif|svg|webp|svg\.png)(\?.*)?$', r'.jpg\2', url)
-    return url
+
+    working_original = url if verify_logo_url(url) else None
+
+    jpg_url = re.sub(r'\.(png|jpeg|gif|svg|webp|svg\.png)(\?.*)?$', r'.jpg\2', url)
+    if jpg_url != url and verify_logo_url(jpg_url):
+        return jpg_url
+
+    if working_original:
+        return url
+
+    return None
 
 
 def test_url(url, timeout=12):
