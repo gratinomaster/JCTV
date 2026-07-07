@@ -1,70 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 07/07/2026 02:57:09
+Data de extração: 07/07/2026 06:49:40
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. Autoclassificação etária: 10
+A10
 
-02:10 - 03:19
+06:15 - 07:19
 
-Papo De Segunda
-
-O Valor Da Desobediência / Cancela A Data De Vencimento / Não Sou, Não!
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 02:30 - 02:59
+3. 06:30 - 07:59
 
-GloboNews Especial
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-02:47 - 03:20
+06:38 - 07:07
 
-Sessão Nostalgia - A Grande Fa
+Vila, A
 
-Pesadelos De Uma Noite De Verão
+O Apagão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 06:02 - 07:01
 
-01:59 - 03:55
+Amistoso Internacional De Futebol
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Coreia Do Sul X El Salvador - Salt Lake City, EUA
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:27 - 03:26
+6. 06:40 - 07:40
 
-Brasileirão - Remo X Mirassol - 04022026
+Brasileirão - Vasco X Bahia - 11022026
 
-Remo X Mirassol
+Vasco X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-02:44 - 03:47
+06:34 - 07:31
 
-Que História É Essa, Porchat?
+Fazendo A Festa
 
-Tati Machado + Bebel Gilberto + Pedro Caetano
+A Bela E A Fera – Aniversariante Nicole
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: 10
+10
 
-02:34 - 03:40
+06:43 - 07:27
 
-Belíssima
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
