@@ -67,6 +67,7 @@ CHANNEL_NAMES = {
     "DasErste.de": "Das Erste",
     "TF1.fr": "TF1",
     "KNSD481.us": "Telemundo San Diego",
+    "RedeVida.br@SD": "Rede Vida",
 }
 
 EXACT_ALIASES = {
