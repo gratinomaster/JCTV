@@ -1,66 +1,65 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 08/07/2026 02:33:19
+Data de extração: 08/07/2026 05:50:02
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 14
-A14
+2. 05:20 - 06:14
 
-02:10 - 02:39
-
-Pablo &amp; Luisão
+Coração Acelerado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 02:30 - 02:59
+3. 04:00 - 05:59
 
-Roberto D’Avila
+GloboNews Em Pauta
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-02:31 - 03:08
+05:37 - 06:06
 
-Sessão Nostalgia Tapas E Beijo
+Chapolin
 
-Pc Reaparece E Provoca Crise No Relacionamento De Sueli
+Médicos Birutas / O Minidisco Voador
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 05:34 - 06:35
 
-00:59 - 03:00
+Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+Portugal X Espanha - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:20 - 02:49
+6. 05:39 - 06:07
 
-Brasileirão - Cruzeiro X Vasco - 15032026
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Cruzeiro X Vasco
+Bragantino X São Paulo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: 12
+A12
 
-02:05 - 02:33
+05:07 - 05:50
 
-Eliana
+No Fogo Com Bronze
 
-Fernando e Sorocaba
+Na Brasa Com Os Vegetais
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Autoclassificação etária: 14
+A14
 
-01:39 - 02:48
+05:26 - 06:16
 
-Amor À Vida
+Minha Vida Perfeita
+
+Capítulo 49
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
