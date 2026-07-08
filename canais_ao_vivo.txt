@@ -1,73 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 08/07/2026 08:25:56
+Data de extração: 08/07/2026 11:03:20
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 14
+A14
 
-07:20 - 08:29
+10:05 - 11:04
 
-Mais Você
+Quem Ama Cuida
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-08:00 - 08:59
+10:00 - 12:29
 
-Jornal GloboNews
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-08:00 - 08:30
+11:00 - 11:04
 
-Tô De Graça
+Tvz
 
-Um Problema Cabeludo
+Giulia Be - Grillos
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Autoclassificação etária: livre
-AL
+5. 10:00 - 11:21
 
-08:06 - 08:35
-
-Sessão sportv - Copa Do Mundo
-
-Fatiada - EP 2 - João Pedro
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 08:19 - 08:44
+6. 10:12 - 11:10
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Palmeiras X Botafogo
+Santos X Internacional
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-08:07 - 09:03
+10:44 - 11:37
 
-Food Truck - A Batalha
+Santa Ajuda
 
-Comida Japonesa
+Quarto da vovó Cris
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: livre
+L
 
-07:45 - 08:42
+10:54 - 11:39
 
-Minha Menina
-
-Capítulo 5
+O Profeta
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
