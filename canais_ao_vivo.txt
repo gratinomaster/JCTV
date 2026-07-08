@@ -1,65 +1,73 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 08/07/2026 05:50:02
+Data de extração: 08/07/2026 08:25:56
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 05:20 - 06:14
+2. Autoclassificação etária: livre
+AL
 
-Coração Acelerado
+07:20 - 08:29
+
+Mais Você
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 04:00 - 05:59
+3. Ao vivo
 
-GloboNews Em Pauta
+08:00 - 08:59
+
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-05:37 - 06:06
+08:00 - 08:30
 
-Chapolin
+Tô De Graça
 
-Médicos Birutas / O Minidisco Voador
+Um Problema Cabeludo
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 05:34 - 06:35
+5. Autoclassificação etária: livre
+AL
 
-Copa Do Mundo Da FIFA 2026™
+08:06 - 08:35
 
-Portugal X Espanha - Oitavas De Final
+Sessão sportv - Copa Do Mundo
+
+Fatiada - EP 2 - João Pedro
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 05:39 - 06:07
+6. 08:19 - 08:44
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Bragantino X São Paulo
+Palmeiras X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: 10
+A10
 
-05:07 - 05:50
+08:07 - 09:03
 
-No Fogo Com Bronze
+Food Truck - A Batalha
 
-Na Brasa Com Os Vegetais
+Comida Japonesa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Autoclassificação etária: 14
 A14
 
-05:26 - 06:16
+07:45 - 08:42
 
-Minha Vida Perfeita
+Minha Menina
 
-Capítulo 49
+Capítulo 5
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
