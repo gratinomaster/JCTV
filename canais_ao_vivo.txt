@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 08/07/2026 19:23:18
+Data de extração: 08/07/2026 22:04:20
 Total de canais: 10
 ================================================================================
 
@@ -11,62 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-18:50 - 19:34
+21:55 - 22:39
 
 A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-18:07 - 19:42
+21:50 - 22:21
 
-Vai Que Cola
+O Dono Do Lar
 
-Vai Que Cola - Dona Jô Tá Estressada - 1ª temporada
+Falta Gás
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-19:11 - 21:35
+21:28 - 23:01
 
-Amistoso De Futebol
-
-Flamengo X Lausanne (SUI) - Portugal
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. Ao vivo
+6. 21:26 - 22:27
 
-19:11 - 21:26
+Giro Da Rodada
 
-Amistoso De Futebol
-
-Flamengo X Lausanne (SUI) - Portugal
+Brasileirão - 9ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-19:21 - 19:47
+21:45 - 22:41
 
-Tempero De Família
+Cozinha Prática Com Rita Lobo
 
-Empadão, Bolo De Cenoura E Arroz Doce
+Pernil com Temperos Orientais na Pressão
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-19:05 - 20:14
+21:55 - 22:36
 
-Amor À Vida
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
