@@ -1,8 +1,9 @@
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml" url-tvg="https://iptv-org.github.io/epg/guides/ar/ar.telefe.xml" url-tvg="https://iptv-org.github.io/epg/guides/pt/pt.xml" url-tvg="https://iptv-org.github.io/epg/guides/fr/fr.xml" url-tvg="https://iptv-org.github.io/epg/guides/mx/mx.xml" url-tvg="https://iptv-org.github.io/epg/guides/it/it.xml" url-tvg="https://iptv-org.github.io/epg/guides/al/al.xml"
+
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/cnbc-1-logo-png-transparent.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
-#EXTINF:-1 tvg-id="NRK1.no" tvg-logo="https://i.imgur.com/9tj8ds7.png" group-title="NORWAY",NRK1 (Geo-blocked - Brasil x Noruega ao vivo)
+#EXTINF:-1 tvg-id="NRK1.no" tvg-logo="https://i.imgur.com/9tj8ds7.png" group-title="NORWAY",NRK1 (Geo-blocked)
 https://nrk-live-no.akamaized.net/nrk1/muxed.m3u8
 
 #EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Caracol_Televisi%C3%B3n_logo_2023.png" group-title="COLOMBIA",Caracol TV
@@ -11,21 +12,45 @@ http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/10/RCN-Television-Logo-Vector.svg-.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
 
-#EXTINF:-1 tvg-id="KNSD481.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1200px-Telemundo_logo_2018.svg.png" group-title="USA",Telemundo (EUA - Espanhol) - Brasil x Noruega ao vivo
+#EXTINF:-1 tvg-id="KNSD481.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1200px-Telemundo_logo_2018.svg.png" group-title="USA",Telemundo (EUA - Espanhol)
 https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
 
-#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Azteca_7_logo_2023.svg/1200px-Azteca_7_logo_2023.svg.png" group-title="MEXICO",Azteca 7 (Mexico) - Brasil x Noruega ao vivo
+#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Azteca_7_logo_2023.svg/1200px-Azteca_7_logo_2023.svg.png" group-title="MEXICO",Azteca 7 (Mexico)
 http://45.189.62.33:8002/play/a0fm/index.m3u8
 
-#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Das_Erste_Logo_2019.svg/1200px-Das_Erste_Logo_2019.svg.png" group-title="GERMANY",Das Erste (ARD) (Alemanha) - Brasil x Noruega ao vivo
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Das_Erste_Logo_2019.svg/1200px-Das_Erste_Logo_2019.svg.png" group-title="GERMANY",Das Erste (ARD) (Alemanha)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
 
-#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TF1_logo_2023.svg/1200px-TF1_logo_2023.svg.png" group-title="FRANCE",TF1 (Franca) - Brasil x Noruega ao vivo
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TF1_logo_2023.svg/1200px-TF1_logo_2023.svg.png" group-title="FRANCE",TF1 (Franca) - Secret Story 14 24/7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://151.80.18.177:86/TF1_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="RedeVida.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rede_Vida_logo.svg/1200px-Rede_Vida_logo.svg.png" group-title="NEWS WORLD",Rede Vida
 http://45.162.231.38:7779/Rede_Vida/index.m3u8
 
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/America_TV_2021_logo.svg/1200px-America_TV_2021_logo.svg.png" group-title="ARGENTINA",America TV (Argentina) - Brasil x Noruega ao vivo
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/America_TV_2021_logo.svg/1200px-America_TV_2021_logo.svg.png" group-title="ARGENTINA",America TV (Argentina)
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="TVIReality.pt@SD" tvg-logo="https://i.imgur.com/C9rxqA5.png" group-title="BIG BROTHER 24/7",PT - TVI Reality (Big Brother Verao 24/7)
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
+
+#EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="BIG BROTHER 24/7",AR - Telefe (Gran Hermano 13 Generacion Dorada 24/7)
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="TopChannel.gr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Top_Channel_Albania_logo.svg/1200px-Top_Channel_Albania_logo.svg.png" group-title="BIG BROTHER 24/7",AL - Top Channel (Big Brother VIP 5 24/7)
+https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BigBrother.us@SD" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="BIG BROTHER 24/7",US - Big Brother 28 (Pluto TV Live Feeds)
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png" group-title="BIG BROTHER 24/7",ES - Revive Gran Hermano (Pluto TV)
+https://jmp2.uk/plu-6320ddef274b1b0007b2ee88.m3u8
+
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="BIG BROTHER 24/7",MX - Las Estrellas (La Casa de los Famosos 6)
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+
+#EXTINF:-1 tvg-id="Canale5.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png" group-title="BIG BROTHER 24/7",IT - Canale 5 (Grande Fratello 19)
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
+
+#EXTINF:-1 tvg-id="BIGBROTHERCLASSIC.de@DACH" tvg-logo="https://images.pluto.tv/channels/663e09e4b18d700008e48dcf/colorLogoPNG.png" group-title="BIG BROTHER 24/7",DE - BIG BROTHER CLASSIC (Pluto TV)
+https://jmp2.uk/plu-663e09e4b18d700008e48dcf.m3u8
