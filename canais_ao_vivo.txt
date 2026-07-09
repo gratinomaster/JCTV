@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 09/07/2026 11:56:36
+Data de extração: 09/07/2026 15:12:04
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-11:55 - 12:59
+14:55 - 15:59
 
-Comédia Na Madruga - Vai Que Cola
+Mais Você
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-11:33 - 12:03
+14:38 - 15:24
 
-Tô De Graça
+Vai Que Cola
 
-Pra Gringo É Mais Caro
+Vai que cola - Paletó De Madeira - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-11:30 - 12:27
+15:04 - 16:43
 
-sportv News
+Radar
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:27 - 11:57
+6. 15:00 - 15:29
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Botafogo X Coritiba
+Vitória X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 12
+A12
 
-11:36 - 12:23
+14:45 - 15:26
 
-Decora
+No Fogo Com Bronze
 
-O Presente de 99 Anos da Dona Cida
+Nadando Na Brasa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-11:50 - 12:35
+15:03 - 15:49
 
-Vale Tudo
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
