@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 08/07/2026 22:04:20
+Data de extração: 09/07/2026 02:51:27
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 16
+A16
 
-21:55 - 22:39
+02:10 - 02:54
 
-A Nobreza do Amor
+Verdades Secretas
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-21:50 - 22:21
+02:35 - 03:04
 
-O Dono Do Lar
+Vila, A
 
-Falta Gás
+É Tudo Ou Nada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-21:28 - 23:01
+01:35 - 03:17
 
-Seleção Copa
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:26 - 22:27
+6. 02:32 - 03:01
 
-Giro Da Rodada
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Brasileirão - 9ª Rodada
+Grêmio X Remo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-21:45 - 22:41
+02:43 - 03:47
 
-Cozinha Prática Com Rita Lobo
+Que História É Essa, Porchat?
 
-Pernil com Temperos Orientais na Pressão
+Murilo Rosa + Joaquim Lopes + Lucas Rangel
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:55 - 22:36
+02:28 - 03:25
 
-Anjo Mau
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
