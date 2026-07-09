@@ -1,66 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 09/07/2026 06:43:14
+Data de extração: 09/07/2026 11:56:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 10
-A10
+2. Autoclassificação etária: 12
+A12
 
-06:15 - 07:19
+11:55 - 12:59
 
-Encontro Com Patrícia Poeta
+Comédia Na Madruga - Vai Que Cola
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 06:00 - 07:59
+3. Ao vivo
 
-Jornal das Dez
+10:00 - 12:29
+
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-06:21 - 06:48
+11:33 - 12:03
 
-Chapolin
+Tô De Graça
 
-Para Fugir Da Prisão
+Pra Gringo É Mais Caro
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 05:55 - 06:54
+5. Ao vivo
 
-Amistoso De Futebol
+11:30 - 12:27
 
-Flamengo X Lausanne (SUI) - Portugal
+sportv News
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 06:36 - 07:05
+6. 11:27 - 11:57
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
 Botafogo X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: livre
+AL
 
-05:54 - 07:00
+11:36 - 12:23
 
-Que História É Essa, Porchat?
+Decora
 
-Juliano Floss + Mc Carol + Vitor Sampaio
+O Presente de 99 Anos da Dona Cida
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 10
-10
+8. Classificação etária: 14
+14
 
-06:37 - 07:29
+11:50 - 12:35
 
-Rock Story
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
