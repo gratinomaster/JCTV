@@ -1,0 +1,1869 @@
+ffmpeg started on 2026-07-09 at 03:35:21
+Report written to "ffmpeg-20260709-033521.log"
+Log level: 48
+Command line:
+ffmpeg -i http://rezofoot.tv/CNBC/index.m3u8 -t 7 -f null -
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec618  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Splitting the commandline.
+Reading option '-i' ... matched as output url with argument 'http://rezofoot.tv/CNBC/index.m3u8'.
+Reading option '-t' ... matched as option 't' (record or transcode "duration" seconds of audio/video) with argument '7'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Successfully parsed a group of options.
+Parsing a group of options: input url http://rezofoot.tv/CNBC/index.m3u8.
+Successfully parsed a group of options.
+Opening an input file: http://rezofoot.tv/CNBC/index.m3u8.
+[AVFormatContext @ 0x55efef513e80] Opening 'http://rezofoot.tv/CNBC/index.m3u8' for reading
+[http @ 0x55efef4d4540] Setting default whitelist 'http,https,tls,rtp,tcp,udp,crypto,httpproxy,data'
+[tcp @ 0x55efef516ec0] Original list of addresses:
+[tcp @ 0x55efef516ec0] Address 15.204.116.61 port 80
+[tcp @ 0x55efef516ec0] Interleaved list of addresses:
+[tcp @ 0x55efef516ec0] Address 15.204.116.61 port 80
+[tcp @ 0x55efef516ec0] Starting connection attempt to 15.204.116.61 port 80
+[tcp @ 0x55efef516ec0] Successfully connected to 15.204.116.61 port 80
+[http @ 0x55efef4d4540] request: GET /CNBC/index.m3u8 HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: close
+Host: rezofoot.tv
+Icy-MetaData: 1
+
+
+[tcp @ 0x55efef4d3f40] Original list of addresses:
+[tcp @ 0x55efef4d3f40] Address 194.76.0.79 port 80
+[tcp @ 0x55efef4d3f40] Interleaved list of addresses:
+[tcp @ 0x55efef4d3f40] Address 194.76.0.79 port 80
+[tcp @ 0x55efef4d3f40] Starting connection attempt to 194.76.0.79 port 80
+[tcp @ 0x55efef4d3f40] Successfully connected to 194.76.0.79 port 80
+[http @ 0x55efef4d4540] request: GET /CNBC/index.m3u8 HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: close
+Host: cdn.haititivi.net:80
+Icy-MetaData: 1
+
+
+[hls @ 0x55efef513e80] Format hls probed with size=2048 and score=100
+[hls @ 0x55efef513e80] Opening 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/mono.ts.m3u8' for reading
+[tcp @ 0x55efef517e00] Original list of addresses:
+[tcp @ 0x55efef517e00] Address 194.76.0.79 port 80
+[tcp @ 0x55efef517e00] Interleaved list of addresses:
+[tcp @ 0x55efef517e00] Address 194.76.0.79 port 80
+[tcp @ 0x55efef517e00] Starting connection attempt to 194.76.0.79 port 80
+[tcp @ 0x55efef517e00] Successfully connected to 194.76.0.79 port 80
+[http @ 0x55efef517ac0] request: GET /CNBC/tracks-v1a1/mono.ts.m3u8 HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: keep-alive
+Host: cdn.haititivi.net:80
+Icy-MetaData: 1
+
+
+[hls @ 0x55efef513e80] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55efef513e80] Skip ('#EXT-X-PROGRAM-DATE-TIME:2026-07-09T03:35:18.307Z')
+[hls @ 0x55efef513e80] HLS request for url 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/23-05673.ts', offset 0, playlist 0
+[hls @ 0x55efef513e80] Opening 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/23-05673.ts' for reading
+[tcp @ 0x55efef51ee40] Original list of addresses:
+[tcp @ 0x55efef51ee40] Address 194.76.0.79 port 80
+[tcp @ 0x55efef51ee40] Interleaved list of addresses:
+[tcp @ 0x55efef51ee40] Address 194.76.0.79 port 80
+[tcp @ 0x55efef51ee40] Starting connection attempt to 194.76.0.79 port 80
+[tcp @ 0x55efef51ee40] Successfully connected to 194.76.0.79 port 80
+[http @ 0x55efef51eb80] request: GET /CNBC/tracks-v1a1/2026/07/09/03/35/23-05673.ts HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: keep-alive
+Host: cdn.haititivi.net:80
+Icy-MetaData: 1
+
+
+[hls @ 0x55efef513e80] HLS request for url 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/29-05172.ts', offset 0, playlist 0
+[hls @ 0x55efef513e80] Opening 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/29-05172.ts' for reading
+[tcp @ 0x55efef51f540] Original list of addresses:
+[tcp @ 0x55efef51f540] Address 194.76.0.79 port 80
+[tcp @ 0x55efef51f540] Interleaved list of addresses:
+[tcp @ 0x55efef51f540] Address 194.76.0.79 port 80
+[tcp @ 0x55efef51f540] Starting connection attempt to 194.76.0.79 port 80
+[tcp @ 0x55efef51f540] Successfully connected to 194.76.0.79 port 80
+[http @ 0x55efef51f180] request: GET /CNBC/tracks-v1a1/2026/07/09/03/35/29-05172.ts HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: keep-alive
+Host: cdn.haititivi.net:80
+Icy-MetaData: 1
+
+
+Format mpegts probed with size=2048 and score=50
+[mpegts @ 0x55efef51de40] stream=0 stream_type=1b pid=d3 prog_reg_desc=
+[mpegts @ 0x55efef51de40] stream=1 stream_type=f pid=dd prog_reg_desc=
+[hls @ 0x55efef513e80] Before avformat_find_stream_info() pos: 184 bytes read:184 seeks:0 nb_streams:2
+For transform of length 120, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 60, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 4, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 352
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 120, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 60, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 128, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 64, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 128, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 64, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 480, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 240, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 16, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft16_asm_float_avx - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 480, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 240, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 512, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 256, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 512, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 256, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 960, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 480, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 960, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 480, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 512, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, forward, mdct_float, flags: [aligned, out_of_place], found 2 matches:
+    1: mdct_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: 96
+    2: mdct_naive_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: -130976
+For transform of length 512, forward, fft_float, flags: [aligned, inplace, preshuf], found 5 matches:
+    1: fft_sr_ns_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 448
+    2: fft_sr_ns_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 447
+    3: fft_sr_ns_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 416
+    4: fft_pfa_ns_float_c - type: fft_float, len: [6, ∞], factors[2]: [7, 5, 3, 2, any], flags: [unaligned, inplace, out_of_place, preshuf], prio: 112
+    5: fft512_ns_float_c - type: fft_float, len: 512, factor: 2, flags: [unaligned, inplace, out_of_place, preshuf], prio: 96
+Transform tree:
+    mdct_fwd_float_c - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only]
+        fft_sr_ns_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf]
+[mpegts @ 0x55efef51de40] All programs have pmt, headers found
+[mpegts @ 0x55efef51de40] probing stream 1 pp:2500
+[mpegts @ 0x55efef51de40] Probe with size=516, packets=1 detected aac with score=1
+[mpegts @ 0x55efef51de40] probing stream 1 pp:2499
+[mpegts @ 0x55efef51de40] probing stream 1 pp:2498
+[mpegts @ 0x55efef51de40] probing stream 1 pp:2497
+[mpegts @ 0x55efef51de40] Probe with size=2219, packets=4 detected aac with score=51
+[mpegts @ 0x55efef51de40] probed stream 1
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+[NULL @ 0x55efef5523c0] Decoding VUI
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[extract_extradata @ 0x55efef59c640] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef553800] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] Decoding VUI
+[h264 @ 0x55efef553800] Format yuv420p chosen by get_format().
+[h264 @ 0x55efef553800] Reinit context to 960x544, pix_fmt: yuv420p
+[h264 @ 0x55efef553800] Frame num gap 18 13
+[h264 @ 0x55efef553800] Frame num gap 18 14
+[h264 @ 0x55efef553800] Frame num gap 18 15
+[h264 @ 0x55efef553800] Frame num gap 18 16
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] Increasing reorder buffer to 1
+[h264 @ 0x55efef553800] no picture 
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] Increasing reorder buffer to 2
+[h264 @ 0x55efef553800] no picture ooo
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] no picture 
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef553800] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef553800] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef553800] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[hls @ 0x55efef513e80] All info found
+[hls @ 0x55efef513e80] rfps: 29.250000 0.019494
+[hls @ 0x55efef513e80] rfps: 29.333333 0.015283
+[hls @ 0x55efef513e80] rfps: 29.416667 0.011585
+[hls @ 0x55efef513e80] rfps: 29.500000 0.008402
+[hls @ 0x55efef513e80] rfps: 29.583333 0.005732
+[hls @ 0x55efef513e80] rfps: 29.583333 0.005732
+[hls @ 0x55efef513e80] rfps: 29.666667 0.003577
+[hls @ 0x55efef513e80] rfps: 29.666667 0.003577
+[hls @ 0x55efef513e80] rfps: 29.750000 0.001935
+[hls @ 0x55efef513e80] rfps: 29.833333 0.000808
+[hls @ 0x55efef513e80] rfps: 29.833333 0.000808
+[hls @ 0x55efef513e80] rfps: 29.916667 0.000194
+[hls @ 0x55efef513e80] rfps: 29.916667 0.000194
+[hls @ 0x55efef513e80] rfps: 30.000000 0.000095
+[hls @ 0x55efef513e80] rfps: 30.000000 0.000095
+[hls @ 0x55efef513e80] rfps: 60.000000 0.000379
+[hls @ 0x55efef513e80] rfps: 60.000000 0.000379
+[hls @ 0x55efef513e80] rfps: 120.000000 0.001516
+[hls @ 0x55efef513e80] rfps: 120.000000 0.001516
+[hls @ 0x55efef513e80] rfps: 240.000000 0.006064
+[hls @ 0x55efef513e80] rfps: 29.970030 0.000071
+[hls @ 0x55efef513e80] rfps: 29.970030 0.000071
+[hls @ 0x55efef513e80] rfps: 59.940060 0.000285
+[hls @ 0x55efef513e80] rfps: 59.940060 0.000285
+[hls @ 0x55efef513e80] After avformat_find_stream_info() pos: 184 bytes read:184 seeks:0 frames:37
+Input #0, hls, from 'http://rezofoot.tv/CNBC/index.m3u8':
+  Duration: N/A, start: 11371.050733, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 1370000
+  Stream #0:0, 21, 1/90000: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709), 960x540 [SAR 1:1 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Metadata:
+      variant_bitrate : 1370000
+  Stream #0:1, 16, 1/90000: Audio: aac (HE-AAC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 1370000
+Successfully opened the file.
+Parsing a group of options: output url -.
+Applying option t (record or transcode "duration" seconds of audio/video) with argument 7.
+Applying option f (force format) with argument null.
+Successfully parsed a group of options.
+Opening an output file: -.
+[out#0/null @ 0x55efef5a6380] No explicit maps, mapping streams automatically...
+[vost#0:0/wrapped_avframe @ 0x55efef5a06c0] Created video stream from input stream 0:0
+detected 4 logical cores
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] Decoding VUI
+[aost#0:1/pcm_s16le @ 0x55efef572f40] Created audio stream from input stream 0:1
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 120, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 60, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 4, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 352
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 120, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 60, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 128, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 64, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 128, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 64, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 480, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 240, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 16, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft16_asm_float_avx - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 480, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 240, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 512, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 256, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 512, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 256, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 960, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+    3: mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+    4: mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+    5: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    6: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 480, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+    1: fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+    1: fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+    2: fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 960, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 480, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+            fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+    1: mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+    2: mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+    3: mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+For transform of length 512, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+    1: fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+    2: fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+    3: fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Transform tree:
+    mdct_inv_float_avx2 - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+        fft_sr_asm_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+For transform of length 1024, forward, mdct_float, flags: [aligned, out_of_place], found 2 matches:
+    1: mdct_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: 96
+    2: mdct_naive_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: -130976
+For transform of length 512, forward, fft_float, flags: [aligned, inplace, preshuf], found 5 matches:
+    1: fft_sr_ns_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 448
+    2: fft_sr_ns_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 447
+    3: fft_sr_ns_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 416
+    4: fft_pfa_ns_float_c - type: fft_float, len: [6, ∞], factors[2]: [7, 5, 3, 2, any], flags: [unaligned, inplace, out_of_place, preshuf], prio: 112
+    5: fft512_ns_float_c - type: fft_float, len: 512, factor: 2, flags: [unaligned, inplace, out_of_place, preshuf], prio: 96
+Transform tree:
+    mdct_fwd_float_c - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only]
+        fft_sr_ns_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf]
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+[graph_1_in_0_1 @ 0x55efef7d1700] Setting 'time_base' to value '1/48000'
+[graph_1_in_0_1 @ 0x55efef7d1700] Setting 'sample_rate' to value '48000'
+[graph_1_in_0_1 @ 0x55efef7d1700] Setting 'sample_fmt' to value 'fltp'
+[graph_1_in_0_1 @ 0x55efef7d1700] Setting 'channel_layout' to value 'stereo'
+[graph_1_in_0_1 @ 0x55efef7d1700] tb:1/48000 samplefmt:fltp samplerate:48000 chlayout:stereo
+[format_out_0_1 @ 0x55efef7d1b00] Setting 'sample_fmts' to value 's16'
+[format_out_0_1 @ 0x55efef7d1b00] auto-inserting filter 'auto_aresample_0' between the filter 'Parsed_anull_0' and the filter 'format_out_0_1'
+[AVFilterGraph @ 0x55efef68a0c0] query_formats: 5 queried, 6 merged, 7 already done, 0 delayed
+[auto_aresample_0 @ 0x55efef7d2b80] [SWR @ 0x55efef7a4000] Using fltp internally between filters
+[auto_aresample_0 @ 0x55efef7d2b80] ch:2 chl:stereo fmt:fltp r:48000Hz -> ch:2 chl:stereo fmt:s16 r:48000Hz
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] Decoding VUI
+[h264 @ 0x55efef57fb00] Format yuv420p chosen by get_format().
+[h264 @ 0x55efef57fb00] Reinit context to 960x544, pix_fmt: yuv420p
+[h264 @ 0x55efef57fb00] Frame num gap 18 13
+[h264 @ 0x55efef57fb00] Frame num gap 18 14
+[h264 @ 0x55efef57fb00] Frame num gap 18 15
+[h264 @ 0x55efef57fb00] Frame num gap 18 16
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] no picture 
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] no picture 
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] Setting 'video_size' to value '960x540'
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] Setting 'pix_fmt' to value '0'
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] Setting 'time_base' to value '1/90000'
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] Setting 'frame_rate' to value '30000/1001'
+[graph 0 input from stream 0:0 @ 0x55efef8a13c0] w:960 h:540 pixfmt:yuv420p tb:1/90000 fr:30000/1001 sar:1/1
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[AVFilterGraph @ 0x55efef9746c0] query_formats: 4 queried, 3 merged, 0 already done, 0 delayed
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0, 0, 1001/30000: Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 960x540 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn
+    Metadata:
+      variant_bitrate : 1370000
+      encoder         : Lavc60.31.102 wrapped_avframe
+  Stream #0:1, 0, 1/48000: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      variant_bitrate : 1370000
+      encoder         : Lavc60.31.102 pcm_s16le
+frame=    0 fps=0.0 q=-0.0 size=       0kB time=00:00:00.17 bitrate=   0.0kbits/s speed=22.6x    [h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] Decoding VUI
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] Decoding VUI
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef831000] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] Decoding VUI
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+frame=  118 fps=0.0 q=-0.0 size=N/A time=00:00:04.13 bitrate=N/A speed=8.04x    [h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] Decoding VUI
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[hls @ 0x55efef513e80] HLS request for url 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/34-06006.ts', offset 0, playlist 0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[http @ 0x55efef539200] Opening 'http://cdn.haititivi.net:80/CNBC/tracks-v1a1/2026/07/09/03/35/34-06006.ts' for reading
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[http @ 0x55efef51eb80] request: GET /CNBC/tracks-v1a1/2026/07/09/03/35/34-06006.ts HTTP/1.1
+User-Agent: Lavf/60.16.100
+Accept: */*
+Range: bytes=0-
+Connection: keep-alive
+Host: cdn.haititivi.net:80
+Icy-MetaData: 1
+
+
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] Decoding VUI
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] Decoding VUI
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+frame=  199 fps=195 q=-0.0 size=N/A time=00:00:06.82 bitrate=N/A speed=6.68x    [NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 7(SPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 8(PPS), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 5(IDR), nal_ref_idc: 3
+[h264 @ 0x55efef57fb00] Decoding VUI
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5a24c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef5a24c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef5763c0] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef5763c0] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef831000] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef831000] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+[h264 @ 0x55efef831000] ct_type:0 pic_struct:0
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57c940] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57c940] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57c940] ct_type:0 pic_struct:0
+[h264 @ 0x55efef57fb00] nal_unit_type: 9(AUD), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 6(SEI), nal_ref_idc: 0
+[h264 @ 0x55efef57fb00] nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+[h264 @ 0x55efef57fb00] ct_type:0 pic_struct:0
+[out_0_1 @ 0x55efef7d1980] EOF on sink link out_0_1:default.
+No more output streams to write to, finishing.
+[vist#0:0/h264 @ 0x55efef554dc0] Decoder thread received EOF packet
+[NULL @ 0x55efef5523c0] ct_type:0 pic_struct:0
+[vist#0:0/h264 @ 0x55efef554dc0] Decoder returned EOF, finishing
+[vist#0:0/h264 @ 0x55efef554dc0] Terminating decoder thread
+[aist#0:1/aac @ 0x55efef9c0340] Decoder thread received EOF packet
+[aist#0:1/aac @ 0x55efef9c0340] Decoder returned EOF, finishing
+[aist#0:1/aac @ 0x55efef9c0340] Terminating decoder thread
+[out#0/null @ 0x55efef5a6380] All streams finished
+[out#0/null @ 0x55efef5a6380] Terminating muxer thread
+[out#0/null @ 0x55efef5a6380] Output file #0 (pipe:):
+[out#0/null @ 0x55efef5a6380]   Output stream #0:0 (video): 209 frames encoded; 209 packets muxed (100320 bytes); 
+[out#0/null @ 0x55efef5a6380]   Output stream #0:1 (audio): 165 frames encoded (336000 samples); 165 packets muxed (1344000 bytes); 
+[out#0/null @ 0x55efef5a6380]   Total: 374 packets (1444320 bytes) muxed
+[out#0/null @ 0x55efef5a6380] video:98kB audio:1312kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+frame=  209 fps=202 q=-0.0 Lsize=N/A time=00:00:06.99 bitrate=N/A speed=6.77x    
+[in#0/hls @ 0x55efef513d80] Terminating demuxer thread
+[in#0/hls @ 0x55efef513d80] Input file #0 (http://rezofoot.tv/CNBC/index.m3u8):
+[in#0/hls @ 0x55efef513d80]   Input stream #0:0 (video): 217 packets read (806760 bytes); 216 frames decoded; 0 decode errors; 
+[in#0/hls @ 0x55efef513d80]   Input stream #0:1 (audio): 170 packets read (87187 bytes); 169 frames decoded; 0 decode errors (346112 samples); 
+[in#0/hls @ 0x55efef513d80]   Total: 387 packets (893947 bytes) demuxed
+[AVIOContext @ 0x55efef51f680] Statistics: 230564 bytes read, 0 seeks
+[AVIOContext @ 0x55efef51ef40] Statistics: 748992 bytes read, 0 seeks
+[AVIOContext @ 0x55efef517fc0] Statistics: 303 bytes read, 0 seeks
+[AVIOContext @ 0x55efef517580] Statistics: 184 bytes read, 0 seeks

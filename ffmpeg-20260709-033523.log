@@ -1,0 +1,32 @@
+ffmpeg started on 2026-07-09 at 03:35:23
+Report written to "ffmpeg-20260709-033523.log"
+Log level: 48
+Command line:
+ffmpeg -i https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8 -t 7 -f null -
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec618  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Splitting the commandline.
+Reading option '-i' ... matched as output url with argument 'https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8'.
+Reading option '-t' ... matched as option 't' (record or transcode "duration" seconds of audio/video) with argument '7'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Successfully parsed a group of options.
+Parsing a group of options: input url https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8.
+Successfully parsed a group of options.
+Opening an input file: https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8.
+[AVFormatContext @ 0x560f0f109e80] Opening 'https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8' for reading
+[https @ 0x560f0f10a540] Setting default whitelist 'http,https,tls,rtp,tcp,udp,crypto,httpproxy'
+[tcp @ 0x560f0f10d200] Failed to resolve hostname live-uk-bbc-vodnoss.akamaized.net: Name or service not known
+[in#0 @ 0x560f0f109d80] Error opening input: Input/output error
+Error opening input file https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8.
+Error opening input files: Input/output error
