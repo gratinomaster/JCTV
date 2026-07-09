@@ -1,68 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 09/07/2026 02:51:27
+Data de extração: 09/07/2026 06:43:14
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 16
-A16
+2. Autoclassificação etária: 10
+A10
 
-02:10 - 02:54
+06:15 - 07:19
 
-Verdades Secretas
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 01:00 - 02:59
+3. 06:00 - 07:59
 
 Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-02:35 - 03:04
+06:21 - 06:48
 
-Vila, A
+Chapolin
 
-É Tudo Ou Nada
+Para Fugir Da Prisão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 05:55 - 06:54
 
-01:35 - 03:17
+Amistoso De Futebol
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Flamengo X Lausanne (SUI) - Portugal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:32 - 03:01
+6. 06:36 - 07:05
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Grêmio X Remo
+Botafogo X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Classificação etária: 14
 14
 
-02:43 - 03:47
+05:54 - 07:00
 
 Que História É Essa, Porchat?
 
-Murilo Rosa + Joaquim Lopes + Lucas Rangel
+Juliano Floss + Mc Carol + Vitor Sampaio
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: 10
+10
 
-02:28 - 03:25
+06:37 - 07:29
 
-Belíssima
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
