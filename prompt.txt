@@ -1,6 +1,21 @@
-acesse https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u
-crie EPGFULL.xml.gz sem os canais que não estão no arquivo .m3u, para que o guia não fique maior do que preciso
-caso este arquivo já exista .xml.gz já exista, sobescreva
-teste para ver se o novo epg está funcionando e tem as informações dos programas de hoje e amanhã
-o add-on do kodi do slyguy consegue misturar epgs e funciona muito bem no kodi
-o epg tem que funcionar no tivimate
+acesse NEWSWORLDNOVOS.m3u
+coloque os canais na ordem do line-up do tdt
+adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
+adcione tvg-logo em canais que estejam sem ou invalidos
+exclua os canais offline, teste com ffmpeg
+remova #extinf que não tenham links dos canais
+teste os links para não me deixar usar links com virus
+corrija caso o epg não funcione nos canais corretamente
+substitua logos quebrados, inválidos, desatualizados ou inacessíveis
+veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
+tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
+não salve o .py que for gerado
+o link do epg deve começar com https
+abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
+não use tvg-ids inventados, apenas reais
+se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje, caso haja mais de um divida com virgulas
+use leitor de imagens para ver se o tvg logo está correto
+não quero .svg
+o logo das emissoras tem que ser atual
+veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija, assista ao primeiro frame para ver se é o canal certo, veja se cada canal está exibindo o logo dele para ver se está correto o nome do canal, mas antes pesquise se os links já tem algum titulo em algum site na internet, de forma a saber o titulo de cada canal, sabe?
+não gosto de i.imgur.com

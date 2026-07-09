@@ -1,56 +1,85 @@
-#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml" url-tvg="https://iptv-org.github.io/epg/guides/ar/ar.telefe.xml" url-tvg="https://iptv-org.github.io/epg/guides/pt/pt.xml" url-tvg="https://iptv-org.github.io/epg/guides/fr/fr.xml" url-tvg="https://iptv-org.github.io/epg/guides/mx/mx.xml" url-tvg="https://iptv-org.github.io/epg/guides/it/it.xml" url-tvg="https://iptv-org.github.io/epg/guides/al/al.xml"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:-1 tvg-id="CNBC.us" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/cnbc-1-logo-png-transparent.png" group-title="NEWS WORLD",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
 
-#EXTINF:-1 tvg-id="NRK1.no" tvg-logo="https://i.imgur.com/9tj8ds7.png" group-title="NORWAY",NRK1 (Geo-blocked)
+#EXTINF:-1 tvg-id="BBC.World.News.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_World_News_logo.svg/640px-BBC_World_News_logo.svg.png" group-title="NEWS WORLD",BBC World News
+https://live-uk-bbc-vodnoss.akamaized.net/bbc_1_w/f275a3e6-d0b9-4cfb-8361-e81e2752a989/5/5/p16a1q6q.m3u8
+
+#EXTINF:-1 tvg-id="CNN.International.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN_International_logo.svg/640px-CNN_International_logo.svg.png" group-title="NEWS WORLD",CNN International
+https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Euronews.F.ch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Euronews_2022.svg/640px-Euronews_2022.svg.png" group-title="NEWS WORLD",Euronews
+https://euronews-euronews-1-fr.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="France24.EN.cz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/France_24_logo.svg/640px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24
+https://france24-france24-1-fr.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/Rede_Vida_logo.png" group-title="NEWS WORLD",Rede Vida
+http://45.162.231.38:7779/Rede_Vida/index.m3u8
+
+#EXTINF:-1 tvg-id="NRK1.Norway.(NO,NO).no" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/NRK1_logo_2021.svg" group-title="NORWAY",NRK1 (Geo-blocked)
 https://nrk-live-no.akamaized.net/nrk1/muxed.m3u8
 
-#EXTINF:-1 tvg-id="CaracolTV.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Caracol_Televisi%C3%B3n_logo_2023.png" group-title="COLOMBIA",Caracol TV
+#EXTINF:-1 tvg-id="Caracol.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Caracol_Televisi%C3%B3n_logo_2023.png" group-title="COLOMBIA",Caracol TV
 http://138.121.15.230:9002/CARACOL/index.m3u8
 
 #EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/10/RCN-Television-Logo-Vector.svg-.png" group-title="COLOMBIA",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
 
-#EXTINF:-1 tvg-id="KNSD481.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/1200px-Telemundo_logo_2018.svg.png" group-title="USA",Telemundo (EUA - Espanhol)
-https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
-
-#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Azteca_7_logo_2023.svg/1200px-Azteca_7_logo_2023.svg.png" group-title="MEXICO",Azteca 7 (Mexico)
+#EXTINF:-1 tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Azteca_7_logo_2023.svg" group-title="MEXICO",Azteca 7 (Mexico)
 http://45.189.62.33:8002/play/a0fm/index.m3u8
 
-#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Das_Erste_Logo_2019.svg/1200px-Das_Erste_Logo_2019.svg.png" group-title="GERMANY",Das Erste (ARD) (Alemanha)
+#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/Logo_Las_Estrellas_2024.svg" group-title="MEXICO",Las Estrellas (Mexico)
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+
+#EXTINF:-1 tvg-id="Telemundo.Satellite.Feed.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/Telemundo_logo_2018.svg" group-title="USA",Telemundo (EUA - Espanhol)
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
+
+#EXTINF:-1 tvg-id="Das.Erste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Das_Erste_Logo_2019.svg" group-title="GERMANY",Das Erste (ARD) (Alemanha)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
 
-#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TF1_logo_2023.svg/1200px-TF1_logo_2023.svg.png" group-title="FRANCE",TF1 (Franca) - Secret Story 14 24/7
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/TF1_logo_2023.svg" group-title="FRANCE",TF1 (Franca)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://151.80.18.177:86/TF1_HD/index.m3u8
 
-#EXTINF:-1 tvg-id="RedeVida.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rede_Vida_logo.svg/1200px-Rede_Vida_logo.svg.png" group-title="NEWS WORLD",Rede Vida
-http://45.162.231.38:7779/Rede_Vida/index.m3u8
-
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/America_TV_2021_logo.svg/1200px-America_TV_2021_logo.svg.png" group-title="ARGENTINA",America TV (Argentina)
-https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-
-#EXTINF:-1 tvg-id="TVIReality.pt@SD" tvg-logo="https://i.imgur.com/C9rxqA5.png" group-title="BIG BROTHER 24/7",PT - TVI Reality (Big Brother Verao 24/7)
+#EXTINF:-1 tvg-id="tvi.reality.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/0/05/TVI_Reality_logo.png" group-title="PORTUGAL",TVI Reality (Big Brother Verao 24/7)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
 
-#EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="BIG BROTHER 24/7",AR - Telefe (Gran Hermano 13 Generacion Dorada 24/7)
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/America_TV_2021_logo.svg" group-title="ARGENTINA",America TV (Argentina)
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="Telefe.international.us2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="ARGENTINA",Telefe (Gran Hermano 24/7)
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 
-#EXTINF:-1 tvg-id="TopChannel.gr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Top_Channel_Albania_logo.svg/1200px-Top_Channel_Albania_logo.svg.png" group-title="BIG BROTHER 24/7",AL - Top Channel (Big Brother VIP 5 24/7)
+#EXTINF:-1 tvg-id="TOP.Channel.al" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Top_Channel_Albania_logo.svg" group-title="ALBANIA",Top Channel (Big Brother VIP 5 24/7)
 https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BigBrother.us@SD" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="BIG BROTHER 24/7",US - Big Brother 28 (Pluto TV Live Feeds)
-https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png" group-title="BIG BROTHER 24/7",ES - Revive Gran Hermano (Pluto TV)
-https://jmp2.uk/plu-6320ddef274b1b0007b2ee88.m3u8
-
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="BIG BROTHER 24/7",MX - Las Estrellas (La Casa de los Famosos 6)
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-
-#EXTINF:-1 tvg-id="Canale5.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png" group-title="BIG BROTHER 24/7",IT - Canale 5 (Grande Fratello 19)
+#EXTINF:-1 tvg-id="Canale.5.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Canale_5_-_2018_logo.svg" group-title="ITALY",Canale 5 (Grande Fratello 19)
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
 
-#EXTINF:-1 tvg-id="BIGBROTHERCLASSIC.de@DACH" tvg-logo="https://images.pluto.tv/channels/663e09e4b18d700008e48dcf/colorLogoPNG.png" group-title="BIG BROTHER 24/7",DE - BIG BROTHER CLASSIC (Pluto TV)
-https://jmp2.uk/plu-663e09e4b18d700008e48dcf.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="BIG BROTHER 24/7",Big Brother 28 (Pluto TV Live Feeds)
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png" group-title="BIG BROTHER 24/7",Gran Hermano (Pluto TV)
+https://jmp2.uk/plu-6320ddef274b1b0007b2ee88.m3u8
+
+#EXTINF:-1 tvg-id="Globo.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rede_Globo_logo.svg/640px-Rede_Globo_logo.svg.png" group-title="BRAZIL",Globo
+https://globobr-stream.sambatech.com.br/globohls/globo.m3u8
+
+#EXTINF:-1 tvg-id="São.Paulo/SP..Record.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RecordTV_2022.svg/640px-RecordTV_2022.svg.png" group-title="BRAZIL",Record TV
+https://recordtv-stream.sambatech.com.br/recordhls/recordtv.m3u8
+
+#EXTINF:-1 tvg-id="SIC.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SIC_Logo_2021.svg/640px-SIC_Logo_2021.svg.png" group-title="PORTUGAL",SIC
+https://sic-stream.sambatech.com.br/sichls/sic.m3u8
+
+#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/TVI_2021.svg/640px-TVI_2021.svg.png" group-title="PORTUGAL",TVI
+https://tvi-stream.sambatech.com.br/tvihls/tvi.m3u8
+
+#EXTINF:-1 tvg-id="RTP.1.HD.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RTP1_logo_2023.svg/640px-RTP1_logo_2023.svg.png" group-title="PORTUGAL",RTP1
+https://streaming-live.rtp.pt/livetv/rtp1mob.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="São.Paulo/SP..Band.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Band_logo_2023.svg/640px-Band_logo_2023.svg.png" group-title="BRAZIL",Band
+https://band-stream.sambatech.com.br/bandhls/band.m3u8
+
+
