@@ -35,6 +35,7 @@ EPG_URLS = [
     "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
     "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/refs/heads/main/globo.xml",
     "https://iptv-epg.org/files/epg-br.xml.gz",
+    "GLOBOEPG.xml.gz",
 ]
 
 # --- Canais do lista5.m3u original (após dedup) ---
@@ -86,7 +87,7 @@ ADDITIONAL_CHANNELS = OrderedDict([
     ("ADN 40", {
         "tvg-id": "adn40.mx",
         "tvg-name": "ADN 40",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/ADN40_2022.svg",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_ADN_40.png",
         "group": "NEWS WORLD",
         "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
     }),
@@ -100,7 +101,7 @@ ADDITIONAL_CHANNELS = OrderedDict([
     ("DW English", {
         "tvg-id": "DWEnglish.us",
         "tvg-name": "DW English",
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/YT_GTB_DW_Deutsche_Welle_logo.png",
+        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Deutsche_Welle_Logo.svg",
         "group": "NEWS WORLD",
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
     }),
@@ -143,28 +144,38 @@ def verify_logo_url(url, timeout=8):
         return False
 
 
+def to_jpg_ext(url):
+    if not url:
+        return url
+    return re.sub(r'\.(png|jpeg|gif|svg|webp)(\?.*)?$', r'.jpg\2', url)
+
+def is_jpg_url(url):
+    if not url:
+        return False
+    return bool(re.search(r'\.jpg(\?|$)', url))
+
 def fix_logo_url(url):
     if not url:
         return None
     if "imgur.com" in url:
         return None
-    basename = url.rstrip("/").split("/")[-1]
-    if not re.search(r'\.(jpg|png|jpeg|gif|svg|webp)', basename):
-        if "logo" in url.lower():
-            candidate = url + ("" if url.endswith("/") else "/") + "logo.jpg"
-            if verify_logo_url(candidate):
-                return candidate
+
+    jpg_version = to_jpg_ext(url)
+
+    if is_jpg_url(url):
+        if verify_logo_url(url):
             return url
-        return None
-
-    working_original = url if verify_logo_url(url) else None
-
-    jpg_url = re.sub(r'\.(png|jpeg|gif|svg|webp|svg\.png)(\?.*)?$', r'.jpg\2', url)
-    if jpg_url != url and verify_logo_url(jpg_url):
-        return jpg_url
-
-    if working_original:
+        elif jpg_version != url and verify_logo_url(jpg_version):
+            return jpg_version
         return url
+
+    if verify_logo_url(jpg_version):
+        return jpg_version
+
+    basename = url.rstrip("/").split("/")[-1]
+    if re.search(r'\.(png|svg|gif|webp)(\?.*)?$', basename):
+        if verify_logo_url(url):
+            return url
 
     return None
 
@@ -343,15 +354,45 @@ def main():
         else:
             print("FALHOU - removido")
 
-    # Step 5: Write fixed M3U
-    print("\n[5] Escrevendo lista5.m3u corrigido...")
+    # Step 5: Verify and fix logos
+    print("\n[5] Verificando e corrigindo logos...")
+    logo_ok = 0
+    logo_fixed = 0
+    logo_missing = 0
+
+    def process_logo_safe(name, logo_url):
+        nonlocal logo_ok, logo_fixed, logo_missing
+        if not logo_url:
+            logo_missing += 1
+            print(f"  ✗ {name}: logo ausente")
+            return None
+        fixed = fix_logo_url(logo_url)
+        if fixed:
+            is_jpg = is_jpg_url(fixed)
+            if is_jpg:
+                logo_ok += 1
+                print(f"  ✓ {name}: {fixed}")
+            elif fixed == logo_url:
+                logo_fixed += 1
+                print(f"  ~ {name}: {fixed} (⚠ não é .jpg)")
+            else:
+                logo_fixed += 1
+                print(f"  → {name}: {fixed}")
+        else:
+            logo_missing += 1
+            print(f"  ✗ {name}: sem logo funcional (mantendo original)")
+            fixed = logo_url
+        return fixed
+
+    # Step 6: Write fixed M3U
+    print("\n[6] Escrevendo lista5.m3u corrigido...")
     epg_url_str = " ".join(EPG_URLS)
 
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write(f'#EXTM3U url-tvg="{epg_url_str}"\n')
 
         for name, (extinf, url, info) in working.items():
-            logo = fix_logo_url(info.get("tvg-logo"))
+            logo = process_logo_safe(name, info.get("tvg-logo"))
             if logo is None:
                 logo = info.get("tvg-logo")
             new_extinf = build_extinf(info["tvg-id"], info["tvg-name"], logo, info.get("group", "NEWS WORLD"))
@@ -359,7 +400,7 @@ def main():
             f.write(url + "\n")
 
         for name, info in working_additional.items():
-            logo = fix_logo_url(info.get("tvg-logo"))
+            logo = process_logo_safe(name, info.get("tvg-logo"))
             if logo is None:
                 logo = info.get("tvg-logo")
             new_extinf = build_extinf(info["tvg-id"], info["tvg-name"], logo, info.get("group", "NEWS WORLD"))
@@ -368,8 +409,8 @@ def main():
 
     print(f"  Salvo: {OUTPUT_M3U}")
 
-    # Step 6: Download EPG sources
-    print("\n[6] Baixando fontes EPG...")
+    # Step 7: Download EPG sources
+    print("\n[7] Baixando fontes EPG...")
     all_epg_content = ""
     working_epgs = []
     for epg_url in EPG_URLS:
@@ -383,8 +424,8 @@ def main():
         else:
             print("FALHOU")
 
-    # Step 7: Check EPG for each channel
-    print("\n[7] Verificando EPG para cada canal...")
+    # Step 8: Check EPG for each channel
+    print("\n[8] Verificando EPG para cada canal...")
     all_tvg_ids = []
     for name, (_, _, info) in working.items():
         all_tvg_ids.append(info["tvg-id"])
@@ -404,8 +445,8 @@ def main():
         if not found:
             print(f"  ✗ {tvg_id}: EPG não encontrado nas fontes")
 
-    # Step 8: Verify EPG dates
-    print("\n[8] Verificando datas da programação...")
+    # Step 9: Verify EPG dates
+    print("\n[9] Verificando datas da programação...")
     date_check = verify_epg_dates(all_epg_content)
     today = datetime.now()
     labels = ["Hoje", "Amanhã", "Depois de amanhã"]
@@ -417,8 +458,8 @@ def main():
         if not found:
             all_found = False
 
-    # Step 9: Generate EPGFULL.xml.gz
-    print("\n[9] Gerando EPGFULL.xml.gz...")
+    # Step 10: Generate EPGFULL.xml.gz
+    print("\n[10] Gerando EPGFULL.xml.gz...")
     tv_root = ET.Element("tv", {
         "source-info-url": "https://github.com/anomalyco/JCTV",
         "source-info-name": "JCTV EPG",
@@ -559,8 +600,19 @@ def main():
     if not all_found:
         print("\n  ⚠ Nem todas as datas têm programação!")
         print("  Programação genérica foi gerada para cobrir.")
+    print(f"  Logos: {logo_ok} .jpg OK, {logo_fixed} outros formatos, {logo_missing} ausentes")
+    if logo_fixed > 0:
+        print("  ⚠ Canais abaixo não possuem logo em .jpg (apenas SVG/PNG disponível):")
+        for name, (_, _, info) in working.items():
+            logo = info.get("tvg-logo", "")
+            if not is_jpg_url(logo):
+                print(f"    - {name}: {logo}")
+        for name, info in working_additional.items():
+            logo = info.get("tvg-logo", "")
+            if not is_jpg_url(logo):
+                print(f"    - {name}: {logo}")
     print("  ✓ Formatação: #EXTINF antes das URLs")
-    print("  ✓ Logos: .jpg garantidos, sem imgur.com")
+    print("  ✓ imgur.com: removidos")
     print("  ✓ Anti-virus: URLs testadas, falhas removidas")
     print("\n" + "=" * 60)
     print("CORREÇÃO CONCLUÍDA!")
