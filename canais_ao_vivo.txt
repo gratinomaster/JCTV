@@ -1,72 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 10/07/2026 16:55:09
+Data de extração: 10/07/2026 19:25:06
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. Autoclassificação etária: 12
+A12
 
-Autoclassificação etária: livre
-AL
+18:50 - 19:34
 
-16:25 - 17:44
-
-Jornal Hoje
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-16:25 - 16:57
+18:53 - 19:39
 
-Vila, A
+Vai Que Cola
 
-Negócio Da China
+Vai que cola - Paletó De Madeira - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-16:49 - 18:51
+16:49 - 20:55
 
 Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Espanha X Bélgica
 
 Espanha X Bélgica - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 16:28 - 16:58
+6. 19:24 - 19:54
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Chapecoense X Remo
+Flamengo X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 14
-A14
+7. Autoclassificação etária: livre
+AL
 
-15:53 - 17:07
+18:50 - 19:30
 
-Saia Justa
+Que Marravilha!
 
-Se olhar com carinho/ Ambiciosa, sim!/ O block é terapêutico
+Um Brasileiro para ser Eslovaco
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-16:50 - 17:34
+19:12 - 20:15
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
