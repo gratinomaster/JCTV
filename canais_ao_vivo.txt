@@ -1,22 +1,22 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 10/07/2026 02:54:26
+Data de extração: 10/07/2026 06:44:29
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 16
-A16
+2. Autoclassificação etária: 10
+A10
 
-02:40 - 03:29
+06:15 - 07:19
 
-Justiça 2
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 01:00 - 02:59
+3. 06:00 - 07:59
 
 Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
@@ -24,43 +24,43 @@ Jornal das Dez
 4. Classificação etária: 12
 12
 
-02:33 - 03:14
+06:30 - 06:58
 
-Sessão Nostalgia Tapas E Beijo
+Chapolin
 
-Flashback Relembra Como Flavinha E Djalma Se Conheceram
+Médicos Birutas / O Minidisco Voador
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 02:32 - 03:37
+5. 05:50 - 06:54
 
 Copa Do Mundo Da FIFA 2026™
 
-França X Marrocos - Quartas De Final
+Brasil X Japão
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 02:27 - 02:55
+6. 05:52 - 06:45
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Giro Da Rodada
 
-Palmeiras X Santos
+Brasileirão - 14ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 12
+A12
 
-01:53 - 03:01
+06:13 - 06:46
 
-Que História É Essa, Porchat?
+Diogo Na Cozinha
 
-Juliano Floss + Mc Carol + Vitor Sampaio
+Leci Brandão e BK'
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Classificação etária: livre
+L
 
-02:42 - 03:47
+06:03 - 06:44
 
-Belíssima
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
