@@ -1,68 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 10/07/2026 11:50:56
+Data de extração: 10/07/2026 14:23:10
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 10
+A10
 
-11:40 - 12:24
+13:55 - 14:54
 
-Comédia Na Madruga - Vai Que Cola
+Encontro Com Patrícia Poeta
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: livre
-AL
+4. Classificação etária: 12
+12
 
-11:30 - 12:04
+14:17 - 14:46
 
-Aquecimento Rock In Rio
+Chapolin
 
-Gilberto Gil: A God In His Garden
+A Casa de Chá do Luar de 8 de agosto de 1984 / A Autópsia
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-11:29 - 12:26
+13:30 - 16:04
 
-sportv News
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:11 - 12:01
+6. 14:01 - 14:31
 
-Giro Da Rodada
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Brasileirão - 15ª Rodada
+Botafogo X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-11:07 - 12:01
+14:15 - 15:09
 
-Santa Ajuda
+Food Truck - A Batalha
 
-Escritório do Sidney
+Comida Asiática
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-11:15 - 11:58
+14:21 - 15:07
 
-O Profeta
+O Rei Do Gado
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
