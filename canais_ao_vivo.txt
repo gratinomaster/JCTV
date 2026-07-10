@@ -1,68 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 09/07/2026 22:22:32
+Data de extração: 10/07/2026 02:54:26
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 16
+A16
 
-21:55 - 22:39
+02:40 - 03:29
 
-A Nobreza do Amor
+Justiça 2
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 14
-14
+4. Classificação etária: 12
+12
 
-22:14 - 22:57
+02:33 - 03:14
 
-Sessão Nostalgia - Toma Lá Da
+Sessão Nostalgia Tapas E Beijo
 
-Quem Muito Se Abaixa...
+Flashback Relembra Como Flavinha E Djalma Se Conheceram
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 02:32 - 03:37
 
-22:09 - 23:06
+Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+França X Marrocos - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 22:03 - 22:33
+6. 02:27 - 02:55
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Grêmio X Coritiba
+Palmeiras X Santos
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Classificação etária: 14
+14
 
-22:45 - 23:46
+01:53 - 03:01
 
-Que Seja Doce
+Que História É Essa, Porchat?
 
-Doces de Cora Coralina
+Juliano Floss + Mc Carol + Vitor Sampaio
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-22:18 - 23:07
+02:42 - 03:47
 
-O Rei Do Gado
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
