@@ -1,68 +1,65 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 11/07/2026 13:15:47
+Data de extração: 11/07/2026 15:55:01
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. 15:20 - 15:59
 
-11:30 - 14:44
-
-É de Casa
+Terra de Minas
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-13:00 - 14:59
+15:00 - 17:29
 
-Jornal GloboNews - Edição das 10h
+Jornal GloboNews - Edição do Meio-dia
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Autoclassificação etária: livre
+AL
 
-13:02 - 13:32
+15:46 - 16:18
 
-Vila, A
+Reclame
 
-É Tudo Ou Nada
+Reclame - 20ª Temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 11:44 - 13:29
+5. Ao vivo
 
-Seleção Copa
+15:30 - 18:11
+
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:06 - 14:18
+6. 15:18 - 16:18
 
-Giro Da Rodada
+Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Brasileirão 2026 - 1ª Rodada
+Grêmio X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-12:57 - 13:42
+15:31 - 16:15
 
-Infiltrado Na Cozinha
+Geladeiras Em Ação
 
-O Enigma do Arroz
+Panelão
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-12:37 - 13:25
+15:48 - 16:51
 
-Minha Menina
-
-Capítulo 8
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
