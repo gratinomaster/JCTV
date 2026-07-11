@@ -1,68 +1,67 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 11/07/2026 07:54:04
+Data de extração: 11/07/2026 10:13:42
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-07:30 - 08:19
+09:50 - 10:49
 
-Coração Acelerado
+Bom Dia Sábado
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 07:30 - 08:59
+3. Autoclassificação etária: livre
+AL
 
-Jornal das Dez
+10:10 - 10:59
+
+POD_i, com Andréia Sadi
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-07:53 - 08:00
+10:00 - 10:30
 
-Tvz
+Tô De Graça
 
-Thiaguinho - Ainda Bem
+Larga Meu Bofe
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 07:06 - 08:09
+5. 10:11 - 10:43
 
-Copa Do Mundo Da FIFA 2026™
-
-Suíça X Colômbia - Oitavas De Final
+FATIADA - RICHARLISON EP-1
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 07:14 - 08:14
+6. 10:10 - 11:08
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Chapecoense X Santos
+Fluminense X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 12
+A12
 
-07:16 - 08:10
+09:47 - 10:36
 
-Santa Ajuda
+Dani-Se
 
-Escritório do Sidney
+Fofoca
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-07:25 - 08:16
+10:08 - 11:11
 
-Minha Vida Perfeita
-
-Capítulo 52
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
