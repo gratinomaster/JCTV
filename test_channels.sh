@@ -1,40 +1,65 @@
 #!/bin/bash
 
-INPUT="/home/runner/work/JCTV/JCTV/lista5.m3u"
-OUTPUT="/home/runner/work/JCTV/JCTV/lista5.m3u"
-TIMEOUT=10
-UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+INPUT_FILE="lista5.m3u"
+OUTPUT_FILE="lista5_clean.m3u"
+RESULTS_FILE="/tmp/channel_results.txt"
 
-total=0
-working=0
-failed=0
+> "$RESULTS_FILE"
 
-> /tmp/channels_ok.txt
-echo "#EXTM3U" > /tmp/channels_ok.txt
+EXTINF_LINE=""
+URL_LINE=""
+CHANNEL_NUM=0
 
-while IFS= read -r extinf; do
-    IFS= read -r url || break
-    
-    total=$((total + 1))
-    channel_name=$(echo "$extinf" | grep -oP ',\K.*')
-    echo -n "[$total] $channel_name ... "
-    
-    status=$(curl -s -o /tmp/resp_body.txt -w "%{http_code}" --max-time "$TIMEOUT" -A "$UA" "$url" 2>/dev/null)
-    body_head=$(head -c 200 /tmp/resp_body.txt 2>/dev/null)
-    
-    if ([ "$status" -ge 200 ] && [ "$status" -lt 400 ]) && echo "$body_head" | grep -qiE '#EXTM3U|#EXT-X-|#EXTINF|\.ts|\.m3u8|\.aac|\.mp4'; then
-        echo "OK ($status)"
-        echo "$extinf" >> /tmp/channels_ok.txt
-        echo "$url" >> /tmp/channels_ok.txt
-        working=$((working + 1))
-    else
-        echo "FALHOU (HTTP $status)"
-        failed=$((failed + 1))
+while IFS= read -r line; do
+    if [[ "$line" == "#EXTM3U" ]]; then
+        echo "$line" > "$OUTPUT_FILE"
+        continue
     fi
-done < <(tail -n +2 "$INPUT")
 
+    if [[ "$line" == "#EXTINF"* ]]; then
+        EXTINF_LINE="$line"
+        continue
+    fi
+
+    if [[ -n "$EXTINF_LINE" && -n "$line" && "$line" != "#"* ]]; then
+        URL_LINE="$line"
+        CHANNEL_NUM=$((CHANNEL_NUM + 1))
+
+        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 -L "$URL_LINE" 2>/dev/null)
+
+        if [[ "$HTTP_CODE" == "200" ]]; then
+            echo "OK|$CHANNEL_NUM|$HTTP_CODE|$EXTINF_LINE" >> "$RESULTS_FILE"
+            echo "$URL_LINE" >> "$RESULTS_FILE"
+        else
+            echo "FAIL|$CHANNEL_NUM|$HTTP_CODE|$EXTINF_LINE" >> "$RESULTS_FILE"
+        fi
+
+        EXTINF_LINE=""
+        URL_LINE=""
+    fi
+done < "$INPUT_FILE"
+
+echo "" >> "$OUTPUT_FILE"
+grep "^OK|" "$RESULTS_FILE" | while IFS='|' read -r status num code extinf; do
+    url_line=$(grep -A1 "^OK|$num|" "$RESULTS_FILE" | tail -1)
+    echo "$extinf" >> "$OUTPUT_FILE"
+    echo "$url_line" >> "$OUTPUT_FILE"
+done
+
+TOTAL=$CHANNEL_NUM
+WORKING=$(grep -c "^OK|" "$RESULTS_FILE")
+FAILING=$(grep -c "^FAIL|" "$RESULTS_FILE")
+
+echo "========================================="
+echo "TESTE DE CANAIS CONCLUIDO"
+echo "========================================="
+echo "Total testados: $TOTAL"
+echo "Funcionando:    $WORKING"
+echo "Nao funcionando: $FAILING"
+echo "========================================="
 echo ""
-echo "=== RESULTADO ==="
-echo "Total: $total | Funcionando: $working | Falhou: $failed"
-
-cp /tmp/channels_ok.txt "$OUTPUT"
+echo "Canais FAIL:"
+grep "^FAIL|" "$RESULTS_FILE" | while IFS='|' read -r status num code extinf; do
+    name=$(echo "$extinf" | grep -oP ',[^,]+$' | sed 's/^,//')
+    echo "  [$num] HTTP $code - $name"
+done
