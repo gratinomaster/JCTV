@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 11/07/2026 10:13:42
+Data de extração: 11/07/2026 13:15:47
 Total de canais: 10
 ================================================================================
 
@@ -11,57 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: livre
 AL
 
-09:50 - 10:49
+11:30 - 14:44
 
-Bom Dia Sábado
+É de Casa
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Autoclassificação etária: livre
-AL
+3. Ao vivo
 
-10:10 - 10:59
+13:00 - 14:59
 
-POD_i, com Andréia Sadi
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-10:00 - 10:30
+13:02 - 13:32
 
-Tô De Graça
+Vila, A
 
-Larga Meu Bofe
+É Tudo Ou Nada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 10:11 - 10:43
+5. 11:44 - 13:29
 
-FATIADA - RICHARLISON EP-1
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 10:10 - 11:08
+6. 13:06 - 14:18
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Giro Da Rodada
 
-Fluminense X Grêmio
+Brasileirão 2026 - 1ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 12
-A12
+7. Autoclassificação etária: 10
+A10
 
-09:47 - 10:36
+12:57 - 13:42
 
-Dani-Se
+Infiltrado Na Cozinha
 
-Fofoca
+O Enigma do Arroz
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: 14
-14
+8. Autoclassificação etária: 14
+A14
 
-10:08 - 11:11
+12:37 - 13:25
 
-Belíssima
+Minha Menina
+
+Capítulo 8
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
