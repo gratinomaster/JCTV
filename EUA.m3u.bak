@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 #EXTINF:-1 tvg-id="cbs.east.us" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="USA",CBS EAST
 http://tkosportz.live:25461/folalawal@/4044225438/10374
 
@@ -37,3 +37,4 @@ https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u
 
 #EXTINF:-1 tvg-id="bloomberg.us" tvg-name="Bloomberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/320px-Bloomberg_Television_logo.svg.png" group-title="USA",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/us.m3u8
+
