@@ -1,68 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 12/07/2026 08:21:29
+Data de extração: 12/07/2026 13:16:36
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: livre
+AL
 
-08:05 - 08:54
+13:10 - 13:39
 
-Coração Acelerado
+Auto Esporte
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 08:00 - 08:59
+3. Ao vivo
 
-Jornal das Dez
+13:00 - 13:59
+
+Jornal GloboNews - Edição das 10h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-08:13 - 08:40
+13:01 - 13:32
 
-Chapolin
+Tô De Graça
 
-Uma Múmia Bastante Egípcia
+Larga Meu Bofe
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 08:08 - 09:11
+5. 13:14 - 14:00
 
-Copa Do Mundo Da FIFA 2026™
-
-Suíça X Colômbia - Oitavas De Final
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 07:33 - 08:31
+6. 12:22 - 13:20
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Corinthians X Bragantino
+Bragantino X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-07:40 - 08:34
+12:33 - 13:27
 
-Food Truck - A Batalha
+Bem Juntinhos
 
-Hot Dog
+Comida Boa
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 10
+10
 
-08:03 - 08:59
+12:58 - 13:38
 
-Minha Menina
-
-Capítulo 9
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
