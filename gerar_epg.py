@@ -35,6 +35,8 @@ CHANNEL_MAP = {
     "TyC Sports (1080p) Geo-blocked": ["Canal.TyC.Sports.ar"],
     "TyC Sports (1080p) RAW": ["Canal.TyC.Sports.ar"],
     "TyC Sports (720p)": ["Canal.TyC.Sports.ar"],
+    "TyC Sports 2": ["Canal.TyC.Sports.ar"],
+    "TyC Sports 2 (720p)": ["Canal.TyC.Sports.ar"],
     "TyC Sports (Argentina)": ["Canal.TyC.Sports.ar"],
     "TyC Sports USA": ["Canal.TyC.Sports.ar"],
     "Telefe": ["Canal.Telefé.(Argentina).ar"],
@@ -43,6 +45,7 @@ CHANNEL_MAP = {
     "Telefe (720p)": ["Canal.Telefé.(Argentina).ar"],
     "Telefe Buenos Aires (1080p)": ["Canal.Telefé.(Argentina).ar"],
     "Telefe Internacional": ["Telefe.international.us2"],
+    "Telefe Rosario Geo-blocked": ["Canal.Telefé.(Argentina).ar"],
     "El Trece": ["Canal.13.de.Argentina.(El.Trece).ar"],
     "El Trece (1080p)": ["Canal.13.de.Argentina.(El.Trece).ar"],
     "El Trece (480p)": ["Canal.13.de.Argentina.(El.Trece).ar"],
@@ -166,6 +169,8 @@ SKIP_CHANNELS = [
     "Pakapaka Ⓧ Ⓖ", "Encuentro Ⓧ Ⓖ",
     "Kpop Mix", "Plim Plim", "Cumbia Mix",
     "Television Publica (720p)",
+    "EPG id", "Tec TV", "TN Todo Noticias Ⓨ",
+    "TyC Sports Play Online", "LaNacionPlus.ar",
 ]
 
 
