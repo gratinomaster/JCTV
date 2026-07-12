@@ -1,64 +1,63 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 12/07/2026 13:16:36
+Data de extração: 12/07/2026 15:59:09
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. 15:55 - 16:34
 
-13:10 - 13:39
-
-Auto Esporte
+Terra de Minas
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-13:00 - 13:59
+15:30 - 17:19
 
-Jornal GloboNews - Edição das 10h
+Jornal GloboNews - Edição do Meio-dia
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-13:01 - 13:32
+15:21 - 16:02
 
-Tô De Graça
+Sessão Nostalgia Tapas E Beijo
 
-Larga Meu Bofe
+Cipó Do Pajé- Fátima E Sueli Decidem Emagrecer
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 13:14 - 14:00
+5. Ao vivo
 
-Seleção Copa
+15:49 - 18:17
+
+Partiu Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 12:22 - 13:20
+6. 15:19 - 16:19
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Bragantino X Athletico-PR
+Cruzeiro X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-12:33 - 13:27
+15:41 - 16:12
 
-Bem Juntinhos
+Cozinha Prática Com Rita Lobo
 
-Comida Boa
+Cuscuz de Milho
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 10
 10
 
-12:58 - 13:38
+15:48 - 16:33
 
 Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
