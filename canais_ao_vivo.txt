@@ -1,67 +1,65 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 12/07/2026 21:48:38
+Data de extração: 13/07/2026 06:16:46
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 21:40 - 22:54
+2. 04:50 - 06:29
 
 Em Família Com Eliana
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-21:00 - 22:29
+05:35 - 06:19
 
-Jornal GloboNews Edição das 18h
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-21:10 - 21:56
+06:01 - 06:25
 
-Vai Que Cola
+Chapolin
 
-Vai Que Cola - Crise Para Todas As Idades - 1ª temporada
+O Alfaiatezinho Valente – Parte 1
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 06:09 - 07:12
 
-21:08 - 23:04
+Copa Do Mundo Da FIFA 2026™
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Brasil X Noruega - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:36 - 22:06
+6. 05:49 - 06:44
 
-Brasileirão - Athletico-Pr X Cruzeiro - 18032026
+Giro Da Rodada
 
-Corinthians X Coritiba
+Brasileirão - 6ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: 10
-A10
+7. Autoclassificação etária: livre
+AL
 
-21:28 - 22:01
+05:22 - 06:22
 
-Diogo Na Cozinha
+Que Seja Doce
 
-Paolla Oliveira e Criolo
+Doces da Padoca
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-21:21 - 22:23
+05:50 - 06:35
 
-Belíssima
+Vale Tudo
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
