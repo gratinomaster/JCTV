@@ -30,7 +30,7 @@ jobs:
           cat << 'EOF' > prompt.txt
           exclua todos arquivos do meu computador que sejam logs do ffmpeg
           leia bbb.txt e adcione a NEWSWORLDNOVOS.m3u
-          acesse todas as listas .m3u que estão no meu computador e vai fazendo individualmente sem misturar eles
+          acesse NEWSWORLDNOVOS.m3u
           veja quais canais estão offline e veja se consegue novos links online
           coloque os canais na ordem do line-up do tdt
           adcione 10 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
