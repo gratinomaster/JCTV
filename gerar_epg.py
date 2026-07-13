@@ -16,162 +16,83 @@ OUTPUT = "EPGFULL.xml.gz"
 
 EPG_URLS = [
     "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
 ]
 
-# Strict manual mapping: M3U tvg-name -> list of (EPG channel ID, source index priority)
-# Lower index = higher priority source
+# Manual mapping: M3U tvg-name -> list of EPG channel IDs (priority order)
 CHANNEL_MAP = {
-    # === Argentine broadcast channels ===
-    "TyC Sports": ["Canal.TyC.Sports.ar"],
+    # === Argentine broadcast ===
     "TyC Sports (1080p)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports (1080p) Geo-blocked": ["Canal.TyC.Sports.ar"],
-    "TyC Sports (1080p) RAW": ["Canal.TyC.Sports.ar"],
-    "TyC Sports (720p)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports 2": ["Canal.TyC.Sports.ar"],
     "TyC Sports 2 (720p)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports (Argentina)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports USA": ["Canal.TyC.Sports.ar"],
-    "Telefe": ["Canal.Telefé.(Argentina).ar"],
-    "Telefe (1080p)": ["Canal.Telefé.(Argentina).ar"],
-    "Telefe (1080p) RAW": ["Canal.Telefé.(Argentina).ar"],
-    "Telefe (720p)": ["Canal.Telefé.(Argentina).ar"],
+    "TyC Sports USA": ["TyC.Sports.Internacional.USA.us2"],
     "Telefe Buenos Aires (1080p)": ["Canal.Telefé.(Argentina).ar"],
-    "Telefe Internacional": ["Telefe.international.us2"],
-    "Telefe Rosario Geo-blocked": ["Canal.Telefé.(Argentina).ar"],
-    "El Trece": ["Canal.13.de.Argentina.(El.Trece).ar"],
-    "El Trece (1080p)": ["Canal.13.de.Argentina.(El.Trece).ar"],
+    "Telefe Internacional": ["Telefe.international.us2", "Canal.Telefe.Internacional.mx"],
     "El Trece (480p)": ["Canal.13.de.Argentina.(El.Trece).ar"],
     "America TV": ["Canal.America.TV.(Argentina).ar"],
-    "America TV (1080p)": ["Canal.America.TV.(Argentina).ar"],
-    "America TV (1080p) RAW": ["Canal.America.TV.(Argentina).ar"],
-    "America TV (720p)": ["Canal.America.TV.(Argentina).ar"],
-    "TV Publica (Canal 7)": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "TV Publica": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "TV Publica (1080p)": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "TV Publica (1080p) RAW": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "Television Publica (720p)": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "TVPublica.ar": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "Televisión Pública Ⓧ": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "TN Todo Noticias": ["Canal.Cablenoticias.ar"],
-    "TN (1080p)": ["Canal.Cablenoticias.ar"],
-    "TN (720p)": ["Canal.Cablenoticias.ar"],
-    "TN Todo Noticias Ⓧ": ["Canal.Cablenoticias.ar"],
-    "TodoNoticias.ar": ["Canal.Cablenoticias.ar"],
+    "Televisión Pública": ["Canal.Televisión.Pública.(Argentina).ar"],
+    "Todo Noticias": ["Canal.Cablenoticias.ar"],
 
-    # === Argentine cable/paid channels ===
-    "ESPN Argentina": ["Canal.ESPN.(Argentina).ar"],
-    "Cinecanal South (1080p) AR": ["Canal.Cinecanal.(Argentina).ar"],
-    "El Gourmet (1080p)": ["Canal.Elgourmet.ar"],
-    "El Gourmet (720p)": ["El.Gourmet.co"],
-    "El Gourmet South (1080p)": ["El.Gourmet.co"],
-    "El Gourmet South (720p)": ["El.Gourmet.co"],
-    "Film & Arts (1080p)": ["Canal.Film.&.Arts.ar"],
-    "Film & Arts (720p)": ["Canal.Film.&.Arts.ar"],
-    "Europa Europa (1080p)": ["Canal.Europa.Europa.ar"],
-    "Europa Europa (720p)": ["Canal.Europa.Europa.ar"],
-    "History Latin America South (1080p) AR": ["Canal.History.2.(Argentina).ar"],
-    "MTV Latin America (1080p) AR": ["Canal.MTV.(Argentina).ar"],
-    "Sony Channel (1080p)": ["Canal.Sony.(Argentina).ar"],
-    "Sony Channel (720p)": ["Sony.co"],
-    "Star Channel Latin America South (1080p) AR": ["Canal.Star.Channel.(Argentina).ar"],
-    "Studio Universal Latin America South (720p) AR": ["Studio.Universal.co"],
-    "TNT Novelas (720p) AR": ["Canal.TNT.Novelas.(Argentina).ar"],
-    "AXN Latin America South (1080p) AR": ["Canal.AXN.(Argentina).ar"],
-    "AMC Latin America (1080p) AR": ["AMC.HD.us2"],
-    "AMC Series Latin America (720p) AR": ["AMC+.us2"],
+    # === Argentine cable/paid ===
     "Disney Channel Latin America": ["Canal.Disney.Channel.(Argentina).ar"],
-    "Disney Channel Latin America (1080p)": ["DISNEY.+.co"],
-    "Disney Channel Latin America (1080p) RAW": ["DISNEY.+.co"],
-    "Disney Channel Latin America Center (1080p)": ["DISNEY.+.co"],
-    "Disney Channel Latin America Mexico (576p)": ["DISNEY.+.co"],
-    "Disney Channel Latin America Mexico (576p) RAW": ["DISNEY.+.co"],
-    "Disney Channel Latin America Mexico (720p)": ["DISNEY.+.co"],
-    "Disney Channel Latin America Panregional HD (1080p)": ["DISNEY.+.co"],
-    "Disney Channel Latin America Panregional HD (1080p) RAW": ["DISNEY.+.co"],
-    "Disney Channel Latin America South (1080p)": ["DISNEY.+.co"],
+    "Disney Channel Latin America (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
+    "Disney Channel Latin America (1080p) RAW": ["Canal.Disney.Channel.(Argentina).ar"],
+    "Disney Channel Latin America Mexico (576p)": ["Canal.Disney.Channel.(México).mx"],
+    "Disney Channel Latin America Mexico (720p)": ["Canal.Disney.Channel.(México).mx"],
+    "Disney Channel Latin America Center (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
+    "Disney Channel Latin America Panregional HD (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
+    "Disney Channel Latin America Panregional HD (1080p) RAW": ["Canal.Disney.Channel.(Argentina).ar"],
     "Disney Jr. Latin America": ["Canal.Disney.Junior.(Argentina).ar"],
-    "Disney Jr. Latin America (1080p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America (576p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America (720p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America North HD (1080p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America North HD (1080p) RAW": ["DISNEY.+.co"],
-    "Disney Jr. Latin America South (1080p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America South (576p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America South HD (1080p)": ["DISNEY.+.co"],
-    "Disney Jr. Latin America South HD (1080p) RAW": ["DISNEY.+.co"],
-    "Comedy Central Latin America (1080p) AR": ["Comedy.Central.HD.us2"],
-    "A&E Latin America South (1080p) AR": ["A.and.E.HD.East.us2"],
-    "E! Latin America (1080p) AR": ["E!."],
-    "FX Latin America South (1080p) AR": ["FX.HD.us2"],
-    "Canal Encuentro": ["Encuentro"],
-    "Encuentro (720p)": ["Encuentro"],
-    "Pakapaka (720p)": ["Canal.Pakapaka.ar"],
-    "Cine.Ar (576p)": ["Cine.Ar"],
-    "Volver (576p)": ["Volver"],
-    "Volver (720p)": ["Volver"],
-    "FIFA+ Hispanic America (720p) AR": ["FIFA"],
-    "Fox Sports": ["FS1.Fox.Sports.1.HD.us2"],
-    "Fox Sports (720p)": ["FS1.Fox.Sports.1.HD.us2"],
-    "Fox Sports (720p) RAW": ["FS1.Fox.Sports.1.HD.us2"],
-    "Fox Sports 2 (720p)": ["FS2.Fox.Sports.2.HD.us2"],
-    "Fox Sports 3 (720p)": ["FOX.Sports.3.HD(FXS3HD).co"],
-    "Fox Sports 4K (USA)": ["Fox.Sports.4K.us2"],
-    "DSports": ["DIRECTV.Sports.5(DTS6).co"],
-    "DSports 2": ["DIRECTV.SPORTS(DTS7).co"],
+    "Disney Jr. Latin America (576p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America North HD (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America North HD (1080p) RAW": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America South HD (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America South (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America South HD (1080p) RAW": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Sony Channel (1080p)": ["Canal.Sony.(Argentina).ar", "Sony.co"],
+    "AMC Latin America (1080p) AR": ["AMC.HD.us2", "AMC.co"],
+    "MTV Latin America (1080p) AR": ["Canal.MTV.(Argentina).ar", "MTV.co"],
+    "Comedy Central Latin America (1080p) AR": ["Comedy.Central.HD.us2", "Comedy.Central.co"],
+    "E! Latin America (1080p) AR": ["E!.Entertainment.Television.HD.us2", "E!.Entertainment.TV.co"],
+    "El Gourmet (720p)": ["Canal.Elgourmet.ar", "El.Gourmet.co"],
+    "El Gourmet (1080p)": ["Canal.Elgourmet.ar", "El.Gourmet.co"],
+    "Fox Sports": ["FS1.Fox.Sports.1.HD.us2", "Canal.Fox.Sports.(México).mx"],
     "DSports (1080p) AR": ["DIRECTV.Sports.5(DTS6).co"],
-    "DeporTV": ["DeporTV"],
-    "DeporTV (1080p)": ["DeporTV"],
-    "DeporTV (720p)": ["DeporTV"],
+    "FIFA+ Hispanic America (720p) AR": ["FIFA", "Canal.FIFA.ar"],
 
-    # === Colombia ===
-    "Caracol TV (Colombia)": ["Caracol.co", "CARACOL.INTERNATIONAL.us2"],
+    # === Argentina educational ===
+    "Pakapaka": ["Canal.Pakapaka.ar"],
+    "DeporTV.ar": ["DeporTV"],
 
     # === Mexico ===
-    "Telemundo (USA)": ["Telemundo.Satellite.Feed.us2", "Telemundo.co"],
-    "Telemundo Internacional (1080p) AR": ["Telemundo.co"],
-
-    # === Canada (likely no EPG) ===
-    "TSN1 (Canada)": ["TSN1.ca"],
-    "CTV (Canada)": ["CTV.ca"],
-
-    # === UK (likely no EPG) ===
-    "ITV1 (UK)": ["ITV1.uk"],
+    "Azteca Uno": ["Canal.Azteca.Uno.mx"],
+    "ADN 40": ["Canal.ADN.40.mx"],
+    "Telemundo": ["Telemundo.Satellite.Feed.us2", "Canal.Telemundo.(México).mx"],
+    "Telemundo Internacional (1080p) AR": ["Telemundo.co", "Canal.Telemundo.(México).mx"],
+    "TeleFórmula": ["Canal.Telefórmula.mx"],
+    "Canal 22": ["Canal.22.de.México.mx", "Canal.22.Internacional.mx", "CANAL.22.INTERNACIONAL.us2"],
 
     # === USA ===
-    "Fubo Sports (USA)": ["Fubo"],
-
-    # === Argentina news/local (no EPG) ===
-    "C5N Noticias": ["C5N"],
-    "C5N (720p)": ["C5N"],
-    "C5N (720p) RAW": ["C5N"],
-    "C5N Ⓧ": ["C5N"],
-    "C5N.ar": ["C5N"],
-    "Canal 26": ["Canal.26"],
-    "Canal 26 (1080p)": ["Canal.26"],
-    "Canal 26 (1080p) RAW": ["Canal.26"],
-    "Canal 26 RAW": ["Canal.26"],
-    "Canal 26 Ⓧ": ["Canal.26"],
-    "Canal26.ar": ["Canal.26"],
+    "ABC": ["ABC.National.Feed.us2"],
+    "ABC News": ["ABC.News.Live.us2"],
+    "Estrella TV": ["Estrella.TV.us2"],
+    "Univision": ["Univision.Network.HD.us2"],
+    "DW Español": ["Canal.DW.(Latinoamérica).ar", "Canal.DW.(Latinoamérica).mx"],
 }
 
-# Skip these channels entirely (YouTube links, radio, no EPG possible)
-SKIP_CHANNELS = [
-    "Aunar", "Aunar.ar", "Channel", "LN+ Ⓧ", "TECTV.ar",
-    "TN (1080p) RAW", "TN (2160p)", "TN Ⓧ",
-    "Pakapaka Ⓧ Ⓖ", "Encuentro Ⓧ Ⓖ",
-    "Kpop Mix", "Plim Plim", "Cumbia Mix",
-    "Television Publica (720p)",
-    "EPG id", "Tec TV", "TN Todo Noticias Ⓨ",
-    "TyC Sports Play Online", "LaNacionPlus.ar",
-]
+# Skip channels with no EPG available anywhere
+SKIP_CHANNELS = {
+    "5tv", "Argentinisima Satelital", "Cadena103.TV", "Bravo TV",
+    "Canal 9 Link", "San Pedro TV", "TV Mana Argentina", "TV Solidaria",
+    "Unife TV", "Unife TV RAW", "Kpop Mix", "Cumbia Mix", "Plim Plim",
+}
 
 
 def normalize(text):
@@ -203,30 +124,44 @@ def fetch_url(url):
 
 def get_channels_from_m3u(m3u_path):
     channels = OrderedDict()
+    current_name = None
+    current_tvg_id = None
     with open(m3u_path, "r", encoding="utf-8") as f:
         for line in f:
-            m = re.search(r'tvg-name="([^"]*)"', line)
-            if m:
-                name = m.group(1).strip()
-                if name:
-                    channels[name] = True
-    return list(channels.keys())
+            line = line.strip()
+            if line.startswith("#EXTINF"):
+                name_m = re.search(r'tvg-name="([^"]*)"', line)
+                id_m = re.search(r'tvg-id="([^"]*)"', line)
+                current_name = name_m.group(1).strip() if name_m else ""
+                current_tvg_id = id_m.group(1).strip() if id_m else ""
+            elif current_name and line and not line.startswith("#"):
+                channels[current_name] = current_tvg_id
+                current_name = None
+                current_tvg_id = None
+    return channels
 
 
 def find_epg_channel(epg_id_pattern, epg_roots):
-    """Find an EPG channel by ID pattern (case-insensitive partial match)."""
     pattern = normalize(epg_id_pattern)
+    if not pattern:
+        return None, None
     for root_idx, root in enumerate(epg_roots):
         for ch in root.findall("channel"):
             ch_id = ch.get("id", "")
-            if normalize(ch_id) == pattern or pattern in normalize(ch_id):
+            if normalize(ch_id) == pattern:
+                return ch_id, root_idx
+    # Fallback: partial match
+    for root_idx, root in enumerate(epg_roots):
+        for ch in root.findall("channel"):
+            ch_id = ch.get("id", "")
+            if pattern in normalize(ch_id) or normalize(ch_id) in pattern:
                 return ch_id, root_idx
     return None, None
 
 
 def main():
     print("=" * 60)
-    print("Gerador de EPGFULL.xml.gz filtrado pelo M3U")
+    print("Gerador de EPGFULL.xml.gz - filtrado pelo M3U")
     print("=" * 60)
 
     # Step 1: Download M3U
@@ -239,10 +174,10 @@ def main():
     else:
         print("   Usando M3U local existente")
 
-    # Step 2: Extract channel names from M3U
-    print("\n2. Lendo canais do M3U (tvg-name)...")
-    m3u_names = get_channels_from_m3u(M3U_PATH)
-    print(f"   {len(m3u_names)} canais encontrados no M3U")
+    # Step 2: Extract channels from M3U
+    print("\n2. Lendo canais do M3U...")
+    m3u_channels = get_channels_from_m3u(M3U_PATH)
+    print(f"   {len(m3u_channels)} canais encontrados no M3U")
 
     # Step 3: Download EPG sources
     print("\n3. Baixando fontes EPG...")
@@ -273,17 +208,15 @@ def main():
     skipped = []
     unmapped = []
 
-    for name in m3u_names:
-        # Skip certain channels
+    for name, tvg_id in m3u_channels.items():
         if name in SKIP_CHANNELS:
             skipped.append(name)
-            print(f"   SKIP {name}")
             continue
 
-        # Look up manual mapping
         epg_ids = CHANNEL_MAP.get(name)
+        found = False
+
         if epg_ids:
-            found = False
             for epg_id in epg_ids:
                 src_id, src_root_idx = find_epg_channel(epg_id, epg_roots)
                 if src_id:
@@ -291,42 +224,50 @@ def main():
                     print(f"   OK   {name} -> {src_id}")
                     found = True
                     break
-            if not found:
-                unmapped.append(name)
-                print(f"   ---  {name} -> EPG ID '{epg_ids[0]}' não encontrado")
-        else:
+
+        if not found and tvg_id:
+            src_id, src_root_idx = find_epg_channel(tvg_id, epg_roots)
+            if src_id:
+                channel_map[name] = (src_id, src_root_idx)
+                print(f"   OK   {name} -> {src_id} (via tvg-id)")
+                found = True
+
+        if not found:
             unmapped.append(name)
-            print(f"   ---  {name} -> sem mapeamento")
 
     print(f"\n   Resumo:")
-    print(f"   Mapeados: {len(channel_map)}/{len(m3u_names)}")
+    print(f"   Mapeados: {len(channel_map)}/{len(m3u_channels)}")
     print(f"   Sem EPG:  {len(unmapped)}")
     print(f"   Pulados:  {len(skipped)}")
 
-    # Step 5: Build filtered output XML
+    # Step 5: Build filtered XML
     print("\n5. Construindo XML filtrado...")
     tv_root = ET.Element("tv", {
         "generator-info-name": "JCTV EPG Generator",
         "source-info-url": "https://epgshare01.online",
     })
 
-    # Add channel definitions from matched EPG channels
+    added_channels = set()
+
+    # Add channel definitions
     for name, (src_id, src_root_idx) in channel_map.items():
+        if src_id in added_channels:
+            continue
         epg_root = epg_roots[src_root_idx]
         for ch in epg_root.findall("channel"):
             if ch.get("id") == src_id:
                 new_ch = ET.SubElement(tv_root, "channel", id=src_id)
                 dn = ch.find("display-name")
                 if dn is not None and dn.text:
-                    ET.SubElement(new_ch, "display-name", lang="en").text = dn.text
-                ET.SubElement(new_ch, "display-name", lang="pt").text = name
+                    ET.SubElement(new_ch, "display-name").text = dn.text
                 icon = ch.find("icon")
                 if icon is not None:
                     new_ch.append(icon)
+                added_channels.add(src_id)
                 break
 
     # Copy programmes from matched channels
-    print("   Copiando programas de canais mapeados...")
+    print("   Copiando programas...")
     matched_progs = 0
     for name, (src_id, src_root_idx) in channel_map.items():
         epg_root = epg_roots[src_root_idx]
@@ -340,6 +281,7 @@ def main():
                 for child in prog:
                     new_prog.append(child)
                 matched_progs += 1
+
     print(f"   Programas copiados: {matched_progs}")
 
     # Step 6: Save compressed XML
@@ -356,11 +298,11 @@ def main():
     size_kb = os.path.getsize(OUTPUT) / 1024
 
     print(f"\n{'=' * 60}")
-    print(f"Concluído! {OUTPUT}:")
+    print(f"Concluido! {OUTPUT}:")
     print(f"  Canais: {total_channels}")
     print(f"  Programas: {total_programmes}")
     print(f"  Tamanho: {size_kb:.1f} KB")
-    print(f"  Mapeados: {len(channel_map)}/{len(m3u_names)}")
+    print(f"  Mapeados: {len(channel_map)}/{len(m3u_channels)}")
     print(f"{'=' * 60}")
 
     if unmapped:
