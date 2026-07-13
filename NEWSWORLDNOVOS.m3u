@@ -526,3 +526,15 @@ https://www.youtube.com/channel/UC3Kq-Y4T1zj4dY5JfZbqf2w/live
 
 #EXTINF:-1 tvg-id="DWespanol.us" tvg-name="DW Español" group-title="ARGENTINA LIVE",DW Español
 https://www.youtube.com/c/dwespanol/live
+
+#EXTINF:-1 tvg-id="TVIReality.pt" tvg-name="TVI Reality (Big Brother Portugal 24/7)" group-title="BIG BROTHER 24/7",TVI Reality (Big Brother Portugal 24/7)
+https://github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Reality.m3u8
+
+#EXTINF:-1 tvg-id="BigBrother28.us" tvg-name="Big Brother 28 USA (Pluto TV)" group-title="BIG BROTHER 24/7",Big Brother 28 USA (Pluto TV)
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
+
+#EXTINF:-1 tvg-id="SecretStory14.fr" tvg-name="Secret Story 14 (TMC France)" group-title="BIG BROTHER 24/7",Secret Story 14 (TMC France)
+https://tmc-hls-live-ssl.tf1.fr/tmc/1/hls/live.m3u8
+
+#EXTINF:-1 tvg-id="TFX.fr" tvg-name="TFX France (Secret Story)" group-title="BIG BROTHER 24/7",TFX France (Secret Story)
+https://tfx-hls-live-ssl.tf1.fr/tfx/1/hls/live.m3u8
