@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 13/07/2026 12:02:02
+Data de extração: 13/07/2026 19:21:34
 Total de canais: 10
 ================================================================================
 
@@ -11,58 +11,58 @@ Total de canais: 10
 2. Autoclassificação etária: 12
 A12
 
-11:50 - 12:29
+18:50 - 19:34
 
-Comédia Na Madruga - Vai Que Cola
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-10:00 - 12:29
+19:00 - 20:59
 
-GloboNews Em Ponto
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Autoclassificação etária: 12
-A12
+4. Classificação etária: 12
+12
 
-11:30 - 12:02
+18:47 - 19:39
 
-Vila, A
+Vai Que Cola
 
-Negócio Da China
+Vai Que Cola - Vodca Ou Água De Côco - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 19:03 - 19:28
 
-11:30 - 12:26
+Giro Da Copa
 
-sportv News
+Copa Do Mundo 2026 - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 11:35 - 12:05
+6. 19:00 - 19:29
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Flamengo X Remo
+Cruzeiro X Vitória
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-11:32 - 12:16
+18:48 - 19:29
 
-Decora
+Que Marravilha!
 
-Fina Estampa
+Pai de Primeira Viagem
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-11:51 - 12:35
+19:10 - 20:10
 
-Vale Tudo
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
