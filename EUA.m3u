@@ -1,95 +1,251 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-#EXTINF:-1 tvg-id="I603.10188.schedulesdirect.org" tvg-name="Classic Arts Showcase" group-title="Entertainment"
-https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
-#EXTINF:-1 tvg-id="I247.11867.schedulesdirect.org" tvg-name="TBS East" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I104.34240.schedulesdirect.org" tvg-name="TBS West" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I256.64312.schedulesdirect.org" tvg-name="TCM US" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="turnerclassicmovies.us" tvg-name="TCM West" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="I245.11164.schedulesdirect.org" tvg-name="TNT" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I652.91993.schedulesdirect.org" tvg-name="TNT West" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I246.64490.schedulesdirect.org" tvg-name="Tru TV East" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I74.24569.schedulesdirect.org" tvg-name="Tru TV West" tvg-logo="https://www.eir.ie/opencms/export/sites/default/.galleries/eircom/tv-logos/tru-tv.png" group-title="Entertainment"
-https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="Backstage.us" tvg-name="Backstage" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="Entertainment"
-https://fuse-backstage-xumo.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="I10.1.20493.zap2it.com" tvg-name="ABC News" group-title="News"
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-id="I117.83285.schedulesdirect.org" tvg-name="BBC News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="News"
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 tvg-id="I353.14755.schedulesdirect.org" tvg-name="Bloomberg TV" group-title="News"
-https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="BloombergTVLiveEvent.us" tvg-name="Bloomberg TV" group-title="News"
-https://bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 tvg-id="6231ec93779a9d00079ba8e2" tvg-name="CBSN" group-title="News"
-https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
-#EXTINF:-1 tvg-id="I272.79318.schedulesdirect.org" tvg-name="Deutsche Welle" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_(TV)_Logo_2012.png" group-title="News"
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" group-title="News"
-https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
-#EXTINF:-1 tvg-id="I506.118853.schedulesdirect.org" tvg-name="GB News" group-title="News"
-https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
-#EXTINF:-1 tvg-id="I47.10145.schedulesdirect.org" tvg-name="Headline News" tvg-logo="https://cdn.cnn.com/cnnnext/dam/assets/170504153446-hln-logo-card-may-2017-large-169.jpg" group-title="News"
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="I202.58646.schedulesdirect.org" tvg-name="CNN US" tvg-logo="https://ia800801.us.archive.org/25/items/stevechatfield27_gmail_Cnn/cnn.png" group-title="News"
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV" tvg-name="NewsmaxTV" group-title="News"
-https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="55b179af994403942f3061d6" tvg-name="Newsmax2" group-title="News"
-https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="oneamericanews.us" tvg-name="One America News Network" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/oan-news.png" group-title="News"
-https://oneamericanews-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="5e1f7da4bc7d740009831259" tvg-name="America's Voice News" tvg-logo="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" group-title="News"
-https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8
-#EXTINF:-1 tvg-id="I501.1564.tvguide.co.uk" tvg-name="SKY News" tvg-logo="https://static.epg.best/gb/SkyNews.uk.png" group-title="News"
-https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
-#EXTINF:-1 tvg-id="I347.114934.schedulesdirect.org" tvg-name="The First" tvg-logo="https://tf-a1.freetls.fastly.net/static/images/header-logo2.png" group-title="News"
-https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="cgtn.us" tvg-name="CGTN" group-title="News"
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-#EXTINF:-1 tvg-id="trtworld.us" tvg-name="TRT World" group-title="News"
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="rt.us" tvg-name="RT" group-title="News"
-https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ESPN 8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN8_The_Ocho_ESPN_Organization_Logo.svg/330px-ESPN8_The_Ocho_ESPN_Organization_Logo.svg.png" group-title="Sports"
-https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
-#EXTINF:-1 tvg-id="I317.60222.schedulesdirect.org" tvg-name="QVC" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
-#EXTINF:-1 tvg-id="QVC2.us" tvg-name="QVC 2" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
-#EXTINF:-1 tvg-id="QVC3.us" tvg-name="QVC 3" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="QVC Everyday Refresh" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc6us/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="QVC Kitchen" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uscln/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="QVC West" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="QVC Beauty" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="QVC HD" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
-#EXTINF:-1 tvg-id="I240.62077.schedulesdirect.org" tvg-name="HSN" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
-#EXTINF:-1 tvg-id="I310.10270.schedulesdirect.org" tvg-name="HSN 2" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HSN West" group-title="Shopping"
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
-#EXTINF:-1 tvg-id="JewelryTV.us" tvg-name="Jewelry Television" group-title="Shopping"
-https://content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8
-#EXTINF:-1 tvg-id="ShopLC.us" tvg-name="Shop LC" group-title="Shopping"
-https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(xumo)/index.m3u8
-#EXTINF:-1 tvg-id="I598.15997.schedulesdirect.org" tvg-name="The Shopping Channel" group-title="Shopping"
-https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-#EXTINF:-1 tvg-id="I361.91994.schedulesdirect.org" tvg-name="Acuweather Network" group-title="Weather"
-https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel" group-title="Weather"
-https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
-#EXTINF:-1 tvg-id="WeatherNation.HDTV.(WTHRN).us" tvg-name="WeatherNation" group-title="Weather"
-https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
+#EXTM3U url-tvg="https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_lite.xml"
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.BR277" tvg-name="Foz do Iguaçu - BR277" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",Foz do Iguaçu - BR277
+https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-name="RTL-TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/RTL_TVI.svg/200px-RTL_TVI.svg.png",RTL-TVI (1080p)
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RAITRE" tvg-name="IT: Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/200px-Rai_3_-_Logo_2016.svg.png",IT: Rai 3
+https://dumdumbullet.com/1011454237/bHg8wYxrId/79992114901
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE2.fr" tvg-name="France 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/France_2.svg/200px-France_2.svg.png",FRANCE 2
+http://69.64.57.208/france2/playlist.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE3.fr" tvg-name="France 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_3.svg/200px-France_3.svg.png",FRANCE 3
+http://69.64.57.208/france5/playlist.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE4.fr" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/France_4.svg/200px-France_4.svg.png",FRANCE 4
+http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE5.fr" tvg-name="France 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/France_5.svg/200px-France_5.svg.png",FRANCE 5
+http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
+
+
+#EXTM3U
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.SP" tvg-name="COORD HELICOPTEROS SP" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA FREQUENCIA COORDENAÇÃO HELICOPTEROS - SP
+https://ssl1.transmissaodigital.com:20101/HELI127.35RCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE" tvg-name="ATIS CAMPO DE MARTE" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA ATIS DE CAMPO DE MARTE
+https://ssl1.transmissaodigital.com:20102/127.725ATISMARTERCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE.SOLO" tvg-name="SOLO CAMPO DE MARTE" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA AÉREA DO SOLO DO CAMPO DE MARTE - 121.6
+https://ssl1.transmissaodigital.com:20104/121.6SOLOMARTERCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE.TORRE" tvg-name="TORRE CAMPO DE MARTE" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA TORRE DO CAMPO DE MARTE
+https://ssl1.transmissaodigital.com:20106/TORREMARTE133.35RCBRCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.CGH" tvg-name="ATIS CONGONHAS" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA AÉREA ATIS AEROPORTO CONGONHAS
+https://ssl1.transmissaodigital.com:20103/127.65ATISCGHRCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.GRU.ATIS" tvg-name="ATIS GUARULHOS" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA ATIS AEROPORTO GUARULHOS
+https://ssl1.transmissaodigital.com:20102/127.75ATISGRURCB
+
+#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.GRU.TORRE" tvg-name="TORRE GUARULHOS" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA TORRE GUARULHOS
+https://ssl1.transmissaodigital.com:20105/TORREGRU135.2RCBFONIAEXCLUSIVARADIOCOMBRASIL
+
+#EXTINF:-1 group-title="CAMERA AO VIVO",MOSAICO TV ALEMANHA
+http://80.61.63.103:81/cam_1.cgi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="" tvg-chno="5",Canale 5 - VPN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=
+https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="" tvg-chno="6",Italia 1 - VPN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=
+https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
+
+
+
+
+
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN1 - BACKUP
+#EXTVLCOPT:http-user-agent=Firefox
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b7)/manifest.mpd
+
+
+
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN2 - BACKUP
+#EXTVLCOPT:http-user-agent=Firefox
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b8)/manifest.mpd
+
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN3 - BACKUP
+#EXTVLCOPT:http-user-agent=Firefox
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Las Estrellas" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="Reality Show's Live", LAS ESTRELLAS
+https://channel01.akamaized.net/hls/live/2022749/event01/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="Senato Web TV 1" tvg-name="Senato Web TV 1" tvg-logo="https://webtv.senato.it/application/xmanager/projects/leg18/img/webtv/logo_senatoTV.jpg" group-title="ITALIA",Senado Italiano - CAMERA 1
+https://senato-live.morescreens.com/SENATO_1_001/1080p/chunklist.m3u8
+#EXTINF:-1 tvg-id="Senato Web TV 1" tvg-name="Senato Web TV 1" tvg-logo="https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png" group-title="ITALIA",Camara dos Deputados - ITALIA
+https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTM3U x-tvg-url="https://github.com/iptv-org/epg/raw/refs/heads/master/sites/directv.com/directv.com.channels.xml"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="AuroraArte.it" status="online",Aurora Arte (480p)
+https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
+
+
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
+
+
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
+
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/556084_1706a5704b289c/dashrcclean/hd_no_mpl.mpd
+
+
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/557323_17079b72ce789c/dashrcclean/hd_no_mpl.mpd
+
+
+
+10 feb 2020 | Canale 5 Decima puntata
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/548042_17031af80a57d2/dashrcclean/hd_no_mpl.mpd
+
+
+Quattordicesima puntata
+24 feb 2020 | Canale 5
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/557323_17079b72ce789c/dashrcclean/hd_no_mpl.mpd
+
+
+Sedicesima puntata
+11 mar 2020 | Canale 5
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/03/567703_170cc2dd2e989c/dashrcclean/hd_no_mpl.mpd
+
+
+Diciassettesima puntata
+18 mar 2020 | Canale 5
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/03/571604_170f02fcc20965/dashrcclean/hd_no_mpl.mpd
+
+
+Diciannovesima puntata
+1 apr 2020 | Canale 5
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/04/579412_1713812c73b7d2/dashrcclean/hd_no_mpl.mpd
+
+
+
+La Finale 8 apr 2020 | Canale 5
+https://vod05.msf.cdn.mediaset.net/farmunica/2020/04/584486_1715f06b3bea2f/dashrcclean/hd_no_mpl.mpd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTM3U
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.BR277" tvg-name="Foz do Iguaçu - BR277" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",BR - 277 - Foz do Iguaçu (Sentido Ponte)
+https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.PONTE.BR" tvg-name="Ponte da Amizade - Brasil" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",Ponte da Amizade - Foz (Sentido Brasil)
+https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.PONTE.PY" tvg-name="Ponte da Amizade - Paraguai" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",Ponte da Amizade - Foz (Sentido Paraguai)
+https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.JAMEL" tvg-name="Goiânia - Av Jamel Cecílio" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-1034/jamelcecilio-flamboyant.jpeg",GOIÂNIA - Av. Jamel Cecílio
+https://hunq9fz8yk.zoeweb.tv/flamboyant/flamboyant.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.MENDANHA" tvg-name="Goiânia - Morro do Mendanha" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/27a8790f-c496-4e66-aec2-6ad5b4f6f9d8.jpg",GOIÂNIA - Morro do Mendanha
+https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.AV85" tvg-name="Goiânia - Av 85" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",GOIÂNIA - Av. 85
+https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.RUA9" tvg-name="Goiânia - Rua 9 Oeste" tvg-logo="https://i.imgur.com/7DfRiz6.png",GOIÂNIA - Rua 9 (Setor Oeste)
+https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
+
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.RUA9" tvg-name="Goiânia - Rua 9 Oeste" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/57b7d43e-5fe5-4d9e-a504-d94cc0122ba5.jpg",GOIÂNIA - Rua 9 (Setor Oeste)
+https://5a7d54e35f9d2.streamlock.net/r9oeste/r9oeste.stream/playlist.m3u8
