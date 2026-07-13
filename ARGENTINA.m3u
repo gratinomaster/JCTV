@@ -1,5 +1,34 @@
 #EXTM3U url-tvg="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml" x-tvg-url="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml"
 
+
+#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png",TV Pública Argentina
+https://freetv.fun/stream/tv-publica-argentina-hd
+
+#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="DeporTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DeporTV_logo.png/200px-DeporTV_logo.png",DeporTV
+https://www.youtube.com/@DeporTV/live
+
+#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="Encuentro.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Encuentro_logo.png/200px-Encuentro_logo.png",Encuentro
+https://www.youtube.com/user/encuentro/live
+
+#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="Pakapaka.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pakapaka_logo20.png",Pakapaka
+https://www.youtube.com/user/CanalPakapaka/live
+
+#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="CineAr.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cine.ar_logo.png/200px-Cine.ar_logo.png",Cine.Ar
+https://www.youtube.com/@cineargentinaoficial/live
+
+#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="TELEVISION PUBLICA",TV Pública (YouTube)
+https://www.youtube.com/@TVPublicaArgentina/live
+
+#EXTINF:-1 tvg-id="TECtv.ar" group-title="TELEVISION PUBLICA",TEC TV
+https://www.youtube.com/@TECTV/live
+
+#EXTINF:-1 tvg-id="CanalA(CANA).ar" group-title="TELEVISION PUBLICA",CANAL A
+https://www.youtube.com/@CanalAArgentina/live
+
+#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="TELEVISION PUBLICA",TV PÚBLICA FUEGUINA
+https://www.youtube.com/@tvpublicafueguina/live
+
+
 #EXTINF:-1 group-title="TELEFE" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Buenos Aires
 http://190.7.19.197:232/play/a059/index.m3u8
 
@@ -18,12 +47,6 @@ https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
 #EXTINF:-1 group-title="TELEFE" tvg-id="SanLuisMas.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe San Luis
 https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png",TV Pública
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
-
-#EXTINF:-1 group-title="TELEFE" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe HD
-http://190.104.226.30/Live/870787012c00961adaf9b2304d704b57/telefe_720.m3u8
-
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ELTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Canal13_logo.png",El Trece
 #EXTVLCOPT:http-referrer=https://vodgc.net
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
@@ -33,7 +56,7 @@ https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ELNueve.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/Canal_9_Argentina.png",El Nueve
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
+https://www.youtube.com/@elnueve/live
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/Canal_26_Argentina.png",Canal 26 HD
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
@@ -41,26 +64,14 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="24/7CanaldeNoticias.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Logo_24_7_Canal_de_Noticias.png",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="DeporTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DeporTV_logo.png/200px-DeporTV_logo.png",DeporTV
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/deportv_720.m3u8
-
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="Encuentro.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Encuentro_logo.png/200px-Encuentro_logo.png",Encuentro
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19.playlist.m3u8
-
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="Pakapaka.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pakapaka_logo20.png",Pakapaka
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-36_400.m3u8
-
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="CineAr.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cine.ar_logo.png/200px-Cine.ar_logo.png",Cine.Ar
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-20.playlist.m3u8
-
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="NetTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png",NET TV 27.2 - TDA 27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="CiudadMagazine.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Ciudad_magazine_logo.png",Ciudad Magazine
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/ciudadmagazine_720.m3u8
+https://www.youtube.com/@ciudadmagazine/live
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="CanalRural.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_Rural_logo.png/200px-Canal_Rural_logo.png",Canal Rural
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/rural.playlist.m3u8
+https://www.youtube.com/@canalrural/live
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ArgentinisimaSatelital.ar",Argentinísima Satelital
 https://stream1.sersat.com/hls/argentinisima.m3u8
@@ -107,12 +118,6 @@ http://icecast.hostingbahia.com.ar:8002/live?28344
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="CamarasVillaGesell.ar",Camaras de Villa Gesell (Av. 3 y 104)
 http://cam104y3.gesell.com.ar/playlist.m3u8
 
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="CamarasVillaGesell.ar",Camaras de Villa Gesell (La Pinocha)
-http://camlapinocha.gesell.com.ar/playlist.m3u8
-
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="CamarasVillaGesell.ar",Camaras de Villa Gesell (Buenos Aires y Playa)
-http://cambsasyplaya.gesell.com.ar/playlist.m3u8
-
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="A24.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Logoa24.png",A24
 https://stream.arcast.live/a24/ngrp:a24_all/playlist.m3u8
 
@@ -144,14 +149,6 @@ https://streaming.arcast.live/canaldelamusica/ngrp:canaldelamusica_all/playlist.
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Telesur_logo.svg/300px-Telesur_logo.svg.png" group-title="ARGENTINA" tvg-id="Telesur.ar",Telesur
 https://live-edge01.telecentro.net.ar/live/smil:telesurhls.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="ARGENTINA",TV PÚBLICA HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://ola1.com.ar/tvpublica/index.m3u8
-
-
-#EXTINF:-1 tvg-id="Elnueve(CANAL9).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/Canal_9_Argentina.png" group-title="ARGENTINA",EL NUEVE
-https://www.youtube.com/@elnueve/live
-
 #EXTINF:-1 tvg-id="NetTv(NETTVA).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" group-title="ARGENTINA",NET TV HD
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
@@ -178,17 +175,11 @@ http://playcom.trapemn.tv:1935/transcoderip/lanacionplus.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TyCSports(TYC).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/TyC_Sports_logo.svg/300px-TyC_Sports_logo.svg.png" group-title="ARGENTINA",TYC SPORTS
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DeporTVHD(DEPORHD).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DeporTV_logo.png/200px-DeporTV_logo.png" group-title="ARGENTINA",DEPORTV
-https://edgectc.com/DEPORTES_CTC_PLUS/index.m3u8
-
 #EXTINF:-1 tvg-id="Encuentro(ENCU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Encuentro_logo.png/200px-Encuentro_logo.png" group-title="ARGENTINA",ENCUENTRO
 https://www.youtube.com/user/encuentro/live
 
 #EXTINF:-1 tvg-id="Pakapaka(PAKA).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pakapaka_logo20.png" group-title="ARGENTINA",PAKAPAKA
 https://www.youtube.com/user/CanalPakapaka/live
-
-#EXTINF:-1 tvg-id="TECtv.ar" group-title="ARGENTINA",TEC TV
-https://edgectc.com/TEC_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="Cine.Ar(CINEAR).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cine.ar_logo.png/200px-Cine.ar_logo.png" group-title="ARGENTINA",CINE.AR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
@@ -197,13 +188,6 @@ https://www.youtube.com/@cinearplay/live
 #EXTINF:-1 tvg-id="ConstruirTV(CONSTV).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/LogoCTVpng.png" group-title="ARGENTINA",CONSTRUIR TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
 https://www.youtube.com/@construirtv/live
-
-#EXTINF:-1 tvg-id="CanalA(CANA).ar" group-title="ARGENTINA",CANAL A
-https://edgectc.com/CANAL_A/index.m3u8
-
-#EXTINF:-1 tvg-id="IPNoticias.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/IP_Noticias_logo.png/200px-IP_Noticias_logo.png" group-title="ARGENTINA",IP NOTICIAS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
-https://www.youtube.com/@ipnoticias/live
 
 #EXTINF:-1 tvg-id="ElDestapeTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/El_Destape_TV_logo.png/200px-El_Destape_TV_logo.png" group-title="ARGENTINA",EL DESTAPE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
@@ -223,9 +207,6 @@ https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal5SantaFe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Canal_5_%28Televisa%29_logo.svg/300px-Canal_5_%28Televisa%29_logo.svg.png" group-title="ARGENTINA",CANAL 5 ROSARIO
 https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Canal4Posadas.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canal_4_Posadas_logo.png/200px-Canal_4_Posadas_logo.png" group-title="ARGENTINA",CANAL 4 POSADAS
-https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal6Digital.ar" group-title="ARGENTINA",CANAL 6 DIGITAL
 https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
@@ -269,8 +250,6 @@ https://stream.arcast.com.ar/canalluz/ngrp:canalluz_all/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CMCanaldelaMusica(CM).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Canal_de_la_M%C3%BAsica_logo.png/200px-Canal_de_la_M%C3%BAsica_logo.png" group-title="ARGENTINA",CANAL DE LA MÚSICA
 https://g1.mc-slo.transport.edge-access.net/b08/ngrp:CM_CanaldelaMusica-100044_all/Playlist.m3u8
-
-
 
 #EXTINF:-1 tvg-id="TeleSUR.ar" group-title="ARGENTINA",TELSUR
 https://www.youtube.com/@teleSUR/live
@@ -327,11 +306,6 @@ https://www.youtube.com/@argentina12tv/live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36
 https://www.youtube.com/@cn23argentina/live
 
-#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="ARGENTINA",TV PÚBLICA FUEGUINA
-https://www.youtube.com/@tvpublicafueguina/live
-
-
-
 #EXTINF:-1 tvg-id="SanPedroTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/San_Pedro_TV_logo.png/200px-San_Pedro_TV_logo.png" group-title="ARGENTINA",SAN PEDRO TV
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 
@@ -359,9 +333,6 @@ https://streamvidex.qzz.io/videx/dsportsar/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.ar" tvg-name="Disney Channel Latin America" group-title="ARGENTINA", Disney Channel Latin America
 http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8
 
-#EXTINF:-1 tvg-id="DisneyChannel.ar" tvg-name="Disney Channel Latin America (1080p)" group-title="ARGENTINA", Disney Channel Latin America (1080p)
-http://45.185.163.75:8000/play/a02j/index.m3u8
-
 #EXTINF:-1 tvg-name="Disney Channel Latin America (1080p) RAW" group-title="ARGENTINA", Disney Channel Latin America (1080p) RAW
 http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 
@@ -376,9 +347,6 @@ http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8
 
 #EXTINF:-1 tvg-id="DisneyJr.ar" tvg-name="Disney Jr. Latin America" group-title="ARGENTINA", Disney Jr. Latin America
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-
-#EXTINF:-1 tvg-id="DisneyJr.ar" tvg-name="Disney Jr. Latin America (1080p)" group-title="ARGENTINA", Disney Jr. Latin America (1080p)
-http://177.234.249.178:8888/DISNEY-JR/index.m3u8
 
 #EXTINF:-1 tvg-name="Disney Jr. Latin America North HD (1080p)" group-title="ARGENTINA", Disney Jr. Latin America North HD (1080p)
 http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8
