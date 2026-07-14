@@ -1,34 +1,6 @@
 #EXTM3U url-tvg="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml" x-tvg-url="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml"
 
 
-#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png",TV Pública Argentina
-https://freetv.fun/stream/tv-publica-argentina-hd
-
-#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="DeporTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DeporTV_logo.png/200px-DeporTV_logo.png",DeporTV
-https://www.youtube.com/@DeporTV/live
-
-#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="Encuentro.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Encuentro_logo.png/200px-Encuentro_logo.png",Encuentro
-https://www.youtube.com/user/encuentro/live
-
-#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="Pakapaka.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Pakapaka_logo20.png",Pakapaka
-https://www.youtube.com/user/CanalPakapaka/live
-
-#EXTINF:-1 group-title="TELEVISION PUBLICA" tvg-id="CineAr.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cine.ar_logo.png/200px-Cine.ar_logo.png",Cine.Ar
-https://www.youtube.com/@cineargentinaoficial/live
-
-#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="TELEVISION PUBLICA",TV Pública (YouTube)
-https://www.youtube.com/@TVPublicaArgentina/live
-
-#EXTINF:-1 tvg-id="TECtv.ar" group-title="TELEVISION PUBLICA",TEC TV
-https://www.youtube.com/@TECTV/live
-
-#EXTINF:-1 tvg-id="CanalA(CANA).ar" group-title="TELEVISION PUBLICA",CANAL A
-https://www.youtube.com/@CanalAArgentina/live
-
-#EXTINF:-1 tvg-id="TvPública(TVPU).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="TELEVISION PUBLICA",TV PÚBLICA FUEGUINA
-https://www.youtube.com/@tvpublicafueguina/live
-
-
 #EXTINF:-1 group-title="TELEFE" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Buenos Aires
 http://190.7.19.197:232/play/a059/index.m3u8
 
