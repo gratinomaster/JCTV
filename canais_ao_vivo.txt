@@ -1,70 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/07/2026 13:40:03
+Data de extração: 14/07/2026 19:17:20
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: livre
-AL
+2. Autoclassificação etária: 12
+A12
 
-13:00 - 13:54
+18:50 - 19:34
 
-Bom Dia Brasil
+A Nobreza do Amor
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
 3. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Classificação etária: 12
 12
 
-13:12 - 13:53
+19:01 - 19:46
 
-Sessão Nostalgia Tapas E Beijo
+Vai Que Cola
 
-Chalita E Djalma Celebram Os 50 Anos Dos Seus Estabelecimentos
+Vai Que Colla - Gênio Da Malandragem - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. Ao vivo
+5. 19:02 - 20:05
 
-13:30 - 14:29
+Amistoso De Futebol
 
-Tá On
+Flamengo X Benfica (POR) - Portugal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 13:37 - 14:06
+6. 19:01 - 19:31
 
 Campeonato Brasileiro de Futebol
 
-Palmeiras X Athletico-PR
+Athletico-PR X Vitória
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-13:32 - 14:02
+18:51 - 19:36
 
-Morar
+Que Marravilha!
 
-Morar Em Belo Horizonte
+Eu Como Com os Olhos?
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Autoclassificação etária: 14
-A14
+8. Classificação etária: 14
+14
 
-13:31 - 14:21
+19:14 - 20:15
 
-Minha Vida Perfeita
-
-Capítulo 54
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
