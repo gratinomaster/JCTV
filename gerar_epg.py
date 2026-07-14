@@ -26,72 +26,172 @@ EPG_URLS = [
     "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
 ]
 
-# Manual mapping: M3U tvg-name -> list of EPG channel IDs (priority order)
+# Manual mapping: M3U display name -> list of EPG channel IDs (priority order)
 CHANNEL_MAP = {
     # === Argentine broadcast ===
-    "TyC Sports (1080p)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports 2 (720p)": ["Canal.TyC.Sports.ar"],
-    "TyC Sports USA": ["TyC.Sports.Internacional.USA.us2"],
-    "Telefe Buenos Aires (1080p)": ["Canal.Telefé.(Argentina).ar"],
-    "Telefe Internacional": ["Telefe.international.us2", "Canal.Telefe.Internacional.mx"],
-    "El Trece (480p)": ["Canal.13.de.Argentina.(El.Trece).ar"],
-    "America TV": ["Canal.America.TV.(Argentina).ar"],
-    "Televisión Pública": ["Canal.Televisión.Pública.(Argentina).ar"],
-    "Todo Noticias": ["Canal.Cablenoticias.ar"],
+    "TYC SPORTS": ["Canal.TyC.Sports.ar"],
+    "Telefe Buenos Aires": ["Canal.Telefé.(Argentina).ar"],
+    "Telefe Jujuy": ["Canal.Telefe.(Argentina).ar"],
+    "Telefe Neuquén": ["Canal.Telefé.(Argentina).ar"],
+    "Telefe Misiones": ["Canal.Telefé.(Argentina).ar"],
+    "Telefe Santiago del Estero": ["Canal.Telefé.(Argentina).ar"],
+    "Telefe San Luis": ["Canal.Telefé.(Argentina).ar"],
+    "El Trece": ["Canal.13.de.Argentina.(El.Trece).ar"],
+    "América TV": ["Canal.America.TV.(Argentina).ar"],
+    "TN - Todo Noticias": ["Canal.Cablenoticias.ar"],
+    "A24": ["Canal.Cablenoticias.ar"],
+    "C5N": ["Canal.Cablenoticias.ar"],
+    "Crónica TV": ["Canal.Cablenoticias.ar"],
+    "CRÓNICA TV": ["Canal.Cablenoticias.ar"],
+    "Canal 26 HD": ["Canal.Cablenoticias.ar"],
+    "TN": ["Canal.Cablenoticias.ar"],
+    "NET TV 27.2 - TDA 27.2": ["Canal.Televisión.Pública.(Argentina).ar"],
+    "NET TV HD": ["Canal.Televisión.Pública.(Argentina).ar"],
+    "LN+": ["Canal.Cablenoticias.ar"],
+    "ENCUENTRO": ["Canal.Pakapaka.ar"],
+    "PAKAPAKA": ["Canal.Pakapaka.ar"],
+    "CINE.AR": ["Canal.Film.&.Arts.ar"],
+    "EL DESTAPE TV": ["Canal.Cablenoticias.ar"],
+    "FRANCE 24 ESPAÑOL": ["Canal.CNN.en.Español.ar"],
+    "CANAL ORBE 21": ["Canal.Cablenoticias.ar"],
+    "CANAL E": ["Canal.Cablenoticias.ar"],
+    "Canal E": ["Canal.Cablenoticias.ar"],
+    "VOLVER": ["Canal.Cablenoticias.ar"],
+    "CANAL LUZ": ["Canal.Cablenoticias.ar"],
+    "CANAL DE LA MÚSICA": ["Canal.Cablenoticias.ar"],
+    "Canal de la Música": ["Canal.Cablenoticias.ar"],
+    "TELSUR": ["Canal.Cablenoticias.ar"],
+    "Telesur": ["Canal.Cablenoticias.ar"],
+    "RT EN ESPAÑOL": ["Canal.CNN.en.Español.ar"],
+    "CARAS TV": ["Canal.Cablenoticias.ar"],
+    "ECO TV": ["Canal.Cablenoticias.ar"],
+    "INCAA TV": ["Canal.Pakapaka.ar"],
+    "CANAL RURAL": ["Canal.Cablenoticias.ar"],
+    "Canal Rural": ["Canal.Cablenoticias.ar"],
+    "QUIERO MÚSICA TV": ["Canal.Cablenoticias.ar"],
+    "ARGENTINA 12": ["Canal.Cablenoticias.ar"],
+    "CN23": ["Canal.Cablenoticias.ar"],
+    "BRAVO TV": ["Canal.Cablenoticias.ar"],
+    "Bravo TV": ["Canal.Cablenoticias.ar"],
+    "CONSTRUIR TV": ["Canal.Cablenoticias.ar"],
+    "Canal de la Ciudad": ["Canal.Cablenoticias.ar"],
+    "CANAL DE LA CIUDAD": ["Canal.Cablenoticias.ar"],
+    "Canal 21 TV": ["Canal.Cablenoticias.ar"],
+    "Norte | Bahía Blanca | Argentina": ["Canal.Cablenoticias.ar"],
+    "VTV": ["Canal.Cablenoticias.ar"],
+    "5TV Corrientes": ["Canal.Cablenoticias.ar"],
+    "Argentinísima Satelital": ["Canal.Cablenoticias.ar"],
+    "Canal 10 Cordoba": ["Canal.Telefé.(Argentina).ar"],
+    "TV Universidad": ["Canal.Cablenoticias.ar"],
+    "Canal 9 Litoral": ["Canal.Cablenoticias.ar"],
+    "Canal 13 Jujuy TV": ["Canal.13.de.Argentina.(El.Trece).ar"],
+    "América Canal 4 Posadas | AR": ["Canal.America.TV.(Argentina).ar"],
+    "Aire de Santa Fe": ["Canal.Cablenoticias.ar"],
+    "Telemax": ["Canal.Cablenoticias.ar"],
+    "GARAGE TV": ["Canal.Cablenoticias.ar"],
+    "MusicTop": ["Canal.Cablenoticias.ar"],
+    "Canal 8 SAN JUAN": ["Canal.Cablenoticias.ar"],
+    "Canal 5 ROSARIO": ["Canal.Cablenoticias.ar"],
+    "Canal 6 DIGITAL": ["Canal.Cablenoticias.ar"],
+    "Canal 79 MAR DEL PLATA": ["Canal.Cablenoticias.ar"],
+    "CANAL 22": ["Canal.Cablenoticias.ar"],
+    "CANAL 4 JUJUY": ["Canal.Cablenoticias.ar"],
+    "CANAL 3 LA PAMPA": ["Canal.Cablenoticias.ar"],
+    "CANAL 3 LAS HERAS": ["Canal.Cablenoticias.ar"],
+    "CANAL 2 GUALEGUAY": ["Canal.Cablenoticias.ar"],
+    "CANAL 10 MAR DEL PLATA": ["Canal.Cablenoticias.ar"],
+    "CANAL 9 TELEVIDA": ["Canal.Cablenoticias.ar"],
+    "CANAL LUZ": ["Canal.Cablenoticias.ar"],
+    "CANAL DE LA MÚSICA": ["Canal.Cablenoticias.ar"],
+    "CADENA 103": ["Canal.Cablenoticias.ar"],
+    "LITUS TV": ["Canal.Cablenoticias.ar"],
+    "ALTERNA TV": ["Canal.Cablenoticias.ar"],
+    "CATAMARCA TV": ["Canal.Cablenoticias.ar"],
+    "AUNAR": ["Canal.Cablenoticias.ar"],
+    "Radio Sublime Gracia TV": ["Canal.Cablenoticias.ar"],
+    "Radio UP": ["Canal.Cablenoticias.ar"],
+    "América Sports": ["Canal.Cablenoticias.ar"],
+    "IP Noticias": ["Canal.Cablenoticias.ar"],
+    "Quiero Musica en mi Idioma (1080p)": ["Canal.Cablenoticias.ar"],
+    "Radio Maria TV (1080p)": ["Canal.Cablenoticias.ar"],
+    "Telemundo Internacional (1080p) AR": ["Canal.Telemundo.(México).mx"],
+    "Unife TV": ["Canal.Cablenoticias.ar"],
+    "UNIFE 25.1 - TDA 25.1": ["Canal.Cablenoticias.ar"],
+    "TV MANÁ ARGENTINA": ["Canal.Cablenoticias.ar"],
+    "SAN PEDRO TV": ["Canal.Cablenoticias.ar"],
+    "TV SOLIDARIA": ["Canal.Cablenoticias.ar"],
+    "Camaras de Villa Gesell (Av. 3 y 104)": ["Canal.Cablenoticias.ar"],
 
     # === Argentine cable/paid ===
     "Disney Channel Latin America": ["Canal.Disney.Channel.(Argentina).ar"],
-    "Disney Channel Latin America (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
     "Disney Channel Latin America (1080p) RAW": ["Canal.Disney.Channel.(Argentina).ar"],
-    "Disney Channel Latin America Mexico (576p)": ["Canal.Disney.Channel.(México).mx"],
-    "Disney Channel Latin America Mexico (720p)": ["Canal.Disney.Channel.(México).mx"],
     "Disney Channel Latin America Center (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
     "Disney Channel Latin America Panregional HD (1080p)": ["Canal.Disney.Channel.(Argentina).ar"],
     "Disney Channel Latin America Panregional HD (1080p) RAW": ["Canal.Disney.Channel.(Argentina).ar"],
     "Disney Jr. Latin America": ["Canal.Disney.Junior.(Argentina).ar"],
-    "Disney Jr. Latin America (576p)": ["Canal.Disney.Junior.(Argentina).ar"],
-    "Disney Jr. Latin America (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
     "Disney Jr. Latin America North HD (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
     "Disney Jr. Latin America North HD (1080p) RAW": ["Canal.Disney.Junior.(Argentina).ar"],
-    "Disney Jr. Latin America South HD (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
     "Disney Jr. Latin America South (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
+    "Disney Jr. Latin America South HD (1080p)": ["Canal.Disney.Junior.(Argentina).ar"],
     "Disney Jr. Latin America South HD (1080p) RAW": ["Canal.Disney.Junior.(Argentina).ar"],
-    "Sony Channel (1080p)": ["Canal.Sony.(Argentina).ar", "Sony.co"],
-    "AMC Latin America (1080p) AR": ["AMC.HD.us2", "AMC.co"],
-    "MTV Latin America (1080p) AR": ["Canal.MTV.(Argentina).ar", "MTV.co"],
-    "Comedy Central Latin America (1080p) AR": ["Comedy.Central.HD.us2", "Comedy.Central.co"],
-    "E! Latin America (1080p) AR": ["E!.Entertainment.Television.HD.us2", "E!.Entertainment.TV.co"],
-    "El Gourmet (720p)": ["Canal.Elgourmet.ar", "El.Gourmet.co"],
-    "El Gourmet (1080p)": ["Canal.Elgourmet.ar", "El.Gourmet.co"],
-    "Fox Sports": ["FS1.Fox.Sports.1.HD.us2", "Canal.Fox.Sports.(México).mx"],
+    "Sony Channel (1080p)": ["Canal.Sony.(Argentina).ar"],
+    "AMC Latin America (1080p) AR": ["Canal.AMC.(México).mx"],
+    "MTV Latin America (1080p) AR": ["Canal.MTV.(Argentina).ar"],
+    "Comedy Central Latin America (1080p) AR": ["Comedy.Central.co"],
+    "E! Latin America (1080p) AR": ["Canal.E!.Entertainment.Television.(México).mx"],
+    "El Gourmet (1080p)": ["Canal.Elgourmet.ar", "Canal.Elgourmet.mx"],
     "DSports (1080p) AR": ["DIRECTV.Sports.5(DTS6).co"],
-    "FIFA+ Hispanic America (720p) AR": ["FIFA", "Canal.FIFA.ar"],
-
-    # === Argentina educational ===
-    "Pakapaka": ["Canal.Pakapaka.ar"],
-    "DeporTV.ar": ["DeporTV"],
 
     # === Mexico ===
-    "Azteca Uno": ["Canal.Azteca.Uno.mx"],
-    "ADN 40": ["Canal.ADN.40.mx"],
-    "Telemundo": ["Telemundo.Satellite.Feed.us2", "Canal.Telemundo.(México).mx"],
-    "Telemundo Internacional (1080p) AR": ["Telemundo.co", "Canal.Telemundo.(México).mx"],
-    "TeleFórmula": ["Canal.Telefórmula.mx"],
-    "Canal 22": ["Canal.22.de.México.mx", "Canal.22.Internacional.mx", "CANAL.22.INTERNACIONAL.us2"],
+    "Azteca Uno (-1h)": ["Canal.Azteca.Uno.mx"],
+    "Azteca Uno - 1H": ["Canal.Azteca.Uno.mx"],
+    "ADN 40 (1080p)": ["Canal.ADN.40.mx"],
+    "Imagen TV+ (720p)": ["Canal.Excelsior.TV.mx"],
+    "Canal 5 TV Cozumel (1080p)": ["Canal.5.de.México.(XHGC).mx"],
+    "Milenio Televisión (720p)": ["Milenio.Tv.co"],
+    "Canal 14 (1080p)": ["Canal.14.de.México.mx"],
+    "TV UNAM (1080p)": ["Canal.TVUNAM.mx"],
+    "Canal 22 (1080p)": ["Canal.22.de.México.mx"],
+    "Canal del Congreso": ["CANAL.CONGRESO.co"],
+    "Justicia TV": ["Canal.Excelsior.TV.mx"],
+    "Mexiquense TV (720p)": ["Canal.Mexiquense.TV.mx"],
+    "TV Cuatro 4.1": ["Canal.Excelsior.TV.mx"],
+    "TV Cuatro 4.2": ["Canal.Excelsior.TV.mx"],
+    "CANAL 44 Chihuahua": ["Canal.Excelsior.TV.mx"],
+    "Canal 44 Ciudad Juárez (720p) [Not 24/7]": ["Canal.Excelsior.TV.mx"],
+    "Jalisco TV (720p)": ["Canal.Excelsior.TV.mx"],
+    "SQCS Canal 4 (1080p)": ["Canal.Excelsior.TV.mx"],
+    "TeleFórmula (1080p)": ["Canal.Telefórmula.mx"],
+    "Cine Sony": ["Canal.Sony.(México).mx"],
+    "TELEVISA NOVELAS": ["Canal.TLNovelas.(México).mx"],
+    "De Película Latin America": ["Canal.De.Película.mx"],
+    "Telemundo": ["Canal.Telemundo.(México).mx"],
+    "UNIVISION NOTICIAS VX": ["Univision.Network.HD.us2"],
+    "Estrella TV (1080p)": ["Estrella.TV.us2"],
+    "Estrella Games (1080p)": ["Estrella.TV.us2"],
+    "Estrella News (1080p)": ["Estrella.TV.us2"],
+    "MX EWTN": ["Canal.EWTN.en.Español.mx"],
+    "RT Noticias (1080p)": ["Canal.CNN.en.Español.ar"],
+    "Canal 33 Tijuana (720p)": ["Canal.5.de.México.(XHGC).mx"],
+    "Azteca Internacional (1080p)": ["Canal.Azteca.Uno.mx"],
+    "Telemundo Noticias Ahora": ["Canal.Telemundo.(México).mx"],
 
     # === USA ===
-    "ABC": ["ABC.National.Feed.us2"],
-    "ABC News": ["ABC.News.Live.us2"],
-    "Estrella TV": ["Estrella.TV.us2"],
-    "Univision": ["Univision.Network.HD.us2"],
-    "DW Español": ["Canal.DW.(Latinoamérica).ar", "Canal.DW.(Latinoamérica).mx"],
+    "ABC News Live - ABC News": ["ABC.News.Live.us2"],
+    "Watch Fox News Channel Online | Stream Fox News": ["Fox.News.Channel.HD.us2"],
+    "Fox Business Go | Fox News Video": ["Fox.News.Channel.HD.us2"],
+    "Watch CBS News 24/7, our free live news stream": ["CBS.Streaming.SD.East.feed.us2"],
+    "DW Español": ["Canal.DW.(Latinoamérica).ar"],
+
+    # === Brazil ===
+    "Rede Vida": ["São.Paulo/SP..Rede.Vida.br"],
+    "Rede Vida (Oficial 480p)": ["São.Paulo/SP..Rede.Vida.br"],
+    "Rede Vida (Oficial 240p)": ["São.Paulo/SP..Rede.Vida.br"],
 }
 
 # Skip channels with no EPG available anywhere
 SKIP_CHANNELS = {
-    "5tv", "Argentinisima Satelital", "Cadena103.TV", "Bravo TV",
-    "Canal 9 Link", "San Pedro TV", "TV Mana Argentina", "TV Solidaria",
-    "Unife TV", "Unife TV RAW", "Kpop Mix", "Cumbia Mix", "Plim Plim",
+    "Video Tracking flood threats in Texas; dangerous heat coast-to-coast; wildfire smoke moving into the US | Watch Live News on ABCNL",
 }
 
 
@@ -124,20 +224,25 @@ def fetch_url(url):
 
 def get_channels_from_m3u(m3u_path):
     channels = OrderedDict()
-    current_name = None
+    current_extinf = None
     current_tvg_id = None
+    current_display = None
     with open(m3u_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if line.startswith("#EXTINF"):
-                name_m = re.search(r'tvg-name="([^"]*)"', line)
+                current_extinf = line
                 id_m = re.search(r'tvg-id="([^"]*)"', line)
-                current_name = name_m.group(1).strip() if name_m else ""
                 current_tvg_id = id_m.group(1).strip() if id_m else ""
-            elif current_name and line and not line.startswith("#"):
-                channels[current_name] = current_tvg_id
-                current_name = None
+                name_m = re.search(r',(.+)$', line)
+                current_display = name_m.group(1).strip() if name_m else ""
+            elif current_extinf and line and not line.startswith("#"):
+                key = current_display if current_display else current_tvg_id
+                if key:
+                    channels[key] = {"tvg_id": current_tvg_id, "extinf": current_extinf, "url": line}
+                current_extinf = None
                 current_tvg_id = None
+                current_display = None
     return channels
 
 
@@ -150,12 +255,6 @@ def find_epg_channel(epg_id_pattern, epg_roots):
             ch_id = ch.get("id", "")
             if normalize(ch_id) == pattern:
                 return ch_id, root_idx
-    # Fallback: partial match
-    for root_idx, root in enumerate(epg_roots):
-        for ch in root.findall("channel"):
-            ch_id = ch.get("id", "")
-            if pattern in normalize(ch_id) or normalize(ch_id) in pattern:
-                return ch_id, root_idx
     return None, None
 
 
@@ -164,7 +263,6 @@ def main():
     print("Gerador de EPGFULL.xml.gz - filtrado pelo M3U")
     print("=" * 60)
 
-    # Step 1: Download M3U
     print(f"\n1. Baixando M3U de: {M3U_URL}")
     m3u_content = fetch_url(M3U_URL)
     if m3u_content:
@@ -174,12 +272,10 @@ def main():
     else:
         print("   Usando M3U local existente")
 
-    # Step 2: Extract channels from M3U
     print("\n2. Lendo canais do M3U...")
     m3u_channels = get_channels_from_m3u(M3U_PATH)
     print(f"   {len(m3u_channels)} canais encontrados no M3U")
 
-    # Step 3: Download EPG sources
     print("\n3. Baixando fontes EPG...")
     epg_roots = []
     for url in EPG_URLS:
@@ -202,45 +298,43 @@ def main():
         print("\n   ERRO: Nenhuma fonte EPG carregada!")
         return
 
-    # Step 4: Match channels
     print("\n4. Mapeando canais do M3U para fontes EPG...")
     channel_map = {}
     skipped = []
     unmapped = []
 
-    for name, tvg_id in m3u_channels.items():
-        if name in SKIP_CHANNELS:
-            skipped.append(name)
+    for display_name, info in m3u_channels.items():
+        if display_name in SKIP_CHANNELS:
+            skipped.append(display_name)
             continue
 
-        epg_ids = CHANNEL_MAP.get(name)
+        epg_ids = CHANNEL_MAP.get(display_name)
         found = False
 
         if epg_ids:
             for epg_id in epg_ids:
                 src_id, src_root_idx = find_epg_channel(epg_id, epg_roots)
                 if src_id:
-                    channel_map[name] = (src_id, src_root_idx)
-                    print(f"   OK   {name} -> {src_id}")
+                    channel_map[display_name] = (src_id, src_root_idx)
+                    print(f"   OK   {display_name} -> {src_id}")
                     found = True
                     break
 
-        if not found and tvg_id:
-            src_id, src_root_idx = find_epg_channel(tvg_id, epg_roots)
+        if not found and info["tvg_id"]:
+            src_id, src_root_idx = find_epg_channel(info["tvg_id"], epg_roots)
             if src_id:
-                channel_map[name] = (src_id, src_root_idx)
-                print(f"   OK   {name} -> {src_id} (via tvg-id)")
+                channel_map[display_name] = (src_id, src_root_idx)
+                print(f"   OK   {display_name} -> {src_id} (via tvg-id)")
                 found = True
 
         if not found:
-            unmapped.append(name)
+            unmapped.append(display_name)
 
     print(f"\n   Resumo:")
     print(f"   Mapeados: {len(channel_map)}/{len(m3u_channels)}")
     print(f"   Sem EPG:  {len(unmapped)}")
     print(f"   Pulados:  {len(skipped)}")
 
-    # Step 5: Build filtered XML
     print("\n5. Construindo XML filtrado...")
     tv_root = ET.Element("tv", {
         "generator-info-name": "JCTV EPG Generator",
@@ -249,7 +343,6 @@ def main():
 
     added_channels = set()
 
-    # Add channel definitions
     for name, (src_id, src_root_idx) in channel_map.items():
         if src_id in added_channels:
             continue
@@ -266,7 +359,6 @@ def main():
                 added_channels.add(src_id)
                 break
 
-    # Copy programmes from matched channels
     print("   Copiando programas...")
     matched_progs = 0
     for name, (src_id, src_root_idx) in channel_map.items():
@@ -284,7 +376,6 @@ def main():
 
     print(f"   Programas copiados: {matched_progs}")
 
-    # Step 6: Save compressed XML
     print(f"\n6. Salvando {OUTPUT}...")
     xml_str = ET.tostring(tv_root, encoding="utf-8")
     parsed = minidom.parseString(xml_str)
