@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="cbs" tvg-name="CBS Big Brother US 28" tvg-logo="https://wwwimage-tve.cbsstatic.com/thumbnails/photos/w1920-q80/marquee/1049058/45/06/10/asset_marquee_b4f68813-4d3c-4fc4-9bd5-40b58a9c81c2.jpg" tvg-country="US" group-title="Big Brother 24/7",CBS Big Brother US 28
+http://stream.cammonitorplus.net/1783/index.m3u8
+#EXTINF:-1 tvg-id="tvi" tvg-name="TVI Big Brother Portugal" tvg-logo="https://tvi.iol.pt/img/logo.png" tvg-country="PT" group-title="Big Brother 24/7",TVI Big Brother Portugal
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
+#EXTINF:-1 tvg-id="telefe" tvg-name="Telefe Gran Hermano Argentina" tvg-logo="https://www.mitelefe.com/media/cache/logo/logo-telefe-blanco-69286e9c2c776.png" tvg-country="AR" group-title="Big Brother 24/7",Telefe Gran Hermano Argentina
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
+#EXTINF:-1 tvg-id="tmc" tvg-name="TMC Secret Story France" tvg-logo="https://img.shields.io/badge/TMC-blue?style=flat&logoColor=white" tvg-country="FR" group-title="Big Brother 24/7",TMC Secret Story France
+http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="las_estrellas" tvg-name="Las Estrellas LCDLF Mexico" tvg-logo="https://www.lasestrellas.tv/favicon.ico" tvg-country="MX" group-title="Big Brother 24/7",Las Estrellas LCDLF Mexico
+https://cdn-tiva-stream01-msolutionbrasil-com-br.smartbit.co/hls/canal25/live.m3u8
+#EXTINF:-1 tvg-id="rtl5" tvg-name="RTL5 Big Brother Netherlands" tvg-logo="https://www.rtl.nl/static-files/assets/e7c8582c.png" tvg-country="NL" group-title="Big Brother 24/7",RTL5 Big Brother Netherlands
+https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
+#EXTINF:-1 tvg-id="play4" tvg-name="Play4 Big Brother Belgium" tvg-logo="http://www.play4.be/images/logo-PLAY4.png" tvg-country="BE" group-title="Big Brother 24/7",Play4 Big Brother Belgium
+https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/brevardfl/G2111_002/playlist.m3u8
