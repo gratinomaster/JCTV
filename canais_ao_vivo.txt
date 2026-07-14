@@ -1,70 +1,70 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 13/07/2026 21:55:30
+Data de extração: 14/07/2026 02:23:03
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 14
+A14
 
-21:55 - 22:39
+02:10 - 03:39
 
-A Nobreza do Amor
+Papo De Segunda
+
+A Maldição Da Chorona / Influência Silenciosa / Pediu Para Não Parar, Parou!
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:29
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 4. Autoclassificação etária: 12
 A12
 
-21:45 - 22:14
+02:14 - 02:47
 
-O Dono Do Lar
+Vila, A
 
-A Reunião
+Negócio Da China
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 5. Ao vivo
 
-20:00 - 22:01
+00:30 - 02:36
 
-Radar Da Seleção
-
-Radar
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 21:30 - 21:59
+6. 02:00 - 02:29
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Palmeiras X Grêmio
+Atlético-MG X Athletico-PR
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Ao vivo
 
-21:47 - 22:43
+Autoclassificação etária: 16
+A16
 
-Cozinha Prática Com Rita Lobo
+01:29 - 02:48
 
-Risoto de Tomate com Salada Caprese
+Papo De Segunda
+
+Olha O Tapetão! / Rir Pra Não Transar / Manda Bundes
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-8. Classificação etária: livre
-L
+8. Classificação etária: 14
+14
 
-21:28 - 22:17
+01:40 - 02:40
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 9. Sinal gratuito
