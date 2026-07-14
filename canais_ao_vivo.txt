@@ -1,61 +1,66 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/07/2026 05:29:02
+Data de extração: 14/07/2026 08:01:39
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 05:10 - 06:14
+2. Autoclassificação etária: livre
+AL
 
-Coração Acelerado
+07:20 - 08:29
+
+Mais Você
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. 04:00 - 05:59
+3. Ao vivo
 
-GloboNews Em Pauta
+08:00 - 08:59
+
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-05:28 - 05:59
+07:57 - 08:02
 
-Chapolin
+Tvz
 
-O Pistoleiro Da Marreta Biônica / Infelizmente Perdemos o Avião, Graças a Deus
+Foo Fighters - All My Life
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 05:06 - 06:10
+5. 07:13 - 08:17
 
 Copa Do Mundo Da FIFA 2026™
 
-França X Marrocos - Quartas De Final
+Argentina X Egito - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 05:11 - 05:40
+6. 07:37 - 08:06
 
 Brasileirão - Athletico-Pr X Cruzeiro - 18032026
 
-Vitória X São Paulo
+Botafogo X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 7. Autoclassificação etária: livre
 AL
 
-05:24 - 06:08
+07:38 - 08:06
 
-Geladeiras Em Ação
+Pode Entrar - Refúgios
 
-Profissa
+Nicole Bahls
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Autoclassificação etária: 14
 A14
 
-05:13 - 06:04
+07:29 - 08:22
 
 Minha Vida Perfeita
 
