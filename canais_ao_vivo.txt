@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 15/07/2026 13:40:38
+Data de extração: 15/07/2026 19:08:12
 Total de canais: 9
 ================================================================================
 
@@ -10,53 +10,53 @@ Total de canais: 9
 
 2. Ao vivo
 
-12:30 - 15:59
+19:00 - 20:59
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Classificação etária: 12
 12
 
-13:04 - 13:43
+19:04 - 19:52
 
-Sessão Nostalgia Tapas E Beijo
+Vai Que Cola
 
-Jorge Chega A Copacabana Para Conquistar O Coração De Sueli
+Vai Que Cola - O Príncipe E O Mallandro - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-13:29 - 14:30
+18:09 - 20:56
 
-Tá On
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Inglaterra X Argentina
+
+Inglaterra X Argentina - Semifinal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 12:59 - 13:58
+5. 18:28 - 19:34
 
 Giro Da Rodada
 
-Brasileirão - 16ª Rodada
+Brasileirão - 17ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: livre
 AL
 
-13:15 - 13:47
+18:38 - 19:24
 
-Lar: Vida Interior
+Que Marravilha!
 
-Gloria Pires
+Espaguete com Frutos do Mar
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Autoclassificação etária: 14
-A14
+7. Classificação etária: 10
+10
 
-13:26 - 14:15
+18:24 - 19:20
 
-Minha Vida Perfeita
-
-Capítulo 55
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
