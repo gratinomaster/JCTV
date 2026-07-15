@@ -6,9 +6,11 @@ on:
       prompt:
         description: "O que você quer gerar"
         required: true
+        type: string
       filename:
         description: "Nome do arquivo de saída (ex: lista.m3u)"
         required: true
+        type: string
 
 jobs:
   opencode:
@@ -21,31 +23,44 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # importante para rebase
+          fetch-depth: 0
 
       - name: Install OpenCode
         run: |
           curl -fsSL https://opencode.ai/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+
+      - name: Verify installation
+        run: |
+          export PATH="$HOME/.opencode/bin:$PATH"
+          which opencode
+          opencode --version
 
       - name: Run OpenCode and save output
+        env:
+          PROMPT: ${{ github.event.inputs.prompt }}
+          OUTPUT: ${{ github.event.inputs.filename }}
         run: |
-          opencode run """"use Crawl4ai, yt-dlp, aria2, caso necessario e ${{ github.event.inputs.prompt }}" > "${{ github.event.inputs.filename }}""""
+          export PATH="$HOME/.opencode/bin:$PATH"
+
+          opencode run "use Crawl4ai, yt-dlp, aria2, caso necessário e ${PROMPT}" > "${OUTPUT}"
+
+          echo "Arquivo gerado:"
+          ls -lh "${OUTPUT}"
 
       - name: Commit generated file safely
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git add *.m3u *.txt || true
+          git add "${{ github.event.inputs.filename }}"
+
           git commit -m "Adiciona arquivo gerado" || echo "Nada para commit"
 
-          # Tenta sincronizar antes de enviar
           for i in 1 2 3; do
-            git pull --rebase origin ${{ github.ref_name }} && break || sleep 2
+            git pull --rebase origin "${{ github.ref_name }}" && break || sleep 2
           done
 
-          # Push com retry
           for i in 1 2 3; do
-            git push origin HEAD:${{ github.ref_name }} && break || sleep 2
+            git push origin HEAD:"${{ github.ref_name }}" && break || sleep 2
           done
