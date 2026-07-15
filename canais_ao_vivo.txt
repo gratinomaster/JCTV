@@ -1,66 +1,68 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 14/07/2026 19:17:20
+Data de extração: 15/07/2026 02:21:07
 Total de canais: 10
 ================================================================================
 
 1. Associar operadora
    URL: https://alf.globo.com/6828?url=https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Autoclassificação etária: 12
-A12
+2. Autoclassificação etária: 14
+A14
 
-18:50 - 19:34
+02:10 - 02:39
 
-A Nobreza do Amor
+Pablo &amp; Luisão
+
+Sala comercial
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-3. Ao vivo
+3. 01:00 - 02:29
 
-19:00 - 20:59
-
-GloboNews Mais
+Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-4. Classificação etária: 12
-12
+4. Autoclassificação etária: 12
+A12
 
-19:01 - 19:46
+02:02 - 02:30
 
-Vai Que Cola
+Tô De Graça
 
-Vai Que Colla - Gênio Da Malandragem - 1ª temporada
+Ô Sorte!
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-5. 19:02 - 20:05
+5. Ao vivo
 
-Amistoso De Futebol
+00:31 - 03:14
 
-Flamengo X Benfica (POR) - Portugal
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-6. 19:01 - 19:31
+6. 01:53 - 02:48
 
-Campeonato Brasileiro de Futebol
+Giro Da Rodada
 
-Athletico-PR X Vitória
+Brasileirão - 14ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 10
+A10
 
-18:51 - 19:36
+02:05 - 02:34
 
-Que Marravilha!
+Eliana
 
-Eu Como Com os Olhos?
+Marcos e Belutti
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 8. Classificação etária: 14
 14
 
-19:14 - 20:15
+01:39 - 02:29
 
 Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
