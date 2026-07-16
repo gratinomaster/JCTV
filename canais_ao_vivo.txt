@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/07/2026 10:58:37
+Data de extração: 16/07/2026 13:47:04
 Total de canais: 9
 ================================================================================
 
@@ -10,51 +10,53 @@ Total de canais: 9
 
 2. Ao vivo
 
-10:00 - 12:29
+12:30 - 15:59
 
-GloboNews Em Ponto
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 12
-12
+3. Classificação etária: 10
+10
 
-10:50 - 11:00
+13:38 - 14:04
 
-Humor Multishow
+Chaves
 
-Mentira tem Perna Comprida
+O Natal Na Casa Do Senhor Barriga
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. 09:56 - 11:29
+4. Ao vivo
 
-Seleção Copa
+13:30 - 14:31
+
+Tá On
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 10:05 - 11:04
+5. 13:01 - 14:00
 
 Campeonato Brasileiro de Futebol
 
-Santos X São Paulo
+Flamengo X Internacional
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: livre
 AL
 
-10:48 - 11:44
+13:22 - 13:53
 
-Santa Ajuda
+Morar
 
-Bagunceira Raiz
+Morar Em Cachoeira
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Autoclassificação etária: livre
-AL
+7. Autoclassificação etária: 14
+A14
 
-10:42 - 11:12
+13:32 - 14:21
 
-Loucos Por Novelas
+Minha Vida Perfeita
 
-Minha Novela Inesquecível
+Capítulo 56
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
