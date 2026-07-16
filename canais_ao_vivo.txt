@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/07/2026 16:17:05
+Data de extração: 16/07/2026 19:07:33
 Total de canais: 9
 ================================================================================
 
@@ -10,51 +10,51 @@ Total de canais: 9
 
 2. Ao vivo
 
-16:00 - 18:59
+19:00 - 20:59
 
-Estúdio i
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 14
-14
+3. Classificação etária: 12
+12
 
-15:57 - 16:47
+19:04 - 19:49
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-O Homem Que Veio Arrochar
+Vai Que Cola - Quarto Família - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. 15:53 - 16:21
+4. 19:02 - 20:03
 
-1/1 COMPILADO DE GIROS DA COPA 20226
+Copa Do Mundo Da FIFA 2026™
+
+Inglaterra X Argentina - Semifinal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 15:57 - 16:57
+5. 19:04 - 19:28
 
-Campeonato Brasileiro de Futebol
+Giro Da Rodada
 
-Athletico-PR X Corinthians
+Brasileirão - 2ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 16
-A16
+6. Autoclassificação etária: 12
+A12
 
-15:59 - 17:16
+18:27 - 19:13
 
-Papo De Segunda
+Avisa Lá Que Eu Vou
 
-Olha O Tapetão! / Rir Pra Não Transar / Manda Bundes
+Barra do Garças
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 14
-14
+7. Classificação etária: 10
+10
 
-16:01 - 16:49
+18:24 - 19:18
 
-Salve Jorge
-
-Belíssima
+Rock Story
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
