@@ -1,60 +1,60 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 15/07/2026 21:59:30
+Data de extração: 16/07/2026 05:39:08
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
+2. 04:00 - 05:59
 
-21:00 - 22:59
-
-Jornal GloboNews Edição das 18h
+GloboNews Em Pauta
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Autoclassificação etária: 12
-A12
+3. Classificação etária: 10
+10
 
-21:30 - 22:01
+05:29 - 05:54
 
-O Dono Do Lar
+Chaves
 
-Happy Hour
+Os Hóspedes Do Senhor Barriga, Primeira Parte
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Ao vivo
+4. 04:57 - 06:00
 
-21:28 - 23:32
+Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+Espanha X Bélgica - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 21:32 - 22:01
+5. 04:53 - 05:52
 
 Campeonato Brasileiro de Futebol
 
-Cruzeiro X Fluminense
+Fluminense X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: livre
-AL
+6. Autoclassificação etária: 16
+A16
 
-21:47 - 22:44
+04:32 - 05:50
 
-Cozinha Prática Com Rita Lobo
+Papo De Segunda
 
-Macarrão com Molho de Couve-Flor
+Olha O Tapetão! / Rir Pra Não Transar / Manda Bundes
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: livre
-L
+7. Autoclassificação etária: 14
+A14
 
-21:39 - 22:24
+05:05 - 05:52
 
-Anjo Mau
+Minha Vida Perfeita
+
+Capítulo 56
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
