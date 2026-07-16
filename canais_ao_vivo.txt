@@ -1,8 +1,8 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 16/07/2026 19:07:33
-Total de canais: 9
+Data de extração: 16/07/2026 22:03:21
+Total de canais: 10
 ================================================================================
 
 1. Associar operadora
@@ -10,54 +10,65 @@ Total de canais: 9
 
 2. Ao vivo
 
-19:00 - 20:59
+21:00 - 22:59
 
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 12
-12
-
-19:04 - 19:49
-
-Vai Que Cola
-
-Vai Que Cola - Quarto Família - 1ª temporada
-   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
-
-4. 19:02 - 20:03
-
-Copa Do Mundo Da FIFA 2026™
-
-Inglaterra X Argentina - Semifinal
-   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
-
-5. 19:04 - 19:28
-
-Giro Da Rodada
-
-Brasileirão - 2ª Rodada
-   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
-
-6. Autoclassificação etária: 12
+3. Autoclassificação etária: 12
 A12
 
-18:27 - 19:13
+21:39 - 22:09
 
-Avisa Lá Que Eu Vou
+O Dono Do Lar
 
-Barra do Garças
+Herança Maldita
+   URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
+
+4. Ao vivo
+
+20:59 - 23:50
+
+Seleção Copa
+   URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
+
+5. Ao vivo
+
+21:30 - 22:33
+
+Pré-Hora
+
+Vitória X Vasco
+   URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
+
+6. Ao vivo
+
+22:00 - 00:39
+
+Campeonato Brasileiro De Futebol
+
+Botafogo X Santos
+   URL: https://globoplay.globo.com/premiere-2/ao-vivo/9553142/
+
+7. Autoclassificação etária: livre
+AL
+
+21:55 - 22:42
+
+Cozinha Prática Com Rita Lobo
+
+Moqueca de ovo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 10
-10
+8. Classificação etária: livre
+L
 
-18:24 - 19:18
+21:35 - 22:23
 
-Rock Story
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
-8. Sinal gratuito
+9. Sinal gratuito
 
 Ao vivo
 
@@ -66,7 +77,7 @@ Agora
 CBN Ao Vivo SP
    URL: https://globoplay.globo.com/cbn-sp/ao-vivo/9212712/
 
-9. Sinal gratuito
+10. Sinal gratuito
 
 Ao vivo
 
