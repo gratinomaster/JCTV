@@ -1,56 +1,58 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/07/2026 05:41:50
+Data de extração: 17/07/2026 08:08:08
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 04:00 - 05:59
+2. Ao vivo
 
-GloboNews Em Pauta
+08:00 - 08:59
+
+Jornal GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 10
-10
+3. Autoclassificação etária: 12
+A12
 
-05:18 - 05:44
+08:08 - 08:37
 
-Chaves
+Tô De Graça
 
-O Natal Na Casa Do Senhor Barriga
+Larga Meu Bofe
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. 05:21 - 06:21
+4. 07:22 - 08:19
 
 Copa Do Mundo Da FIFA 2026™
 
-Espanha X Bélgica - Quartas De Final
+Inglaterra X Argentina - Semifinal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 05:26 - 06:24
+5. 07:12 - 08:11
 
 Campeonato Brasileiro de Futebol
 
-Athletico-PR X Santos
+Grêmio X Atlético-MG
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: livre
-AL
+6. Classificação etária: 14
+14
 
-04:53 - 05:55
+08:00 - 08:08
 
-Rolling Kitchen Brasil
+Momento Que História É Essa, Porchat?
 
-Camarão Que Dorme a Onda Leva
+Felipe Araújo + Carlos Gil + Ticiane Pinheiro
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 7. Autoclassificação etária: 14
 A14
 
-05:16 - 06:05
+07:28 - 08:21
 
 Minha Vida Perfeita
 
