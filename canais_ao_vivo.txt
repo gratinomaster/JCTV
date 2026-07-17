@@ -1,8 +1,8 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/07/2026 19:05:18
-Total de canais: 9
+Data de extração: 17/07/2026 21:52:44
+Total de canais: 12
 ================================================================================
 
 1. Associar operadora
@@ -10,69 +10,72 @@ Total de canais: 9
 
 2. Ao vivo
 
-19:00 - 20:59
-
-GloboNews Mais
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 12
-12
+3. Autoclassificação etária: livre
+AL
 
-18:57 - 19:46
+Atenção Para O Refrão
 
-Vai Que Cola
-
-Vai Que Cola - Inspetora Geral - 1ª temporada
+Prazer
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-19:20 - 20:20
-
-Radar Da Seleção
-
-Radar
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 18:51 - 19:59
+5. Campeonato Brasileiro de Futebol
 
-Giro Da Rodada
-
-Brasileirão - 5ª Rodada
+Internacional X Bahia
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: livre
+6. Ao vivo
+
+Campeonato Brasileiro De Futebol
+
+Bahia X Chapecoense
+   URL: https://globoplay.globo.com/premiere-2/ao-vivo/9553142/
+
+7. Ao vivo
+
+Campeonato Brasileiro De Futebol
+
+Mirassol X Grêmio
+   URL: https://globoplay.globo.com/premiere-3/ao-vivo/9553149/
+
+8. Ao vivo
+
+Campeonato Brasileiro De Futebol - Série B
+
+São Bernardo-SP X Avaí
+   URL: https://globoplay.globo.com/premiere-4/ao-vivo/9553156/
+
+9. Autoclassificação etária: livre
 AL
 
-18:55 - 19:39
+Cozinha Prática Com Rita Lobo
 
-Que Marravilha!
-
-A Okinawana Exigente
+Picadinho Para Paula Lima
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 10
-10
+10. Classificação etária: livre
+L
 
-18:24 - 19:15
-
-Rock Story
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
-8. Sinal gratuito
+11. Sinal gratuito
 
 Ao vivo
-
-Agora
 
 CBN Ao Vivo SP
    URL: https://globoplay.globo.com/cbn-sp/ao-vivo/9212712/
 
-9. Sinal gratuito
+12. Sinal gratuito
 
 Ao vivo
-
-Agora
 
 CBN Ao Vivo RJ
    URL: https://globoplay.globo.com/cbn-rj/ao-vivo/9212676/
