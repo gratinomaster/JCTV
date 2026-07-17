@@ -1,60 +1,60 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/07/2026 02:31:11
+Data de extração: 17/07/2026 05:41:50
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. 01:00 - 02:59
+2. 04:00 - 05:59
 
-Jornal das Dez
+GloboNews Em Pauta
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Autoclassificação etária: 12
-A12
+3. Classificação etária: 10
+10
 
-02:02 - 02:32
+05:18 - 05:44
 
-Tô De Graça
+Chaves
 
-Aluguei Meu Coração
+O Natal Na Casa Do Senhor Barriga
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Ao vivo
+4. 05:21 - 06:21
 
-00:30 - 03:14
+Copa Do Mundo Da FIFA 2026™
 
-Troca De Passes - Copa Do Mundo
-
-TROCA DE PASSES - COPA DO MUNDO
+Espanha X Bélgica - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. 02:28 - 03:26
+5. 05:26 - 06:24
 
 Campeonato Brasileiro de Futebol
 
-Corinthians X Bragantino
+Athletico-PR X Santos
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Classificação etária: 14
-14
+6. Autoclassificação etária: livre
+AL
 
-01:50 - 02:56
+04:53 - 05:55
 
-Que História É Essa, Porchat?
+Rolling Kitchen Brasil
 
-Fafá de Belém + Arnaldo Antunes + Danilo Grangheia
+Camarão Que Dorme a Onda Leva
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 14
+A14
 
-01:40 - 02:48
+05:16 - 06:05
 
-Amor À Vida
+Minha Vida Perfeita
+
+Capítulo 57
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
