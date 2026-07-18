@@ -1,79 +1,58 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 17/07/2026 21:52:44
-Total de canais: 12
+Data de extração: 18/07/2026 02:21:43
+Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Ao vivo
-
-Jornal GloboNews Edição das 18h
+2. Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Autoclassificação etária: livre
-AL
+3. Autoclassificação etária: 12
+A12
 
-Atenção Para O Refrão
+Tô De Graça
 
-Prazer
+Cuidado Com A Previsão
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-Seleção Copa
+Troca De Passes - Copa Do Mundo
+
+TROCA DE PASSES - COPA DO MUNDO
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Internacional X Bahia
+Santos X Internacional
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Ao vivo
+6. Autoclassificação etária: 10
+A10
 
-Campeonato Brasileiro De Futebol
+Diogo Na Cozinha
 
-Bahia X Chapecoense
-   URL: https://globoplay.globo.com/premiere-2/ao-vivo/9553142/
-
-7. Ao vivo
-
-Campeonato Brasileiro De Futebol
-
-Mirassol X Grêmio
-   URL: https://globoplay.globo.com/premiere-3/ao-vivo/9553149/
-
-8. Ao vivo
-
-Campeonato Brasileiro De Futebol - Série B
-
-São Bernardo-SP X Avaí
-   URL: https://globoplay.globo.com/premiere-4/ao-vivo/9553156/
-
-9. Autoclassificação etária: livre
-AL
-
-Cozinha Prática Com Rita Lobo
-
-Picadinho Para Paula Lima
+Paolla Oliveira e Criolo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-10. Classificação etária: livre
-L
+7. Classificação etária: 14
+14
 
-Anjo Mau
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
-11. Sinal gratuito
+8. Sinal gratuito
 
 Ao vivo
 
 CBN Ao Vivo SP
    URL: https://globoplay.globo.com/cbn-sp/ao-vivo/9212712/
 
-12. Sinal gratuito
+9. Sinal gratuito
 
 Ao vivo
 

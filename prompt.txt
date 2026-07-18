@@ -1,4 +1,1 @@
-acesse lista5.m3u
-teste todos os canais dessa lista e exclua canais que não estejam funcionando
-sobescreva o lista5.m3u
-EOF      
+corrija o lista1.m3u para que use url-tvg https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml corrigindo tvg-ids
