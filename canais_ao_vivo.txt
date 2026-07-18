@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/07/2026 13:11:31
+Data de extração: 18/07/2026 15:55:37
 Total de canais: 9
 ================================================================================
 
@@ -10,43 +10,41 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews - Edição das 10h
+Jornal GloboNews - Edição do Meio-dia
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Autoclassificação etária: 12
-A12
+3. Autoclassificação etária: livre
+AL
 
-Vila, A
+Reclame
 
-Rique E Nique
+Reclame - 20ª Temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-Paulistão F
-
-Palmeiras X São Paulo
+sportv News
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. Giro Da Rodada
+5. Campeonato Brasileiro de Futebol
 
-Brasileirão - 8ª Rodada
+Coritiba X Vasco
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 10
-A10
-
-Infiltrado Na Cozinha
-
-O Mistério dos Ovos
-   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
-
-7. Autoclassificação etária: 14
+6. Autoclassificação etária: 14
 A14
 
-Minha Menina
+Angélica Ao Vivo
 
-Capítulo 14
+Andréia Sadi + Mônica Martelli + Christian Dunker + convidado surpresa
+   URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
+
+7. Classificação etária: 14
+14
+
+Salve Jorge
+
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
