@@ -1,40 +1,40 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/07/2026 05:24:38
+Data de extração: 18/07/2026 07:47:07
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. GloboNews Em Pauta
+2. Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 10
-10
+3. Autoclassificação etária: 12
+A12
 
-Chaves
+Tvz
 
-Antes Um Tanque Funcionando Que Uma Lavadora Encrencada
+Vitão – Embrasa
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Copa Do Mundo Da FIFA 2026™
 
-Inglaterra X Argentina - Semifinal
+França X Marrocos - Quartas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Mirassol X Coritiba
+Bragantino X Botafogo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 14
-A14
+6. Autoclassificação etária: livre
+AL
 
-Saia Justa
+Santa Ajuda
 
-Transformar dor em festa/ Retornos da fênix/ Sair à francesa
+Meu Filho, Minha Bagunça
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 7. Autoclassificação etária: 14
