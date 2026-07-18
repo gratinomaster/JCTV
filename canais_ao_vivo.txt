@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 18/07/2026 19:01:48
+Data de extração: 18/07/2026 21:50:07
 Total de canais: 9
 ================================================================================
 
@@ -10,39 +10,41 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 12
-12
+3. Classificação etária: 14
+14
 
-Vai Que Cola
+Sessão Nostalgia - Toma Lá Da
 
-Vai Que Cola - Ai Que Roubada - 1ª temporada
+Galinha que Come Pedra...
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-Partiu Copa
+Copa Do Mundo Da FIFA 2026™ - Ao Vivo - França X Inglaterra
+
+França X Inglaterra - Disputa De 3º Lugar
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. Giro Da Rodada
+5. Campeonato Brasileiro de Futebol
 
-Brasileirão - 9ª Rodada
+Flamengo X Santos
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Classificação etária: 14
-14
+6. Autoclassificação etária: livre
+AL
 
-Que História É Essa, Porchat?
+Cozinha Prática Com Rita Lobo
 
-Fafá de Belém + Arnaldo Antunes + Danilo Grangheia
+Macarrão com Molho de Couve-Flor
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 10
-10
+7. Classificação etária: livre
+L
 
-Rock Story
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
