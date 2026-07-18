@@ -1,7 +1,5 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1784450673~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=9db44f91-6963-4d93-807d-d4e85b704215~did=a98da5d6-44d1-4896-9b3c-6741576b5184~country=US~kid=k02~hmac=f6a44ba64f7d7c6350c4a8caee28b2c4f2a9b60327e36af3efada028c6ecb447/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTM3U url-tvg="https://epg.pw/api/epg.xml?channel_id=465150,https://epg.pw/api/epg.xml?channel_id=464941"
+#EXTINF:-1 tvg-id="465150" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",CBS News 24/7 -CBS News
+#EXTINF:-1 tvg-id="464941" tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",CBS News 24/7
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/bd234a3f-e56b-4703-b1f8-8c8290ca436f:DLS/master.m3u8
