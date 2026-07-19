@@ -1,48 +1,48 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 19/07/2026 02:33:58
+Data de extração: 19/07/2026 05:51:22
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. GloboNews Documentário
+2. Cidades e Soluções
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Ao vivo
+3. Classificação etária: 10
+10
 
-Autoclassificação etária: 12
-A12
+Chaves
 
-Alma Ao Vivo
-
-Matuê
+Os Hóspedes Do Senhor Barriga, Primeira Parte
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Ao vivo
+4. Copa Do Mundo Da FIFA 2026™
 
-Seleção Copa
+Inglaterra X Argentina - Semifinal
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. Campeonato Brasileiro de Futebol
+5. Giro Da Rodada
 
-Santos X Atlético-MG
+Brasileirão - 11ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: livre
-AL
+6. Autoclassificação etária: 12
+A12
 
-Chegadas E Partidas
+Admiráveis Conselheiras
 
-Quando Você Voltar, Vamos Estar Aqui De Novo!
+Simone
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 14
-14
+7. Autoclassificação etária: 14
+A14
 
-Amor À Vida
+Minha Vida Perfeita
+
+Capítulo 59
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
