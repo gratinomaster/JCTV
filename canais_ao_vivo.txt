@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 19/07/2026 13:14:16
+Data de extração: 19/07/2026 15:56:33
 Total de canais: 9
 ================================================================================
 
@@ -10,7 +10,7 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews - Edição das 10h
+Jornal GloboNews - Edição do Meio-dia
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Autoclassificação etária: 12
@@ -18,7 +18,7 @@ A12
 
 Tô De Graça
 
-Aluguei Meu Coração
+Deu A Louca Na Joelma
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
@@ -28,15 +28,15 @@ Partiu Copa
 
 5. Campeonato Brasileiro de Futebol
 
-São Paulo X Mirassol
+Atlético-MG X Flamengo
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: livre
 AL
 
-Bem Juntinhos
+Cozinha Prática Com Rita Lobo
 
-Pets
+Massa fresca com molho de tomate
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 7. Classificação etária: 10
