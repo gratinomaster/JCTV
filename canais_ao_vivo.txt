@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 19/07/2026 19:03:41
+Data de extração: 19/07/2026 21:51:02
 Total de canais: 9
 ================================================================================
 
@@ -10,35 +10,33 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews - Edição das 15h
+Jornal GloboNews Edição das 18h
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 14
-14
+3. Classificação etária: 12
+12
 
-Sessão Nostalgia - Toma Lá Da
+Vai Que Cola
 
-Despedida de Casado
+Vai Que Cola - O Preço Da Amizade - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-Copa Do Mundo Da FIFA 2026™ - Ao Vivo - Espanha X Argentina
-
-Espanha X Argentina - Final
+Seleção Copa
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Cruzeiro X Atlético-MG
+Mirassol X Corinthians
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 12
-A12
+6. Autoclassificação etária: 10
+A10
 
-No Fogo Com Bronze
+Diogo Na Cozinha
 
-Cozinhar É Fogo!
+Ferrugem e Jorge Vercillo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 7. Classificação etária: 14
