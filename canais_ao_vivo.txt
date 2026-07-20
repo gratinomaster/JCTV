@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 20/07/2026 06:17:25
+Data de extração: 20/07/2026 11:44:11
 Total de canais: 9
 ================================================================================
 
@@ -10,39 +10,39 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 10
-10
+3. Autoclassificação etária: livre
+AL
 
-Chaves
+Atenção Para O Refrão
 
-O Último Exame
+Prazer
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Copa Do Mundo Da FIFA 2026™
+4. Ao vivo
 
-Espanha X Argentina - Final
+sportv News
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Santos X Coritiba
+Flamengo X Palmeiras
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: livre
 AL
 
-Que Seja Doce
+Decora
 
-Tendências: Doces com Matcha
+Super Kit
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: 14
-14
+7. Classificação etária: livre
+L
 
-Vale Tudo
+O Profeta
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
