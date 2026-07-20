@@ -11,6 +11,8 @@ EPG_SOURCES = [
     ("epg_NL", "https://iptv-epg.org/files/epg-nl.xml.gz"),
     ("epg_AU", "https://epg.pw/xmltv/epg_AU.xml.gz"),
     ("epg_JP", "https://epg.pw/xmltv/epg_JP.xml.gz"),
+    ("epg_UA", "https://epg.pw/xmltv/epg_UA.xml.gz"),
+    ("epg_BY", "https://epg.pw/xmltv/epg_BY.xml.gz"),
     ("epgshare_TH", "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz"),
 ]
 
@@ -37,6 +39,8 @@ M3U_TO_EPG_MAP = {
     "NTS.ru": ["5739"],
     "FirstMusicChannel.by": ["5975"],
     "Prosveshchenie.ru": ["7055"],
+    "LanetTV.ua": ["Lanet.ua", "Lanet.TV.ua", "lanet-tv.ua"],
+    "ThaiPBS.th": ["Thai.PBS.th", "thaipbs.th", "ThaiPBS.or.th"],
 }
 
 def extract_tvg_ids(m3u_path):
