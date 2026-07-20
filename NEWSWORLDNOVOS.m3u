@@ -1,16 +1,59 @@
-#EXTM3U x-tvg-url="http://epg.it999.ru/epg.xml.gz"
+## Relatório de Verificação - Reality Shows (15/07/2026)
 
-#EXTINF:-1 tvg-id="pervy" tvg-name="Perviy Kanal HD" tvg-logo="http://epg.it999.ru/img2/983.png" group-title="RUSSIA",Первый HD
-https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+### 1. Big Brother 28 (EUA) ✅ **NO AR**
+- **Canal oficial:** CBS / Paramount+
+- **Status:** Transmitindo ao vivo agora
+- **Detalhes:** Estreou em 9/jul/2026. Live feeds ativos desde 10/jul/2026 às 21h ET no Paramount+. Episódios ao vivo nas Quartas, Quintas e Domingos às 20h ET.
+- **Fonte:** paramountplus.com/sneak-peak/big-brother-live-feeds/
 
-#EXTINF:-1 tvg-id="pervy" tvg-name="Perviy Kanal HD" tvg-logo="http://epg.it999.ru/img2/983.png" group-title="RUSSIA",Первый HD (Alt)
-https://s.pokaz.me/kF_YmQ-nL_k4A3uiJ6EGZw/540/1753895997/index.m3u8
+### 2. Big Brother Verão 2 (Portugal) ✅ **NO AR**
+- **Canal oficial:** TVI / TVI Player
+- **Status:** Transmitindo ao vivo agora
+- **Detalhes:** "O Big Brother Verão está no ar" - confirmação direta no TVI Player. Episódios diários (Extra, Diário, Especial, Gala) sendo exibidos regularmente. Último episódio: 15/jul/2026.
+- **Fonte:** tviplayer.iol.pt/programa/big-brother/
 
-#EXTINF:-1 tvg-id="rossia1" tvg-name="Rossiya 1 HD" tvg-logo="http://epg.it999.ru/img2/984.png" group-title="RUSSIA",Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+### 3. Gran Hermano 20 (Espanha) ❌ **ENCERRADO**
+- **Canal oficial:** Telecinco / Mediaset Infinity
+- **Status:** TEMPORADA ENCERRADA
+- **Detalhes:** A final foi em 18/dez/2025. Rocío Gallardo foi a vencedora. A temporada durou apenas 42 dias (edição mais curta da história).
+- **Fonte:** telecinco.es/granhermano/
 
-#EXTINF:-1 tvg-id="rossia1" tvg-name="Rossiya 1 HD" tvg-logo="http://epg.it999.ru/img2/984.png" group-title="RUSSIA",Россия 1 HD (Alt)
-https://s.pokaz.me/zhk7j0uqDKrpQpDoIutrcw/544/1753896034/index.m3u8
+### 4. Big Brother VIP 5 (Albânia) ❌ **ENCERRADO**
+- **Canal oficial:** Top Channel
+- **Status:** TEMPORADA ENCERRADA
+- **Detalhes:** A final foi em 18/abr/2026. Selin Bollati foi a vencedora após 120 dias de confinamento.
+- **Fonte:** bigbrothervip.top-channel.tv/
 
-#EXTINF:-1 tvg-id="rossija24" tvg-name="Rossiya 24" tvg-logo="http://epg.it999.ru/img2/1683.png" group-title="RUSSIA",Россия-24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
+### 5. Bigg Boss Kannada 12 (Índia) ❌ **ENCERRADO**
+- **Canal oficial:** Colors Kannada / JioHotstar
+- **Status:** TEMPORADA ENCERRADA
+- **Detalhes:** A final foi em 18/jan/2026. Gilli Nata foi o vencedor, ganhando ₹50 lakh e um SUV.
+- **Fonte:** timesofindia.indiatimes.com
+
+### 6. Bigg Boss 9 Tamil (Índia) ❌ **ENCERRADO**
+- **Canal oficial:** Star Vijay / JioHotstar
+- **Status:** TEMPORADA ENCERRADA
+- **Detalhes:** A final foi em 18/jan/2026. Divya Ganesh foi a vencedora, ganhando ₹50 lakh e um carro.
+- **Fonte:** indiatoday.in
+
+### 7. Big Brother VIP Kosova 4 (Kosovo) ❌ **ENCERRADO**
+- **Canal oficial:** Klan Kosova / Artmotion
+- **Status:** TEMPORADA ENCERRADA
+- **Detalhes:** A final foi em 27/fev/2026. Londrim Mekaj foi o vencedor, ganhando €200.000.
+- **Fonte:** klankosova.tv/big-brother-vip-kosova/
+
+---
+
+## Resumo
+
+| País | Reality | Status |
+|------|---------|--------|
+| EUA | Big Brother 28 | ✅ NO AR |
+| Portugal | Big Brother Verão 2 | ✅ NO AR |
+| Espanha | Gran Hermano 20 | ❌ ENCERRADO (Dez 2025) |
+| Albânia | Big Brother VIP 5 | ❌ ENCERRADO (Abr 2026) |
+| Índia (Kannada) | Bigg Boss Kannada 12 | ❌ ENCERRADO (Jan 2026) |
+| Índia (Tamil) | Bigg Boss 9 | ❌ ENCERRADO (Jan 2026) |
+| Kosovo | Big Brother VIP Kosova 4 | ❌ ENCERRADO (Fev 2026) |
+
+**Apenas 2 de 7 realities estão atualmente no ar:** Big Brother 28 (EUA) e Big Brother Verão 2 (Portugal).
