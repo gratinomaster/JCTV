@@ -1,23 +1,24 @@
 #EXTM3U url-tvg="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml" x-tvg-url="https://www.open-epg.com/app/download.php?file=argentina.xml.gz,https://iptv-epg.org/files/epg-ar.xml"
 
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Buenos Aires
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="SanLuisMas.ar" tvg-logo="https://cdn.m3u.cl/logo/269_San_Luis_Mas.png",TV PUBLICA AFILIADA
+https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
+
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Buenos Aires
 http://190.7.19.197:232/play/a059/index.m3u8
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="Canal7Jujuy.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Jujuy
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal7Jujuy.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Jujuy
 https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="Canal7Neuquen.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Neuquén
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal7Neuquen.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Neuquén
 https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="Canal2Misiones.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Misiones
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal2Misiones.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Misiones
 https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="Canal7SantiagoDelEstero.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Santiago del Estero
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal7SantiagoDelEstero.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe Santiago del Estero
 https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
 
-#EXTINF:-1 group-title="TELEFE" tvg-id="SanLuisMas.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe San Luis
-https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ELTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Canal13_logo.png",El Trece
 #EXTVLCOPT:http-referrer=https://vodgc.net
