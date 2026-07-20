@@ -1,59 +1,121 @@
-## Relatório de Verificação - Reality Shows (15/07/2026)
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+#
+# ═══════════════════════════════════════════════════════════════════
+# NEWSWORLDNOVOS - Lista de Canais de Notícias Mundiais
+# Atualizado: 20/07/2026
+# EPG: US_guide.xml.gz (EPGTalk) + UK1.xml.gz + ALL_SOURCES1.xml.gz
+# Todos os links testados e verificados - HTTP 200 OK
+# ═══════════════════════════════════════════════════════════════════
+#
+# ── NOTÍCIAS EUA ──────────────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" tvg-chno="1" tvg-country="US" group-title="Notícias EUA",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-name="CBS News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" tvg-chno="2" tvg-country="US" group-title="Notícias EUA",CBS News 24/7
+https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-name="CBS News Alt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" tvg-chno="3" tvg-country="US" group-title="Notícias EUA",CBS News 24/7 (Alternativo)
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg Television" tvg-logo="https://assets.bwbx.io/s3/javelin/public/hub/images/7f21264d-837e-4c81-872c-4d24a824f3fa/7f21264d-837e-4c81-872c-4d24a824f3fa_16x9.png" tvg-chno="4" tvg-country="US" group-title="Notícias EUA",Bloomberg Television
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-name="Bloomberg TV+" tvg-logo="https://assets.bwbx.io/s3/javelin/public/hub/images/7f21264d-837e-4c81-872c-4d24a824f3fa/7f21264d-837e-4c81-872c-4d24a824f3fa_16x9.png" tvg-chno="5" tvg-country="US" group-title="Notícias EUA",Bloomberg TV+
+https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
+#EXTINF:-1 tvg-id="ScrippsNews.us" tvg-name="Scripps News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Scripps_News_Logo.svg/500px-Scripps_News_Logo.svg.png" tvg-chno="6" tvg-country="US" group-title="Notícias EUA",Scripps News
+https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
+#EXTINF:-1 tvg-id="NASATVMedia.us" tvg-name="NASA TV Media" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/500px-NASA_logo.svg.png" tvg-chno="7" tvg-country="US" group-title="Notícias EUA",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+#EXTINF:-1 tvg-id="LiveNOWFromFOX.us" tvg-name="LiveNOW from FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Fox_Live_Now_logo.svg/512px-Fox_Live_Now_logo.svg.png" tvg-chno="8" tvg-country="US" group-title="Notícias EUA",LiveNOW from FOX
+https://www.youtube.com/foxlive/live
+#EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" tvg-chno="9" tvg-country="US" group-title="Notícias EUA",CNBC
+https://www.youtube.com/cnbc/live
+#
+# ── NOTÍCIAS MUNDIAIS ────────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/512px-Aljazeera.svg.png" tvg-chno="1" tvg-country="QA" group-title="Notícias Mundiais",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/DW_Logo_2012.svg/512px-DW_Logo_2012.svg.png" tvg-chno="2" tvg-country="DE" group-title="Notícias Mundiais",DW News (Deutsche Welle)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/CGTN_logo.svg/512px-CGTN_logo.svg.png" tvg-chno="3" tvg-country="CN" group-title="Notícias Mundiais",CGTN
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/500px-Russia-today-logo.svg.png" tvg-chno="4" tvg-country="RU" group-title="Notícias Mundiais",Russia Today
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" tvg-chno="5" tvg-country="JP" group-title="Notícias Mundiais",NHK World Japan
+https://www.youtube.com/nhkworld/live
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_24_logo.svg/512px-France_24_logo.svg.png" tvg-chno="6" tvg-country="FR" group-title="Notícias Mundiais",France 24 English
+https://www.youtube.com/france24english/live
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png" tvg-chno="7" tvg-country="FR" group-title="Notícias Mundiais",Euronews English
+https://www.youtube.com/euronews/live
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" tvg-chno="8" tvg-country="TR" group-title="Notícias Mundiais",TRT World
+https://www.youtube.com/trtworld/live
+#EXTINF:-1 tvg-id="NDTV24x7.in" tvg-name="NDTV 24x7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" tvg-chno="9" tvg-country="IN" group-title="Notícias Mundiais",NDTV 24x7
+https://www.youtube.com/ndtv/live
+#EXTINF:-1 tvg-id="IndiaToday.in" tvg-name="India Today" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/India_Today_logo_%282022%29.svg/500px-India_Today_logo_%282022%29.svg.png" tvg-chno="10" tvg-country="IN" group-title="Notícias Mundiais",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 tvg-id="WION.in" tvg-name="WION" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/WION_logo.svg/512px-WION_logo.svg.png" tvg-chno="11" tvg-country="IN" group-title="Notícias Mundiais",WION (World is One News)
+https://www.youtube.com/wion/live
+#EXTINF:-1 tvg-id="TaiwanPlusTV.tw" tvg-name="Taiwan+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_Plus_logo.svg/512px-Taiwan_Plus_logo.svg.png" tvg-chno="12" tvg-country="TW" group-title="Notícias Mundiais",Taiwan+
+https://www.youtube.com/@taiwanplusnews/live
+#EXTINF:-1 tvg-id="Africanews.cg" tvg-name="Africanews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Africanews_logo.svg/512px-Africanews_logo.svg.png" tvg-chno="13" tvg-country="CG" group-title="Notícias Mundiais",Africanews
+https://www.youtube.com/africanews/live
+#EXTINF:-1 tvg-id="tickerNews.au" tvg-name="Ticker News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ticker_News_logo.svg/512px-Ticker_News_logo.svg.png" tvg-chno="14" tvg-country="AU" group-title="Notícias Mundiais",Ticker News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8
+#
+# ── NOTÍCIAS REINO UNIDO ─────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" tvg-chno="1" tvg-country="UK" group-title="Notícias Reino Unido",BBC News
+https://www.youtube.com/bbcnews/live
+#EXTINF:-1 tvg-id="SkyNewsInternational.uk" tvg-name="Sky News" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" tvg-chno="2" tvg-country="UK" group-title="Notícias Reino Unido",Sky News
+https://www.youtube.com/skynews/live
 
-### 1. Big Brother 28 (EUA) ✅ **NO AR**
-- **Canal oficial:** CBS / Paramount+
-- **Status:** Transmitindo ao vivo agora
-- **Detalhes:** Estreou em 9/jul/2026. Live feeds ativos desde 10/jul/2026 às 21h ET no Paramount+. Episódios ao vivo nas Quartas, Quintas e Domingos às 20h ET.
-- **Fonte:** paramountplus.com/sneak-peak/big-brother-live-feeds/
-
-### 2. Big Brother Verão 2 (Portugal) ✅ **NO AR**
-- **Canal oficial:** TVI / TVI Player
-- **Status:** Transmitindo ao vivo agora
-- **Detalhes:** "O Big Brother Verão está no ar" - confirmação direta no TVI Player. Episódios diários (Extra, Diário, Especial, Gala) sendo exibidos regularmente. Último episódio: 15/jul/2026.
-- **Fonte:** tviplayer.iol.pt/programa/big-brother/
-
-### 3. Gran Hermano 20 (Espanha) ❌ **ENCERRADO**
-- **Canal oficial:** Telecinco / Mediaset Infinity
-- **Status:** TEMPORADA ENCERRADA
-- **Detalhes:** A final foi em 18/dez/2025. Rocío Gallardo foi a vencedora. A temporada durou apenas 42 dias (edição mais curta da história).
-- **Fonte:** telecinco.es/granhermano/
-
-### 4. Big Brother VIP 5 (Albânia) ❌ **ENCERRADO**
-- **Canal oficial:** Top Channel
-- **Status:** TEMPORADA ENCERRADA
-- **Detalhes:** A final foi em 18/abr/2026. Selin Bollati foi a vencedora após 120 dias de confinamento.
-- **Fonte:** bigbrothervip.top-channel.tv/
-
-### 5. Bigg Boss Kannada 12 (Índia) ❌ **ENCERRADO**
-- **Canal oficial:** Colors Kannada / JioHotstar
-- **Status:** TEMPORADA ENCERRADA
-- **Detalhes:** A final foi em 18/jan/2026. Gilli Nata foi o vencedor, ganhando ₹50 lakh e um SUV.
-- **Fonte:** timesofindia.indiatimes.com
-
-### 6. Bigg Boss 9 Tamil (Índia) ❌ **ENCERRADO**
-- **Canal oficial:** Star Vijay / JioHotstar
-- **Status:** TEMPORADA ENCERRADA
-- **Detalhes:** A final foi em 18/jan/2026. Divya Ganesh foi a vencedora, ganhando ₹50 lakh e um carro.
-- **Fonte:** indiatoday.in
-
-### 7. Big Brother VIP Kosova 4 (Kosovo) ❌ **ENCERRADO**
-- **Canal oficial:** Klan Kosova / Artmotion
-- **Status:** TEMPORADA ENCERRADA
-- **Detalhes:** A final foi em 27/fev/2026. Londrim Mekaj foi o vencedor, ganhando €200.000.
-- **Fonte:** klankosova.tv/big-brother-vip-kosova/
-
----
-
-## Resumo
-
-| País | Reality | Status |
-|------|---------|--------|
-| EUA | Big Brother 28 | ✅ NO AR |
-| Portugal | Big Brother Verão 2 | ✅ NO AR |
-| Espanha | Gran Hermano 20 | ❌ ENCERRADO (Dez 2025) |
-| Albânia | Big Brother VIP 5 | ❌ ENCERRADO (Abr 2026) |
-| Índia (Kannada) | Bigg Boss Kannada 12 | ❌ ENCERRADO (Jan 2026) |
-| Índia (Tamil) | Bigg Boss 9 | ❌ ENCERRADO (Jan 2026) |
-| Kosovo | Big Brother VIP Kosova 4 | ❌ ENCERRADO (Fev 2026) |
-
-**Apenas 2 de 7 realities estão atualmente no ar:** Big Brother 28 (EUA) e Big Brother Verão 2 (Portugal).
+#EXTINF:-1 tvg-id="TalkTV.uk" tvg-name="TalkTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/TalkTV_logo.svg/512px-TalkTV_logo.svg.png" tvg-chno="4" tvg-country="UK" group-title="Notícias Reino Unido",TalkTV
+https://www.youtube.com/talktv/live
+#EXTINF:-1 tvg-id="TheGuardian.uk" tvg-name="The Guardian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Guardian_2018.svg/512px-The_Guardian_2018.svg.png" tvg-chno="5" tvg-country="UK" group-title="Notícias Reino Unido",The Guardian News
+https://www.youtube.com/guardiannews/live
+#
+# ── NOTÍCIAS CANADÁ ──────────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/CBC_News_Logo.svg/512px-CBC_News_Logo.svg.png" tvg-chno="1" tvg-country="CA" group-title="Notícias Canadá",CBC News Network
+https://www.youtube.com/cbcnews/live
+#EXTINF:-1 tvg-id="GlobalNews.ca" tvg-name="Global News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Global_News_logo.svg/512px-Global_News_logo.svg.png" tvg-chno="2" tvg-country="CA" group-title="Notícias Canadá",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+#
+# ── NOTÍCIAS AUSTRÁLÁSIA ─────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/ABC_%28Australian_Broadcasting_Corporation%29_%282014%29.svg/512px-ABC_%28Australian_Broadcasting_Corporation%29_%282014%29.svg.png" tvg-chno="1" tvg-country="AU" group-title="Notícias Austrálásia",ABC News Australia
+https://www.youtube.com/@abcnewsaustralia/live
+#EXTINF:-1 tvg-id="SkyNewsAustralia.au" tvg-name="Sky News Australia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Sky_News_Australia_logo_-_2019.svg/512px-Sky_News_Australia_logo_-_2019.svg.png" tvg-chno="2" tvg-country="AU" group-title="Notícias Austrálásia",Sky News Australia
+https://www.youtube.com/skynewsaustralia/live
+#
+# ── NOTÍCIAS ÁSIA ────────────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="DDIndia.in" tvg-name="DD India" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/DD_India_logo.svg/512px-DD_India_logo.svg.png" tvg-chno="2" tvg-country="IN" group-title="Notícias Ásia",DD India
+https://ythls.armelin.one/channel/UCGDQNvybfDDeGTf4GtigXaw.m3u8
+#EXTINF:-1 tvg-id="CNAInternational.sg" tvg-name="Channel NewsAsia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CNA_logo_%282023%29.svg/512px-CNA_logo_%282023%29.svg.png" tvg-chno="1" tvg-country="SG" group-title="Notícias Ásia",Channel NewsAsia (CNA)
+https://www.youtube.com/channelnewsasia/live
+#
+# ── NOTÍCIAS ISRAEL ──────────────────────────────────────────────
+#
+#
+# ── NEGÓCIOS E FINANÇAS ──────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-name="Bloomberg Europe" tvg-logo="https://assets.bwbx.io/s3/javelin/public/hub/images/7f21264d-837e-4c81-872c-4d24a824f3fa/7f21264d-837e-4c81-872c-4d24a824f3fa_16x9.png" tvg-chno="1" tvg-country="UK" group-title="Negócios",Bloomberg Television (Europa)
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-name="CNBC Europe" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1088.png" tvg-chno="2" tvg-country="UK" group-title="Negócios",CNBC Europe
+https://amg01079-nbcuuk-amg01079c1-samsung-es-1261.playouts.now.amagi.tv/playlist/amg01079-nbcuukfast-cnbcpe-samsunges/playlist.m3u8
+#EXTINF:-1 tvg-id="YahooFinance.us" tvg-name="Yahoo Finance" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Yahoo_Finance_logo_2021.svg/512px-Yahoo_Finance_logo_2021.svg.png" tvg-chno="3" tvg-country="US" group-title="Negócios",Yahoo Finance
+https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="MoconomyEconomyFinanceInfotainment.us" tvg-name="Moconomy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Moconomy_logo.svg/512px-Moconomy_logo.svg.png" tvg-chno="4" tvg-country="US" group-title="Negócios",Moconomy
+https://amogonetworx-moconomy-2-us.tcl.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="AusbizTV.au" tvg-name="Ausbiz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ausbiz_logo.svg/512px-Ausbiz_logo.svg.png" tvg-chno="5" tvg-country="AU" group-title="Negócios",Ausbiz
+https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
+#
+# ── NOTÍCIAS DIVERSAS ────────────────────────────────────────────
+#
+#EXTINF:-1 tvg-id="SABCNews.gh" tvg-name="SABC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/SABC_Logo.svg/512px-SABC_Logo.svg.png" tvg-chno="1" tvg-country="ZA" group-title="Diversos",SABC News
+https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8
+#
+# ═══════════════════════════════════════════════════════════════════
+# FIM DA LISTA - Atualizado em 20/07/2026
+# EPG: US_guide.xml.gz + UK1.xml.gz + ALL_SOURCES1.xml.gz
+# Todos os canais testados com curl - HTTP 200 OK
+# 39 canais de notícias mundiais verificados
+# ═══════════════════════════════════════════════════════════════════
