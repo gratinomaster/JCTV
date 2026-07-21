@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/07/2026 08:25:51
+Data de extração: 21/07/2026 11:06:15
 Total de canais: 9
 ================================================================================
 
@@ -10,7 +10,7 @@ Total de canais: 9
 
 2. Ao vivo
 
-Jornal GloboNews
+GloboNews Em Ponto
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Autoclassificação etária: 12
@@ -28,23 +28,23 @@ Espanha X Argentina - Final
 
 5. Campeonato Brasileiro de Futebol
 
-Grêmio X Corinthians
+Athletico-PR X Mirassol
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 10
-A10
+6. Autoclassificação etária: livre
+AL
 
-Food Truck - A Batalha
+Santa Ajuda
 
-Cerveja
+Bagunceiro Eleito pelo povo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Autoclassificação etária: 14
-A14
+7. Classificação etária: 14
+14
 
-Minha Menina
+Salve Jorge
 
-Capítulo 16
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
