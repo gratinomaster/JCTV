@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 21/07/2026 13:45:50
+Data de extração: 21/07/2026 19:19:27
 Total de canais: 9
 ================================================================================
 
@@ -10,41 +10,41 @@ Total de canais: 9
 
 2. Ao vivo
 
-Conexão GloboNews
+GloboNews Mais
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Classificação etária: 12
 12
 
-Sessão Nostalgia Tapas E Beijo
+Vai Que Cola
 
-Bia É A Nova Colega De Trabalho De Fátima E Sueli
+Vai Que Cola - Ai Que Roubada - 1ª temporada
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Ao vivo
 
-Redação sportv
+Copa Do Brasil Feminina De Futebol
+
+Fluminense X Cruzeiro - Oitavas De Final
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Botafogo X Santos
+Mirassol X Fluminense
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: livre
 AL
 
-Morar
+Que Marravilha!
 
-Morar Em Belém
+Eu Como Muuuito!!
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Autoclassificação etária: 14
-A14
+7. Classificação etária: 14
+14
 
-Minha Vida Perfeita
-
-Capítulo 60
+Amor À Vida
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
