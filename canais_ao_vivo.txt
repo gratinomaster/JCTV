@@ -1,7 +1,7 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 22/07/2026 11:08:27
+Data de extração: 22/07/2026 16:19:44
 Total de canais: 9
 ================================================================================
 
@@ -10,37 +10,41 @@ Total de canais: 9
 
 2. Ao vivo
 
-GloboNews Em Ponto
+Estúdio i
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Autoclassificação etária: 12
 A12
 
-Tvz
+Vila, A
 
-Zé Neto & Cristiano – Notificação Preferida
+Churraschef
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Troca De Passes
+4. Ao vivo
+
+Seleção sportv
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Bahia X Botafogo
+Flamengo X Coritiba
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: livre
-AL
+6. Autoclassificação etária: 14
+A14
 
-Pode Entrar
+Bem Juntinhos
 
-Casa da Natuza Nery
+Amor E Sexo
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-7. Classificação etária: livre
-L
+7. Classificação etária: 14
+14
 
-O Profeta
+Salve Jorge
+
+Belíssima
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
 8. Sinal gratuito
