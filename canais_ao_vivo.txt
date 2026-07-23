@@ -1,79 +1,56 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 23/07/2026 02:35:46
-Total de canais: 12
+Data de extração: 23/07/2026 05:52:44
+Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. Jornal das Dez
+2. GloboNews Em Pauta
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Autoclassificação etária: 12
-A12
+3. Classificação etária: 12
+12
 
-Vila, A
+Chapolin
 
-Drive In
+Proibido Mexer Com Bombas Em Horas De Serviço
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Ao vivo
+4. Campeonato Brasileiro De Futebol
 
-Troca De Passes
+Atlético-Mg X Bahia
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. Campeonato Brasileiro de Futebol
+5. Giro Da Rodada
 
-Bahia X Chapecoense
+Brasileirão - 18ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Ao vivo
-
-Campeonato Brasileiro De Futebol
-
-São Paulo X Athletico-PR
-   URL: https://globoplay.globo.com/premiere-2/ao-vivo/9553142/
-
-7. Ao vivo
-
-Campeonato Brasileiro De Futebol
-
-Internacional X Cruzeiro
-   URL: https://globoplay.globo.com/premiere-3/ao-vivo/9553149/
-
-8. Ao vivo
-
-Campeonato Brasileiro De Futebol - Série B
-
-Náutico X Londrina
-   URL: https://globoplay.globo.com/premiere-5/ao-vivo/9553163/
-
-9. Autoclassificação etária: 14
+6. Autoclassificação etária: 14
 A14
 
-Saia Justa
+Papo De Segunda
 
-Cérebro fitness/ Elogio tem poder/ Gargalhar é preciso
+O Amargo Far Niente / Teoria Da Sacola Plástica / Não Repara A Bagunça
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
-10. Classificação etária: 14
-14
+7. Classificação etária: livre
+L
 
-Salve Jorge
-
-Belíssima
+Anjo Mau
    URL: https://globoplay.globo.com/globoplay-novelas/ao-vivo/8904966/
 
-11. Sinal gratuito
+8. Sinal gratuito
 
 Ao vivo
 
 CBN Ao Vivo SP
    URL: https://globoplay.globo.com/cbn-sp/ao-vivo/9212712/
 
-12. Sinal gratuito
+9. Sinal gratuito
 
 Ao vivo
 
