@@ -25,6 +25,12 @@ EPG_URLS = [
     "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_VE1.xml.gz",
+    "https://epg.pw/xmltv/epg_RU.xml.gz",
+    "https://iptv-epg.org/files/epg-nl.xml.gz",
+    "https://epg.pw/xmltv/epg_AU.xml.gz",
+    "https://epg.pw/xmltv/epg_JP.xml.gz",
+    "https://iptv-epg.org/files/epg-ua.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz",
 ]
 
 # Manual mapping: M3U display name -> list of EPG channel IDs (priority order)
@@ -308,6 +314,33 @@ CHANNEL_MAP = {
     "Rede Vida (Oficial 240p)": ["São.Paulo/SP..Rede.Vida.br"],
 }
 
+TVG_ID_TO_EPG_MAP = {
+    "RTVDrenthe.nl": ["TVDrenthe.nl"],
+    "RTVMaastricht.nl": ["L1TV.nl"],
+    "RTVNoord.nl": ["TVNoord.nl"],
+    "RTVNoordExtra.nl": ["TVNoord.nl"],
+    "RTVOost.nl": ["TVOost.nl"],
+    "RTVPurmerend.nl": ["AT5.nl", "NHNieuws.nl"],
+    "RTVRijnmond.nl": ["TVRijnmond.nl"],
+    "RTVRijnstreekTV.nl": ["TVWest.nl"],
+    "RTVUtrecht.nl": ["RTVUtrecht.nl"],
+    "RTVWesterwolde.nl": ["TVGelderland.nl"],
+    "HorseandCountry.au": ["HorseAndCountryTV.nl"],
+    "NHKWorld.jp": ["10703"],
+    "AlJazeera.qa": ["AljazeeraEnglish.nl", "Aljazeera.nl"],
+    "HopeTV.ru": ["412065"],
+    "MaturTV.ru": ["7520"],
+    "MTVVolgograd.ru": ["6072"],
+    "MuzSoyuz.ru": ["7313"],
+    "NizhniyNovgorod24.ru": ["6022"],
+    "NTM.ru": ["5930"],
+    "NTS.ru": ["5739"],
+    "FirstMusicChannel.by": ["5975"],
+    "Prosveshchenie.ru": ["7055"],
+    "LanetTV.ua": ["Lanet.ua", "Lanet.TV.ua", "lanet-tv.ua"],
+    "ThaiPBS.th": ["Thai.PBS.th", "thaipbs.th", "ThaiPBS.or.th"],
+}
+
 # Skip channels with no EPG available anywhere
 SKIP_CHANNELS = {
     "Video Tracking flood threats in Texas; dangerous heat coast-to-coast; wildfire smoke moving into the US | Watch Live News on ABCNL",
@@ -445,6 +478,15 @@ def main():
                 channel_map[display_name] = (src_id, src_root_idx)
                 print(f"   OK   {display_name} -> {src_id} (via tvg-id)")
                 found = True
+
+        if not found and info["tvg_id"] and info["tvg_id"] in TVG_ID_TO_EPG_MAP:
+            for alt_id in TVG_ID_TO_EPG_MAP[info["tvg_id"]]:
+                src_id, src_root_idx = find_epg_channel(alt_id, epg_roots)
+                if src_id:
+                    channel_map[display_name] = (src_id, src_root_idx)
+                    print(f"   OK   {display_name} -> {src_id} (via tvg-id map: {info['tvg_id']} -> {alt_id})")
+                    found = True
+                    break
 
         if not found:
             unmapped.append(display_name)
