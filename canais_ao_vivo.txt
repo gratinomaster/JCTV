@@ -1,32 +1,34 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 24/07/2026 05:49:27
+Data de extração: 24/07/2026 13:41:44
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. GloboNews Em Pauta
+2. Ao vivo
+
+Conexão GloboNews
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
 3. Classificação etária: 12
 12
 
-Chapolin
+Sessão Nostalgia Tapas E Beijo
 
-Injeção, Não! / O Paciente Teimoso
+Decisões Individuais, Problemas Em Conjunto
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
-4. Campeonato Brasileiro De Futebol
+4. Ao vivo
 
-Chapecoense X Flamengo
+Redação sportv
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
 5. Campeonato Brasileiro de Futebol
 
-Fluminense X Bragantino
+Mirassol X Grêmio
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
 6. Autoclassificação etária: 10
