@@ -1,38 +1,41 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" url-tvg="https://www.open-epg.com/files/brazil1.xml.gz" url-tvg="https://www.open-epg.com/files/brazil2.xml.gz"
+Now I have the complete list of terrestrial TV channels in Ribeirão Preto. Let me search for working online stream URLs for each one.
+Now let me check what tools are available and test the stream URLs I've found.
+Now let me test all the stream URLs I found. I'll test them in parallel batches using yt-dlp.
+Now let me search for YouTube live streams for local Ribeirão Preto channels and test more URLs.
+Let me test a few more streams before creating the final playlist.
+Let me also look for the SBT and Record streams specifically for Ribeirão Preto.
+Now I have enough verified streams. Let me create the playlist file matching the project's format.
+Now let me create the playlist file with all verified working channels from Ribeirão Preto.
+Let me do a final verification of all streams in the playlist.
+I need to remove the 3 failing streams. Let me fix the playlist.
+All 15 streams verified and working. Let me finalize.
+Playlist criada em `RIBEIRAO_PRETO.m3u` com **15 canais verificados e funcionando**.
 
-#EXTINF:-1 tvg-id="São.Paulo/SP..Globo.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV_Globo_hq_2.jpg/330px-TV_Globo_hq_2.jpg" group-title="TV ABERTA",TV Globo São Paulo
-http://138.255.2.6:8084/GLOBOHD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..SBT.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/langpt-330px-Logotipo_do_SBT.svg.png" group-title="TV ABERTA",SBT
-https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Band_2026_logo.png/330px-Band_2026_logo.png" group-title="TV ABERTA",Band
-http://45.190.28.50/BAND_HD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Record.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/0/0e/Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png/330px-Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png" group-title="TV ABERTA",Record TV
-https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Rede.TV.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/RedeTV%21_2019_logo.png/330px-RedeTV%21_2019_logo.png" group-title="TV ABERTA",RedeTV!
-https://streaming.cloudecast.com/hls/redetves/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Cultura.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cultura_logo_2013.svg/langpt-330px-Cultura_logo_2013.svg.png" group-title="TV ABERTA",TV Cultura
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..TV.Brasil.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TV_Brasil_logo_2023.svg/500px-TV_Brasil_logo_2023.svg.png" group-title="TV ABERTA",TV Brasil
-https://tvbrasil-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Rede.Vida.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Rede_Vida_logo.png/330px-Rede_Vida_logo.png" group-title="TV ABERTA",Rede Vida
-https://iptv.vivatele.com:443/live/viva_padrao/viva2384/49.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Futura.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Canal_Futura_2022.svg/langpt-330px-Canal_Futura_2022.svg.png" group-title="TV ABERTA",Canal Futura
-http://45.162.64.114/FUTURA/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..TV.Câmara.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/TV_C%C3%A2mara_logo_2018.png/330px-TV_C%C3%A2mara_logo_2018.png" group-title="TV ABERTA",TV Câmara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
+### Canais incluídos (todos testados com yt-dlp):
 
-#EXTINF:-1 tvg-id="São.Paulo/SP..Band.News.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BandNewsTV2024.svg/langpt-330px-BandNewsTV2024.svg.png" group-title="NOTÍCIAS",BandNews TV
-http://143.14.178.40:7777/Band_News_HD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..CNN.Brasil.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/CNN_Brasil_%28red_background%29.svg/langpt-330px-CNN_Brasil_%28red_background%29.svg.png" group-title="NOTÍCIAS",CNN Brasil
-https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP.Record.News.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Record_News_logo_2023.svg/langpt-330px-Record_News_logo_2023.svg.png" group-title="NOTÍCIAS",Record News
-https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+| Canal | Canal TV | Grupo |
+|---|---|---|
+| TV Cultura | 4.1 | TV Cultura |
+| TV Câmara Federal | 6.1 | TV Câmara |
+| TV Clube - Band Ribeirão Preto | 9.1 | Band |
+| Rede 21 - TV Universal | 11.1 | Rede 21 |
+| RecordTV Interior SP | 13.1 | Record |
+| TV Aparecida | 20.1 | Rede Aparecida |
+| Rede Vida | 21.1 | Rede Vida |
+| TV Brasil - EBC | 26.1 | EBC |
+| TV Canção Nova | 27.1 | Rede Canção Nova |
+| Rede Gospel | 38.1 | Rede Gospel |
+| RIT | 39.1 | Rede RIT |
+| RedeTV! | 43.1 | RedeTV |
+| ISTV | 49.1 | Regional |
+| Canal Educação - EBC | - | EBC |
+| Canal Gov - EBC | - | EBC |
 
-#EXTINF:-1 tvg-id="São.Paulo/SP..Multishow.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Multishow_logo_red_2012.svg/langpt-330px-Multishow_logo_red_2012.svg.png" group-title="ENTRETENIMENTO",Multishow
-http://143.14.178.40:7777/Multishow_HD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..GNT.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/GNT_logo-roxo.svg/langpt-330px-GNT_logo-roxo.svg.png" group-title="ENTRETENIMENTO",GNT
-http://143.14.178.40:7777/GNT_HD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Arte.1.HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arte_1_logo.svg/langpt-330px-Arte_1_logo.svg.png" group-title="ENTRETENIMENTO",Arte 1
-http://143.14.178.40:7777/Arte_1_HD/index.m3u8
-#EXTINF:-1 tvg-id="São.Paulo/SP..Play.TV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV_Globo_hq_2.jpg/330px-TV_Globo_hq_2.jpg" group-title="ENTRETENIMENTO",Play TV
-https://isaocorp.cloudecast.com/playtv/index.m3u8
+### Canais que NÃO foram incluídos (sem stream online funcional):
+
+- **EPTV Ribeirão/Globo** (7.1) - Só via Globoplay (tokens JWT expiram)
+- **SBT Ribeirão Preto** (5.1) - Sem M3U8 público estável
+- **TV Gazeta** (19.1) - Streams retornam 403/404
+- **TH+ TV** (32.1) - DNS offline
+- **Record News** (35.1) - Geo-bloqueado
+- **RFTV** (2.1), **Univesp** (4.2), **TV Alesp** (4.3/6.2), **Rede Câmara SP** (4.4), **TV Câmara RP** (6.3), **TV Senado** (6.4), **RBI TV** (8.1), **TV Pai Eterno** (48.1), **X-Sports** (55.1), **CNT** (59.1) - Sem stream M3U8 público
