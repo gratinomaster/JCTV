@@ -1,40 +1,40 @@
 ================================================================================
 CANAIS AO VIVO - GLOBOPLAY
 ================================================================================
-Data de extração: 25/07/2026 05:41:55
+Data de extração: 25/07/2026 08:04:22
 Total de canais: 9
 ================================================================================
 
 1. Associar operadora
    URL: https://globoplay.globo.com/tv-globo/ao-vivo/7832875/
 
-2. GloboNews Em Pauta
+2. Jornal das Dez
    URL: https://globoplay.globo.com/globonews/ao-vivo/6461772/
 
-3. Classificação etária: 12
-12
+3. Autoclassificação etária: 12
+A12
 
-Chapolin
+Vila, A
 
-O Bandido
+Churraschef
    URL: https://globoplay.globo.com/multishow/ao-vivo/9479865/
 
 4. Campeonato Brasileiro Feminino De Futebol
 
-Cruzeiro X São Paulo
+Flamengo X Grêmio
    URL: https://globoplay.globo.com/sportv/ao-vivo/9045469/
 
-5. Campeonato Brasileiro de Futebol
+5. Giro Da Rodada
 
-Cruzeiro X Fluminense
+Brasileirão - 18ª Rodada
    URL: https://globoplay.globo.com/premiere/ao-vivo/9553134/
 
-6. Autoclassificação etária: 14
-A14
+6. Autoclassificação etária: livre
+AL
 
-Saia Justa
+Santa Ajuda
 
-Cérebro fitness/ Elogio tem poder/ Gargalhar é preciso
+Quarto de boxe do João Vicente
    URL: https://globoplay.globo.com/gnt/ao-vivo/9311314/
 
 7. Autoclassificação etária: 14
