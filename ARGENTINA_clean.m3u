@@ -1,4 +1,0 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" tvg-shift=-3 cache=500 deinterlace=1 aspect-ratio=16:9
-
-#EXTINF:-1 tvg-id="DeporTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/DeporTV_logo.png/200px-DeporTV_logo.png" group-title="ARGENTINA", 
-https://stream.arcast.com.ar/deportv/ngrp:deportv_all/playlist.m3u8
