@@ -1,41 +1,40 @@
-Now I have the complete list of terrestrial TV channels in Ribeirão Preto. Let me search for working online stream URLs for each one.
-Now let me check what tools are available and test the stream URLs I've found.
-Now let me test all the stream URLs I found. I'll test them in parallel batches using yt-dlp.
-Now let me search for YouTube live streams for local Ribeirão Preto channels and test more URLs.
-Let me test a few more streams before creating the final playlist.
-Let me also look for the SBT and Record streams specifically for Ribeirão Preto.
-Now I have enough verified streams. Let me create the playlist file matching the project's format.
-Now let me create the playlist file with all verified working channels from Ribeirão Preto.
-Let me do a final verification of all streams in the playlist.
-I need to remove the 3 failing streams. Let me fix the playlist.
-All 15 streams verified and working. Let me finalize.
-Playlist criada em `RIBEIRAO_PRETO.m3u` com **15 canais verificados e funcionando**.
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz"
 
-### Canais incluídos (todos testados com yt-dlp):
+#EXTINF:-1 tvg-id="ABCNewsLive.us@SD" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider6.jpg" group-title="NEWS WORLD",ABC News Live
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
 
-| Canal | Canal TV | Grupo |
-|---|---|---|
-| TV Cultura | 4.1 | TV Cultura |
-| TV Câmara Federal | 6.1 | TV Câmara |
-| TV Clube - Band Ribeirão Preto | 9.1 | Band |
-| Rede 21 - TV Universal | 11.1 | Rede 21 |
-| RecordTV Interior SP | 13.1 | Record |
-| TV Aparecida | 20.1 | Rede Aparecida |
-| Rede Vida | 21.1 | Rede Vida |
-| TV Brasil - EBC | 26.1 | EBC |
-| TV Canção Nova | 27.1 | Rede Canção Nova |
-| Rede Gospel | 38.1 | Rede Gospel |
-| RIT | 39.1 | Rede RIT |
-| RedeTV! | 43.1 | RedeTV |
-| ISTV | 49.1 | Regional |
-| Canal Educação - EBC | - | EBC |
-| Canal Gov - EBC | - | EBC |
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6896a08f-952b-4e78-93c6-35cd015c214c/85e42af2-f3ff-487f-971e-e105924bc0e9/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox News Channel
+http://206.212.244.63/67/index.m3u8
 
-### Canais que NÃO foram incluídos (sem stream online funcional):
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e2e7cbb0-4085-43fa-a7d0-088b0e94c543/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox Business Network
+http://206.212.244.63/66/index.m3u8
 
-- **EPTV Ribeirão/Globo** (7.1) - Só via Globoplay (tokens JWT expiram)
-- **SBT Ribeirão Preto** (5.1) - Sem M3U8 público estável
-- **TV Gazeta** (19.1) - Streams retornam 403/404
-- **TH+ TV** (32.1) - DNS offline
-- **Record News** (35.1) - Geo-bloqueado
-- **RFTV** (2.1), **Univesp** (4.2), **TV Alesp** (4.3/6.2), **Rede Câmara SP** (4.4), **TV Câmara RP** (6.3), **TV Senado** (6.4), **RBI TV** (8.1), **TV Pai Eterno** (48.1), **X-Sports** (55.1), **CNT** (59.1) - Sem stream M3U8 público
+#EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
+http://40.160.24.56/CBS_NEWS/index.m3u8
+
+#EXTINF:-1 tvg-id="BBCNews.uk@SD" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",BBC News
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera.svg/200px-Aljazeera.svg.png" group-title="NEWS WORLD",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/France_24_logo.svg/200px-France_24_logo.svg.png" group-title="NEWS WORLD",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="DW.de@English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DW_Logo_2012.svg/200px-DW_Logo_2012.svg.png" group-title="NEWS WORLD",DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bloomberg_Television_logo_2014.svg/200px-Bloomberg_Television_logo_2014.svg.png" group-title="NEWS WORLD",Bloomberg TV
+http://206.212.244.63/22/index.m3u8
+
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CNBC_logo.svg/200px-CNBC_logo.svg.png" group-title="NEWS WORLD",CNBC
+http://206.212.244.63/41/index.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/TRT_World_logo.svg/200px-TRT_World_logo.svg.png" group-title="NEWS WORLD",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Weather_logo.svg/200px-Fox_Weather_logo.svg.png" group-title="NEWS WORLD",Fox Weather
+http://206.212.244.63/68/index.m3u8
+
+#EXTINF:-1 tvg-id="CheddarNews.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cheddar_News_logo.svg/200px-Cheddar_News_logo.svg.png" group-title="NEWS WORLD",Cheddar News
+http://206.212.244.63/35/index.m3u8
