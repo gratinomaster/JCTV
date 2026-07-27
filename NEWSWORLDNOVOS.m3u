@@ -1,16 +1,18 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml,https://epg.pw/xmltv/epg_GB.xml" tvg-rec="28" catchup-days="28" catchup="shift"
+#EXTM3U x-tvg-url="http://epg.it999.ru/epg.xml.gz"
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Channel4London.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-uk.png" group-title="Entertainment",Channel 4
-https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
+#EXTINF:-1 tvg-id="KCTV" tvg-name="KCTV SD" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="🇰🇵 Coreia do Norte",Korean Central Television (KCTV) (576p)
+#EXTVLCOPT:http-referrer=https://kcnawatch.org/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.4044.138 Safari/537.36
+https://streamer.nknews.org/tvdash/stream.mpd
 
-#EXTINF:-1 tvg-chno="231" tvg-id="BBCNews.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.m3u8
+#EXTINF:-1 tvg-id="KCTV" tvg-name="KCTV Main" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KCTV_logo.svg/200px-KCTV_logo.svg.png" group-title="🇰🇵 Coreia do Norte",KCTV (Korean Central TV)
+https://tv.intchoson.com/kctv/index.m3u8
 
-#EXTINF:-1 tvg-chno="234" tvg-id="GBNews.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gb-news-uk.png" group-title="News",GB News
-https://amg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="Ryongnamsan" tvg-name="Ryongnamsan TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ryongnamsan_Television_logo.png/220px-Ryongnamsan_Television_logo.png" group-title="🇰🇵 Coreia do Norte",Ryongnamsan TV (Educação)
+http://122.202.129.136:1935/live/ch4/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="235" tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/dp247/mediaportal-uk-logos/master/TV/Bloomberg-TV-HD.png" group-title="News",Bloomberg TV Europe
-https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="Mansudae" tvg-name="Mansudae TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Mansudae_TV_logo.png" group-title="🇰🇵 Coreia do Norte",Mansudae TV (Fim de Semana)
+rtmp://122.202.129.136:1935/live/ch2
 
-#EXTINF:-1 tvg-chno="236" tvg-id="CNBCEurope.uk" tvg-logo="https://raw.githubusercontent.com/dp247/mediaportal-uk-logos/master/TV/CNBC.png" group-title="News",CNBC Europe
-https://amg01079-nbcuuk-amg01079c2-lg-gb-2030.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="KCS" tvg-name="KCS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/North_Korean_Sports_TV_logo.png" group-title="🇰🇵 Coreia do Norte",Coreia Esportes (KCS)
+http://122.202.129.136:1935/live/ch3/playlist.m3u8
