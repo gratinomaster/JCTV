@@ -2,10 +2,13 @@
 """Gera EPGFULL.xml.gz com APENAS os canais que existem no NEWSWORLDNOVOS.m3u.
 
 Fonte principal de programacao: KORYO.TV (https://koryo.tv/schedule) que publica
-a agenda real da Korean Central Television (KCTV). Como as emissoras da Coreia
-do Norte (Ryongnamsan, Mansudae, KCS) nao publicam grade eletronica, os canais
-sao incluidos na definicao do guia para o TiviMate reconhece-los, e os
-programas entram conforme a fonte disponibiliza.
+a agenda real da Korean Central Television (KCTV). Se o endpoint do KORYO.TV
+estiver fora do ar, usa o snapshot mais recente arquivado no Internet Archive
+(Wayback Machine) para nao deixar o guia vazio.
+
+Como as emissoras da Coreia do Norte (Ryongnamsan, Mansudae, KCS) nao publicam
+grade eletronica, elas entram como definicao de canal (<channel>) para o TiviMate
+reconhecer o tvg-id, e os programas entram conforme a fonte disponibiliza.
 
 Se o arquivo EPGFULL.xml.gz ja existir, ele e sobrescrito.
 """
@@ -13,6 +16,7 @@ import gzip
 import json
 import os
 import re
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 import xml.sax.saxutils as sax
@@ -21,7 +25,6 @@ from datetime import datetime, timedelta, timezone
 M3U_URL = "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
-KORYO_INDEX = "https://koryo.tv/assets/index-CFdq27ZA.js"
 KORYO_HEADER = {
     "X-Koryo-Epg": "1",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
@@ -32,6 +35,11 @@ GLOBO_EPG = "GLOBOEPG.xml.gz"
 PYONGYANG = timezone(timedelta(hours=9))
 
 KORYO_TO_TVG = {"kctv": "KCTV"}
+
+# Janela de retencao: nao deixar o guia maior do que o necessario (so a grade
+# dos ultimos 2 dias ate os proximos 10 dias, no fuso de Pyongyang).
+KEEP_BEFORE = timedelta(days=2)
+KEEP_AFTER = timedelta(days=10)
 
 
 def http_get(url, headers=None, timeout=90):
@@ -57,24 +65,48 @@ def parse_m3u(data):
     return channels
 
 
+def wayback_latest(url):
+    today = datetime.now(timezone.utc).date()
+    for cand in (url.split("://", 1)[-1], url):
+        for ts in (today, today + timedelta(days=1)):
+            api = "http://archive.org/wayback/available?url={}&timestamp={}".format(
+                urllib.parse.quote(cand, safe=""), ts.strftime("%Y%m%d")
+            )
+            try:
+                info = json.loads(http_get(api, timeout=30).decode("utf-8", errors="ignore"))
+            except Exception:
+                continue
+            snap = (info.get("archived_snapshots") or {}).get("closest") or {}
+            if snap.get("available") and snap.get("status") == "200":
+                return snap["url"]
+    return None
+
+
 def fetch_koryo():
-    url = KORYO_EPG_URL
+    live = True
+    source = "KORYO.TV (ao vivo)"
     try:
-        raw = http_get(url, headers=KORYO_HEADER)
+        raw = http_get(KORYO_EPG_URL, headers=KORYO_HEADER)
     except Exception as e:
-        print(f"    ERRO no endpoint koryo ({e}); tentando descobrir a URL nova...")
+        print(f"    ERRO no endpoint koryo ({e}); procurando snapshot no Wayback Machine...")
         raw = None
         try:
-            js = http_get(KORYO_INDEX, timeout=30).decode("utf-8", errors="ignore")
-            m = re.search(r"/api/epg/[a-f0-9]+\.dat", js)
-            if m:
-                raw = http_get("https://koryo.tv" + m.group(0), headers=KORYO_HEADER)
+            snap_url = wayback_latest(KORYO_EPG_URL)
+            if snap_url:
+                print(f"    Snapshot encontrado: {snap_url}")
+                # O sufixo "id_" faz o Wayback Machine servir o arquivo bruto
+                # (sem a pagina HTML de confirmação).
+                snap_url = re.sub(r"/web/(\d+)/", r"/web/\1id_/", snap_url)
+                raw = http_get(snap_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=120)
+                source = "Internet Archive (Wayback Machine)"
+                live = False
         except Exception as e2:
-            print(f"    ERRO ao descobrir endpoint novo: {e2}")
+            print(f"    ERRO ao consultar o Wayback Machine: {e2}")
     if not raw:
-        raise RuntimeError("Nao foi possivel baixar o EPG do KORYO.TV")
+        raise RuntimeError("Nao foi possivel baixar o EPG do KORYO.TV (fonte e snapshot indisponiveis)")
     data = gzip.decompress(raw).decode("utf-8", errors="ignore")
-    return json.loads(data).get("events", [])
+    events = json.loads(data).get("events", [])
+    return events, source, live
 
 
 def iso_to_xmltv(iso_str):
@@ -98,6 +130,7 @@ def build_programme(ev, tvg_id):
 
 def main():
     now = datetime.now(timezone.utc)
+    pyongyang_now = now.astimezone(PYONGYANG)
 
     print("=== ETAPA 1: Baixar M3U ===")
     m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
@@ -112,13 +145,31 @@ def main():
 
     print(f"  Baixando KORYO.TV (KCTV): {KORYO_EPG_URL}")
     try:
-        events = fetch_koryo()
+        events, source, live = fetch_koryo()
+        print(f"    Fonte: {source}")
         print(f"    Eventos recebidos: {len(events)}")
+
+        # Janela de retencao para dados ao vivo (guia enxuto). Dados de snapshot
+        # (source caiu) entram por completo para o guia nao ficar vazio.
+        oldest_ok = pyongyang_now - KEEP_BEFORE
+        newest_ok = pyongyang_now + KEEP_AFTER
+        kept = 0
         for ev in events:
             tvg_id = KORYO_TO_TVG.get(ev.get("channel"))
             if not tvg_id or tvg_id not in channels:
                 continue
+            try:
+                start = datetime.fromisoformat(ev["startUtc"]).astimezone(PYONGYANG)
+            except Exception:
+                continue
+            if live and (start < oldest_ok or start > newest_ok):
+                continue
+            kept += 1
             all_programmes.setdefault(tvg_id, []).append(build_programme(ev, tvg_id))
+        if live:
+            print(f"    Programas dentro da janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {kept}")
+        else:
+            print(f"    Programas aproveitados do snapshot: {kept}")
     except Exception as e:
         print(f"    ERRO: {e}")
 
@@ -171,7 +222,14 @@ def main():
     print(f"  Canais: {ch_count}")
     print(f"  Programas: {prog_count}")
 
-    pyongyang_now = now.astimezone(PYONGYANG)
+    # Compatibilidade com TiviMate: todo <programme> deve referenciar um canal
+    # que existe no XMLTV e tvg-ids devem casar com a playlist.
+    defined = {ch.get("id") for ch in root.findall("channel")}
+    orphan = [p.get("channel") for p in root.findall("programme") if p.get("channel") not in defined]
+    missing = [cid for cid in wanted_ids if cid not in defined]
+    print(f"  Programas sem canal correspondente: {len(orphan)}")
+    print(f"  Canais do M3U ausentes no guia: {len(missing)}")
+
     today = pyongyang_now.date()
     tomorrow = today + timedelta(days=1)
     today_s = today.strftime("%Y%m%d")
@@ -186,7 +244,7 @@ def main():
             tomorrow_progs += 1
 
     for cid in wanted_ids:
-        ch_found = root.find(f'channel[@id="{cid}"]') is not None
+        ch_found = cid in defined
         c_progs = sum(1 for p in root.findall(f'programme[@channel="{cid}"]'))
         print(f"    {cid}: {'OK' if ch_found else 'FALTA'} ({c_progs} programas)")
 
@@ -199,7 +257,7 @@ def main():
     if tomorrow_progs:
         print("  Teste amanha: OK")
     else:
-        print("  Teste amanha: dados ainda nao publicados pela fonte (saem no fim da transmissao de hoje)")
+        print("  Teste amanha: FALHOU (dados nao publicados pela fonte ainda)")
 
     print("\n=== CONCLUIDO ===")
 
