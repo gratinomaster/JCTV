@@ -7,7 +7,9 @@ Pyongyang). Fontes usadas, em ordem:
 
   1. KORYO.TV (https://koryo.tv/schedule) para a Korean Central Television
      (KCTV). Se o endpoint do KORYO.TV estiver fora do ar, usa o snapshot
-     mais recente arquivado no Internet Archive (Wayback Machine).
+     mais recente arquivado no Internet Archive (Wayback Machine) e, se ainda
+     assim nao houver dados na janela, a API diaria do Juche TV
+     (https://juche-tv.vercel.app/schedules).
   2. epgshare01 (https://epgshare01.online/epgshare01/) para os demais
      canais. O arquivo e escolhido pelo pais indicado no sufixo do tvg-id
      (ex.: "...ar" -> AR1, "...us" -> US2), usando o indice do proprio site.
@@ -48,6 +50,8 @@ KORYO_HEADER = {
 
 EPGSHARE01_INDEX = "https://epgshare01.online/epgshare01/"
 EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
+
+JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}"
 
 
 def http_get(url, headers=None, timeout=90):
@@ -115,6 +119,47 @@ def fetch_koryo():
     data = gzip.decompress(raw).decode("utf-8", errors="ignore")
     events = json.loads(data).get("events", [])
     return events, source, live
+
+
+def fetch_juche(koryo_id, oldest_ok, newest_ok):
+    """Fallback para KCTV: programacao diaria do Juche TV (API independente)."""
+    programmes = []
+    seen = set()
+    day = oldest_ok.date()
+    end_day = newest_ok.date()
+    while day <= end_day:
+        iso_day = day.strftime("%Y-%m-%d")
+        try:
+            data = json.loads(http_get(JUCHE_API.format(iso_day), timeout=60)
+                              .decode("utf-8", errors="ignore"))
+        except Exception:
+            data = {}
+        for prog in data.get("programs", []):
+            try:
+                start = datetime.fromisoformat(f"{iso_day}T{prog['start']}:00+09:00")
+                end = datetime.fromisoformat(f"{iso_day}T{prog['end']}:00+09:00")
+            except Exception:
+                continue
+            if end <= start:
+                end += timedelta(days=1)
+            if start < oldest_ok or start > newest_ok:
+                continue
+            title = prog.get("title") or {}
+            category = prog.get("category") or {}
+            ev = {
+                "startUtc": start.isoformat(),
+                "endUtc": end.isoformat(),
+                "title": title.get("ko"),
+                "titleEn": title.get("en"),
+                "category": category.get("en") or category.get("ko"),
+            }
+            block = build_programme(ev, koryo_id)
+            key = (koryo_id, block)
+            if key not in seen:
+                seen.add(key)
+                programmes.append(block)
+        day += timedelta(days=1)
+    return programmes
 
 
 def koryo_target_id(channels):
@@ -263,6 +308,14 @@ def main():
             print(f"    Programas na janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {kept}")
         except Exception as e:
             print(f"    ERRO: {e}")
+        if not all_programmes.get(koryo_id):
+            print(f"  KCTV sem dados do KORYO; baixando Juche TV como fallback")
+            try:
+                juche = fetch_juche(koryo_id, oldest_ok, newest_ok)
+                add_programmes(all_programmes, seen, koryo_id, juche)
+                print(f"    Programas Juche TV na janela: {len(juche)}")
+            except Exception as e:
+                print(f"    ERRO no Juche TV: {e}")
     else:
         print("  KCTV nao esta na playlist; pulando KORYO.TV.")
 
