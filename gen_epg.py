@@ -1,21 +1,27 @@
 #!/usr/bin/env python3
 """Gera EPGFULL.xml.gz com APENAS os canais que existem no NEWSWORLDNOVOS.m3u.
 
-Fonte principal de programacao: KORYO.TV (https://koryo.tv/schedule) que publica
-a agenda real da Korean Central Television (KCTV). Se o endpoint do KORYO.TV
-estiver fora do ar, usa o snapshot mais recente arquivado no Internet Archive
-(Wayback Machine) para nao deixar o guia vazio.
+O guia sai enxuto: so entram os tvg-ids presentes na playlist e os programas
+dentro da janela de retencao (2 dias antes ate 10 dias depois, fuso de
+Pyongyang). Fontes usadas, em ordem:
 
-Como as emissoras da Coreia do Norte (Ryongnamsan, Mansudae, KCS) nao publicam
-grade eletronica, elas entram como definicao de canal (<channel>) para o TiviMate
-reconhecer o tvg-id, e os programas entram conforme a fonte disponibiliza.
+  1. KORYO.TV (https://koryo.tv/schedule) para a Korean Central Television
+     (KCTV). Se o endpoint do KORYO.TV estiver fora do ar, usa o snapshot
+     mais recente arquivado no Internet Archive (Wayback Machine).
+  2. epgshare01 (https://epgshare01.online/epgshare01/) para os demais
+     canais. O arquivo e escolhido pelo pais indicado no sufixo do tvg-id
+     (ex.: "...ar" -> AR1, "...us" -> US2), usando o indice do proprio site.
+  3. GLOBOEPG.xml.gz local, como fonte complementar.
 
-Se o arquivo EPGFULL.xml.gz ja existir, ele e sobrescrito.
+Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado e XMLTV valido
+e compativel com TiviMate (todo <programme> referencia um <channel> que
+existe no guia e os tvg-ids casam com a playlist).
 """
 import gzip
 import json
 import os
 import re
+import tempfile
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -24,6 +30,14 @@ from datetime import datetime, timedelta, timezone
 
 M3U_URL = "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
+GLOBO_EPG = "GLOBOEPG.xml.gz"
+
+PYONGYANG = timezone(timedelta(hours=9))
+
+# Janela de retencao: nao deixar o guia maior do que o necessario.
+KEEP_BEFORE = timedelta(days=2)
+KEEP_AFTER = timedelta(days=10)
+
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
 KORYO_HEADER = {
     "X-Koryo-Epg": "1",
@@ -31,15 +45,9 @@ KORYO_HEADER = {
     "Accept": "*/*",
     "Referer": "https://koryo.tv/schedule",
 }
-GLOBO_EPG = "GLOBOEPG.xml.gz"
-PYONGYANG = timezone(timedelta(hours=9))
 
-KORYO_TO_TVG = {"kctv": "KCTV"}
-
-# Janela de retencao: nao deixar o guia maior do que o necessario (so a grade
-# dos ultimos 2 dias ate os proximos 10 dias, no fuso de Pyongyang).
-KEEP_BEFORE = timedelta(days=2)
-KEEP_AFTER = timedelta(days=10)
+EPGSHARE01_INDEX = "https://epgshare01.online/epgshare01/"
+EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
 
 
 def http_get(url, headers=None, timeout=90):
@@ -95,7 +103,7 @@ def fetch_koryo():
             if snap_url:
                 print(f"    Snapshot encontrado: {snap_url}")
                 # O sufixo "id_" faz o Wayback Machine servir o arquivo bruto
-                # (sem a pagina HTML de confirmação).
+                # (sem a pagina HTML de confirmacao).
                 snap_url = re.sub(r"/web/(\d+)/", r"/web/\1id_/", snap_url)
                 raw = http_get(snap_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=120)
                 source = "Internet Archive (Wayback Machine)"
@@ -107,6 +115,14 @@ def fetch_koryo():
     data = gzip.decompress(raw).decode("utf-8", errors="ignore")
     events = json.loads(data).get("events", [])
     return events, source, live
+
+
+def koryo_target_id(channels):
+    for cid in channels:
+        low = cid.lower()
+        if "koreancentral" in low or "kctv" in low or low.endswith(".kp"):
+            return cid
+    return None
 
 
 def iso_to_xmltv(iso_str):
@@ -128,9 +144,85 @@ def build_programme(ev, tvg_id):
     return "\n".join(parts)
 
 
+def parse_xmltv_time(s):
+    s = s.strip()
+    try:
+        return datetime.strptime(s, "%Y%m%d%H%M%S %z")
+    except ValueError:
+        try:
+            return datetime.strptime(s[:8], "%Y%m%d").replace(tzinfo=PYONGYANG)
+        except Exception:
+            return None
+
+
+def list_epgshare01_files():
+    html = http_get(EPGSHARE01_INDEX, timeout=60).decode("utf-8", errors="ignore")
+    mapping = {}
+    for fn in re.findall(r'href="(epg_ripper_[A-Za-z0-9]+\.xml\.gz)"', html):
+        m = re.match(r"epg_ripper_([A-Za-z]+)\d*\.xml\.gz", fn)
+        if m:
+            mapping.setdefault(m.group(1).lower(), fn)
+    return mapping
+
+
+def extract_xmltv(url, wanted, oldest_ok, newest_ok):
+    """Baixa um XMLTV .gz e extrai apenas os canais desejados.
+
+    Retorna (channels, programmes): dicts de tvg-id -> lista de blocos XML.
+    """
+    channels = {}
+    programmes = {}
+    raw = http_get(url, timeout=180)
+    tmp = tempfile.NamedTemporaryFile(delete=False)
+    try:
+        tmp.write(raw)
+        tmp.close()
+        with gzip.open(tmp.name, "rb") as f:
+            for _event, elem in ET.iterparse(f, events=("end",)):
+                if elem.tag == "channel":
+                    cid = elem.get("id")
+                    if cid in wanted:
+                        channels.setdefault(cid, ET.tostring(elem, encoding="unicode"))
+                    elem.clear()
+                elif elem.tag == "programme":
+                    cid = elem.get("channel")
+                    if cid in wanted:
+                        start = parse_xmltv_time(elem.get("start", ""))
+                        if start is not None and oldest_ok <= start <= newest_ok:
+                            programmes.setdefault(cid, []).append(
+                                ET.tostring(elem, encoding="unicode")
+                            )
+                    elem.clear()
+    finally:
+        try:
+            os.unlink(tmp.name)
+        except OSError:
+            pass
+    return channels, programmes
+
+
+def channel_block_from_m3u(cid, info):
+    parts = [f'  <channel id="{sax.escape(cid)}">']
+    parts.append(f'    <display-name>{sax.escape(info["name"])}</display-name>')
+    if info.get("logo"):
+        parts.append(f'    <icon src="{sax.escape(info["logo"])}"/>')
+    parts.append("  </channel>")
+    return "\n".join(parts)
+
+
+def add_programmes(all_programmes, seen, cid, blocks):
+    for block in blocks:
+        key = (cid, block)
+        if key not in seen:
+            seen.add(key)
+            all_programmes.setdefault(cid, []).append(block)
+
+
 def main():
     now = datetime.now(timezone.utc)
     pyongyang_now = now.astimezone(PYONGYANG)
+    oldest_ok = pyongyang_now - KEEP_BEFORE
+    newest_ok = pyongyang_now + KEEP_AFTER
 
     print("=== ETAPA 1: Baixar M3U ===")
     m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
@@ -142,37 +234,73 @@ def main():
 
     print("\n=== ETAPA 2: Baixar EPGs ===")
     all_programmes = {}
+    seen = set()
+    channel_xml = {}
+    files_cache = {}
 
-    print(f"  Baixando KORYO.TV (KCTV): {KORYO_EPG_URL}")
+    # 2.1 KCTV via KORYO.TV (live -> Wayback Machine)
+    koryo_id = koryo_target_id(channels)
+    if koryo_id:
+        print(f"  KCTV detectado: {koryo_id}")
+        print(f"  Baixando KORYO.TV: {KORYO_EPG_URL}")
+        try:
+            events, source, live = fetch_koryo()
+            print(f"    Fonte: {source}")
+            print(f"    Eventos recebidos: {len(events)}")
+            kept = 0
+            for ev in events:
+                if ev.get("channel") != "kctv":
+                    continue
+                try:
+                    start = datetime.fromisoformat(ev["startUtc"]).astimezone(PYONGYANG)
+                except Exception:
+                    continue
+                if start < oldest_ok or start > newest_ok:
+                    continue
+                kept += 1
+                add_programmes(all_programmes, seen, koryo_id,
+                               [build_programme(ev, koryo_id)])
+            print(f"    Programas na janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {kept}")
+        except Exception as e:
+            print(f"    ERRO: {e}")
+    else:
+        print("  KCTV nao esta na playlist; pulando KORYO.TV.")
+
+    # 2.2 epgshare01: escolhe arquivo pelo pais do sufixo do tvg-id
     try:
-        events, source, live = fetch_koryo()
-        print(f"    Fonte: {source}")
-        print(f"    Eventos recebidos: {len(events)}")
-
-        # Janela de retencao para dados ao vivo (guia enxuto). Dados de snapshot
-        # (source caiu) entram por completo para o guia nao ficar vazio.
-        oldest_ok = pyongyang_now - KEEP_BEFORE
-        newest_ok = pyongyang_now + KEEP_AFTER
-        kept = 0
-        for ev in events:
-            tvg_id = KORYO_TO_TVG.get(ev.get("channel"))
-            if not tvg_id or tvg_id not in channels:
-                continue
-            try:
-                start = datetime.fromisoformat(ev["startUtc"]).astimezone(PYONGYANG)
-            except Exception:
-                continue
-            if live and (start < oldest_ok or start > newest_ok):
-                continue
-            kept += 1
-            all_programmes.setdefault(tvg_id, []).append(build_programme(ev, tvg_id))
-        if live:
-            print(f"    Programas dentro da janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {kept}")
-        else:
-            print(f"    Programas aproveitados do snapshot: {kept}")
+        epg_files = list_epgshare01_files()
     except Exception as e:
-        print(f"    ERRO: {e}")
+        print(f"  ERRO ao listar indice do epgshare01: {e}")
+        epg_files = {}
 
+    for cid in wanted_ids:
+        if cid == koryo_id:
+            continue
+        last = cid.rsplit(".", 1)[-1]
+        country = re.sub(r"\d+$", "", last).lower()
+        filename = epg_files.get(country)
+        if not filename:
+            print(f"    {cid}: sem fonte epgshare01 para o pais '{country}' "
+                  f"(so a definicao do canal entra no guia)")
+            continue
+        if filename in files_cache:
+            src_channels, src_programmes = files_cache[filename]
+        else:
+            url = EPGSHARE01_URL.format(filename)
+            print(f"    {cid}: baixando {filename}")
+            try:
+                src_channels, src_programmes = extract_xmltv(url, wanted_ids, oldest_ok, newest_ok)
+                files_cache[filename] = (src_channels, src_programmes)
+            except Exception as e:
+                print(f"    ERRO ao baixar/ler {filename}: {e}")
+                continue
+        if cid in src_channels:
+            channel_xml.setdefault(cid, src_channels[cid])
+        n = len(src_programmes.get(cid, []))
+        add_programmes(all_programmes, seen, cid, src_programmes.get(cid, []))
+        print(f"      {cid}: {n} programas (epgshare01)")
+
+    # 2.3 GLOBOEPG.xml.gz local como fonte complementar
     if os.path.exists(GLOBO_EPG):
         try:
             print(f"  Lendo EPG local: {GLOBO_EPG}")
@@ -185,7 +313,7 @@ def main():
                 )
                 found = pat.findall(globo)
                 if found:
-                    all_programmes.setdefault(cid, []).extend(found)
+                    add_programmes(all_programmes, seen, cid, found)
                     print(f"    {cid}: {len(found)} programas (Globo)")
         except Exception as e:
             print(f"    ERRO: {e}")
@@ -195,13 +323,7 @@ def main():
                  '<tv generator-info-name="JCTV EPG Generator" '
                  'generator-info-url="https://github.com/gratinomaster/JCTV">']
     for cid in wanted_ids:
-        info = channels[cid]
-        chan = [f'  <channel id="{sax.escape(cid)}">']
-        chan.append(f'    <display-name>{sax.escape(info["name"])}</display-name>')
-        if info["logo"]:
-            chan.append(f'    <icon src="{sax.escape(info["logo"])}"/>')
-        chan.append("  </channel>")
-        xml_parts.append("\n".join(chan))
+        xml_parts.append(channel_xml.get(cid) or channel_block_from_m3u(cid, channels[cid]))
         for prog in all_programmes.get(cid, []):
             xml_parts.append(prog)
     xml_parts.append("</tv>")
