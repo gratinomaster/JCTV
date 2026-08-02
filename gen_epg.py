@@ -53,6 +53,10 @@ EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
 
 JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}"
 
+# Dados diarios de KCTV publicados no repo Bloxyplay/JucheTV-EPG-API (mesma
+# fonte que o site Juche TV exibe), usados quando o KORYO.TV esta fora do ar.
+JUCHE_GITHUB_URL = "https://raw.githubusercontent.com/Bloxyplay/JucheTV-EPG-API/main/epg/KCTV/{}.json"
+
 
 def http_get(url, headers=None, timeout=90):
     req = urllib.request.Request(url, headers=headers or {"User-Agent": "Mozilla/5.0"})
@@ -152,6 +156,52 @@ def fetch_juche(koryo_id, oldest_ok, newest_ok):
                 "title": title.get("ko"),
                 "titleEn": title.get("en"),
                 "category": category.get("en") or category.get("ko"),
+            }
+            block = build_programme(ev, koryo_id)
+            key = (koryo_id, block)
+            if key not in seen:
+                seen.add(key)
+                programmes.append(block)
+        day += timedelta(days=1)
+    return programmes
+
+
+def fetch_juche_github(koryo_id, oldest_ok, newest_ok):
+    """Fallback para KCTV: arquivos diarios do Bloxyplay/JucheTV-EPG-API.
+
+    Os arquivos (epg/KCTV/YYYY-MM-DD.json) contem a mesma programacao que o
+    site Juche TV exibe; horarios em Pyongyang, sem depender do KORYO.TV.
+    """
+    programmes = []
+    seen = set()
+    day = oldest_ok.date()
+    end_day = newest_ok.date()
+    while day <= end_day:
+        iso_day = day.strftime("%Y-%m-%d")
+        try:
+            data = json.loads(http_get(JUCHE_GITHUB_URL.format(iso_day), timeout=60)
+                              .decode("utf-8", errors="ignore"))
+        except Exception:
+            day += timedelta(days=1)
+            continue
+        for prog in data.get("programs", []):
+            try:
+                start = datetime.strptime(f"{iso_day}T{prog['start']}:00+09:00",
+                                          "%Y-%m-%dT%H:%M:%S%z")
+                end = datetime.strptime(f"{iso_day}T{prog['end']}:00+09:00",
+                                        "%Y-%m-%dT%H:%M:%S%z")
+            except Exception:
+                continue
+            if end <= start:
+                end += timedelta(days=1)
+            if start < oldest_ok or start > newest_ok:
+                continue
+            title = prog.get("title") or {}
+            ev = {
+                "startUtc": start.isoformat(),
+                "endUtc": end.isoformat(),
+                "title": title.get("ko"),
+                "titleEn": title.get("en"),
             }
             block = build_programme(ev, koryo_id)
             key = (koryo_id, block)
@@ -309,7 +359,15 @@ def main():
         except Exception as e:
             print(f"    ERRO: {e}")
         if not all_programmes.get(koryo_id):
-            print(f"  KCTV sem dados do KORYO; baixando Juche TV como fallback")
+            print(f"  KCTV sem dados do KORYO; baixando GitHub Bloxyplay como fallback")
+            try:
+                github_juche = fetch_juche_github(koryo_id, oldest_ok, newest_ok)
+                add_programmes(all_programmes, seen, koryo_id, github_juche)
+                print(f"    Programas Bloxyplay na janela: {len(github_juche)}")
+            except Exception as e:
+                print(f"    ERRO no GitHub Bloxyplay: {e}")
+        if not all_programmes.get(koryo_id):
+            print(f"  KCTV sem dados; baixando Juche TV como fallback")
             try:
                 juche = fetch_juche(koryo_id, oldest_ok, newest_ok)
                 add_programmes(all_programmes, seen, koryo_id, juche)
