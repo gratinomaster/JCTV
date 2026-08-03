@@ -51,6 +51,13 @@ KORYO_HEADER = {
 EPGSHARE01_INDEX = "https://epgshare01.online/epgshare01/"
 EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
 
+# Pluto TV: o canal "Big Brother 24/7" (tvg-id BigBrother.us) tem guia real
+# publicado no i.mjh.nz com o site_id 6661f11a41af6400080e90d8. Mapeamos o
+# site_id de volta para o tvg-id usado na playlist para casar com o EPGFULL.
+PLUTO_BB_ID = "BigBrother.us"
+PLUTO_BB_SRC_ID = "6661f11a41af6400080e90d8"
+PLUTO_EPG_URL = "https://i.mjh.nz/PlutoTV/us.xml.gz"
+
 JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}"
 
 # Dados diarios de KCTV publicados no repo Bloxyplay/JucheTV-EPG-API (mesma
@@ -296,6 +303,24 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok):
     return channels, programmes
 
 
+def remap_pluto_bb(channels, programmes):
+    """Renomeia o site_id do Pluto (6661f11a41af6400080e90d8) para o tvg-id
+    usado na playlist (BigBrother.us), nos blocos de canal e de programa."""
+    out_channels = {}
+    out_programmes = {}
+    for cid, block in channels.items():
+        out_channels[PLUTO_BB_ID] = block.replace(
+            'id="{}"'.format(PLUTO_BB_SRC_ID), 'id="{}"'.format(PLUTO_BB_ID)
+        )
+    for cid, blocks in programmes.items():
+        for b in blocks:
+            out_programmes.setdefault(PLUTO_BB_ID, []).append(
+                b.replace('channel="{}"'.format(PLUTO_BB_SRC_ID),
+                          'channel="{}"'.format(PLUTO_BB_ID))
+            )
+    return out_channels, out_programmes
+
+
 def channel_block_from_m3u(cid, info):
     parts = [f'  <channel id="{sax.escape(cid)}">']
     parts.append(f'    <display-name>{sax.escape(info["name"])}</display-name>')
@@ -386,6 +411,24 @@ def main():
 
     for cid in wanted_ids:
         if cid == koryo_id:
+            continue
+        if cid == PLUTO_BB_ID:
+            print(f"    {cid}: baixando Pluto TV (i.mjh.nz): {PLUTO_EPG_URL}")
+            try:
+                src_channels, src_programmes = extract_xmltv(
+                    PLUTO_EPG_URL, [PLUTO_BB_SRC_ID], oldest_ok, newest_ok
+                )
+                src_channels, src_programmes = remap_pluto_bb(
+                    src_channels, src_programmes
+                )
+            except Exception as e:
+                print(f"    ERRO ao baixar/ler {PLUTO_EPG_URL}: {e}")
+                src_channels, src_programmes = {}, {}
+            if cid in src_channels:
+                channel_xml.setdefault(cid, src_channels[cid])
+            n = len(src_programmes.get(cid, []))
+            add_programmes(all_programmes, seen, cid, src_programmes.get(cid, []))
+            print(f"      {cid}: {n} programas (Pluto TV / i.mjh.nz)")
             continue
         last = cid.rsplit(".", 1)[-1]
         country = re.sub(r"\d+$", "", last).lower()
