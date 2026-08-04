@@ -338,6 +338,33 @@ def add_programmes(all_programmes, seen, cid, blocks):
             all_programmes.setdefault(cid, []).append(block)
 
 
+def extend_last_programme(blocks, stop_str):
+    """Estende o stop do programa mais recente para cobrir a janela de retencao.
+
+    Usado para canais 24/7 (ex.: Pluto TV "Big Brother") cuja fonte so publica
+    a programacao ate o fim do dia atual: o programa em exibicao continua ao
+    vivo, entao estendemos o stop ate o fim da janela sem inventar titulos.
+    """
+    if not blocks:
+        return blocks
+    latest = None
+    latest_idx = -1
+    for i, b in enumerate(blocks):
+        m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', b)
+        if m and (latest is None or m.group(1) > latest):
+            latest = m.group(1)
+            latest_idx = i
+    if latest_idx < 0:
+        return blocks
+    blocks[latest_idx] = re.sub(
+        r'stop="\d{8}\d{6}\s+[+-]\d{4}"',
+        'stop="{}"'.format(stop_str),
+        blocks[latest_idx],
+        count=1,
+    )
+    return blocks
+
+
 def main():
     now = datetime.now(timezone.utc)
     pyongyang_now = now.astimezone(PYONGYANG)
@@ -426,8 +453,14 @@ def main():
                 src_channels, src_programmes = {}, {}
             if cid in src_channels:
                 channel_xml.setdefault(cid, src_channels[cid])
-            n = len(src_programmes.get(cid, []))
-            add_programmes(all_programmes, seen, cid, src_programmes.get(cid, []))
+            blocks = src_programmes.get(cid, [])
+            if blocks:
+                blocks = extend_last_programme(
+                    blocks, newest_ok.strftime("%Y%m%d%H%M%S") + " +0900"
+                )
+                src_programmes[cid] = blocks
+            n = len(blocks)
+            add_programmes(all_programmes, seen, cid, blocks)
             print(f"      {cid}: {n} programas (Pluto TV / i.mjh.nz)")
             continue
         last = cid.rsplit(".", 1)[-1]
@@ -510,14 +543,24 @@ def main():
     tomorrow = today + timedelta(days=1)
     today_s = today.strftime("%Y%m%d")
     tomorrow_s = tomorrow.strftime("%Y%m%d")
-    today_progs = 0
-    tomorrow_progs = 0
-    for prog in root.findall("programme"):
-        start = prog.get("start", "")
-        if start.startswith(today_s):
-            today_progs += 1
-        if start.startswith(tomorrow_s):
-            tomorrow_progs += 1
+
+    def overlaps(date_s):
+        day_start = datetime.strptime(date_s, "%Y%m%d").replace(tzinfo=PYONGYANG)
+        day_end = day_start + timedelta(days=1)
+        count = 0
+        for p in root.findall("programme"):
+            s = parse_xmltv_time(p.get("start", ""))
+            e = parse_xmltv_time(p.get("stop", ""))
+            if s is None:
+                continue
+            if e is None or e <= s:
+                e = s + timedelta(hours=1)
+            if s < day_end and e > day_start:
+                count += 1
+        return count
+
+    today_progs = overlaps(today_s)
+    tomorrow_progs = overlaps(tomorrow_s)
 
     for cid in wanted_ids:
         ch_found = cid in defined
