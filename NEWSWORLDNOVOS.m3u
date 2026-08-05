@@ -7,16 +7,13 @@ http://stream.cammonitorplus.net/1783/index.m3u8
 https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
 
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8zLzIwMjYgNzo1OjIgUE0maGFzaF92YWx1ZT1vK1ByakNHTk55eUYrNzBSMFhUMXRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Nzk0OTQ4MjYtY2UxZi00OWQwLWFmNWUtYTg2YzE3Y2FmZmM4
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC81LzIwMjYgNTo0NjozNCBQTSZoYXNoX3ZhbHVlPUdlZWJXTS9WTkZKbnhlWWR4RlVWM3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mYjhiY2FlOS1mNTIxLTQzMDMtOTYxOC00MzBiNTQ0OTNkMjU=
 
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe (Argentina)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (Argentina)
+#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe (Argentina)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (Argentina)
 http://200.91.32.158:8080/telefehdvalle/index.m3u8
-
-#EXTINF:-1 tvg-id="TMC.fr" tvg-name="TMC (França)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/55/T%C3%A9l%C3%A9-Monte-Carlo.png" group-title="🇫🇷 Secret Story 14 (TMC)",TMC (França)
-http://151.80.18.177:86/TMC/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas (México)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
 http://177.234.249.135:8888/LasEstrellas/index.m3u8
