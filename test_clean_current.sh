@@ -7,6 +7,8 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 
 resolve_url() {
     local uri="$1" base="$2"
+    uri="${uri%$'\r'}"
+    base="${base%$'\r'}"
     if [[ "$uri" == http* ]]; then
         if [[ "$uri" != *\?* && "$base" == *\?* ]]; then
             echo "${uri}?${base#*\?}"
