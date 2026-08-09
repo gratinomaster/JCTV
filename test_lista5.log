@@ -10,15 +10,15 @@
 [10] WORKING - ABC News Live - ABC News
 [11] WORKING - ABC News Live - ABC News
 [12] WORKING - ABC News Live - ABC News
-[13] WORKING - ABC News Live - ABC News
-[14] WORKING - ABC News Live - ABC News
-[15] WORKING - ABC News Live - ABC News
-[16] WORKING - ABC News Live - ABC News
-[17] WORKING - ABC News Live - ABC News
-[18] WORKING - ABC News Live - ABC News
-[19] FAIL (bad-variant HTTP 000) - Fox Business Go | Fox News Video
-[20] FAIL (HTTP 403) - Fox Business Go | Fox News Video
-[21] FAIL (bad-variant HTTP 000) - Watch Fox News Channel Online | Stream Fox News
+[13] FAIL (bad-variant HTTP 000) - Watch Fox News Channel Online | Stream Fox News
+[14] WORKING - Fox Business Go | Fox News Video
+[15] FAIL (HTTP 403) - Fox Business Go | Fox News Video
+[16] WORKING -  our free live news stream
+[17] WORKING -  our free live news stream
+[18] WORKING -  our free live news stream
+[19] WORKING -  our free live news stream
+[20] WORKING -  our free live news stream
+[21] WORKING -  our free live news stream
 [22] WORKING -  our free live news stream
 [23] WORKING -  our free live news stream
 [24] WORKING -  our free live news stream
@@ -30,11 +30,3 @@
 [30] WORKING -  our free live news stream
 [31] WORKING -  our free live news stream
 [32] WORKING -  our free live news stream
-[33] WORKING -  our free live news stream
-[34] WORKING -  our free live news stream
-[35] WORKING -  our free live news stream
-[36] WORKING -  our free live news stream
-[37] WORKING -  our free live news stream
-[38] WORKING -  our free live news stream
-[39] WORKING -  our free live news stream
-[40] WORKING -  our free live news stream
