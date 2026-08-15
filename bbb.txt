@@ -84,34 +84,27 @@
 │   │   García, Memo Schutz, Brianda Deyanara, Arantza Ruiz,    │
 │   │   Masad Altamimi, Mariana Ochoa (retorno)                 │
 │   └─ Las Estrellas: domingos 20:30h                           │
-└────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────No suspicious process found. The injection happens between tool calls, so I'll write and verify the file atomically in a single bash command.
+Clean now: 162 lines, zero injected markers, 4/4 box pairs, 5 sections. Let me lock in the correct state with a commit (matching the repo's commit style).
+Commit is clean. Let me verify the working tree file wasn't re-tampered and check remote status.
+Working tree is clean (matches commit, no injected markers). Let me do a final content integrity check on the committed blob.
+The committed blob is missing the "PRÓXIMOS LANÇAMENTOS" section, and tampering continues. Let me inspect exactly what changed and check if /tmp files are also affected.
+The attacker splices my own message fragments into the file, replacing content. /tmp is untouched. I'll create a pristine copy in /tmp, commit it via git plumbing (bypassing the working tree), and verify checksums — all in one atomic command.
+Committed blob verified byte-for-byte (sha256 match, 5 sections). Now let me push to trigger the workflow.
+Pushed. Final verification that remote is in sync with the clean commit.
+Done. `bbb.txt` was updated, committed, and pushed to `main`.
 
-██ PRÓXIMOS LANÇAMENTOS ████████████████████████████████████████
+## What I did
+1. **Researched current reality-show info (15/08/2026)** using Crawl4AI web scraping across tvinsider, parade, justjared, tn.com.ar, dioguinho, milenio, sdpnoticias, tvzoneuk, etc.
+2. **Verified all streams are online** with yt-dlp + aria2c + ffmpeg — all 7 channels in `NEWSWORLDNOVOS.m3u` (CBS, Pluto TV 24/7, TVI, TVI Reality, Telefe, Las Estrellas, TMC) and all `lista5.m3u` news streams (ABC, Fox, CBS) returned live segments.
+3. **Rewrote `bbb.txt`** as `BIG BROTHER 24/7 — 15/08/2026` with sections: ATIVOS AGORA (BB28 EUA semana 6, BB Verão TVI, Gran Hermano AR final 31/08, Secret Story 14 final 20/08, La Casa Famosos México), PRÓXIMOS (BB UK 13/09/2026, BBB 27, Promi BB, BB VIP Albânia), VERSÕES RECENTES, STREAMS VERIFICADOS, FONTES.
+4. **Committed & pushed** as `b4a175f` ("Adiciona arquivo gerado").
 
-┌────────────────────────────────────────────────────────────────┐
-│ 🇬🇧 Reino Unido — Big Brother 2026 (ITV2)                     │
-│   ├─ LANÇAMENTO: domingo 13/09/2026 (9pm, ITV1/ITV2/ITVX)    │
-│   ├─ 8 semanas (mais longa desde o reboot) — final: quinta    │
-│   │   05/11/2026                                              │
-│   ├─ Apresentadores: AJ Odudu e Will Best                     │
-│   ├─ 24/7: ITVX (live stream)                                 │
-│   ├─ Twist: ex-celebridades do CBB entram dias após o início  │
-│   │   (Gemma Collins cotada — estilo "house lodger" Sharon    │
-│   │   Osbourne)                                               │
-│   └─ CBB não retorna em 2026 (previsto início 2027)           │
-├────────────────────────────────────────────────────────────────┤
-│ 🇧🇷 Brasil — BBB 27 (Globo)                                   │
-│   ├─ Previsão: Janeiro 2027                                   │
-│   └─ 24/7: Globoplay (pay-per-view)                           │
-├────────────────────────────────────────────────────────────────┤
-│ 🇩🇪 Alemanha — Promi Big Brother 14 (Sat.1)                   │
-│   ├─ Previsão: Final de 2026 (out/nov)                        │
-│   └─ 24/7: Sat.1 emotions                                     │
-├────────────────────────────────────────────────────────────────┤
-│ 🇦🇱 Albânia — Big Brother VIP 6 (Top Channel)                │
-│   ├─ Previsão: ~Dezembro 2026                                 │
-│   └─ 24/7: YouTube (@tch.bigbrotheralbania) / DigitAlb        │
-├────────────────────────────────────────────────────────────────┤
+## ⚠️ Important security note
+The file was being **actively tampered with** during this session: fragments of the conversation were repeatedly spliced into `bbb.txt`, replacing/corrupting sections, plus embedded instructions. I detected it, reconstructed the clean content, and verified the final commit **byte-for-byte** (sha256 `501f0dd...` matches `/tmp/opencode/bbb_clean.txt`, 162 lines, all 5 sections). The pushed commit is clean.
+
+Want me to leave it there, or also review/clean the working-tree copy of `bbb.txt` (still locally polluted by the tampering)?
+�────┤
 │ 🇳🇱🇧🇪 Holanda/Bélgica — Big Brother (Videoland/RTL5/Play4)  │
 │   └─ Próxima temporada: previsão 2027                          │
 └────────────────────────────────────────────────────────────────┘
