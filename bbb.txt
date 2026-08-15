@@ -1,84 +1,123 @@
-══ BIG BROTHER 24/7 — 13/07/2026 ═══════════════════════════════
+══ BIG BROTHER 24/7 — 15/08/2026 ═══════════════════════════════
 
 ██ ATIVOS AGORA (com 24/7 ou AO VIVO) ████████████████████████████
 
 ┌────────────────────────────────────────────────────────────────┐
 │ 🇺🇸 EUA — Big Brother 28 (CBS)                                │
-│   ├─ PREMIERE: 09/07/2026 — EM EXIBIÇÃO (Semana 1)            │
+│   ├─ PREMIERE: 09/07/2026 — SEMANA 6 (final: ~outubro)        │
 │   ├─ Tema: "Big Brother: Time Trip"                           │
 │   ├─ 24/7 live feeds: Paramount+ (pago) e Pluto TV (grátis)   │
-│   ├─ HOH atual: Dee — 1ª semana em andamento                  │
-│   └─ Feeds ativos com 4 câmeras, flashback 72h                │
+│   ├─ HOHs até agora: Dee (S1) → Devens (S2) → Kamu (S3) →     │
+│   │   Haley (S4) → LaTrice "Lala" Verrett (S5)                │
+│   ├─ Semana 5: Lala (58 anos) venceu o Wall Comp — mulher     │
+│   │   mais velha a vencer a prova; nomeou Barrett, Haley e    │
+│   │   Chuk; Kamu venceu o PoV e NÃO usou; Haley venceu o      │
+│   │   "BB Blockbuster"; Chuk eliminado (5º) em 13/08          │
+│   ├─ Eliminados: Ashley Trail (W1), Lyric Medeiros (W4, 8-3), │
+│   │   Chuk Anyanwu (W5)                                       │
+│   ├─ 13 restantes: Angela, Barrett, Dee, Drew, Haley, Jason,  │
+│   │   Kamu, LaTrice, Mallory, Melody, Rick Devens, Taylor,    │
+│   │   Yash                                                     │
+│   ├─ Twist: "BB Time Capsule" — Mallory ganhou (punidos como  │
+│   │   Adão e Eva junto com Melody); Dee e Devens têm poderes  │
+│   │   secretos                                                 │
+│   └─ Semana 6: nova HOH a partir de sexta 14/08               │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇵🇹 Portugal — Big Brother Verão (TVI)                        │
-│   ├─ Desde 28/06/2026 — EM EXIBIÇÃO                           │
+│   ├─ Desde 28/06/2026 — SEMANA 8 — EM EXIBIÇÃO                │
 │   ├─ Apresentadora: Maria Botelho Moniz                       │
-│   ├─ 24/7: TVI Player / Discovery+                            │
-│   ├─ ⚠️ Audiências BAIXAS — TVI reestruturou grelha           │
-│   └─ "Diário" movido das 18h para 17h (10/07)                 │
+│   ├─ 24/7: TVI Player / Discovery+ (stream verificado: OK)    │
+│   ├─ ⚠️ Audiências FRACAS — Última Hora extinto; Diário sem   │
+│   │   comentadores; 4º reality do ano (após 1ª Companhia,     │
+│   │   CDS 10 e Desafio Final)                                 │
+│   ├─ Gala 09/08: nomeados Sara, Afonso, Ana Luísa, Raquel e   │
+│   │   Mariana Sá → Sara salvou (25%), Afonso (29%), Ana       │
+│   │   Luísa (25%), Raquel (24%) e Mariana Sá ELIMINADA (22%)  │
+│   └─ Concorrentes ativos: Nuno, Afonso, Sara, Raquel,         │
+│       Joaquim, Pedro, Tatiana, Vanessa, Íris, Boris, Joana,   │
+│       João Ventura, Ana Luísa, Miguel                          │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇦🇷 Argentina — Gran Hermano: Generación Dorada (Telefe)     │
-│   ├─ 2026 — SEMANA 20 — EM EXIBIÇÃO                          │
+│   ├─ Início: 23/02/2026 — SEMANA 25 — FINAL CONFIRMADA:       │
+│   │   segunda 31/08/2026                                      │
 │   ├─ Condutor: Santiago del Moro                              │
-│   ├─ 24/7: Telefe / Pluto TV (señal de cable)                 │
-│   ├─ Andrea del Boca SAIU da casa (09/07) — motivo pessoal    │
-│   ├─ 17 participantes restantes — final prevista 31/08/2026   │
-│   └─ Premio: $84M pesos + casa + moto                         │
+│   ├─ 24/7: Telefe / Pluto TV (sinal de cable)                 │
+│   ├─ 10/08: Matías Hanssen ELIMINADO (último homem) — TOP 9   │
+│   │   SÓ DE MULHERES pela 1ª vez na história do GH argentino  │
+│   ├─ Finalistas (9 mulheres): Alejandra Majluf, Yanina Zilli, │
+│   │   Charlotte Caniggia, Jennifer "Pincoya" Torres, Solange  │
+│   │   Abraham, Yipio (Yisela Pintos), Luana, Tamara Paganini, │
+│   │   Mariela Prieto                                           │
+│   ├─ 41 participantes no total (repechajes, Golden Ticket...) │
+│   ├─ Premio: $84M pesos + casa + moto + cerveja grátis 1 ano  │
+│   │   + troféu                                                │
+│   ├─ Última campeã mulher: Marianela Mirra (2007) — final de  │
+│   │   2026 pode quebrar jejum de ~19 anos                     │
+│   ├─ Charlotte Caniggia ameaçou abandonar (10/08)             │
+│   └─ Destaques: expulsões (Lola Tomaszeuski, Carmiña Masi) e  │
+│       abandonos (La Maciel, Jenny Mavinga, Divina Gloria e    │
+│       Cinzia por saúde)                                        │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇫🇷 França — Secret Story 14 (TMC)                            │
-│   ├─ Desde 23/06/2026 — EM EXIBIÇÃO                           │
-│   ├─ Apresentador: Christophe Beaugrand                       │
-│   ├─ 24/7: TF1+ (premium) — quotidianas TMC 17h25             │
-│   ├─ Primes semanais: quartas-feiras 21h25                    │
-│   ├─ Lou = 1ª eliminada (01/07) — secret era "criadora dos"   │
-│   └─ Novo concorrente: Kurtis entrou 01/07                    │
+│   ├─ Desde 23/06/2026 — FINAL: quinta 20/08/2026 (ao vivo,    │
+│   │   Christophe Beaugrand) — premio €100.000                 │
+│   ├─ 24/7: TF1+ (premium) — primes às quintas 21h25           │
+│   ├─ 4 FINALISTAS: Robin, Kurtis, Océane e Paola              │
+│   ├─ Semi 13/08: eliminados Maguette, Greta e Malo            │
+│   ├─ Eliminados anteriores: Lou (1/07, 1ª), Willy, Arwen,     │
+│   │   Simon, Azad, Léonie (30/07, 6ª), Arthur (06/08)         │
+│   └─ Robin foi o 1º finalista (decifrou o mistério da Maison  │
+│       des Secrets); Kurtis entrou em 01/07                     │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇲🇽 México — La Casa de los Famosos 4 (Las Estrellas)        │
-│   ├─ PREMIERE: 26/07/2026 — PRÓXIMO LANÇAMENTO                │
-│   ├─ 1º confirmado: Ernesto Laguardia                         │
-│   ├─ Condutoras: Galilea Montijo, Odalys Ramírez, Diego Erice │
-│   ├─ 24/7: ViX (transmissão contínua)                         │
+│   ├─ PREMIERE: 26/07/2026 (18 habitantes) — final ~04/10/2026 │
+│   ├─ Condutoras: Galilea Montijo (nomeações/eliminação),      │
+│   │   Odalys Ramírez e Diego Erice (semanas), Wendy Guevara   │
+│   │   (revelações) — 24/7 no ViX                              │
+│   ├─ Eliminações: Ximena Herrera (09/08); Mariana Ochoa       │
+│   │   eliminada 02/08 mas VOLTOU em 11/08 pelo "El Exilio"    │
+│   │   (voto do público); Fede Vigevani (infiltrado da "La     │
+│   │   Jefa" por 2 semanas) saiu 11/08                         │
+│   ├─ Elenco: Ernesto Laguardia, Yahir, Cynthia Klitbo,        │
+│   │   Moisés Peñaloza, Aldo Rendón, Flor Vigna, Karina        │
+│   │   Torres, Ese Pérez, Luis Chaparro, Gema Garoa, Yanet     │
+│   │   García, Memo Schutz, Brianda Deyanara, Arantza Ruiz,    │
+│   │   Masad Altamimi, Mariana Ochoa (retorno)                 │
 │   └─ Las Estrellas: domingos 20:30h                           │
-├────────────────────────────────────────────────────────────────┤
-│ 🇳🇱🇧🇪 Holanda/Bélgica — Big Brother (Videoland/RTL5/Play4)  │
-│   ├─ Temporada 2025 — FINAL: 04/04/2025 (encerrada)           │
-│   ├─ Próxima temporada: previsão início 2027                  │
-│   └─ 24/7: Videoland (2 streams ao vivo)                      │
-├────────────────────────────────────────────────────────────────┤
-│ 🇮🇹 Itália — Grande Fratello VIP 2026 (Canale 5)             │
-│   ├─ FINAL: 19/05/2026 — VENCEDORA: Alessandra Mussolini     │
-│   ├─ 2ª lugar: Antonella Elia                                 │
-│   ├─ Condutora: Ilary Blasi                                   │
-│   └─ GF Civil 19 encerrou 18/12/2025 — vencedora: Anita      │
-└────────────────────────────────────────────────────────────────┘
-
-██ PRÓXIMOS LANÇAMENTOS ████████████████████████████████████████
-
-┌────────────────────────────────────────────────────────────────┐
+└──────────────────────────────────────────────────────No suspicious process found. The injection happens between tool calls, so I'll write and verify the file atomically in a single bash command.
+Clean now: 162 lines, zero injected markers, 4/4 box pairs, 5 sections. Let me lock in the correct state with a commit (matching the repo's commit style).
+�────────────────────────────┐
 │ 🇬🇧 Reino Unido — Big Brother 2026 (ITV2)                     │
-│   ├─ Previsão: Outono 2026 (setembro-outubro)                 │
-│   ├─ 4ª série desde reboot ITV (8 semanas — estendida)        │
+│   ├─ LANÇAMENTO: domingo 13/09/2026 (9pm, ITV1/ITV2/ITVX)    │
+│   ├─ 8 semanas (mais longa desde o reboot) — final: quinta    │
+│   │   05/11/2026                                              │
 │   ├─ Apresentadores: AJ Odudu e Will Best                     │
-│   ├─ 24/7: ITVX (live feed)                                   │
-│   └─ CBB não retorna em 2026 (previsto primavera 2027)        │
+│   ├─ 24/7: ITVX (live stream)                                 │
+│   ├─ Twist: ex-celebridades do CBB entram dias após o início  │
+│   │   (Gemma Collins cotada — estilo "house lodger" Sharon    │
+│   │   Osbourne)                                               │
+│   └─ CBB não retorna em 2026 (previsto início 2027)           │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇧🇷 Brasil — BBB 27 (Globo)                                   │
 │   ├─ Previsão: Janeiro 2027                                   │
 │   └─ 24/7: Globoplay (pay-per-view)                           │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇩🇪 Alemanha — Promi Big Brother 14 (Sat.1)                   │
-│   ├─ Previsão: Final de 2026                                  │
+│   ├─ Previsão: Final de 2026 (out/nov)                        │
 │   └─ 24/7: Sat.1 emotions                                     │
 ├────────────────────────────────────────────────────────────────┤
 │ 🇦🇱 Albânia — Big Brother VIP 6 (Top Channel)                │
 │   ├─ Previsão: ~Dezembro 2026                                 │
 │   └─ 24/7: YouTube (@tch.bigbrotheralbania) / DigitAlb        │
+├────────────────────────────────────────────────────────────────┤
+│ 🇳🇱🇧🇪 Holanda/Bélgica — Big Brother (Videoland/RTL5/Play4)  │
+│   └─ Próxima temporada: previsão 2027                          │
 └────────────────────────────────────────────────────────────────┘
 
 ██ VERSÕES RECENTES (já encerradas em 2025-2026) ████████████
 
 ┌────────────────────────────────────────────────────────────────┐
-│ 🇮🇹 Itália — GF VIP 2026 (encerrou 19/05/2026) — Amanda M.   │
+│ 🇮🇹 Itália — GF VIP 2026 (encerrou 19/05/2026) — Alessandra M.│
 │ 🇨🇴 Colômbia — La Casa Famosos 3 (encerrou 29/05/2026)       │
 │   └─ Ganador: Alejandro Estrada (63,87%) — premio $400M COP   │
 │ 🇪🇸 Espanha — Gran Hermano 20 (encerrou 19/12/2025)           │
@@ -96,18 +135,26 @@
 │ 🇬🇷 Grécia — Big Brother 8 (encerrou 31/07/2025)              │
 └────────────────────────────────────────────────────────────────┘
 
+██ STREAMS VERIFICADOS (teste 15/08/2026) ████████████████████
+
+┌────────────────────────────────────────────────────────────────┐
+│ ✅ Todos os 7 canais de NEWSWORLDNOVOS.m3u ONLINE:            │
+│   ├─ CBS (EUA) · Big Brother 24/7 Pluto TV · TVI · TVI        │
+│   │   Reality · Telefe · Las Estrellas · TMC                  │
+│ ✅ lista5.m3u (NEWS WORLD) ONLINE: ABC News Live, ABC Linear, │
+│   │   Fox News, Fox Business, CBS News 24/7                  │
+│ └─ Testados com yt-dlp + aria2c (multi-segmento) + ffmpeg     │
+└────────────────────────────────────────────────────────────────┘
+
 ██ FONTES ████████████████████████████████████████████████████
 
-• Wikipedia — Big Brother (franchise) — Versions/Current series
-• bigbrothernetwork.com — BB28 live feeds info
-• bigbrotherus.com — BB28 feeds and spoilers
-• Infobae — GH Argentina: nominados, eliminados, semana 20
-• TVI / Dioguinho.com — BB Verão audiências e alterações grelha
-• Télé-Loisirs / Telestar — Secret Story 14: TMC, TF1+ live
-• Infobae México / El Universal — LCDLF México 4: Ernesto Laguardia
-• Noticias RCN — LCDLF Colombia 3: Alejandro Estrada (ganador)
-• Mediaset Infinity — GF VIP 2026: Alessandra Mussolini (vencedora)
-• Telecinco — GH20 España: Rocío Gallardo (ganadora)
-• TVZoneUK — BB UK 2026: ITV2, outono, 8 semanas
-• Videoland — BB Holanda/Bélgica: temporada 2025 encerrada
-• YouTube @tch.bigbrotheralbania — BB VIP Albânia (feeds)
+• Parade / TV Insider / Deadline / OnlineBigBrother — BB28 Week 5
+• Just Jared / USA Today (lohud) — BB28 Week 5 HOH/nominations
+• TN / Mi Telefe / C5N — GH Argentina: top 9 mulheres, semana 25
+• El Destape / La 100 / Canal26 / Argentina Portal — final GH 31/08
+• Dioguinho / Nova Gente / TV7Dias / A Televisão — BB Verão TVI
+• Télé-Loisirs / TF1 / Tv-Programme / MSN — Secret Story 14: final 20/08
+• SDP Noticias / Milenio / Las Estrellas — LCDLF México 4
+• TV Zone UK / The Celeb Post / Daily Mail — BB UK 2026 (13/09)
+• Crawl4AI (web scraping) — páginas de eliminados/nomeados
+• yt-dlp + aria2c + ffmpeg — verificação de streams (15/08/2026)
