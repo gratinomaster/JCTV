@@ -1,0 +1,56 @@
+Plano completo e 100% open source para o Colab: baixar o vídeo com **yt-dlp** (+ **aria2** para acelerar), extrair áudio com **ffmpeg**, transcrever qualquer idioma com **faster-whisper**, traduzir as legendas para português e gravá-las no vídeo.
+
+**Atenção:** o Whisper só traduz para **inglês** (`task="translate"`). Para sair **qualquer idioma → português**, o caminho é: transcrever no idioma original → traduzir o texto das legendas com `deep-translator`/`googletrans` → gravar no vídeo.
+
+### O que instalar no Colab
+
+```python
+# 1. Sistema
+!apt-get update && apt-get install -y ffmpeg aria2
+
+# 2. Download de vídeo (YouTube + 1000 sites)
+!pip install -U yt-dlp
+
+# 3. Transcrição (rápido, usa a GPU do Colab)
+!pip install -q faster-whisper
+
+# 4. Tradução das legendas para pt-BR
+!pip install -q deep-translator
+
+# 5. (Opcional) crawl4ai para achar o link do vídeo em páginas
+!pip install -q crawl4ai
+```
+
+### Pipeline
+
+```python
+# 1) Baixar o vídeo (com aria2 como acelerador)
+!yt-dlp -f "bv*+ba/b" --downloader aria2c -o "video.%(ext)s" "URL_DO_VIDEO"
+
+# 2) Transcrição no idioma original (detecta sozinho)
+from faster_whisper import WhisperModel
+model = WhisperModel("large-v3", device="cuda", compute_type="float16")
+segments, info = model.transcribe("video.mp4", vad_filter=True)
+
+# 3) Gera .srt e traduz para português
+from deep_translator import GoogleTranslator
+tr = GoogleTranslator(source="auto", target="pt")
+# (iterar os segmentos → traduzir cada linha → escrever o .srt)
+
+# 4) Gravar as legendas no vídeo (hardcode)
+!ffmpeg -i video.mp4 -vf "subtitles=video_pt.srt" -c:a copy video_legenda.mp4
+```
+
+### Repositórios no GitHub (todos MIT/open source)
+
+| Projeto | Para quê |
+|---|---|
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Transcrição 99+ idiomas, ~4x mais rápido que o Whisper |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | Timing por palavra + diarização (melhor para legendas) |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | Download de vídeo |
+| [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) | Exatamente isso: vídeo → legendas → queima no vídeo |
+| [codeonthespectrum/AISubs](https://github.com/codeonthespectrum/AISubs) | Vídeo → transcrição + tradução para português brasileiro |
+
+Se preferir já pronto: o notebook [NeuralFalconYT/Auto-Subtitle-Generator](https://github.com/NeuralFalconYT/Auto-Subtitle-Generator) e o [ChanJianHao/Faster-Whisper-Google-Colab](https://github.com/ChanJianHao/Faster-Whisper-Google-Colab) fazem o pipeline todo dentro do Colab com botões.
+
+Quer que eu monte o notebook completo (com a célula que já traduz o `.srt` para pt-BR)?
