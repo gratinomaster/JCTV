@@ -84,9 +84,11 @@
 │   │   García, Memo Schutz, Brianda Deyanara, Arantza Ruiz,    │
 │   │   Masad Altamimi, Mariana Ochoa (retorno)                 │
 │   └─ Las Estrellas: domingos 20:30h                           │
-└──────────────────────────────────────────────────────No suspicious process found. The injection happens between tool calls, so I'll write and verify the file atomically in a single bash command.
-Clean now: 162 lines, zero injected markers, 4/4 box pairs, 5 sections. Let me lock in the correct state with a commit (matching the repo's commit style).
-�────────────────────────────┐
+└────────────────────────────────────────────────────────────────┘
+
+██ PRÓXIMOS LANÇAMENTOS ████████████████████████████████████████
+
+┌────────────────────────────────────────────────────────────────┐
 │ 🇬🇧 Reino Unido — Big Brother 2026 (ITV2)                     │
 │   ├─ LANÇAMENTO: domingo 13/09/2026 (9pm, ITV1/ITV2/ITVX)    │
 │   ├─ 8 semanas (mais longa desde o reboot) — final: quinta    │
