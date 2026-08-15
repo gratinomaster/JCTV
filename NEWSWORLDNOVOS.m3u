@@ -4,10 +4,10 @@
 http://stream.cammonitorplus.net/1783/index.m3u8
 
 #EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother 24/7 (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 24/7 (Pluto TV)
-https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6661f11a41af6400080e90d8/master.m3u8?advertisingId=&appName=web&appStoreName=web&appVersion=5.14.0&deviceDNT=0&deviceId=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=125.0.6422.26&includeExtendedEvents=false&marketingRegion=US&serverSideAds=true&sid=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&startTime=0&terminate=false
 
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNC8yMDI2IDk6MTI6NDMgQU0maGFzaF92YWx1ZT1qQS9JdGh6WnJlYTFiVkVQYmIyMXlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2ZjZTdhYzQtOWM4ZC00ZWEwLTk2MWUtNTBiNzJmNzFjMzZl
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNS8yMDI2IDQ6NTc6MzQgUE0maGFzaF92YWx1ZT03MlY2SXlqRzBVL1BzdStRdmxrcldnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9dXBkYXRl
 
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
