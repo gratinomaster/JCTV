@@ -1,75 +1,72 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-ve.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-ve.xml.gz"
-#EXTINF:-1 tvg-id="VENEVISION(VENE).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/Venevisi%C3%B3n_logo_2023.png" group-title="VENEZUELA",Venevision
-http://181.78.8.199:8000/play/a0if/index.m3u8
+#EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz"
+#EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Venezolana_de_Televisi%C3%B3n_2018.svg/250px-Venezolana_de_Televisi%C3%B3n_2018.svg.png" group-title="VENEZUELA",VTV
+http://181.78.8.199:8000/play/a0jl/index.m3u8
 
-#EXTINF:-1 tvg-id="VTVVenezolanaTV(VTV).ve" group-title="VENEZUELA",VTV Venezolana de Television
-http://181.78.8.199:8000/play/a091/index.m3u8
-
-#EXTINF:-1 tvg-id="TVES(TVESVEN).ve" group-title="VENEZUELA",TVes
-https://ls.tves.gob.ve/hls/tves.m3u8
-
-#EXTINF:-1 tvg-id="TELEVEN(TELEVEN).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Televen_logo.PNG" group-title="VENEZUELA",Televen
-http://181.78.8.199:8000/play/a09j/index.m3u8
-
-#EXTINF:-1 tvg-id="Globovision(GLOVIS).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Globovisi%C3%B3n_logo.png/200px-Globovisi%C3%B3n_logo.png" group-title="VENEZUELA",Globovision
-http://181.78.8.199:8000/play/a09k/index.m3u8
-
-#EXTINF:-1 tvg-id="ValeTVVenezuela(VALETV).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vale_TV_logo.png/200px-Vale_TV_logo.png" group-title="VENEZUELA",Vale TV
-https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TeleSur(TELESUR).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Telesur_logo.svg/300px-Telesur_logo.svg.png" group-title="VENEZUELA",Telesur
+#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/250px-TeleSUR-Logo.svg.png" group-title="VENEZUELA",Telesur
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MeridianoTV(MERIDNO).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Meridiano_TV_logo.png/200px-Meridiano_TV_logo.png" group-title="VENEZUELA",Meridiano TV
-http://181.78.8.199:8000/play/a0fr/index.m3u8
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hispan_Tv_logo.svg/250px-Hispan_Tv_logo.svg.png" group-title="VENEZUELA",HispanTV
+https://live.presstv.ir/hls/hispantv.m3u8
 
-#EXTINF:-1 tvg-id="CanalI(CANALI).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Canal_I_logo.png/200px-Canal_I_logo.png" group-title="VENEZUELA",Canal I
-https://streaming.canal-i.com/canal-i/live/master.m3u8
+#EXTINF:-1 tvg-id="TVes.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TVes_logo.PNG/500px-TVes_logo.PNG" group-title="VENEZUELA",TVes
+http://181.78.8.199:8000/play/a0ft/index.m3u8
 
-#EXTINF:-1 tvg-id="TLTLaTeleTuya(TLT).ve" tvg-logo="https://i.ibb.co/vvqk2hw/LOGO-HORIZONTAL-text.png" group-title="VENEZUELA",La Tele Tuya
+#EXTINF:-1 tvg-id="LaTeleTuya.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tele_Tuya_Logo_%282026%29.png/500px-Tele_Tuya_Logo_%282026%29.png" group-title="VENEZUELA",La Tele Tuya
 http://181.78.8.199:8000/play/a0fs/index.m3u8
 
-#EXTINF:-1 tvg-id="ANTV(ANTV).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ANTV_logo.png/200px-ANTV_logo.png" group-title="VENEZUELA",ANTV Asamblea Nacional
-http://181.78.8.199:8000/play/a0ac/index.m3u8
+#EXTINF:-1 tvg-id="MeridianoTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Meridiano_Televisi%C3%B3n.png/500px-Meridiano_Televisi%C3%B3n.png" group-title="VENEZUELA",Meridiano TV
+http://181.78.8.199:8000/play/a0fr/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/Venevisi%C3%B3n_logo_2023.png" group-title="VENEZUELA",Venevision Internacional
+#EXTINF:-1 tvg-id="CanalI.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Canal_i_logo_2026.png/500px-Canal_i_logo_2026.png" group-title="VENEZUELA",Canal I
+http://181.78.8.199:8000/play/a0jk/index.m3u8
+
+#EXTINF:-1 tvg-id="ShowVenTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Showven.png/250px-Showven.png" group-title="VENEZUELA",ShowVen TV
+https://cdnbarinas.tvzamora.com/showven/index.m3u8
+
+#EXTINF:-1 tvg-id="CGTNSpanish.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CGTN_Espanol.png/250px-CGTN_Espanol.png" group-title="VENEZUELA",CGTN-Español
+https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ConCienciaTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ConcienciaTV_logo_letras.png/250px-ConcienciaTV_logo_letras.png" group-title="VENEZUELA",ConCiencia TV
+http://181.78.8.199:8000/play/a0fq/index.m3u8
+
+#EXTINF:-1 tvg-id="Vive.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Vive_Venezuela_2026.svg/250px-Vive_Venezuela_2026.svg.png" group-title="VENEZUELA",Vive TV
+http://192.144.113.132:1935/live/ViveTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Colombeia.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Logo_Colombeia.png/250px-Logo_Colombeia.png" group-title="VENEZUELA",Colombeia
+http://181.78.8.199:8000/play/a0fn/index.m3u8
+
+#EXTINF:-1 tvg-id="ANTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ANTV_Logo_2023.webp/500px-ANTV_Logo_2023.webp.png" group-title="VENEZUELA",ANTV Asamblea Nacional
+http://181.78.8.199:8000/play/a0fo/index.m3u8
+
+#EXTINF:-1 tvg-id="TVFANB.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/TVFANB_Logo_2021.png/500px-TVFANB_Logo_2021.png" group-title="VENEZUELA",TV FANB
+http://181.78.8.199:8000/play/a0fp/index.m3u8
+
+#EXTINF:-1 tvg-id="Globovision.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo-Globovisi%C3%B3n.png/250px-Logo-Globovisi%C3%B3n.png" group-title="VENEZUELA",Globovision
+http://181.78.8.199:8000/play/a09k/index.m3u8
+
+#EXTINF:-1 tvg-id="Venevision.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logotipo_de_Venevisi%C3%B3n_%28alternate_blue_version%29.svg/250px-Logotipo_de_Venevisi%C3%B3n_%28alternate_blue_version%29.svg.png" group-title="VENEZUELA",Venevision
+http://181.78.8.199:8000/play/a0if/index.m3u8
+
+#EXTINF:-1 tvg-id="Televen.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Televen_%282024%29.svg/250px-Televen_%282024%29.svg.png" group-title="VENEZUELA",Televen
+http://181.78.8.199:8000/play/a09j/index.m3u8
+
+#EXTINF:-1 tvg-id="ValeTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logo_de_VALE_TV.png/250px-Logo_de_VALE_TV.png" group-title="VENEZUELA",Vale TV
+https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VenevisionInternacional.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logotipo_de_Venevisi%C3%B3n_%28alternate_blue_version%29.svg/250px-Logotipo_de_Venevisi%C3%B3n_%28alternate_blue_version%29.svg.png" group-title="VENEZUELA",Venevision Internacional
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
 
-#EXTINF:-1 tvg-logo="https://intervenhosting.net/imagenes/latinatv.jpg" group-title="VENEZUELA",Latina TV
+#EXTINF:-1 tvg-id="LatinaTV.ve" tvg-logo="https://intervenhosting.net/imagenes/latinatv.jpg" group-title="VENEZUELA",Latina TV
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png" group-title="VENEZUELA",Promar TV
+#EXTINF:-1 tvg-id="PromarTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Promar_Television.png/250px-Promar_Television.png" group-title="VENEZUELA",Promar TV
 http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
 
-#EXTINF:-1 group-title="VENEZUELA",TeleAragua
+#EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
 http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="VENEZUELA",Inter TV
+#EXTINF:-1 tvg-id="InterTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/LOGO_INTER_470x198_px.jpg/500px-LOGO_INTER_470x198_px.jpg" group-title="VENEZUELA",Inter TV
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 
-#EXTINF:-1 tvg-id="ÁvilaTV(AVILA).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%C3%81vila_TV_logo.png/200px-%C3%81vila_TV_logo.png" group-title="VENEZUELA",Avila TV
-http://181.78.8.199:8000/play/a0ad/index.m3u8
-
-#EXTINF:-1 tvg-id="TVFANB(FANB).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/TV_FANB_logo.png/200px-TV_FANB_logo.png" group-title="VENEZUELA",TV FANB
-http://181.78.8.199:8000/play/a0af/index.m3u8
-
-#EXTINF:-1 tvg-id="ConCienciaTV(CONCIEN).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/ConCiencia_TV_logo.png/200px-ConCiencia_TV_logo.png" group-title="VENEZUELA",ConCiencia TV
-http://181.78.8.199:8000/play/a0ag/index.m3u8
-
-#EXTINF:-1 tvg-id="VePlus(VEPTV).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ve_Plus_logo.png/200px-Ve_Plus_logo.png" group-title="VENEZUELA",Ve Plus
-http://181.78.8.199:8000/play/a0ah/index.m3u8
-
-#EXTINF:-1 group-title="VENEZUELA",Colombeia
-http://181.78.8.199:8000/play/a0ai/index.m3u8
-
-#EXTINF:-1 group-title="VENEZUELA",Corazon Llanero
-http://181.78.8.199:8000/play/a0aj/index.m3u8
-
-#EXTINF:-1 tvg-id="CanalOrbe21(ORBE21).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Canal_Orbe_21_logo.png/200px-Canal_Orbe_21_logo.png" group-title="VENEZUELA",Canal Orbe 21
-http://181.78.8.199:8000/play/a0ak/index.m3u8
-
-#EXTINF:-1 tvg-id="BuenaTV(BUENATV).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Buena_TV_logo.png/200px-Buena_TV_logo.png" group-title="VENEZUELA",Buena TV
-http://181.78.8.199:8000/play/a0al/index.m3u8
-
-#EXTINF:-1 tvg-id="ViveTV(VIVETV).ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vive_TV_logo.png/200px-Vive_TV_logo.png" group-title="VENEZUELA",Vive TV
-http://181.78.8.199:8000/play/a0am/index.m3u8
+#EXTINF:-1 tvg-id="CanalOrbe21.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Canal_Orbe_21_logo.svg/250px-Canal_Orbe_21_logo.svg.png" group-title="VENEZUELA",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
