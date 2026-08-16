@@ -1,0 +1,166 @@
+Análise concluída. Vou gravar o relatório detalhado em `system.txt` (arquivo que já existia vazio, óbvio destino do resultado) e resumir aqui.
+Análise gravada em `system.txt`. Resumo executivo:
+
+**Sistema**: Repositório IPTV (playlists M3U + EPG XMLTV) mantido por 11 GitHub Actions usando opencode como "cérebro" corretor.
+
+**Achados críticos**:
+- 4 workflows (`globo/globo2/globo3/globoepg.yml`) chamam `GLOBO*.py` que **não existem** no repo → sempre falham.
+- `LINK.yml` roda a cada 35 min, mas `LINK.py` quebra (Selenium sem chromedriver; o `playwright install` vem depois) → gera commits sem sentido.
+- Todos os workflows gravam no mesmo `prompt.txt` e fazem `git add -A; git pull; git push` sem `concurrency`/retry → conflitos constantes.
+- `lista5.m3u`: 31 entradas para **5 canais** (variantes de bitrate), sem `tvg-id`/EPG, links com token assinado que **expira em ~1 dia**, logos/títulos errados.
+- `tvg-ids` inventados (`CBS.Streaming.SD.East.feed.us2`), logos `.svg`/`.webp`/imgur (proibidos pelo usuário), links HTTP/IPs públicos.
+- `gen_epg.py` tem ~250 linhas de **código morto** (bloco KCTV/Pyongyang — não há canal KCTV na playlist) e emite tudo em fuso +0900.
+- ~18 scripts bash quase idênticos, 60+ `.bak` versionados → 38 MiB de git, 2.345 commits.
+- `INVEST.yml` com bug `R%100,00`.
+
+**Pontos fortes**: `gen_epg.py` (validação XMLTV + testes hoje/amanhã) e o padrão de retry/concurrency do `NEWSWORLD.yml`.
+
+**Ferramentas**: aria2 estava instalado; crawl4ai/yt-dlp não — e não foram necessários (cláusula "caso necessário"). Detalhes de uso sugerido (yt-dlp para validar streams, aria2 para EPGs grandes) e as 11 recomendações priorizadas estão no `system.txt`.
+bo.yml → "python GLOBO.py"
+     globo2.yml → "python GLOBO2.py"
+     globo3.yml → "python GLOBO3.py"
+     globoepg.yml → "python GLOBOEPG.py"
+     Nenhum GLOBO*.py existe (verificado com ls). Esses 4 workflows falham
+     sempre no passo "Rodar script" e nunca chegam ao commit.
+
+2.2. LINK.yml quebra no LINK.py:
+     - Instala selenium mas nunca instala o chromedriver (webdriver.Chrome()
+       sem driver). O passo "Instalar browsers do Playwright" vem DEPOIS de
+       rodar o script e instala chromium do Playwright, que não serve ao
+       selenium.
+     - Executa a cada 35 minutos (cron '*/35') → gera dezenas de execuções
+       e commits por dia (justifica parte dos 2.345 commits).
+
+2.3. Corrida de arquivos (race condition):
+     Todos os workflows gravam no MESMO "prompt.txt" e fazem
+     git add -A / pull / push SEM concurrency (exceto NEWSWORLD/EPGIA).
+     Rodando em paralelo, um sobrescreve o prompt do outro e os pushes
+     disputam a fila → conflitos e "Erro ao fazer push" (maioria dos
+     workflows apenas loga o erro e morre sem retry).
+
+2.4. INVEST.yml: bug de digitação "Eu tenho R%100,00" (deveria ser R$100).
+     O prompt é enviado quebrado para a IA.
+
+2.5. FIN.yml/stream_finder.py: dos 5 sites Globo configurados, só 1 canal
+     (CBN SP) aparece em lista3.m3u — os 4 EPTV falham.
+
+=====================================================================
+3. PROBLEMAS DE QUALIDADE DAS PLAYLISTS
+=====================================================================
+3.1. lista5.m3u está poluída:
+     - 31 entradas #EXTINF para apenas 5 canais únicos (variantes de bitrate
+       master/bandwidth repetidas como se fossem canais distintos).
+     - Nenhum tvg-id, nenhum url-tvg (sem EPG).
+     - Links com token assinado temporário (exp=...): o token expira em ~1
+       dia (exp=1786981752 ≈ 17/08/2026). A lista "funciona" hoje e morre
+       amanhã.
+     - Títulos = títulos das páginas (ex.: "Video Flooding threat continues
+       from the Midwest..." ), não o nome do canal.
+     - Logo = thumbnail de frame (keyframe-cdn/streamprovider), não o logo
+       oficial da emissora.
+     - Violam os próprios requisitos dos prompts do repositório (logo
+       atual, nome correto, sem duplicatas, sem svg/imgur).
+
+3.2. tvg-ids inventados: "CBS.Streaming.SD.East.feed.us2", "BigBrother.us",
+     "TVI.HD.pt" etc. em NEWSWORLDNOVOS/UMA são IDs criados para casar com o
+     EPGFULL, não são os IDs reais das fontes (o próprio prompt manda "não
+     use tvg-ids inventados").
+
+3.3. Logos fora do padrão pedido pelo usuário:
+     - CHILE.m3u usa i.imgur.com (usuário proibiu imgur).
+     - MÉXICO.m3u usa .svg (usuário pediu .jpg, "não quero .svg").
+     - REDEVIDA usa .webp.
+     - VENEZUELA usa wikia.nocookie.net (logo antigo 2018).
+
+3.4. Nomes sujos: MÉXICO "Azteca Uno (-1h)" — sufixo de fuso dentro do nome;
+     ARGENTINA com "cache=500 deinterlace=1" no cabeçalho (extensões não
+     padrão).
+
+3.5. Links HTTP sem criptografia (IPs públicos, ex.: 200.91.32.158:8080,
+     190.93.224.42, 181.78.8.199) — falta de HTTPS e origem duvidosa; o
+     "teste anti-vírus" que os prompts pedem não existe em nenhum script.
+
+3.6. Testes: test_results_detailed.json mostra 112 working / 42 offline
+     (de 154), mas o campo "name" está vazio — relatório inútil sem nome.
+
+=====================================================================
+4. PROBLEMAS DO CÓDIGO
+=====================================================================
+4.1. LINK.py:
+     - Selenium manual frágil (clica no primeiro <button>, espera 12s fixos).
+     - Escreve cada variante m3u8 como canal separado (fonte da poluição).
+     - testar_url() usa curl -I e checa "200" como substring (aceita 1200,
+       4200 etc.) e falha em 204/302 legítimos.
+     - Não tem retry nem instalação de driver (ver 2.2).
+
+4.2. Scripts bash (~18 arquivos): clean_lista5{,v2..v6}, test_clean{,current,
+     lista5}, test_lista5{,final}, test_and_clean_lista5{,run}, test_detail,
+     test_final, test_hls, deep_test{,v2}, deep_verify{,final},
+     verify_lista5, test_streams — a MESMA função check_channel copiada em
+     todo lugar. Só testam se o 1º segmento responde HTTP<400 (não validam
+     conteúdo de vídeo, não deduplicam, não fazem anti-vírus). v6 e
+     test_and_clean_run são idênticos exceto o backup+mv final.
+
+4.3. gen_epg.py:
+     - Sólido (fallback Wayback, validação XMLTV, compatibilidade TiviMate).
+     - MAS todo o bloco KCTV (KORYO.TV, Wayback, Juche TV, GitHub
+       Bloxyplay) é CÓDIGO MORTO: a playlist atual não tem nenhum canal
+       KCTV (koryo_target_id() retorna None). ~250 linhas inativas.
+     - Todos os horários são emitidos em fuso Pyongyang (+0900), mesmo para
+       canais pt/us/mx/fr — funciona no TiviMate (ele converte), mas é
+       semanticamente errado no XMLTV.
+
+4.4. stream_finder.py: bom uso do crawl4ai, mas SITES fixos e escrita de
+     lista3.m3u com delay fixo de 10s por site → lento e frágil.
+
+=====================================================================
+5. PROBLEMAS DE MANUTENÇÃO / REPO
+=====================================================================
+5.1. Sem .gitignore e sem requirements.txt.
+5.2. 60+ arquivos lista5.m3u.bak.* versionados → 38 MiB de pack; commits de
+     backup no histórico (2345 commits, muitos automáticos).
+5.3. 9 dos 11 workflows baixam o binário do opencode toda execução
+     (curl opencode.ai/install) sem pin de versão.
+5.4. prompt.txt é sobrescrito por todo mundo (ver 2.3); um prompt tem as
+     linhas indentadas (heredoc com espaços) que vão junto no comando.
+5.5. yafree.yml injeta "use Crawl4ai, yt-dlp, aria2, caso necessário e
+     ${PROMPT}" — é daí que vem a instrução desta análise; texto concatado
+     sem necessidade quando o passo não usa essas ferramentas.
+
+=====================================================================
+6. PONTOS FORTES (manter)
+=====================================================================
+• gen_epg.py é o componente mais maduro: gera EPGFULL enxuto, só com canais
+  da playlist, com validação de canal órfão/faltante e teste de programas
+  de hoje/amanhã.
+• NEWSWORLD/EPGIA têm retry de push (rebase + tentativas) e concurrency
+  group — padrão bom para copiar aos demais.
+• A arquitetura "playlist + EPG + IA corretora" em Actions é criativa e o
+  repositório é 100% open source.
+
+=====================================================================
+7. RECOMENDAÇÕES (prioridade)
+=====================================================================
+1. (CRÍTICO) Criar/commit os GLOBO*.py ou remover os 4 workflows mortos.
+2. (CRÍTICO) LINK.yml: instalar chromedriver OU migrar LINK.py para
+   Playwright, mover "playwright install" para antes do script, e reduzir
+   o cron (ex.: 1x/dia) para parar de gerar centenas de commits.
+3. Unificar os ~18 scripts bash num único test_playlist.sh que: dedup
+   variantes, valide o segmento com ffmpeg/yt-dlp de verdade, e rode 1x.
+4. Adicionar concurrency + retry de push (padrão NEWSWORLD) em todos os
+   workflows; parar de sobrescrever o prompt.txt compartilhado.
+5. Deduplicar lista5.m3u (1 master por canal), preencher tvg-id reais,
+   url-tvg, logos .jpg oficiais e nomes limpos; trocar tokens que expiram
+   por links estáveis sempre que possível.
+6. Corrigir tvg-ids inventados para os IDs reais das fontes de EPG.
+7. Remover .svg/.webp/imgur e trocar por .jpg (regras do próprio usuário).
+8. Apagar backups do git (repo com histórico pesado) e adicionar .gitignore.
+9. Remover (ou ativar) o bloco KCTV do gen_epg e emitir os horários no
+   fuso do canal, não em +0900.
+10. Corrigir "R%100,00" → "R$100,00" no INVEST.yml.
+11. Preencher "name" no test_results_detailed.json (relatório com nome).
+
+Nota final: para esta auditoria não foram usados crawl4ai/yt-dlp/aria2
+("caso necessário" = não). aria2 seria útil apenas para baixar EPGs
+grandes ou vídeos; yt-dlp seria útil para validar streams reais no
+test_playlist.sh; crawl4ai só tem papel no FIN.yml (stream_finder.py).
