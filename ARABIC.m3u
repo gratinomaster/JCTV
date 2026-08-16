@@ -1,0 +1,13 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg",רשת 13
+https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1308" tvg-id="כאן.11.il" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/960px-Kan11Logo.svg.png",כאן 11
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1100" tvg-id="מכאן.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/9c4d06f23c39437d8d0e192526b05ecc/version/2",מכאן 33
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="0400" tvg-id="AlJazeera.Arabic.net" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/03.m3u8
