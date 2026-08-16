@@ -2,10 +2,10 @@
 #EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/23/Venezolana_de_Television_%282018%29.png/revision/latest?cb=20211116165346" group-title="VENEZUELA",VTV
 http://181.78.8.199:8000/play/a0jl/index.m3u8
 
-#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/Telesur_%282017%29.png/revision/latest?cb=20220719220939" group-title="VENEZUELA",Telesur
+#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeleSUR.png/500px-TeleSUR.png" group-title="VENEZUELA",Telesur
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="HispanTV.ir" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e6/HispanTV_logo_header.png/revision/latest?cb=20250127074537" group-title="VENEZUELA",HispanTV
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="VENEZUELA",HispanTV
 https://live.presstv.ir/hls/hispantv.m3u8
 
 #EXTINF:-1 tvg-id="TVes.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TVes_logo.PNG/500px-TVes_logo.PNG" group-title="VENEZUELA",TVes
@@ -26,8 +26,14 @@ https://cdnbarinas.tvzamora.com/showven/index.m3u8
 #EXTINF:-1 tvg-id="CGTNSpanish.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CGTN_Espanol.png/250px-CGTN_Espanol.png" group-title="VENEZUELA",CGTN-Español
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Vive.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/ViVe_Logo_2020.webp" group-title="VENEZUELA",Vive TV
+#EXTINF:-1 tvg-id="ConCienciaTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ConcienciaTV_logo_letras.png/330px-ConcienciaTV_logo_letras.png" group-title="VENEZUELA",ConCiencia TV
+http://181.78.8.199:8000/play/a0fq/index.m3u8
+
+#EXTINF:-1 tvg-id="Vive.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Vivetv.png/500px-Vivetv.png" group-title="VENEZUELA",Vive TV
 http://192.144.113.132:1935/live/ViveTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Colombeia.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Logo_Colombeia.png/330px-Logo_Colombeia.png" group-title="VENEZUELA",Colombeia
+http://181.78.8.199:8000/play/a0fn/index.m3u8
 
 #EXTINF:-1 tvg-id="ANTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ANTV_Logo_2023.webp/500px-ANTV_Logo_2023.webp.png" group-title="VENEZUELA",ANTV Asamblea Nacional
 http://181.78.8.199:8000/play/a0fo/index.m3u8
@@ -38,12 +44,6 @@ http://181.78.8.199:8000/play/a0fp/index.m3u8
 #EXTINF:-1 tvg-id="Globovision.ve" tvg-logo="https://www.globovision.com/img/gv-logo-og.png" group-title="VENEZUELA",Globovision
 http://181.78.8.199:8000/play/a09k/index.m3u8
 
-#EXTINF:-1 tvg-id="VepacoTV.ve" tvg-logo="https://vepaco.tv/wp-content/uploads/2022/09/logovepacotv_mediano.png" group-title="VENEZUELA",Vepaco TV
-https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
-
-#EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
-http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
-
 #EXTINF:-1 tvg-id="Venevision.ve" tvg-logo="https://w2-venevision-com.s3.amazonaws.com/public/media/seo/logo-venevision_600x600.png" group-title="VENEZUELA",Venevision
 http://181.78.8.199:8000/play/a0if/index.m3u8
 
@@ -52,6 +52,9 @@ http://181.78.8.199:8000/play/a09j/index.m3u8
 
 #EXTINF:-1 tvg-id="ValeTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logo_de_VALE_TV.png/250px-Logo_de_VALE_TV.png" group-title="VENEZUELA",Vale TV
 https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VepacoTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo-Vepaco-TV.png" group-title="VENEZUELA",Vepaco TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
 
 #EXTINF:-1 tvg-id="VenevisionInternacional.ve" tvg-logo="https://w2-venevision-com.s3.amazonaws.com/public/media/seo/logo-venevision_600x600.png" group-title="VENEZUELA",Venevision Internacional
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
@@ -70,3 +73,6 @@ https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
 
 #EXTINF:-1 tvg-id="GuaroTV.ve" tvg-logo="https://guarotv.net/wp-content/uploads/2024/08/logo300.png" group-title="VENEZUELA",Guaro TV
 https://stream.guarotv.net:3592/hybrid/play.m3u8
+
+#EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
+http://45.173.198.59:8080/hls/nginx3.m3u8?tla=

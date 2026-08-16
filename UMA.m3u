@@ -1,20 +1,4 @@
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a059 - Canal Original
-http://190.7.19.197:232/play/a059/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a009 - Canal Espelho
-http://190.7.19.197:232/play/a009/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a014 - Canal Espelho
-http://190.7.19.197:232/play/a014/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a017 - Canal Espelho
-http://190.7.19.197:232/play/a017/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a050 - Canal Espelho
-http://190.7.19.197:232/play/a050/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a057 - Canal Espelho
-http://190.7.19.197:232/play/a057/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a065 - Canal Espelho
-http://190.7.19.197:232/play/a065/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a083 - Canal Espelho
-http://190.7.19.197:232/play/a083/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS (EUA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
 http://stream.cammonitorplus.net/1783/index.m3u8
 #EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother 24/7 (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 24/7 (Pluto TV)
