@@ -1,58 +1,56 @@
 #!/bin/bash
 
-INPUT_FILE="lista5.m3u"
+INPUT="lista5.m3u"
+OUTPUT="lista5_clean.m3u"
+TIMEOUT=10
+declare -A SEEN_URLS
 
-EXTINF_LINE=""
-URL_LINE=""
-CHANNEL_NUM=0
-WORKING=0
-FAILING=0
-
-echo "========================================="
-echo "VALIDACAO FINAL - TODOS OS CANAIS"
-echo "========================================="
+# First pass: collect unique working channels
+> /tmp/m3u_lines.txt
+URL=""
+EXTINF=""
 
 while IFS= read -r line; do
     if [[ "$line" == "#EXTM3U" ]]; then
         continue
     fi
-
-    if [[ "$line" == "#EXTINF"* ]]; then
-        EXTINF_LINE="$line"
-        continue
-    fi
-
-    if [[ -n "$EXTINF_LINE" && -n "$line" && "$line" != "#"* ]]; then
-        URL_LINE="$line"
-        CHANNEL_NUM=$((CHANNEL_NUM + 1))
-
-        RESPONSE=$(curl -s --max-time 10 -L "$URL_LINE" 2>/dev/null)
-        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 -L "$URL_LINE" 2>/dev/null)
-
-        HAS_HLS=$(echo "$RESPONSE" | grep -c "#EXT-X-")
-        HAS_TARGETDURATION=$(echo "$RESPONSE" | grep -c "#EXT-X-TARGETDURATION")
-        HAS_VERSION=$(echo "$RESPONSE" | grep -c "#EXT-X-VERSION")
-        
-        # Check for actual error messages (whole words, not substrings of numbers)
-        HAS_ACTUAL_ERROR=$(echo "$RESPONSE" | grep -ciw "error\|expired\|unauthorized\|forbidden\|denied")
-        HAS_NOT_FOUND=$(echo "$RESPONSE" | grep -ci "not.found\|404 not\|403 forbidden")
-        
-        NAME=$(echo "$EXTINF_LINE" | grep -oP ',[^,]+$' | sed 's/^,//')
-
-        if [[ "$HTTP_CODE" == "200" && "$HAS_HLS" -gt 0 && "$HAS_TARGETDURATION" -gt 0 && "$HAS_ACTUAL_ERROR" == "0" && "$HAS_NOT_FOUND" == "0" ]]; then
-            STATUS="OK"
-            WORKING=$((WORKING + 1))
-        else
-            STATUS="FAIL"
-            FAILING=$((FAILING + 1))
-            echo "  [$CHANNEL_NUM] FAIL - HTTP=$HTTP_CODE HLS=$HAS_HLS TD=$HAS_TARGETDURATION VER=$HAS_VERSION ERR=$HAS_ACTUAL_ERROR NF=$HAS_NOT_FOUND - $NAME"
+    if [[ "$line" == "#EXTINF:"* ]]; then
+        # Check if previous entry needs to be flushed
+        if [[ -n "$EXTINF" && -n "$URL" ]]; then
+            # Skip - will process after
+            :
         fi
-
-        EXTINF_LINE=""
-        URL_LINE=""
+        EXTINF="$line"
+    elif [[ -n "$line" && -n "$EXTINF" ]]; then
+        URL="$line"
+        
+        # Skip duplicates
+        if [[ -n "${SEEN_URLS[$URL]}" ]]; then
+            EXTINF=""
+            URL=""
+            continue
+        fi
+        SEEN_URLS["$URL"]=1
+        
+        # Test URL with curl
+        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout $TIMEOUT --max-time $TIMEOUT -L -r 0-1024 "$URL" 2>/dev/null)
+        
+        if [[ "$HTTP_CODE" =~ ^(200|206)$ ]]; then
+            echo "$EXTINF" >> /tmp/m3u_lines.txt
+            echo "$URL" >> /tmp/m3u_lines.txt
+        fi
+        
+        EXTINF=""
+        URL=""
     fi
-done < "$INPUT_FILE"
+done < "$INPUT"
 
-echo "========================================="
-echo "Total: $CHANNEL_NUM | OK: $WORKING | FAIL: $FAILING"
-echo "========================================="
+# Write output
+echo "#EXTM3U" > "$OUTPUT"
+cat /tmp/m3u_lines.txt >> "$OUTPUT"
+
+TOTAL_ORIG=$(grep -c "^#EXTINF:" "$INPUT" 2>/dev/null)
+TOTAL_CLEAN=$(grep -c "^#EXTINF:" "$OUTPUT" 2>/dev/null)
+echo "Entradas originais: $TOTAL_ORIG"
+echo "Entradas limpas (funcionando + únicas): $TOTAL_CLEAN"
+echo "Entradas removidas: $((TOTAL_ORIG - TOTAL_CLEAN))"
