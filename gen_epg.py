@@ -56,7 +56,7 @@ EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
 # site_id de volta para o tvg-id usado na playlist para casar com o EPGFULL.
 PLUTO_BB_ID = "BigBrother.us"
 PLUTO_BB_SRC_ID = "6661f11a41af6400080e90d8"
-PLUTO_EPG_URL = "https://i.mjh.nz/PlutoTV/us.xml.gz"
+PLUTO_EPG_URL = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml.gz"
 
 JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}"
 
@@ -65,10 +65,19 @@ JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}
 JUCHE_GITHUB_URL = "https://raw.githubusercontent.com/Bloxyplay/JucheTV-EPG-API/main/epg/KCTV/{}.json"
 
 
-def http_get(url, headers=None, timeout=90):
-    req = urllib.request.Request(url, headers=headers or {"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def http_get(url, headers=None, timeout=90, retries=1, delay=5):
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=headers or {"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last_err = e
+            if attempt < retries - 1:
+                print(f"      Tentativa {attempt+1}/{retries} falhou ({e}); aguardando {delay}s...")
+                import time; time.sleep(delay)
+    raise last_err
 
 
 def parse_m3u(data):
@@ -267,14 +276,14 @@ def list_epgshare01_files():
     return mapping
 
 
-def extract_xmltv(url, wanted, oldest_ok, newest_ok):
+def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
     """Baixa um XMLTV .gz e extrai apenas os canais desejados.
 
     Retorna (channels, programmes): dicts de tvg-id -> lista de blocos XML.
     """
     channels = {}
     programmes = {}
-    raw = http_get(url, timeout=180)
+    raw = http_get(url, timeout=180, retries=retries, delay=delay)
     tmp = tempfile.NamedTemporaryFile(delete=False)
     try:
         tmp.write(raw)
@@ -372,7 +381,13 @@ def main():
     newest_ok = pyongyang_now + KEEP_AFTER
 
     print("=== ETAPA 1: Baixar M3U ===")
-    m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
+    try:
+        m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
+        print(f"  M3U baixado de: {M3U_URL}")
+    except Exception as e:
+        print(f"  ERRO ao baixar M3U remoto ({e}); usando arquivo local NEWSWORLDNOVOS.m3u")
+        with open("NEWSWORLDNOVOS.m3u", "r", encoding="utf-8") as f:
+            m3u_data = f.read()
     channels = parse_m3u(m3u_data)
     wanted_ids = list(channels.keys())
     print(f"  Canais na playlist: {len(wanted_ids)}")
@@ -443,7 +458,7 @@ def main():
             print(f"    {cid}: baixando Pluto TV (i.mjh.nz): {PLUTO_EPG_URL}")
             try:
                 src_channels, src_programmes = extract_xmltv(
-                    PLUTO_EPG_URL, [PLUTO_BB_SRC_ID], oldest_ok, newest_ok
+                    PLUTO_EPG_URL, [PLUTO_BB_SRC_ID], oldest_ok, newest_ok, retries=3, delay=10
                 )
                 src_channels, src_programmes = remap_pluto_bb(
                     src_channels, src_programmes
