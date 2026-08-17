@@ -1,45 +1,41 @@
 #!/bin/bash
 
-# Script to test M3U channels and keep only working ones
-INPUT_FILE="lista5.m3u"
-OUTPUT_FILE="lista5_working.m3u"
-TIMEOUT=10
+INPUT="lista5.m3u"
+TMP="lista5_test.m3u"
+LOG="test_log.txt"
 
-# Create temporary files
-TEMP_FILE=$(mktemp)
-WORKING_FILE=$(mktemp)
+> "$TMP"
+> "$LOG"
 
-# Parse M3U file and extract entries
+echo "#EXTM3U" > "$TMP"
+
+total=0
+working=0
+failed=0
+
 while IFS= read -r line; do
     if [[ "$line" == "#EXTINF:"* ]]; then
-        # This is an EXTINF line
-        EXTINF_LINE="$line"
-    elif [[ "$line" != "#EXTM3U" && "$line" != "" && "$line" != "#EXTM3U"* ]]; then
-        # This is a URL line
-        URL="$line"
-        if [[ -n "$EXTINF_LINE" && -n "$URL" ]]; then
-            # Test the URL
-            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout $TIMEOUT --max-time $TIMEOUT -L "$URL" 2>/dev/null)
-            
-            if [[ "$HTTP_CODE" == "200" ]]; then
-                echo "$EXTINF_LINE" >> "$WORKING_FILE"
-                echo "$URL" >> "$WORKING_FILE"
-            fi
-            EXTINF_LINE=""
+        extinf="$line"
+        read -r url
+        total=$((total + 1))
+        channel_name=$(echo "$extinf" | sed 's/.*,\(.*\)/\1/')
+        http_code=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 15 --connect-timeout 10 -A "Mozilla/5.0" "$url" 2>/dev/null)
+        if [[ "$http_code" -ge 200 && "$http_code" -lt 400 ]]; then
+            echo "$extinf" >> "$TMP"
+            echo "$url" >> "$TMP"
+            working=$((working + 1))
+            echo "[OK] ($http_code) $channel_name" >> "$LOG"
+        else
+            failed=$((failed + 1))
+            echo "[FAIL] ($http_code) $channel_name" >> "$LOG"
         fi
     fi
-done < "$INPUT_FILE"
+done < "$INPUT"
 
-# Add header and write to output
-echo "#EXTM3U" > "$OUTPUT_FILE"
-cat "$WORKING_FILE" >> "$OUTPUT_FILE"
+cp "$TMP" "$INPUT"
+rm -f "$TMP"
 
-# Count results
-TOTAL=$(grep -c "^#EXTINF:" "$INPUT_FILE")
-WORKING=$(grep -c "^#EXTINF:" "$OUTPUT_FILE")
-echo "Total channels: $TOTAL"
-echo "Working channels: $WORKING"
-echo "Removed channels: $((TOTAL - WORKING))"
-
-# Cleanup
-rm "$TEMP_FILE" "$WORKING_FILE"
+echo "=== Resultado ==="
+echo "Total: $total | Funcionando: $working | Falhando: $failed"
+echo ""
+cat "$LOG"
