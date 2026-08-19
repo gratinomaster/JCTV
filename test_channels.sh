@@ -1,33 +1,46 @@
 #!/bin/bash
-INPUT="lista5.m3u"
-OUTPUT="lista5_clean.m3u"
-TIMEOUT=10
 
-echo "#EXTM3U" > "$OUTPUT"
+INPUT_FILE="lista5.m3u"
+OUTPUT_FILE="lista5_cleaned.m3u"
+LOG_FILE="channel_test.log"
 
-# Read file line by line
-extinf=""
-url=""
+> "$LOG_FILE"
+
+echo "Testando canais da lista M3U..."
+
 while IFS= read -r line; do
-    # Skip empty lines and header
-    [[ -z "$line" || "$line" == "#EXTM3U" ]] && continue
+    if [[ "$line" == "#EXTINF"* ]]; then
+        channel_info="$line"
+        continue
+    fi
     
-    if [[ "$line" == \#EXTINF* ]]; then
-        extinf="$line"
-    elif [[ "$line" == http* ]]; then
+    if [[ "$line" =~ ^https?:// ]]; then
         url="$line"
-        # Test URL
-        response=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout "$TIMEOUT" --max-time "$TIMEOUT" -L "$url" 2>/dev/null)
-        http_code="${response:0:3}"
         
-        if [[ "$http_code" =~ ^2[0-9]{2}$ ]]; then
-            echo "$extinf" >> "$OUTPUT"
-            echo "$url" >> "$OUTPUT"
-            echo "OK: $http_code - $url" >> /tmp/test_results.txt
+        response=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 10 --max-time 15 "$url" 2>/dev/null)
+        
+        if [[ "$response" -ge 200 && "$response" -lt 400 ]]; then
+            echo "OK|$channel_info|$url" >> "$LOG_FILE"
         else
-            echo "FAIL: $http_code - $url" >> /tmp/test_results.txt
+            echo "FAIL|$channel_info|$url|$response" >> "$LOG_FILE"
         fi
     fi
-done < "$INPUT"
+done < "$INPUT_FILE"
 
-echo "Done. Results saved."
+echo "#EXTM3U" > "$OUTPUT_FILE"
+
+grep "^OK|" "$LOG_FILE" | while IFS='|' read -r status info url; do
+    echo "$info" >> "$OUTPUT_FILE"
+    echo "$url" >> "$OUTPUT_FILE"
+done
+
+ok_count=$(grep -c "^OK|" "$LOG_FILE")
+fail_count=$(grep -c "^FAIL|" "$LOG_FILE")
+
+echo "Teste concluído!"
+echo "Canais funcionando: $ok_count"
+echo "Canais com problema: $fail_count"
+
+cp "$OUTPUT_FILE" "$INPUT_FILE"
+
+echo "Arquivo atualizado: $INPUT_FILE"
