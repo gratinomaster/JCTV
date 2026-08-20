@@ -381,13 +381,21 @@ def main():
     newest_ok = pyongyang_now + KEEP_AFTER
 
     print("=== ETAPA 1: Baixar M3U ===")
-    try:
-        m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
-        print(f"  M3U baixado de: {M3U_URL}")
-    except Exception as e:
-        print(f"  ERRO ao baixar M3U remoto ({e}); usando arquivo local NEWSWORLDNOVOS.m3u")
+    m3u_data = None
+    if os.path.exists("NEWSWORLDNOVOS.m3u"):
         with open("NEWSWORLDNOVOS.m3u", "r", encoding="utf-8") as f:
             m3u_data = f.read()
+        if parse_m3u(m3u_data):
+            print(f"  M3U lido do arquivo local: NEWSWORLDNOVOS.m3u")
+    if not m3u_data or not parse_m3u(m3u_data):
+        try:
+            m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
+            print(f"  M3U baixado de: {M3U_URL}")
+        except Exception as e:
+            print(f"  ERRO ao baixar M3U remoto ({e})")
+            if not m3u_data:
+                print("  Nenhum M3U disponivel!")
+                return
     channels = parse_m3u(m3u_data)
     wanted_ids = list(channels.keys())
     print(f"  Canais na playlist: {len(wanted_ids)}")
