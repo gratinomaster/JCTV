@@ -1,47 +1,60 @@
 #!/bin/bash
 
 INPUT="lista5.m3u"
-OUTPUT="lista5_clean.m3u"
-LOG="test_results.log"
+OUTPUT="lista5.m3u"
+TEMP_FILE=$(mktemp)
+> "$TEMP_FILE"
 
-> "$LOG"
-> "$OUTPUT"
+echo "#EXTM3U" > "$TEMP_FILE"
 
-echo "#EXTM3U" >> "$OUTPUT"
-
-line_num=0
-skip_next=false
-
+LINE_NUM=0
 while IFS= read -r line; do
-    line_num=$((line_num + 1))
+    LINE_NUM=$((LINE_NUM + 1))
     
-    if [ "$skip_next" = true ]; then
-        skip_next=false
-        continue
-    fi
+    # Skip empty lines
+    [[ -z "$line" ]] && continue
     
+    # If this is an EXTINF line
     if [[ "$line" == "#EXTINF:"* ]]; then
-        extinf="$line"
-        channel_name=$(echo "$line" | sed 's/.*,\(.*\)/\1/')
-        read -r url
-        line_num=$((line_num + 1))
+        EXTINF_LINE="$line"
         
-        echo -n "Testing $channel_name... " | tee -a "$LOG"
-        
-        http_code=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 10 --max-time 15 -L "$url" 2>/dev/null)
-        
-        if [ "$http_code" = "200" ] || [ "$http_code" = "206" ] || [ "$http_code" = "302" ]; then
-            echo "OK (HTTP $http_code)" | tee -a "$LOG"
-            echo "$extinf" >> "$OUTPUT"
-            echo "$url" >> "$OUTPUT"
-        else
-            echo "FAILED (HTTP $http_code)" | tee -a "$LOG"
+        # Read the next line (URL)
+        if IFS= read -r url_line; then
+            LINE_NUM=$((LINE_NUM + 1))
+            
+            # Skip if URL line is empty or another EXTINF
+            if [[ -z "$url_line" || "$url_line" == "#EXTINF:"* || "$url_line" == "#EXTM3U" ]]; then
+                continue
+            fi
+            
+            # Test the URL
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 5 --max-time 10 "$url_line" 2>/dev/null)
+            
+            if [[ "$HTTP_CODE" == "200" ]]; then
+                echo "$EXTINF_LINE" >> "$TEMP_FILE"
+                echo "$url_line" >> "$TEMP_FILE"
+                echo "OK ($HTTP_CODE): $(echo "$EXTINF_LINE" | grep -oP ',[^,]+$')"
+            else
+                echo "FAIL ($HTTP_CODE): $(echo "$EXTINF_LINE" | grep -oP ',[^,]+$')"
+            fi
         fi
     fi
 done < "$INPUT"
 
+# Count results
+TOTAL=$(grep -c "^#EXTINF:" "$INPUT" 2>/dev/null || echo 0)
+WORKING=$(grep -c "^#EXTINF:" "$TEMP_FILE" 2>/dev/null || echo 0)
+REMOVED=$((TOTAL - WORKING))
+
 echo ""
-echo "Results saved to $OUTPUT"
-echo "Log saved to $LOG"
-echo "Working channels: $(grep -c "#EXTINF:" "$OUTPUT")"
-echo "Removed channels: $(( ($(grep -c "#EXTINF:" "$INPUT") - $(grep -c "#EXTINF:" "$OUTPUT")) ))"
+echo "========================================="
+echo "Total channels: $TOTAL"
+echo "Working channels: $WORKING"
+echo "Removed channels: $REMOVED"
+echo "========================================="
+
+# Overwrite original
+cp "$TEMP_FILE" "$OUTPUT"
+rm "$TEMP_FILE"
+
+echo "File updated: $OUTPUT"
