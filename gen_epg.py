@@ -12,7 +12,11 @@ Pyongyang). Fontes usadas, em ordem:
      (https://juche-tv.vercel.app/schedules).
   2. epgshare01 (https://epgshare01.online/epgshare01/) para os demais
      canais. O arquivo e escolhido pelo pais indicado no sufixo do tvg-id
-     (ex.: "...ar" -> AR1, "...us" -> US2), usando o indice do proprio site.
+     (ex.: "...ar" -> AR1, "...br" -> BR1 e BR2, "...net" -> ALJAZEERA1),
+     usando o indice do proprio site. Quando o tvg-id da playlist nao existe
+     no arquivo do pais (a playlist usa IDs curtos, o epgshare01 usa IDs
+     longos no estilo "Canal.13.de.Argentina.(El.Trece).ar"), entra o mapa
+     ALIASES, que aponta cada apelido para o ID real da fonte.
   3. GLOBOEPG.xml.gz local, como fonte complementar.
 
 Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado e XMLTV valido
@@ -63,6 +67,55 @@ JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}
 # Dados diarios de KCTV publicados no repo Bloxyplay/JucheTV-EPG-API (mesma
 # fonte que o site Juche TV exibe), usados quando o KORYO.TV esta fora do ar.
 JUCHE_GITHUB_URL = "https://raw.githubusercontent.com/Bloxyplay/JucheTV-EPG-API/main/epg/KCTV/{}.json"
+
+# Sufixos de tvg-id que devem consultar mais de um arquivo (ou um arquivo
+# especial) do epgshare01, alem do arquivo padrao do pais. Chaves em
+# minusculas, iguais as chaves do indice.
+EXTRA_FILES_BY_SUFFIX = {
+    "br": ["br2"],        # Rede Vida usa IDs exatos que so existem no BR2
+    "net": ["aljazeera"], # Al Jazeera Arabic tem arquivo proprio
+}
+
+# tvg-ids da playlist que nao existem com o mesmo nome no epgshare01.
+# Formato: tvg-id -> [(chave do arquivo no indice, id real na fonte), ...].
+# A ordem define a preferencia. So use apelidos confirmados (mesmo canal),
+# nunca canais apenas parecidos.
+ALIASES = {
+    # Argentina
+    "ELTrece.ar": [("ar", "Canal.13.de.Argentina.(El.Trece).ar")],
+    "AmericaTV.ar": [("ar", "Canal.America.TV.(Argentina).ar")],
+    "TyCSports.ar": [("ar", "Canal.TyC.Sports.ar")],
+    "ElGourmet.ar": [("ar", "Canal.Elgourmet.ar")],
+    "DisneyChannel.ar": [("ar", "Canal.Disney.Channel.(Argentina).ar")],
+    "DisneyJunior.ar": [("ar", "Canal.Disney.Junior.(Argentina).ar")],
+    "MTV.ar": [("ar", "Canal.MTV.(Argentina).ar")],
+    "Sony.ar": [("ar", "Canal.Sony.(Argentina).ar")],
+    "AMC.ar": [("cl", "Canal.AMC.(Chile).cl")],  # sinal pan-regional, sem AR1
+    "TelemundoInternacional.ar": [("mx", "Canal.Telemundo.(México).mx")],
+    "Telefe.ar": [("mx", "Canal.Telefe.Internacional.mx")],
+    # Chile
+    "Chilevision.cl": [("cl", "Canal.Chilevisión.(CHV).cl")],
+    "TVN.cl": [("cl", "Canal.TVN.(Chile).cl")],
+    "LaRed.cl": [("cl", "Canal.La.Red.(Chile).cl")],
+    "Mega.cl": [("cl", "Canal.Mega.(Chile).cl")],
+    "Canal13.cl": [("cl", "Canal.13.de.Chile.cl")],
+    "TVChile.cl": [("cl", "TV.Chile.cl")],
+    "ViaX.cl": [("cl", "Canal.Vía.X.cl")],
+    "ZonaLatina.cl": [("cl", "Canal.Zona.Latina.cl")],
+    # Mexico
+    "AztecaUno.mx": [("mx", "Canal.Azteca.Uno.-1.Hora.mx")],
+    "MilenioTV.mx": [("mx", "Canal.Milenio.TV.mx")],
+    "TVUNAM.mx": [("mx", "Canal.TVUNAM.mx")],
+    "CanalMexiquense.mx": [("mx", "Canal.Mexiquense.TV.mx")],
+    "TeleFormula.mx": [("mx", "Teleformula.mx")],
+    "TLNovelas.mx": [("mx", "Canal.TLNovelas.(México).mx")],
+    "Telemundo.mx": [("mx", "Canal.Telemundo.(México).mx")],
+    "EWTN.mx": [("mx", "Canal.EWTN.en.Español.mx")],
+    "DePelícula.mx": [("us", "De.Pelicula.us2")],
+    # EUA
+    "EstrellaTV.us": [("us", "ESTRELLA.NEWS.us2")],
+    "AztecaInternacional.us": [("mx", "Azteca.(XHOR).mx")],
+}
 
 
 def http_get(url, headers=None, timeout=90, retries=1, delay=5):
@@ -267,13 +320,37 @@ def parse_xmltv_time(s):
 
 
 def list_epgshare01_files():
+    """Indice do epgshare01: chave de pais -> lista de arquivos disponiveis."""
     html = http_get(EPGSHARE01_INDEX, timeout=60).decode("utf-8", errors="ignore")
     mapping = {}
     for fn in re.findall(r'href="(epg_ripper_[A-Za-z0-9]+\.xml\.gz)"', html):
-        m = re.match(r"epg_ripper_([A-Za-z]+)\d*\.xml\.gz", fn)
+        m = re.match(r"epg_ripper_([A-Za-z]+?)\d*\.xml\.gz", fn)
         if m:
-            mapping.setdefault(m.group(1).lower(), fn)
+            mapping.setdefault(m.group(1).lower(), []).append(fn)
     return mapping
+
+
+def epgshare01_files_for(cid, index):
+    """Arquivos do epgshare01 onde o tvg-id pode existir (pais + extras)."""
+    last = cid.rsplit(".", 1)[-1]
+    country = re.sub(r"\d+$", "", last).lower()
+    keys = [country]
+    for extra in EXTRA_FILES_BY_SUFFIX.get(country, []):
+        if extra not in keys:
+            keys.append(extra)
+    files = []
+    for key in keys:
+        files.extend(f for f in index.get(key, []) if f not in files)
+    return files
+
+
+def remap_channel_ref(block, src_id, dst_id):
+    return block.replace('channel="{}"'.format(src_id),
+                         'channel="{}"'.format(dst_id))
+
+
+def remap_channel_block(block, src_id, dst_id):
+    return block.replace('id="{}"'.format(src_id), 'id="{}"'.format(dst_id))
 
 
 def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
@@ -407,6 +484,11 @@ def main():
     seen = set()
     channel_xml = {}
     files_cache = {}
+    # IDs procurados na fonte: os da playlist + todos os apelidos do ALIASES
+    # (um unico passe por arquivo guarda os dois casos no cache).
+    watch_ids = list(wanted_ids) + [
+        src_id for pairs in ALIASES.values() for _, src_id in pairs
+    ]
 
     # 2.1 KCTV via KORYO.TV (live -> Wayback Machine)
     koryo_id = koryo_target_id(channels)
@@ -488,27 +570,67 @@ def main():
             continue
         last = cid.rsplit(".", 1)[-1]
         country = re.sub(r"\d+$", "", last).lower()
-        filename = epg_files.get(country)
-        if not filename:
+        filenames = epgshare01_files_for(cid, epg_files)
+        if not filenames:
             print(f"    {cid}: sem fonte epgshare01 para o pais '{country}' "
                   f"(so a definicao do canal entra no guia)")
-            continue
-        if filename in files_cache:
-            src_channels, src_programmes = files_cache[filename]
-        else:
-            url = EPGSHARE01_URL.format(filename)
-            print(f"    {cid}: baixando {filename}")
-            try:
-                src_channels, src_programmes = extract_xmltv(url, wanted_ids, oldest_ok, newest_ok)
-                files_cache[filename] = (src_channels, src_programmes)
-            except Exception as e:
-                print(f"    ERRO ao baixar/ler {filename}: {e}")
-                continue
-        if cid in src_channels:
-            channel_xml.setdefault(cid, src_channels[cid])
-        n = len(src_programmes.get(cid, []))
-        add_programmes(all_programmes, seen, cid, src_programmes.get(cid, []))
-        print(f"      {cid}: {n} programas (epgshare01)")
+        blocks = []
+        for filename in filenames:
+            if filename in files_cache:
+                src_channels, src_programmes = files_cache[filename]
+            else:
+                url = EPGSHARE01_URL.format(filename)
+                print(f"    {cid}: baixando {filename}")
+                try:
+                    src_channels, src_programmes = extract_xmltv(
+                        url, watch_ids, oldest_ok, newest_ok
+                    )
+                    files_cache[filename] = (src_channels, src_programmes)
+                except Exception as e:
+                    print(f"    ERRO ao baixar/ler {filename}: {e}")
+                    continue
+            if cid in src_channels:
+                channel_xml.setdefault(cid, src_channels[cid])
+            blocks = src_programmes.get(cid, [])
+            if blocks:
+                break
+        if not blocks and cid in ALIASES:
+            # O tvg-id da playlist nao existe na fonte; tenta os apelidos.
+            for key, src_id in ALIASES[cid]:
+                done = False
+                for filename in epg_files.get(key, []):
+                    if filename in files_cache:
+                        src_channels, src_programmes = files_cache[filename]
+                    else:
+                        url = EPGSHARE01_URL.format(filename)
+                        print(f"    {cid}: apelido {src_id}; baixando {filename}")
+                        try:
+                            src_channels, src_programmes = extract_xmltv(
+                                url, watch_ids, oldest_ok, newest_ok
+                            )
+                            files_cache[filename] = (src_channels, src_programmes)
+                        except Exception as e:
+                            print(f"    ERRO ao baixar/ler {filename}: {e}")
+                            continue
+                    if src_programmes.get(src_id):
+                        if src_id in src_channels:
+                            channel_xml.setdefault(
+                                cid, remap_channel_block(src_channels[src_id], src_id, cid)
+                            )
+                        blocks = [
+                            remap_channel_ref(b, src_id, cid)
+                            for b in src_programmes[src_id]
+                        ]
+                        done = True
+                        break
+                if done:
+                    break
+            if not blocks:
+                print(f"    {cid}: apelidos sem dados na janela")
+        n = len(blocks)
+        add_programmes(all_programmes, seen, cid, blocks)
+        if n:
+            print(f"      {cid}: {n} programas (epgshare01)")
 
     # 2.3 GLOBOEPG.xml.gz local como fonte complementar
     if os.path.exists(GLOBO_EPG):
