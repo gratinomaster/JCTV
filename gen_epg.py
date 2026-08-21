@@ -82,6 +82,7 @@ EXTRA_FILES_BY_SUFFIX = {
 # nunca canais apenas parecidos.
 ALIASES = {
     # Argentina
+    "TVPublica.ar": [("ar", "Canal.Televisión.Pública.(Argentina).ar")],
     "ELTrece.ar": [("ar", "Canal.13.de.Argentina.(El.Trece).ar")],
     "AmericaTV.ar": [("ar", "Canal.America.TV.(Argentina).ar")],
     "TyCSports.ar": [("ar", "Canal.TyC.Sports.ar")],
@@ -108,6 +109,7 @@ ALIASES = {
     "TVUNAM.mx": [("mx", "Canal.TVUNAM.mx")],
     "CanalMexiquense.mx": [("mx", "Canal.Mexiquense.TV.mx")],
     "TeleFormula.mx": [("mx", "Teleformula.mx")],
+    "Sony.mx": [("mx", "Canal.Sony.(México).mx")],
     "TLNovelas.mx": [("mx", "Canal.TLNovelas.(México).mx")],
     "Telemundo.mx": [("mx", "Canal.Telemundo.(México).mx")],
     "EWTN.mx": [("mx", "Canal.EWTN.en.Español.mx")],
