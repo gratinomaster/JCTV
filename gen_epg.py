@@ -28,6 +28,7 @@ import json
 import os
 import re
 import tempfile
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -54,6 +55,13 @@ KORYO_HEADER = {
 
 EPGSHARE01_INDEX = "https://epgshare01.online/epgshare01/"
 EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
+
+
+def epgshare01_url(filename):
+    """URL com cache-busting: o Cloudflare do epgshare01 costuma servir 404
+    em cache (max-age=4h) durante a regeneracao diaria dos arquivos; um
+    parametro unico na query força busca na origem."""
+    return "{}?nocache={}".format(EPGSHARE01_URL.format(filename), int(time.time()))
 
 # Pluto TV: o canal "Big Brother 24/7" (tvg-id BigBrother.us) tem guia real
 # publicado no i.mjh.nz com o site_id 6661f11a41af6400080e90d8. Mapeamos o
@@ -585,7 +593,7 @@ def main():
             if filename in files_cache:
                 src_channels, src_programmes = files_cache[filename]
             else:
-                url = EPGSHARE01_URL.format(filename)
+                url = epgshare01_url(filename)
                 print(f"    {cid}: baixando {filename}")
                 try:
                     src_channels, src_programmes = extract_xmltv(
@@ -608,7 +616,7 @@ def main():
                     if filename in files_cache:
                         src_channels, src_programmes = files_cache[filename]
                     else:
-                        url = EPGSHARE01_URL.format(filename)
+                        url = epgshare01_url(filename)
                         print(f"    {cid}: apelido {src_id}; baixando {filename}")
                         try:
                             src_channels, src_programmes = extract_xmltv(
