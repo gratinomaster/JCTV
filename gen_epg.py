@@ -114,6 +114,10 @@ ALIASES = {
     "Telemundo.mx": [("mx", "Canal.Telemundo.(México).mx")],
     "EWTN.mx": [("mx", "Canal.EWTN.en.Español.mx")],
     "DePelícula.mx": [("us", "De.Pelicula.us2")],
+    "Canal5.mx": [("mx", "Canal.5.de.México.(XHGC).mx")],
+    "Canal14.mx": [("mx", "Canal.14.de.México.mx")],
+    "Canal22.mx": [("mx", "Canal.22.de.México.mx")],
+    "Univision.mx": [("cl", "Canal.Univision.(Chile).cl")],
     # EUA
     "EstrellaTV.us": [("us", "ESTRELLA.NEWS.us2")],
     "AztecaInternacional.us": [("mx", "Azteca.(XHOR).mx")],
