@@ -17,7 +17,10 @@ Pyongyang). Fontes usadas, em ordem:
      no arquivo do pais (a playlist usa IDs curtos, o epgshare01 usa IDs
      longos no estilo "Canal.13.de.Argentina.(El.Trece).ar"), entra o mapa
      ALIASES, que aponta cada apelido para o ID real da fonte.
-  3. GLOBOEPG.xml.gz local, como fonte complementar.
+  3. Grade oficial da Al Jazeera (GraphQL do aljazeera.com) para a
+     Al Jazeera Arabic, pois o arquivo do epgshare01 costuma ficar
+     desatualizado para esse canal.
+  4. GLOBOEPG.xml.gz local, como fonte complementar.
 
 Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado e XMLTV valido
 e compativel com TiviMate (todo <programme> referencia um <channel> que
@@ -75,6 +78,17 @@ JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}
 # Dados diarios de KCTV publicados no repo Bloxyplay/JucheTV-EPG-API (mesma
 # fonte que o site Juche TV exibe), usados quando o KORYO.TV esta fora do ar.
 JUCHE_GITHUB_URL = "https://raw.githubusercontent.com/Bloxyplay/JucheTV-EPG-API/main/epg/KCTV/{}.json"
+
+# Al Jazeera Arabic: a grade oficial (GraphQL do aljazeera.com) cobre 7 dias,
+# enquanto o arquivo ALJAZEERA1 do epgshare01 costuma ficar dias desatualizado
+# para este canal. Os horarios do site sao de Meca (UTC+3).
+ALJAZEERA_AR_ID = "AlJazeera.Arabic.net"
+AJA_GRAPHQL_URL = (
+    "https://www.aljazeera.com/graphql?wp-site=aja"
+    "&operationName=ArchipelagoSchedulePageQuery"
+    "&variables=%7B%22postName%22%3A%22schedule%22%2C%22preview%22%3A%22%22%7D"
+    "&extensions=%7B%7D"
+)
 
 # Sufixos de tvg-id que devem consultar mais de um arquivo (ou um arquivo
 # especial) do epgshare01, alem do arquivo padrao do pais. Chaves em
@@ -206,6 +220,55 @@ def fetch_koryo():
     data = gzip.decompress(raw).decode("utf-8", errors="ignore")
     events = json.loads(data).get("events", [])
     return events, source, live
+
+
+def fetch_aljazeera_arabic(tvg_id, oldest_ok, newest_ok):
+    """EPG oficial da Al Jazeera Arabic (GraphQL do aljazeera.com).
+
+    Cada item traz showTimeslot (HH:mm) e duration ("H:M:S", as vezes com
+    numeros de um so digito) relativos ao dia em startDate (meia-noite UTC).
+    Os horarios do site sao de Meca (UTC+3) - confirmado comparando o bloco
+    "يعرض الآن" renderizado pelo servidor com a hora atual.
+    """
+    raw = http_get(AJA_GRAPHQL_URL,
+                   headers={"wp-site": "aja", "User-Agent": "Mozilla/5.0"},
+                   timeout=60)
+    schedule = json.loads(raw.decode("utf-8", errors="ignore"))
+    schedule = (schedule.get("data") or {}).get("post") or {}
+    schedule = schedule.get("schedule") or []
+    mecca = timezone(timedelta(hours=3))
+    blocks = []
+    for item in schedule:
+        try:
+            day0 = datetime.fromtimestamp(int(item["startDate"]), tz=timezone.utc)
+            hh, mm = str(item["showTimeslot"]).split(":")[:2]
+            start = day0.replace(hour=int(hh), minute=int(mm),
+                                 second=0, microsecond=0,
+                                 tzinfo=mecca).astimezone(timezone.utc)
+        except Exception:
+            continue
+        m = re.match(r"(\d+):(\d+)(?::(\d+))?", str(item.get("duration") or ""))
+        if m:
+            dur = timedelta(hours=int(m.group(1)), minutes=int(m.group(2)),
+                            seconds=int(m.group(3) or 0))
+        else:
+            dur = timedelta(hours=1)
+        stop = start + dur
+        if start < oldest_ok or start > newest_ok:
+            continue
+        title = (item.get("showName") or "").strip() or "Sem titulo"
+        desc = (item.get("showDescription") or "").strip()
+        parts = [
+            f'  <programme start="{start.strftime("%Y%m%d%H%M%S")} +0000" '
+            f'stop="{stop.strftime("%Y%m%d%H%M%S")} +0000" '
+            f'channel="{sax.escape(tvg_id)}">',
+            f'    <title lang="ar">{sax.escape(title)}</title>',
+        ]
+        if desc:
+            parts.append(f'    <desc lang="ar">{sax.escape(desc)}</desc>')
+        parts.append("  </programme>")
+        blocks.append("\n".join(parts))
+    return blocks
 
 
 def fetch_juche(koryo_id, oldest_ok, newest_ok):
@@ -582,6 +645,18 @@ def main():
             add_programmes(all_programmes, seen, cid, blocks)
             print(f"      {cid}: {n} programas (Pluto TV / i.mjh.nz)")
             continue
+        if cid == ALJAZEERA_AR_ID:
+            print(f"    {cid}: baixando grade oficial (GraphQL aljazeera.com)")
+            try:
+                blocks = fetch_aljazeera_arabic(cid, oldest_ok, newest_ok)
+            except Exception as e:
+                print(f"      ERRO na fonte oficial ({e}); tentando epgshare01")
+                blocks = []
+            if blocks:
+                n = len(blocks)
+                add_programmes(all_programmes, seen, cid, blocks)
+                print(f"      {cid}: {n} programas (aljazeera.com oficial)")
+                continue
         last = cid.rsplit(".", 1)[-1]
         country = re.sub(r"\d+$", "", last).lower()
         filenames = epgshare01_files_for(cid, epg_files)
