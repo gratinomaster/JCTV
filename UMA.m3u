@@ -1,13 +1,16 @@
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
 #EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS (EUA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
 http://stream.cammonitorplus.net/1783/index.m3u8
+#EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Pluto TV Big Brother 24/7 (EUA)
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6661f11a41af6400080e90d8/master.m3u8?advertisingId=&appName=android&appVersion=unknown&architecture=arm&buildVersion=&clientTime=&deviceDNT=0&deviceId=289ac6534a5e2e309f348c47a0ebd0e6&deviceLat=0&deviceLon=0&deviceMake=Android&deviceModel=mobile&deviceType=android&deviceVersion=13&includeExtendedEvents=false&marketingRegion=US&serverSideAds=true&sid=5182e41834feed217af8540de5d84427&userId=
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI2IDI6MjoyMiBBTSZoYXNoX3ZhbHVlPVIzSUNTR21aMThrWHIvZE50MmVzblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD05M2YzMjNkZC1kNjZjLTRkYmQtYTg0YS1kNzcyODUzODBiNTM=
+https://video-auth7.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMy8yMDI2IDI6MjY6OCBBTSZoYXNoX3ZhbHVlPWVGRHZMRzJ5NmlkK1pkcUpEWm9SeXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xM2FkMGYyMi1hODUzLTQzNTMtYTE0OS1mYTMxZmNlOGEwNDE=
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
-https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
+https://video-auth7.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMy8yMDI2IDI6MjY6OCBBTSZoYXNoX3ZhbHVlPWVGRHZMRzJ5NmlkK1pkcUpEWm9SeXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xM2FkMGYyMi1hODUzLTQzNTMtYTE0OS1mYTMxZmNlOGEwNDE=
 #EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe (Argentina)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (Argentina)
 http://200.91.32.158:8080/telefehdvalle/index.m3u8
 #EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas (México)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
 #EXTINF:-1 tvg-id="TMC.fr" tvg-name="TMC (França)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tmc-fr.png" group-title="🇫🇷 Secret Story 14 (TMC)",TMC (França)
-http://151.80.18.177:86/TMC/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/fESQS4xhSw5u/AVbvTmwj31nnfzKM.m3u8
