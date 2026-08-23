@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
 #EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS (EUA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
 http://stream.cammonitorplus.net/1783/index.m3u8
-#EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother 24/7 (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 24/7 (Pluto TV)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6661f11a41af6400080e90d8/master.m3u8?advertisingId=&appName=web&appStoreName=web&appVersion=5.14.0&deviceDNT=0&deviceId=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=125.0.6422.26&includeExtendedEvents=false&marketingRegion=US&serverSideAds=true&sid=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&startTime=0&terminate=false
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI2IDI6MjoyMiBBTSZoYXNoX3ZhbHVlPVIzSUNTR21aMThrWHIvZE50MmVzblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD05M2YzMjNkZC1kNjZjLTRkYmQtYTg0YS1kNzcyODUzODBiNTM=
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
