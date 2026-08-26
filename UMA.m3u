@@ -3,11 +3,11 @@
 https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
 #EXTINF:-1 tvg-id="CBS.us" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
 http://stream.cammonitorplus.net/1783/index.m3u8
-#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://video-auth7.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMy8yMDI2IDI6MjY6OCBBTSZoYXNoX3ZhbHVlPWVGRHZMRzJ5NmlkK1pkcUpEWm9SeXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xM2FkMGYyMi1hODUzLTQzNTMtYTE0OS1mYTMxZmNlOGEwNDE=
-#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
-https://video-auth7.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMy8yMDI2IDI6MjY6OCBBTSZoYXNoX3ZhbHVlPWVGRHZMRzJ5NmlkK1pkcUpEWm9SeXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xM2FkMGYyMi1hODUzLTQzNTMtYTE0OS1mYTMxZmNlOGEwNDE=
-#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe Interior" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe Interior (Argentina)
+#EXTINF:-1 tvg-id="TVI.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
+#EXTINF:-1 tvg-id="TVI.Reality.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
+https://github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Reality.m3u8
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe Interior (Argentina)
 http://200.91.32.158:8080/telefehdvalle/index.m3u8
-#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
