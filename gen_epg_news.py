@@ -33,8 +33,8 @@ MAP = {
 }
 
 LOGOS = {
-    "ABCNewsLive.us": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
-    "CBSNews247.us": "https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg",
+    "ABCNewsLive.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/abcnews.jpg",
+    "CBSNews247.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/cbsnews.jpg",
     "FoxNewsChannel.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxnews.jpg",
     "FoxBusinessNetwork.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxbusiness.jpg",
 }
