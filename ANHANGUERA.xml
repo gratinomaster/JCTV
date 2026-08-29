@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="JCTV EPG Generator (mi.tv)" genePronto. A programação de amanhã (domingo, 30/08/2026) da **TV Anhanguera HD** está confirmada (fonte: mi.tv) — 47 eventos, das 00:20 aos programas da manhã: Fantástico, Domingão com Huck, Flamengo x Botafogo, Globo Repórter etc.
+
+Gerei e validei dois arquivos no repositório (telas XMLTV, fuso -0300):
+- `ANHANGUERA.xml` (19 KB)
+- `ANHANGUERA.xml.gz` (5 KB)
+
+**Link para usar no seu .m3u:**
+```
+https://raw.githubusercontent.com/JCTV/JCTV/main/ANHANGUERA.xml.gz
+```
+(ou `.../ANHANGUERA.xml` se quiser sem compactar)
+
+**Como usar no .m3u:**
+```
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/JCTV/JCTV/main/ANHANGUERA.xml.gz"
+#EXTINF:-1 tvg-id="TV Anhanguera HD.br" tvg-name="TV Anhanguera" group-title="Brasil",TV Anhanguera
+http://seu-stream-ao-vivo...
+```
+O `tvg-id` precisa bater exatamente com o id do canal dentro do XML (`TV Anhanguera HD.br`).
+
+Atenção: o arquivo ainda está **não commitado** (`git status` mostra `?? ANHANGUERA.xml*`) — o link só funciona depois que você commitar/pushar (os GitHub Actions do repo fazem isso). Quer que eu commite?
+
+Fallback público (sem commit, mas com dados mais ralos para o dia seguinte): `https://www.open-epg.com/files/brazil1.xml.gz` (canal `TV Anhanguera HD.br`, id igual).
+0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Romance</title>
+    <category lang="pt">Romance / 2008 / 7.0</category>
+    <desc lang="pt">Pedro se apaixona por Ana, com quem contracena no teatro. Quando ela aceita fazer uma telenovela, o relacionamento é abalado pelo sucesso da atriz na TV. Tudo se complica ainda mais quando Ana se apaixona por outro ator ao gravar um especial.</desc>
+  </programme>
+  <programme start="20260829085000 -0300" stop="20260829094500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Globo Rural</title>
+    <category lang="pt">Agriculture</category>
+    <desc lang="pt">As principais notícias sobre o agronegócio, os índices do setor agrícola e informações sobre a vida no campo, além de reportagens especiais.</desc>
+  </programme>
+  <programme start="20260829094500 -0300" stop="20260829104500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Bom Dia Sábado</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">As principais notícias do Brasil para começar o final de semana bem-informado.</desc>
+  </programme>
+  <programme start="20260829104500 -0300" stop="20260829113000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Pequenas Empresas &amp; Grandes Negócios</title>
+    <category lang="pt">Bus./financial</category>
+    <desc lang="pt">Informações e reportagens de grande interesse para empreendedores, pequenos e médios empresários.</desc>
+  </programme>
+  <programme start="20260829113000 -0300" stop="20260829144500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">É de Casa</title>
+    <category lang="pt">Home improvement</category>
+    <desc lang="pt">A equipe do programa discute e comenta assuntos que são comuns a todas as famílias. O que está sendo falado na imprensa, o que se fala nas ruas e, é claro, dentro de casa.</desc>
+  </programme>
+  <programme start="20260829144500 -0300" stop="20260829160000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">JA1</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">Noticiário do que movimenta a capital goiana e o interior na metade do dia.</desc>
+  </programme>
+  <programme start="20260829160000 -0300" stop="20260829162500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Propaganda Eleitoral</title>
+    <category lang="pt">Politics</category>
+    <desc lang="pt">Espaço dedicado aos candidatos e partidos políticos para exporem suas metas e projetos de trabalho.</desc>
+  </programme>
+  <programme start="20260829162500 -0300" stop="20260829163500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">JA1</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">Noticiário do que movimenta a capital goiana e o interior na metade do dia.</desc>
+  </programme>
+  <programme start="20260829163500 -0300" stop="20260829165000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Globo Esporte GO</title>
+    <desc lang="pt">Confira as últimas notícias dos principais eventos do mundo esportivo, com foco nos times do estado.</desc>
+  </programme>
+  <programme start="20260829165000 -0300" stop="20260829173000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Jornal Hoje</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">As principais notícias do dia a dia e temas de interesse geral no Brasil e no mundo, além de reportagens e séries especiais.</desc>
+  </programme>
+  <programme start="20260829173000 -0300" stop="20260829174500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Prato do Dia</title>
+    <category lang="pt">Cooking</category>
+    <desc lang="pt">Curiosidades de personagens e lugares do campo e da cidade que passam muitas vezes por exemplos de empreendedorismo, superação, improviso, segredos entre gerações e de produções que se tornaram a principal saída para o sustento da família.</desc>
+  </programme>
+  <programme start="20260829174500 -0300" stop="20260829180000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">No Balaio</title>
+    <category lang="pt">Variety</category>
+    <desc lang="pt">O programa traz o melhor a diversidade do estado de Goiás e da cultura de seu povo.</desc>
+  </programme>
+  <programme start="20260829180000 -0300" stop="20260829192000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Caldeirão com Mion</title>
+    <category lang="pt">Entertainment</category>
+    <desc lang="pt">Marcos Mion traz alegria ao programa de auditório com quadros animados, desafios inéditos e atrações musicais especiais.</desc>
+  </programme>
+  <programme start="20260829192000 -0300" stop="20260829213000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Campeonato Brasileiro de Futebol Feminino - Série A1</title>
+    <category lang="pt">Campeonato Brasileiro de Futebol Feminino - Série A1</category>
+    <desc lang="pt">Acompanhe as emoções da divisão de elite do futebol feminino brasileiro, com 16 clubes na disputa.</desc>
+  </programme>
+  <programme start="20260829213000 -0300" stop="20260829222000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">A Nobreza do Amor</title>
+    <category lang="pt">Soap</category>
+    <desc lang="pt">Alika comemora a notícia do apoio da rainha Menemi e planeja seu retorno a Batanga, enquanto Tonho se preocupa. Chinua diz para Kênia que Dumi foi encontrado.</desc>
+  </programme>
+  <programme start="20260829222000 -0300" stop="20260829224000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">JA2</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">Noticiário que abrange o que movimenta a cidade de Goiânia e o interior do estado.</desc>
+  </programme>
+  <programme start="20260829224000 -0300" stop="20260829233000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Por Você</title>
+    <category lang="pt">Soap</category>
+    <desc lang="pt">Vanessa faz um acordo com Junqueira. Iara sugere que Bela se aproxime de Lucas. Peixe convida Suelen para sair, e Dalila sente ciúmes. Ricardo diz para Bela que acredita que Gabriel ainda tem sentimentos por ela.</desc>
+  </programme>
+  <programme start="20260829233000 -0300" stop="20260829235500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Propaganda Eleitoral</title>
+    <category lang="pt">Politics</category>
+    <desc lang="pt">Espaço dedicado aos candidatos e partidos políticos para exporem suas metas e projetos de trabalho.</desc>
+  </programme>
+  <programme start="20260829235500 -0300" stop="20260830002000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Jornal Nacional</title>
+    <category lang="pt">News</category>
+    <desc lang="pt">As principais notícias do Brasil e do mundo, tendo sempre em pauta atualidades, matérias de denúncia e investigação. O telejornal aborda política, economia, jornalismo internacional, esporte e a tradicional previsão do tempo.</desc>
+  </programme>
+  <programme start="20260830002000 -0300" stop="20260830010500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Entrevista com os Candidatos à Presidência</title>
+    <category lang="pt">Debate</category>
+    <desc lang="pt">Renata Vasconcellos e César Tralli entrevistam candidatos à presidência do Brasil.</desc>
+  </programme>
+  <programme start="20260830010500 -0300" stop="20260830015000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Quem Ama Cuida</title>
+    <category lang="pt">Soap</category>
+    <desc lang="pt">Nancy aceita ajudar Adriana e Carla resolve disponibilizar para Pedro um arquivo que guardou de Dalto. Dora comenta com André que receia que Ademir descubra sobre seu relacionamento.</desc>
+  </programme>
+  <programme start="20260830015000 -0300" stop="20260830021500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Estrelas da Casa</title>
+    <category lang="pt">Temporada 3 Episódio 5</category>
+    <desc lang="pt">Em busca de seus sonhos, artistas talentosos entram nesta casa para formar grupos musicais de sucesso. Cantores de diferentes estilos enfrentam diversas etapas em sua jornada nos palcos.</desc>
+  </programme>
+  <programme start="20260830021500 -0300" stop="20260830031500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Spaten Fight Night 3 - Maurício Shogun x Glover Teixeira</title>
+    <category lang="pt">Spaten Fight Night 3 - Maurício Shogun x Glover Teixeira</category>
+    <desc lang="pt">Lendas do MMA colidem dentro de um ringue de boxe, na Mercado Livre Arena Pacaembu, em São Paulo. Maurício &quot;Shogun&quot; Rua e Glover Teixeira, ícones do Ultimate Fighting Championship, se enfrentam na luta principal da noite.</desc>
+  </programme>
+  <programme start="20260830031500 -0300" stop="20260830044500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Águas Profundas</title>
+    <category lang="pt">Thriller / 2022</category>
+    <desc lang="pt">Um homem permite que sua esposa tenha relações com outras pessoas para tentar salvar seu casamento. Porém, quando os amantes dela começam a desaparecer, o marido se torna o principal suspeito.</desc>
+  </programme>
+  <programme start="20260830044500 -0300" stop="20260830053000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">A Nobreza do Amor</title>
+    <category lang="pt">Soap</category>
+    <desc lang="pt">Alika comemora a notícia do apoio da rainha Menemi e planeja seu retorno a Batanga, enquanto Tonho se preocupa. Chinua diz para Kênia que Dumi foi encontrado.</desc>
+  </programme>
+  <programme start="20260830053000 -0300" stop="20260830061500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Por Você</title>
+    <category lang="pt">Soap</category>
+    <desc lang="pt">Ítalo machuca o braço, e Lucas, Peixe e Glorinha o levam até o hospital Luz. Vitor questiona Leandra sobre o namoro dos dois. Peixe conversa com Gabriel. Gabriel flagra Lucas e Bela juntos, e Vanessa observa a reação do ex-marido.</desc>
+  </programme>
+  <programme start="20260830061500 -0300" stop="20260830073500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">L.O.C.A.</title>
+    <category lang="pt">Comedy / 2021</category>
+    <desc lang="pt">Em uma das reuniões da L.O.C.A., Liga das Obsessivas Compulsivas por Amor, Manoela, Elena e Rebeca acabam se conhecendo melhor quase por acidente e percebem que possuem mais em comum do que esperavam: as três sofreram grandes decepções amorosas e resolvem se juntar para uma grande vingança.</desc>
+  </programme>
+  <programme start="20260830073500 -0300" stop="20260830085000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Perlimps</title>
+    <category lang="pt">Adventure / 2022</category>
+    <desc lang="pt">A jornada de aventura e fantasia de Claé e Bruô, agentes secretos de reinos rivais. Eles precisam superar suas diferenças e unir forças para buscar os Perlimps, criaturas misteriosas capazes de encontrar um caminho para a paz em tempos de guerra.</desc>
+  </programme>
+  <programme start="20260830085000 -0300" stop="20260830094000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Santa Missa</title>
+    <category lang="pt">Religious</category>
+    <desc lang="pt">Acompanhe a celebração da santa missa em João Pessoa.</desc>
+  </programme>
+  <programme start="20260830094000 -0300" stop="20260830103000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Globo Repórter</title>
+    <category lang="pt">Newsmagazine</category>
+    <desc lang="pt">O programa apresenta reportagens especiais sobre atualidades, saúde, ciência, natureza e muita aventura, com destinos exóticos do Brasil e do mundo.</desc>
+  </programme>
+  <programme start="20260830103000 -0300" stop="20260830110000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Jornal do Campo GO</title>
+    <category lang="pt">Newsmagazine</category>
+    <desc lang="pt">O programa apresenta a vida do produtor rural e o cenário da economia agropecuária em Goiás.</desc>
+  </programme>
+  <programme start="20260830110000 -0300" stop="20260830113000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">AutoEsporte</title>
+    <desc lang="pt">A revista eletrônica do setor automotivo apresenta as últimas notícias sobre automóveis, nacionais e importados, além de lançamentos, segredos, curiosidades, comparativos e testes.</desc>
+  </programme>
+  <programme start="20260830113000 -0300" stop="20260830130500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Globo Rural</title>
+    <category lang="pt">Agriculture</category>
+    <desc lang="pt">As principais notícias sobre o agronegócio, os índices do setor agrícola e informações sobre a vida no campo, além de reportagens especiais.</desc>
+  </programme>
+  <programme start="20260830130500 -0300" stop="20260830140000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Viver Sertanejo</title>
+    <category lang="pt">Interview</category>
+    <desc lang="pt">Daniel abre a porteira de sua fazenda para receber grandes astros da música sertaneja. Juntos, eles relembram suas trajetórias, falam sobre suas inspirações e se deixam levar pelas modas de viola.</desc>
+  </programme>
+  <programme start="20260830140000 -0300" stop="20260830153000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Esporte Espetacular</title>
+    <desc lang="pt">Fique por dentro de tudo o que rolou durante a semana nos esportes e veja os gols pelo mundo afora. Entrevistas, reportagens sobre ciência esportiva e personagens históricos também fazem parte da atração.</desc>
+  </programme>
+  <programme start="20260830153000 -0300" stop="20260830172500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">King's Man - A Origem</title>
+    <category lang="pt">Action / 2021</category>
+    <desc lang="pt">Um homem precisa correr contra o tempo para impedir que os piores tiranos e criminosos da história exterminem milhões de pessoas e destruam a humanidade.</desc>
+  </programme>
+  <programme start="20260830172500 -0300" stop="20260830183000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Em Família com Eliana</title>
+    <category lang="pt">Temporada 1 Episódio 20</category>
+    <desc lang="pt">O &quot;Em Família com Eliana&quot; tem especial dedicado a Ivete Sangalo. Dani Calabresa participa, fala sobre maternidade e se diverte nas dinâmicas com Ivete.</desc>
+  </programme>
+  <programme start="20260830183000 -0300" stop="20260830184500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Bora Pro Jogo</title>
+    <desc lang="pt">Os principais acontecimentos do Brasileirão, com notícias de clubes e atletas antes das partidas.</desc>
+  </programme>
+  <programme start="20260830184500 -0300" stop="20260830211000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Flamengo x Botafogo</title>
+    <category lang="pt">Campeonato Brasileiro</category>
+    <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
+  </programme>
+  <programme start="20260830211000 -0300" stop="20260830233000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Domingão com Huck</title>
+    <category lang="pt">Temporada 2026 Episódio 260</category>
+    <desc lang="pt">Todo final de semana, Luciano Huck oferece o melhor do entretenimento, com quadros divertidos e emocionantes, muita música, a presença marcante de famosos e matérias especiais pelo Brasil.</desc>
+  </programme>
+  <programme start="20260830233000 -0300" stop="20260831023000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Fantástico</title>
+    <category lang="pt">Newsmagazine</category>
+    <desc lang="pt">Em forma de revista eletrônica, o programa mistura jornalismo, denúncia, esporte, humor, dramaturgia, música e ciência.</desc>
+  </programme>
+  <programme start="20260831023000 -0300" stop="20260831023500 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Estrelas da Casa</title>
+    <category lang="pt">Temporada 3 Episódio 6</category>
+    <desc lang="pt">Em busca de seus sonhos, artistas talentosos entram nesta casa para formar grupos musicais de sucesso. Cantores de diferentes estilos enfrentam diversas etapas em sua jornada nos palcos.</desc>
+  </programme>
+  <programme start="20260831023500 -0300" stop="20260831032000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Circuito Sertanejo</title>
+    <category lang="pt">Event</category>
+    <desc lang="pt">O maior festival de música sertaneja do Brasil que acontece nas seis cidades anfitriãs: Londrina, Ribeirão Preto, Pedro Leopoldo, Barretos, Jaguariúna e Caldas Novas.</desc>
+  </programme>
+  <programme start="20260831032000 -0300" stop="20260831052000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">O Último Duelo</title>
+    <category lang="pt">Historical drama / 2021</category>
+    <desc lang="pt">O escudeiro Jacques Le Gris ataca a esposa de Jean de Carrouge, um respeitado cavaleiro. Ela o denuncia, em um ato de coragem que põe sua vida em risco. O julgamento por combate, um duelo até a morte, coloca o destino dos três nas mãos de Deus.</desc>
+  </programme>
+  <programme start="20260831052000 -0300" stop="20260831062000 -0300" channel="TV Anhanguera HD.br">
+    <title lang="pt">Filhos da Esperança</title>
+    <category lang="pt">Science fiction / 2006</category>
+    <desc lang="pt">No ano de 2027, a infertilidade é uma ameaça real para a civilização, e o último humano a nascer em anos acaba de morrer. Frente a um cenário pessimista sobre o futuro, um burocrata desiludido se torna o herói improvável que pode salvar a humanidade. Para isso, ele enfrenta seus próprios demônios e tenta proteger a última esperança do planeta: uma jovem mulher milagrosamente grávida, descoberta pela ativista inteligente com quem fora casado.</desc>
+  </programme>
+</tv>
