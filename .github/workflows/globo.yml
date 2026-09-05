@@ -44,8 +44,6 @@ jobs:
       - name: Verificar versão do Python
         run: python --version
 
-      - name: Rodar script GLOBO.py
-        run: python GLOBO.py
 
       - name: Instalar OpenCode
         run: |
