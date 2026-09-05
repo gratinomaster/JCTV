@@ -2,7 +2,7 @@ name: Baixando GLOBO
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Executa a cada 3 horas
+    - cron: '0 */2 * * *'  # Executa a cada 2 horas
   pull_request:
     branches:
       - main
@@ -61,7 +61,11 @@ jobs:
       - name: Rodar OpenCode
         run: |
           echo "Executando OpenCode..."
-          opencode run "$(cat prompt.txt)"
+          opencode run "$(cat prompt.txt )"
+
+      - name: Excluir todos os arquivos .bak
+        run: |
+          find . -type f -name "*.bak" -not -path "./.git/*" -print -delete
 
       - name: Commit e Push
         run: |
@@ -69,3 +73,7 @@ jobs:
           git pull origin main --rebase || echo "Sem atualizações remotas"
           git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança"
           git push origin main
+
+
+
+
