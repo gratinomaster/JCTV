@@ -1,0 +1,8 @@
+I have the full picture now. The list containing Multishow is `canais_ao_vivo.txt` / `canais_ao_vivo.json` (Globoplay live channels). I discovered the canonical Globoplay BIS live URL (`bis/ao-vivo/7339140/` — confirmed 200 and referenced by official Globo sources for 2025/2026), verified Multishow vs BIS pages with Crawl4AI. Now adding BIS right after Multishow.
+Feito. Adicionei o canal **BIS** logo após o **Multishow** na lista em que ele aparece (`canais_ao_vivo.json` e `canais_ao_vivo.txt`), usando crawl4ai para confirmar as páginas ao vivo.
+
+- URL adicionada: `https://globoplay.globo.com/bis/ao-vivo/7339140/` (canônica oficial, retorna HTTP 200 e é a usada pela própria Globo em 2026 — ex. Rock in Rio/KATSEYE).
+- Ajustei renumeração e total de canais (9 → 10) no `.txt`.
+- yt-dlp/aria2 não foram necessários: yt-dlp não tem extrator para Globoplay (stream exige login/token), então a validação foi via página ao vivo (mesmo critério dos demais itens da lista).
+
+Observação: o BIS é canal exclusivo do Globoplay (player liberado para assinantes), comportamento idêntico aos demais links da lista.
