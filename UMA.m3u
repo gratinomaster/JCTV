@@ -1,16 +1,10 @@
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz"
 #EXTINF:-1 tvg-id="6661f11a41af6400080e90d8" tvg-name="Big Brother" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Feeds 24/7 (Pluto TV)
 https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
-#EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
-http://stream.cammonitorplus.net/1783/index.m3u8
 #EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
 #EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
 https://github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Reality.m3u8
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-name="América TV" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina-mediano.png" group-title="🇦🇷 Gran Hermano (Telefe)",América TV (TDT - Canal 9.1)
-https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (TDT - Canal 11.1)
-http://200.91.32.158:8080/telefehdvalle/index.m3u8
 #EXTINF:-1 tvg-id="ELTrece.ar" tvg-name="El Trece" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_argentina-mediano.png" group-title="🇦🇷 Gran Hermano (Telefe)",El Trece (TDT - Canal 13.1)
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 #EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="TV Pública" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/television-publica-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",TV Pública (TDT - Canal 22.1)

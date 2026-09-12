@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://github.com/karenda-jp/etc/raw/refs/heads/main/guides.xml"
+#EXTM3U url-tvg="https://github.com/karenda-jp/etc/raw/refs/heads/main/guides.xml" x-tvg-url="https://github.com/karenda-jp/etc/raw/refs/heads/main/guides.xml"
 #EXTINF:-1 tvg-id="NHK東京・総合_jp" tvg-name="NHK総合（東京）" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE0-011-400x400.png" group-title="JAPÃO 地上波",NHK総合（東京）
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="日本テレビ_jp" tvg-name="日本テレビ" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE2-041-400x400.png" group-title="JAPÃO 地上波",日本テレビ
@@ -11,10 +11,12 @@ https://tbs5.mov3.co/hls/tbs.m3u8
 https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
 #EXTINF:-1 tvg-id="フジテレビ_jp" tvg-name="フジテレビ" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE4-081-400x400.png" group-title="JAPÃO 地上波",フジテレビ
 https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="TOKYO・MX_jp" tvg-name="TOKYO MX" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7E87-091-400x400.png" group-title="JAPÃO 地上波",TOKYO MX
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKワールド-JAPAN_jp" tvg-name="NHKワールド JAPAN" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-038-400x400.png" group-title="JAPÃO NHK",NHKワールド JAPAN
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:-1 tvg-id="rch_45" tvg-name="ウェザーニュース LiVE" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/107_whethernews.png" group-title="JAPÃO 情報",ウェザーニュース LiVE
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGNTV JAPAN" tvg-logo="http://japan.cgntv.net/upload/happy_config/info_logo.png" group-title="JAPÃO 情報",CGNTV JAPAN
-https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 #EXTINF:-1 tvg-id="ショップチャンネル_jp" tvg-name="ショップチャンネル" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-140-400x400.png" group-title="JAPÃO ショッピング",ショップチャンネル
 https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="QVC_jp" tvg-name="QVCジャパン" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-172-400x400.png" group-title="JAPÃO ショッピング",QVCジャパン
