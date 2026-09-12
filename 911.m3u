@@ -1,0 +1,192 @@
+#EXTM3U
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:00:00-0:01:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=0&end=60&exact=1&ignore=x.mp4&cnt=0
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:01:00-0:02:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=60&end=120&exact=1&ignore=x.mp4&cnt=1
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:02:00-0:03:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=120&end=180&exact=1&ignore=x.mp4&cnt=2
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:03:00-0:04:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=180&end=240&exact=1&ignore=x.mp4&cnt=3
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:04:00-0:05:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=240&end=300&exact=1&ignore=x.mp4&cnt=4
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:05:00-0:06:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=300&end=360&exact=1&ignore=x.mp4&cnt=All verified working. Writing the deliverable files:
+Pronto. O player do archive.org fatia o MP4 longo em clipes de 60s via `?start=..&end=..&exact=1&ignore=x.mp4&cnt=N`. Gerei os 91 segmentos (cobrem os 5460s/91min do vídeo) e testei início, meio e fim — todos retornam MP4 válidos.
+
+**Arquivos (no repo):**
+- `911.m3u` — playlist com os 91 segmentos
+- `911_links.txt` — só os links (+ links do vídeo completo no final)
+
+**Exemplos de links:**
+```
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=0&end=60&exact=1&ignore=x.mp4&cnt=0
+...?start=1793&end=1853&exact=1&ignore=x.mp4&cnt=29   <-- o clip de 911 da sua URL
+...?start=5400&end=5460&exact=1&ignore=x.mp4&cnt=90
+```
+
+Vídeo inteiro (1 link só): `https://archive.org/download/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4`
+
+Quer que eu mude o tamanho dos segmentos (ex.: 10min) ou filtre só o trecho do 911?
+nd=600&exact=1&ignore=x.mp4&cnt=9
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:10:00-0:11:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=600&end=660&exact=1&ignore=x.mp4&cnt=10
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:11:00-0:12:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=660&end=720&exact=1&ignore=x.mp4&cnt=11
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:12:00-0:13:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=720&end=780&exact=1&ignore=x.mp4&cnt=12
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:13:00-0:14:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=780&end=840&exact=1&ignore=x.mp4&cnt=13
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:14:00-0:15:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=840&end=900&exact=1&ignore=x.mp4&cnt=14
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:15:00-0:16:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=900&end=960&exact=1&ignore=x.mp4&cnt=15
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:16:00-0:17:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=960&end=1020&exact=1&ignore=x.mp4&cnt=16
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:17:00-0:18:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1020&end=1080&exact=1&ignore=x.mp4&cnt=17
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:18:00-0:19:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1080&end=1140&exact=1&ignore=x.mp4&cnt=18
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:19:00-0:20:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1140&end=1200&exact=1&ignore=x.mp4&cnt=19
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:20:00-0:21:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1200&end=1260&exact=1&ignore=x.mp4&cnt=20
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:21:00-0:22:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1260&end=1320&exact=1&ignore=x.mp4&cnt=21
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:22:00-0:23:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1320&end=1380&exact=1&ignore=x.mp4&cnt=22
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:23:00-0:24:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1380&end=1440&exact=1&ignore=x.mp4&cnt=23
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:24:00-0:25:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1440&end=1500&exact=1&ignore=x.mp4&cnt=24
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:25:00-0:26:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1500&end=1560&exact=1&ignore=x.mp4&cnt=25
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:26:00-0:27:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1560&end=1620&exact=1&ignore=x.mp4&cnt=26
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:27:00-0:28:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1620&end=1680&exact=1&ignore=x.mp4&cnt=27
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:28:00-0:29:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1680&end=1740&exact=1&ignore=x.mp4&cnt=28
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:29:00-0:30:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1740&end=1800&exact=1&ignore=x.mp4&cnt=29
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:30:00-0:31:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1800&end=1860&exact=1&ignore=x.mp4&cnt=30
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:31:00-0:32:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1860&end=1920&exact=1&ignore=x.mp4&cnt=31
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:32:00-0:33:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1920&end=1980&exact=1&ignore=x.mp4&cnt=32
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:33:00-0:34:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=1980&end=2040&exact=1&ignore=x.mp4&cnt=33
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:34:00-0:35:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2040&end=2100&exact=1&ignore=x.mp4&cnt=34
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:35:00-0:36:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2100&end=2160&exact=1&ignore=x.mp4&cnt=35
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:36:00-0:37:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2160&end=2220&exact=1&ignore=x.mp4&cnt=36
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:37:00-0:38:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2220&end=2280&exact=1&ignore=x.mp4&cnt=37
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:38:00-0:39:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2280&end=2340&exact=1&ignore=x.mp4&cnt=38
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:39:00-0:40:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2340&end=2400&exact=1&ignore=x.mp4&cnt=39
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:40:00-0:41:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2400&end=2460&exact=1&ignore=x.mp4&cnt=40
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:41:00-0:42:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2460&end=2520&exact=1&ignore=x.mp4&cnt=41
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:42:00-0:43:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2520&end=2580&exact=1&ignore=x.mp4&cnt=42
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:43:00-0:44:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2580&end=2640&exact=1&ignore=x.mp4&cnt=43
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:44:00-0:45:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2640&end=2700&exact=1&ignore=x.mp4&cnt=44
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:45:00-0:46:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2700&end=2760&exact=1&ignore=x.mp4&cnt=45
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:46:00-0:47:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2760&end=2820&exact=1&ignore=x.mp4&cnt=46
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:47:00-0:48:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2820&end=2880&exact=1&ignore=x.mp4&cnt=47
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:48:00-0:49:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2880&end=2940&exact=1&ignore=x.mp4&cnt=48
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:49:00-0:50:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=2940&end=3000&exact=1&ignore=x.mp4&cnt=49
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:50:00-0:51:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3000&end=3060&exact=1&ignore=x.mp4&cnt=50
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:51:00-0:52:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3060&end=3120&exact=1&ignore=x.mp4&cnt=51
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:52:00-0:53:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3120&end=3180&exact=1&ignore=x.mp4&cnt=52
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:53:00-0:54:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3180&end=3240&exact=1&ignore=x.mp4&cnt=53
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:54:00-0:55:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3240&end=3300&exact=1&ignore=x.mp4&cnt=54
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:55:00-0:56:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3300&end=3360&exact=1&ignore=x.mp4&cnt=55
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:56:00-0:57:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3360&end=3420&exact=1&ignore=x.mp4&cnt=56
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:57:00-0:58:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3420&end=3480&exact=1&ignore=x.mp4&cnt=57
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:58:00-0:59:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3480&end=3540&exact=1&ignore=x.mp4&cnt=58
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 0:59:00-1:00:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3540&end=3600&exact=1&ignore=x.mp4&cnt=59
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:00:00-1:01:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3600&end=3660&exact=1&ignore=x.mp4&cnt=60
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:01:00-1:02:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3660&end=3720&exact=1&ignore=x.mp4&cnt=61
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:02:00-1:03:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3720&end=3780&exact=1&ignore=x.mp4&cnt=62
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:03:00-1:04:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3780&end=3840&exact=1&ignore=x.mp4&cnt=63
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:04:00-1:05:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3840&end=3900&exact=1&ignore=x.mp4&cnt=64
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:05:00-1:06:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3900&end=3960&exact=1&ignore=x.mp4&cnt=65
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:06:00-1:07:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=3960&end=4020&exact=1&ignore=x.mp4&cnt=66
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:07:00-1:08:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4020&end=4080&exact=1&ignore=x.mp4&cnt=67
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:08:00-1:09:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4080&end=4140&exact=1&ignore=x.mp4&cnt=68
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:09:00-1:10:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4140&end=4200&exact=1&ignore=x.mp4&cnt=69
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:10:00-1:11:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4200&end=4260&exact=1&ignore=x.mp4&cnt=70
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:11:00-1:12:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4260&end=4320&exact=1&ignore=x.mp4&cnt=71
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:12:00-1:13:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4320&end=4380&exact=1&ignore=x.mp4&cnt=72
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:13:00-1:14:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4380&end=4440&exact=1&ignore=x.mp4&cnt=73
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:14:00-1:15:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4440&end=4500&exact=1&ignore=x.mp4&cnt=74
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:15:00-1:16:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4500&end=4560&exact=1&ignore=x.mp4&cnt=75
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:16:00-1:17:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4560&end=4620&exact=1&ignore=x.mp4&cnt=76
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:17:00-1:18:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4620&end=4680&exact=1&ignore=x.mp4&cnt=77
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:18:00-1:19:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4680&end=4740&exact=1&ignore=x.mp4&cnt=78
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:19:00-1:20:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4740&end=4800&exact=1&ignore=x.mp4&cnt=79
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:20:00-1:21:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4800&end=4860&exact=1&ignore=x.mp4&cnt=80
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:21:00-1:22:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4860&end=4920&exact=1&ignore=x.mp4&cnt=81
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:22:00-1:23:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4920&end=4980&exact=1&ignore=x.mp4&cnt=82
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:23:00-1:24:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=4980&end=5040&exact=1&ignore=x.mp4&cnt=83
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:24:00-1:25:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5040&end=5100&exact=1&ignore=x.mp4&cnt=84
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:25:00-1:26:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5100&end=5160&exact=1&ignore=x.mp4&cnt=85
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:26:00-1:27:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5160&end=5220&exact=1&ignore=x.mp4&cnt=86
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:27:00-1:28:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5220&end=5280&exact=1&ignore=x.mp4&cnt=87
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:28:00-1:29:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5280&end=5340&exact=1&ignore=x.mp4&cnt=88
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:29:00-1:30:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5340&end=5400&exact=1&ignore=x.mp4&cnt=89
+#EXTINF:-1 group-title="911",KSTS 911 25 Aniversario 1:30:00-1:31:00
+https://ia601605.us.archive.org/3/items/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario/KSTS_20260911_150000_Noticias_Telemundo_911_25_Aniversario.mp4?start=5400&end=5460&exact=1&ignore=x.mp4&cnt=90
