@@ -2,13 +2,13 @@
 """Gera o EPGNEWS.xml.gz com os canais presentes no lista5.m3u.
 
 Fonte: epgshare01 (arquivo epg_ripper_US2.xml.gz), que publica a grade
-atualizada diariamente (janela de ~5 dias). Os IDs longos da fonte sao
-mapeados para os tvg-ids usados na playlist:
+atualizada diariamente (janela de ~5 dias). Os tvg-ids da playlist sao os
+mesmos IDs publicados pela fonte, garantindo que o EPG funcione direto:
 
-  ABC.News.Live.us2          -> ABCNewsLive.us
-  CBS.News.National.Stream.us2 -> CBSNews247.us
-  Fox.News.Channel.HD.us2    -> FoxNewsChannel.us
-  Fox.Business.HD.us2        -> FoxBusinessNetwork.us
+  ABC.News.Live.us2            (ABC News Live)
+  CBS.News.National.Stream.us2 (CBS News 24/7)
+  Fox.News.Channel.HD.us2      (FOX News Channel)
+  Fox.Business.HD.us2          (Fox Business Network)
 
 Retencao: ontem ate hoje+7 dias. Saida: XMLTV valido, comprimido em gzip,
 compativel com TiviMate/Kodi (todo <programme> referencia um <channel>).
@@ -24,26 +24,26 @@ M3U = "lista5.m3u"
 OUTPUT = "EPGNEWS.xml.gz"
 SOURCE_URL = "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 
-# tvg-id da playlist -> id da fonte
+# tvg-id da playlist = id da fonte
 MAP = {
-    "ABCNewsLive.us": "ABC.News.Live.us2",
-    "CBSNews247.us": "CBS.News.National.Stream.us2",
-    "FoxNewsChannel.us": "Fox.News.Channel.HD.us2",
-    "FoxBusinessNetwork.us": "Fox.Business.HD.us2",
+    "ABC.News.Live.us2": "ABC.News.Live.us2",
+    "CBS.News.National.Stream.us2": "CBS.News.National.Stream.us2",
+    "Fox.News.Channel.HD.us2": "Fox.News.Channel.HD.us2",
+    "Fox.Business.HD.us2": "Fox.Business.HD.us2",
 }
 
 LOGOS = {
-    "ABCNewsLive.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/abcnews.jpg",
-    "CBSNews247.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/cbsnews.jpg",
-    "FoxNewsChannel.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxnews.jpg",
-    "FoxBusinessNetwork.us": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxbusiness.jpg",
+    "ABC.News.Live.us2": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/abcnews.jpg",
+    "CBS.News.National.Stream.us2": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/cbsnews.jpg",
+    "Fox.News.Channel.HD.us2": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxnews.jpg",
+    "Fox.Business.HD.us2": "https://raw.githubusercontent.com/gratinomaster/JCTV/main/foxbusiness.jpg",
 }
 
 NAMES = {
-    "ABCNewsLive.us": "ABC News Live",
-    "CBSNews247.us": "CBS News 24/7",
-    "FoxNewsChannel.us": "FOX News Channel",
-    "FoxBusinessNetwork.us": "Fox Business Network",
+    "ABC.News.Live.us2": "ABC News Live",
+    "CBS.News.National.Stream.us2": "CBS News 24/7",
+    "Fox.News.Channel.HD.us2": "FOX News Channel",
+    "Fox.Business.HD.us2": "Fox Business Network",
 }
 
 KEEP_BEFORE_DAYS = 1

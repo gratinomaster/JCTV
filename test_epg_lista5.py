@@ -7,8 +7,8 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
-EPG_URL = "https://iptv-org.github.io/epg/guides/us.xml.gz"
-CHANNELS_TO_CHECK = ["ABCNewsLive.us", "FoxNewsChannel.us", "FoxBusiness.us", "CBSNews247.us"]
+EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+CHANNELS_TO_CHECK = ["ABC.News.Live.us2", "CBS.News.National.Stream.us2", "Fox.News.Channel.HD.us2", "Fox.Business.HD.us2"]
 
 def fetch_epg(url):
     """Fetch and decompress EPG XML."""
@@ -83,9 +83,9 @@ def test_streams():
     print("\n=== Testando streams ===")
     urls = {
         "ABC News Live": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
-        "Fox News": "https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8",
-        "Fox Business": "https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8",
-        "CBS News": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d7a35bc8-b353-4780-b75f-2c6f5295d278:CBF2/master.m3u8",
+        "CBS News 24/7": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
+        "FOX News": "http://138.121.15.230:9002/FOX-NEWS/index.m3u8",
+        "Fox Business": "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8",
     }
     
     for name, url in urls.items():

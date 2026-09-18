@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 M3U_FILE = "lista5.m3u"
-EPG_URL = "https://iptv-epg.org/files/epg-us.xml.gz"
+EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 
 def check_epg():
     print("=" * 60)
@@ -28,7 +28,7 @@ def check_epg():
     
     root = ET.fromstring(data)
     
-    channels = ['ABCNewsLive.us', 'FoxNewsChannel.us', 'FoxBusiness.us', 'CBSNews.us']
+    channels = ['ABC.News.Live.us2', 'CBS.News.National.Stream.us2', 'Fox.News.Channel.HD.us2', 'Fox.Business.HD.us2']
     today = datetime.now().strftime('%Y%m%d')
     tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y%m%d')
     day_after = (datetime.now() + timedelta(days=2)).strftime('%Y%m%d')
