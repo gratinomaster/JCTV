@@ -1,9 +1,11 @@
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz"
+#EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/Cbs_logo.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
+http://190.11.225.124:5000/live/cbs_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="6661f11a41af6400080e90d8" tvg-name="Big Brother" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Feeds 24/7 (Pluto TV)
 https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
-#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
+#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother All Stars (TVI)",TVI (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (Argentina)
-http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
+#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother All Stars (TVI)",TVI Reality — Câmeras 24/7 (Portugal)
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
 #EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/de_las_estrellas-mediano.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
