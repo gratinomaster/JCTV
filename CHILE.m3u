@@ -1,28 +1,30 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-cl.xml.gz,https://epg.lat/files/cl.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz,https://epg.lat/files/cl.xml.gz"
 #EXTINF:-1 tvg-id="Telecanal.cl" tvg-name="Telecanal" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mM0gsmr93nTmUG0xgB-NXk1i2DRx0Bn8ejGc9DPCw=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - TV Aberta" tvg-chno="2.1",Telecanal
-https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+http://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://yt3.googleusercontent.com/B4zjsyfwlLsfhNyRbNLjweko5OeeU8u7fJwl_mZSguqKBrnpPXAlpc1WaA5sgzzWcLqNZdFE=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - TV Aberta" tvg-chno="4.1",La Red
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
 #EXTINF:-1 tvg-id="TVPlus.cl" tvg-name="TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9b/TV%2B_%282018%29.png" group-title="CHILE - TV Aberta" tvg-chno="5.1",TV+
 https://jireh-5-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UCVTV.cl" tvg-name="UCV TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/UCV_Logo.png" group-title="CHILE - TV Aberta" tvg-chno="5.3",UCV TV
 https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal.TVN.(Chile).cl" tvg-name="TVN" tvg-logo="https://www.tvn.cl/tvn/imag/v1/logos/tvn_1600x900.jpg" group-title="CHILE - TV Aberta" tvg-chno="7.1",TVN
+#EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN" tvg-logo="https://www.tvn.cl/tvn/imag/v1/logos/tvn_1600x900.jpg" group-title="CHILE - TV Aberta" tvg-chno="7.1",TVN
 http://15.204.246.24:8080/TVNHD/index.m3u8
 #EXTINF:-1 tvg-id="24Horas.cl" tvg-name="Canal 24 Horas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Canal_24_Horas.png" group-title="CHILE - TV Aberta" tvg-chno="7.2",Canal 24 Horas
-https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
+https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
 #EXTINF:-1 tvg-id="NTV.cl" tvg-name="NTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Logotipo_alternativo_de_NTV.png" group-title="CHILE - TV Aberta" tvg-chno="7.3",NTV
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
+https://marine2.miplay.cl/ntv/playlist.m3u8
 #EXTINF:-1 tvg-id="Mega.cl" tvg-name="Mega" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png" group-title="CHILE - TV Aberta" tvg-chno="9.1",Mega
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Mega2.cl" tvg-name="Mega 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/Mega_2_Branding.png" group-title="CHILE - TV Aberta" tvg-chno="9.2",Mega 2
-http://15.204.246.24:8080/Mega2HD/index.m3u8
+https://unlimited1-cl-isp.dps.live/megados/megados.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-name="Chilevisión" tvg-logo="https://www.chilevision.cl/_templates/globals/img/logo.png" group-title="CHILE - TV Aberta" tvg-chno="11.1",Chilevisión
 http://15.204.246.24:8080/CHVHD/index.m3u8
 #EXTINF:-1 tvg-id="Canal13.cl" tvg-name="Canal 13" tvg-logo="https://yt3.googleusercontent.com/d1lMOILbNU6iqX_NNkLhR2ih_kXjXtAH-8JD7N1PWDLXCBJRHiu-H4ndswgew12T0SHFexWMaeE=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - TV Aberta" tvg-chno="13.1",Canal 13
 http://15.204.246.24:8080/Canal13HD/index.m3u8
 #EXTINF:-1 tvg-id="T13.cl" tvg-name="T13" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/t13-cl.png" group-title="CHILE - TV Aberta" tvg-chno="13.2",T13
-https://redirector.dps.live/hls/t13/playlist.m3u8
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RECTV.cl" tvg-name="13Rec" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/13-rec-cl.png" group-title="CHILE - TV Aberta" tvg-chno="13.3",13Rec
+https://marine2.miplay.cl/rec/mono.m3u8
 #EXTINF:-1 tvg-id="13C.cl" tvg-name="13C" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/13c-cl.png" group-title="CHILE - TV Aberta" tvg-chno="13.4",13C
 https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-id="TVR.cl" tvg-name="TVR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png" group-title="CHILE - TV Aberta" tvg-chno="14.1",TVR
@@ -33,8 +35,10 @@ https://v2.tustreaming.cl/tevex/index.m3u8
 https://v2.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.cl" tvg-name="Nuevo Tiempo" tvg-logo="https://www.nuevotiempo.org/wp-content/uploads/sites/6/2024/04/logo-portal-es-1.png" group-title="CHILE - TV Aberta" tvg-chno="25.1",Nuevo Tiempo
 https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BioBioTV.cl" tvg-name="Bio Bio TV" tvg-logo="https://yt3.googleusercontent.com/-FPJqDFkSFw9a8eUUli1BQ51qtGOBQb9lzdP6fBvoUs5Mr68EhsCBj2yUpaPRxKdO7YhO6R9Vxs=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - Noticias" tvg-chno="28.1",Bio Bio TV
+#EXTINF:-1 tvg-id="Canal9BioBio.cl" tvg-name="Bio Bio TV" tvg-logo="https://yt3.googleusercontent.com/-FPJqDFkSFw9a8eUUli1BQ51qtGOBQb9lzdP6fBvoUs5Mr68EhsCBj2yUpaPRxKdO7YhO6R9Vxs=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - Noticias" tvg-chno="28.1",Bio Bio TV
 https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNChile.cl" tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="CHILE - Noticias" tvg-chno="30",CNN Chile
+https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cooperativa.cl" tvg-name="Cooperativa" tvg-logo="https://cdn.m3u.cl/logo/422_Cooperativa.png" group-title="CHILE - Noticias" tvg-chno="31",Cooperativa
 https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" tvg-logo="https://cdn.m3u.cl/logo/882_Pauta_TV.png" group-title="CHILE - Noticias" tvg-chno="32",Pauta
@@ -46,13 +50,9 @@ https://pnt.janusmedia.tv/hls/pnt.m3u8
 #EXTINF:-1 tvg-id="ViaX.cl" tvg-name="Vía X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png" group-title="CHILE - Entretenimento" tvg-chno="35",Vía X
 http://45.170.130.224:8000/play/a025/index.m3u8
 #EXTINF:-1 tvg-id="ZonaLatina.cl" tvg-name="Zona Latina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/zona_latina-mediano.png" group-title="CHILE - Entretenimento" tvg-chno="36",Zona Latina
-http://45.162.193.35/ZONALATINA/index.m3u8
-#EXTINF:-1 tvg-id="Docu.cl" tvg-name="Docu." tvg-logo="https://unavatar.io/twitter/docuchile" group-title="CHILE - Entretenimento" tvg-chno="37",Docu.
-http://45.162.193.35/DOCU/index.m3u8
+http://45.170.130.224:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="TVN3.cl" tvg-name="TVN3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logotipo_de_TVN3.png" group-title="CHILE - Entretenimento" tvg-chno="38",TVN3
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
-#EXTINF:-1 tvg-id="ARTV.cl" tvg-name="ARTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/ARTV_Logo_2020.png" group-title="CHILE - Cultura" tvg-chno="40",ARTV
-http://45.162.193.35/ARTV/index.m3u8
 #EXTINF:-1 tvg-id="Teletrak.cl" tvg-name="Teletrak" tvg-logo="https://cdn.m3u.cl/logo/376_Teletrak.png" group-title="CHILE - Esportes" tvg-chno="41",Teletrak
 https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSenado.cl" tvg-name="TV Senado" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Logo_Senado.png/500px-Logo_Senado.png" group-title="CHILE - Institucional" tvg-chno="42",TV Senado
