@@ -1,0 +1,843 @@
+[
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486441~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=94c08b45-5087-4e2d-a0f0-6e250b9f274a~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=b6d1b5e69ffd9bec0c7b8fb2ad722d9558c2145082d79876bd9902aa6442561a/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486441~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=94c08b45-5087-4e2d-a0f0-6e250b9f274a~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=b6d1b5e69ffd9bec0c7b8fb2ad722d9558c2145082d79876bd9902aa6442561a/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486441~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=94c08b45-5087-4e2d-a0f0-6e250b9f274a~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=b6d1b5e69ffd9bec0c7b8fb2ad722d9558c2145082d79876bd9902aa6442561a/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-128K/128_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "ABC News Live - ABC News",
+    "url": "https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1790486443~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=e45fd4fb-3245-485a-a41c-2f27206328e8~did=bafb87bc-7f98-435e-b05c-1b9d48d896f8~country=US~kid=k02~hmac=d973d636ed0e0cdbf9262157cda91da9de6966c37c16215a5e064e6cf40578ba/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-128K/128_slide.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider11.jpg\" group-title=\"NEWS WORLD\",ABC News Live - ABC News",
+    "status": "DEAD",
+    "streams": [],
+    "error": "probe falhou/timeout"
+  },
+  {
+    "name": "Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider10.jpg\" group-title=\"NEWS WORLD\",Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider10.jpg\" group-title=\"NEWS WORLD\",Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "status": "AUDIO_ONLY",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ]
+    ],
+    "error": "apenas audio (radio)"
+  },
+  {
+    "name": "Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider10.jpg\" group-title=\"NEWS WORLD\",Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "status": "VIDEO_ONLY",
+    "streams": [
+      [
+        "video",
+        "h264"
+      ]
+    ],
+    "error": "video sem audio (mudo)"
+  },
+  {
+    "name": "Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider10.jpg\" group-title=\"NEWS WORLD\",Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "status": "AUDIO_ONLY",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ]
+    ],
+    "error": "apenas audio (radio)"
+  },
+  {
+    "name": "Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://keyframe-cdn.abcnews.com/streamprovider10.jpg\" group-title=\"NEWS WORLD\",Video Tracking the Nor'easter impacting the East Coast this weekend; Hurricane Nolo impacts for Hawaii | Watch Live News on ABCNL",
+    "status": "VIDEO_ONLY",
+    "streams": [
+      [
+        "video",
+        "h264"
+      ]
+    ],
+    "error": "video sem audio (mudo)"
+  },
+  {
+    "name": "Watch Fox News Channel Online | Stream Fox News",
+    "url": "https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1790403641~acl=/*~hmac=d6cb48e144edf0d9be62e9f7bfbe0742d135c823cb2b3a539d01f7f5dfbf92ae",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1\" group-title=\"NEWS WORLD\",Watch Fox News Channel Online | Stream Fox News",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "Fox Business Go | Fox News Video",
+    "url": "https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1790403640~acl=/*~hmac=9604aa416894e142543d22373c2aea57de77c6a0e51243a53e32518163d24d7a",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1\" group-title=\"NEWS WORLD\",Fox Business Go | Fox News Video",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "scte_35"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/master.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ],
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  },
+  {
+    "name": "our free live news stream",
+    "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/340dd983-ec59-4765-98dc-c549b2bb69bb:CHS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg\" group-title=\"NEWS WORLD\",Watch CBS News 24/7, our free live news stream",
+    "status": "A/V_OK",
+    "streams": [
+      [
+        "audio",
+        "aac"
+      ],
+      [
+        "video",
+        "h264"
+      ],
+      [
+        "data",
+        "timed_id3"
+      ]
+    ],
+    "error": ""
+  }
+]
