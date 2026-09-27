@@ -1,11 +1,19 @@
-#EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz"
-#EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/Cbs_logo.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
-http://190.11.225.124:5000/live/cbs_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="6661f11a41af6400080e90d8" tvg-name="Big Brother" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Feeds 24/7 (Pluto TV)
+#PLAYLIST: JCTV - BIG BROTHER 24/7
+#PLAYLIST: Sinais ao vivo testados com ffprobe em 27/09/2026 (h264, >=250 quadros em 10s).
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-pt.xml.gz (PT), https://iptv-epg.org/files/epg-mx.xml.gz (MX), https://i.mjh.nz/PlutoTV/all.xml.gz (Pluto TV) - todos com programacao de 27/09/2026.
+#PLAYLIST: Os 4 canais Pluto usam o espelho jmp2.uk (nao oficial e instavel: ~60% de sucesso por tentativa). Os canais TVI/Las Estrellas respondem de forma estavel.
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-pt.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-pt.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz"
+#EXTINF:-1 tvg-id="6661f11a41af6400080e90d8" tvg-name="Big Brother" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — 24/7 (Pluto TV)
 https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
-#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother All Stars (TVI)",TVI (Portugal)
+#EXTINF:-1 tvg-id="64a765fb798def0008734632" tvg-name="Big Brother Camera 2" tvg-logo="https://images.pluto.tv/channels/64a765fb798def0008734632/colorLogoPNG_1749507013773.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Câmera 2 (Pluto TV)
+https://jmp2.uk/plu-64a765fb798def0008734632.m3u8
+#EXTINF:-1 tvg-id="64a766a794635e0008626601" tvg-name="Big Brother Camera 4" tvg-logo="https://images.pluto.tv/channels/64a766a794635e0008626601/colorLogoPNG_1749507400605.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Câmera 4 (Pluto TV)
+https://jmp2.uk/plu-64a766a794635e0008626601.m3u8
+#EXTINF:-1 tvg-id="64a766cd798def0008734695" tvg-name="Big Brother Quad View" tvg-logo="https://images.pluto.tv/channels/64a766cd798def0008734695/colorLogoPNG_1752489905508.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Quad View (Pluto TV)
+https://jmp2.uk/plu-64a766cd798def0008734695.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
-#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother All Stars (TVI)",TVI Reality — Câmeras 24/7 (Portugal)
+#EXTINF:-1 tvg-id="TVIReality.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality — Câmeras 24/7 (Portugal)
 https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
-#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/de_las_estrellas-mediano.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/de_las_estrellas-mediano.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8

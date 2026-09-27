@@ -1,66 +1,7 @@
 #PLAYLIST: JCTV - URUGUAY (TV Aberta)
-# Nomes e numeros de canal reais; URLs FICTICIAS (dominio .example, reservado pela RFC 2606).
-# Troque cada URL pela fonte real do sinal antes de publicar esta lista.
-#EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
-#EXTINF:-1 tvg-id="Canal4.uy" tvg-name="Canal 4" tvg-logo="https://logos.jctv-uy.example/canal4.png" group-title="URUGUAY - TV Aberta" tvg-chno="4.1",Canal 4 (Monte Carlo TV)
-https://live.jcPronto. `URUGUAY.m3u` (que estava com uma frase de LLM solta no lugar do conteúdo) agora tem 33 canais:
-
-- **Nacionais abertos:** Canal 4 (Monte Carlo TV, 4.1), Canal 5 (Televisión Nacional, 5.1), Canal 10 (SAETA, 10.1), Teledoce/La Tele (12.1), La Red, TV Ciudad (6.1), VTV, VTV+, A+V, UCL TV, Campo Rural TV
-- **Institucionais/religioso:** Câmara de Senadores, Câmara de Representantes, IMPO, Antel TV (Vera TV), Cardinal TV
-- **Regionais (18):** Artigas TV, Tele Rocha, Chuy Color, Río Uruguay TV, Melo TV, TV Río, Latina TV, TeveDiez, Televisora Salto Grande, Durazno TV, RBTV, Telediez, Zorrilla, Canal 11 Las Piedras, TVL Pando, Canal Once, Canal 4 Florida
-
-Nomes, donos e `tvg-chno` vieram de Wikipedia/TVCL/URSEC (verificados por web search; crawl4ai e yt-dlp não estão instalados no ambiente e não eram necessários — os links são fictícios por pedido, então não há o que extrair/validar). Todos os streams e logos apontam para `*.jctv-uy.example` (domínio reservado pela RFC 2606, nunca resolve) — nenhum link real vazou, só o `url-tvg` do EPGFULL que já existia no repo. `tvg-id` no padrão do repo (`Canal4.uy`, `Teledoce.uy`…); grupos: TV Aberta / Regional / Institucional / Religioso.
-
-Dois pontos: o `EPGFULL.xml` não tem nenhum id `.uy`, então o guia ainda não casa — precisa gerar um `EPUY`/adicionar ids. E nenhum workflow do `.github` processa esse arquivo ainda, então ele não é regenerado nem validado automaticamente.
-.example/vtvplus.png" group-title="URUGUAY - TV Aberta",VTV+ (Tenfield)
-https://live.jctv-uy.example/hls/vtvplus/index.m3u8
-#EXTINF:-1 tvg-id="CanalAV.uy" tvg-name="A+V" tvg-logo="https://logos.jctv-uy.example/canalav.png" group-title="URUGUAY - TV Aberta",Canal A+V
-https://live.jctv-uy.example/hls/canalav/index.m3u8
-#EXTINF:-1 tvg-id="UCLTV.uy" tvg-name="UCL TV" tvg-logo="https://logos.jctv-uy.example/ucltv.png" group-title="URUGUAY - TV Aberta",UCL TV (Grupo U)
-https://live.jctv-uy.example/hls/ucltv/index.m3u8
-#EXTINF:-1 tvg-id="CampoRuralTV.uy" tvg-name="Campo Rural TV" tvg-logo="https://logos.jctv-uy.example/camporuraltv.png" group-title="URUGUAY - TV Aberta",Campo Rural TV (Radio Rural)
-https://live.jctv-uy.example/hls/camporuraltv/index.m3u8
-#EXTINF:-1 tvg-id="CardinalTV.uy" tvg-name="Cardinal TV" tvg-logo="https://logos.jctv-uy.example/cardinaltv.png" group-title="URUGUAY - Religioso",Cardinal TV (Arquidiocesis de Montevideo)
-https://live.jctv-uy.example/hls/cardinaltv/index.m3u8
-#EXTINF:-1 tvg-id="CamaraSenadoresUY.uy" tvg-name="Senado" tvg-logo="https://logos.jctv-uy.example/senado.png" group-title="URUGUAY - Institucional",Camara de Senadores (Parlamento Uruguay)
-https://live.jctv-uy.example/hls/senado/index.m3u8
-#EXTINF:-1 tvg-id="CamaraRepresentantesUY.uy" tvg-name="Representantes" tvg-logo="https://logos.jctv-uy.example/representantes.png" group-title="URUGUAY - Institucional",Camara de Representantes (Parlamento Uruguay)
-https://live.jctv-uy.example/hls/representantes/index.m3u8
-#EXTINF:-1 tvg-id="IMPO.uy" tvg-name="IMPO" tvg-logo="https://logos.jctv-uy.example/impo.png" group-title="URUGUAY - Institucional",IMPO (Imprenta Nacional y Oficial)
-https://live.jctv-uy.example/hls/impo/index.m3u8
-#EXTINF:-1 tvg-id="AntelTV.uy" tvg-name="Antel TV" tvg-logo="https://logos.jctv-uy.example/anteltv.png" group-title="URUGUAY - Institucional",Antel TV (Vera TV)
-https://live.jctv-uy.example/hls/anteltv/index.m3u8
-#EXTINF:-1 tvg-id="ArtigasTV.uy" tvg-name="Artigas TV" tvg-logo="https://logos.jctv-uy.example/artigastv.png" group-title="URUGUAY - Regional" tvg-chno="3.1",Artigas TV (Artigas)
-https://live.jctv-uy.example/hls/artigastv/index.m3u8
-#EXTINF:-1 tvg-id="TeleRocha.uy" tvg-name="Tele Rocha" tvg-logo="https://logos.jctv-uy.example/telerocha.png" group-title="URUGUAY - Regional" tvg-chno="9.1",Tele Rocha (Rocha)
-https://live.jctv-uy.example/hls/telerocha/index.m3u8
-#EXTINF:-1 tvg-id="ChuyColor.uy" tvg-name="Chuy Color" tvg-logo="https://logos.jctv-uy.example/chuycolor.png" group-title="URUGUAY - Regional" tvg-chno="4.1",Chuy Color (Chuy)
-https://live.jctv-uy.example/hls/chuycolor/index.m3u8
-#EXTINF:-1 tvg-id="RioUruguayTV.uy" tvg-name="Rio Uruguay TV" tvg-logo="https://logos.jctv-uy.example/riouruguaytv.png" group-title="URUGUAY - Regional" tvg-chno="12.1",Rio Uruguay Television (Rio Negro)
-https://live.jctv-uy.example/hls/riouruguaytv/index.m3u8
-#EXTINF:-1 tvg-id="MeloTV.uy" tvg-name="Melo TV" tvg-logo="https://logos.jctv-uy.example/melotv.png" group-title="URUGUAY - Regional" tvg-chno="12.2",Melo TV (Melo - Cerro Largo)
-https://live.jctv-uy.example/hls/melotv/index.m3u8
-#EXTINF:-1 tvg-id="TVRio.uy" tvg-name="TV Rio" tvg-logo="https://logos.jctv-uy.example/tvrio.png" group-title="URUGUAY - Regional" tvg-chno="3.1",TV Rio (Paysandu)
-https://live.jctv-uy.example/hls/tvrio/index.m3u8
-#EXTINF:-1 tvg-id="LatinaTV.uy" tvg-name="Latina TV" tvg-logo="https://logos.jctv-uy.example/latinatv.png" group-title="URUGUAY - Regional",Latina TV (Paysandu)
-https://live.jctv-uy.example/hls/latinatv/index.m3u8
-#EXTINF:-1 tvg-id="TeveDiez.uy" tvg-name="TeveDiez" tvg-logo="https://logos.jctv-uy.example/tevediez.png" group-title="URUGUAY - Regional" tvg-chno="10.1",TeveDiez (Rivera)
-https://live.jctv-uy.example/hls/tevediez/index.m3u8
-#EXTINF:-1 tvg-id="SaltoGrande.uy" tvg-name="Salto Grande" tvg-logo="https://logos.jctv-uy.example/saltogrande.png" group-title="URUGUAY - Regional" tvg-chno="8.1",Televisora Salto Grande (Salto)
-https://live.jctv-uy.example/hls/saltogrande/index.m3u8
-#EXTINF:-1 tvg-id="DuraznoTV.uy" tvg-name="Durazno TV" tvg-logo="https://logos.jctv-uy.example/duraznotv.png" group-title="URUGUAY - Regional" tvg-chno="7.1",Durazno TV (Durazno)
-https://live.jctv-uy.example/hls/duraznotv/index.m3u8
-#EXTINF:-1 tvg-id="RBTV.uy" tvg-name="RBTV" tvg-logo="https://logos.jctv-uy.example/rbtv.png" group-title="URUGUAY - Regional" tvg-chno="38.1",RBTV - Rio Branco TV (Rio Branco)
-https://live.jctv-uy.example/hls/rbtv/index.m3u8
-#EXTINF:-1 tvg-id="Telediez.uy" tvg-name="Telediez" tvg-logo="https://logos.jctv-uy.example/telediez.png" group-title="URUGUAY - Regional" tvg-chno="10",Telediez (Bella Union)
-https://live.jctv-uy.example/hls/telediez/index.m3u8
-#EXTINF:-1 tvg-id="Zorrilla.uy" tvg-name="Zorrilla de San Martin" tvg-logo="https://logos.jctv-uy.example/zorrilla.png" group-title="URUGUAY - Regional" tvg-chno="7.1",Zorrilla de San Martin (Tacuarembo)
-https://live.jctv-uy.example/hls/zorrilla/index.m3u8
-#EXTINF:-1 tvg-id="Canal11LasPiedras.uy" tvg-name="Canal 11 Las Piedras" tvg-logo="https://logos.jctv-uy.example/canal11laspiedras.png" group-title="URUGUAY - Regional",Canal 11 Las Piedras (Canelones)
-https://live.jctv-uy.example/hls/canal11laspiedras/index.m3u8
-#EXTINF:-1 tvg-id="TVLPando.uy" tvg-name="TVL Pando" tvg-logo="https://logos.jctv-uy.example/tvlpando.png" group-title="URUGUAY - Regional",Canal 6 TVL Pando (Canelones)
-https://live.jctv-uy.example/hls/tvlpando/index.m3u8
-#EXTINF:-1 tvg-id="CanalOnce.uy" tvg-name="Canal Once" tvg-logo="https://logos.jctv-uy.example/canalonce.png" group-title="URUGUAY - Regional",Canal Once (Maldonado)
-https://live.jctv-uy.example/hls/canalonce/index.m3u8
-#EXTINF:-1 tvg-id="Canal4Florida.uy" tvg-name="Canal 4 Florida" tvg-logo="https://logos.jctv-uy.example/canal4florida.png" group-title="URUGUAY - Regional",Canal 4 Television Florida (Florida)
-https://live.jctv-uy.example/hls/canal4florida/index.m3u8
+#PLAYLIST: Somente sinais ao vivo testados com ffprobe em 27/09/2026 (h264, >=250 quadros em 10s).
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-uy.xml.gz (programacao de 27/09/2026).
+#PLAYLIST: Os demais canais da linha TDT/TVCLarena nao possuem sinal publico aberto; nao foram incluidos.
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz"
+#EXTINF:-1 tvg-id="CanalOnce.uy" tvg-name="Canal Once" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="URUGUAY - Regional",Canal Once (Maldonado)
+https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
