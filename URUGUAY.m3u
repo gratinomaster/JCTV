@@ -1,7 +1,3 @@
-#PLAYLIST: JCTV - URUGUAY (TV Aberta)
-#PLAYLIST: Somente sinais ao vivo testados com ffprobe em 27/09/2026 (h264, >=250 quadros em 10s).
-#PLAYLIST: EPG: https://iptv-epg.org/files/epg-uy.xml.gz (programacao de 27/09/2026).
-#PLAYLIST: Os demais canais da linha TDT/TVCLarena nao possuem sinal publico aberto; nao foram incluidos.
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz"
-#EXTINF:-1 tvg-id="CanalOnce.uy" tvg-name="Canal Once" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="URUGUAY - Regional",Canal Once (Maldonado)
+#EXTINF:-1 tvg-id="CanalOnce.uy" tvg-name="Canal Once" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="URUGUAY",Canal Once (Maldonado)
 https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
