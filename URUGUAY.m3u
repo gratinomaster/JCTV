@@ -1,3 +1,29 @@
+#PLAYLIST: JCTV - URUGUAY
+#PLAYLIST: Verificado em 27/09/2026. Sinais decodificados com ffmpeg (H.264/AAC) e programacao
+#PLAYLIST: confirmada no EPG para 27/09/2026.
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-uy.xml.gz (TVCIUDAD.uy = 28 programas hoje).
+#PLAYLIST: Ordem TDT (LCN) de Montevideo: Teledoce 3 (MUX 28) > Canal 4 (MUX 29) > Canal 5 (MUX 30) >
+#PLAYLIST:   Canal 10 (MUX 31) > TV Ciudad / Canal Once 11 (MUX 32). UCL nao faz parte da TDT.
+#PLAYLIST: CORRIGIDO - o sinal deste arquivo e TV Ciudad / Canal Once 11.1 de MONTEVIDEO, nao
+#PLAYLIST:   "Canal Once (Maldonado)". O tvg-id "CanalOnce.uy" nao existe em nenhum EPG publico;
+#PLAYLIST:   o id real e "TVCIUDAD.uy".
+#PLAYLIST: LOGO - PNG 270x270 do site oficial canal11.uy (imagem "cropped-logo-rojo").
+#PLAYLIST: SEM tvg-id - "Canal U" (UCL / Universidad de la Republica) funciona no CDN oficial da
+#PLAYLIST:   Antel e foi confirmado por OCR no frame, mas NAO existe em epg-uy.xml.gz nem em nenhum
+#PLAYLIST:   outro EPG publico. Preferi deixar o id vazio a inventar um.
+#PLAYLIST: SEM LOGO - nao encontrei um logo PNG/JPG atual da UCL em fonte confiavel (ucl.edu.uy nao
+#PLAYLIST:   responde, uclplay.com devolve 403 e nao ha nada no Wikimedia Commons). Nao usei um logo
+#PLAYLIST:   errado (o "UCL" do Commons e University College London).
+#PLAYLIST: NAO INCLUIDO - Teledoce, Canal 4, Canal 5 e Canal 10: todas as origens publicas
+#PLAYLIST:   encontradas estao bloqueadas (Antel Zeta 401, tokens antigos, YouTube "Sign in to
+#PLAYLIST:   confirm you're not a bot", paywall DirecTV/Antel TV). Nenhuma delas pode ser testada
+#PLAYLIST:   sem login, entao nao entrariam na lista como "verificada".
+#PLAYLIST: NAO INCLUIDO - VIVO TV (stream.vivotv.uy): o HLS responde 200 mas o frame traz o cartaz
+#PLAYLIST:   "THIS STREAM IS OFFLINE".
+#PLAYLIST: NAO INCLUIDO - streamlock.net/canal44 e canal442: o frame identifica Canal 44 de
+#PLAYLIST:   Chihuahua (Mexico), nao e uruguaio.
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz"
-#EXTINF:-1 tvg-id="CanalOnce.uy" tvg-name="Canal Once" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="URUGUAY",Canal Once (Maldonado)
+#EXTINF:-1 tvg-id="TVCIUDAD.uy" tvg-name="TV Ciudad" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="Uruguay",TV Ciudad / Canal Once 11.1 (Montevideo)
 https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Canal U" group-title="Uruguay",Canal U — UCL (Universidad de la República)
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8

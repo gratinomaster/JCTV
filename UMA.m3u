@@ -1,19 +1,26 @@
 #PLAYLIST: JCTV - BIG BROTHER 24/7
-#PLAYLIST: Sinais ao vivo testados com ffprobe em 27/09/2026 (h264, >=250 quadros em 10s).
-#PLAYLIST: EPG: https://iptv-epg.org/files/epg-pt.xml.gz (PT), https://iptv-epg.org/files/epg-mx.xml.gz (MX), https://i.mjh.nz/PlutoTV/all.xml.gz (Pluto TV) - todos com programacao de 27/09/2026.
-#PLAYLIST: Os 4 canais Pluto usam o espelho jmp2.uk (nao oficial e instavel: ~60% de sucesso por tentativa). Os canais TVI/Las Estrellas respondem de forma estavel.
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-pt.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-pt.xml.gz,https://iptv-epg.org/files/epg-mx.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz"
-#EXTINF:-1 tvg-id="6661f11a41af6400080e90d8" tvg-name="Big Brother" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — 24/7 (Pluto TV)
-https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
-#EXTINF:-1 tvg-id="64a765fb798def0008734632" tvg-name="Big Brother Camera 2" tvg-logo="https://images.pluto.tv/channels/64a765fb798def0008734632/colorLogoPNG_1749507013773.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Câmera 2 (Pluto TV)
-https://jmp2.uk/plu-64a765fb798def0008734632.m3u8
-#EXTINF:-1 tvg-id="64a766a794635e0008626601" tvg-name="Big Brother Camera 4" tvg-logo="https://images.pluto.tv/channels/64a766a794635e0008626601/colorLogoPNG_1749507400605.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Câmera 4 (Pluto TV)
-https://jmp2.uk/plu-64a766a794635e0008626601.m3u8
-#EXTINF:-1 tvg-id="64a766cd798def0008734695" tvg-name="Big Brother Quad View" tvg-logo="https://images.pluto.tv/channels/64a766cd798def0008734695/colorLogoPNG_1752489905508.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 28 — Quad View (Pluto TV)
-https://jmp2.uk/plu-64a766cd798def0008734695.m3u8
-#EXTINF:-1 tvg-id="TVI.pt" tvg-name="TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8
-#EXTINF:-1 tvg-id="TVIReality.pt" tvg-name="TVI Reality" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality — Câmeras 24/7 (Portugal)
-https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/de_las_estrellas-mediano.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
+#PLAYLIST: Verificado em 27/09/2026. Sinal decodificado com ffmpeg e programming confirmado no EPG para 27/09/2026.
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-mx.xml.gz (LasEstrellas.mx = 21 programas hoje).
+#PLAYLIST: LOGO: PNG 506x471 com transparencia, do logo oficial atual (estrela de 8 pontas, Televisa).
+#PLAYLIST: REMOVIDOS - Pluto TV "Big Brother" (6661f11a41af6400080e90d8): o EPG oficial mostra
+#PLAYLIST:   S27E06-S27E20 e "Big Brother: Unlocked 25/07/2025" = TEMPORADA ANTIGA (2025).
+#PLAYLIST: REMOVIDOS - Pluto TV "Camera 1/2/3/4" e "Quad View": as 5 transmitem a MESMA imagem
+#PLAYLIST:   estatica byte a byte (md5 60b393bac220933c225b01cd697c95d9). Nao sao cameras ao vivo.
+#PLAYLIST: REMOVIDOS - "Big Brother Classic" (663e09e4b18d700008e48dcf): temporada 5 (2003).
+#PLAYLIST: REMOVIDOS - TVI Reality: a temporada "BB Verano" finished na gala de 23/08/2026; o
+#PLAYLIST:   frame do canal traz "REPET" (repeticao) = reprise, nao 24/7 ao vivo.
+#PLAYLIST: REMOVIDOS - TVI: sem mais conteudo Big Brother apos o fim da temporada em 23/08/2026.
+#PLAYLIST: OFFLINE/PAGO - BB28 (EUA) segue no ar ate ~outubro, mas o 24/7 oficial e Paramount+
+#PLAYLIST:   (pago). O espelho Pluto nao entrega a temporada 28 e nenhum sinal aberto do CBS
+#PLAYLIST:   respondeu (5 origens testadas: timeout / 403 / I-O error).
+#PLAYLIST: OFFLINE - Gran Hermano Argentina terminou a final em 31/08/2026. O player oficial da
+#PLAYLIST:   Telefe so funciona com token por sessao (403), e o sinal aberto e HTTP em IP cru.
+#PLAYLIST: ATIVO - "La Casa de los Famosos 4" (Mexico) e o unico Big Brother/realidade ainda no ar:
+#PLAYLIST:   final previsto para ~04/10/2026.
+#PLAYLIST: RESSALVA DO LINK - o sinal do Las Estrellas e HTTP em IP cru (190.93.224.42), o unico
+#PLAYLIST:   que respondeu. O player oficial (lasestrellas.tv/en-vivo) carrega o video via MSE/blob e
+#PLAYLIST:   nao expoe um .m3u8, entao nao da para usar a fonte oficial. Nao consegui verificar este
+#PLAYLIST:   IP em um servico de reputacao/antivirus, entao trate como menos confiavel.
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz"
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México) — LCDLF 4
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
