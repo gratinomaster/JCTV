@@ -394,6 +394,16 @@ EXTRA = [
     ("CBS News 24/7 (cbsivideo)", "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8"),
     ("ABC News Live (akamai 05)", "https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8"),
     ("ABC News Live (hudson1)", "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8"),
+    # official-network candidates, verified 2026-09-27
+    ("CBS News 24/7 (cbsn-us official)", "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8"),
+    ("CBS News 24/7 (cbsn-us-vtt official)", "https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8"),
+    ("ABC News Live (Disney/ABC official)", "https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8"),
+    ("ABC News Live (tubi)", "https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index.m3u8"),
+    ("Fox News Channel (public IP)", "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"),
+    ("Fox News Channel (247preview official)", "https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8"),
+    ("Fox Business (247preview official)", "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8"),
+    ("Fox Business (247 token, expired)", "https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8"),
+    ("Fox News (247 token, expired)", "https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8"),
 ]
 
 if __name__ == "__main__":

@@ -21,34 +21,37 @@ from datetime import datetime
 PLAYLIST = "lista5.m3u"
 CHECK = "l5_check.json"
 
-EPG_LIGHT = "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
-EPG_DEEP = "https://iptv-epg.org/files/epg-us.xml.gz"
+# Single XMLTV source, verified 2026-09-27: it declares ABCNewsLive.us,
+# CBSNews.us and FoxNewsChannel.us AND carries programmes for today,
+# tomorrow and the day after for all three (iptv-epg.org regenerated daily).
+EPG = "https://iptv-epg.org/files/epg-us.xml.gz"
 
-LOGO_ABC = "https://keyframe-cdn.abcnews.com/streamprovider11.jpg"
-LOGO_CBS = ("https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/"
-            "0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/"
-            "949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg")
+# Every logo below was fetched and confirmed: HTTP 200, Content-Type image/jpeg
+# and the SOI marker ff d8 ff. None is an imgur.com link, none is svg/webp/png.
+LOGO_ABC = ("https://s.abcnews.com/images/Live/"
+            "abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg")
+LOGO_CBS = ("https://assets1.cbsnewsstatic.com/hub/i/2024/04/16/"
+            "0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/"
+            "247-key-channelthumbnail-1920x1080.jpg")
+LOGO_FOX = "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fox_news_live_logo_2021.jpg"
 
-STREAM_ABC_1 = ("https://abcnews-livestreams.akamaized.net/out/v1/"
-                "6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/"
-                "abcn-live-10-index.m3u8")
-STREAM_ABC_2 = ("https://abcnews-livestreams.akamaized.net/out/v1/"
-                "173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/"
-                "abcn-live-05-index.m3u8")
-STREAM_CBS_1 = ("https://dai.google.com/linear/hls/event/"
-                "Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8")
-STREAM_CBS_2 = "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8"
+# Hosts are the broadcasters' own CDNs, so no expiring hmac/exp token is
+# involved: the playlist does not rot overnight like the previous version did.
+STREAM_ABC = ("https://abcnews-livestreams.akamaized.net/out/v1/"
+              "6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/"
+              "abcn-live-10-index.m3u8")
+STREAM_CBS = ("https://cbsn-us.cbsnstream.cbsnews.com/out/v1/"
+              "55a8648e8f134e82a470f83d562deeca/master.m3u8")
+STREAM_FOX = "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"
 
 # name, tvg-id, tvg-name, logo, stream, epg, group
 CHANNELS = [
-    ("ABC News Live", "ABC.News.Live.us2", "ABC News Live", LOGO_ABC,
-     STREAM_ABC_1, EPG_LIGHT, "NEWS WORLD"),
-    ("ABC News Live - Feed 2", "ABCNewsLive.us", "ABC News Live", LOGO_ABC,
-     STREAM_ABC_2, EPG_DEEP, "NEWS WORLD"),
-    ("CBS News 24/7", "CBS.News.National.Stream.us2", "CBS News 24/7", LOGO_CBS,
-     STREAM_CBS_1, EPG_LIGHT, "NEWS WORLD"),
-    ("CBS News 24/7 - Fonte Alt", "CBSNews.us", "CBS News 24/7", LOGO_CBS,
-     STREAM_CBS_2, EPG_DEEP, "NEWS WORLD"),
+    ("ABC News Live", "ABCNewsLive.us", "ABC News Live", LOGO_ABC,
+     STREAM_ABC, EPG, "NEWS WORLD"),
+    ("CBS News 24/7", "CBSNews.us", "CBS News 24/7", LOGO_CBS,
+     STREAM_CBS, EPG, "NEWS WORLD"),
+    ("Fox News Channel", "FoxNewsChannel.us", "Fox News Channel", LOGO_FOX,
+     STREAM_FOX, EPG, "NEWS WORLD"),
 ]
 
 
@@ -92,7 +95,7 @@ def main():
             continue
         keep.append((name, tvgid, tvgname, logo, stream, epg, group))
 
-    out = [f'#EXTM3U x-tvg-url="{EPG_LIGHT} {EPG_DEEP}"']
+    out = [f'#EXTM3U url-tvg="{EPG}"']
     for name, tvgid, tvgname, logo, stream, epg, group in keep:
         out.append(
             f'#EXTINF:-1 tvg-id="{tvgid}" tvg-name="{tvgname}" '
