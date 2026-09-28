@@ -21,13 +21,16 @@ from datetime import datetime
 PLAYLIST = "lista5.m3u"
 CHECK = "l5_check.json"
 
-# Single XMLTV source, verified 2026-09-27: it declares ABCNewsLive.us,
-# CBSNews.us and FoxNewsChannel.us AND carries programmes for today,
-# tomorrow and the day after for all three (iptv-epg.org regenerated daily).
+# Single XMLTV source, verified 2026-09-28 against the live file: it declares
+# ABCNewsLive.us, CBSNews.us and FoxNewsChannel.us AND carries real titled
+# programmes for today, tomorrow and the day after for all three
+# (iptv-epg.org regenerates epg-us.xml.gz daily). One guide is enough here,
+# so no second 20 MB feed is loaded by the player for nothing.
 EPG = "https://iptv-epg.org/files/epg-us.xml.gz"
 
 # Every logo below was fetched and confirmed: HTTP 200, Content-Type image/jpeg
-# and the SOI marker ff d8 ff. None is an imgur.com link, none is svg/webp/png.
+# and the SOI marker ff d8 ff. All end in .jpg (no query string that would
+# break the extension check), none is an imgur.com link.
 LOGO_ABC = ("https://s.abcnews.com/images/Live/"
             "abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg")
 LOGO_CBS = ("https://assets1.cbsnewsstatic.com/hub/i/2024/04/16/"
@@ -35,8 +38,11 @@ LOGO_CBS = ("https://assets1.cbsnewsstatic.com/hub/i/2024/04/16/"
             "247-key-channelthumbnail-1920x1080.jpg")
 LOGO_FOX = "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fox_news_live_logo_2021.jpg"
 
-# Hosts are the broadcasters' own CDNs, so no expiring hmac/exp token is
-# involved: the playlist does not rot overnight like the previous version did.
+# ABC and CBS live on the broadcasters' own CDNs, so no expiring hmac/exp token
+# is involved and the playlist does not rot overnight. The Fox News Channel
+# feed is the only publicly reachable copy of that channel (247.foxnews.com
+# answers 403 without a per-session hdnea token, verified 2026-09-28), so it
+# sits on a bare IP and is re-validated on every run.
 STREAM_ABC = ("https://abcnews-livestreams.akamaized.net/out/v1/"
               "6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/"
               "abcn-live-10-index.m3u8")
@@ -48,7 +54,7 @@ STREAM_FOX = "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"
 CHANNELS = [
     ("ABC News Live", "ABCNewsLive.us", "ABC News Live", LOGO_ABC,
      STREAM_ABC, EPG, "NEWS WORLD"),
-    ("CBS News 24/7", "CBSNews.us", "CBS News 24/7", LOGO_CBS,
+    ("CBS News 24/7", "CBSNews.us", "CBS News", LOGO_CBS,
      STREAM_CBS, EPG, "NEWS WORLD"),
     ("Fox News Channel", "FoxNewsChannel.us", "Fox News Channel", LOGO_FOX,
      STREAM_FOX, EPG, "NEWS WORLD"),

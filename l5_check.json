@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-09-27T04:30:14.859370+00:00",
+  "checked_at": "2026-09-28T04:34:45.819111+00:00",
   "results": [
     {
-      "url": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94",
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94",
       "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
-      "host": "linear-abcnews-akc-na-central-1.media.dssott.com",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
@@ -36,12 +36,12 @@
       "variants": 8,
       "segs_ok": 0,
       "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94"
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94"
     },
     {
-      "url": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
       "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
-      "host": "linear-abcnews-akc-na-central-1.media.dssott.com",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
@@ -70,12 +70,12 @@
       "variants": 0,
       "segs_ok": 2,
       "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8"
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8"
     },
     {
-      "url": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8",
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8",
       "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
-      "host": "linear-abcnews-akc-na-central-1.media.dssott.com",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
@@ -103,32 +103,181 @@
       "variants": 0,
       "segs_ok": 2,
       "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8"
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1790640594~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=d41adf19-ceb4-4c93-b330-487aa3119c49~did=27a6d6b4-817b-4bf7-abe1-8c26b6879460~country=US~kid=k02~hmac=349f86c81f7bd2ab4a37773998196610f4e8215f49f2c7ebb1ec88bbbc9a83f7/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8"
     },
     {
-      "url": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/7361ad2e-d02c-47c5-b38b-845c346df51a/unenc-all-7d0fef21-b821-4f65-93f4-e16d56bebe1c-1a682544-0fc0-4989-8c98-ab61fa8b1a1f.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
       "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
-      "host": "linear-abcnews-akc-na-central-1.media.dssott.com",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/7361ad2e-d02c-47c5-b38b-845c346df51a/unenc-all-7d0fef21-b821-4f65-93f4-e16d56bebe1c-1a682544-0fc0-4989-8c98-ab61fa8b1a1f.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/unenc-all-afa52781-0385-46a6-a032-66d8e7982e4c-d30dc26b-d414-4dd6-b9a3-28c7853340b2.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/unenc-all-afa52781-0385-46a6-a032-66d8e7982e4c-d30dc26b-d414-4dd6-b9a3-28c7853340b2.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/8ad38924-7c0a-4c9f-9e68-de9d1f310309/unenc-all-e8e2f6e9-9a59-4ed9-af89-bfec51b311d0-6e388393-d150-4246-ad29-c537d41c32de.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/8ad38924-7c0a-4c9f-9e68-de9d1f310309/unenc-all-e8e2f6e9-9a59-4ed9-af89-bfec51b311d0-6e388393-d150-4246-ad29-c537d41c32de.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/2bf2a8a8-802c-4615-9f37-2b5be52b5c0c/unenc-all-39033391-37cf-4558-92d5-f3f01220b754-a9cdde6b-19a8-4ef9-9cb2-7db22a3d5ad3.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/2bf2a8a8-802c-4615-9f37-2b5be52b5c0c/unenc-all-39033391-37cf-4558-92d5-f3f01220b754-a9cdde6b-19a8-4ef9-9cb2-7db22a3d5ad3.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/r/3ea762af-e937-4875-ae25-ff64727e0c5f/720b-MAIN/03/128_complete.m3u8",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
         "L4_init_container": "fMP4",
         "L4_segments_decodable": true,
         "L5_audio_present": false,
         "L7_no_threats": true
       },
       "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
         "L5 no audio track"
       ],
       "threats": [],
-      "notes": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel"
+      ],
       "http": 200,
       "ctype": "audio/mpegurl",
       "kind": "media",
-      "live": true,
+      "live": false,
       "video": {
         "res": "?",
         "codec": "fMP4"
@@ -137,7 +286,153 @@
       "variants": 0,
       "segs_ok": 2,
       "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1790563390~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=7d9c67e1-e3ef-4699-bf40-8580708f1e23~did=e5046f77-2bf8-43f1-a93e-b24b9d924999~country=US~kid=k02~hmac=360859965d9ccffa9500865bf2f092a1ce3b5644cfc24c2909dff318b960403e/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8"
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/r/3ea762af-e937-4875-ae25-ff64727e0c5f/720b-MAIN/03/128_complete.m3u8"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/1fee030e-3afe-498f-935f-a8942642b576/unenc-all-c0e39ac6-e59e-41f1-aa53-80a8188b8b3b-670838c5-ddc4-4648-a923-fabdf37a21ec.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/1fee030e-3afe-498f-935f-a8942642b576/unenc-all-c0e39ac6-e59e-41f1-aa53-80a8188b8b3b-670838c5-ddc4-4648-a923-fabdf37a21ec.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/83e79d61-76ad-414e-a807-411d249c5c66/unenc-all-6d146845-4509-4c52-b9ba-5ee105c1580f-3b88aaad-a634-4e98-8356-d8f5a692fe7f.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/83e79d61-76ad-414e-a807-411d249c5c66/unenc-all-6d146845-4509-4c52-b9ba-5ee105c1580f-3b88aaad-a634-4e98-8356-d8f5a692fe7f.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/0d501578-9d63-4d67-baaf-83a891d5fdc9/unenc-all-8dac8869-8196-4e39-9806-69342e97a4d8-113c795e-8e65-4c41-a65b-049dc877b5ad.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_segments_decodable": false,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L4 init fetch HTTPError: HTTP Error 403: Forbidden"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel",
+        "segment HTTPError",
+        "segment HTTPError",
+        "audio rendition HTTPError"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "master",
+      "live": false,
+      "video": null,
+      "audio": {
+        "rendition": "separate",
+        "ok": false
+      },
+      "variants": 7,
+      "segs_ok": 0,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/0d501578-9d63-4d67-baaf-83a891d5fdc9/unenc-all-8dac8869-8196-4e39-9806-69342e97a4d8-113c795e-8e65-4c41-a65b-049dc877b5ad.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a"
+    },
+    {
+      "url": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/r/60b8d0c2-29a1-4233-8c11-0d2e3c49a00d/720b-MAIN/03/1200_complete-8294e491-afa8-4595-92a1-632b9f4d0c67.m3u8",
+      "name": "Video Tracking the nor'easter impacting the Northeast this weekend; Hurricane Nolo and its impacts for Hawaii | Watch Live News on ABCNL",
+      "host": "linear-abcnews-akc-na-west-1.media.dssott.com",
+      "checks": {
+        "L1_http_200_hls": true,
+        "L2_is_channel": true,
+        "L3_no_drm": true,
+        "L6_live": false,
+        "L4_init_container": "fMP4",
+        "L4_segments_decodable": true,
+        "L5_audio_present": false,
+        "L7_no_threats": true
+      },
+      "fail": [
+        "L5 no audio track"
+      ],
+      "threats": [],
+      "notes": [
+        "VOD (has #EXT-X-ENDLIST) - not a live channel"
+      ],
+      "http": 200,
+      "ctype": "audio/mpegurl",
+      "kind": "media",
+      "live": false,
+      "video": {
+        "res": "?",
+        "codec": "fMP4"
+      },
+      "audio": null,
+      "variants": 0,
+      "segs_ok": 2,
+      "verdict": "FAIL",
+      "final": "https://linear-abcnews-akc-na-west-1.media.dssott.com/int/ps01/disney/b9ad5d78-90b4-4e74-a2b0-50eab5d177a6/r/60b8d0c2-29a1-4233-8c11-0d2e3c49a00d/720b-MAIN/03/1200_complete-8294e491-afa8-4595-92a1-632b9f4d0c67.m3u8"
     },
     {
       "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
@@ -240,27 +535,7 @@
       "final": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8"
     },
     {
-      "url": "https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1790480592~acl=/*~hmac=e2f6764433326cf2c7f950bc8b4e8886146b94fcd4d3da6528117338aaa1039a",
-      "name": "Fox Business Go | Fox News Video",
-      "host": "247.foxbusiness.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 403"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 403,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1790480592~acl=/*~hmac=e2f6764433326cf2c7f950bc8b4e8886146b94fcd4d3da6528117338aaa1039a",
+      "url": "https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1790557796~acl=/*~hmac=af65d39449258d6db70ac7a3131adbcfabb02f4d7843a79e0022993d947d51da",
       "name": "Watch Fox News Channel Online | Stream Fox News",
       "host": "247.foxnews.com",
       "checks": {},
@@ -280,236 +555,144 @@
       "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/master.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": true,
-        "L7_no_threats": true
-      },
-      "fail": [],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "master",
-      "live": true,
-      "video": {
-        "res": "1920x1080",
-        "codec": "MPEG-TS"
-      },
-      "audio": {
-        "rendition": "muxed",
-        "ok": true
-      },
-      "variants": 8,
-      "segs_ok": 2,
-      "verdict": "PASS",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/master.m3u8"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "url": "https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1790557796~acl=/*~hmac=af65d39449258d6db70ac7a3131adbcfabb02f4d7843a79e0022993d947d51da",
+      "name": "Fox Business Go | Fox News Video",
+      "host": "247.foxbusiness.com",
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 403"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 403,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8",
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/master.m3u8",
       "name": "Watch CBS News 24/7, our free live news stream",
       "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 410"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8",
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8",
       "name": "Watch CBS News 24/7, our free live news stream",
       "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 410"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8",
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8",
       "name": "Watch CBS News 24/7, our free live news stream",
       "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 410"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8",
       "name": "Watch CBS News 24/7, our free live news stream",
       "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 410"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
       "name": "Watch CBS News 24/7, our free live news stream",
       "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
+      "checks": {},
       "fail": [
-        "L5 no audio track"
+        "L1 HTTP 410"
       ],
       "threats": [],
       "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "MPEG-TS"
-      },
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
       "audio": null,
       "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/96f07f3a-e55e-4d5e-be54-910c6c347e15:ATL/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8"
+      "segs_ok": 0,
+      "verdict": "FAIL"
+    },
+    {
+      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f6654c63-6d85-48ae-86b3-e34a99f38b84:DLS/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
+      "name": "Watch CBS News 24/7, our free live news stream",
+      "host": "dai.google.com",
+      "checks": {},
+      "fail": [
+        "L1 HTTP 410"
+      ],
+      "threats": [],
+      "notes": [],
+      "http": 410,
+      "ctype": "",
+      "kind": null,
+      "live": null,
+      "video": null,
+      "audio": null,
+      "variants": 0,
+      "segs_ok": 0,
+      "verdict": "FAIL"
     },
     {
       "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
@@ -543,7 +726,7 @@
       "variants": 8,
       "segs_ok": 2,
       "verdict": "PASS",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/13a721eb-d121-4098-a1bd-213e860ee7c9:CHS/master.m3u8"
+      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/8999e818-55f1-4868-b52a-ea466f9bb75b:TUL/master.m3u8"
     },
     {
       "url": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",

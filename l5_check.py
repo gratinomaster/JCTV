@@ -27,6 +27,7 @@ import gzip
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -88,17 +89,29 @@ BAD_HOST = re.compile(
 
 
 # --------------------------------------------------------------- helpers
-def get(url, timeout=20, limit=3_000_000, referer=None):
+def get(url, timeout=20, limit=3_000_000, referer=None, retries=2):
+    """Fetch url. Transient network errors are retried: a live HLS edge that
+    times out once is not a dead channel, and mistaking one for the other
+    would silently drop good channels. An HTTP error status is never retried."""
     h = {"User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-US,en;q=0.9",
          "Connection": "close"}
     if referer:
         h["Referer"] = referer
-    req = urllib.request.Request(url, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return {"status": r.status, "ctype": r.headers.get("Content-Type", ""),
-                "clen": r.headers.get("Content-Length"),
-                "final": r.geturl(),
-                "data": r.read(limit) if limit else r.read()}
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=h)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return {"status": r.status, "ctype": r.headers.get("Content-Type", ""),
+                        "clen": r.headers.get("Content-Length"),
+                        "final": r.geturl(),
+                        "data": r.read(limit) if limit else r.read()}
+        except urllib.error.HTTPError:
+            raise
+        except Exception as e:
+            last = e
+            time.sleep(1.5 * (attempt + 1))
+    raise last
 
 
 def av_scan(data, label):
