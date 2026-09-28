@@ -501,6 +501,25 @@ def add_programmes(all_programmes, seen, cid, blocks):
             all_programmes.setdefault(cid, []).append(block)
 
 
+def sort_blocks(blocks):
+    """Ordena os <programme> pelo horario real de inicio.
+
+    Algumas fontes (a grade oficial do Al Jazeera, por exemplo) devolvem os
+    dias em paginas separadas e nao em ordem cronologica. O TiviMate e o
+    add-on do kodi que mistura EPGs esperam os programas em ordem, senao a
+    grade exibida sai embaralhada. A comparacao e feita sobre o datetime
+    (com o fuso de cada horario), nunca sobre o texto, porque canais de
+    paises diferentes usam offsets como -0300, -0500 e +0000.
+    """
+    def key(block):
+        m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', block)
+        return parse_xmltv_time(m.group(1)) if m else datetime.max.replace(
+            tzinfo=timezone.utc
+        )
+
+    return sorted(blocks, key=key)
+
+
 def extend_last_programme(blocks, stop_str):
     """Estende o stop do programa mais recente para cobrir a janela de retencao.
 
@@ -514,8 +533,13 @@ def extend_last_programme(blocks, stop_str):
     latest_idx = -1
     for i, b in enumerate(blocks):
         m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', b)
-        if m and (latest is None or m.group(1) > latest):
-            latest = m.group(1)
+        if not m:
+            continue
+        start = parse_xmltv_time(m.group(1))
+        if start is None:
+            continue
+        if latest is None or start > latest:
+            latest = start
             latest_idx = i
     if latest_idx < 0:
         return blocks
@@ -745,7 +769,7 @@ def main():
                  'generator-info-url="https://github.com/gratinomaster/JCTV">']
     for cid in wanted_ids:
         xml_parts.append(channel_xml.get(cid) or channel_block_from_m3u(cid, channels[cid]))
-        for prog in all_programmes.get(cid, []):
+        for prog in sort_blocks(all_programmes.get(cid, [])):
             xml_parts.append(prog)
     xml_parts.append("</tv>")
     full_xml = "\n".join(xml_parts) + "\n"
