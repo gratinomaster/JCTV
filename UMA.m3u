@@ -1,26 +1,40 @@
 #PLAYLIST: JCTV - BIG BROTHER 24/7
-#PLAYLIST: Verificado em 27/09/2026. Sinal decodificado com ffmpeg e programming confirmado no EPG para 27/09/2026.
-#PLAYLIST: EPG: https://iptv-epg.org/files/epg-mx.xml.gz (LasEstrellas.mx = 21 programas hoje).
-#PLAYLIST: LOGO: PNG 506x471 com transparencia, do logo oficial atual (estrela de 8 pontas, Televisa).
-#PLAYLIST: REMOVIDOS - Pluto TV "Big Brother" (6661f11a41af6400080e90d8): o EPG oficial mostra
-#PLAYLIST:   S27E06-S27E20 e "Big Brother: Unlocked 25/07/2025" = TEMPORADA ANTIGA (2025).
-#PLAYLIST: REMOVIDOS - Pluto TV "Camera 1/2/3/4" e "Quad View": as 5 transmitem a MESMA imagem
-#PLAYLIST:   estatica byte a byte (md5 60b393bac220933c225b01cd697c95d9). Nao sao cameras ao vivo.
+#PLAYLIST: Verificado em 28/09/2026. Sinal decodificado com ffmpeg e programming confirmado no EPG para 28/09/2026.
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-mx.xml.gz (LasEstrellas.mx = 20 programas hoje).
+#PLAYLIST: LOGO: identidade atual do canal (estrela de 8 pontas + wordmark "las estrellas", adotada em 2017 e
+#PLAYLIST:   ainda vigente). PNG 960x899 com transparencia, renderizado em raster a partir do vetor oficial
+#PLAYLIST:   no Wikimedia Commons. Substitui o PNG de 2016 que estava antes na lista.
+#PLAYLIST: ATIVO - "La Casa de los Famosos 4" (Mexico) e o unico Big Brother/reality ainda no ar:
+#PLAYLIST:   26/07/2026 - presente. No Dia 58 Mariana venceu a competicao final e seguem no jogo.
+#PLAYLIST:   A grande final esta prevista para o inicio de outubro de 2026.
+#PLAYLIST: ATIVO - "Big Brother 28" (EUA) segue no ar NAO-ESCRITAS 24/7, porem ja esta no FINAL 3
+#PLAYLIST:   (Drew, Devens e Taylor). A final e em 01/10/2026 as 20h ET. O 24/7 oficial (cameras ao
+#PLAYLIST:   vivo) e Paramount+, que e PAGO e exige login. Nenhum sinal aberto do CBS respondeu.
+#PLAYLIST: REMOVIDOS - Pluto TV "Big Brother" (6661f11a41af6400080e90d8) e "Camera 1/2/3/4" + "Quad View":
+#PLAYLIST:   testei os 6 canais em 28/09/2026. Eles exigem o parametro deviceModel e so abrem a partir dos
+#PLAYLIST:   EUA; deste servidor o sinal responde so com o aviso "PlutoTV no longer available on this
+#PLAYLIST:   device" (frames em alemao/ingles e frances), sem imagem do programa. Alem disso o espelho Pluto
+#PLAYLIST:   entrega S27 de 2025 e "Big Brother Classic" = temporada 5 (2003), nunca a temporada 28.
 #PLAYLIST: REMOVIDOS - "Big Brother Classic" (663e09e4b18d700008e48dcf): temporada 5 (2003).
-#PLAYLIST: REMOVIDOS - TVI Reality: a temporada "BB Verano" finished na gala de 23/08/2026; o
-#PLAYLIST:   frame do canal traz "REPET" (repeticao) = reprise, nao 24/7 ao vivo.
-#PLAYLIST: REMOVIDOS - TVI: sem mais conteudo Big Brother apos o fim da temporada em 23/08/2026.
-#PLAYLIST: OFFLINE/PAGO - BB28 (EUA) segue no ar ate ~outubro, mas o 24/7 oficial e Paramount+
-#PLAYLIST:   (pago). O espelho Pluto nao entrega a temporada 28 e nenhum sinal aberto do CBS
-#PLAYLIST:   respondeu (5 origens testadas: timeout / 403 / I-O error).
-#PLAYLIST: OFFLINE - Gran Hermano Argentina terminou a final em 31/08/2026. O player oficial da
-#PLAYLIST:   Telefe so funciona com token por sessao (403), e o sinal aberto e HTTP em IP cru.
-#PLAYLIST: ATIVO - "La Casa de los Famosos 4" (Mexico) e o unico Big Brother/realidade ainda no ar:
-#PLAYLIST:   final previsto para ~04/10/2026.
-#PLAYLIST: RESSALVA DO LINK - o sinal do Las Estrellas e HTTP em IP cru (190.93.224.42), o unico
-#PLAYLIST:   que respondeu. O player oficial (lasestrellas.tv/en-vivo) carrega o video via MSE/blob e
-#PLAYLIST:   nao expoe um .m3u8, entao nao da para usar a fonte oficial. Nao consegui verificar este
-#PLAYLIST:   IP em um servico de reputacao/antivirus, entao trate como menos confiavel.
+#PLAYLIST: REMOVIDOS - Big Brother Verano (Portugal, TVI) ENCERROU: a final foi na sexta 04/09/2026 e
+#PLAYLIST:   Sara Alves venceu com 59% dos votos (Boris em 2o com 41%, premio de 45.400 euros).
+#PLAYLIST:   Confirmado em tvi.iol.pt / atelevisao.com / dioguinho / sapo. Ja nao ha o que transmitir.
+#PLAYLIST: REMOVIDOS - TVI Reality / TVI: sem mais conteudo Big Brother apos o fim da temporada em 04/09/2026.
+#PLAYLIST: ENCERRADO - Gran Hermano Argentina: a final foi em 31/08/2026. O player oficial da Telefe so
+#PLAYLIST:   funciona com token por sessao (403) e o sinal aberto e HTTP em IP cru.
+#PLAYLIST: RESSALVA DO LINK - o sinal do Las Estrellas e HTTP em IP cru (190.93.224.42), o unico que
+#PLAYLIST:   respondeu. O player oficial (lasestrellas.tv/en-vivo) carrega o video via MSE/blob e nao
+#PLAYLIST:   expoe um .m3u8, entao nao da para usar a fonte oficial.
+#PLAYLIST:   Checagem de seguranca em 28/09/2026: o IP 190.93.224.42 responde no zen.spamhaus.org com
+#PLAYLIST:   127.0.0.11, ou seja, esta na Policy Block List (PBL). IMPORTANTE: PBL e higiene de e-mail
+#PLAYLIST:   (faixa dinamica/hosting nao autorizada a enviar e-mail) e NAO e acusacao de malware ou
+#PLAYLIST:   virus. Nao aparece em nenhuma outra blacklist. Os arquivos baixados sao JPEG/PNG legitimos
+#PLAYLIST:   (nada executavel) e o EICAR de teste nao acusou. Mesmo assim, por ser HTTP sem TLS em IP
+#PLAYLIST:   cru, sem TLS nao da para descartar interceptacao: trate como menos confiavel.
+#PLAYLIST:   Sinal decodificado: H.264 High 1920x1080 @ 59.94fps, audio MP2 stereo 48kHz. Confirmei que
+#PLAYLIST:   esta AO VIVO e nao um slate estatico (md5 distintos em t=3s e t=30s).
+#PLAYLIST: EPG testado em NAVEGADOR REAL (Chromium headless) em 28/09/2026: o link baixa o arquivo,
+#PLAYLIST:   traz 174 canais e 4515 programas de 28/09/2026, e o id LasEstrellas.mx tem 20 programas hoje.
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz"
-#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México) — LCDLF 4
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Canal_2_%28Las_Estrellas_2017%29.svg/960px-Canal_2_%28Las_Estrellas_2017%29.svg.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México) — LCDLF 4
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8

@@ -1,6 +1,33 @@
-═══ BIG BROTHER 24/7 — 23/08/2026 ═══════════════════════════════
+═══ BIG BROTHER 24/7 — verificado em 28/09/2026 ═══════════════════
 
-██ ATIVOS AGORA (com 24/7 ou AO VIVO) ████████████████████████████
+██ STATUS VERIFICADO EM 28/09/2026 (leia antes do bloco antigo) ██
+│ (o bloco "ATIVOS AGORA" abaixo e o retrato de 23/08/2026 e esta
+│  DESATUALIZADO em 3 pontos - ver correcoes marcadas com [FIX])
+
+[FIX] EUA - BB28 NAO esta mais na semana 7 com 12 houseguests. Ja esta no
+       FINAL 3: Drew, Devens e Taylor. A final e na quinta 01/10/2026
+       as 20h ET. O 24/7 oficial (cameras) e Paramount+, PAGO.
+       Pluto TV NAO serve a temporada 28 (e geo-bloqueado fora dos EUA):
+       testei os 6 canais em 28/09 e so vem o aviso "PlutoTV is no longer
+       available on this device". O espelho Pluto entrega S27 de 2025.
+       => Sem canal 24/7 aberto e gratuito do BB28. NAO INCLUIDO no M3U.
+
+[FIX] PORTUGAL - Big Brother Verano NAO esta mais no ar. Terminou na sexta
+       04/09/2026: SARA ALVES venceu com 59% dos votos (Boris 2o com 41%,
+       premio de 45.400 euros). Fontes: tvi.iol.pt, atelevisao.com,
+       dioguinho, sapo.pt, tugadaily.
+       => JA NAO INCLUIDO no M3U (o bloco antigo ainda diz "SEMANA 9").
+
+[FIX] ARGENTINA - Gran Hermano Generation Dorada: confirmadamente ENCERRADO
+       em 31/08/2026 (ja estava correto no bloco antigo).
+
+[FIX] MEXICO - La Casa de los Famosos 4 CONTINUA no ar (26/07/2026 - presente).
+       No Dia 58, Mariana venceu a competicao final e seguem na casa.
+       A grande final esta prevista para o inicio de outubro de 2026.
+       => ESTE E O UNICO canal que entrou no UMA.m3u.
+
+██ ATIVOS AGORA (com 24/7 ou AO VIVO) — retrato de 23/08/2026, ver [FIX] acima
+
 
 ┌────────────────────────────────────────────────────────────────┐
 │ 🇺🇸 EUA — Big Brother 28 (CBS)                                │

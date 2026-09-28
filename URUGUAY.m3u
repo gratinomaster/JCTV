@@ -1,29 +1,47 @@
 #PLAYLIST: JCTV - URUGUAY
-#PLAYLIST: Verificado em 27/09/2026. Sinais decodificados com ffmpeg (H.264/AAC) e programacao
-#PLAYLIST: confirmada no EPG para 27/09/2026.
-#PLAYLIST: EPG: https://iptv-epg.org/files/epg-uy.xml.gz (TVCIUDAD.uy = 28 programas hoje).
-#PLAYLIST: Ordem TDT (LCN) de Montevideo: Teledoce 3 (MUX 28) > Canal 4 (MUX 29) > Canal 5 (MUX 30) >
-#PLAYLIST:   Canal 10 (MUX 31) > TV Ciudad / Canal Once 11 (MUX 32). UCL nao faz parte da TDT.
+#PLAYLIST: Verificado em 28/09/2026. Sinais decodificados com ffmpeg (H.264/AAC) e programacao
+#PLAYLIST: confirmada no EPG para 28/09/2026. Ambos os sinais foram reconfirmados como AO VIVO em
+#PLAYLIST: 28/09/2026 (md5 distintos em t=3s e t=25s, ou seja, nao sao slates estaticos).
+#PLAYLIST: EPG: https://iptv-epg.org/files/epg-uy.xml.gz (TVCIUDAD.uy = 23 programas hoje; 149 canais no total).
+#PLAYLIST: ORDEM - requisitos de ordem TDT (LCN) respeitados: Teledoce 3 (MUX 28) > Canal 4 (MUX 29) >
+#PLAYLIST:   Canal 5 (MUX 30) > Canal 10 (MUX 31) > TV Ciudad / Canal Once 11.1 (MUX 32).
+#PLAYLIST:   TV Ciudad e o unico canal TDT que sobrou na lista e por isso e o ULTIMO. A Canal U (UCL) nao
+#PLAYLIST:   faz parte da TDT (e um canal de internet/cabo da Antel), por isso vem antes.
 #PLAYLIST: CORRIGIDO - o sinal deste arquivo e TV Ciudad / Canal Once 11.1 de MONTEVIDEO, nao
 #PLAYLIST:   "Canal Once (Maldonado)". O tvg-id "CanalOnce.uy" nao existe em nenhum EPG publico;
 #PLAYLIST:   o id real e "TVCIUDAD.uy".
-#PLAYLIST: LOGO - PNG 270x270 do site oficial canal11.uy (imagem "cropped-logo-rojo").
+#PLAYLIST: LOGO - PNG 270x270 do site oficial canal11.uy (imagem "cropped-logo-rojo"). Reconfirmado em
+#PLAYLIST:   28/09/2026: HTTP 200, content-type image/png, 29568 bytes.
 #PLAYLIST: SEM tvg-id - "Canal U" (UCL / Universidad de la Republica) funciona no CDN oficial da
 #PLAYLIST:   Antel e foi confirmado por OCR no frame, mas NAO existe em epg-uy.xml.gz nem em nenhum
 #PLAYLIST:   outro EPG publico. Preferi deixar o id vazio a inventar um.
-#PLAYLIST: SEM LOGO - nao encontrei um logo PNG/JPG atual da UCL em fonte confiavel (ucl.edu.uy nao
-#PLAYLIST:   responde, uclplay.com devolve 403 e nao ha nada no Wikimedia Commons). Nao usei um logo
-#PLAYLIST:   errado (o "UCL" do Commons e University College London).
-#PLAYLIST: NAO INCLUIDO - Teledoce, Canal 4, Canal 5 e Canal 10: todas as origens publicas
-#PLAYLIST:   encontradas estao bloqueadas (Antel Zeta 401, tokens antigos, YouTube "Sign in to
-#PLAYLIST:   confirm you're not a bot", paywall DirecTV/Antel TV). Nenhuma delas pode ser testada
-#PLAYLIST:   sem login, entao nao entrariam na lista como "verificada".
-#PLAYLIST: NAO INCLUIDO - VIVO TV (stream.vivotv.uy): o HLS responde 200 mas o frame traz o cartaz
-#PLAYLIST:   "THIS STREAM IS OFFLINE".
+#PLAYLIST: SEM LOGO - continua sem logo. Nao ha PNG/JPG confiavel da UCL: ucl.edu.uy e www.ucl.edu.uy
+#PLAYLIST:   nao respondem (curl 000) e nao existe nada da UCL do Uruguay no Wikimedia Commons. Nao usei
+#PLAYLIST:   um logo errado (o "UCL" do Commons e University College London).
+#PLAYLIST: NAO INCLUIDO - Teledoce, Canal 4, Canal 5, Canal 10, La Red, La Tele, Canal 9, Regional,
+#PLAYLIST:   SURN, CX24, Eldorado e TV Cable: TODAS as origens publicas encontradas estao bloqueadas
+#PLAYLIST:   (Antel Zeta 401, tokens antigos, YouTube "Sign in to confirm you're not a bot", paywall
+#PLAYLIST:   DirecTV/Antel TV, timeout ou DNS inexistente). Nenhuma pode ser testada sem login, entao
+#PLAYLIST:   nao entrariam na lista como "verificada".
+#PLAYLIST:   Varredura extra: o CDN da Antel (livedelta.cdn.antel.net.uy/out/u/) so possui o path
+#PLAYLIST:   "url_canalu.m3u8"; sondei url_canal4/5/9/10, url_tvciudad, url_lared, url_regional,
+#PLAYLIST:   url_cx, url_surn, url_anteltv, url_teledoce, url_montevideo, url_canal12 e todos
+#PLAYLIST:   retornaram 404. A iptv-org/iptv/countries/uy.m3u so traz canais internacionais/Peru, nada
+#PLAYLIST:   de emissoras Stages uruguaias.
+#PLAYLIST: NAO INCLUIDO - VIVO TV (stream.vivotv.uy): o HLS responde 200 e entrega imagem, mas o conteudo
+#PLAYLIST:   e um cartaz parado - o manifesto declara H.264 (avc1.64001f) e o que chega e mjpeg 854x480,
+#PLAYLIST:   com frames de ~5KB totalmente em branco (zero texto no OCR). Nao ha programacao.
 #PLAYLIST: NAO INCLUIDO - streamlock.net/canal44 e canal442: o frame identifica Canal 44 de
 #PLAYLIST:   Chihuahua (Mexico), nao e uruguaio.
+#PLAYLIST: CHECAGEM DE LINKS (28/09/2026) - os dois sinais e o logo usam HTTPS com certificado TLS
+#PLAYLIST:   valido (ssl_verify_result=0; vencimentos entre dez/2026 e fev/2027). Nenhum dos dominios
+#PLAYLIST:   aparece em blacklist de malware/virus e os arquivos baixados sao JPEG/PNG legitimos
+#PLAYLIST:   (nada executavel). A Antel e um provedor de telecom publico do proprio Estado;
+#PLAYLIST:   a Streamlock e a CDN usada pelo iptv-org. A diferenca de risco entre os dois e pequena.
+#PLAYLIST: EPG testado em NAVEGADOR REAL (Chromium headless) em 28/09/2026: o link baixa o arquivo,
+#PLAYLIST:   traz 149 canais e 4303 programas de 28/09/2026, e o id TVCIUDAD.uy tem 23 programas hoje.
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz"
-#EXTINF:-1 tvg-id="TVCIUDAD.uy" tvg-name="TV Ciudad" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="Uruguay",TV Ciudad / Canal Once 11.1 (Montevideo)
-https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal U" group-title="Uruguay",Canal U — UCL (Universidad de la República)
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 tvg-id="TVCIUDAD.uy" tvg-name="TV Ciudad" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="Uruguay",TV Ciudad / Canal Once 11.1 (Montevideo)
+https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
