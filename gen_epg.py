@@ -2,51 +2,65 @@
 """Gera EPGFULL.xml.gz com APENAS os canais que existem no NEWSWORLDNOVOS.m3u.
 
 O guia sai enxuto: so entram os tvg-ids presentes na playlist e os programas
-dentro da janela de retencao (2 dias antes ate 10 dias depois, fuso de
-Pyongyang). Fontes usadas, em ordem:
+dentro da janela de retencao (1 dia atras ate 3 dias depois). Fontes usadas,
+em ordem de preferencia quando duas cobrem o mesmo canal:
 
   1. KORYO.TV (https://koryo.tv/schedule) para a Korean Central Television
      (KCTV). Se o endpoint do KORYO.TV estiver fora do ar, usa o snapshot
      mais recente arquivado no Internet Archive (Wayback Machine) e, se ainda
-     assim nao houver dados na janela, a API diaria do Juche TV
-     (https://juche-tv.vercel.app/schedules).
-  2. epgshare01 (https://epgshare01.online/epgshare01/) para os demais
-     canais. O arquivo e escolhido pelo pais indicado no sufixo do tvg-id
-     (ex.: "...ar" -> AR1, "...br" -> BR1 e BR2, "...net" -> ALJAZEERA1),
+     assim nao houver dados na janela, a API diaria do Juche TV.
+  2. Grade oficial da Al Jazeera (GraphQL do aljazeera.com) para a
+     Al Jazeera Arabic, pois o epgshare01 costuma ficar desatualizado.
+  3. Grade oficial reportv.com.ar, que publica a programacao fresca dos
+     canais venezuelanos e latino-americanos (reproducao do grabber do
+     iptv-org, em Python puro).
+  4. Pluto TV via i.mjh.nz, para o canal "Big Brother 24/7".
+   5. iptv-epg.org, guias XMLTV frescas por pais (AR, CL, MX, FR, UY, PE,
+      US, IL, ...). Sao as unicas com cobertura dos canais locais de Buenos
+      Aires, Santiago e Mexico na janela de hoje/amanha. Canais cujo sufixo
+      de pais nao bate com o sinal sao resolvidos por IPTVEPG_ALIASES.
+  6. epgshare01 (https://epgshare01.online/epgshare01/), arquivos por pais,
      usando o indice do proprio site. Quando o tvg-id da playlist nao existe
      no arquivo do pais (a playlist usa IDs curtos, o epgshare01 usa IDs
      longos no estilo "Canal.13.de.Argentina.(El.Trece).ar"), entra o mapa
      ALIASES, que aponta cada apelido para o ID real da fonte.
-  3. Grade oficial da Al Jazeera (GraphQL do aljazeera.com) para a
-     Al Jazeera Arabic, pois o arquivo do epgshare01 costuma ficar
-     desatualizado para esse canal.
-  4. GLOBOEPG.xml.gz local, como fonte complementar.
+  7. GLOBOEPG.xml.gz local, como fonte complementar.
 
-Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado e XMLTV valido
-e compativel com TiviMate (todo <programme> referencia um <channel> que
-existe no guia e os tvg-ids casam com a playlist).
+A mistura de fontes segue a mesma logica do add-on de EPG do Kodi (slyguy):
+para cada canal entra a fonte que cobre mais programas na janela; as demais
+so preenchem os dias que ficaram sem grade, o que evita programas duplicados
+ou sobrepostos. Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado
+e XMLTV valido e compativel com TiviMate (todo <programme> referencia um
+<channel> que existe no guia, os tvg-ids casam com a playlist e os programas
+saem em ordem cronologica, com o fuso de cada um declarado no atributo).
 """
 import gzip
+import html
 import json
 import os
 import re
 import tempfile
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 import xml.sax.saxutils as sax
 from datetime import datetime, timedelta, timezone
+from concurrent.futures import ThreadPoolExecutor
 
 M3U_URL = "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
 GLOBO_EPG = "GLOBOEPG.xml.gz"
 
-PYONGYANG = timezone(timedelta(hours=9))
+# Janela de retencao: nao deixar o guia maior do que o necessario. Um dia
+# atras (para o usuario ainda ver o que ja passou) e tres dias a frente (o
+# suficiente para a grade da semana no TiviMate, sem inflar o arquivo).
+KEEP_BEFORE = timedelta(days=1)
+KEEP_AFTER = timedelta(days=3)
 
-# Janela de retencao: nao deixar o guia maior do que o necessario.
-KEEP_BEFORE = timedelta(days=2)
-KEEP_AFTER = timedelta(days=10)
+PYONGYANG = timezone(timedelta(hours=9))
+CARACAS = timezone(timedelta(hours=-4))
 
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
 KORYO_HEADER = {
@@ -59,19 +73,75 @@ KORYO_HEADER = {
 EPGSHARE01_INDEX = "https://epgshare01.online/epgshare01/"
 EPGSHARE01_URL = "https://epgshare01.online/epgshare01/{}"
 
+# iptv-epg.org: guia XMLTV por pais, atualizada varias vezes ao dia, com a
+# programacao completa dos canais locais (ao contrario do epgshare01, que so
+# traz os canais abertos de cada pais). Os canais vem com o mesmo tvg-id da
+# playlist, entao nao precisa de apelido.
+IPTVEPG_URL = "https://iptv-epg.org/files/epg-{}.xml.gz"
 
-def epgshare01_url(filename):
-    """URL com cache-busting: o Cloudflare do epgshare01 costuma servir 404
-    em cache (max-age=4h) durante a regeneracao diaria dos arquivos; um
-    parametro unico na query força busca na origem."""
-    return "{}?nocache={}".format(EPGSHARE01_URL.format(filename), int(time.time()))
+# reportv.com.ar: grade oficial dos canais latino-americanos, muito usada por
+# provedores da regiao. O endpoint e um POST que devolve o HTML de uma janela
+# de dias seguidos, entao fetch_reportv corta o trecho do dia pedido.
+REPORTV_PROGRAM_URL = "https://www.reportv.com.ar/buscador/ProgXSenial.php"
+REPORTV_ALIGN = "2694"
+REPORTV_CHANNELS_URL = (
+    "https://raw.githubusercontent.com/iptv-org/epg/master/sites/"
+    "reportv.com.ar/reportv.com.ar.channels.xml"
+)
+# Mapa de reserva (tvg-id -> site_id) para o caso de a lista de canais do
+# iptv-org estar indisponivel na hora da geracao.
+REPORTV_SITE_IDS = {
+    "ANTV.ve": "2187",
+    "AvilaTV.ve": "3300",
+    "CanalI.ve": "967",
+    "Colombeia.ve": "2626",
+    "ConCienciaTV.ve": "2831",
+    "Globovision.ve": "309",
+    "IVC.ve": "3315",
+    "LaTeleTuya.ve": "3530",
+    "MeridianoTV.ve": "934",
+    "Televen.ve": "408",
+    "Telesur.ve": "388",
+    "TVes.ve": "2186",
+    "TVFANB.ve": "3313",
+    "ValeTV.ve": "3357",
+    "VepacoTV.ve": "3352",
+    "VenezolanadeTelevision.ve": "420",
+    "Venevision.ve": "2138",
+    "Vive.ve": "407",
+}
+# A fonte so publica poucos dias a frente; nao adianta pedir mais que isso.
+REPORTV_DAYS = 3
 
 # Pluto TV: o canal "Big Brother 24/7" (tvg-id BigBrother.us) tem guia real
-# publicado no i.mjh.nz com o site_id 6661f11a41af6400080e90d8. Mapeamos o
-# site_id de volta para o tvg-id usado na playlist para casar com o EPGFULL.
+# publicado no i.mjh.nz com o site_id 6661f11a41af6400080e90d8.
 PLUTO_BB_ID = "BigBrother.us"
 PLUTO_BB_SRC_ID = "6661f11a41af6400080e90d8"
-PLUTO_EPG_URL = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml.gz"
+
+# i.mjh.nz: guias XMLTV por plataforma. Os canais usam um id interno na fonte,
+# entao tudo e remapeado para o tvg-id da playlist antes de entrar no guia.
+IMJHNZ_BASE = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master"
+# tvg-id da playlist -> (feed do guia no i.mjh.nz, id interno do canal).
+IMJHNZ_CHANNELS = {
+    PLUTO_BB_ID: ("PlutoTV/all", PLUTO_BB_SRC_ID),
+    "VenevisionInternacional.ve": ("Roku/all", "cc04d77fd589a818cd036c850b6be867"),
+}
+
+# Lista de canais ao vivo do proprio reportv.com.ar. Serve para pegar canais
+# que o iptv-org ainda nao mapeou (o "SHOWVEN TV", por exemplo), comparando o
+# nome do canal com o tvg-id sem o sufixo de pais.
+REPORTV_LIST_URL = "https://www.reportv.com.ar/buscador/Buscador.php?aid=2694"
+# Abaixo desse tamanho o nome fica curto demais para casar com seguranca
+# ("AMC", "Vive" e afins existem em varios paises).
+REPORTV_NAME_MIN = 6
+
+# Canais cujo tvg-id da playlist carrega um pais que nao e o do sinal (o
+# sufixo e do anotador, nao do emissor). O canal e procurado no guia do pais
+# real e o id e remapeado para o da playlist.
+IPTVEPG_ALIASES = {
+    "HispanTV.ir": "HispanTV.ar",
+    "CGTNSpanish.cn": "CGTNESPAÑOL.uy",
+}
 
 JUCHE_API = "https://juche-tv-epg-api.vercel.app/api/bloxyplaytv?ch=KCTV&date={}"
 
@@ -98,7 +168,7 @@ EXTRA_FILES_BY_SUFFIX = {
     "net": ["aljazeera"], # Al Jazeera Arabic tem arquivo proprio
 }
 
-# tvg-ids da playlist que nao existem com o mesmo nome no epgshare01.
+# tvg-ids da playlist que nao existem com o mesmo nome nas fontes.
 # Formato: tvg-id -> [(chave do arquivo no indice, id real na fonte), ...].
 # A ordem define a preferencia. So use apelidos confirmados (mesmo canal),
 # nunca canais apenas parecidos.
@@ -145,6 +215,24 @@ ALIASES = {
     "AztecaInternacional.us": [("mx", "Azteca.(XHOR).mx")],
 }
 
+# Desempate na mistura: quando duas fontes cobrem a mesma quantidade de
+# programas, vale a da fonte oficial (grade do proprio emissor).
+SOURCE_RANK = {
+    "koryo": 0,
+    "aljazeera": 1,
+    "reportv": 2,
+    "pluto": 3,
+    "iptv-epg": 4,
+    "epgshare01": 5,
+    "globo": 6,
+}
+
+# reportv.com.ar rotula os dias em portugues ("29 Septiembre 2026").
+SPANISH_MONTHS = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+]
+
 
 def http_get(url, headers=None, timeout=90, retries=1, delay=5):
     last_err = None
@@ -157,8 +245,18 @@ def http_get(url, headers=None, timeout=90, retries=1, delay=5):
             last_err = e
             if attempt < retries - 1:
                 print(f"      Tentativa {attempt+1}/{retries} falhou ({e}); aguardando {delay}s...")
-                import time; time.sleep(delay)
+                time.sleep(delay)
     raise last_err
+
+
+def http_post_form(url, fields, headers=None, timeout=90):
+    body = urllib.parse.urlencode(fields).encode()
+    hdrs = {"Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": "Mozilla/5.0"}
+    hdrs.update(headers or {})
+    req = urllib.request.Request(url, data=body, headers=hdrs)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", errors="replace")
 
 
 def parse_m3u(data):
@@ -176,6 +274,12 @@ def parse_m3u(data):
                 "logo": tvg_logo.group(1) if tvg_logo else "",
             }
     return channels
+
+
+def country_of(cid):
+    """Pais do tvg-id, pelo sufixo: "...ar" -> "ar", "...us2" -> "us"."""
+    last = cid.rsplit(".", 1)[-1]
+    return re.sub(r"\d+$", "", last).lower()
 
 
 def wayback_latest(url):
@@ -396,11 +500,26 @@ def parse_xmltv_time(s):
             return None
 
 
+def block_start(block):
+    m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', block)
+    return parse_xmltv_time(m.group(1)) if m else None
+
+
+def block_date(block):
+    m = re.search(r'start="(\d{8})', block)
+    return m.group(1) if m else None
+
+
+def block_stop(block):
+    m = re.search(r'stop="(\d{8}\d{6}\s+[+-]\d{4})"', block)
+    return parse_xmltv_time(m.group(1)) if m else None
+
+
 def list_epgshare01_files():
     """Indice do epgshare01: chave de pais -> lista de arquivos disponiveis."""
-    html = http_get(EPGSHARE01_INDEX, timeout=60).decode("utf-8", errors="ignore")
+    html_page = http_get(EPGSHARE01_INDEX, timeout=60).decode("utf-8", errors="ignore")
     mapping = {}
-    for fn in re.findall(r'href="(epg_ripper_[A-Za-z0-9]+\.xml\.gz)"', html):
+    for fn in re.findall(r'href="(epg_ripper_[A-Za-z0-9]+\.xml\.gz)"', html_page):
         m = re.match(r"epg_ripper_([A-Za-z]+?)\d*\.xml\.gz", fn)
         if m:
             mapping.setdefault(m.group(1).lower(), []).append(fn)
@@ -409,10 +528,8 @@ def list_epgshare01_files():
 
 def epgshare01_files_for(cid, index):
     """Arquivos do epgshare01 onde o tvg-id pode existir (pais + extras)."""
-    last = cid.rsplit(".", 1)[-1]
-    country = re.sub(r"\d+$", "", last).lower()
-    keys = [country]
-    for extra in EXTRA_FILES_BY_SUFFIX.get(country, []):
+    keys = [country_of(cid)]
+    for extra in EXTRA_FILES_BY_SUFFIX.get(country_of(cid), []):
         if extra not in keys:
             keys.append(extra)
     files = []
@@ -437,7 +554,7 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
     """
     channels = {}
     programmes = {}
-    raw = http_get(url, timeout=180, retries=retries, delay=delay)
+    raw = http_get(url, timeout=240, retries=retries, delay=delay)
     tmp = tempfile.NamedTemporaryFile(delete=False)
     try:
         tmp.write(raw)
@@ -466,22 +583,173 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
     return channels, programmes
 
 
-def remap_pluto_bb(channels, programmes):
-    """Renomeia o site_id do Pluto (6661f11a41af6400080e90d8) para o tvg-id
-    usado na playlist (BigBrother.us), nos blocos de canal e de programa."""
+def remap_imjhnz(channels, programmes, src_id, dst_id):
+    """Troca o id interno do i.mjh.nz pelo tvg-id da playlist, no bloco do
+    canal e no de cada programa."""
     out_channels = {}
+    for _cid, block in channels.items():
+        out_channels[dst_id] = remap_channel_block(block, src_id, dst_id)
     out_programmes = {}
-    for cid, block in channels.items():
-        out_channels[PLUTO_BB_ID] = block.replace(
-            'id="{}"'.format(PLUTO_BB_SRC_ID), 'id="{}"'.format(PLUTO_BB_ID)
-        )
-    for cid, blocks in programmes.items():
+    for blocks in programmes.values():
         for b in blocks:
-            out_programmes.setdefault(PLUTO_BB_ID, []).append(
-                b.replace('channel="{}"'.format(PLUTO_BB_SRC_ID),
-                          'channel="{}"'.format(PLUTO_BB_ID))
+            out_programmes.setdefault(dst_id, []).append(
+                remap_channel_ref(b, src_id, dst_id)
             )
     return out_channels, out_programmes
+
+
+def normalize_name(text):
+    """Nome de canal sem acento, caixa e pontuacao, para comparar dois nomes."""
+    folded = unicodedata.normalize("NFKD", text)
+    folded = folded.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]", "", folded.lower())
+
+
+def reportv_site_ids(wanted_ids):
+    """tvg-id -> site_id do reportv.com.ar.
+
+    Primeiro a lista de canais do iptv-org (que ja traz o xmltv_id de cada
+    canal). Para os canais que ficarem de fora, a lista ao vivo do proprio
+    site e usada como segunda via: ela nao tem xmltv_id, entao o casamento e
+    pelo nome, ignorando o sufixo de pais do tvg-id.
+    """
+    mapping = dict(REPORTV_SITE_IDS)
+    try:
+        raw = http_get(REPORTV_CHANNELS_URL, timeout=60).decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"    ERRO ao ler a lista de canais do reportv ({e}); usando o mapa de reserva")
+        return mapping
+    for m in re.finditer(r'<channel\b[^>]*>', raw):
+        tag = m.group(0)
+        sid = re.search(r'site_id="(\d+)"', tag)
+        xid = re.search(r'xmltv_id="([^"]*)"', tag)
+        if not sid or not xid or not xid.group(1):
+            continue
+        # O iptv-org anota o feed depois do "@" (ex.: "Globovision.ve@SD").
+        mapping.setdefault(xid.group(1).split("@")[0], sid.group(1))
+
+    pending = [cid for cid in wanted_ids if cid not in mapping]
+    if not pending:
+        return mapping
+    try:
+        page = http_get(REPORTV_LIST_URL, timeout=60).decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"    ERRO ao ler a lista ao vivo do reportv ({e})")
+        return mapping
+    by_name = {}
+    for sid, name in re.findall(r"<option value='(\d+)'[^>]*>([^<]*)</option>", page):
+        by_name.setdefault(normalize_name(html.unescape(name)), set()).add(sid)
+    for cid in pending:
+        key = normalize_name(re.sub(r"\.[a-z]+\d*$", "", cid))
+        if len(key) < REPORTV_NAME_MIN:
+            continue
+        found = by_name.get(key)
+        # So aceita quando o nome do site e inequivoco: um unico id para o nome.
+        if found and len(found) == 1:
+            mapping[cid] = found.pop()
+            print(f"      {cid}: casado com '{cid}' pelo nome no reportv")
+    return mapping
+
+
+def reportv_day_tag(day):
+    """Cabecalho de dia usado pelo site (ex.: "Jueves 01 Octubre 2026").
+
+    O dia vem com dois digitos; casar so com o numero solto faria "1 Octubre
+    2026" bater tambem com "11 Octubre 2026", o que duplica programas.
+    """
+    return "{} {} {}".format(f"{day.day:02d}",
+                             SPANISH_MONTHS[day.month - 1].capitalize(), day.year)
+
+
+def reportv_day_sections(page):
+    """Quebra a grade do reportv em (cabecalho do dia, linhas do dia).
+
+    A resposta traz sempre uma janela de ~11 dias seguidos; e preciso cortar
+    pelo cabecalho de cada dia para nao atribuir a data errada.
+    """
+    parts = re.split(r'<div\s+id="[^"]*"\s+style="[^"]*"\s+class="trFecha"[^>]*>',
+                     page)
+    sections = []
+    for part in parts[1:]:
+        # O trecho comeca pelo texto do cabecalho e depois vem o </div> de
+        # fechamento mais as linhas do dia.
+        head = re.split(r"<", part, 1)[0]
+        header = html.unescape(head).strip()
+        body = part[len(head):]
+        sections.append((header, body))
+    return sections
+
+
+def reportv_programme_block(tvg_id, title, genre, category, start, stop):
+    parts = [
+        '  <programme start="{}" stop="{}" channel="{}">'.format(
+            start.strftime("%Y%m%d%H%M%S") + " -0400",
+            stop.strftime("%Y%m%d%H%M%S") + " -0400",
+            sax.escape(tvg_id),
+        ),
+        "    <title>{}</title>".format(sax.escape(title)),
+    ]
+    if genre:
+        parts.append("    <class>{}</class>".format(sax.escape(genre)))
+    if category:
+        parts.append("    <category>{}</category>".format(sax.escape(category)))
+    parts.append("  </programme>")
+    return "\n".join(parts)
+
+
+def fetch_reportv(tvg_id, site_id, days):
+    """Grade de um canal no reportv.com.ar (um POST por dia).
+
+    Cada bloco do site tem o formato:
+      <div id="trProg_123" title=" - Martes 29 Septiembre 2026 00:00:00"
+           class="trProg" ...>
+        <div ...><span>00:00 - Iglesia universal</span></div>  <- hora - titulo
+        <div ...><span>Variedades</span></div>                <- genero
+        <div ...><span>Religioso</span></div>                  <- categoria
+        <div ...><span>00:45:00</span></div>                   <- duracao
+      </div>
+    Os horarios sao de Caracas (UTC-4).
+    """
+    blocks = []
+    for day in days:
+        try:
+            page = http_post_form(REPORTV_PROGRAM_URL, {
+                "idSenial": site_id,
+                "Alineacion": REPORTV_ALIGN,
+                "DiaDesde": day.strftime("%Y/%m/%d"),
+                "HoraDesde": "00:00:00",
+            })
+        except Exception as e:
+            print(f"    reportv {tvg_id} {day:%Y-%m-%d}: ERRO ({e})")
+            continue
+        tag = reportv_day_tag(day)
+        for header, body in reportv_day_sections(page):
+            # O cabecalho traz o dia da semana na frente; a comparacao e pela
+            # data. Terminar a string evita casar 01 con 11.
+            if not header.endswith(tag):
+                continue
+            chunks = re.split(r'<div\s+id="trProg_', body)[1:]
+            cells_for = lambda chunk: [
+                html.unescape(re.sub("<[^>]+>", "", s)).strip()
+                for s in re.findall(r"<span>(.*?)</span>", chunk, re.S)
+            ]
+            for chunk in chunks:
+                cells = cells_for(chunk)
+                if len(cells) < 4 or not re.match(r"^\d{2}:\d{2} - ", cells[0]):
+                    continue
+                dm = re.match(r"^(\d{2}):(\d{2}):(\d{2})$", cells[3])
+                if not dm:
+                    continue
+                hh, mm = cells[0][:5].split(":")
+                start = datetime(day.year, day.month, day.day,
+                                 int(hh), int(mm), tzinfo=CARACAS)
+                stop = start + timedelta(hours=int(dm.group(1)),
+                                        minutes=int(dm.group(2)),
+                                        seconds=int(dm.group(3)))
+                title = cells[0][5:].strip() or "Sem titulo"
+                blocks.append(reportv_programme_block(tvg_id, title, cells[1],
+                                                      cells[2], start, stop))
+    return blocks
 
 
 def channel_block_from_m3u(cid, info):
@@ -493,12 +761,57 @@ def channel_block_from_m3u(cid, info):
     return "\n".join(parts)
 
 
-def add_programmes(all_programmes, seen, cid, blocks):
-    for block in blocks:
-        key = (cid, block)
-        if key not in seen:
-            seen.add(key)
-            all_programmes.setdefault(cid, []).append(block)
+def add_candidate(candidates, cid, source, channel_block, blocks):
+    """Guarda uma opcao de fonte para o canal (so entra se tiver programa)."""
+    if not blocks:
+        return
+    candidates.setdefault(cid, []).append((source, channel_block, blocks))
+
+
+def merge_candidates(entries):
+    """Mistura as fontes de um canal no estilo do add-on do kodi (slyguy).
+
+    Entra a fonte que cobre mais programas na janela; as demais so preenchem
+    os dias que ficaram sem grade. Assim nao ha programa duplicado nem
+    sobreposto, que e o que faz o TiviMate exibir a grade embaralhada.
+    """
+    ordered = sorted(entries, key=lambda e: (-len(e[2]), SOURCE_RANK.get(e[0], 99)))
+    channel_block = next((e[1] for e in ordered if e[1]), None)
+    blocks = list(ordered[0][2])
+    covered = {block_date(b) for b in blocks}
+    used = [ordered[0][0]]
+    for src, _chb, extra in ordered[1:]:
+        gap = [b for b in extra if block_date(b) not in covered]
+        if gap:
+            blocks.extend(gap)
+            covered |= {block_date(b) for b in gap}
+            used.append(src)
+    unique = sort_blocks(dict.fromkeys(blocks))
+    return channel_block, drop_overlaps(unique), used
+
+
+def drop_overlaps(blocks):
+    """Remove programas que comecam antes do fim do programa anterior.
+
+    A janela de retencao e montada dia a dia e cada fonte usa o proprio fuso,
+    entao o mesmo programa pode aparecer duas vezes com horarios diferentes
+    (o reportv grava em -0400 e o iptv-epg em +0000) ou vir repetido dentro
+    de uma fonte. Como o TiviMate desenha a grade em ordem cronologica, o
+    primeiro que comeca e o que fica; o sobreposto e descartado.
+    """
+    kept = []
+    last_stop = None
+    for b in blocks:
+        start = block_start(b)
+        if start is None:
+            continue
+        if last_stop is not None and start < last_stop:
+            continue
+        kept.append(b)
+        stop = block_stop(b)
+        if stop is not None:
+            last_stop = stop
+    return kept
 
 
 def sort_blocks(blocks):
@@ -511,13 +824,8 @@ def sort_blocks(blocks):
     (com o fuso de cada horario), nunca sobre o texto, porque canais de
     paises diferentes usam offsets como -0300, -0500 e +0000.
     """
-    def key(block):
-        m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', block)
-        return parse_xmltv_time(m.group(1)) if m else datetime.max.replace(
-            tzinfo=timezone.utc
-        )
-
-    return sorted(blocks, key=key)
+    return sorted(blocks, key=lambda b: block_start(b) or datetime.max.replace(
+        tzinfo=timezone.utc))
 
 
 def extend_last_programme(blocks, stop_str):
@@ -532,10 +840,7 @@ def extend_last_programme(blocks, stop_str):
     latest = None
     latest_idx = -1
     for i, b in enumerate(blocks):
-        m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', b)
-        if not m:
-            continue
-        start = parse_xmltv_time(m.group(1))
+        start = block_start(b)
         if start is None:
             continue
         if latest is None or start > latest:
@@ -552,11 +857,246 @@ def extend_last_programme(blocks, stop_str):
     return blocks
 
 
+def collect_iptv_epg(candidates, wanted_ids, oldest_ok, newest_ok):
+    """Guias XMLTV do iptv-epg.org, uma por pais.
+
+    Alem dos tvg-ids da playlist, o extrator procura os ids do mapa
+    IPTVEPG_ALIASES (canais cujo sufixo de pais nao bate com o sinal) e
+    remapeia o resultado para o tvg-id da playlist.
+    """
+    watch_ids = set(wanted_ids) | set(IPTVEPG_ALIASES.values())
+    countries = {c for c in (country_of(cid) for cid in watch_ids) if c.isalpha()}
+    print(f"    paises necessarios = {sorted(countries)}")
+    for country in sorted(countries):
+        url = IPTVEPG_URL.format(country)
+        print(f"    baixando guia do pais '{country}': {url}")
+        try:
+            channels, programmes = extract_xmltv(
+                url, watch_ids, oldest_ok, newest_ok, retries=2, delay=8
+            )
+        except Exception as e:
+            print(f"    ERRO ao baixar/ler o guia de '{country}': {e}")
+            continue
+        for cid, blocks in programmes.items():
+            add_candidate(candidates, cid, "iptv-epg", channels.get(cid), blocks)
+            for dst_id, src_id in IPTVEPG_ALIASES.items():
+                if src_id != cid:
+                    continue
+                add_candidate(
+                    candidates, dst_id, "iptv-epg",
+                    remap_channel_block(channels[cid], src_id, dst_id)
+                    if cid in channels else None,
+                    [remap_channel_ref(b, src_id, dst_id) for b in blocks],
+                )
+                print(f"      {dst_id}: {len(blocks)} programas "
+                      f"(iptv-epg, apelido de {src_id})")
+        print(f"      {country}: {len(channels)} canais, "
+              f"{sum(len(b) for b in programmes.values())} programas")
+
+
+def collect_reportv(candidates, wanted_ids, oldest_ok, newest_ok):
+    """Grade oficial do reportv.com.ar para os canais da playlist que ele cobre."""
+    site_ids = reportv_site_ids(wanted_ids)
+    targets = [(cid, site_ids[cid]) for cid in wanted_ids if cid in site_ids]
+    if not targets:
+        return
+    first_day = max(oldest_ok.astimezone(CARACAS).date(),
+                    datetime.now(CARACAS).date() - timedelta(days=1))
+    last_day = min(newest_ok.astimezone(CARACAS).date(),
+                   datetime.now(CARACAS).date() + timedelta(days=REPORTV_DAYS - 1))
+    days = []
+    day = first_day
+    while day <= last_day:
+        days.append(day)
+        day += timedelta(days=1)
+    print(f"    {len(targets)} canais, dias {[d.isoformat() for d in days]}")
+
+    def work(item):
+        cid, sid = item
+        return cid, fetch_reportv(cid, sid, days)
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for cid, blocks in pool.map(work, targets):
+            add_candidate(candidates, cid, "reportv", None, blocks)
+            print(f"      {cid}: {len(blocks)} programas (reportv.com.ar)")
+
+
+def collect_epgshare01(candidates, wanted_ids, epg_files, oldest_ok, newest_ok):
+    """Arquivos do epgshare01, escolhidos pelo pais do sufixo do tvg-id."""
+    files_cache = {}
+    alias_ids = {src_id for pairs in ALIASES.values() for _, src_id in pairs}
+    watch_ids = set(wanted_ids) | alias_ids
+
+    def load(filename):
+        if filename not in files_cache:
+            print(f"    baixando {filename}")
+            files_cache[filename] = extract_xmltv(
+                epgshare01_url(filename), watch_ids, oldest_ok, newest_ok
+            )
+        return files_cache[filename]
+
+    for cid in wanted_ids:
+        filenames = epgshare01_files_for(cid, epg_files)
+        if not filenames:
+            print(f"    {cid}: sem fonte epgshare01 para o pais '{country_of(cid)}'")
+        for filename in filenames:
+            try:
+                channels, programmes = load(filename)
+            except Exception as e:
+                print(f"    ERRO ao baixar/ler {filename}: {e}")
+                continue
+            blocks = programmes.get(cid)
+            if blocks:
+                add_candidate(candidates, cid, "epgshare01", channels.get(cid), blocks)
+                break
+        else:
+            # O tvg-id da playlist nao existe na fonte; tenta os apelidos.
+            for key, src_id in ALIASES.get(cid, []):
+                for filename in epg_files.get(key, []):
+                    try:
+                        channels, programmes = load(filename)
+                    except Exception as e:
+                        print(f"    ERRO ao baixar/ler {filename}: {e}")
+                        continue
+                    blocks = programmes.get(src_id)
+                    if blocks:
+                        add_candidate(
+                            candidates, cid, "epgshare01",
+                            remap_channel_block(channels[src_id], src_id, cid)
+                            if src_id in channels else None,
+                            [remap_channel_ref(b, src_id, cid) for b in blocks],
+                        )
+                        break
+                else:
+                    continue
+                break
+
+
+def epgshare01_url(filename):
+    """URL com cache-busting: o Cloudflare do epgshare01 costuma servir 404
+    em cache (max-age=4h) durante a regeneracao diaria dos arquivos; um
+    parametro unico na query força busca na origem."""
+    return "{}?nocache={}".format(EPGSHARE01_URL.format(filename), int(time.time()))
+
+
+def collect_globo(candidates, wanted_ids):
+    """GLOBOEPG.xml.gz local como fonte complementar."""
+    if not os.path.exists(GLOBO_EPG):
+        return
+    try:
+        print(f"    Lendo EPG local: {GLOBO_EPG}")
+        with gzip.open(GLOBO_EPG, "rt", encoding="utf-8") as f:
+            globo = f.read()
+    except Exception as e:
+        print(f"    ERRO: {e}")
+        return
+    for cid in wanted_ids:
+        pat = re.compile(
+            rf'<programme\s+[^>]*channel="{re.escape(cid)}"[^>]*>.*?</programme>',
+            re.DOTALL,
+        )
+        blocks = pat.findall(globo)
+        if blocks:
+            add_candidate(candidates, cid, "globo", None, blocks)
+            print(f"      {cid}: {len(blocks)} programas (Globo)")
+
+
+def collect_koryo(candidates, channels, oldest_ok, newest_ok):
+    """KCTV: KORYO.TV ao vivo, Wayback Machine ou Juche TV."""
+    koryo_id = koryo_target_id(channels)
+    if not koryo_id:
+        print("  KCTV nao esta na playlist; pulando KORYO.TV.")
+        return
+    print(f"  KCTV detectado: {koryo_id}")
+    print(f"  Baixando KORYO.TV: {KORYO_EPG_URL}")
+    try:
+        events, source, _live = fetch_koryo()
+        print(f"    Fonte: {source} ({len(events)} eventos)")
+        blocks = []
+        for ev in events:
+            if ev.get("channel") != "kctv":
+                continue
+            try:
+                start = datetime.fromisoformat(ev["startUtc"]).astimezone(PYONGYANG)
+            except Exception:
+                continue
+            if start < oldest_ok or start > newest_ok:
+                continue
+            blocks.append(build_programme(ev, koryo_id))
+        add_candidate(candidates, koryo_id, "koryo", None, blocks)
+        print(f"    Programas na janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {len(blocks)}")
+    except Exception as e:
+        print(f"    ERRO: {e}")
+    for label, fetcher in (("GitHub Bloxyplay", fetch_juche_github),
+                           ("Juche TV", fetch_juche)):
+        if candidates.get(koryo_id):
+            break
+        try:
+            blocks = fetcher(koryo_id, oldest_ok, newest_ok)
+            add_candidate(candidates, koryo_id, "koryo", None, blocks)
+            print(f"    fallback {label}: {len(blocks)} programas")
+        except Exception as e:
+            print(f"    ERRO no fallback {label}: {e}")
+
+
+def collect_aljazeera(candidates, wanted_ids, oldest_ok, newest_ok):
+    """Grade oficial da Al Jazeera Arabic; epgshare01 so se ela falhar."""
+    if ALJAZEERA_AR_ID not in wanted_ids:
+        return
+    print(f"    {ALJAZEERA_AR_ID}: grade oficial (GraphQL aljazeera.com)")
+    try:
+        blocks = fetch_aljazeera_arabic(ALJAZEERA_AR_ID, oldest_ok, newest_ok)
+    except Exception as e:
+        print(f"      ERRO na fonte oficial ({e}); tentando epgshare01")
+        blocks = []
+    if blocks:
+        add_candidate(candidates, ALJAZEERA_AR_ID, "aljazeera", None, blocks)
+        print(f"      {ALJAZEERA_AR_ID}: {len(blocks)} programas (aljazeera.com)")
+
+
+def collect_imjhnz(candidates, wanted_ids, oldest_ok, newest_ok):
+    """Guias do i.mjh.nz (Pluto TV, Roku, ...).
+
+    Os canais usam um id interno na fonte, entao tudo e remapeado para o
+    tvg-id da playlist antes de entrar no guia.
+    """
+    # Agrupa por feed: um download serve a todos os canais daquela plataforma.
+    feeds = {}
+    for cid, (feed, src_id) in IMJHNZ_CHANNELS.items():
+        feeds.setdefault(feed, []).append((cid, src_id))
+    for feed, entries in feeds.items():
+        url = "{}/{}.xml.gz".format(IMJHNZ_BASE, feed)
+        print(f"    {feed}: {url}")
+        wanted = [src_id for _cid, src_id in entries if _cid in wanted_ids]
+        if not wanted:
+            continue
+        try:
+            src_channels, src_programmes = extract_xmltv(
+                url, wanted, oldest_ok, newest_ok, retries=3, delay=10,
+            )
+        except Exception as e:
+            print(f"    ERRO ao baixar/ler {url}: {e}")
+            continue
+        for cid, src_id in entries:
+            if cid not in wanted_ids or src_id not in src_programmes:
+                continue
+            channels, programmes = remap_imjhnz(src_channels, src_programmes,
+                                                src_id, cid)
+            blocks = programmes.get(cid, [])
+            if blocks and cid == PLUTO_BB_ID:
+                # O Big Brother e 24/7 e a fonte so publica ate o fim do dia;
+                # o programa em exibicao continua ao vivo.
+                blocks = extend_last_programme(
+                    blocks, newest_ok.strftime("%Y%m%d%H%M%S") + " +0900")
+            add_candidate(candidates, cid, "imjhnz", channels.get(cid), blocks)
+            print(f"      {cid}: {len(blocks)} programas (i.mjh.nz)")
+
+
 def main():
     now = datetime.now(timezone.utc)
-    pyongyang_now = now.astimezone(PYONGYANG)
-    oldest_ok = pyongyang_now - KEEP_BEFORE
-    newest_ok = pyongyang_now + KEEP_AFTER
+    oldest_ok = now - KEEP_BEFORE
+    newest_ok = now + KEEP_AFTER
+    print(f"Janela de retencao (UTC): {oldest_ok:%Y-%m-%d %H:%M} .. {newest_ok:%Y-%m-%d %H:%M}")
 
     print("=== ETAPA 1: Baixar M3U ===")
     m3u_data = None
@@ -564,7 +1104,7 @@ def main():
         with open("NEWSWORLDNOVOS.m3u", "r", encoding="utf-8") as f:
             m3u_data = f.read()
         if parse_m3u(m3u_data):
-            print(f"  M3U lido do arquivo local: NEWSWORLDNOVOS.m3u")
+            print("  M3U lido do arquivo local: NEWSWORLDNOVOS.m3u")
     if not m3u_data or not parse_m3u(m3u_data):
         try:
             m3u_data = http_get(M3U_URL).decode("utf-8", errors="ignore")
@@ -576,201 +1116,42 @@ def main():
                 return
     channels = parse_m3u(m3u_data)
     wanted_ids = list(channels.keys())
+    wanted_set = set(wanted_ids)
     print(f"  Canais na playlist: {len(wanted_ids)}")
-    for cid in wanted_ids:
-        print(f"    - {cid} ({channels[cid]['name']})")
 
     print("\n=== ETAPA 2: Baixar EPGs ===")
-    all_programmes = {}
-    seen = set()
-    channel_xml = {}
-    files_cache = {}
-    # IDs procurados na fonte: os da playlist + todos os apelidos do ALIASES
-    # (um unico passe por arquivo guarda os dois casos no cache).
-    watch_ids = list(wanted_ids) + [
-        src_id for pairs in ALIASES.values() for _, src_id in pairs
-    ]
+    candidates = {}
 
-    # 2.1 KCTV via KORYO.TV (live -> Wayback Machine)
-    koryo_id = koryo_target_id(channels)
-    if koryo_id:
-        print(f"  KCTV detectado: {koryo_id}")
-        print(f"  Baixando KORYO.TV: {KORYO_EPG_URL}")
-        try:
-            events, source, live = fetch_koryo()
-            print(f"    Fonte: {source}")
-            print(f"    Eventos recebidos: {len(events)}")
-            kept = 0
-            for ev in events:
-                if ev.get("channel") != "kctv":
-                    continue
-                try:
-                    start = datetime.fromisoformat(ev["startUtc"]).astimezone(PYONGYANG)
-                except Exception:
-                    continue
-                if start < oldest_ok or start > newest_ok:
-                    continue
-                kept += 1
-                add_programmes(all_programmes, seen, koryo_id,
-                               [build_programme(ev, koryo_id)])
-            print(f"    Programas na janela ({oldest_ok:%Y-%m-%d} a {newest_ok:%Y-%m-%d}): {kept}")
-        except Exception as e:
-            print(f"    ERRO: {e}")
-        if not all_programmes.get(koryo_id):
-            print(f"  KCTV sem dados do KORYO; baixando GitHub Bloxyplay como fallback")
-            try:
-                github_juche = fetch_juche_github(koryo_id, oldest_ok, newest_ok)
-                add_programmes(all_programmes, seen, koryo_id, github_juche)
-                print(f"    Programas Bloxyplay na janela: {len(github_juche)}")
-            except Exception as e:
-                print(f"    ERRO no GitHub Bloxyplay: {e}")
-        if not all_programmes.get(koryo_id):
-            print(f"  KCTV sem dados; baixando Juche TV como fallback")
-            try:
-                juche = fetch_juche(koryo_id, oldest_ok, newest_ok)
-                add_programmes(all_programmes, seen, koryo_id, juche)
-                print(f"    Programas Juche TV na janela: {len(juche)}")
-            except Exception as e:
-                print(f"    ERRO no Juche TV: {e}")
-    else:
-        print("  KCTV nao esta na playlist; pulando KORYO.TV.")
+    collect_koryo(candidates, channels, oldest_ok, newest_ok)
+    collect_aljazeera(candidates, wanted_set, oldest_ok, newest_ok)
+    collect_imjhnz(candidates, wanted_set, oldest_ok, newest_ok)
+    collect_reportv(candidates, wanted_set, oldest_ok, newest_ok)
+    collect_iptv_epg(candidates, wanted_set, oldest_ok, newest_ok)
 
-    # 2.2 epgshare01: escolhe arquivo pelo pais do sufixo do tvg-id
     try:
         epg_files = list_epgshare01_files()
     except Exception as e:
         print(f"  ERRO ao listar indice do epgshare01: {e}")
         epg_files = {}
-
-    for cid in wanted_ids:
-        if cid == koryo_id:
-            continue
-        if cid == PLUTO_BB_ID:
-            print(f"    {cid}: baixando Pluto TV (i.mjh.nz): {PLUTO_EPG_URL}")
-            try:
-                src_channels, src_programmes = extract_xmltv(
-                    PLUTO_EPG_URL, [PLUTO_BB_SRC_ID], oldest_ok, newest_ok, retries=3, delay=10
-                )
-                src_channels, src_programmes = remap_pluto_bb(
-                    src_channels, src_programmes
-                )
-            except Exception as e:
-                print(f"    ERRO ao baixar/ler {PLUTO_EPG_URL}: {e}")
-                src_channels, src_programmes = {}, {}
-            if cid in src_channels:
-                channel_xml.setdefault(cid, src_channels[cid])
-            blocks = src_programmes.get(cid, [])
-            if blocks:
-                blocks = extend_last_programme(
-                    blocks, newest_ok.strftime("%Y%m%d%H%M%S") + " +0900"
-                )
-                src_programmes[cid] = blocks
-            n = len(blocks)
-            add_programmes(all_programmes, seen, cid, blocks)
-            print(f"      {cid}: {n} programas (Pluto TV / i.mjh.nz)")
-            continue
-        if cid == ALJAZEERA_AR_ID:
-            print(f"    {cid}: baixando grade oficial (GraphQL aljazeera.com)")
-            try:
-                blocks = fetch_aljazeera_arabic(cid, oldest_ok, newest_ok)
-            except Exception as e:
-                print(f"      ERRO na fonte oficial ({e}); tentando epgshare01")
-                blocks = []
-            if blocks:
-                n = len(blocks)
-                add_programmes(all_programmes, seen, cid, blocks)
-                print(f"      {cid}: {n} programas (aljazeera.com oficial)")
-                continue
-        last = cid.rsplit(".", 1)[-1]
-        country = re.sub(r"\d+$", "", last).lower()
-        filenames = epgshare01_files_for(cid, epg_files)
-        if not filenames:
-            print(f"    {cid}: sem fonte epgshare01 para o pais '{country}' "
-                  f"(so a definicao do canal entra no guia)")
-        blocks = []
-        for filename in filenames:
-            if filename in files_cache:
-                src_channels, src_programmes = files_cache[filename]
-            else:
-                url = epgshare01_url(filename)
-                print(f"    {cid}: baixando {filename}")
-                try:
-                    src_channels, src_programmes = extract_xmltv(
-                        url, watch_ids, oldest_ok, newest_ok
-                    )
-                    files_cache[filename] = (src_channels, src_programmes)
-                except Exception as e:
-                    print(f"    ERRO ao baixar/ler {filename}: {e}")
-                    continue
-            if cid in src_channels:
-                channel_xml.setdefault(cid, src_channels[cid])
-            blocks = src_programmes.get(cid, [])
-            if blocks:
-                break
-        if not blocks and cid in ALIASES:
-            # O tvg-id da playlist nao existe na fonte; tenta os apelidos.
-            for key, src_id in ALIASES[cid]:
-                done = False
-                for filename in epg_files.get(key, []):
-                    if filename in files_cache:
-                        src_channels, src_programmes = files_cache[filename]
-                    else:
-                        url = epgshare01_url(filename)
-                        print(f"    {cid}: apelido {src_id}; baixando {filename}")
-                        try:
-                            src_channels, src_programmes = extract_xmltv(
-                                url, watch_ids, oldest_ok, newest_ok
-                            )
-                            files_cache[filename] = (src_channels, src_programmes)
-                        except Exception as e:
-                            print(f"    ERRO ao baixar/ler {filename}: {e}")
-                            continue
-                    if src_programmes.get(src_id):
-                        if src_id in src_channels:
-                            channel_xml.setdefault(
-                                cid, remap_channel_block(src_channels[src_id], src_id, cid)
-                            )
-                        blocks = [
-                            remap_channel_ref(b, src_id, cid)
-                            for b in src_programmes[src_id]
-                        ]
-                        done = True
-                        break
-                if done:
-                    break
-            if not blocks:
-                print(f"    {cid}: apelidos sem dados na janela")
-        n = len(blocks)
-        add_programmes(all_programmes, seen, cid, blocks)
-        if n:
-            print(f"      {cid}: {n} programas (epgshare01)")
-
-    # 2.3 GLOBOEPG.xml.gz local como fonte complementar
-    if os.path.exists(GLOBO_EPG):
-        try:
-            print(f"  Lendo EPG local: {GLOBO_EPG}")
-            with gzip.open(GLOBO_EPG, "rt", encoding="utf-8") as f:
-                globo = f.read()
-            for cid in wanted_ids:
-                pat = re.compile(
-                    rf'<programme\s+[^>]*channel="{re.escape(cid)}"[^>]*>.*?</programme>',
-                    re.DOTALL,
-                )
-                found = pat.findall(globo)
-                if found:
-                    add_programmes(all_programmes, seen, cid, found)
-                    print(f"    {cid}: {len(found)} programas (Globo)")
-        except Exception as e:
-            print(f"    ERRO: {e}")
+    collect_epgshare01(candidates, wanted_set, epg_files, oldest_ok, newest_ok)
+    collect_globo(candidates, wanted_set)
 
     print("\n=== ETAPA 3: Montar EPGFULL.xml.gz ===")
     xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>',
                  '<tv generator-info-name="JCTV EPG Generator" '
                  'generator-info-url="https://github.com/gratinomaster/JCTV">']
+    final_progs = {}
     for cid in wanted_ids:
-        xml_parts.append(channel_xml.get(cid) or channel_block_from_m3u(cid, channels[cid]))
-        for prog in sort_blocks(all_programmes.get(cid, [])):
-            xml_parts.append(prog)
+        entries = candidates.get(cid)
+        if entries:
+            channel_xml, blocks, used = merge_candidates(entries)
+            final_progs[cid] = blocks
+            print(f"    {cid}: {len(blocks)} programas ({' + '.join(used)})")
+        else:
+            channel_xml, blocks = None, []
+            print(f"    {cid}: SEM PROGRAMACAO em nenhuma fonte")
+        xml_parts.append(channel_xml or channel_block_from_m3u(cid, channels[cid]))
+        xml_parts.extend(blocks)
     xml_parts.append("</tv>")
     full_xml = "\n".join(xml_parts) + "\n"
 
@@ -779,34 +1160,39 @@ def main():
     print(f"  Arquivo gravado: {OUTPUT} ({os.path.getsize(OUTPUT):,} bytes)")
 
     print("\n=== ETAPA 4: Validar ===")
-    with gzip.open(OUTPUT, "rt", encoding="utf-8") as f:
-        content = f.read()
-
-    root = ET.fromstring(content)
-    ch_count = len(root.findall("channel"))
-    prog_count = len(root.findall("programme"))
-    print(f"  XML valido (ElementTree OK)")
-    print(f"  Canais: {ch_count}")
-    print(f"  Programas: {prog_count}")
-
-    # Compatibilidade com TiviMate: todo <programme> deve referenciar um canal
-    # que existe no XMLTV e tvg-ids devem casar com a playlist.
+    root = ET.fromstring(full_xml)
     defined = {ch.get("id") for ch in root.findall("channel")}
-    orphan = [p.get("channel") for p in root.findall("programme") if p.get("channel") not in defined]
+    programmes = root.findall("programme")
+    print("  XML valido (ElementTree OK)")
+    print(f"  Canais: {len(defined)} (na playlist: {len(wanted_ids)})")
+    print(f"  Programas: {len(programmes)}")
+
+    orphan = sorted({p.get("channel") for p in programmes if p.get("channel") not in defined})
     missing = [cid for cid in wanted_ids if cid not in defined]
+    extra = sorted(defined - wanted_set)
     print(f"  Programas sem canal correspondente: {len(orphan)}")
     print(f"  Canais do M3U ausentes no guia: {len(missing)}")
+    print(f"  Canais no guia que NAO estao no M3U: {len(extra)}"
+          + (f" -> {extra}" if extra else ""))
 
-    today = pyongyang_now.date()
+    # TiviMate e os add-ons do Kodi casam canal e programa pelo tvg-id; um
+    # unico <programme> por vez e o horario em ordem evitam guia embaralhado.
+    unsorted_ct = 0
+    for cid in wanted_ids:
+        starts = [block_start(b) for b in final_progs.get(cid, [])]
+        starts = [s for s in starts if s]
+        if starts != sorted(starts):
+            unsorted_ct += 1
+    print(f"  Canais com programas fora de ordem: {unsorted_ct}")
+
+    today = now.date()
     tomorrow = today + timedelta(days=1)
-    today_s = today.strftime("%Y%m%d")
-    tomorrow_s = tomorrow.strftime("%Y%m%d")
 
-    def overlaps(date_s):
-        day_start = datetime.strptime(date_s, "%Y%m%d").replace(tzinfo=PYONGYANG)
+    def day_overlaps(date_s):
+        day_start = datetime.strptime(date_s, "%Y%m%d").replace(tzinfo=timezone.utc)
         day_end = day_start + timedelta(days=1)
         count = 0
-        for p in root.findall("programme"):
+        for p in programmes:
             s = parse_xmltv_time(p.get("start", ""))
             e = parse_xmltv_time(p.get("stop", ""))
             if s is None:
@@ -817,24 +1203,36 @@ def main():
                 count += 1
         return count
 
-    today_progs = overlaps(today_s)
-    tomorrow_progs = overlaps(tomorrow_s)
+    def channels_with(date_s):
+        day_start = datetime.strptime(date_s, "%Y%m%d").replace(tzinfo=timezone.utc)
+        day_end = day_start + timedelta(days=1)
+        got = set()
+        for p in programmes:
+            s = parse_xmltv_time(p.get("start", ""))
+            e = parse_xmltv_time(p.get("stop", ""))
+            if s is None:
+                continue
+            if e is None or e <= s:
+                e = s + timedelta(hours=1)
+            if s < day_end and e > day_start:
+                got.add(p.get("channel"))
+        return got
 
-    for cid in wanted_ids:
-        ch_found = cid in defined
-        c_progs = sum(1 for p in root.findall(f'programme[@channel="{cid}"]'))
-        print(f"    {cid}: {'OK' if ch_found else 'FALTA'} ({c_progs} programas)")
+    today_s, tomorrow_s = today.strftime("%Y%m%d"), tomorrow.strftime("%Y%m%d")
+    today_ct = day_overlaps(today_s)
+    tomorrow_ct = day_overlaps(tomorrow_s)
+    with_today = channels_with(today_s)
+    with_tomorrow = channels_with(tomorrow_s)
+    print(f"  Programas de HOJE   ({today_s}, UTC): {today_ct} em {len(with_today)} canais")
+    print(f"  Programas de AMANHA ({tomorrow_s}, UTC): {tomorrow_ct} em {len(with_tomorrow)} canais")
+    print(f"  Teste hoje: {'OK' if today_ct else 'FALHOU'}")
+    print(f"  Teste amanha: {'OK' if tomorrow_ct else 'FALHOU'}")
 
-    print(f"  Programas de HOJE   ({today_s}, Pyongyang): {today_progs}")
-    print(f"  Programas de AMANHA ({tomorrow_s}, Pyongyang): {tomorrow_progs}")
-    if today_progs:
-        print("  Teste hoje: OK")
-    else:
-        print("  Teste hoje: FALHOU")
-    if tomorrow_progs:
-        print("  Teste amanha: OK")
-    else:
-        print("  Teste amanha: FALHOU (dados nao publicados pela fonte ainda)")
+    empty = [cid for cid in wanted_ids if not final_progs.get(cid)]
+    covered = len(wanted_ids) - len(empty)
+    print(f"  Canais com programacao: {covered}/{len(wanted_ids)}")
+    if empty:
+        print(f"  Canais sem nenhuma fonte de EPG ({len(empty)}): {empty}")
 
     print("\n=== CONCLUIDO ===")
 
