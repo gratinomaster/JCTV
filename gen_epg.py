@@ -768,6 +768,26 @@ def add_candidate(candidates, cid, source, channel_block, blocks):
     candidates.setdefault(cid, []).append((source, channel_block, blocks))
 
 
+def dedupe_icons(channel_block):
+    """Deixa um <icon> por src dentro do <channel>.
+
+    Algumas fontes (epgshare01) repetem a mesma imagem, e o TiviMate fica
+    mostrando o logo duas vezes na lista de canais.
+    """
+    if not channel_block:
+        return channel_block
+    seen = set()
+    kept = []
+    for line in channel_block.splitlines():
+        m = re.search(r'<icon\s+src="([^"]*)"', line)
+        if m:
+            if m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
+        kept.append(line)
+    return "\n".join(kept)
+
+
 def merge_candidates(entries):
     """Mistura as fontes de um canal no estilo do add-on do kodi (slyguy).
 
@@ -777,6 +797,7 @@ def merge_candidates(entries):
     """
     ordered = sorted(entries, key=lambda e: (-len(e[2]), SOURCE_RANK.get(e[0], 99)))
     channel_block = next((e[1] for e in ordered if e[1]), None)
+    channel_block = dedupe_icons(channel_block)
     blocks = list(ordered[0][2])
     covered = {block_date(b) for b in blocks}
     used = [ordered[0][0]]
