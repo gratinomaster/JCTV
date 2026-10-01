@@ -1,351 +1,9 @@
 {
-  "checked_at": "2026-10-01T15:14:18.514924+00:00",
+  "checked_at": "2026-10-01T20:59:33.648529+00:00",
   "results": [
     {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_segments_decodable": false,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L4 init fetch HTTPError: HTTP Error 404: Not Found"
-      ],
-      "threats": [],
-      "notes": [
-        "segment HTTPError",
-        "segment HTTPError",
-        "audio rendition HTTPError"
-      ],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "master",
-      "live": true,
-      "video": null,
-      "audio": {
-        "rendition": "separate",
-        "ok": false
-      },
-      "variants": 8,
-      "segs_ok": 0,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932839~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=d3bdc60f-007d-400d-8b22-71e114eff119~did=8382b60d-72fe-45aa-82ef-61fd0bd8b2a6~country=US~kid=k02~hmac=bd102cdfded237e58b4fcc7b1c219edf0f428b16e14ad1f91e869b3f3146e84c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_segments_decodable": false,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L4 init fetch HTTPError: HTTP Error 404: Not Found"
-      ],
-      "threats": [],
-      "notes": [
-        "segment HTTPError",
-        "segment HTTPError",
-        "audio rendition HTTPError"
-      ],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "master",
-      "live": true,
-      "video": null,
-      "audio": {
-        "rendition": "separate",
-        "ok": false
-      },
-      "variants": 8,
-      "segs_ok": 0,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": false,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L3 DRM protected (SAMPLE-AES-CTR) - needs license",
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8"
-    },
-    {
-      "url": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "linear-abcnews-akc-na-east-1.media.dssott.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "fMP4",
-        "L4_segments_decodable": true,
-        "L5_audio_present": false,
-        "L7_no_threats": true
-      },
-      "fail": [
-        "L5 no audio track"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "audio/mpegurl",
-      "kind": "media",
-      "live": true,
-      "video": {
-        "res": "?",
-        "codec": "fMP4"
-      },
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1790932857~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3659102c-8b50-44f9-abff-8d046b75a3c4~did=61f93cd4-60fa-4d48-b8aa-d8d575874549~country=US~kid=k02~hmac=eb54e48eb9814b4ed40adbcd222a8a47559dfc8dc23a896ef3a2cacc6f9bde33/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8"
-    },
-    {
       "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
-      "name": "ABC News Live - ABC News",
+      "name": "ABC News Live",
       "host": "abcnews-livestreams.akamaized.net",
       "checks": {
         "L1_http_200_hls": true,
@@ -378,190 +36,72 @@
       "final": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8"
     },
     {
-      "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "abcnews-livestreams.akamaized.net",
+      "url": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",
+      "name": "CBS News 24/7",
+      "host": "news20e7hhcb.airspace-cdn.cbsivideo.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
         "L3_no_drm": true,
         "L6_live": true,
-        "L4_init_container": "fMP4",
+        "L4_init_container": "MPEG-TS",
         "L4_segments_decodable": true,
-        "L5_audio_present": false,
+        "L5_audio_present": true,
         "L7_no_threats": true
       },
-      "fail": [
-        "L5 no audio track"
-      ],
+      "fail": [],
       "threats": [],
       "notes": [],
       "http": 200,
       "ctype": "application/x-mpegURL",
-      "kind": "media",
+      "kind": "master",
       "live": true,
       "video": {
-        "res": "?",
-        "codec": "fMP4"
+        "res": "1920x1080",
+        "codec": "MPEG-TS"
       },
-      "audio": null,
-      "variants": 0,
+      "audio": {
+        "rendition": "muxed",
+        "ok": true
+      },
+      "variants": 8,
       "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8"
+      "verdict": "PASS",
+      "final": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8"
     },
     {
-      "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8",
-      "name": "ABC News Live - ABC News",
-      "host": "abcnews-livestreams.akamaized.net",
+      "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
+      "name": "CBS News East",
+      "host": "dai.google.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
         "L3_no_drm": true,
         "L6_live": true,
-        "L4_init_container": "fMP4",
+        "L4_init_container": "MPEG-TS",
         "L4_segments_decodable": true,
-        "L5_audio_present": false,
+        "L5_audio_present": true,
         "L7_no_threats": true
       },
-      "fail": [
-        "L5 no audio track"
-      ],
+      "fail": [],
       "threats": [],
       "notes": [],
       "http": 200,
-      "ctype": "application/x-mpegURL",
-      "kind": "media",
+      "ctype": "application/x-mpegURL; charset=UTF-8",
+      "kind": "master",
       "live": true,
       "video": {
-        "res": "?",
-        "codec": "fMP4"
+        "res": "1920x1080",
+        "codec": "MPEG-TS"
       },
-      "audio": null,
-      "variants": 0,
+      "audio": {
+        "rendition": "muxed",
+        "ok": true
+      },
+      "variants": 8,
       "segs_ok": 2,
-      "verdict": "FAIL",
-      "final": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/master.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99e952d5-8ea6-4271-9b19-227c463eef4f:ATL/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8",
-      "name": "Watch CBS News 24/7, our free live news stream",
-      "host": "dai.google.com",
-      "checks": {},
-      "fail": [
-        "L1 HTTP 410"
-      ],
-      "threats": [],
-      "notes": [],
-      "http": 410,
-      "ctype": "",
-      "kind": null,
-      "live": null,
-      "video": null,
-      "audio": null,
-      "variants": 0,
-      "segs_ok": 0,
-      "verdict": "FAIL"
+      "verdict": "PASS",
+      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/aa2aaf37-a814-4e7b-80cb-3f5f8170dd61:ATL/master.m3u8"
     },
     {
       "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
@@ -595,7 +135,7 @@
       "variants": 8,
       "segs_ok": 2,
       "verdict": "PASS",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/6ea1996b-296b-427c-b7b7-10b1e1811540:TUL/master.m3u8"
+      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/8790d55f-ea7e-49bb-968b-633c031ed1e7:ATL/master.m3u8"
     },
     {
       "url": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",
@@ -844,7 +384,9 @@
       },
       "fail": [],
       "threats": [],
-      "notes": [],
+      "notes": [
+        "segment HTTPError"
+      ],
       "http": 200,
       "ctype": "application/vnd.apple.mpegurl",
       "kind": "master",
@@ -858,7 +400,7 @@
         "ok": true
       },
       "variants": 1,
-      "segs_ok": 2,
+      "segs_ok": 1,
       "verdict": "PASS",
       "final": "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"
     },
