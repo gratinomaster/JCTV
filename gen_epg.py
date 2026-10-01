@@ -761,6 +761,15 @@ def channel_block_from_m3u(cid, info):
     return "\n".join(parts)
 
 
+def ensure_icon(channel_block, info):
+    """Se o <channel> da fonte veio sem <icon>, usa o logo da playlist."""
+    if not channel_block or "<icon" in channel_block or not info.get("logo"):
+        return channel_block
+    return channel_block.replace(
+        "</channel>", f'    <icon src="{sax.escape(info["logo"])}"/>\n</channel>'
+    )
+
+
 def add_candidate(candidates, cid, source, channel_block, blocks):
     """Guarda uma opcao de fonte para o canal (so entra se tiver programa)."""
     if not blocks:
@@ -1171,7 +1180,8 @@ def main():
         else:
             channel_xml, blocks = None, []
             print(f"    {cid}: SEM PROGRAMACAO em nenhuma fonte")
-        xml_parts.append(channel_xml or channel_block_from_m3u(cid, channels[cid]))
+        xml_parts.append(ensure_icon(channel_xml, channels[cid])
+                         or channel_block_from_m3u(cid, channels[cid]))
         xml_parts.extend(blocks)
     xml_parts.append("</tv>")
     full_xml = "\n".join(xml_parts) + "\n"
