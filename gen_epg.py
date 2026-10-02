@@ -752,6 +752,85 @@ def fetch_reportv(tvg_id, site_id, days):
     return blocks
 
 
+# Ordem dos filhos que o DTD do XMLTV exige (xmltv.dtd do projeto XMLTV). As
+# fontes gravam o <programme> na ordem em que serializaram os elementos e usam
+# tags que nao existem no XMLTV (ex.: <class>), alem de repetir <title>. O
+# TiviMate e o add-on do kodi que mistura EPGs leem por nome e nao quebram, mas
+# um guia dentro do padrao evita que o arquivo seja recusado por validador
+# estrito e descarta o que nao interessa para a grade exibida.
+XMLTV_PROGRAMME_ORDER = (
+    "title", "sub-title", "desc", "credits", "date", "category", "keyword",
+    "language", "orig-language", "length", "icon", "url", "country",
+    "episode-num", "video", "audio", "previously-shown", "premiere",
+    "last-chance", "new", "subtitles", "rating", "star-rating", "review",
+    "image",
+)
+# Elementos que o DTD aceita no maximo uma vez dentro de <programme>.
+XMLTV_PROGRAMME_SINGLE = frozenset({
+    "credits", "date", "video", "audio", "previously-shown", "premiere",
+    "last-chance", "new", "review", "language", "orig-language", "length",
+})
+XMLTV_CHANNEL_ORDER = ("display-name", "icon", "url")
+XMLTV_CREDITS_ORDER = (
+    "director", "actor", "writer", "adapter", "producer", "composer",
+    "editor", "presenter", "commentator", "guest",
+)
+XMLTV_NESTED_ORDER = {
+    "video": ("present", "colour", "aspect", "quality"),
+    "audio": ("present", "stereo"),
+    "subtitles": ("language",),
+    "rating": ("value", "icon"),
+    "star-rating": ("value", "icon"),
+}
+
+
+def order_children(elem, order, single=()):
+    """Deixa os filhos de `elem` na ordem do DTD, sem tag fora dele nem repetida."""
+    index = {tag: i for i, tag in enumerate(order)}
+    kept = [c for c in elem if c.tag in index]
+    kept.sort(key=lambda c: index[c.tag])
+    seen = set()
+    final = []
+    for c in kept:
+        if c.tag in single:
+            if c.tag in seen:
+                continue
+            seen.add(c.tag)
+        final.append(c)
+    elem[:] = final
+
+
+def normalize_block(block):
+    """Reescreve um <channel>/<programme> isolado dentro do padrao XMLTV.
+
+    Devolve o bloco indentado e pronto para gravar. Bloco que o ElementTree
+    nao conseguir ler volta sem alteracao, para nunca perder parte da grade.
+    """
+    if not block:
+        return block
+    try:
+        elem = ET.fromstring(block.strip())
+    except ET.ParseError:
+        return block
+    if elem.tag == "channel":
+        order_children(elem, XMLTV_CHANNEL_ORDER)
+    elif elem.tag == "programme":
+        order_children(elem, XMLTV_PROGRAMME_ORDER, XMLTV_PROGRAMME_SINGLE)
+        for child in list(elem):
+            nested = XMLTV_NESTED_ORDER.get(child.tag)
+            if nested:
+                order_children(child, nested)
+            elif child.tag == "credits":
+                order_children(child, XMLTV_CREDITS_ORDER)
+            # <rating> sem <value> nao existe no DTD e nao aparece na grade.
+            if child.tag in ("rating", "star-rating") and child.find("value") is None:
+                elem.remove(child)
+    else:
+        return block
+    ET.indent(elem, space="  ")
+    return ET.tostring(elem, encoding="unicode")
+
+
 def channel_block_from_m3u(cid, info):
     parts = [f'  <channel id="{sax.escape(cid)}">']
     parts.append(f'    <display-name>{sax.escape(info["name"])}</display-name>')
@@ -1170,6 +1249,8 @@ def main():
     xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>',
                  '<tv generator-info-name="JCTV EPG Generator" '
                  'generator-info-url="https://github.com/gratinomaster/JCTV">']
+    channel_parts = []
+    programme_parts = []
     final_progs = {}
     for cid in wanted_ids:
         entries = candidates.get(cid)
@@ -1180,9 +1261,15 @@ def main():
         else:
             channel_xml, blocks = None, []
             print(f"    {cid}: SEM PROGRAMACAO em nenhuma fonte")
-        xml_parts.append(ensure_icon(channel_xml, channels[cid])
-                         or channel_block_from_m3u(cid, channels[cid]))
-        xml_parts.extend(blocks)
+        channel_parts.append(normalize_block(
+            ensure_icon(channel_xml, channels[cid])
+            or channel_block_from_m3u(cid, channels[cid])))
+        # O DTD do XMLTV pede todos os <channel> antes dos <programme>, e cada
+        # programa dentro do padrao, para o guia nao ser recusado por validador
+        # estrito. A ordem cronologica por canal ja vem de sort_blocks.
+        programme_parts.extend(normalize_block(b) for b in blocks)
+    xml_parts.extend(channel_parts)
+    xml_parts.extend(programme_parts)
     xml_parts.append("</tv>")
     full_xml = "\n".join(xml_parts) + "\n"
 

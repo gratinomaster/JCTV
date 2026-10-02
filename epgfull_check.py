@@ -28,7 +28,28 @@ EPG = sys.argv[1] if len(sys.argv) > 1 else "EPGFULL.xml.gz"
 M3U = sys.argv[2] if len(sys.argv) > 2 else "NEWSWORLDNOVOS.m3u"
 
 XMLTV_TIME = re.compile(r"^\d{14} [+-]\d{4}$")
+
+# Ordem dos filhos exigida pelo DTD do XMLTV (https://github.com/XMLTV/xmltv).
+# O TiviMate e os add-ons do kodi leem por nome e nao quebram com a ordem
+# errada, mas o arquivo e recusado por validador estrito e o guia perde as
+# tags que nao existem no XMLTV (ex.: <class>).
+XMLTV_CHANNEL_ORDER = ("display-name", "icon", "url")
+XMLTV_PROGRAMME_ORDER = (
+    "title", "sub-title", "desc", "credits", "date", "category", "keyword",
+    "language", "orig-language", "length", "icon", "url", "country",
+    "episode-num", "video", "audio", "previously-shown", "premiere",
+    "last-chance", "new", "subtitles", "rating", "star-rating", "review",
+    "image",
+)
+
 problems = []
+
+
+def fora_do_padrao(elem, order):
+    """True se `elem` tem tag fora do DTD ou filho fora da ordem."""
+    index = {tag: i for i, tag in enumerate(order)}
+    pos = [index[c.tag] for c in elem if c.tag in index]
+    return len(pos) != len(elem) or pos != sorted(pos)
 
 
 def parse_time(s):
@@ -154,7 +175,29 @@ def main():
     if overlaps:
         problems.append(f"{overlaps} par(es) de programas sobrepostos")
 
-    print("\n6. Amostra do que o aparelho vai exibir")
+    print("\n6. Padrao XMLTV (ordem das tags, como o DTD exige)")
+    bad_channels = [c.get("id") for c in channels
+                    if fora_do_padrao(c, XMLTV_CHANNEL_ORDER)]
+    bad_programmes = [p for p in programmes
+                      if fora_do_padrao(p, XMLTV_PROGRAMME_ORDER)]
+    # O DTD e <tv> (channel*, programme*): canal depois de programa quebra a
+    # leitura de quem valida o arquivo inteiro.
+    tags = [c.tag for c in root]
+    channel_after_programme = ("programme" in tags
+                               and "channel" in tags[tags.index("programme"):])
+    print(f"   canais fora do padrao: {len(bad_channels)}")
+    print(f"   programas fora do padrao: {len(bad_programmes)}")
+    print(f"   canal depois de programa: {channel_after_programme}")
+    if bad_channels:
+        problems.append(f"{len(bad_channels)} canal(is) fora do padrao XMLTV: "
+                        f"{bad_channels[:5]}")
+    if bad_programmes:
+        problems.append(f"{len(bad_programmes)} programa(s) fora do padrao XMLTV "
+                        f"(primeiro: {ET.tostring(bad_programmes[0], encoding='unicode')[:120].strip()})")
+    if channel_after_programme:
+        problems.append("existe <channel> depois de <programme> (DTD: channel*, programme*)")
+
+    print("\n7. Amostra do que o aparelho vai exibir")
     sample = sorted(with_both)[:8]
     for cid in sample:
         today_items = sorted((s, e) for s, e in per_channel[cid] if s.date() == today)
