@@ -29,7 +29,11 @@ em ordem de preferencia quando duas cobrem o mesmo canal:
 A mistura de fontes segue a mesma logica do add-on de EPG do Kodi (slyguy):
 para cada canal entra a fonte que cobre mais programas na janela; as demais
 so preenchem os dias que ficaram sem grade, o que evita programas duplicados
-ou sobrepostos. Se EPGFULL.xml.gz ja existir, ele e sobrescrito. O resultado
+ou sobrepostos. Cada fonte grava o horario de parede do pais dela, e quando
+duas fontes do mesmo canal discordam do fuso, a que dominou a mistura dita o
+fuso: um canal com parte da grade num fuso e parte em outro mostra um salto de
+horas no meio da semana no TiviMate. Se EPGFULL.xml.gz ja existir, ele e
+sobrescrito. O resultado
 e XMLTV valido e compativel com TiviMate (todo <programme> referencia um
 <channel> que existe no guia, os tvg-ids casam com a playlist e os programas
 saem em ordem cronologica, com o fuso de cada um declarado no atributo).
@@ -84,12 +88,15 @@ TZ_BY_SUFFIX = {
     "us": "America/New_York",   # os guias .us do iptv-epg sao do horario de Nova York
     "ve": "America/Caracas",
 }
-# tvg-id cujo sufixo de pais nao e o do sinal. O mesmo cuidado vale para o
-# fuso: o canal toca em Buenos Aires mesmo com o id terminando em ".ir".
+# Fuso em que a grade deste canal e publicada, quando o pais do tvg-id nao for o
+# pais que emite o sinal (vale tambem para quem so existe na fonte por apelido).
+# Usado na conferencia final: cada fonte grava o horario de parede do pais dela
+# (ver wall_clock), e aqui fica o fuso com que o guia deve aparecer.
 TZ_BY_ID = {
-    "HispanTV.ir": "America/Argentina/Buenos_Aires",
-    "CGTNSpanish.cn": "America/Montevideo",
-    "DePelícula.mx": "America/Mexico_City",
+    "HispanTV.ir": "America/Argentina/Buenos_Aires",   # guia argentino
+    "CGTNSpanish.cn": "America/Montevideo",             # guia uruguayo
+    "DePelícula.mx": "America/New_York",                # guia dos EUA
+    "AztecaInternacional.us": "America/Mexico_City",    # guia mexicano
 }
 
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
@@ -257,6 +264,14 @@ SOURCE_RANK = {
     "globo": 6,
 }
 
+# Fuentes que gravam horario de parede (os digitos do programa sao a hora
+# local do canal, e o atributo de fuso e reescrito para o pais do tvg-id).
+WALL_CLOCK_SOURCES = {"iptv-epg", "epgshare01"}
+
+# De qual fonte saiu cada <programme> que entrou no arquivo, para a conferencia
+# de fuso saber o que eh horario local e o que ja vem em UTC.
+BLOCK_SOURCE = {}
+
 # reportv.com.ar rotula os dias em portugues ("29 Septiembre 2026").
 SPANISH_MONTHS = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -350,6 +365,25 @@ def relabel_local_clock(block, tz):
         return '{}="{} {}"'.format(attr, digits, local_offset_str(digits, tz))
 
     return re.sub(r'\b(start|stop)="(\d{14})[ ]?[+-]\d{4}"', fix, block)
+
+
+def wall_clock(blocks, cid):
+    """Rotula os horarios como horario de parede do canal da fonte.
+
+    O iptv-epg.org e o epgshare01 gravam o horario local do pais com um
+    atributo de fuso fixo, e o TiviMate converte o programa para o fuso do
+    aparelho a partir desse atributo: se o fuso gravado nao for o do canal, a
+    grade aparece adiantada ou atrasada. O fuso vem do id do canal na fonte
+    (e nao do tvg-id da playlist), porque um canal que so aparece na fonte por
+    apelido - De.Pelicula.us2 servindo DePelícula.mx, por exemplo - tem
+    horario de parede do pais da fonte, nao do pais do apelido.
+
+    Devolve (blocos, fuso) para o merge saber qual fuso a fonte gravou.
+    """
+    tz = channel_tz(cid)
+    if tz is None:
+        return blocks, None
+    return [relabel_local_clock(b, tz) for b in blocks], tz
 
 
 def wayback_latest(url):
@@ -617,13 +651,13 @@ def remap_channel_block(block, src_id, dst_id):
     return block.replace('id="{}"'.format(src_id), 'id="{}"'.format(dst_id))
 
 
-def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5,
-                  local_clock=False):
+def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
     """Baixa um XMLTV .gz e extrai apenas os canais desejados.
 
     Retorna (channels, programmes): dicts de tvg-id -> lista de blocos XML.
-    Com local_clock, os horarios sao tratados como horario de parede do pais do
-    canal (ver relabel_local_clock).
+    Os horarios sao entregues como vieram da fonte; quem grava o horario de
+    parede do canal e o coletor, com o fuso do tvg-id da playlist
+    (ver relabel_local_clock).
     """
     channels = {}
     programmes = {}
@@ -645,8 +679,6 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5,
                         start = parse_xmltv_time(elem.get("start", ""))
                         if start is not None and oldest_ok <= start <= newest_ok:
                             block = ET.tostring(elem, encoding="unicode")
-                            if local_clock:
-                                block = relabel_local_clock(block, channel_tz(cid))
                             programmes.setdefault(cid, []).append(block)
                     elem.clear()
     finally:
@@ -930,11 +962,17 @@ def ensure_icon(channel_block, info):
     )
 
 
-def add_candidate(candidates, cid, source, channel_block, blocks):
-    """Guarda uma opcao de fonte para o canal (so entra se tiver programa)."""
+def add_candidate(candidates, cid, source, channel_block, blocks, tz=None):
+    """Guarda uma opcao de fonte para o canal (so entra se tiver programa).
+
+    tz e o fuso de que a fonte gravou os horarios (None quando a fonte entrega
+    o horario ja convertido); o merge usa isso para nao misturar fusos.
+    """
     if not blocks:
         return
-    candidates.setdefault(cid, []).append((source, channel_block, blocks))
+    for b in blocks:
+        BLOCK_SOURCE.setdefault(b, source)
+    candidates.setdefault(cid, []).append((source, channel_block, blocks, tz))
 
 
 def dedupe_icons(channel_block):
@@ -963,6 +1001,11 @@ def merge_candidates(entries):
     Entra a fonte que cobre mais programas na janela; as demais so preenchem
     os dias que ficaram sem grade. Assim nao ha programa duplicado nem
     sobreposto, que e o que faz o TiviMate exibir a grade embaralhada.
+
+    Cada fonte entra com o fuso de que ela grava (ver wall_clock). Quando duas
+    fontes do mesmo canal discordam do fuso, a que dominou a mistura dita o
+    fuso e a outra e reescrita: um canal com parte da grade num fuso e parte em
+    outro mostra um salto de horas no meio da semana no TiviMate.
     """
     ordered = sorted(entries, key=lambda e: (-len(e[2]), SOURCE_RANK.get(e[0], 99)))
     channel_block = next((e[1] for e in ordered if e[1]), None)
@@ -970,7 +1013,10 @@ def merge_candidates(entries):
     blocks = list(ordered[0][2])
     covered = {block_date(b) for b in blocks}
     used = [ordered[0][0]]
-    for src, _chb, extra in ordered[1:]:
+    dom_tz = ordered[0][3]
+    for src, _chb, extra, tz in ordered[1:]:
+        if dom_tz is not None and tz is not None and str(tz) != str(dom_tz):
+            extra = [relabel_local_clock(b, dom_tz) for b in extra]
         gap = [b for b in extra if block_date(b) not in covered]
         if gap:
             blocks.extend(gap)
@@ -1001,6 +1047,24 @@ def drop_overlaps(blocks):
         stop = block_stop(b)
         if stop is not None:
             last_stop = stop
+    return kept
+
+
+def drop_expired(blocks, oldest_ok):
+    """Tira o que ja acabou antes da janela de retencao.
+
+    As fontes filtram o passado pelo dia local, nao pelo instante: a primeira
+    programacao da Venezuela de ontem, por exemplo, entra como "ontem" e cai
+    horas antes do limite da janela. Sao bloques que ja terminaram, entao nao
+    servem para nada e so aumentam o arquivo. Quem ainda esta no ar fica,
+    porque o TiviMate precisa dele para saber o que esta passando agora.
+    """
+    kept = []
+    for b in blocks:
+        stop = block_stop(b)
+        if stop is not None and stop <= oldest_ok:
+            continue
+        kept.append(b)
     return kept
 
 
@@ -1063,21 +1127,23 @@ def collect_iptv_epg(candidates, wanted_ids, oldest_ok, newest_ok):
         try:
             channels, programmes = extract_xmltv(
                 url, watch_ids, oldest_ok, newest_ok, retries=2, delay=8,
-                local_clock=True,
             )
         except Exception as e:
             print(f"    ERRO ao baixar/ler o guia de '{country}': {e}")
             continue
         for cid, blocks in programmes.items():
-            add_candidate(candidates, cid, "iptv-epg", channels.get(cid), blocks)
+            wall, tz = wall_clock(blocks, cid)
+            add_candidate(candidates, cid, "iptv-epg", channels.get(cid), wall, tz)
             for dst_id, src_id in IPTVEPG_ALIASES.items():
                 if src_id != cid:
                     continue
+                wall, tz = wall_clock(
+                    [remap_channel_ref(b, src_id, dst_id) for b in blocks], src_id)
                 add_candidate(
                     candidates, dst_id, "iptv-epg",
                     remap_channel_block(channels[cid], src_id, dst_id)
                     if cid in channels else None,
-                    [remap_channel_ref(b, src_id, dst_id) for b in blocks],
+                    wall, tz,
                 )
                 print(f"      {dst_id}: {len(blocks)} programas "
                       f"(iptv-epg, apelido de {src_id})")
@@ -1123,7 +1189,6 @@ def collect_epgshare01(candidates, wanted_ids, epg_files, oldest_ok, newest_ok):
             print(f"    baixando {filename}")
             files_cache[filename] = extract_xmltv(
                 epgshare01_url(filename), watch_ids, oldest_ok, newest_ok,
-                local_clock=True,
             )
         return files_cache[filename]
 
@@ -1139,7 +1204,9 @@ def collect_epgshare01(candidates, wanted_ids, epg_files, oldest_ok, newest_ok):
                 continue
             blocks = programmes.get(cid)
             if blocks:
-                add_candidate(candidates, cid, "epgshare01", channels.get(cid), blocks)
+                wall, tz = wall_clock(blocks, cid)
+                add_candidate(candidates, cid, "epgshare01", channels.get(cid),
+                              wall, tz)
                 break
         else:
             # O tvg-id da playlist nao existe na fonte; tenta os apelidos.
@@ -1152,11 +1219,14 @@ def collect_epgshare01(candidates, wanted_ids, epg_files, oldest_ok, newest_ok):
                         continue
                     blocks = programmes.get(src_id)
                     if blocks:
+                        wall, tz = wall_clock(
+                            [remap_channel_ref(b, src_id, cid) for b in blocks],
+                            src_id)
                         add_candidate(
                             candidates, cid, "epgshare01",
                             remap_channel_block(channels[src_id], src_id, cid)
                             if src_id in channels else None,
-                            [remap_channel_ref(b, src_id, cid) for b in blocks],
+                            wall, tz,
                         )
                         break
                 else:
@@ -1339,6 +1409,7 @@ def main():
         entries = candidates.get(cid)
         if entries:
             channel_xml, blocks, used = merge_candidates(entries)
+            blocks = drop_expired(blocks, oldest_ok)
             final_progs[cid] = blocks
             print(f"    {cid}: {len(blocks)} programas ({' + '.join(used)})")
         else:
@@ -1388,8 +1459,12 @@ def main():
 
     # O TiviMate converte cada programa para o fuso do aparelho usando o
     # atributo do horario. Fuso errado = guia adiantado, entao confere se os
-    # digitos que entraram continuam batendo com o pais do canal.
+    # digitos que entraram continuam batendo com o pais do canal. A conferencia
+    # vale para as fontes de horario de parede (os digitos sao a hora local do
+    # canal); as fontes de instante absoluto ja vem em UTC, que e o horario
+    # certo para qualquer fuso do aparelho, entao entram fora da conta.
     wrong_tz = []
+    utc_blocks = 0
     for cid in wanted_ids:
         tz = channel_tz(cid)
         if tz is None:
@@ -1403,6 +1478,9 @@ def main():
             stop = block_stop(b)
             if start is None or stop is None:
                 continue
+            if BLOCK_SOURCE.get(b) not in WALL_CLOCK_SOURCES:
+                utc_blocks += 1
+                continue
             digits_s = start.strftime("%Y%m%d%H%M%S")
             digits_e = stop.strftime("%Y%m%d%H%M%S")
             naively_s = datetime.strptime(digits_s, "%Y%m%d%H%M%S")
@@ -1410,8 +1488,11 @@ def main():
             if (start.utcoffset() == naively_s.replace(tzinfo=tz).utcoffset()
                     and stop.utcoffset() == naively_e.replace(tzinfo=tz).utcoffset()):
                 ok += 1
-        if ok < len(blocks):
+        if ok < len(blocks) - sum(
+                1 for b in blocks if BLOCK_SOURCE.get(b) not in WALL_CLOCK_SOURCES):
             wrong_tz.append((cid, len(blocks) - ok, len(blocks)))
+    print(f"  Programas de fonte UTC (ja convertem para o fuso do aparelho): "
+          f"{utc_blocks}")
     print(f"  Programas com fuso fora do pais do canal: "
           f"{sum(w[1] for w in wrong_tz)}"
           + (f" -> {[w[0] for w in wrong_tz]}" if wrong_tz else ""))
