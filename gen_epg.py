@@ -48,6 +48,7 @@ import xml.etree.ElementTree as ET
 import xml.sax.saxutils as sax
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
+from zoneinfo import ZoneInfo
 
 M3U_URL = "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/NEWSWORLDNOVOS.m3u"
 OUTPUT = "EPGFULL.xml.gz"
@@ -61,6 +62,35 @@ KEEP_AFTER = timedelta(days=3)
 
 PYONGYANG = timezone(timedelta(hours=9))
 CARACAS = timezone(timedelta(hours=-4))
+
+# Fuso IANA de cada pais que aparece no sufixo do tvg-id. O guide mostra o
+# horario no fuso do pais, com a hora de verao ja embutida pelo zoneinfo (o
+# Chile, por exemplo, esta em -0300 agora e em -0400 no inverno).
+TZ_BY_SUFFIX = {
+    "ar": "America/Argentina/Buenos_Aires",
+    "br": "America/Sao_Paulo",
+    "cl": "America/Santiago",
+    "cn": "Asia/Shanghai",
+    "es": "Europe/Madrid",
+    "fr": "Europe/Paris",
+    "il": "Asia/Jerusalem",
+    "ir": "Asia/Tehran",
+    "mx": "America/Mexico_City",
+    "net": "Asia/Riyadh",       # Al Jazeera Arabic
+    "pe": "America/Lima",
+    "pt": "Europe/Lisbon",
+    "py": "America/Asuncion",
+    "uy": "America/Montevideo",
+    "us": "America/New_York",   # os guias .us do iptv-epg sao do horario de Nova York
+    "ve": "America/Caracas",
+}
+# tvg-id cujo sufixo de pais nao e o do sinal. O mesmo cuidado vale para o
+# fuso: o canal toca em Buenos Aires mesmo com o id terminando em ".ir".
+TZ_BY_ID = {
+    "HispanTV.ir": "America/Argentina/Buenos_Aires",
+    "CGTNSpanish.cn": "America/Montevideo",
+    "DePelícula.mx": "America/Mexico_City",
+}
 
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
 KORYO_HEADER = {
@@ -280,6 +310,46 @@ def country_of(cid):
     """Pais do tvg-id, pelo sufixo: "...ar" -> "ar", "...us2" -> "us"."""
     last = cid.rsplit(".", 1)[-1]
     return re.sub(r"\d+$", "", last).lower()
+
+
+def channel_tz(cid):
+    """Fuso IANA do canal, ou None se o pais do tvg-id nao for conhecido."""
+    name = TZ_BY_ID.get(cid) or TZ_BY_SUFFIX.get(country_of(cid))
+    if not name:
+        return None
+    try:
+        return ZoneInfo(name)
+    except Exception:
+        return None
+
+
+def local_offset_str(digits, tz):
+    """Offset (+/-HHMM) de um horario de parede do canal, com verao incluido.
+
+    "20261003160000" em Santiago, dentro do horario de verao, devolve "-0300";
+    o mesmo horario no inverno devolveria "-0400".
+    """
+    local = datetime.strptime(digits, "%Y%m%d%H%M%S").replace(tzinfo=tz)
+    return local.strftime("%z")
+
+
+def relabel_local_clock(block, tz):
+    """Corrige o fuso dos horarios de um <programme> de parede local.
+
+    O iptv-epg.org grava o horario do pais com "+0000" e o epgshare01 com
+    "-0500" fixo, entao o TiviMate converte o programa para o fuso do aparelho
+    e a grade aparece adiantada (no Chile e na Argentina, 2 a 3 horas). Os
+    digitos ja sao o horario de parede do canal, entao a correcao e apenas
+    reescrever o atributo de fuso com o valor certo para aquela data.
+    """
+    if tz is None:
+        return block
+
+    def fix(match):
+        attr, digits = match.group(1), match.group(2)
+        return '{}="{} {}"'.format(attr, digits, local_offset_str(digits, tz))
+
+    return re.sub(r'\b(start|stop)="(\d{14})[ ]?[+-]\d{4}"', fix, block)
 
 
 def wayback_latest(url):
@@ -547,10 +617,13 @@ def remap_channel_block(block, src_id, dst_id):
     return block.replace('id="{}"'.format(src_id), 'id="{}"'.format(dst_id))
 
 
-def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
+def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5,
+                  local_clock=False):
     """Baixa um XMLTV .gz e extrai apenas os canais desejados.
 
     Retorna (channels, programmes): dicts de tvg-id -> lista de blocos XML.
+    Com local_clock, os horarios sao tratados como horario de parede do pais do
+    canal (ver relabel_local_clock).
     """
     channels = {}
     programmes = {}
@@ -571,9 +644,10 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
                     if cid in wanted:
                         start = parse_xmltv_time(elem.get("start", ""))
                         if start is not None and oldest_ok <= start <= newest_ok:
-                            programmes.setdefault(cid, []).append(
-                                ET.tostring(elem, encoding="unicode")
-                            )
+                            block = ET.tostring(elem, encoding="unicode")
+                            if local_clock:
+                                block = relabel_local_clock(block, channel_tz(cid))
+                            programmes.setdefault(cid, []).append(block)
                     elem.clear()
     finally:
         try:
@@ -606,14 +680,18 @@ def normalize_name(text):
 
 
 def reportv_site_ids(wanted_ids):
-    """tvg-id -> site_id do reportv.com.ar.
+    """tvg-id -> site_id do reportv.com.ar, só para canais da Venezuela.
 
-    Primeiro a lista de canais do iptv-org (que ja traz o xmltv_id de cada
-    canal). Para os canais que ficarem de fora, a lista ao vivo do proprio
-    site e usada como segunda via: ela nao tem xmltv_id, entao o casamento e
-    pelo nome, ignorando o sufixo de pais do tvg-id.
+O reportv publica a grade no horario de Caracas e a lista do iptv-org
+    (que traz o xmltv_id de cada canal) e a via principal; para o que ficar
+    de fora, a lista ao vivo do proprio site entra como segunda via, casada
+    pelo nome. Esse casamento por nome e perigoso fora da Venezuela: o site
+    tem um unico "CANAL 13" (o do Mexico) e um unico "EL GOURMET" (o do
+    Mexico tambem), entao um canal chileno ou argentino passaria a exibir a
+    grade de outro emissor. Por isso o casamento por nome fica restrito a ".ve".
     """
-    mapping = dict(REPORTV_SITE_IDS)
+    mapping = {k: v for k, v in REPORTV_SITE_IDS.items()
+               if country_of(k) == "ve"}
     try:
         raw = http_get(REPORTV_CHANNELS_URL, timeout=60).decode("utf-8", errors="ignore")
     except Exception as e:
@@ -626,9 +704,12 @@ def reportv_site_ids(wanted_ids):
         if not sid or not xid or not xid.group(1):
             continue
         # O iptv-org anota o feed depois do "@" (ex.: "Globovision.ve@SD").
-        mapping.setdefault(xid.group(1).split("@")[0], sid.group(1))
+        cid = xid.group(1).split("@")[0]
+        if country_of(cid) == "ve":
+            mapping.setdefault(cid, sid.group(1))
 
-    pending = [cid for cid in wanted_ids if cid not in mapping]
+    pending = [cid for cid in wanted_ids
+               if cid not in mapping and country_of(cid) == "ve"]
     if not pending:
         return mapping
     try:
@@ -981,7 +1062,8 @@ def collect_iptv_epg(candidates, wanted_ids, oldest_ok, newest_ok):
         print(f"    baixando guia do pais '{country}': {url}")
         try:
             channels, programmes = extract_xmltv(
-                url, watch_ids, oldest_ok, newest_ok, retries=2, delay=8
+                url, watch_ids, oldest_ok, newest_ok, retries=2, delay=8,
+                local_clock=True,
             )
         except Exception as e:
             print(f"    ERRO ao baixar/ler o guia de '{country}': {e}")
@@ -1040,7 +1122,8 @@ def collect_epgshare01(candidates, wanted_ids, epg_files, oldest_ok, newest_ok):
         if filename not in files_cache:
             print(f"    baixando {filename}")
             files_cache[filename] = extract_xmltv(
-                epgshare01_url(filename), watch_ids, oldest_ok, newest_ok
+                epgshare01_url(filename), watch_ids, oldest_ok, newest_ok,
+                local_clock=True,
             )
         return files_cache[filename]
 
@@ -1302,6 +1385,36 @@ def main():
         if starts != sorted(starts):
             unsorted_ct += 1
     print(f"  Canais com programas fora de ordem: {unsorted_ct}")
+
+    # O TiviMate converte cada programa para o fuso do aparelho usando o
+    # atributo do horario. Fuso errado = guia adiantado, entao confere se os
+    # digitos que entraram continuam batendo com o pais do canal.
+    wrong_tz = []
+    for cid in wanted_ids:
+        tz = channel_tz(cid)
+        if tz is None:
+            continue
+        blocks = final_progs.get(cid) or []
+        if not blocks:
+            continue
+        ok = 0
+        for b in blocks:
+            start = block_start(b)
+            stop = block_stop(b)
+            if start is None or stop is None:
+                continue
+            digits_s = start.strftime("%Y%m%d%H%M%S")
+            digits_e = stop.strftime("%Y%m%d%H%M%S")
+            naively_s = datetime.strptime(digits_s, "%Y%m%d%H%M%S")
+            naively_e = datetime.strptime(digits_e, "%Y%m%d%H%M%S")
+            if (start.utcoffset() == naively_s.replace(tzinfo=tz).utcoffset()
+                    and stop.utcoffset() == naively_e.replace(tzinfo=tz).utcoffset()):
+                ok += 1
+        if ok < len(blocks):
+            wrong_tz.append((cid, len(blocks) - ok, len(blocks)))
+    print(f"  Programas com fuso fora do pais do canal: "
+          f"{sum(w[1] for w in wrong_tz)}"
+          + (f" -> {[w[0] for w in wrong_tz]}" if wrong_tz else ""))
 
     today = now.date()
     tomorrow = today + timedelta(days=1)
