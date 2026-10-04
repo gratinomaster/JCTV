@@ -1,74 +1,74 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz"
-#EXTINF:-1 tvg-id="AztecaUno.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Azteca_Uno_logo.svg/240px-Azteca_Uno_logo.svg.png",Azteca Uno (-1h)
+#EXTINF:-1 tvg-id="AztecaUno.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Azteca Uno (-1h)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4833
 
-#EXTINF:-1 tvg-id="AztecaUno.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Azteca_Uno_logo.svg/240px-Azteca_Uno_logo.svg.png",Azteca Uno - 1H
+#EXTINF:-1 tvg-id="AztecaUno.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Azteca Uno - 1H
 https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8
 
 #EXTINF:-1 tvg-id="adn40.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/ADN40_2020.png",ADN 40 (1080p)
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
-#EXTINF:-1 tvg-id="ImagenTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Imagen_Televisi%C3%B3n_logo.svg/240px-Imagen_Televisi%C3%B3n_logo.svg.png",Imagen TV+ (720p)
+#EXTINF:-1 tvg-id="ImagenTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Imagen TV+ (720p)
 https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
 
-#EXTINF:-1 tvg-id="Canal5.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Canal_5_%28Televisa%29_logo.svg/240px-Canal_5_%28Televisa%29_logo.svg.png",Canal 5 TV Cozumel (1080p)
+#EXTINF:-1 tvg-id="Canal5.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 
-#EXTINF:-1 tvg-id="MilenioTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Milenio_Televisi%C3%B3n_logo.svg/240px-Milenio_Televisi%C3%B3n_logo.svg.png",Milenio Televisión (720p)
+#EXTINF:-1 tvg-id="MilenioTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Milenio Televisión (720p)
 https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
 
-#EXTINF:-1 tvg-id="Canal14.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Canal_Catorce_logo.svg/240px-Canal_Catorce_logo.svg.png",Canal 14 (1080p)
+#EXTINF:-1 tvg-id="Canal14.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal 14 (1080p)
 https://s5.mexside.net:1936/canal14/canal14/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="TVUNAM.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TV_UNAM_logo.svg/240px-TV_UNAM_logo.svg.png",TV UNAM (1080p)
+#EXTINF:-1 tvg-id="TVUNAM.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TV UNAM (1080p)
 https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/chunklist_w372205069_DVR.m3u8
 
-#EXTINF:-1 tvg-id="Canal22.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_22_logo.svg/240px-Canal_22_logo.svg.png",Canal 22 (1080p)
+#EXTINF:-1 tvg-id="Canal22.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal 22 (1080p)
 https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CanalDelCongreso.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Canal_del_Congreso_logo.svg/240px-Canal_del_Congreso_logo.svg.png",Canal del Congreso
+#EXTINF:-1 tvg-id="CanalDelCongreso.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal del Congreso
 https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="JusticiaTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Justicia_TV_logo.svg/240px-Justicia_TV_logo.svg.png",Justicia TV
+#EXTINF:-1 tvg-id="JusticiaTV.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Justicia TV
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CanalMexiquense.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mexiquense_TV_logo.svg/240px-Mexiquense_TV_logo.svg.png",Mexiquense TV (720p)
+#EXTINF:-1 tvg-id="CanalMexiquense.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Mexiquense TV (720p)
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVCuatro.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TV_Cuatro_logo.svg/240px-TV_Cuatro_logo.svg.png",TV Cuatro 4.1
+#EXTINF:-1 tvg-id="TVCuatro.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TV Cuatro 4.1
 https://5f1af61612fb5.streamlock.net/tv4/videotv4/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVCuatro.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TV_Cuatro_logo.svg/240px-TV_Cuatro_logo.svg.png",TV Cuatro 4.2
+#EXTINF:-1 tvg-id="TVCuatro.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TV Cuatro 4.2
 https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal44-udgtv.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Canal_44_udgtv_logo.svg/240px-Canal_44_udgtv_logo.svg.png",CANAL 44 Chihuahua
+#EXTINF:-1 tvg-id="Canal44-udgtv.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",CANAL 44 Chihuahua
 https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal44-udgtv.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Canal_44_udgtv_logo.svg/240px-Canal_44_udgtv_logo.svg.png",Canal 44 Ciudad Juárez (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Canal44-udgtv.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal 44 Ciudad Juárez (720p) [Not 24/7]
 https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal4.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Jalisco_TV_logo.svg/240px-Jalisco_TV_logo.svg.png",Jalisco TV (720p)
+#EXTINF:-1 tvg-id="Canal4.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Jalisco TV (720p)
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
 
-#EXTINF:-1 tvg-id="Canal4.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Jalisco_TV_logo.svg/240px-Jalisco_TV_logo.svg.png",SQCS Canal 4 (1080p)
+#EXTINF:-1 tvg-id="Canal4.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",SQCS Canal 4 (1080p)
 https://video0.rogohosting.com:19360/4982/4982.m3u8
 
-#EXTINF:-1 tvg-id="TeleFormula.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Telef%C3%B3rmula_logo.svg/240px-Telef%C3%B3rmula_logo.svg.png",TeleFórmula (1080p)
+#EXTINF:-1 tvg-id="TeleFormula.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TeleFórmula (1080p)
 https://linear-255.frequency.stream/mt/studio/255/hls/master/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Sony.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sony_Channel_logo.svg/240px-Sony_Channel_logo.svg.png",Cine Sony
+#EXTINF:-1 tvg-id="Sony.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Cine Sony
 https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TLNovelas.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TLNovelas_logo.svg/240px-TLNovelas_logo.svg.png",TELEVISA NOVELAS
+#EXTINF:-1 tvg-id="TLNovelas.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TELEVISA NOVELAS
 https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8?
 
 #EXTINF:-1 tvg-id="DePelícula.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/De_Pel%C3%ADcula_2016.png",De Película Latin America
 http://181.119.93.83:8000/play/a1jw/index.m3u8
 
-#EXTINF:-1 tvg-id="Telemundo.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Telemundo_2018_logo.svg/240px-Telemundo_2018_logo.svg.png",Telemundo
+#EXTINF:-1 tvg-id="Telemundo.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Telemundo
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 
-#EXTINF:-1 tvg-id="Univision.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Univision_2019_logo.svg/240px-Univision_2019_logo.svg.png",UNIVISION NOTICIAS VX
+#EXTINF:-1 tvg-id="Univision.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",UNIVISION NOTICIAS VX
 https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EstrellaTV.us" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/Estrella_TV_-_2020_logo.png",Estrella TV (1080p)
@@ -80,19 +80,19 @@ https://estrella-games-oando.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="EstrellaTV.us" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/Estrella_TV_-_2020_logo.png",Estrella News (1080p)
 https://estrella-news-oando.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EWTN.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/EWTN_logo.svg/240px-EWTN_logo.svg.png",MX EWTN
+#EXTINF:-1 tvg-id="EWTN.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",MX EWTN
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RussiaToday.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RT_logo.svg/240px-RT_logo.svg.png",RT Noticias (1080p)
+#EXTINF:-1 tvg-id="RussiaToday.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",RT Noticias (1080p)
 https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8
 
-#EXTINF:-1 tvg-id="Canal12TelevisaTijuana.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Canal_12_Televisa_Tijuana_logo.svg/240px-Canal_12_Televisa_Tijuana_logo.svg.png",Canal 33 Tijuana (720p)
+#EXTINF:-1 tvg-id="Canal12TelevisaTijuana.mx" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Canal 33 Tijuana (720p)
 https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AztecaInternacional.us" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png",Azteca Internacional (1080p)
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/TV_M%C3%A1s_logo.svg/240px-TV_M%C3%A1s_logo.svg.png",TVMÁS Veracruz (1080p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",TVMÁS Veracruz (1080p)
 https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 
 #EXTINF:-1 group-title="MÉXICO",Presumiendo México (720p)
@@ -188,7 +188,7 @@ https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
 #EXTINF:-1 group-title="MÉXICO",Super Channel 12
 https://servilive.com:3263/live/channel12live.m3u8
 
-#EXTINF:-1 tvg-id="NoticiasTelemundoAHORA.us" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Telemundo_2018_logo.svg/240px-Telemundo_2018_logo.svg.png",Telemundo Noticias Ahora
+#EXTINF:-1 tvg-id="NoticiasTelemundoAHORA.us" group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Telemundo Noticias Ahora
 https://xumo-xumoent-ch827-uj0ch.fast.nbcuni.com/live/master.m3u8
 
 #EXTINF:-1 group-title="MÉXICO",Antena TV
@@ -248,13 +248,13 @@ https://video.cdmx.gob.mx/redes/stream.m3u8
 #EXTINF:-1 group-title="MÉXICO",Ingenio TV (720p)
 https://aprende-usea.streaming.media.azure.net/9317ea3f-03a0-4266-9292-ac97a0e41c4d/output-20230609-123537-manifest.ism/manifest(format=m3u8-cmaf).m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Multimedios_Televisi%C3%B3n_logo.svg/300px-Multimedios_Televisi%C3%B3n_logo.svg.png",Multimedios Monterrey (720p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Multimedios Monterrey (720p)
 https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Multimedios_Televisi%C3%B3n_logo.svg/300px-Multimedios_Televisi%C3%B3n_logo.svg.png",Multimedios CDMX (720p)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Multimedios CDMX (720p)
 https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
 
-#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Milenio_Televisi%C3%B3n_logo.svg/300px-Milenio_Televisi%C3%B3n_logo.svg.png",Milenio Televisión (MDX)
+#EXTINF:-1 group-title="MÉXICO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/240px-No-Image-Placeholder.svg.png",Milenio Televisión (MDX)
 https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
 
 #EXTINF:-1 group-title="MÉXICO",TV BUAP (1080p)
