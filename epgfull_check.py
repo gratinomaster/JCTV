@@ -163,8 +163,10 @@ def main():
                  if any(s.date() == today + timedelta(days=1) for s, _ in per_channel[c])}
     print(f"   canais com guia hoje: {len(with_today)}/{len(defined)}")
     print(f"   canais com guia hoje E amanha: {len(with_both)}/{len(defined)}")
+    day_end_of_tomorrow = now.replace(hour=0, minute=0, second=0,
+                                      microsecond=0) + timedelta(days=2)
 
-    print("\n5. Sobreposicao (o TiviMate mostra o primeiro que encontra)")
+    print("\n5. Sobreposicao, buracos e fuso (o que o aparelho ve na grade)")
     overlaps = 0
     for cid, items in per_channel.items():
         items.sort()
@@ -174,6 +176,29 @@ def main():
     print(f"   pares de programas sobrepostos: {overlaps}")
     if overlaps:
         problems.append(f"{overlaps} par(es) de programas sobrepostos")
+
+    # Buraco de mais de 1h30 dentro de hoje+amanha e o horario em que o
+    # TiviMate mostra "sem informacao". A mistura de fontes precisa encher
+    # esses espacos, nao so os dias inteiros que faltavam.
+    holes = []
+    for cid, items in per_channel.items():
+        window = sorted((s, e) for s, e in items
+                        if s < day_end_of_tomorrow and e > now.replace(
+                            hour=0, minute=0, second=0, microsecond=0))
+        for (_s1, e1), (s2, _e2) in zip(window, window[1:]):
+            if e1 and s2 - e1 > timedelta(minutes=90):
+                holes.append((cid, e1, s2, s2 - e1))
+    holes.sort(key=lambda h: -h[3])
+    print(f"   buracos > 1h30 entre programas hoje/amanha: {len(holes)}")
+    for cid, e1, s2, gap in holes[:5]:
+        print(f"     {cid[:30]:<30} {e1:%d/%m %H:%M} -> {s2:%d/%m %H:%M} ({gap})")
+
+    # Um canal com parte da grade num fuso e parte em outro mostra um salto
+    # de horas no meio da semana; cada canal deve usar um fuso so.
+    mixed = sorted(cid for cid, items in per_channel.items()
+                   if len({s.utcoffset() for s, _e in items}) > 1)
+    print(f"   canais com mais de um fuso: {len(mixed)}"
+          + (f" -> {mixed}" if mixed else ""))
 
     print("\n6. Padrao XMLTV (ordem das tags, como o DTD exige)")
     bad_channels = [c.get("id") for c in channels

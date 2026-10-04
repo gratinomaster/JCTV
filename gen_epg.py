@@ -28,8 +28,9 @@ em ordem de preferencia quando duas cobrem o mesmo canal:
 
 A mistura de fontes segue a mesma logica do add-on de EPG do Kodi (slyguy):
 para cada canal entra a fonte que cobre mais programas na janela; as demais
-so preenchem os dias que ficaram sem grade, o que evita programas duplicados
-ou sobrepostos. Cada fonte grava o horario de parede do pais dela, e quando
+so preenchem os horarios que ficaram sem grade (cada programa entra quando
+cabe inteiro em um vao da grade), o que evita programas duplicados ou
+sobrepostos. Cada fonte grava o horario de parede do pais dela, e quando
 duas fontes do mesmo canal discordam do fuso, a que dominou a mistura dita o
 fuso: um canal com parte da grade num fuso e parte em outro mostra um salto de
 horas no meio da semana no TiviMate. Se EPGFULL.xml.gz ja existir, ele e
@@ -190,6 +191,10 @@ JUCHE_GITHUB_URL = "https://raw.githubusercontent.com/Bloxyplay/JucheTV-EPG-API/
 # enquanto o arquivo ALJAZEERA1 do epgshare01 costuma ficar dias desatualizado
 # para este canal. Os horarios do site sao de Meca (UTC+3).
 ALJAZEERA_AR_ID = "AlJazeera.Arabic.net"
+# Duracao maxima aceita da grade oficial da Al Jazeera. O site publica um item
+# noticioso de 23:59:59 (ver fetch_aljazeera_arabic) que e preenchimento de
+# madrugada, nao um programa; o limite separa um do outro.
+ALJAZEERA_MAX_ITEM = timedelta(hours=6)
 AJA_GRAPHQL_URL = (
     "https://www.aljazeera.com/graphql?wp-site=aja"
     "&operationName=ArchipelagoSchedulePageQuery"
@@ -367,6 +372,29 @@ def relabel_local_clock(block, tz):
     return re.sub(r'\b(start|stop)="(\d{14})[ ]?[+-]\d{4}"', fix, block)
 
 
+def restamp_instant(block, tz):
+    """Reescreve no fuso do canal um <programme> que ja veio em instante.
+
+    As fontes de horario de parede (iptv-epg, epgshare01) dominam a mistura de
+    um canal; quando a outra fonte entrega o horario ja convertido (a grade
+    oficial da Al Jazeera, o reportv), os digitos ficam em outro fuso e o
+    TiviMate mostra um salto de horas no meio da semana. Reescrever os digitos
+    no fuso que dominou mantem o mesmo instante - o TiviMate converte a partir
+    do atributo, entao a exibicao nao muda - e deixa o canal inteiro com um fuso
+    so.
+    """
+    def fix(match):
+        attr, stamp = match.group(1), match.group(2)
+        try:
+            instant = datetime.strptime(stamp, "%Y%m%d%H%M%S %z")
+        except ValueError:
+            return match.group(0)
+        return '{}="{}"'.format(
+            attr, instant.astimezone(tz).strftime("%Y%m%d%H%M%S %z"))
+
+    return re.sub(r'\b(start|stop)="(\d{14} [+-]\d{4})"', fix, block)
+
+
 def wall_clock(blocks, cid):
     """Rotula os horarios como horario de parede do canal da fonte.
 
@@ -446,6 +474,7 @@ def fetch_aljazeera_arabic(tvg_id, oldest_ok, newest_ok):
     schedule = schedule.get("schedule") or []
     mecca = timezone(timedelta(hours=3))
     blocks = []
+    skipped = 0
     for item in schedule:
         try:
             day0 = datetime.fromtimestamp(int(item["startDate"]), tz=timezone.utc)
@@ -461,6 +490,15 @@ def fetch_aljazeera_arabic(tvg_id, oldest_ok, newest_ok):
                             seconds=int(m.group(3) or 0))
         else:
             dur = timedelta(hours=1)
+        if dur > ALJAZEERA_MAX_ITEM:
+            # O site usa um item "nشرة الأخبار" de 23:59:59 as 23:00 como
+            # preenchimento da madrugada: ele vai das 23:00 de um dia ate a
+            # meia-noite do dia seguinte, ou seja, cobre o dia inteiro que vem.
+            # Esse dia e o dia de hoje, que o epgshare01 ja publica cortado de
+            # hora em hora; manter o item de 24h aqui esconderia a grade real
+            # de hoje (o TiviMate mostraria so "نشرة الأخبار" o dia todo).
+            skipped += 1
+            continue
         stop = start + dur
         if start < oldest_ok or start > newest_ok:
             continue
@@ -476,6 +514,8 @@ def fetch_aljazeera_arabic(tvg_id, oldest_ok, newest_ok):
             parts.append(f'    <desc lang="ar">{sax.escape(desc)}</desc>')
         parts.append("  </programme>")
         blocks.append("\n".join(parts))
+    if skipped:
+        print(f"      {skipped} item(ns) de preenchimento (24h) do site ignorados")
     return blocks
 
 
@@ -607,11 +647,6 @@ def parse_xmltv_time(s):
 def block_start(block):
     m = re.search(r'start="(\d{8}\d{6}\s+[+-]\d{4})"', block)
     return parse_xmltv_time(m.group(1)) if m else None
-
-
-def block_date(block):
-    m = re.search(r'start="(\d{8})', block)
-    return m.group(1) if m else None
 
 
 def block_stop(block):
@@ -995,12 +1030,71 @@ def dedupe_icons(channel_block):
     return "\n".join(kept)
 
 
-def merge_candidates(entries):
+def free_spans(blocks, oldest_ok, newest_ok):
+    """Intervalos sem nenhum programa dentro da janela de retencao.
+
+    Sao os horarios em que o TiviMate mostraria "sem informacao" para o canal,
+    porque nenhum <programme> os cobre. Os limites vem da janela, e nao do
+    primeiro e do ultimo programa, para que um dia inteiro sem cobertura ainda
+    conte como um vao preenchivel.
+    """
+    items = sorted((block_start(b), block_stop(b) or block_start(b))
+                   for b in blocks if block_start(b) is not None)
+    covered = []
+    for start, stop in items:
+        if covered and start <= covered[-1][1]:
+            covered[-1][1] = max(covered[-1][1], stop)
+        else:
+            covered.append([start, stop])
+    spans = []
+    cursor = oldest_ok
+    for start, stop in covered:
+        if start > cursor:
+            spans.append((cursor, start))
+        cursor = max(cursor, stop)
+    if cursor < newest_ok:
+        spans.append((cursor, newest_ok))
+    return spans
+
+
+def fill_gaps(blocks, extra, oldest_ok, newest_ok, rounds=8):
+    """Preenche os vaos da grade com os programas de outra fonte.
+
+    A regra antiga so aceitava a outra fonte quando ela cobria um dia que ainda
+    nao tinha nenhum programa. Um dia pela metade ficava com buraco: e o que
+    acontecia com o Telemundo Internacional, que ficava 11 horas sem programa
+    porque a outra fonte tinha a noite e a manha enquanto a fonte que dominou
+    a mistura tinha o dia. Aqui cada programa da outra fonte entra quando cabe
+    inteiro em um vao da grade, e a operacao repete porque um vao longo pode
+    receber varios programas seguidos. O que nao cabe (programa que invade a
+    grade existente) fica de fora, para nao criar sobreposicao.
+    """
+    kept = list(dict.fromkeys(blocks))
+    for _ in range(rounds):
+        spans = free_spans(kept, oldest_ok, newest_ok)
+        if not spans:
+            break
+        added = []
+        for b in sort_blocks(extra):
+            if b in kept:
+                continue
+            start, stop = block_start(b), block_stop(b)
+            if start is None or stop is None:
+                continue
+            if any(start >= g_start and stop <= g_stop for g_start, g_stop in spans):
+                added.append(b)
+        if not added:
+            break
+        kept.extend(added)
+    return kept
+
+
+def merge_candidates(entries, oldest_ok, newest_ok):
     """Mistura as fontes de um canal no estilo do add-on do kodi (slyguy).
 
-    Entra a fonte que cobre mais programas na janela; as demais so preenchem
-    os dias que ficaram sem grade. Assim nao ha programa duplicado nem
-    sobreposto, que e o que faz o TiviMate exibir a grade embaralhada.
+    Entra a fonte que cobre mais programas na janela; as demais so preenchem os
+    horarios que ficaram sem grade (fill_gaps). Assim nao ha programa duplicado
+    nem sobreposto, que e o que faz o TiviMate exibir a grade embaralhada.
 
     Cada fonte entra com o fuso de que ela grava (ver wall_clock). Quando duas
     fontes do mesmo canal discordam do fuso, a que dominou a mistura dita o
@@ -1011,16 +1105,16 @@ def merge_candidates(entries):
     channel_block = next((e[1] for e in ordered if e[1]), None)
     channel_block = dedupe_icons(channel_block)
     blocks = list(ordered[0][2])
-    covered = {block_date(b) for b in blocks}
     used = [ordered[0][0]]
     dom_tz = ordered[0][3]
     for src, _chb, extra, tz in ordered[1:]:
         if dom_tz is not None and tz is not None and str(tz) != str(dom_tz):
             extra = [relabel_local_clock(b, dom_tz) for b in extra]
-        gap = [b for b in extra if block_date(b) not in covered]
-        if gap:
-            blocks.extend(gap)
-            covered |= {block_date(b) for b in gap}
+        elif dom_tz is not None and tz is None:
+            extra = [restamp_instant(b, dom_tz) for b in extra]
+        before = len(blocks)
+        blocks = fill_gaps(blocks, extra, oldest_ok, newest_ok)
+        if len(blocks) > before:
             used.append(src)
     unique = sort_blocks(dict.fromkeys(blocks))
     return channel_block, drop_overlaps(unique), used
@@ -1082,12 +1176,17 @@ def sort_blocks(blocks):
         tzinfo=timezone.utc))
 
 
-def extend_last_programme(blocks, stop_str):
+def extend_last_programme(blocks, stop_time):
     """Estende o stop do programa mais recente para cobrir a janela de retencao.
 
     Usado para canais 24/7 (ex.: Pluto TV "Big Brother") cuja fonte so publica
     a programacao ate o fim do dia atual: o programa em exibicao continua ao
     vivo, entao estendemos o stop ate o fim da janela sem inventar titulos.
+
+    O fuso do stop estendido e o mesmo que a fonte usou no start daquele
+    programa. Gravar outro fuso (o +0900 do KST, por exemplo) deixa o canal
+    com parte da grade em um fuso e parte em outro, que e o salto de horas no
+    meio da semana que o TiviMate mostra ao usuario.
     """
     if not blocks:
         return blocks
@@ -1102,6 +1201,10 @@ def extend_last_programme(blocks, stop_str):
             latest_idx = i
     if latest_idx < 0:
         return blocks
+    offset = re.search(r'start="\d{14}\s+([+-]\d{4})"',
+                       blocks[latest_idx])
+    stop_str = "{} {}".format(stop_time.strftime("%Y%m%d%H%M%S"),
+                              offset.group(1) if offset else "+0000")
     blocks[latest_idx] = re.sub(
         r'stop="\d{8}\d{6}\s+[+-]\d{4}"',
         'stop="{}"'.format(stop_str),
@@ -1348,8 +1451,7 @@ def collect_imjhnz(candidates, wanted_ids, oldest_ok, newest_ok):
             if blocks and cid == PLUTO_BB_ID:
                 # O Big Brother e 24/7 e a fonte so publica ate o fim do dia;
                 # o programa em exibicao continua ao vivo.
-                blocks = extend_last_programme(
-                    blocks, newest_ok.strftime("%Y%m%d%H%M%S") + " +0900")
+                blocks = extend_last_programme(blocks, newest_ok)
             add_candidate(candidates, cid, "imjhnz", channels.get(cid), blocks)
             print(f"      {cid}: {len(blocks)} programas (i.mjh.nz)")
 
@@ -1408,7 +1510,7 @@ def main():
     for cid in wanted_ids:
         entries = candidates.get(cid)
         if entries:
-            channel_xml, blocks, used = merge_candidates(entries)
+            channel_xml, blocks, used = merge_candidates(entries, oldest_ok, newest_ok)
             blocks = drop_expired(blocks, oldest_ok)
             final_progs[cid] = blocks
             print(f"    {cid}: {len(blocks)} programas ({' + '.join(used)})")
