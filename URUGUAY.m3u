@@ -1,7 +1,2 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-name="Canal Once" tvg-logo="https://canal11.uy/wp-content/uploads/2020/04/cropped-logo-rojo--270x270.png" group-title="🇺🇾 TDT · LCN 11",Canal Once 11.1 — Punta del Este / Maldonado
-https://5e50264bd6766.streamlock.net/canal11ury/videocanal11ury/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Ovación TV" group-title="🇺🇾 Esportes",Ovación TV — El País (Montevideo)
-http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Canal U" group-title="🇺🇾 Cultura / UCL",Canal U — UCL (Universidad de la República)
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+Vou explorar o repositório JCTV para entender como os canais estão organizados e, em seguida, localizar/adicionar o canal do Big Brother Uruguay usando as ferramentas mencionadas.
+Vou verificar se as ferramentas solicitadas estão disponíveis e, em seguida, buscar informações sobre o Big Brother Uruguay para encontrar um link funcional.
