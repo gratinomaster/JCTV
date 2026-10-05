@@ -84,3 +84,56 @@ https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/17a518d
 
 ## fontes de EPG usadas
 - https://iptv-epg.org/files/epg-us.xml.gz
+
+=== 2026-10-05T06:09:23.516896Z  removidos 17 URLs ===
+[x1] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266760~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=51eab53c-95b1-4d87-9135-dc2537cc16f9~did=fe4433ae-b0cc-45bc-abff-e181b61aeb58~country=US~kid=k02~hmac=b223c92facbc90bc46f4ba32683382e275f2d432bf6afccc5fe659873556383a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+[x1] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266760~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=51eab53c-95b1-4d87-9135-dc2537cc16f9~did=fe4433ae-b0cc-45bc-abff-e181b61aeb58~country=US~kid=k02~hmac=b223c92facbc90bc46f4ba32683382e275f2d432bf6afccc5fe659873556383a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+[x1] ABC News Live - ABC News
+  no audio track
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266760~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=51eab53c-95b1-4d87-9135-dc2537cc16f9~did=fe4433ae-b0cc-45bc-abff-e181b61aeb58~country=US~kid=k02~hmac=b223c92facbc90bc46f4ba32683382e275f2d432bf6afccc5fe659873556383a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+[x2] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266760~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=51eab53c-95b1-4d87-9135-dc2537cc16f9~did=fe4433ae-b0cc-45bc-abff-e181b61aeb58~country=US~kid=k02~hmac=b223c92facbc90bc46f4ba32683382e275f2d432bf6afccc5fe659873556383a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+[x1] ABC News Live - ABC News
+  no audio track
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266760~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=51eab53c-95b1-4d87-9135-dc2537cc16f9~did=fe4433ae-b0cc-45bc-abff-e181b61aeb58~country=US~kid=k02~hmac=b223c92facbc90bc46f4ba32683382e275f2d432bf6afccc5fe659873556383a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+[x1] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266776~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=8c6f8daf-f073-4c28-a1d5-d9de187fdfb6~did=3ce374e1-3243-4c0f-8a98-7c99b7b6d4f0~country=US~kid=k02~hmac=07e2c0145559613d6695acba1ae134ef07a278dbd36530c47bedcd6b86136b57/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+[x1] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266776~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=8c6f8daf-f073-4c28-a1d5-d9de187fdfb6~did=3ce374e1-3243-4c0f-8a98-7c99b7b6d4f0~country=US~kid=k02~hmac=07e2c0145559613d6695acba1ae134ef07a278dbd36530c47bedcd6b86136b57/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+[x1] ABC News Live - ABC News
+  no audio track
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266776~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=8c6f8daf-f073-4c28-a1d5-d9de187fdfb6~did=3ce374e1-3243-4c0f-8a98-7c99b7b6d4f0~country=US~kid=k02~hmac=07e2c0145559613d6695acba1ae134ef07a278dbd36530c47bedcd6b86136b57/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+[x2] ABC News Live - ABC News
+  DRM protected (needs licence)
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266776~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=8c6f8daf-f073-4c28-a1d5-d9de187fdfb6~did=3ce374e1-3243-4c0f-8a98-7c99b7b6d4f0~country=US~kid=k02~hmac=07e2c0145559613d6695acba1ae134ef07a278dbd36530c47bedcd6b86136b57/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+[x1] ABC News Live - ABC News
+  no audio track
+  https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1791266776~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=8c6f8daf-f073-4c28-a1d5-d9de187fdfb6~did=3ce374e1-3243-4c0f-8a98-7c99b7b6d4f0~country=US~kid=k02~hmac=07e2c0145559613d6695acba1ae134ef07a278dbd36530c47bedcd6b86136b57/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+[x2] ABC News Live - ABC News
+  no audio track
+  https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+[x2] ABC News Live - ABC News
+  no audio track
+  https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+[x1] Watch Fox News Channel Online | Stream Fox News
+  no decodable media segment
+  https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1791183960~acl=/*~hmac=4b01b865a0613620e794809ad8ae0050ae668ac071060b8aad3868c7a5696a72
+[x1] Fox Business Go | Fox News Video
+  no decodable media segment
+  https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1791183960~acl=/*~hmac=4b01b865a0613620e794809ad8ae0050ae668ac071060b8aad3868c7a5696a72
+[x1] Watch CBS News 24/7, our free live news stream
+  no audio track
+  https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/662a62c0-40b3-423c-8fe2-c00f2b8be14f:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+[x1] Watch CBS News 24/7, our free live news stream
+  no audio track
+  https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/662a62c0-40b3-423c-8fe2-c00f2b8be14f:CHS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+[x14] Watch CBS News 24/7, our free live news stream
+  no audio track
+  https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/662a62c0-40b3-423c-8fe2-c00f2b8be14f:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
