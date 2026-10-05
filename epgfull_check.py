@@ -14,8 +14,11 @@ Regras checadas (as mesmas que o TiviMate aplica ao ler a URL do EPG):
   5. start < stop em todos os programas, com o formato
      AAAAMMDDHHMMSS +HHMM que o TiviMate le.
   6. Relatorio de quantos canais tem guia hoje/amanha, para ver a cobertura.
+  7. Como o aparelho ve: programa no ar agora e grade de hoje/amanha no fuso
+     do aparelho (o TiviMate converte cada programa para o fuso do aparelho, e
+     nao para o fuso gravado no arquivo).
 
-Uso:  python3 epgfull_check.py [EPGFULL.xml.gz] [NEWSWORLDNOVOS.m3u]
+Uso:  python3 epgfull_check.py [EPGFULL.xml.gz] [NEWSWORLDNOVOS.m3u] [fuso]
 """
 import gzip
 import re
@@ -23,9 +26,11 @@ import sys
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 EPG = sys.argv[1] if len(sys.argv) > 1 else "EPGFULL.xml.gz"
 M3U = sys.argv[2] if len(sys.argv) > 2 else "NEWSWORLDNOVOS.m3u"
+DEVICE_TZ = ZoneInfo(sys.argv[3] if len(sys.argv) > 3 else "America/Sao_Paulo")
 
 XMLTV_TIME = re.compile(r"^\d{14} [+-]\d{4}$")
 
@@ -237,6 +242,63 @@ def main():
             print(f"   {defined[cid][:24]:<24} agora: {s:%H:%M}-{e:%H:%M}  {name[:40]}")
         else:
             print(f"   {defined[cid][:24]:<24} sem programa neste instante")
+
+    # O TiviMate converte cada programa para o fuso do aparelho, entao a data
+    # que o usuario ve e a data local dele e nao a do atributo do arquivo.
+    print(f"\n8. Como o aparelho ve (fuso {DEVICE_TZ})")
+    now_local = now.astimezone(DEVICE_TZ)
+    base = now_local.replace(hour=0, minute=0, second=0, microsecond=0)
+    on_now = {}
+    for p in programmes:
+        s = parse_time(p.get("start", ""))
+        e = parse_time(p.get("stop", ""))
+        if s is None:
+            continue
+        if e is None or e <= s:
+            e = s + timedelta(hours=1)
+        s, e = s.astimezone(DEVICE_TZ), e.astimezone(DEVICE_TZ)
+        if s <= now_local < e:
+            t = p.find("title")
+            on_now.setdefault(p.get("channel"),
+                              (s, e, (t.text or "").strip() if t is not None else ""))
+    print(f"   agora: {len(on_now)}/{len(defined)} canais com programa no ar")
+    if not on_now:
+        problems.append("nenhum canal com programa no ar neste instante")
+
+    def day_hours(cid, day_start):
+        """Horas do dia local cobertas por programas do canal."""
+        end = day_start + timedelta(days=1)
+        covered = timedelta()
+        items = 0
+        for s, e in sorted(per_channel.get(cid, ()), key=lambda it: it[0]):
+            if s is None:
+                continue
+            if e is None or e <= s:
+                e = s + timedelta(hours=1)
+            s, e = s.astimezone(DEVICE_TZ), e.astimezone(DEVICE_TZ)
+            if s >= end or e <= day_start:
+                continue
+            items += 1
+            covered += (min(e, end) - max(s, day_start))
+        return covered, items
+
+    for offset in (0, 1):
+        day_start = base + timedelta(days=offset)
+        label = "hoje   " if offset == 0 else "amanha "
+        full = partial = empty = 0
+        for cid in defined:
+            hours, items = day_hours(cid, day_start)
+            if items == 0:
+                empty += 1
+            elif hours >= timedelta(hours=22):
+                full += 1
+            else:
+                partial += 1
+        print(f"   {label} {day_start:%d/%m}: {full} canais com dia cheio, "
+              f"{partial} parciais, {empty} sem grade")
+    for cid in sorted(on_now)[:10]:
+        s, e, name = on_now[cid]
+        print(f"   {defined[cid][:22]:<22} {s:%H:%M}-{e:%H:%M}  {name[:44]}")
 
     print("\n" + "=" * 72)
     if problems:

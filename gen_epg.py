@@ -227,7 +227,10 @@ ALIASES = {
     "Sony.ar": [("ar", "Canal.Sony.(Argentina).ar")],
     "AMC.ar": [("cl", "Canal.AMC.(Chile).cl")],  # sinal pan-regional, sem AR1
     "TelemundoInternacional.ar": [("mx", "Canal.Telemundo.(México).mx")],
-    "Telefe.ar": [("mx", "Canal.Telefe.Internacional.mx")],
+    # A grade da Argentina, e nao a do Telefe Internacional: o mesmo nome de
+    # canal com outra ordem de exibicao (a Internacional e 24/7, com repeticao
+    # de madrugada), gravada no horario do Mexico e 3 horas atrasada aqui.
+    "Telefe.ar": [("ar", "Canal.Telefé.(Argentina).ar")],
     # Chile
     "Chilevision.cl": [("cl", "Canal.Chilevisión.(CHV).cl")],
     "TVN.cl": [("cl", "Canal.TVN.(Chile).cl")],
