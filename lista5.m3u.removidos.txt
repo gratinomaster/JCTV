@@ -137,3 +137,31 @@ https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/17a518d
 [x14] Watch CBS News 24/7, our free live news stream
   no audio track
   https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/662a62c0-40b3-423c-8fe2-c00f2b8be14f:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+
+===== 20261006_023037 =====
+FAIL | ABC News Live - ABC News | HLS vazio (579B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1200_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (561B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/0020581b-0317-48fc-a3b1-75cbdb63924c/6faf-MAIN/03/128_complete.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (579B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1800_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (561B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/b3c805ac-7ca8-4878-a195-e8df97f0a124/r/e37ade25-0056-4cea-85fa-25cfed3cbe94/6f94-MAIN/03/128_complete.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (573B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/b3c805ac-7ca8-4878-a195-e8df97f0a124/r/5eae2e0d-d530-4812-b579-b23fe0005e19/6f94-MAIN/03/1800_complete-e2a39d1e-5208-4138-859a-8e21fc95be16.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (561B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/0020581b-0317-48fc-a3b1-75cbdb63924c/6faf-MAIN/03/128_complete.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (579B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1200_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (579B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1800_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (400B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/aaab1977-7d9b-46d3-b1ea-bbec93c8a5ee/r/24caeaeb-90b8-4930-82f8-2f2cfbb13e63/da3a-MAIN/03/1800_complete-7827f101-3bb0-43de-a035-d07d0c95b089.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (407B)
+     https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/aaab1977-7d9b-46d3-b1ea-bbec93c8a5ee/r/f96c2793-8db0-4e4a-98e9-4fa8de5debae/da3a-MAIN/03/128_complete.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (727B)
+     https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (1008B)
+     https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+FAIL | ABC News Live - ABC News | HLS vazio (1008B)
+     https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
