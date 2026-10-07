@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-01T20:59:33.648529+00:00",
+  "checked_at": "2026-10-07T15:29:42.470070+00:00",
   "results": [
     {
-      "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
+      "url": "https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8",
       "name": "ABC News Live",
       "host": "abcnews-livestreams.akamaized.net",
       "checks": {
@@ -33,12 +33,12 @@
       "variants": 3,
       "segs_ok": 2,
       "verdict": "PASS",
-      "final": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8"
+      "final": "https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8"
     },
     {
-      "url": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",
+      "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
       "name": "CBS News 24/7",
-      "host": "news20e7hhcb.airspace-cdn.cbsivideo.com",
+      "host": "cbsn-us.cbsnstream.cbsnews.com",
       "checks": {
         "L1_http_200_hls": true,
         "L2_is_channel": true,
@@ -57,51 +57,17 @@
       "kind": "master",
       "live": true,
       "video": {
-        "res": "1920x1080",
+        "res": "1280x720",
         "codec": "MPEG-TS"
       },
       "audio": {
         "rendition": "muxed",
         "ok": true
       },
-      "variants": 8,
+      "variants": 6,
       "segs_ok": 2,
       "verdict": "PASS",
-      "final": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8"
-    },
-    {
-      "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
-      "name": "CBS News East",
-      "host": "dai.google.com",
-      "checks": {
-        "L1_http_200_hls": true,
-        "L2_is_channel": true,
-        "L3_no_drm": true,
-        "L6_live": true,
-        "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
-        "L5_audio_present": true,
-        "L7_no_threats": true
-      },
-      "fail": [],
-      "threats": [],
-      "notes": [],
-      "http": 200,
-      "ctype": "application/x-mpegURL; charset=UTF-8",
-      "kind": "master",
-      "live": true,
-      "video": {
-        "res": "1920x1080",
-        "codec": "MPEG-TS"
-      },
-      "audio": {
-        "rendition": "muxed",
-        "ok": true
-      },
-      "variants": 8,
-      "segs_ok": 2,
-      "verdict": "PASS",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/aa2aaf37-a814-4e7b-80cb-3f5f8170dd61:ATL/master.m3u8"
+      "final": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8"
     },
     {
       "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
@@ -135,7 +101,7 @@
       "variants": 8,
       "segs_ok": 2,
       "verdict": "PASS",
-      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/8790d55f-ea7e-49bb-968b-633c031ed1e7:ATL/master.m3u8"
+      "final": "https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/ddfd54bb-7346-490b-bf3f-82f0bfc548b4:ATL/master.m3u8"
     },
     {
       "url": "https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8",
@@ -378,13 +344,16 @@
         "L3_no_drm": true,
         "L6_live": true,
         "L4_init_container": "MPEG-TS",
-        "L4_segments_decodable": true,
+        "L4_segments_decodable": false,
         "L5_audio_present": true,
         "L7_no_threats": true
       },
-      "fail": [],
+      "fail": [
+        "L4 no media segment could be fetched/decoded"
+      ],
       "threats": [],
       "notes": [
+        "segment HTTPError",
         "segment HTTPError"
       ],
       "http": 200,
@@ -400,8 +369,8 @@
         "ok": true
       },
       "variants": 1,
-      "segs_ok": 1,
-      "verdict": "PASS",
+      "segs_ok": 0,
+      "verdict": "FAIL",
       "final": "http://138.121.15.230:9002/FOX-NEWS/index.m3u8"
     },
     {
