@@ -1,1 +1,27 @@
-# canais removidos de lista5.m3u em 20261006_161359 (motivo: motivo)
+# remoções e correções de lista5.m3u em 20261007_050628
+
+## URLs descartadas da versão anterior
+- [token Disney+ com expiração embutida (dvt2=exp=... / cmaf-cenc Widevine) x2] ABC News Live (linear-abcnews-... .dssott.com) - substituída pelo master oficial claro da ABC News Live (abcnews-livestreams.akamaized.net)
+- [token Akamai expirado (hdnea=exp=1791338271) -> HTTP 403] Fox News (247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8) - substituída pelo feed oficial estável (247preview.foxnews.com ... primary.m3u8)
+- [token Akamai expirado (hdnea=exp=1791338272) -> HTTP 403] Fox Business (247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8) - substituída pelo feed oficial estável (247preview.foxbusiness.com ... primary.m3u8)
+- [sessão DAI do Google com variante fixa] CBS News 24/7 (dai.google.com/linear/hls/pa/...) - substituída pelo master permanente oficial (cbsn-us.cbsnstream.cbsnews.com)
+
+## Fontes testadas e rejeitadas
+- 138.121.15.230:9002/FOX-NEWS (720p + áudio, porém instável - 5/8 trilhas de segmento falham) -> não usada
+- 41.205.93.154/FOXBUSINESS -> 404
+- tvsen6.aynaott.com/foxbusiness -> 404
+- streamaway.net/us/fox-business -> inacessível
+- fl1..fl9.moveonjoy.com -> inacessível
+- live.bugz.su/fox* -> inacessível
+
+## EPG
+- URL inserida no arquivo (header #EXTM3U url-tvg / x-tvg-url):
+  https://iptv-epg.org/files/epg-us.xml.gz
+- Cobertura (programas de HOJE/AMANHÃ/DEPOIS): ABCNewsLive.us (41/40/40), CBSNews.us (28/28/28), FoxNewsChannel.us (20/20/20), FoxBusiness.us (22/22/29) - todas OK
+- tvg-ids reais, conferidos no próprio XML do EPG
+
+## Logos
+- Todos em .jpg, sem imgur: abcnews.jpg, cbsnews.jpg, foxnews.jpg, foxbusiness.jpg (servidos do repositório via raw.githubusercontent.com)
+
+## Observações
+- Fox News/Fox Business: o único feed oficial estável disponível é o 247preview (ao-vivo, DRM-free, sem ameaças no teste anti-virus). O 247.foxnews.com master exige token Akamai hdnea que expira em ~1 dia (403). O preview é vídeo-ao-vivo SEM trilha de áudio; este é o formato que a iptv-org/publiciptv atualmente lista para estes canais.
