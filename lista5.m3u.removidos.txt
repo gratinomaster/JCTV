@@ -25,3 +25,43 @@
 
 ## Observações
 - Fox News/Fox Business: o único feed oficial estável disponível é o 247preview (ao-vivo, DRM-free, sem ameaças no teste anti-virus). O 247.foxnews.com master exige token Akamai hdnea que expira em ~1 dia (403). O preview é vídeo-ao-vivo SEM trilha de áudio; este é o formato que a iptv-org/publiciptv atualmente lista para estes canais.
+# remoções e correções de lista5.m3u em 20261007_2119
+
+## Situação encontrada
+- 35 entradas / 71 linhas, todas `group-title="NEWS WORLD"`, SEM tvg-id e SEM url-tvg no header.
+- Mistura de variantes sub-rendition (DVR index, audio-only, variant/bandwidth) e tokens expirados.
+
+## URLs descartadas da versão anterior
+- [token Disney+ expirado dvt2=exp=... + DRM cmaf-cenc Widevine] ABC News Live (linear-abcnews-*.dssott.com, 12 entradas) -> substituída pelo master oficial claro abcnews-livestreams.akamaized.net
+- [sessão DAI do Google, URL de evento fixa] CBS News 24/7 (dai.google.com/linear/hls/..., 25 entradas, todas a mesma variant 4231000) -> substituída pelo master permanente oficial cbsn-us.cbsnstream.cbsnews.com
+- [variant/bandwidth e índice DVR redundantes] abcnews-livestreams .../abcn-live-10-index_3.m3u8 e ..._4_0.m3u8 (duplicatas) -> mantido só o master abcn-live-10-index.m3u8
+
+## Canais reintroduzidos (estavam ausentes na versão degradada)
+- Fox News e Fox Business voltaram à lista: https://tvsen6.aynaott.com/foxnews/index.m3u8 e .../foxbusiness/index.m3u8
+
+## Fontes testadas e rejeitadas nesta rodada
+- dssott.com / dai.google.com (ver acima)
+- 247.foxnews.com e 247.foxbusiness.com -> 403 (token hdnea expirado)
+- 247preview.foxnews.com / 247preview.foxbusiness.com -> PASS vídeo, REPROVADO no teste de áudio (L5)
+- 138.121.15.230:9002/FOX-NEWS -> instável (segmentos caem)
+- jmp2.uk -> 403 ; abcnews-streams/.../abcnewshudson1 -> FAIL ; dai.google.com -> sessão única
+
+## EPG (um único EPG para todos os canais)
+- Header: url-tvg + x-tvg-url = https://iptv-epg.org/files/epg-us.xml.gz (47 MB, application/gzip, XMLTV real)
+- url-tvg repetido também em cada #EXTINF (compatibilidade com players que leem por canal)
+- Programas de HOJE (20261007) / AMANHÃ (20261008) / DEPOIS (20261009):
+  ABCNewsLive.us 41/40/40 | CBSNews.us 28/28/28 | FoxNewsChannel.us 20/20/20 | FoxBusiness.us 22/22/29
+- tvg-ids conferidos no próprio XML do EPG (não inventados)
+- Afiliadas: não há afiliadas nesta lista (só canais nacionais) -> nenhum EPG extra necessário
+
+## Logos
+- Todos .jpg, 200, image/jpeg, magic ffd8, sem imgur.com:
+  keyframe-cdn.abcnews.com/streamprovider11.jpg
+  assets2.cbsnewsstatic.com/.../247-key-channelthumbnail-1920x1080.jpg
+  a57.foxnews.com/.../15de0523-.../image.jpg (Fox News)
+  a57.foxnews.com/.../c9b2e2eb-.../image.jpg (Fox Business)
+- Query string ?ve=1&tl=1 removida dos logos Fox para a URL terminar em .jpg
+
+## Validação final
+- python3 l5_verify.py -> 27/27 PASS (estrutura, sem duplicatas, sem sub-rendição, ao vivo + áudio,
+  anti-virus limpo, tvg-id único, logos .jpg vivos, EPG 200 + hoje/amanhã/depois, sem imgur/placeholders)
