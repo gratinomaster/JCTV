@@ -1,3 +1,8 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
-#EXTINF:-1 tvg-id="[UCLPLAY].UCL.TV.Unión.Continental.Latinoamérica.uy" tvg-name="UCL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Logo_Canal_U_%28Uruguay%29.png/330px-Logo_Canal_U_%28Uruguay%29.png" tvg-chno="2" group-title="URUGUAY - TV Aberta",UCL TV
+#EXTINF:-1 tvg-id="CANAL10.uy" tvg-name="Canal 10" tvg-logo="https://www.canal10.com.uy/assets/img/229/logo.png" tvg-chno="10" group-title="URUGUAY - TV Aberta",Canal 10 (Uruguay)
+https://cdnw1.zetatv.com.uy/live_edge/_definst_/amlst:2265/playlist.m3u8?token=4827d3ff-56fe-4ca4-980a-b682b1168c0e
+#EXTINF:-1 tvg-id="UCL.uy" tvg-name="UCL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Logo_Canal_U_%28Uruguay%29.png/330px-Logo_Canal_U_%28Uruguay%29.png" tvg-chno="2" group-title="URUGUAY - TV Aberta",UCL TV
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 tvg-id="CanalMas.uy" tvg-name="Canal Más" tvg-logo="https://canalmasuruguay.com/assets/logo.png" group-title="URUGUAY - TV Aberta",Canal Más
+#EXTVLCOPT:http-referrer=https://canalmasuruguay.com/
+https://canalmasuruguay.com/hls/master-abr.m3u8
