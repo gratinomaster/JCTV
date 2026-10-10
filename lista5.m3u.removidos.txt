@@ -1,72 +1,7 @@
-# remocoes de lista5.m3u em 20261008_052354
-
-## triagem de entradas (27)
-[token Disney+ com expiracao embutida] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791505292~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4c48ec30-fa6d-4cc8-909f-81882b66fc33~did=fd602a1d-d50d-4162-801e-362bff9ad1f8~country=US~kid=k02~hmac=ccfd9420709e49e0483f2ff72e2d3999798b16729f2e02a23dfb264e3157a361/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
-[somente audio (sem video)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791505292~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4c48ec30-fa6d-4cc8-909f-81882b66fc33~did=fd602a1d-d50d-4162-801e-362bff9ad1f8~country=US~kid=k02~hmac=ccfd9420709e49e0483f2ff72e2d3999798b16729f2e02a23dfb264e3157a361/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-[DRM (cmaf-cenc/Widevine) - exige licenca, nao toca em IPTV] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791505292~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4c48ec30-fa6d-4cc8-909f-81882b66fc33~did=fd602a1d-d50d-4162-801e-362bff9ad1f8~country=US~kid=k02~hmac=ccfd9420709e49e0483f2ff72e2d3999798b16729f2e02a23dfb264e3157a361/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-[VOD/ENDLIST (arquivo arquivado, nao e ao vivo)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/0020581b-0317-48fc-a3b1-75cbdb63924c/6faf-MAIN/03/128_complete.m3u8
-[VOD/ENDLIST (arquivo arquivado, nao e ao vivo)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1200_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
-[VOD/ENDLIST (arquivo arquivado, nao e ao vivo)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/r/512995e1-8ec2-4d4f-abf4-41a07bb769c6/6faf-MAIN/03/1800_complete-00433850-6473-4c47-bd00-4d7e9a18650d.m3u8
-[somente audio (sem video)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791505292~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4c48ec30-fa6d-4cc8-909f-81882b66fc33~did=fd602a1d-d50d-4162-801e-362bff9ad1f8~country=US~kid=k02~hmac=ccfd9420709e49e0483f2ff72e2d3999798b16729f2e02a23dfb264e3157a361/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-[DRM (cmaf-cenc/Widevine) - exige licenca, nao toca em IPTV] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791505292~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4c48ec30-fa6d-4cc8-909f-81882b66fc33~did=fd602a1d-d50d-4162-801e-362bff9ad1f8~country=US~kid=k02~hmac=ccfd9420709e49e0483f2ff72e2d3999798b16729f2e02a23dfb264e3157a361/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-[VOD/ENDLIST (arquivo arquivado, nao e ao vivo)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/int/ps01/disney/3e98db95-3e94-4572-b4b9-5775a7521304/r/0f8b39f7-93f9-4cc8-b689-972488b6e951/ffc9-MAIN/03/128_complete.m3u8
-[VOD/ENDLIST (arquivo arquivado, nao e ao vivo)] ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/int/ps01/disney/3e98db95-3e94-4572-b4b9-5775a7521304/r/6ff12df7-95c3-47a7-a421-9c7e6cbf5637/ffc9-MAIN/03/1200_complete-1bd9a1a4-70a2-4846-9b5d-c9cb6753d2e4.m3u8
-[URL duplicada] Video Tracking Isaias as it heads toward a Gulf Coast landfall Friday | Watch Li
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-[URL duplicada] Video Tracking Isaias as it heads toward a Gulf Coast landfall Friday | Watch Li
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/master.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-[token de sessao DAI 'pa' com variante fixa (expira)] our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/9399fc5b-ccdd-435e-91d9-f4e7712df4c4:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-
-## streams reprovados no teste anti-virus/vivo (0)
-
-## canais reprovados na validacao final (0)
-
-## URLs substituidas
-- CBS News 24/7: dai.google.com/linear/hls/pa/event/<sessao>/variant/... -> cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8. O caminho antigo fixava as variantes de uma sessao DAI que expira; a origem nova e o master HLS permanente da propria CBS News.
-- ABC News Live: linear-abcnews-.../dvt2=exp=.../cmaf-cenc/... -> abcnews-livestreams.akamaized.net/out/v1/.../abcn-live-10-index.m3u8. O caminho antigo era Disney+ com DRM cmaf-cenc (Widevine) e token exp=1791225014 (2026-10-05 18:30 UTC); o novo e o master clear oficial da ABC News.
-
-## cobertura de EPG (programas por dia)
-- ABCNewsLive.us: 1008=40, 1009=40, 1010=34
-- CBSNews.us: 1008=28, 1009=28, 1010=30
-
-## fontes de EPG usadas
-- https://iptv-epg.org/files/epg-us.xml.gz
+# removidos de lista5.m3u em 20261010_074523 (motivo)
+[apenas audio (sem video)] ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791704338~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=bde6afad-f148-4a0c-9c7e-079f2deec9bf~did=674be11f-648b-4308-a405-6769c9e9dc24~country=US~kid=k02~hmac=c315e61543b98a16d8c9b8fd86065c37682de0623281466816ed1a7829c3e910/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+[apenas audio (sem video)] ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/c2f2e171-d4d0-4e8d-b860-944bec6f19db/r/8de83612-38ea-4fdc-a713-5ebef8266476/5213-MAIN/03/128_complete.m3u8
+[apenas audio (sem video)] ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791704338~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=bde6afad-f148-4a0c-9c7e-079f2deec9bf~did=674be11f-648b-4308-a405-6769c9e9dc24~country=US~kid=k02~hmac=c315e61543b98a16d8c9b8fd86065c37682de0623281466816ed1a7829c3e910/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
