@@ -6,3 +6,7 @@ https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 #EXTINF:-1 tvg-name="Canal Más" tvg-logo="https://canalmasuruguay.com/assets/logo.png" group-title="URUGUAY - TV Aberta",Canal Más
 #EXTVLCOPT:http-referrer=https://canalmasuruguay.com/
 https://canalmasuruguay.com/hls/master-abr.m3u8
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
+# Nota: a transmissão 24/7 exclusiva da casa (sem reprises) fica no Antel TV / DGO (requer conta). Este canal aponta para o sinal ao vivo oficial do Canal 10, onde o Gran Hermano Uruguay é exibido.
+#EXTINF:-1 tvg-id="CANAL10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA",Gran Hermano Uruguay 24/7 (Canal 10)
+https://cdnw1.zetatv.com.uy/live_edge/_definst_/amlst:2265/playlist.m3u8?token=bd459f64-1523-457e-bb97-4151876428a2
