@@ -1,5 +1,0 @@
-#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_US.xml.gz"
-#EXTINF:-1 tvg-id="465150" tvg-name="ABC News Live" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" url-tvg="https://epg.pw/xmltv/epg_US.xml.gz" group-title="NEWS WORLD",ABC News Live
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/da4406cf-adae-40ed-8ac3-a50cdb775102/unenc-all-f06b61ba-6bf9-435c-884e-b08dae877878-3433d499-cf17-43ab-89ed-9921a56ec6e4.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-id="464941" tvg-name="CBS News 24/7" tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" url-tvg="https://epg.pw/xmltv/epg_US.xml.gz" group-title="NEWS WORLD",CBS News 24/7
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/45c7bc64-f1cd-4f4d-8350-8ea223619f97:TUL/master.m3u8

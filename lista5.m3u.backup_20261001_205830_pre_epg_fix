@@ -1,7 +1,0 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"
-#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://raw.githubusercontent.com/gratinomaster/JCTV/main/abcnews.jpg" group-title="NEWS WORLD" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",ABC News Live
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News National Stream" tvg-logo="https://raw.githubusercontent.com/gratinomaster/JCTV/main/cbsnews.jpg" group-title="NEWS WORLD" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",CBS News 24/7
-https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
-#EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS Streaming SD East feed" tvg-logo="https://raw.githubusercontent.com/gratinomaster/JCTV/main/cbsnews.jpg" group-title="NEWS WORLD" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",CBS News East
-https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
