@@ -1,7 +1,30 @@
-# removidos de lista5.m3u em 20261010_074523 (motivo)
-[apenas audio (sem video)] ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791704338~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=bde6afad-f148-4a0c-9c7e-079f2deec9bf~did=674be11f-648b-4308-a405-6769c9e9dc24~country=US~kid=k02~hmac=c315e61543b98a16d8c9b8fd86065c37682de0623281466816ed1a7829c3e910/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-[apenas audio (sem video)] ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/c2f2e171-d4d0-4e8d-b860-944bec6f19db/r/8de83612-38ea-4fdc-a713-5ebef8266476/5213-MAIN/03/128_complete.m3u8
-[apenas audio (sem video)] ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791704338~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=bde6afad-f148-4a0c-9c7e-079f2deec9bf~did=674be11f-648b-4308-a405-6769c9e9dc24~country=US~kid=k02~hmac=c315e61543b98a16d8c9b8fd86065c37682de0623281466816ed1a7829c3e910/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+# remocoes/reparos do lista5.m3u
+
+## Consolidacao de canais (35 -> 4)
+- Removidas 31 entradas duplicadas/variantes de bitrate (ABC News x29, CBS News x20,
+  que apontavam para o mesmo canal ou para variantes/segmentos isolados).
+- Removidos links DRM (cmaf-cenc/Widevine) e tokens de sessao que expiram:
+  * ABC Disney+ `dvt2=exp=...` (token assinado)
+  * CBS `dai.google.com/.../pa/...` (sessao DAI com variante fixa)
+
+## Substituicoes de URL (por estabilidade)
+- ABC News Live: -> master clear oficial
+  https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
+- CBS News 24/7: -> master clear oficial
+  https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+- FOX News Channel: token Akamai `hdnea=exp=...` (expirava em horas) -> preview estavel
+  https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+- Fox Business Network: token Akamai `hdnea=exp=...` -> preview estavel
+  https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
+
+## Logos
+- Todos os tvg-logo agora sao .jpg, hospedados no proprio repo (fora do imgur.com).
+
+## EPG
+- url-tvg aponta para EPGNEWS.xml.gz (tvg-ids reais da fonte epgshare01):
+  ABC.News.Live.us2 / CBS.News.National.Stream.us2 / Fox.News.Channel.HD.us2 / Fox.Business.HD.us2
+- Testado hoje / amanha / depois de amanha: 4/4 canais com grade nos 3 dias.
+
+## Teste anti-virus / stream
+- Todos os 4 canais passaram: manifesto -> variante -> segmento de video (MPEG-TS/fMP4),
+  sem HTML injetado, sem executaveis, sem DRM, sem HTTP.
