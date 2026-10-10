@@ -992,11 +992,20 @@ def channel_block_from_m3u(cid, info):
 
 
 def ensure_icon(channel_block, info):
-    """Se o <channel> da fonte veio sem <icon>, usa o logo da playlist."""
-    if not channel_block or "<icon" in channel_block or not info.get("logo"):
+    """Se o <channel> da fonte veio sem <icon> (ou com src vazio), usa o logo
+    da playlist. Um <icon src=""/> nao e aceito pelos validadores XMLTV e
+    aparece como logo quebrado no TiviMate."""
+    if not channel_block or not info.get("logo"):
         return channel_block
+    logo = sax.escape(info["logo"])
+    match = re.search(r'<icon\s+src="([^"]*)"', channel_block)
+    if match and match.group(1):
+        return channel_block
+    if match:
+        return re.sub(r'<icon\s+src="[^"]*"\s*/>',
+                      f'<icon src="{logo}"/>', channel_block)
     return channel_block.replace(
-        "</channel>", f'    <icon src="{sax.escape(info["logo"])}"/>\n</channel>'
+        "</channel>", f'  <icon src="{logo}"/>\n</channel>'
     )
 
 
