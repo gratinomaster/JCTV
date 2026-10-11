@@ -1,2 +1,5 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
-# Nota: a transmissão 24/7 exclusiva da casa (sem reprises) fica no Antel TV / DGO (requer conta). Este canal aponta para o sinal ao vivo oficial do Canal 10, onde o Gran Hermano Uruguay é exibido.
+# Gran Hermano Uruguay - somente a temporada atual (estreia 20/09/2026), sem reprises de edicoes antigas.
+# A casa 24/7 (transmissao continua sem reprises) e exclusiva do Antel TV / DGO Free no Uruguai e exige login, portanto nao existe HLS publico e livre. A entrada abaixo aponta para a transmissao oficial ao vivo do Canal 10 (SAETA), emissora do Gran Hermano Uruguay.
+#EXTINF:-1 tvg-id="CANAL10.uy" tvg-name="Canal 10 Uruguay" tvg-logo="https://www.canal10.com.uy/css-custom/229/images/ogimage-canal10.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay (Canal 10)
+https://www.canal10.com.uy/contenidos/vivo.html

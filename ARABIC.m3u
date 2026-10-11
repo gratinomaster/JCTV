@@ -1,7 +1,13 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1100" tvg-id="מכאן.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/9c4d06f23c39437d8d0e192526b05ecc/version/2",מכאן 33
-https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="0400" tvg-id="AlJazeera.Arabic.net" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png",Al Jazeera Arabic
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="400" tvg-id="Al.Jazeera.HD.ae" tvg-name="Al Jazeera Arabic" tvg-logo="https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540",Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/03.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="410" tvg-id="Al.Arabiya.HD.ae" tvg-name="Al Arabiya" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-arab-emirates/al-arabiya-ae.png",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="420" tvg-id="Sky.News.Arabia.HD.ae" tvg-name="Sky News Arabia" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/sky-news-arabia-mea.png",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1100" tvg-id="מכאן.il" tvg-name="Makan 33" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/makan-33-il.png",Makan 33
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
