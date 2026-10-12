@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse https://tviplayer.iol.pt/ultimos
+          acesse https://www.rtve.es/
           entre em cada um dos links
           use crawl4ai
           salve em VOD.m3u e salve só ele 
