@@ -28,10 +28,11 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse https://tviplayer.iol.pt/
+          acesse https://tviplayer.iol.pt/ultimos
           entre em cada um dos links
           use crawl4ai
           salve em VOD.m3u e salve só ele 
+          use group-title="VOD"
           EOF
 
       - name: Run OpenCode
