@@ -1,0 +1,79 @@
+name: VOD
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */8 * * *"
+
+concurrency:
+  group: newsworld-playlist
+  cancel-in-progress: false
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Create prompt
+        run: |
+          cat << 'EOF' > prompt.txt
+          acesse https://www.google.com/search?q=rtp&sca_esv=4c56c920eaf0b657&udm=vids&biw=1528&bih=732&tbs=qdr%3Ad&sxsrf=APpeQns5pe_IkcCACzvPHgkdmwaASNtHaA%3A1791776213601&ei=1VXMasufJPqj1sQPgM-S8Qo&ved=2ahUKEwiL3unFxrOXAxX6kZUCHYCnJK4Q4dUDegQIBRAM&uact=5&oq=rtp&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIgNydHAyChAAGIAEGIoFGEMyCBAAGIAEGLEDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgUQABiABDIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAESNkQUPwIWPIOcAN4AJABAJgBb6ABpgOqAQMwLjS4AQPIAQD4AQGYAgagAsQDqAIAwgINEAAYgAQYigUYQxixA8ICBhAAGAcYHsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYigUYsQMYgwGYAwKIBgGSBwMyLjSgB74SsgcDMC40uAe5A8IHBTAuMi40yAcTgAgB&sclient=gws-wiz-modeless-video
+          entre em cada um dos links
+          use crawl4ai
+          salve em VOD.m3u e salve só ele 
+          EOF
+
+      - name: Run OpenCode
+        run: |
+          echo "Executando OpenCode..."
+          opencode run "$(cat prompt.txt)"
+
+      - name: Check generated files
+        run: |
+          echo "Arquivos no diretório:"
+          ls -la
+
+          if [ -f lista5.m3u ]; then
+            echo "Playlist criada:"
+            cat lista5.m3u
+          else
+            echo "lista5.m3u não foi criado"
+          fi
+
+      - name: Commit and Push safely
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add . || true
+          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
+
+          # tenta sincronizar e enviar sem sobrescrever ninguém
+          for i in {1..10}; do
+            echo "Tentativa $i de push..."
+
+            git fetch origin
+
+            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
+              echo "Conflito no rebase, abortando e tentando novamente..."
+              git rebase --abort
+              sleep 5
+              continue
+            }
+
+            git push origin HEAD && break
+
+            echo "Push falhou, tentando novamente em 5s..."
+            sleep 5
+          done
