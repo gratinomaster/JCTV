@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse https://www.rtp.pt/play/
+          acesse https://tviplayer.iol.pt/
           entre em cada um dos links
           use crawl4ai
           salve em VOD.m3u e salve só ele 
