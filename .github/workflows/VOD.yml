@@ -1,4 +1,4 @@
-name: NEWSWORLD
+name: VOD
 
 on:
   workflow_dispatch:
@@ -29,6 +29,7 @@ jobs:
         run: |
           cat << 'EOF' > prompt.txt
           acesse https://www.google.com/search?q=rtp+memoria&sca_esv=4c56c920eaf0b657&udm=vids&sxsrf=APpeQntbmGTSIVN2tmNrAVx7FSbPvVspqw:1791775864328&source=lnt&tbs=qdr:w&sa=X&ved=2ahUKEwj446OfxbOXAxULkZUCHewxByMQpwV6BAgHEBI&biw=1528&bih=732&dpr=1.25
+          entre em cada um dos links
           salve em VOD.m3u e salve só ele 
           EOF
 
