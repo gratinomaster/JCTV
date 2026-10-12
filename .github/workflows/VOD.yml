@@ -32,6 +32,7 @@ jobs:
           entre em cada um dos links
           use crawl4ai
           salve em VOD.m3u e salve só ele 
+          use group-title="RTP"
           EOF
 
       - name: Run OpenCode
