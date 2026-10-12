@@ -1,51 +1,409 @@
 #EXTM3U
-#EXTINF:-1 group-title="VOD" tvg-id="RTP1.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-372126260903.png",RTP1
+#EXTINF:-1 group-title="Direto" tvg-id="cnn",CNN Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTP2.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/3-331826260903.png",RTP2
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth4.iol.pt/live_cnn/live_cnn/playlist.m3u8
+#EXTINF:-1 group-title="Direto" tvg-id="tvi",TVI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPNoticias.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-042825131610.png",RTP Notícias
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth5.iol.pt/live_tvi/live_tvi/playlist.m3u8
+#EXTINF:-1 group-title="Direto" tvg-id="tvificcao",TVI Ficção
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp3
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPMemoria.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/80-072426260903.png",RTP Memória
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth6.iol.pt/live_tvi_ficcao/live_tvi_ficcao/playlist.m3u8
+#EXTINF:-1 group-title="Direto" tvg-id="tviinternacional",TVI Internacional
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpmemoria
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPMundo.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/120-312926260903.png",RTP Mundo
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth4.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8
+#EXTINF:-1 group-title="Direto" tvg-id="tvireality",TVI Reality
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpinternacional
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPMadeira.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/107-303426260903.png",RTP Madeira
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/playlist.m3u8
+#EXTINF:-1 group-title="Direto" tvg-id="vmais",V+ TVI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpmadeira
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPAcores.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-333926260903.png",RTP Açores
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://video-auth5.iol.pt/live_vmais/live_vmais/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta",A Madrasta - Diana quer separar-se de Pedro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpacores
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPAfrica.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/27-272226260903.png",RTP África
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/e/d/5/b/smil:6ac6cca60cf299bc2953ed5b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta",A Madrasta - Pedro volta a pôr em causa a inocência de Diana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpafrica
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPZigZag.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1036-552626260903.png",RTP Zig Zag
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/8/8/1/smil:6ac81dfe0cf20dc527791881-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta",A Madrasta: Cajó revela quem vai gerir a sua fortuna
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/zigzag/direto/tv
-https://streaming-live.rtp.pt/liverepeater/smil:zigzagHD.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="RTPDesporto4.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1076-481026211309.png",RTP Desporto 4
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/0/8/e/smil:6ac9fdfe0cf22b9f8905108e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc5b2d34e511da0b30eee/og/tviplayer",Amor Seguro - Episódio 1 - O primeiro dia de Carla no novo trabalho começa da pior maneira
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpdesporto4
-https://streaming-live.rtp.pt/liverepeater/smil:desporto4.smil/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/6/1/smil:6a6cad2b0cf2f6a1a1e72961-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6ccb0bd34ed0733ba7d7dc/og/tviplayer",Amor Seguro - Episódio 10 - Carla vê fotografia da mãe no escritório de Henrique
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/c/smil:6a6cacb60cf2f6a1a1e7295c-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a70a483d34ed0733ba7de54/og/tviplayer",Amor Seguro - Episódio 11 - Carla prova que é a fotografia da mãe que está no escritório de Henrique
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/c/6/0/4/smil:6a6cac830cf2b42132dbc604-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a70a4ffd34ed0733ba7de57/og/tviplayer",Amor Seguro - Episódio 12 - Carla descobre que a mãe era dona da empresa e Henrique pede-lhe segredo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/6/0/3/smil:6a6cac7e0cf2b42132dbc603-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a70a551d34e511da0b31597/og/tviplayer",Amor Seguro - Episódio 13 - Andreia deita café propositadamente na camisa de Carla
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/6/0/7/smil:6a6caca70cf2b42132dbc607-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a70a59ad34e511da0b3159a/og/tviplayer",Amor Seguro - Episódio 14 - Andreia acusa Carla de a agredir
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/6/0/1/smil:6a6cac620cf2b42132dbc601-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a70a8b4d34ed0733ba7de70/og/tviplayer",Amor Seguro - Episódio 15 - Henrique faz aviso a Carla e diz-lhe que a mãe ia ficar desiludida com a sua atitude
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/7/smil:6a6cac440cf2f6a1a1e72957-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc686d34e511da0b30ef2/og/tviplayer",Amor Seguro - Episódio 2 - Carla arrisca ser despedida no primeiro dia de trabalho
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/6/0/b/smil:6a6cad340cf2b42132dbc60b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc6f7d34e511da0b30ef4/og/tviplayer",Amor Seguro - Episódio 3 - Carla percebe que Henrique e Andreia são os seus novos chefes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/f/smil:6a6cad050cf2f6a1a1e7295f-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc748d34e511da0b30ef5/og/tviplayer",Amor Seguro - Episódio 4 - Henrique e Andreia negam boleia a Carla
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/2/9/6/2/smil:6a6cad370cf2f6a1a1e72962-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc78ed34e511da0b30ef9/og/tviplayer",Amor Seguro - Episódio 5 - Andreia faz uma cena de ciúmes e Henrique recorda o seu plano
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/6/0/9/smil:6a6cad080cf2b42132dbc609-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc7d7d34ed0733ba7d7ce/og/tviplayer",Amor Seguro - Episódio 6 - Carla é 'salva' por Xavier
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/c/6/0/8/smil:6a6cad050cf2b42132dbc608-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc953d34ed0733ba7d7d5/og/tviplayer",Amor Seguro - Episódio 7 - Andreia ameaça Carla
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/e/smil:6a6cace60cf2f6a1a1e7295e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cc9dcd34ed0733ba7d7d7/og/tviplayer",Amor Seguro - Episódio 8 - Henrique pressiona Carla
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/d/smil:6a6cacdf0cf2f6a1a1e7295d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="amor-seguro" tvg-logo="https://img.iol.pt/preset/6a6cca5dd34ed0733ba7d7d9/og/tviplayer",Amor Seguro - Episódio 9 - Carla é apanhada a ouvir conversa de Henrique
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/2/9/5/b/smil:6a6cac900cf2f6a1a1e7295b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accea950cf23b0ed4fddf70/og/tviplayer",Big Brother - A conversa que todos esperavam: Miranda e Francisco explicam a relação entre ambos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/5/8/smil:6acce2cc0cf23b0ed4fddf58-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd1e740cf20dc527791ea8/og/tviplayer",Big Brother - Amizade de Sónia e Helena já teve melhores dias e este foi o momento da rotura que levou a concorrente às lágrimas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/a/3/smil:6acd1dd00cf20dc527791ea3-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accf4790cf22b9f890513bb/og/tviplayer",Big Brother - Carlos lança farpa sobre 'gostos'. E esta é a reação de Catarina Miranda e de Daniela
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/3/d/smil:6acceee40cf20dc527791e3d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd0f9d0cf299bc29541f47/og/tviplayer",Big Brother - Clima aquece: Profissão de Carlos Sousa faz furor na casa e Helena e Daniela ficam boquiabertas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/f/4/6/smil:6acd0f150cf299bc29541f46-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd19060cf22b9f89051409/og/tviplayer",Big Brother - Entrada de novos concorrentes gera posições vincadas. E ninguém estava a contar com estas escolhas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/4/0/7/smil:6acd18680cf22b9f89051407-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accc8420cf299bc29541ea8/og/tviplayer",Big Brother - Fim da amizade? Sónia Jesus não perdoa Helena Isabel: «Já tive os sinais suficientes para a colocar como perigosa»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/3/0/smil:6accc7d50cf23b0ed4fddf30-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd1fee0cf23b0ed4fddfe2/og/tviplayer",Big Brother - Flirt em alta. Helena fica em êxtase ao ver Carlos treinar e o ambiente aquece: «Tirava-te o brinco e as tatuagens...»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/a/9/smil:6acd1f100cf20dc527791ea9-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accdb7c0cf20dc527791e17/og/tviplayer",Big Brother - Francisco Monteiro não deixa nada por dizer sobre polémicas com Renata: «Ela não pode entrar aqui e virar o bico ao prego»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/5/f/smil:6acccc1d0cf22b9f8905135f-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acceb610cf20dc527791e37/og/tviplayer",Big Brother - Francisco Monteiro recebe 'abre olhos' de Joana Albuquerque sobre a sua relação: «Tens que fazê-lo por ti»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/5/f/smil:6accea180cf23b0ed4fddf5f-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd02470cf299bc29541f1a/og/tviplayer",Big Brother - Helena Isabel pede desculpa a Sónia por não a ter apoiado no momento de aflição: «Eu não sou um cubo de gelo»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/9/8/smil:6acd00110cf23b0ed4fddf98-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd15a70cf23b0ed4fddfc2/og/tviplayer",Big Brother - Helena não perdoa falta de atenção de Sónia ao colocar Ana no quarto do líder: «Ela sabia, a casa toda sabe!»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/4/0/0/smil:6acd14d50cf22b9f89051400-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd1bf40cf22b9f89051415/og/tviplayer",Big Brother - Incompreendida ou vilã? Helena Isabel no centro das acusações
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/9/7/smil:6acd1b500cf20dc527791e97-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc8e910cf23b0ed4fdde54/og/tviplayer",Big Brother - Jéssica grita como nunca e arrasa Helena: «O jogo dela passa sempre por ter uma companhia masculina»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/d/1/3/smil:6acc8c0f0cf20dc527791d13-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd12890cf22b9f890513fe/og/tviplayer",Big Brother - Luís mudou com a chegada dos novos concorrentes? Concorrente fica sem resposta às acusações de Miranda
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/7/d/smil:6acd11d50cf20dc527791e7d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accf9ce0cf20dc527791e4f/og/tviplayer",Big Brother - Líder Sónia revoluciona por completo a dinâmica das limpezas e a as reações não se fizeram esperar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/4/d/smil:6accf83c0cf20dc527791e4d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6aca88790cf20dc527791b88/og/tviplayer",Big Brother - Miguel e Francisco discutem e o motivo é a ex-namorada de ambos: «Bárbara Parada, conheces? Diz-te alguma coisa?»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/b/8/3/smil:6aca85c60cf20dc527791b83-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accc9d20cf22b9f89051353/og/tviplayer",Big Brother - Nada fica por dizer! Francisco Monteiro critica Helena Isabel: «Ela mentiu-nos na cara»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/a/6/smil:6accc5f60cf299bc29541ea6-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd059e0cf20dc527791e60/og/tviplayer",Big Brother - Ninguém esperava: Joana Albuquerque desaba em lágrimas e admite a Francisco Monteiro: «Eu ouvi sem querer e fiquei mesmo triste»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/3/d/1/smil:6acd048c0cf22b9f890513d1-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc0b73d34e9a786e75bceb/og/tviplayer",Big Brother - O sonho da televisão, perdas, o amor e uma relação que foi um «terror»: Esta é a Curva da Vida de Catarina Miranda
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/d/e/2/7/smil:6acc0ad80cf23b0ed4fdde27-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accf24a0cf20dc527791e44/og/tviplayer",Big Brother - Posicionamento de Sónia levanta dúvidas a Miguel Vicente. E o motivo está relacionado com a discussão entre a concorrente e Zaza
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/d/f/8/4/smil:6accf09a0cf23b0ed4fddf84-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd0d010cf299bc29541f42/og/tviplayer",Big Brother - Postura de Luís é altamente condenada e o concorrente recebe aviso de Hélder e Carlos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/d/f/b/2/smil:6acd0c7b0cf23b0ed4fddfb2-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd17b30cf20dc527791e86/og/tviplayer",Big Brother - Prova semanal a todo o pedal: Dentro da casa, os concorrentes vão passar pelas suas terras de coração. Veja qual foi a aposta
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/8/3/smil:6acd17200cf20dc527791e83-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accf3590cf23b0ed4fddf88/og/tviplayer",Big Brother - Renata tentou minar a amizade entre Sónia e Francisco Monteiro? Eis a polémica que está a dar que falar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/4/6/smil:6accf2c40cf20dc527791e46-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd11550cf23b0ed4fddfbd/og/tviplayer",Big Brother - Sem filtros, Catarina Miranda grita a Luís: «Estás apaixonado por mim». E esta é a reação
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/7/c/smil:6acd10b40cf20dc527791e7c-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc99c30cf20dc527791d41/og/tviplayer",Big Brother - Sónia Jesus a soluçar, num choro compulsivo. E o motivo não podia ser mais especial
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/2/9/e/smil:6acc96f80cf22b9f8905129e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accddcf0cf20dc527791e1a/og/tviplayer",Big Brother - Tenso! Sónia aproveita dinâmica para arrasar Kina
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/3/7/b/smil:6accdcf00cf22b9f8905137b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acd0e9a0cf22b9f890513f4/og/tviplayer",Big Brother - Uma espera longa: Miguel incorpora um fadista e leva Miranda ao desespero
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/d/f/b/5/smil:6acd0e020cf23b0ed4fddfb5-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6accb2290cf22b9f890512f3/og/tviplayer",Big Brother - «Sim senhora!»: Helena Isabel “apanha” Carlos Sousa a treinar. E não resiste em tocar-lhe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/d/a/2/smil:6accb1e70cf20dc527791da2-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acb35640cf20dc527791bd7/og/tviplayer",Big Brother All Stars - Extra - 10 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/1/3/e/smil:6acad27d0cf22b9f8905113e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc97a2d34e53c759c75fe5/og/tviplayer",Big Brother All Stars - Gala - 11 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/d/5/1/smil:6acc9f770cf20dc527791d51-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf8a3d34e9a786e75be0d/og/tviplayer",Campeoes e Detectives - Campeões e Detectives - «Pais contra filhos»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/4/9/smil:6accf59b0cf20dc527791e49-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf893d34e53c759c760dd/og/tviplayer",Campeoes e Detectives - Campeões e Detectives - «Um clube a sério - Parte II»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/b/e/smil:6accf52e0cf22b9f890513be-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf83dd34e53c759c760d8/og/tviplayer",Campeoes e Detectives - Campeões e Detectives - «Um clube a sério»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/d/f/8/b/smil:6accf57b0cf23b0ed4fddf8b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accde56d34e53c759c7609b/og/tviplayer",Campeoes e Detectives - Campeões e Detectives - «Uma bolada no vidro - Parte II»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/b/3/smil:6acccac80cf299bc29541eb3-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accdde8d34e9a786e75bdd7/og/tviplayer",Campeoes e Detectives - Campeões e Detectives - «Uma bolada no vidro»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/5/6/smil:6acccac70cf22b9f89051356-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-express" tvg-logo="https://img.iol.pt/preset/6acd04240cf22b9f890513d0/og/tviplayer",CNN Express - 12 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/3/b/9/smil:6accf3540cf22b9f890513b9-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-inovacao" tvg-logo="https://img.iol.pt/preset/6accc67ad34e9a786e75bdb1/og/tviplayer",Cnn Inovacao - CNN Inovação - AECA: Qualify.Teca 25
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/4/8/smil:6accc4b90cf22b9f89051348-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-inovacao" tvg-logo="https://img.iol.pt/preset/6accc678d34e53c759c7606f/og/tviplayer",Cnn Inovacao - CNN Inovação - B2E Colab: Pep4Fish
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/2/1/smil:6accc4bd0cf23b0ed4fddf21-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-mais-futebol" tvg-logo="https://img.iol.pt/preset/6accf1230cf20dc527791e42/og/tviplayer",CNN Mais Futebol - Entrevista a Cristiano Ronaldo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/e/0/smil:6acce5c80cf299bc29541ee0-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-negocios" tvg-logo="https://img.iol.pt/preset/6acce1950cf23b0ed4fddf56/og/tviplayer",Cnn Negocios - CNN Negócios - 13H - 12 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/3/7/0/smil:6accd2e90cf22b9f89051370-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="cnn-sabado" tvg-logo="https://img.iol.pt/preset/6aca7134d34e53c759c75d27/og/tviplayer",Cnn Sabado - O mistério das 'Botas Verdes' no Evereste chegou ao fim. Afinal, quem era?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/0/e/6/smil:6aca6f3e0cf22b9f890510e6-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="coracao-de-mae",Coracao de Mae - Choque total em «Coração de Mãe»: Linda apanha João e Rute aos beijos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/e/b/d/d/smil:6ac6c4030cf20dc52778ebdd-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="coracao-de-mae",Coracao de Mae - Coração de Mãe: Guga recebe uma notícia inesperada, Bento é vítima de uma agressão e Rute emociona-se
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/c/8/2/smil:6ac9f85b0cf23b0ed4fddc82-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="coracao-de-mae",Coracao de Mae - Coração de Mãe: João e Linda enfrentam-se após o beijo na boca a Rute. E o momento é de partir o coração
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/9/3/5/smil:6ac8154e0cf299bc29541935-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6accaf8ed34e53c759c76017/og/tviplayer",Dois as 10 - Cristina Ferreira e Cláudio Ramos «apanham» Francisco Monteiro a chorar e pedem para ir em direto à casa do Big Brother All Stars
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/e/3/0/smil:6accae090cf299bc29541e30-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6accb81bd34e9a786e75bd7b/og/tviplayer",Dois as 10 - David Diamond teme o pior sobre Francisco Monteiro e deixa alerta: «Confronto físico direto»
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/0/2/smil:6accb6e70cf22b9f89051302-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6accbea5d34e9a786e75bd9b/og/tviplayer",Dois as 10 - Dois às 10 - A primeira entrevista de David Diamond após a expulsão do Big Brother All Stars
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/7/2/smil:6accd4b50cf22b9f89051372-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6acccbc6d34e53c759c7607c/og/tviplayer",Dois as 10 - PSP sob investigação após vídeo mostrar agentes a agredir dois homens em Portimão
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/b/4/smil:6acccaf90cf299bc29541eb4-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4fba32d34e511da0b2c355/og/tviplayer",Episódio 1 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/7/6/a/e/smil:6a4646ce0cf2d0ed34b876ae-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47a7e8d34edcee7c660492/og/tviplayer",Episódio 10 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/6/e/2/b/smil:6a4646d70cf21fcd83776e2b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4d2c68d34ef04b4f3f4ee0/og/tviplayer",Episódio 11 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/9/3/3/b/smil:6a4cc23f0cf2b42132db933b-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4d321fd34e511da0b2bb86/og/tviplayer",Episódio 12 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/f/5/2/3/smil:6a4cc2540cf2f6a1a1e6f523-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4d325fd34ef04b4f3f4f17/og/tviplayer",Episódio 13 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/f/5/2/4/smil:6a4cc2590cf2f6a1a1e6f524-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4d32c9d34e511da0b2bbbe/og/tviplayer",Episódio 14 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/9/3/3/c/smil:6a4cc2670cf2b42132db933c-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4d3310d34ef04b4f3f4f4d/og/tviplayer",Episódio 15 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/9/3/3/d/smil:6a4cc29a0cf2b42132db933d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a4fbab7d34e511da0b2c356/og/tviplayer",Episódio 2 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/7/6/a/c/smil:6a4646c50cf2d0ed34b876ac-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a468c65d34e28842c85dd1b/og/tviplayer",Episódio 3 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/7/6/a/a/smil:6a4646ba0cf2d0ed34b876aa-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47d404d34e28842c85e816/og/tviplayer",Episódio 4 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/6/e/2/a/smil:6a4646c10cf21fcd83776e2a-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47c593d34edcee7c66066b/og/tviplayer",Episódio 5 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/7/6/a/b/smil:6a4646c30cf2d0ed34b876ab-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47d3a2d34edcee7c66072b/og/tviplayer",Episódio 6 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/a/c/0/smil:6a4646c20cf27f6588a6dac0-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47d44fd34e28842c85e81e/og/tviplayer",Episódio 7 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/a/b/f/smil:6a4646c10cf27f6588a6dabf-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47d2ecd34e28842c85e80c/og/tviplayer",Episódio 8 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/6/a/5/1/smil:6a4646c30cf27cac6fcf6a51-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="quem-matou-o-galo-de-barcelos" tvg-logo="https://img.iol.pt/preset/6a47a786d34edcee7c66048a/og/tviplayer",Episódio 9 - Quem Matou o Galo de Barcelos?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/6/a/5/2/smil:6a4646f40cf27cac6fcf6a52-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/684998d7d34ef72ee4471512/og/tviplayer",Mariana - Veja o episódio aqui
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/c/7/0/smil:6ac9a1660cf23b0ed4fddc70-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="o-principio-da-incerteza" tvg-logo="https://img.iol.pt/preset/6acc1454d34e9a786e75bcfc/og/tviplayer",O Principio da Incerteza - 'O programa implícito nas posições de Passos Coelho é pura e simplesmente incompatível com o do PSD'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/2/5/5/smil:6acc13a50cf22b9f89051255-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac9f0c70cf22b9f89051081/og/tviplayer",Roda da Sorte - 9 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/b/0/5/smil:6ac9ebcf0cf20dc527791b05-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6accebd9d34e53c759c760bd/og/tviplayer",Tvi em Cima da Hora - TVI - Em cima da hora - 12 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/7/e/smil:6acced330cf23b0ed4fddf7e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acce09dd34e53c759c7609f/og/tviplayer",TVI Jornal - 12 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/d/f/5/5/smil:6acce18e0cf23b0ed4fddf55-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acccc7bd34e9a786e75bdbf/og/tviplayer",Tvi Jornal - Dizem que são polícias mas é mentira. Enganam as vítimas pelo telemóvel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/3/4/d/smil:6accc6ed0cf22b9f8905134d-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acce60cd34e53c759c760b2/og/tviplayer",Tvi Jornal - No regresso aos EUA, desembarcou do USS Lincoln um marinheiro de quatro patas acabado de bater um recorde
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/1/e/1/6/smil:6accd9850cf20dc527791e16-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acced87d34e9a786e75bdf5/og/tviplayer",Tvi Jornal - Viveu cinco anos com medo. Quando pôs fim à relação, ex-namorado atacou-a com ácido sulfúrico
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/3/8/a/smil:6acce7870cf22b9f8905138a-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="v-fama" tvg-logo="https://img.iol.pt/preset/6acce1010cf299bc29541edb/og/tviplayer",V Fama - V+ Fama - 12 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/1/d/e/8/smil:6accc50f0cf20dc527791de8-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac77c75d34e53c759c75868/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 13 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/a/f/0/4/smil:6ac772a00cf23b0ed4fdaf04-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b31cd34e9a786e75b6c5/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 14 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/e/e/2/6/smil:6ac7aaa40cf299bc2953ee26-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b363d34e53c759c7593e/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 15 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod2.iol.pt/vod/e/e/2/e/smil:6ac7aba20cf299bc2953ee2e-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac8cd84d34e53c759c75aef/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 16 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/c/a/f/3/smil:6ac7c72f0cf23b0ed4fdcaf3-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac6422fd34e53c759c754b8/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 15 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/e/c/3/8/smil:6ac630750cf299bc2953ec38-L.smil/playlist.m3u8
+#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac641aed34e53c759c754b5/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 16 de outubro de 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
+https://streaming-vod1.iol.pt/vod/e/1/d/7/smil:6ac63e470cf22b9f8904e1d7-L.smil/playlist.m3u8
