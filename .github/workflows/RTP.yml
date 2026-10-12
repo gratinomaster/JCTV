@@ -1,4 +1,4 @@
-name: VOD
+name: RTP
 
 on:
   workflow_dispatch:
