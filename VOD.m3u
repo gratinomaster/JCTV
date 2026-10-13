@@ -1,41 +1,21 @@
 #EXTM3U
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/46712_77584_54941.png?v=3&w=860",24 Horas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16068/p16068_1_20261012000000e282t1028.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/48059_77630_17654.png?v=3&w=860",Notícias Noite 2ª Edição
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16166/p16166_1_20261012000000e207t0872.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/41674_64181_81573.png?v=3&w=860",Prolongamento
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16174/p16174_1_20261012233149e031t4525.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/41787_64329_50687.jpg?v=3&w=860",Tudo é Economia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16204/p16204_1_20261012230142e035t7924.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/33541_41764_39816.jpg?v=3&w=860",Procissão das Velas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17278/p17278_1_20261012000000e000t0331.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/32788_39400_60802.jpg?v=3&w=860",Arq 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p13775/p13775_1_20261012161102e007t9908d_lo.mp4,/h264/512x384/p13775/p13775_1_20261012161102e007t9908d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Lena D'Água - Iminente 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17320/p17320_1_2026101222520.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/31932_58211_52792.jpg?v=3&w=860",As Aventuras do Max - Atlantos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16218/p16218_1_20261011090121e012t7790.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Jornal da Tarde - 10 out 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16047/p16047_2_20261010142118e283t0297.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Telejornal - 10 out 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16048/p16048_2_20261010205118e283t0418.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="VOD" tvg-logo="",Comeza a vacinación contra a gripe nos colexios galegos
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",'Teleplanistas' - Entrevista a Charly Sinewan
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Halima Ahmed, de la ONG Luna Blanca de Ceuta: "El hartazgo no está reñido con la humanidad"
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Teleplanistas - Entrevista a María Eizaguirre
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",L'altaveu - Chelo García-Cortés entrevista Bárbara Rey
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Territorio 9 - Especial desde Girocòmic 2026 - 12/10/26
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cazadores salvajes - Wild hunters - Episodio 4: Lobos y chacales
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",L'altaveu - Desesperació a la Font del Gos pels aiguats
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Teleplanistas - Temporada 2 - Programa 6: Charly Sinewan, Aitor Albizua y María Eizaguirre
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Somos 8 - 13/10/2026
+https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
