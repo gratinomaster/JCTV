@@ -1,21 +1,173 @@
 #EXTM3U
-#EXTINF:-1 group-title="VOD" tvg-logo="",Comeza a vacinación contra a gripe nos colexios galegos
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",'Teleplanistas' - Entrevista a Charly Sinewan
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",Halima Ahmed, de la ONG Luna Blanca de Ceuta: "El hartazgo no está reñido con la humanidad"
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",Teleplanistas - Entrevista a María Eizaguirre
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",L'altaveu - Chelo García-Cortés entrevista Bárbara Rey
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",Territorio 9 - Especial desde Girocòmic 2026 - 12/10/26
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",Cazadores salvajes - Wild hunters - Episodio 4: Lobos y chacales
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",L'altaveu - Desesperació a la Font del Gos pels aiguats
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+#EXTINF:-1 group-title="VOD" tvg-logo="",Doce millones de niñas menores de 18 años son obligadas a casarse cada año
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFSC24H/mp4/6/7/1791712143876.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262453
+#EXTINF:-1 group-title="VOD" tvg-logo="",Una sentencia pionera condena a tres jóvenes por desnudar con IA a excompañeras de clase: casi cuatro años sin redes
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/9/9/1791553440299.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260877
+#EXTINF:-1 group-title="VOD" tvg-logo="",Una bula papal del siglo XVI regresará a la parroquia de la que desapareció
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCRONIC/mp4/8/4/1791379084348.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17257408
+#EXTINF:-1 group-title="VOD" tvg-logo="",Las maniobras de la trama de Leire Díez para hostigar y desprestigiar a la jueza Biedma
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SEXTR01/mp4/6/9/1791463122496.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258871
+#EXTINF:-1 group-title="VOD" tvg-logo="",Decenas de miles de estudiantes vuelven a protestar en Francia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CI/mp4/7/9/1791919637697.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265383
+#EXTINF:-1 group-title="VOD" tvg-logo="",Las protestas estudiantiles se recrudecen en Francia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/7/1791523355173.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17259756
+#EXTINF:-1 group-title="VOD" tvg-logo="",El alcalde de Saint Denis, símbolo de las protestas estudiantiles en Francia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/8/5/1791465672258.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258979
+#EXTINF:-1 group-title="VOD" tvg-logo="",Las manifestaciones estudiantiles en Francia suman ya más de 5.000 detenidos, la mayoría menores de edad
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/0/8/1791292633680.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255667
+#EXTINF:-1 group-title="VOD" tvg-logo="",El Vaticano confirma que el papa León XIV ha sido operado de un cáncer de pulmón
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/9/4/1791923594949.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265431
+#EXTINF:-1 group-title="VOD" tvg-logo="",Compromisos del tren para Extremadura
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SEXTR01/mp4/8/8/1791381380688.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17257578
+#EXTINF:-1 group-title="VOD" tvg-logo="",El rey proclama que "Ceuta es España" y defiende que su soberanía e integridad territorial "no es negociable"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CP/mp4/0/8/1791919229480.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265366
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los reyes se vuelcan con los ceutíes en su visita histórica a la ciudad autónoma tras la entrada masiva de migrantes
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDESPA/mp4/5/4/1791897087545.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264840
+#EXTINF:-1 group-title="VOD" tvg-logo="",Ceuta ultima los preparativos para recibir el martes a los reyes de España en plena crisis migratoria
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/0/7/1791810734370.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263419
+#EXTINF:-1 group-title="VOD" tvg-logo="",El Ayuntamiento, un colegio, el cementerio de Sidi Embarek y el Parador: así será el recorrido de los reyes en Ceuta
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/0/0/1791833059600.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263580
+#EXTINF:-1 group-title="VOD" tvg-logo="",'El Telediario de nuestras vidas' reune a los rostros míticos de TVE junto a Pepa Bueno
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/7/0/1791888882307.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264453
+#EXTINF:-1 group-title="VOD" tvg-logo="",Pepa Bueno recibe a los históricos presentadores del Telediario en Torrespaña
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/6/6/1791888869266.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264438
+#EXTINF:-1 group-title="VOD" tvg-logo="",Tráiler de 'El Telediario de nuestras vidas' con la banda sonora de 'Los Vengadores'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/0/2/1791888829220.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264773
+#EXTINF:-1 group-title="VOD" tvg-logo="",Tráiler de 'El Telediario de nuestras vidas' con la banda sonora de 'Glory Days'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/5/1791888550659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264800
+#EXTINF:-1 group-title="VOD" tvg-logo="",Tráiler de 'El Telediario de nuestras vidas' con la banda sonora de 'Misión Imposible'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/9/1791888824599.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264730
+#EXTINF:-1 group-title="VOD" tvg-logo="",70 años de TVE: el primer recuerdo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SRTVERE/mp4/2/8/1790674312782.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17245466
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Sonrisas y lágrimas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN7PRE/mp4/4/5/1791545761854.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6765478
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Familia al instante
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/6/5/1791204211956.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6425752
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Marte
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/7/8/1761054470587.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16781157
+#EXTINF:-1 group-title="VOD" tvg-logo="",VÍDEO | Avance de "Irán: mujeres dentro y fuera de cuadro"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNASR/mp4/3/8/1790700311283.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246424
+#EXTINF:-1 group-title="VOD" tvg-logo="",Benidorm Fest 2027: anuncio en directo de los participantes
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SBENFEST/mp4/5/7/1791533819675.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260056
+#EXTINF:-1 group-title="VOD" tvg-logo="",Benidorm Fest 2026 - Tony Grox y LUCYCALYS ganan con "T AMARÉ"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SBENFEST/mp4/0/8/1771114013080.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16930643
+#EXTINF:-1 group-title="VOD" tvg-logo="",Influ-Realismo Mágico - Especial caída (o tropiezo) de los influencers
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/9/0/1789585038209.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17227993
+#EXTINF:-1 group-title="VOD" tvg-logo="",Teleplanistas - Temporada 2 - Programa 5: David Andújar, David Insua y Carlota Corredera
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMTEL2/mp4/8/6/1791295703968.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255845
+#EXTINF:-1 group-title="VOD" tvg-logo="",'FOMO TOTAL', estreno el martes 13 de octubre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/2/5/1791209629552.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254773
+#EXTINF:-1 group-title="VOD" tvg-logo="",Podcast el podcast - Temporada 4 - ¿Sí o qué? con Mariang
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD4/mp4/0/7/1791361782570.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255936
+#EXTINF:-1 group-title="VOD" tvg-logo="",Así somos - Episodio 12 - Somos inseguros
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMASI/mp4/6/2/1774866646726.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17006325
+#EXTINF:-1 group-title="VOD" tvg-logo="",Carlota Corredera regresa junto a David Insua y David Andújar a '¡Menudo Cuadro!'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_ENPENT/mp4/1/2/1788376850721.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17210322
+#EXTINF:-1 group-title="VOD" tvg-logo="",El segundo amistoso de España contra EEUU
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/2/0/1791884603202.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264202
+#EXTINF:-1 group-title="VOD" tvg-logo="",Resumen del partido amistoso de fútbol femenino: Estados Unidos - España
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/2/3/1791664486232.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262238
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - T3 - Episodio 4: Guerra fría
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/8/5/1706175888258.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947653
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - T3 - Episodio 5: Terror
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/8/3/1706709198938.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15950251
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - T3 - Episodio 6: Llegar a ser
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/0/0/1706176944100.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947703
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Dúplex
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/0/4/1791203068640.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255296
+#EXTINF:-1 group-title="VOD" tvg-logo="",Así Somos - Temporada 2 - Programa 1: ¿Somos de decir la verdad?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMASI2/mp4/9/1/1791447052719.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260300
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Promesa - Avance semanal del 12 al 16 de octubre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAPROM/mp4/5/9/1791540934795.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260272
+#EXTINF:-1 group-title="VOD" tvg-logo="",Valle Salvaje - Avance semanal del 12 al 16 de octubre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_VALSER/mp4/0/5/1791551791950.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260832
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Mejor... imposible
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN7PRE/mp4/8/2/1751477771728.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16034960
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Aquaman y el reino perdido
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/3/4/1791207120643.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17257667
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Una villa en la Toscana
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/5/6/1791205691265.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17256144
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Noche de fin de año
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/5/7/1766527979675.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16874534
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine - Tú la letra, yo la música
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/8/6/1791206097568.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16718052
+#EXTINF:-1 group-title="VOD" tvg-logo="",'FOMO TOTAL': Entrevista a Almita y Aitor
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/1/8/1791909849981.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265094
+#EXTINF:-1 group-title="VOD" tvg-logo="",El Semáforo de 'FOMO TOTAL' (Programa 1)
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/0/9/1791909586890.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265087
+#EXTINF:-1 group-title="VOD" tvg-logo="",Control central - Programa 1
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CONENT/mp4/7/7/1791917296477.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265328
+#EXTINF:-1 group-title="VOD" tvg-logo="",El Hombre Mágico ('La Revuelta') visita 'Control Central' y desvela el origen de su personaje
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CONENT/mp4/6/9/1791919144096.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265173
+#EXTINF:-1 group-title="VOD" tvg-logo="",Bibiana Fernández, sexta expulsada de MasterChef Celebrity Legends
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/8/1/1791543855918.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260410
+#EXTINF:-1 group-title="VOD" tvg-logo="",El plato que demuestra la evolución de Flo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/0/0/1791542277100.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260333
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hockey Patines - Campeonato del Mundo Masculino. 1ª fase: España - Italia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHOCSOB/mp4/8/9/1791837473998.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263641
+#EXTINF:-1 group-title="VOD" tvg-logo="",El increíble postre que pone todas las miradas en Marina Rivers
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/3/3/1791543431033.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260395
+#EXTINF:-1 group-title="VOD" tvg-logo="",Paz Vega se emociona al recordar a su abuelo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/0/4/1791542171240.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17260327
+#EXTINF:-1 group-title="VOD" tvg-logo="",Fomo total - Programa 1: Almita
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/8/3/1791909684538.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265150
+#EXTINF:-1 group-title="VOD" tvg-logo="",Pellegrini: "No sé ni qué edad tengo, lo que sí sé es lo que quiero hacer para adelante"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/9/7/1791900565379.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264970
+#EXTINF:-1 group-title="VOD" tvg-logo="",Masterchef Celebrity Legends - Programa 6
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/7/8/1791312718187.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17259838
+#EXTINF:-1 group-title="VOD" tvg-logo="",No hay perfil de víctima de violencia de género
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPF56X/mp4/7/1/1791556189317.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261137
+#EXTINF:-1 group-title="VOD" tvg-logo="",Nerea y Andrea, dos campeonas de España unidas por la gimnasia, la amistad y el deporte inclusivo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DEPINF/mp4/4/3/1791834627134.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263602
+#EXTINF:-1 group-title="VOD" tvg-logo="",Pregunta a VIA: ¿Qué es el ciberacoso?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SK8OB6/mp4/5/5/1791555812155.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261128
+#EXTINF:-1 group-title="VOD" tvg-logo="",España sufre el desabastecimiento de medicamentos para la menopausia desde marzo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STD4FDSS/mp4/3/9/1791725965093.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262716
+#EXTINF:-1 group-title="VOD" tvg-logo="",Más de 500 mujeres militares desfilarán por la Fiesta Nacional
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STD4FDSEP/mp4/0/3/1791725883530.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262686
 #EXTINF:-1 group-title="VOD" tvg-logo="",Teleplanistas - Temporada 2 - Programa 6: Charly Sinewan, Aitor Albizua y María Eizaguirre
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
-#EXTINF:-1 group-title="VOD" tvg-logo="",Somos 8 - 13/10/2026
-https://ztnr.rtve.es/ztnr/res/_PROVIDER_/video/hd_full/_TOKEN_
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMTEL2/mp4/4/2/1791896385924.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264762
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documental - A flor de tierra
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_AFLDOC/mp4/6/7/1761570687576.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16779425
+#EXTINF:-1 group-title="VOD" tvg-logo="",RTVE se prepara para la evolución de la TDT
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCORPOR/mp4/2/5/1791210230852.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254272
+#EXTINF:-1 group-title="VOD" tvg-logo="",RTVE lanza la campaña 'la solidaridad calienta más que el fuego' en apoyo a las personas sin hogar
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCORPOR/mp4/8/7/1768311400278.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16892724
+#EXTINF:-1 group-title="VOD" tvg-logo="",RTVE celebra una jornada sobre los medios públicos como garantes de la democracia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOTROSP/mp4/6/1/1768999346916.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16905217
+#EXTINF:-1 group-title="VOD" tvg-logo="",Resintonización de canales de la TDT
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPROM01/mp4/9/1/1573644352919.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5442239
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias en 2' - 20/07/2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/8/1/1784555098918.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17163025
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias en 2' - 19/07/2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/3/9/1784463597093.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161942
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias en 2' - 18/07/2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/0/4/1784378530240.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161397
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias en 2' - 17/07/2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/1/3/1784296381231.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17160480
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias en 2' - 16/07/2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/3/5/1784209847653.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17158970
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cientos de niños ucranianos han sido trasladados a Rusia, según una investigación de la UER
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/2/9/1676360093692.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6810010
+#EXTINF:-1 group-title="VOD" tvg-logo="",Nueva etapa de la TDT con más servicios y Ultra Alta Definición
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCORPOR/mp4/8/2/1791212811428.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254307
+#EXTINF:-1 group-title="VOD" tvg-logo="",La radio ya es accesible con "RNE para todos"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLENGSI/mp4/4/9/1728303602994.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16284396
+#EXTINF:-1 group-title="VOD" tvg-logo="",Henar Álvarez vive su noche más sevillana en 'El perro andaluz'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_ELPENT/mp4/9/7/1791498910179.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258413
+#EXTINF:-1 group-title="VOD" tvg-logo="",Al cielo con ella - Temporada 4 - Programa 2: Al cielo con Miguel Bernardeau y Rosa Montero
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMALC4/mp4/3/7/1791308051773.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17256109
+#EXTINF:-1 group-title="VOD" tvg-logo="",Al cielo con ella - Temporada 4 - Programa 1: Al cielo con Sergio Peris-Mencheta y Pilar Eyre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMALC4/mp4/5/1/1790765905315.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246177
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo Mágico - Programa 1 - Nuria Marín y la Tombolización de las redes sociales
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/1/0/1772444480601.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16954761
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo mágico - Programa 2 - Pa' lo que hemos quedao, con Mauro Fuentes
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/8/6/1772470301568.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16961712
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo mágico - Programa 3: Derecho a réplica, con Cristian Alonso
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/7/9/1773235558197.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16976088
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo mágico - Programa 4: Andrea Duro y la polémica de las influencers en el cine
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/9/5/1773837545659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16986453
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo mágico - Programa 5 - Influencers que te fríen el cerebro, con Raquel Mascaraque
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/9/1/1774358443519.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16995390
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo mágico - Programa 6 - Dios es viral, con Carlos García Miranda
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/3/0/1775659227503.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17014772
