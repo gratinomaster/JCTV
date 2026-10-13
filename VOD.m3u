@@ -1,441 +1,509 @@
 #EXTM3U
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf8a3d34e9a786e75be0d/og/tviplayer",Campeões e Detectives - «Pais contra filhos»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/e/4/9/smil:6accf59b0cf20dc527791e49-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf893d34e53c759c760dd/og/tviplayer",Campeões e Detectives - «Um clube a sério - Parte II»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/b/e/smil:6accf52e0cf22b9f890513be-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf83dd34e53c759c760d8/og/tviplayer",Campeões e Detectives - «Um clube a sério»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/8/b/smil:6accf57b0cf23b0ed4fddf8b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6accebd9d34e53c759c760bd/og/tviplayer",TVI - Em cima da hora - 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/f/7/e/smil:6acced330cf23b0ed4fddf7e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acce09dd34e53c759c7609f/og/tviplayer",TVI Jornal - 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/5/smil:6acce18e0cf23b0ed4fddf55-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accdde8d34e9a786e75bdd7/og/tviplayer",Campeões e Detectives - «Uma bolada no vidro»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/5/6/smil:6acccac70cf22b9f89051356-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accde56d34e53c759c7609b/og/tviplayer",Campeões e Detectives - «Uma bolada no vidro - Parte II»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/e/b/3/smil:6acccac80cf299bc29541eb3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc34bd34e9a786e75bdab/og/tviplayer",Campeões e Detectives - «Espectador intrometido (Coleção objetivo golo)»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/d/c/d/smil:6accbd560cf20dc527791dcd-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc2f8d34e9a786e75bda9/og/tviplayer",Campeões e Detectives - «O espectador intrometido»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/1/f/smil:6accbd570cf22b9f8905131f-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc28fd34e9a786e75bda7/og/tviplayer",Campeões e Detectives - «A ameaça da Bola F»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/1/e/smil:6accbd240cf22b9f8905131e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6accbea5d34e9a786e75bd9b/og/tviplayer",Dois às 10 - A primeira entrevista de David Diamond após a expulsão do Big Brother All Stars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/7/2/smil:6accd4b50cf22b9f89051372-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6accb1330cf20dc527791d9e/og/tviplayer",Diário da Manhã - 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/2/b/2/smil:6acca4980cf22b9f890512b2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc97a2d34e53c759c75fe5/og/tviplayer",Big Brother All Stars - Gala - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/d/5/1/smil:6acc9f770cf20dc527791d51-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="funtastico" tvg-logo="https://img.iol.pt/preset/6acbfbafd34e53c759c75f6f/og/tviplayer",Funtástico - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/c/a/5/smil:6acbeb100cf20dc527791ca5-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acbbe4ad34e9a786e75bc35/og/tviplayer",TVI Jornal - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/c/5/3/smil:6acb8cd50cf20dc527791c53-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="querido-mudei-a-casa" tvg-logo="https://img.iol.pt/preset/6acbbd74d34e53c759c75eee/og/tviplayer",Querido, Mudei a Casa! - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/d/7/8/smil:6acb76640cf23b0ed4fddd78-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="missa",Missa: Mosteiro de Grijó, Vila Nova de Gaia - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/c/1/1/smil:6acb68c00cf20dc527791c11-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6acb55b10cf20dc527791bfd/og/tviplayer",Diário da Manhã - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/f/8/smil:6acb51e30cf20dc527791bf8-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acb35640cf20dc527791bd7/og/tviplayer",Big Brother All Stars  - Extra - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/1/3/e/smil:6acad27d0cf22b9f8905113e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="momento-certo",Momento Certo - 10 de outubro
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/c/1/smil:6acabf5a0cf20dc527791bc1-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-porta-do-algarve" tvg-logo="https://img.iol.pt/preset/6ac924dbd34e9a786e75b92f/og/tviplayer",À Porta do Algarve – Xerém de Amêijoas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/f/8/a/d/smil:6ac7bc060cf20dc52778f8ad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="ganha-ja" tvg-logo="https://img.iol.pt/preset/6aca57d20cf299bc29541c02/og/tviplayer",Ganha Já - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/d/4/smil:6aca531b0cf22b9f890510d4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="em-familia" tvg-logo="https://img.iol.pt/preset/6aca28a60cf20dc527791b34/og/tviplayer",Em Família - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/3/1/smil:6aca22930cf20dc527791b31-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/684998d7d34ef72ee4471512/og/tviplayer",Mariana - Veja o episódio aqui
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/c/7/0/smil:6ac9a1660cf23b0ed4fddc70-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/684998d7d34ef72ee4471512/og/tviplayer",Mariana - Veja o episódio aqui
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/0/6/e/smil:6ac99d0c0cf22b9f8905106e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6aca04e00cf299bc29541bca/og/tviplayer",Big Brother All Stars - Extra - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/9/1/smil:6aca03de0cf22b9f89051091-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac9f1fb0cf23b0ed4fddc7b/og/tviplayer",Big Brother All Stars - Especial - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/7/d/smil:6ac9ebcf0cf22b9f8905107d-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac9f0c70cf22b9f89051081/og/tviplayer",Roda da Sorte - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/0/5/smil:6ac9ebcf0cf20dc527791b05-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac9f0c80cf22b9f89051083/og/tviplayer",Big Brother All Stars - Diário - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/0/7/f/smil:6ac9ec660cf22b9f8905107f-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca" tvg-logo="https://img.iol.pt/preset/6ac9f0c80cf22b9f89051082/og/tviplayer",A Sentença: "Culpa Segurada" e "O Preço da Paternidade"
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/a/f/a/smil:6ac9dfcb0cf20dc527791afa-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac8f492d34e53c759c75b7e/og/tviplayer",TVI - Em cima da hora - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/0/f/8/a/smil:6ac8f6500cf22b9f89050f8a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac8e98fd34e9a786e75b8c3/og/tviplayer",TVI Jornal - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/a/7/0/smil:6ac8ecfd0cf299bc29541a70-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac8fc78d34e53c759c75b8d/og/tviplayer",Dois às 10 - Patrícia cuida sozinha das três filhas bebés com condições especiais
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/a/5/8/smil:6ac8ded40cf299bc29541a58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac8d0c50cf20dc52779199b/og/tviplayer",Diário da Manhã - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/c/1/smil:6ac8b08a0cf20dc5277918c1-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/a/2/1/smil:6ac84f310cf23b0ed4fdda21-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a4f30cf22b9f89050e2d/og/tviplayer",Big Brother All Stars - Extra - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/0/e/0/a/smil:6ac83ac50cf22b9f89050e0a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a3ca0cf299bc2954195b/og/tviplayer",Big Brother All Stars - Especial - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/7/5/smil:6ac80d350cf20dc527791875-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac8a30f0cf20dc5277918a1/og/tviplayer",Roda da Sorte - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/8/5/3/smil:6ac7e9110cf20dc527791853-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac8cd84d34e53c759c75aef/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 16 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/c/a/f/3/smil:6ac7c72f0cf23b0ed4fdcaf3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a2c70cf23b0ed4fdda41/og/tviplayer",Big Brother All Stars - Diário - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/4/2/smil:6ac7dbce0cf20dc527791842-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b363d34e53c759c7593e/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 15 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/e/2/e/smil:6ac7aba20cf299bc2953ee2e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b31cd34e9a786e75b6c5/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 14 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/e/2/6/smil:6ac7aaa40cf299bc2953ee26-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Espaço contestado» e «Amor clínico»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/0/8/b/3/smil:6ac7c6cb0cf20dc5277908b3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac7a39ad34e53c759c75903/og/tviplayer",TVI - Em cima da hora - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/b/0/smil:6ac7a5d00cf20dc52778ecb0-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac799f7d34e53c759c758b4/og/tviplayer",TVI Jornal - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/3/7/3/smil:6ac79c470cf22b9f8904e373-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac77c75d34e53c759c75868/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 13 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/f/0/4/smil:6ac772a00cf23b0ed4fdaf04-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac77c33d34e53c759c75866/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/4/b/smil:6ac773730cf20dc52778ec4b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac79adcd34e9a786e75b657/og/tviplayer",Dois às 10 - Como a doença da irmã roubou parte da infância de Rafael
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/8/2/smil:6ac78da30cf20dc52778ec82-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac764dd0cf23b0ed4fdaee8/og/tviplayer",Diário da Manhã - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/c/2/5/smil:6ac75edb0cf20dc52778ec25-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/e/9/0/smil:6ac701000cf23b0ed4fdae90-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac738460cf22b9f8904e2e2/og/tviplayer",Big Brother All Stars - Especial - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/b/e/6/smil:6ac6e99e0cf20dc52778ebe6-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac736bd0cf20dc52778ebf3/og/tviplayer",Big Brother All Stars - Especial - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/d/4/6/smil:6ac6bc000cf299bc2953ed46-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac735c60cf22b9f8904e2df/og/tviplayer",Roda da Sorte - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/b/a/c/smil:6ac69a330cf20dc52778ebac-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac735680cf22b9f8904e2de/og/tviplayer",Big Brother All Stars - Diário - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/2/9/0/smil:6ac68d590cf22b9f8904e290-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «A vizinha exemplar» e «Tempo morto»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/f/7/smil:6ac677350cf299bc2953ecf7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac653cfd34e53c759c754ed/og/tviplayer",TVI - Em cima da hora - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/c/2/smil:6ac655290cf299bc2953ecc2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac641aed34e53c759c754b5/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 16 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/1/d/7/smil:6ac63e470cf22b9f8904e1d7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac65099d34e9a786e75b2a9/og/tviplayer",TVI Jornal - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/d/d/smil:6ac64b260cf20dc52778eadd-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac6422fd34e53c759c754b8/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 15 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/3/8/smil:6ac630750cf299bc2953ec38-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac641d5d34e9a786e75b277/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 14 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/d/5/8/smil:6ac630f10cf23b0ed4fdad58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac6272cd34e53c759c75479/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 13 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/a/8/5/smil:6ac622a40cf20dc52778ea85-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac626d6d34e9a786e75b231/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/d/3/5/smil:6ac622710cf23b0ed4fdad35-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac64ec7d34e9a786e75b29e/og/tviplayer",Dois às 10 - Cristina Ferreira reage ao comunicado em que Cristiano Ronaldo justifica a saída da Seleção Nacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/5/6/smil:6ac63d270cf299bc2953ec56-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac650bc0cf20dc52778eb24/og/tviplayer",Diário da Manhã - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/3/c/smil:6ac60d450cf20dc52778ea3c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="autores",Autores: Convidada Luísa Sobral
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/0/f/5/smil:6ac5a7500cf22b9f8904e0f5-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac605090cf299bc2953eba4/og/tviplayer",Big Brother All Stars - Extra - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/b/9/8/smil:6ac601e90cf299bc2953eb98-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac606200cf23b0ed4fdacd4/og/tviplayer",Big Brother All Stars - Especial - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/9/d/7/smil:6ac56a630cf20dc52778e9d7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac608340cf299bc2953ebb0/og/tviplayer",Roda da Sorte - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/1/2/smil:6ac600d40cf20dc52778ea12-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac608850cf23b0ed4fdacd9/og/tviplayer",Big Brother All Stars - Diário - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/0/a/b/smil:6ac53b3d0cf22b9f8904e0ab-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Sucesso e transição» e «Penhora infinita»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/9/8/3/smil:6ac526c40cf20dc52778e983-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac50e71d34e9a786e75b05d/og/tviplayer",TVI - Em cima da hora - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/0/6/3/smil:6ac50fae0cf22b9f8904e063-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac4f3cbd34e9a786e75b022/og/tviplayer",TVI Jornal - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/a/a/d/smil:6ac4fa2e0cf299bc2953eaad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac4bb7cd34e53c759c751ef/og/tviplayer",Dois às 10 - Sara e Nuno continuam inseparáveis e surpreendem com novidade após o Big Brother Verão
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/b/b/b/smil:6ac4eac40cf23b0ed4fdabbb-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac4d1640cf23b0ed4fdab61/og/tviplayer",Diário da Manhã - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/8/smil:6ac4bc5b0cf22b9f8904df58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/8/3/0/smil:6ac463840cf20dc52778e830-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4bece0cf299bc2953e9a9/og/tviplayer",Big Brother All Stars - Extra - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/f/a/smil:6ac4bc8f0cf23b0ed4fdaafa-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4b86e0cf299bc2953e99b/og/tviplayer",Big Brother All Stars - Especial - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/1/1/smil:6ac418ec0cf22b9f8904df11-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac4b8aa0cf22b9f8904df53/og/tviplayer",Roda da Sorte - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/f/5/0/smil:6ac4b8180cf22b9f8904df50-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4b5540cf20dc52778e86e/og/tviplayer",Big Brother All Stars - Diário - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/e/8/smil:6ac3e94b0cf20dc52778e7e8-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Desvio de emergência» e «De viral a vilã»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/4/smil:6ac4ba2b0cf22b9f8904df54-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac3a6f1d34e9a786e75ae84/og/tviplayer",TVI - Em cima da hora - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/3/c/smil:6ac3b5c20cf23b0ed4fdaa3c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac3a717d34e53c759c750d8/og/tviplayer",TVI Jornal - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/8/c/4/smil:6ac3a7680cf299bc2953e8c4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac38806d34e9a786e75ae52/og/tviplayer",Dois às 10 - Diogo Marcelino reage à expulsão do Big Brother All Stars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/1/e/smil:6ac39a400cf23b0ed4fdaa1e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac376a7d34e53c759c75087/og/tviplayer",Diário da Manhã - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/5/7/smil:6ac36b0e0cf20dc52778e757-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac35ef2d34e9a786e75ae04/og/tviplayer",Big Brother All Stars - Ligação à Casa - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/9/c/9/smil:6ac355700cf23b0ed4fda9c9-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac358a3d34e53c759c7505a/og/tviplayer",Big Brother All Stars - Gala - 4 de outubro de 2026
+#EXTINF:-1 group-title="VOD" tvg-id="4605950" tvg-logo="https://img.rtve.es/imagenes/noche-del-licenciado/1526998998643.png",La noche del licenciado
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCIARCH/mp4/3/8/1731774091383.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=4605950
+#EXTINF:-1 group-title="VOD" tvg-id="17261685" tvg-logo="https://img.rtve.es/imagenes/javier-morgade-carlos-santos-10-10-26/01791617589156.jpg",De serie - 'Áquel' con Javier Morgade y Carlos Santos - 10/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17261685_main.m3u8?idasset=17261685
+#EXTINF:-1 group-title="VOD" tvg-id="5442239" tvg-logo="https://img.rtve.es/imagenes/resintonizacion-canales-tdt/1573644552568.jpg",Resintonización de canales de la TDT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPROM01/mp4/9/1/1573644352919.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5442239
+#EXTINF:-1 group-title="VOD" tvg-id="17255969" tvg-logo="https://img.rtve.es/imagenes/ojo-critico-paula-klein-explora-mentiras-del-amor-amor-inventado/01791300082361.jpg",El Ojo Crítico - Paula Klein explora las mentiras del amor en “El amor inventado”
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17255969_main.m3u8?idasset=17255969
+#EXTINF:-1 group-title="VOD" tvg-id="17229915" tvg-logo="https://img.rtve.es/imagenes/historia-nuestro-cine-coloquio-casa-bernarda-alba/01789685908161.jpg",Historia de nuestro cine - Coloquio: La casa de Bernarda Alba
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHNCINE/mp4/7/8/1789685800787.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17229915
+#EXTINF:-1 group-title="VOD" tvg-id="17259251" tvg-logo="https://img.rtve.es/imagenes/anne-carson-premio-nobel-literatura-2026-claves-su-obra/01791471561753.jpg",El Ojo Crítico - Anne Carson, Premio Nobel de Literatura 2026: las claves de su obra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259251_main.m3u8?idasset=17259251
+#EXTINF:-1 group-title="VOD" tvg-id="17256357" tvg-logo="https://img.rtve.es/imagenes/lunaticas-verdades-mitos-del-buen-cafe-kim-ossemblok/01791330670787.jpg",Lunáticas -  Verdades y mitos del buen café, con Kim Ossemblok
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256357_main.m3u8?idasset=17256357
+#EXTINF:-1 group-title="VOD" tvg-id="17254380" tvg-logo="https://img.rtve.es/imagenes/tardes-rne-cena-secreta-mas-celebre/01791218575551.jpg",Las Tardes de RNE: La cena secreta más célebre
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17254380_main.m3u8?idasset=17254380
+#EXTINF:-1 group-title="VOD" tvg-id="17252079" tvg-logo="https://img.rtve.es/imagenes/no-dia-cualquiera-josep-vicent-yo-siempre-intente-hacer-musica-sinceridad-momento-vital/01791024228284.jpg",No es un día cualquiera - Josep Vicent: "Yo siempre intenté hacer la música con la sinceridad de mi momento vital"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252079_main.m3u8?idasset=17252079
+#EXTINF:-1 group-title="VOD" tvg-id="17256262" tvg-logo="https://img.rtve.es/imagenes/for-your-information-post-punk-despues-del-post-punk-resto-ruido-06-10-2026/01791318286094.jpg",For Your Information, post punk después del post punk - El resto es ruido - 06/10/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256262_main.m3u8?idasset=17256262
+#EXTINF:-1 group-title="VOD" tvg-id="17254294" tvg-logo="https://img.rtve.es/imagenes/rita-payes-lucia-fumero-hacen-girar-juntas-rueda-eterna/01791212253040.jpg",El Ojo Crítico - Rita Payés y Lucía Fumero hacen girar juntas "Rueda eterna"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17254294_main.m3u8?idasset=17254294
+#EXTINF:-1 group-title="VOD" tvg-id="17258463" tvg-logo="https://img.rtve.es/imagenes/carmen-burgos/01727351810657.jpg",101 figuras españolas - Carmen de Burgos - 08/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17258463_main.m3u8?idasset=17258463
+#EXTINF:-1 group-title="VOD" tvg-id="17262268" tvg-logo="https://img.rtve.es/imagenes/indiana-jones-otras-leyendas-11-10-26/01791710006477.jpg",Espacio en blanco - Indiana Jones y otras leyendas - 11/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17262268_main.m3u8?idasset=17262268
+#EXTINF:-1 group-title="VOD" tvg-id="16422155" tvg-logo="https://img.rtve.es/imagenes/no-dia-cualquiera-tertulia-maduritos-interesantes-cine-periodismo-homenaje-paul-newman/01737816836016.jpg",No es un día cualquiera - "Tertulia de maduritos interesantes": Cine, Periodismo y Homenaje a Paul Newman
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16422155_main.m3u8?idasset=16422155
+#EXTINF:-1 group-title="VOD" tvg-id="17259832" tvg-logo="https://img.rtve.es/imagenes/despertador-rne-maribel-verdu-perfeccion-constante-no-existe-furia-serie-butaca-preferente/01791527804911.jpg",El despertador de RNE - Maribel Verdú: "La perfección constante no existe"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259832_main.m3u8?idasset=17259832
+#EXTINF:-1 group-title="VOD" tvg-id="1001355" tvg-logo="https://img.rtve.es/imagenes/contador-regresa-casa/1296338929325.jpg",Contador regresa a casa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_CICLIS/mp4/5/6/0000000015565.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=1001355
+#EXTINF:-1 group-title="VOD" tvg-id="17254621" tvg-logo="https://img.rtve.es/imagenes/lunaticas-como-no-engordar-si-trabajas-noche/01791244199620.jpg",Lunáticas - ¿Cómo no engordar si trabajas por la noche?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17254621_main.m3u8?idasset=17254621
+#EXTINF:-1 group-title="VOD" tvg-id="17118113" tvg-logo="https://img.rtve.es/imagenes/podcast-podcast-temporada-3-cumpliendo-suenos/01781617595322.png",Podcast el podcast - Temporada 3 - Cumpliendo sueños
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD3/mp4/1/1/1781624241311.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17118113
+#EXTINF:-1 group-title="VOD" tvg-id="929930" tvg-logo="https://img.rtve.es/imagenes/muere-luis-garcia-berlanga-89-anos/1289643698328.jpg",Muere Luis García Berlanga, a los 89 años
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_CULTUR/mp4/3/7/0000000022873.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=929930
+#EXTINF:-1 group-title="VOD" tvg-id="16892724" tvg-logo="https://img.rtve.es/imagenes/rtve-lanza-campana-solidaridad-calienta-mas-fuego-apoyo-personas-sin-hogar/1768311400028.jpg",RTVE lanza la campaña 'la solidaridad calienta más que el fuego' en apoyo a las personas sin hogar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCORPOR/mp4/8/7/1768311400278.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16892724
+#EXTINF:-1 group-title="VOD" tvg-id="17252153" tvg-logo="https://img.rtve.es/imagenes/cien-anos-del-lyceum-club-femenino-precursor-igualdad-espana/01791029123344.png",Cien años del Lyceum Club Femenino, precursor de la igualdad en España
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252153_main.m3u8?idasset=17252153
+#EXTINF:-1 group-title="VOD" tvg-id="3462185" tvg-logo="https://img.rtve.es/imagenes/documentos-rne-espana-islam-pasado-presente-influencia-historica-15-08-16/1454173391807.jpg",Documentos RNE - España y el Islam: pasado y presente de una influencia histórica - 15/08/16
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/3462185_main.m3u8?idasset=3462185
+#EXTINF:-1 group-title="VOD" tvg-id="17227887" tvg-logo="https://img.rtve.es/imagenes/historia-nuestro-cine-coloquio-especial-javis/01789571254032.jpg",Historia de nuestro cine - Coloquio: Especial Los Javis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHNCINE/mp4/0/2/1789643224220.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17227887
+#EXTINF:-1 group-title="VOD" tvg-id="17252733" tvg-logo="https://img.rtve.es/imagenes/no-dia-cualquiera-pesos-pesados-gastronomia-pedro-moran-joselito-lorenzo-canas/01791108305766.jpg",No es un día cualquiera - Pesos pesados de la gastronomía: Pedro Morán, Joselito y Lorenzo Cañas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252733_main.m3u8?idasset=17252733
+#EXTINF:-1 group-title="VOD" tvg-id="17239670" tvg-logo="https://img.rtve.es/imagenes/historia-nuestro-cine-coloquio-festival-cine-san-sebastian/01790290617861.jpg",Historia de nuestro cine - Coloquio: Festival de Cine de San Sebastián
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHNCINE/mp4/7/6/1790289875767.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17239670
+#EXTINF:-1 group-title="VOD" tvg-id="17257564" tvg-logo="https://img.rtve.es/imagenes/juanjo-cuerda-igor-fernandez-jueves-fernando-llor-07-10-26/01791387506534.jpg",Territorio 9 - Juanjo Cuerda e Igor Fernández de El Jueves | Fernando Llor - 07/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17257564_main.m3u8?idasset=17257564
+#EXTINF:-1 group-title="VOD" tvg-id="2410055" tvg-logo="https://img.rtve.es/imagenes/documentos-rne-ali-bey-espanol-meca-12-08-14/1438264924377.jpg",Documentos RNE - Alí Bey, un español en La Meca - 12/08/14
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/2410055_main.m3u8?idasset=2410055
+#EXTINF:-1 group-title="VOD" tvg-id="17094147" tvg-logo="https://img.rtve.es/imagenes/tal-dia-como-hoy-carlos-berlanga/01749540693084.jpg",Tal día como hoy - Carlos Berlanga - 05/06/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17094147_main.m3u8?idasset=17094147
+#EXTINF:-1 group-title="VOD" tvg-id="17256938" tvg-logo="https://img.rtve.es/imagenes/jeanette-celebra-su-75-cumpleanos-memoria-delfin/01791370316944.png",Jeanette celebra su 75 cumpleaños en 'Memoria de delfín'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256938_main.m3u8?idasset=17256938
+#EXTINF:-1 group-title="VOD" tvg-id="17261137" tvg-logo="https://img.rtve.es/imagenes/no-hay-perfil-victima-violencia-genero/01791556196379.jpg",No hay perfil de víctima de violencia de género
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPF56X/mp4/7/1/1791556189317.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261137
+#EXTINF:-1 group-title="VOD" tvg-id="17263372" tvg-logo="https://img.rtve.es/imagenes/supremo-mantiene-suspension-del-voto-para-29n-nacionalizados-ley-nietos/01791814313473.jpg",El Supremo mantiene la suspensión del voto para el 29N a los nacionalizados por la ley de nietos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/8/9/1791813732898.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263372
+#EXTINF:-1 group-title="VOD" tvg-id="16905217" tvg-logo="https://img.rtve.es/imagenes/rtve-celebra-jornada-sobre-medios-publicos-como-garantes-democracia/1768999320500.jpg",RTVE celebra una jornada sobre los medios públicos como garantes de la democracia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOTROSP/mp4/6/1/1768999346916.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16905217
+#EXTINF:-1 group-title="VOD" tvg-id="17232965" tvg-logo="https://img.rtve.es/imagenes/masterchef-celebrity-legends-programa-3/01789972591537.jpg",Masterchef Celebrity Legends - Programa 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/4/8/1789495223784.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232965
+#EXTINF:-1 group-title="VOD" tvg-id="16598220" tvg-logo="https://img.rtve.es/imagenes/tu-sin-saberlo-e9-20-anos-metodo-joya-paul-newman-estreno-barbie/01748333240784.jpg",Y tú sin saberlo - E9. 20 años de 'El método', una joya de Paul Newman y el estreno de 'Barbie'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16598220_main.m3u8?idasset=16598220
+#EXTINF:-1 group-title="VOD" tvg-id="17223424" tvg-logo="https://img.rtve.es/imagenes/masterchef-celebrity-legends-programa-2/01789367402444.jpg",Masterchef Celebrity Legends - Programa 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/5/9/1788890305595.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17223424
+#EXTINF:-1 group-title="VOD" tvg-id="17251554" tvg-logo="https://img.rtve.es/imagenes/alejandra-sevilla-javier-cardenas-premios-poesia-joven-03-10-26/01790957945113.jpg",La estación azul - Con Alejandra Sevilla y F. Javier Cárdenas, Premios de Poesía Joven - 03/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17251554_main.m3u8?idasset=17251554
+#EXTINF:-1 group-title="VOD" tvg-id="17243365" tvg-logo="https://img.rtve.es/imagenes/masterchef-celebrity-legends-programa-4/01790580789352.jpg",Masterchef Celebrity Legends - Programa 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/5/1/1790324495215.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17243365
+#EXTINF:-1 group-title="VOD" tvg-id="17256060" tvg-logo="https://img.rtve.es/imagenes/tardes-trasplantado-pulmon-hace-casi-tres-decadas/01791305754649.jpg",Las tardes - Trasplantado de pulmón hace casi tres décadas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256060_main.m3u8?idasset=17256060
+#EXTINF:-1 group-title="VOD" tvg-id="17259607" tvg-logo="https://img.rtve.es/imagenes/mariela-sancari-explora-estigma-del-sudor-su-libro-09-10-26/01791487630131.jpg",Efecto doppler - Mariela Sancari explora el estigma del sudor en su libro - 09/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259607_main.m3u8?idasset=17259607
+#EXTINF:-1 group-title="VOD" tvg-id="17259731" tvg-logo="https://img.rtve.es/imagenes/trios-piano-clasico-insoslayable-09-10-26/01791502274436.jpg",Sólo jazz - Tríos de piano, un clásico insoslayable - 09/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259731_main.m3u8?idasset=17259731
+#EXTINF:-1 group-title="VOD" tvg-id="16230088" tvg-logo="https://img.rtve.es/imagenes/pelicula-paul-newman/01724927938073.jpg",De película - Paul Newman
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDPLCLS/mp4/6/1/1724914693716.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16230088
+#EXTINF:-1 group-title="VOD" tvg-id="16791258" tvg-logo="https://img.rtve.es/imagenes/bandas-sonoras-robert-redford-29-10-25/01761747609359.jpg",Orquesta de baile - Las bandas sonoras de Robert Redford - 29/10/25
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16791258_main.m3u8?idasset=16791258
+#EXTINF:-1 group-title="VOD" tvg-id="17263468" tvg-logo="https://img.rtve.es/imagenes/hansi-flick-presion-privilegio/01791821115924.jpg",Hansi Flick: "La presión es un privilegio"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/4/0/1791821110604.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263468
+#EXTINF:-1 group-title="VOD" tvg-id="17253164" tvg-logo="https://img.rtve.es/imagenes/masterchef-celebrity-legends-programa-5/01791183558502.jpg",Masterchef Celebrity Legends - Programa 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/3/3/1790718161433.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17253164
+#EXTINF:-1 group-title="VOD" tvg-id="17249233" tvg-logo="https://img.rtve.es/imagenes/ariela-casetta-voz-cuerpo/01790927517425.jpg",Desde esta orilla - Mariela Casetta. ‘La voz del cuerpo’ - 04/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17249233_main.m3u8?idasset=17249233
+#EXTINF:-1 group-title="VOD" tvg-id="17256347" tvg-logo="https://img.rtve.es/imagenes/version-espanola-sustituto-coloquio/01791327759035.jpg",Versión española - El sustituto (Coloquio)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SVERSI/mp4/3/3/1791327584133.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17256347
+#EXTINF:-1 group-title="VOD" tvg-id="17253173" tvg-logo="https://img.rtve.es/imagenes/economia-bolsillo-pareja-cuando-tener-conversacion-finanzas-educacion-financieras-parejas-dinero/01791182970179.jpg",Economía de bolsillo - Pareja y dinero: cuándo tener "la conversación"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17253173_main.m3u8?idasset=17253173
+#EXTINF:-1 group-title="VOD" tvg-id="17262800" tvg-logo="https://img.rtve.es/imagenes/vientos-metales-12-10-26/01791740304507.jpg",El radar en Radio 3 - Vientos y metales - 12/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17262800_main.m3u8?idasset=17262800
+#EXTINF:-1 group-title="VOD" tvg-id="16803633" tvg-logo="https://img.rtve.es/imagenes/cultura-arranca-22-festival-cine-europeo-sevilla/01762422890033.jpg",Cultura con Ñ - Arranca el 22 Festival de Cine Europeo de Sevilla - 06/11/25
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16803633_main.m3u8?idasset=16803633
+#EXTINF:-1 group-title="VOD" tvg-id="5751073" tvg-logo="https://img.rtve.es/imagenes/documentos-rne-caida-del-sha/1609748040003.jpg",Documentos RNE - La caída del sha
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/5751073_main.m3u8?idasset=5751073
+#EXTINF:-1 group-title="VOD" tvg-id="17163025" tvg-logo="https://img.rtve.es/imagenes/canarias-2-20072026/1784555095864.jpg",Canarias en 2' - 20/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/8/1/1784555098918.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17163025
+#EXTINF:-1 group-title="VOD" tvg-id="17257374" tvg-logo="https://img.rtve.es/imagenes/ruisenor-oriente-recuerdo-eva-marie-saint-07-10-26/01791379510449.jpg",La hora azul - Un ruiseñor en Oriente (en recuerdo a Eva Marie Saint) - 07/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17257374_main.m3u8?idasset=17257374
+#EXTINF:-1 group-title="VOD" tvg-id="17201150" tvg-logo="https://img.rtve.es/imagenes/sillas-rae/01787654430749.png",Máster RNE - Las sillas de la RAE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17201150_main.m3u8?idasset=17201150
+#EXTINF:-1 group-title="VOD" tvg-id="17255936" tvg-logo="https://img.rtve.es/imagenes/podcast-podcast-temporada-4-si-mariang/01791359509400.jpg",Podcast el podcast - Temporada 4 - ¿Sí o qué? con Mariang
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD4/mp4/0/7/1791361782570.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255936
+#EXTINF:-1 group-title="VOD" tvg-id="17262686" tvg-logo="https://img.rtve.es/imagenes/mas-500-mujeres-militares-desfilaran-fiesta-nacional/1665551874015.jpg",Más de 500 mujeres militares desfilarán por la Fiesta Nacional
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STD4FDSEP/mp4/0/3/1791725883530.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262686
+#EXTINF:-1 group-title="VOD" tvg-id="17199825" tvg-logo="",Máster RNE - Detrás de la emergencia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17199825_main.m3u8?idasset=17199825
+#EXTINF:-1 group-title="VOD" tvg-id="17259737" tvg-logo="https://img.rtve.es/imagenes/lunaticas-carlos-santos-otro-raphael/01791506376651.jpg",Lunáticas - Carlos Santos, el otro Raphael
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259737_main.m3u8?idasset=17259737
+#EXTINF:-1 group-title="VOD" tvg-id="17256443" tvg-logo="https://img.rtve.es/imagenes/revisiones-visuales-gafas-ninos-saharauis/01791356403909.jpg",África hoy - Revisiones visuales y gafas para niños y niñas saharauis - 06/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256443_main.m3u8?idasset=17256443
+#EXTINF:-1 group-title="VOD" tvg-id="17261319" tvg-logo="https://img.rtve.es/imagenes/miedo-terrible-ser-animal-claudia-ulloa-donoso-10-10-26/01791563335715.jpg",La estación azul - El miedo terrible de ser un animal, con Claudia Ulloa Donoso - 10/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17261319_main.m3u8?idasset=17261319
+#EXTINF:-1 group-title="VOD" tvg-id="17256776" tvg-logo="https://img.rtve.es/imagenes/marca-espana-caprile-premio-igualdad-moda/01791366276166.jpg",Marca España - El modisto Lorenzo Caprile, Premio Solidario a la Igualdad - 07/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256776_main.m3u8?idasset=17256776
+#EXTINF:-1 group-title="VOD" tvg-id="17252415" tvg-logo="https://img.rtve.es/imagenes/conocemos-cara-semana-juan-carlos-soriano-viva-albacete/01790835968533.jpg",Conocemos la 'Cara B' de la semana con Juan Carlos Soriano: 'Viva Albacete'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252415_main.m3u8?idasset=17252415
+#EXTINF:-1 group-title="VOD" tvg-id="17254679" tvg-logo="https://img.rtve.es/imagenes/despertador-rne-dos-sobre-honestidad-sentimientos-angel-lobo-libros-recomendacion-novela-seleccion-romantica/01791268923615.jpg",El despertador de RNE - Dos libros sobre honestidad y sentimientos, con Ángel Lobo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17254679_main.m3u8?idasset=17254679
+#EXTINF:-1 group-title="VOD" tvg-id="17158970" tvg-logo="https://img.rtve.es/imagenes/canarias-2-16072026/1784209844208.jpg",Canarias en 2' - 16/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/3/5/1784209847653.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17158970
+#EXTINF:-1 group-title="VOD" tvg-id="17028794" tvg-logo="https://img.rtve.es/imagenes/cinema-2-sala-professors/01776426644757.jpg",El Cinema de La 2 - Sala de professors
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINCAT/mp4/9/5/1776426234759.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17028794
+#EXTINF:-1 group-title="VOD" tvg-id="17251938" tvg-logo="https://img.rtve.es/imagenes/victoria-luengo-silvia-abascal-reina-roja-03-10-26/01791006269082.jpg",De serie - Victoria Luengo y Silvia Abascal, 'Reina roja' - 03/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17251938_main.m3u8?idasset=17251938
+#EXTINF:-1 group-title="VOD" tvg-id="17252751" tvg-logo="https://img.rtve.es/imagenes/no-dia-cualquiera-angeles-gonzalez-sinde-publica-su-nueva-novela-noche-1947-para-salir-ciertos-duelos-hay-tomar-decision-salir-ellos/01791111553951.jpg",No es un día cualquiera - Ángeles González - Sinde publica su nueva novela "Una noche de 1947": "Para salir de ciertos duelos hay que tomar la decisión de salir de ellos"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252751_main.m3u8?idasset=17252751
+#EXTINF:-1 group-title="VOD" tvg-id="17259331" tvg-logo="https://img.rtve.es/imagenes/daniel-ecija-serrano/01791475946662.jpg",De Serie- El final de 'Los Serrano'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259331_main.m3u8?idasset=17259331
+#EXTINF:-1 group-title="VOD" tvg-id="17257783" tvg-logo="https://img.rtve.es/imagenes/tardes-rne-novela-muy-neoyorquina/01791391098838.jpg",Las Tardes de RNE: Una novela muy neoyorquina
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17257783_main.m3u8?idasset=17257783
+#EXTINF:-1 group-title="VOD" tvg-id="17261877" tvg-logo="https://img.rtve.es/imagenes/amenabar-celebra-30-anos-tesis-sitges/01791633663285.png",Amenábar celebra los 30 años de ‘Tesis’ en Sitges
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17261877_main.m3u8?idasset=17261877
+#EXTINF:-1 group-title="VOD" tvg-id="17203348" tvg-logo="https://img.rtve.es/imagenes/desmontando-locura-master-rne/01787818065986.jpg",Máster RNE - Desmontando la locura
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17203348_main.m3u8?idasset=17203348
+#EXTINF:-1 group-title="VOD" tvg-id="1001016" tvg-logo="https://img.rtve.es/imagenes/taratana/1412063200763.jpg",Tarataña - Alan Lomax cumpliría 96 años el lunes - 29/01/11
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/1001016_main.m3u8?idasset=1001016
+#EXTINF:-1 group-title="VOD" tvg-id="5713799" tvg-logo="https://img.rtve.es/imagenes/historia-nuestro-cine-coloquio-10-anos-sin-berlanga/1605310014379.JPG",Historia de nuestro cine - Coloquio: 10 años sin Berlanga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHNCCOL/mp4/4/8/1605309296584.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5713799
+#EXTINF:-1 group-title="VOD" tvg-id="17259554" tvg-logo="https://img.rtve.es/imagenes/tardes-rne-starmus-viii-festival-fascinante/01791485688623.jpg",Las Tardes de Rne- Starmus VIII: Un festival fascinante
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259554_main.m3u8?idasset=17259554
+#EXTINF:-1 group-title="VOD" tvg-id="5950291" tvg-logo="https://img.rtve.es/imagenes/grande-cine-golpe/1624358650101.jpg",Qué grande es el cine - El golpe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STQ54GG/mp4/1/9/1624286328291.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5950291
+#EXTINF:-1 group-title="VOD" tvg-id="16790201" tvg-logo="https://img.rtve.es/imagenes/bime-2025-mon-laferte-28-10-25/01761666205312.jpg",Especial Radio 3 - BIME 2025 con Mon Laferte - 28/10/25
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16790201_main.m3u8?idasset=16790201
+#EXTINF:-1 group-title="VOD" tvg-id="16962817" tvg-logo="https://img.rtve.es/imagenes/rtve-dedica-su-programacion-especial-8m-transmitir-voces-todas/01772541106981.jpg",RTVE dedica su programación especial por el 8M a transmitir 'Las voces de TODAS'
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOTROSP/mp4/0/8/1772550816680.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16962817
+#EXTINF:-1 group-title="VOD" tvg-id="17253171" tvg-logo="https://img.rtve.es/imagenes/paga-ahorro-importancia-educacion-financiera/01791182992831.jpg",De la paga al ahorro: la importancia de la educación financiera
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17253171_main.m3u8?idasset=17253171
+#EXTINF:-1 group-title="VOD" tvg-id="16954761" tvg-logo="https://img.rtve.es/imagenes/play-influ-realismo-magico-programa-1-nuria-marin-tombolizacion-redes-sociales/01772098055025.jpg",En Play - Influ-Realismo Mágico - Programa 1 - Nuria Marín y la Tombolización de las redes sociales
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/1/0/1772444480601.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16954761
+#EXTINF:-1 group-title="VOD" tvg-id="17259838" tvg-logo="https://img.rtve.es/imagenes/masterchef-celebrity-legends-programa-6/01791528348103.jpg",Masterchef Celebrity Legends - Programa 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_MASMAS/mp4/7/8/1791312718187.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17259838
+#EXTINF:-1 group-title="VOD" tvg-id="17254773" tvg-logo="https://img.rtve.es/imagenes/fomo-total-estreno-martes-13-octubre/01791272996631.jpg",'FOMO TOTAL', estreno el martes 13 de octubre
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/2/5/1791209629552.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254773
+#EXTINF:-1 group-title="VOD" tvg-id="17254272" tvg-logo="https://img.rtve.es/imagenes/rtve-se-prepara-para-evolucion-tdt/01791210230455.jpg",RTVE se prepara para la evolución de la TDT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCORPOR/mp4/2/5/1791210230852.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254272
+#EXTINF:-1 group-title="VOD" tvg-id="16792419" tvg-logo="https://img.rtve.es/imagenes/video-especial-radio-3-bime-2025-francisca-valenzuela-291025/01761752068410.jpg",VÍDEO: Especial Radio 3 - BIME 2025 con Francisca Valenzuela - 29/10/25
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPER3/mp4/6/9/1761751500696.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16792419
+#EXTINF:-1 group-title="VOD" tvg-id="17263280" tvg-logo="https://img.rtve.es/imagenes/diego-simeone-esperemos-julian-pueda-seguir-creciendo-llegue-ser-queremos-ver/01791808000230.jpg",Diego Simeone: "Esperemos que Julián pueda seguir creciendo y llegue a ser el que queremos ver"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/3/4/1791806552843.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263280
+#EXTINF:-1 group-title="VOD" tvg-id="17259920" tvg-logo="https://img.rtve.es/imagenes/paca-blanco/01791535621572.jpg",Paca Blanco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259920_main.m3u8?idasset=17259920
+#EXTINF:-1 group-title="VOD" tvg-id="930239" tvg-logo="https://img.rtve.es/imagenes/capilla-ardiente-berlanga/1289679527658.jpg",La capilla ardiente de Berlanga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_CULTUR/mp4/4/3/0000000022834.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=930239
+#EXTINF:-1 group-title="VOD" tvg-id="17260190" tvg-logo="https://img.rtve.es/imagenes/cronica-espana-1997-teatro-real-vuelve-abrir/01791553033131.jpg",Crónica de España - 1997: El Teatro Real vuelve a abrir sus puertas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17260190_main.m3u8?idasset=17260190
+#EXTINF:-1 group-title="VOD" tvg-id="17253966" tvg-logo="https://img.rtve.es/imagenes/vencejos-fernando-aramburu-05-10-26/01791206895445.jpg",La hora azul - Los vencejos de Fernando Aramburu - 05/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17253966_main.m3u8?idasset=17253966
+#EXTINF:-1 group-title="VOD" tvg-id="17262958" tvg-logo="https://img.rtve.es/imagenes/sueno-floresta-12-10-26/01791786903874.jpg",Al amanecer - Un sueño en la Floresta - 12/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17262958_main.m3u8?idasset=17262958
+#EXTINF:-1 group-title="VOD" tvg-id="17160480" tvg-logo="https://img.rtve.es/imagenes/canarias-2-17072026/1784296376041.jpg",Canarias en 2' - 17/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/1/3/1784296381231.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17160480
+#EXTINF:-1 group-title="VOD" tvg-id="17246424" tvg-logo="https://img.rtve.es/imagenes/video-avance-iran-mujeres-dentro-fuera-cuadro/01790706592597.jpg",VÍDEO | Avance de "Irán: mujeres dentro y fuera de cuadro"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNASR/mp4/3/8/1790700311283.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246424
+#EXTINF:-1 group-title="VOD" tvg-id="17256803" tvg-logo="https://img.rtve.es/imagenes/mananas-rne-roberto-santiago-celebra-30-libros-futbolisimos/01791366979501.jpg",Las mañanas de RNE - Roberto Santiago celebra los 30 libros de Futbolísimos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256803_main.m3u8?idasset=17256803
+#EXTINF:-1 group-title="VOD" tvg-id="17256455" tvg-logo="https://img.rtve.es/imagenes/despertador-rne-viaje-novios-presion-superar-tus-amigos-luna-miel-fabio-encinar/01791356584759.jpg",El despertador de RNE - Viaje de novios: la presión por superar a tus amigos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256455_main.m3u8?idasset=17256455
+#EXTINF:-1 group-title="VOD" tvg-id="17262716" tvg-logo="https://img.rtve.es/imagenes/espana-sufre-desabastecimiento-medicamentos-para-menopausia-desde-marzo/01768482024967.jpg",España sufre el desabastecimiento de medicamentos para la menopausia desde marzo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STD4FDSS/mp4/3/9/1791725965093.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262716
+#EXTINF:-1 group-title="VOD" tvg-id="5722252" tvg-logo="https://img.rtve.es/imagenes/documentos-rne-caida-mossadegh-iran/1606127426310.jpg",Documentos RNE - La caída de Mossadegh en Irán
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/5722252_main.m3u8?idasset=5722252
+#EXTINF:-1 group-title="VOD" tvg-id="17246872" tvg-logo="https://img.rtve.es/imagenes/brigadas-internacionales-brigadistas-nacionalidad-espanola-concesion-1996/01791041112637.jpg",Joyas del archivo sonoro - Concesión de la nacionalidad española a los brigadistas internacionales en 1996
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17246872_main.m3u8?idasset=17246872
+#EXTINF:-1 group-title="VOD" tvg-id="17254328" tvg-logo="https://img.rtve.es/imagenes/fascinante-historia-pablo-solo-john-bromley-05-10-26/01791215302215.jpg",El sótano - La fascinante historia de Pablo Solo y John Bromley - 05/10/26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17254328_main.m3u8?idasset=17254328
+#EXTINF:-1 group-title="VOD" tvg-id="17105460" tvg-logo="https://img.rtve.es/imagenes/podcast-podcast-temporada-3-muchos-invitados-jose-rafael-guzman-gakian/01780915443036.png",Podcast el podcast - Temporada 3 - Muchos invitados, con José Rafael Guzmán y Gakian
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD3/mp4/3/8/1781000508283.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17105460
+#EXTINF:-1 group-title="VOD" tvg-id="17259151" tvg-logo="https://img.rtve.es/imagenes/asi-somos-3x1-somos-decir-verdad/01791576384949.jpg",Así somos - 3x1. ¿Somos de decir la verdad?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17259151_main.m3u8?idasset=17259151
+#EXTINF:-1 group-title="VOD" tvg-id="17261158" tvg-logo="https://img.rtve.es/imagenes/tardes-rne-suplantacion-identidad-estafas/01791557146440.jpg",Las Tardes de RNE: Suplantación de identidad y estafas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17261158_main.m3u8?idasset=17261158
+#EXTINF:-1 group-title="VOD" tvg-id="17261128" tvg-logo="https://img.rtve.es/imagenes/pregunta-via-ciberacoso/01791555814540.jpg",Pregunta a VIA: ¿Qué es el ciberacoso?
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SK8OB6/mp4/5/5/1791555812155.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261128
+#EXTINF:-1 group-title="VOD" tvg-id="16420899" tvg-logo="https://img.rtve.es/imagenes/dias-cine-centenario-paul-newman/01737722983967.jpg",Días de Cine: Centenario Paul Newman
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SECDCRE/mp4/0/1/1737721886310.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16420899
+#EXTINF:-1 group-title="VOD" tvg-id="17258647" tvg-logo="https://img.rtve.es/imagenes/radiografia-rachel-carson/01791462942405.jpg",Radiografía: Rachel Carson
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17258647_main.m3u8?idasset=17258647
+#EXTINF:-1 group-title="VOD" tvg-id="17161942" tvg-logo="https://img.rtve.es/imagenes/canarias-2-19072026/1784463593289.jpg",Canarias en 2' - 19/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/e/1/8/smil:6ac35a8a0cf22b9f8904de18-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="funtastico" tvg-logo="https://img.iol.pt/preset/6ac2b65c0cf22b9f8904dda6/og/tviplayer",Funtástico - 4 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/3/9/1784463597093.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161942
+#EXTINF:-1 group-title="VOD" tvg-id="17251617" tvg-logo="https://img.rtve.es/imagenes/iran-mujeres-poetas-cineastas/01790960367287.jpg",Documentos RNE - Irán: mujeres dentro y fuera de cuadro - 05/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/e/7/smil:6ac2ac980cf299bc2953e7e7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac293ad0cf20dc52778e6af/og/tviplayer",TVI Jornal - 4 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17251617_main.m3u8?idasset=17251617
+#EXTINF:-1 group-title="VOD" tvg-id="17252560" tvg-logo="https://img.rtve.es/imagenes/huele-muerte-04-10-26/01791105665851.jpg",Espacio en blanco - ¿A qué huele la muerte? - 04/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/c/b/4/smil:6ac252c10cf22b9f8904dcb4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="querido-mudei-a-casa" tvg-logo="https://img.iol.pt/preset/6ac2941a0cf22b9f8904dd8a/og/tviplayer",Querido, Mudei a Casa! - 4 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17252560_main.m3u8?idasset=17252560
+#EXTINF:-1 group-title="VOD" tvg-id="17250189" tvg-logo="https://img.rtve.es/imagenes/historia-nuestro-cine-coloquio-homenaje-gonzalo-suarez/01790895169972.jpg",Historia de nuestro cine - Coloquio: Homenaje a Gonzalo Suárez
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/c/a/0/smil:6ac23dfd0cf22b9f8904dca0-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="missa" tvg-logo="https://img.iol.pt/preset/6ac232e80cf22b9f8904dc94/og/tviplayer",Missa - Igreja do Convento Franciscano do Varatojo, Torres Vedras
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHNCINE/mp4/7/6/1790895044867.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17250189
+#EXTINF:-1 group-title="VOD" tvg-id="17256333" tvg-logo="https://img.rtve.es/imagenes/cristina-suecia-sueno-arcadia-06-10-26/01791324500093.jpg",La soledad sonora - Cristina de Suecia: el sueño de la Arcadia - 06/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/8/1/c/smil:6ac231f60cf23b0ed4fda81c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac224090cf20dc52778e598/og/tviplayer",Diário da Manhã - 4 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256333_main.m3u8?idasset=17256333
+#EXTINF:-1 group-title="VOD" tvg-id="17258043" tvg-logo="https://img.rtve.es/imagenes/lunaticas-miguel-hernandez-sergio-pazos/01791419190061.jpg",Lunáticas - El Miguel Hernández de Sergio Pazos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/8/4/smil:6ac217700cf20dc52778e584-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac222b00cf22b9f8904dc7f/og/tviplayer",Big Brother All Stars - A Semana - 4 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17258043_main.m3u8?idasset=17258043
+#EXTINF:-1 group-title="VOD" tvg-id="17262797" tvg-logo="https://img.rtve.es/imagenes/soul-city-angeles-1957-62-early-soul-singles-12-10-26/01791740166840.jpg",Sateli 3 - Soul City Los Angeles 1957-62 (R&B/Early Soul Singles) - 12/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/6/4/0/smil:6ac1a7ff0cf299bc2953e640-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac21ffa0cf22b9f8904dc6f/og/tviplayer",Big Brother All Stars - Extra Especial - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17262797_main.m3u8?idasset=17262797
+#EXTINF:-1 group-title="VOD" tvg-id="17202968" tvg-logo="https://img.rtve.es/imagenes/master-rne-precio-vivir/01787834163211.jpg",Máster RNE - El precio de vivir
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/3/2/smil:6ac1978a0cf20dc52778e532-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="momento-certo" tvg-logo="https://img.iol.pt/preset/6ac21ed10cf23b0ed4fda7fc/og/tviplayer",Momento Certo - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17202968_main.m3u8?idasset=17202968
+#EXTINF:-1 group-title="VOD" tvg-id="694183" tvg-logo="https://img.rtve.es/imagenes/pajaritos/1683798293390.jpg",Los pajaritos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/0/5/smil:6ac1891f0cf20dc52778e505-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="fora-do-baralho" tvg-logo="https://img.iol.pt/preset/6ac17abf0cf23b0ed4fda754/og/tviplayer",Fora do Baralho - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCIARCH/mp4/8/4/1683797317548.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=694183
+#EXTINF:-1 group-title="VOD" tvg-id="1030985" tvg-logo="",El rincón de los niños - Osvaldo Golijov - 26/02/11
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/b/b/f/smil:6ac174a70cf22b9f8904dbbf-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac10d0f0cf20dc52778e47f/og/tviplayer",TVI Jornal - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/1030985_main.m3u8?idasset=1030985
+#EXTINF:-1 group-title="VOD" tvg-id="17260100" tvg-logo="https://img.rtve.es/imagenes/espana-lorca-autor-universal/01791537285351.jpg",Marca España - 'Personalidades de España': Lorca, autor universal - 12/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/7/b/smil:6ac101b60cf299bc2953e57b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="ganha-ja" tvg-logo="https://img.iol.pt/preset/6ac10c140cf23b0ed4fda6ea/og/tviplayer",Ganha Já - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17260100_main.m3u8?idasset=17260100
+#EXTINF:-1 group-title="VOD" tvg-id="17262498" tvg-logo="https://img.rtve.es/imagenes/no-dia-cualquiera-guillermo-fesser-presenta-su-libro-55-millas-hora-viaje-fregoneta-mujer/01791716851996.jpg",No es un día cualquiera - Guillermo Fesser presenta su libro "A 55 millas por hora": "Es un viaje en fregoneta con mi mujer"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/6/7/smil:6ac0f2380cf299bc2953e567-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="em-familia" tvg-logo="https://img.iol.pt/preset/6ac0e9d70cf23b0ed4fda6d0/og/tviplayer",Em Família - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17262498_main.m3u8?idasset=17262498
+#EXTINF:-1 group-title="VOD" tvg-id="17260484" tvg-logo="https://img.rtve.es/imagenes/esta-nocheun-clasico-brubaker-12-10-26/01791546275581.jpg",Esta noche...un clásico - 'Brubaker' - 12/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/4/5/d/smil:6ac0e8c20cf20dc52778e45d-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac0cf1f0cf22b9f8904db27/og/tviplayer",Diário da Manhã - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17260484_main.m3u8?idasset=17260484
+#EXTINF:-1 group-title="VOD" tvg-id="5887429" tvg-logo="https://img.rtve.es/imagenes/comuneros/1620890997169.jpg",Los comuneros
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/3/3/smil:6ac0bc3c0cf299bc2953e533-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/6ac0cda00cf23b0ed4fda6b0/og/tviplayer",Mariana - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCIARCH/mp4/1/2/1619266635821.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5887429
+#EXTINF:-1 group-title="VOD" tvg-id="17249797" tvg-logo="https://img.rtve.es/imagenes/35-anos-sin-miles-davis/01780138289733.jpg",Clásicos al límite - 35 años sin Miles Davis - 29/09/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/6/a/d/smil:6ac0cc170cf23b0ed4fda6ad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0ccaf0cf20dc52778e43f/og/tviplayer",Big Brother All Stars - Extra - 3 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17249797_main.m3u8?idasset=17249797
+#EXTINF:-1 group-title="VOD" tvg-id="16758558" tvg-logo="https://img.rtve.es/imagenes/tinta-contra-hitler-trac-catala-va-combatre-nazisme/01759751367867.jpg",Tinta contra Hitler: el traç català que va combatre el nazisme
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/b/2/2/smil:6ac0cc110cf22b9f8904db22-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0c2f50cf20dc52778e435/og/tviplayer",Big Brother All Stars - Especial - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16758558_main.m3u8?idasset=16758558
+#EXTINF:-1 group-title="VOD" tvg-id="17258102" tvg-logo="https://img.rtve.es/imagenes/despertador-rne-trueque-mas-generoso-lidia-torrent-amistad-optimismo-experiencia/01791441670373.jpg",El despertador de RNE - La amistad, el trueque más generoso, con Lidia Torrent
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/a/d/b/smil:6ac0237a0cf22b9f8904dadb-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0be6e0cf22b9f8904db15/og/tviplayer",Big Brother All Stars - Diário - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17258102_main.m3u8?idasset=17258102
+#EXTINF:-1 group-title="VOD" tvg-id="17253148" tvg-logo="https://img.rtve.es/imagenes/despertador-rne-adios-enrique-ana-otros-finales-tu-infancia-archivo-historia-tve-joseba-adios-enrique-ana-otros-finales-tu-infancia-fiestras/01791181801387.jpg",El despertador de RNE - El adiós de Enrique y Ana y otros finales de tu infancia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/4/c/9/smil:6abff4e50cf299bc2953e4c9-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca" tvg-logo="https://img.iol.pt/preset/6ac0bdd80cf299bc2953e534/og/tviplayer",A Sentença - “O preço do sonho” e “Concorrência à vista”
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17253148_main.m3u8?idasset=17253148
+#EXTINF:-1 group-title="VOD" tvg-id="17243298" tvg-logo="https://img.rtve.es/imagenes/economia-bolsillo-cuatro-historias-sorprendentes-sobre-dinero-museo-moneda-peseta-marco/01790578809570.jpg",Economía de bolsillo - Cuatro historias sorprendentes sobre el dinero
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/a/7/6/smil:6abfe0950cf22b9f8904da76-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6abfbf99d34e9a786e75aa60/og/tviplayer",TVI - Em cima da hora - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17243298_main.m3u8?idasset=17243298
+#EXTINF:-1 group-title="VOD" tvg-id="17256977" tvg-logo="https://img.rtve.es/imagenes/david-zurdo-combustion-humana-espontanea/01791371458542.jpg",David Zurdo: 'Combustión humana espontánea'
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/9/e/2/smil:6abfc0ef0cf22b9f8904d9e2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6abfaaecd34e53c759c74ca3/og/tviplayer",TVI Jornal - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17256977_main.m3u8?idasset=17256977
+#EXTINF:-1 group-title="VOD" tvg-id="17260139" tvg-logo="https://img.rtve.es/imagenes/lyceum-club-femenino-asociacion-cultural-feminista/01791538382449.jpg",Cultura con Ñ - Lyceum Club Femenino, primera asociación cultural y feminista - 09/10/26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/2/7/1/smil:6abfb3360cf20dc52778e271-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6abfb259d34e9a786e75aa3a/og/tviplayer",Dois às 10 - Gonçalo Quinaz revela o que verdadeiramente levou Cristiano Ronaldo a abandonar a Seleção Nacional
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/17260139_main.m3u8?idasset=17260139
+#EXTINF:-1 group-title="VOD" tvg-id="16733769" tvg-logo="https://img.rtve.es/imagenes/sin-rodeos-murio-robert-redford-hombre-susurraba-caballos/01758176247143.jpg",Sin rodeos - Murió Robert Redford, el hombre que susurraba a los caballos - 18/09/25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/2/5/2/smil:6abfa4b70cf20dc52778e252-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6abf86ec0cf299bc2953e356/og/tviplayer",Diário da Manhã - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rnevodstream.rtve.es/rnevodstream/16733769_main.m3u8?idasset=16733769
+#EXTINF:-1 group-title="VOD" tvg-id="17161397" tvg-logo="https://img.rtve.es/imagenes/canarias-2-18072026/1784378526531.jpg",Canarias en 2' - 18/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/9/0/7/smil:6abf76200cf22b9f8904d907-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCAN2M/mp4/0/4/1784378530240.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161397
+#EXTINF:-1 group-title="VOD" tvg-id="16810475" tvg-logo="https://img.rtve.es/imagenes/actualidad-nazis-protegidos-franco-costa-del-sol/01762880796913.jpg",La actualidad de los nazis protegidos por Franco en la Costa del Sol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/3/1/a/smil:6abf6b070cf299bc2953e31a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6abf6ae8d34e53c759c74c09/og/tviplayer",Big Brother All Stars - Extra - 2 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DIRMAG/mp4/2/9/1762883844792.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16810475
+#EXTINF:-1 group-title="VOD" tvg-id="17263503" tvg-logo="https://img.rtve.es/imagenes/inigo-perez-quiere-olvidar-ansiedad-champions-hay-vivirlo-madurez-diferente-experiencias-pasadas/01791824228467.jpg",Íñigo Pérez quiere olvidar la "ansiedad": "Es Champions, hay que vivirlo con una madurez diferente a experiencias pasadas"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/1/d/a/smil:6abf6c630cf20dc52778e1da-L.smil/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://www.rtve.es/
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFUTBOL/mp4/4/6/1791823004664.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263503
