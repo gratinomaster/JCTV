@@ -1,67 +1,101 @@
 #EXTM3U
-#EXTINF:-1 group-title="RTP" tvg-logo="",As Aventuras de Ladybug Episódio 25 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p14191/p14191_1_20261013161004e025t1918d_lo.mp4,/pt/h264/512x384/p14191/p14191_1_20261013161004e025t1918d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Sempre Atrasados Episódio 22
-https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p9289/p9289_1_20261013161004e022t1810d_lo.mp4,/pt/h264/512x384/p9289/p9289_1_20261013161004e022t1810d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Bing Episódio 22
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p8765/p8765_1_20261013161004e022t1360d_lo.mp4,/h264/512x384/p8765/p8765_1_20261013161004e022t1360d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Cadetes Episódio 22 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p9404/p9404_1_20261013161004e022t1229d_lo.mp4,/pt/h264/512x384/p9404/p9404_1_20261013161004e022t1229d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Molang Episódio 18 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p13217/p13217_1_20261013161004e018t1168d_lo.mp4,/pt/h264/512x384/p13217/p13217_1_20261013161004e018t1168d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Dennis e Gnasher, os Aventureiros Episódio 8 - de 11 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p9437/p9437_1_20261011161004e008t3790d_lo.mp4,/pt/h264/512x384/p9437/p9437_1_20261011161004e008t3790d.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",24 Horas de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16068/p16068_1_20261013000000e283t0880.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias Noite 2ª Edição de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16166/p16166_1_20261013000000e208t1386.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Choque Ideológico Episódio 32 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16213/p16213_1_20261013230142e032t8302.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Parlamento Episódio 28 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16176/p16176_1_20261013224150e028t2074.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Jornal 2 de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16194/p16194_1_20261013220729e281t6891.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Telejornal Madeira de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/telejmadeira/tjmadeira_1_20261013212745e284t1673.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Telejornal Açores de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16191/p16191_1_20261013211944et2875.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias 21 de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16165/p16165_1_20261013220141e281t0087.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Telejornal de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16048/p16048_1_20261013205118e286t0313.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias Sete da Tarde de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16164/p16164_1_20261013191736e278t8417.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Jornal d´ África de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16533/p16533_1_20261013200142e142t8038.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Jogo Político de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16196/p16196_1_20261013194736e170t8565.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias das 19 (Madeira) de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/rtpmadeira19/rtpmadeira19_1_20261013192741e137t6950.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias Seis da Tarde de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16163/p16163_1_20261013185735e282t8934.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Portugal em Rede de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16049/p16049_1_20261013175718e201t0335.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias 17 de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16162/p16162_1_20261013173134e284t7787.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias do Atlântico Açores de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16180/p16180_1_20261013172937et5807.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Notícias do Atlântico de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16297/p16297_1_20261013172739e284t1574.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Praça da Alegria de 12 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16170/p16170_1_20261012105718e184t0579.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",A Prova dos Factos Episódio 30 - de 09 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16129/p16129_1_20261009213118e030t0434.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Bom Dia Portugal Fim de Semana de 11 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16050/p16050_1_20261011090118e082t0382.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Sociedade Civil Episódio 140 - de 13 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16075/p16075_1_20261013150723e140t0410.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Grande Entrevista Episódio 29 - de 07 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16214/p16214_1_20261007225743e029t0147.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Trio d´Ataque Episódio 26 - de 11 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16168/p16168_2_20261011000000e026t9801.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Tudo é Economia Episódio 35 - de 12 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16204/p16204_1_20261012230142e035t7924.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",O Outro Lado Episódio 28 - de 28 jul 2025
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p14403/p14403_1_20250728000000e028t3500.mp4,.urlset/master.m3u8
-#EXTINF:-1 group-title="RTP" tvg-logo="",Janela Global de 09 out 2026
-https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16221/p16221_1_20261009230746e030t2836.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="VOD" tvg-logo="",Pinceladas cruzadas: arte feminista desde tres miradas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPF56X/mp4/6/0/1791556661206.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261153
+#EXTINF:-1 group-title="VOD" tvg-logo="",No hay perfil de víctima de violencia de género
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPF56X/mp4/7/1/1791556189317.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261137
+#EXTINF:-1 group-title="VOD" tvg-logo="",España sufre el desabastecimiento de medicamentos para la menopausia desde marzo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STD4FDSS/mp4/3/9/1791725965093.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262716
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Día de la Fiesta Nacional 2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/3/1791802441937.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263201
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - 70 años viéndonos
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/7/5/1791662502757.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262202
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Las elecciones de Maricarmen
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/8/1791662315380.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262199
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especiales informativos - Muere Maricarmen
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/7/1791410480577.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258189
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario - 21 horas - Adelanto electoral - 05/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/1/1791229296919.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254513
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Adelanto electoral
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/3/7/1791204933873.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254015
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Manifestación por la vivienda
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/5/1/1791032201715.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17252216
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario - 21 horas - Especial: El Congreso tumba los decretos de vivienda - 02/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/4/1790971887449.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17251831
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial Informativo - Decreto Maricarmen
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/4/5/1790722012154.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246624
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Maricarmen, la mujer de 87 años desahuciada de su piso en Madrid: "Son inhumanos"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SINMA01/mp4/7/5/1790165986257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17236908
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Más allá del volcán
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/8/2/1789848205628.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232344
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Carlos Cuerpo Responde
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/0/1789847353609.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232340
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario 2
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/2/5/1789157408752.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17222239
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/8/6/1789133832668.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17221683
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Carlos Cuerpo, vicepresidente primero del Gobierno y ministro de Economía, Comercio y Empresa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/1/4/1788770474041.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17214670
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - La crisis del metro cuadrado
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/0/1788638472200.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213883
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Pulso desde la frontera
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/9/1788637732499.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213877
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Ceuta, un mes al límite
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/2/1788033950529.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17206011
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - El latido de Liverpool
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/5/9/1787428923795.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17199202
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Las voces de Lorca
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/9/5/1784404926659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161650
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - La Guerra del Ébola
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/7/8/1786824264387.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192286
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Eclipse de masas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/1/6/1786823645661.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192274
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Salvador Illa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/2/4/1783931827342.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17154084
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Sobrevivir en Cuba
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/3/9/1785614575993.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17176855
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Adaptarse al clima
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/9/1785009104995.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169255
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Una España Mundial
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/7/5/1785009885257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169262
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Uno más de la familia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/0/1783800172305.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17153204
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/0/1792002789003.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267191
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/3/6/1792001187563.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267185
+#EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/8/8/1791994091488.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267019
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/8/5/1791982464158.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266650
+#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/8/3/1791979675138.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266290
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario Internacional - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELIN/mp4/9/8/1791960627789.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265593
+#EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/8/1/1791931294918.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265470
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/8/1791916761783.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265333
+#EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/0/8/1791908239780.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265152
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/0/0/1791915593600.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265312
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/2/0/1791896297602.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264633
+#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 13/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/3/6/1791896188963.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264624
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario Internacional - 12/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELIN/mp4/0/4/1791873081540.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263741
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 12/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/9/1/1791830912019.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263558
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 12/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/5/5/1791828532155.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263539
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 12/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/9/1/1791810214019.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263329
+#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 12/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/9/8/1791810300989.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263340
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario Internacional - 11/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELIN/mp4/2/0/1791785104202.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262942
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 11/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFSC24H/mp4/0/7/1791743797770.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262828
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - 10/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SINFOR/mp4/7/1/1791662548717.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262190
