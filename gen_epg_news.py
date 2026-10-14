@@ -7,8 +7,6 @@ mesmos IDs publicados pela fonte, garantindo que o EPG funcione direto:
 
   ABC.News.Live.us2            (ABC News Live)
   CBS.News.National.Stream.us2 (CBS News 24/7)
-  Fox.News.Channel.HD.us2      (FOX News Channel)
-  Fox.Business.HD.us2          (Fox Business Network)
 
 Retencao: ontem ate hoje+7 dias. Saida: XMLTV valido, comprimido em gzip,
 compativel com TiviMate/Kodi (todo <programme> referencia um <channel>).
@@ -28,22 +26,16 @@ SOURCE_URL = "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 MAP = {
     "ABC.News.Live.us2": "ABC.News.Live.us2",
     "CBS.News.National.Stream.us2": "CBS.News.National.Stream.us2",
-    "Fox.News.Channel.HD.us2": "Fox.News.Channel.HD.us2",
-    "Fox.Business.HD.us2": "Fox.Business.HD.us2",
 }
 
 LOGOS = {
     "ABC.News.Live.us2": "https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg",
     "CBS.News.National.Stream.us2": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg",
-    "Fox.News.Channel.HD.us2": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1",
-    "Fox.Business.HD.us2": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1",
 }
 
 NAMES = {
     "ABC.News.Live.us2": "ABC News Live",
     "CBS.News.National.Stream.us2": "CBS News 24/7",
-    "Fox.News.Channel.HD.us2": "FOX News Channel",
-    "Fox.Business.HD.us2": "Fox Business Network",
 }
 
 KEEP_BEFORE_DAYS = 1
