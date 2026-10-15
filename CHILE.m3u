@@ -1,5 +1,6 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-cl.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
-# Lista Chile corrigida (TDT - ordem oficial do line-up). EPG https testado em navegador (gzip valido, programacao de hoje). tvg-id somente reais (existem no EPG). Sem i.imgur.com e sem .svg.
+# Lista Chile (TDT - ordem oficial do line-up). EPG https testado (gzip valido, programacao de hoje). tvg-id somente reais (existem no EPG). Sem i.imgur.com e sem .svg.
+# 13C removido (stream offline). Adicionados Telecanal (TV aberta) e Via X. Bio Bio TV recebeu o tvg-id real Canal9BioBio.cl.
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://yt3.googleusercontent.com/B4zjsyfwlLsfhNyRbNLjweko5OeeU8u7fJwl_mZSguqKBrnpPXAlpc1WaA5sgzzWcLqNZdFE=s900-c-k-c0x00ffffff-no-rj" group-title="CHILE - TV Aberta" tvg-chno="4.1",La Red
 https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8
 #EXTINF:-1 tvg-name="TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9b/TV%2B_%282018%29.png" group-title="CHILE - TV Aberta" tvg-chno="5.1",TV+
@@ -22,8 +23,10 @@ https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
 https://v2.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.cl" tvg-name="Nuevo Tiempo" tvg-logo="https://www.nuevotiempo.org/wp-content/uploads/sites/6/2024/04/logo-portal-es-1.png" group-title="CHILE - TV Aberta" tvg-chno="25.1",Nuevo Tiempo
 https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Bío Bío TV" tvg-logo="https://www.biobiochile.cl/assets/escritorio/bbcl-2020/img/bbcl-logo.png" group-title="CHILE - TV Aberta" tvg-chno="26.1",Bío Bío TV
+#EXTINF:-1 tvg-id="Canal9BioBio.cl" tvg-name="Bío Bío TV" tvg-logo="https://www.biobiochile.cl/assets/escritorio/bbcl-2020/img/bbcl-logo.png" group-title="CHILE - TV Aberta" tvg-chno="26.1",Bío Bío TV
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Telecanal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Telecanal_-_2011_logo_%283D_variant%29.png" group-title="CHILE - TV Aberta",Telecanal
+https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="CNNChile.cl" tvg-name="CNN Chile" tvg-logo="https://www.cnnchile.com/_templates/globals/img/logo-alt.png" group-title="CHILE - Noticias" tvg-chno="30",CNN Chile
 http://190.110.96.238:8000/play/a0f5/index.m3u8
 #EXTINF:-1 tvg-name="Cooperativa" tvg-logo="https://cdn.m3u.cl/logo/422_Cooperativa.png" group-title="CHILE - Noticias" tvg-chno="31",Cooperativa
@@ -38,8 +41,6 @@ https://pantera1-100gb-cl-movistar.dps.live/nctv/nctv.smil/playlist.m3u8
 https://pnt.janusmedia.tv/hls/pnt.m3u8
 #EXTINF:-1 tvg-name="TVN 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logotipo_de_TVN3.png" group-title="CHILE - Entretenimento" tvg-chno="38",TVN 3
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
-#EXTINF:-1 tvg-id="13C.cl" tvg-name="13C" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/13c-cl.png" group-title="CHILE - Entretenimento" tvg-chno="39",13C
-https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-id="Teletrak.cl" tvg-name="Teletrak" tvg-logo="https://cdn.m3u.cl/logo/376_Teletrak.png" group-title="CHILE - Esportes" tvg-chno="41",Teletrak
 https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Antofagasta TV" tvg-logo="https://cdn.m3u.cl/logo/71_Antofagasta_TV.png" group-title="CHILE - Regional" tvg-chno="44",Antofagasta TV
@@ -60,5 +61,7 @@ https://v2.tustreaming.cl/atacamatv/index.m3u8
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Pudahuel" tvg-logo="https://cdn.m3u.cl/logo/429_Pudahuel_FM.png" group-title="CHILE - Música" tvg-chno="53",Radio Pudahuel
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ViaX.cl" tvg-name="Via X" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/via-x-cl.png" group-title="CHILE - Música",Via X
+http://45.170.130.224:8000/play/a025/index.m3u8
 #EXTINF:-1 tvg-name="Tevex" tvg-logo="https://tevex.cl/brand/tevex-metadata.jpeg" group-title="CHILE - Negócios" tvg-chno="54",Tevex
 https://v2.tustreaming.cl/tevex/index.m3u8
