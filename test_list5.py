@@ -29,6 +29,7 @@ ok_all = True
 
 def curl(url, rng=None, timeout=TIMEOUT):
     """Retorna (bytes, http_code, content_type)."""
+    url = re.sub(r"[\s\x00-\x1f\x7f]", "", url)
     cmd = ["curl", "-sL", "--max-time", str(timeout), "-A", UA,
            "-w", "\n@@@%{http_code}|%{content_type}", "-o", "/tmp/opencode/_v.bin"]
     if rng:
@@ -158,7 +159,8 @@ def check_epg(epgs, channels):
         for cid, days in prog.items():
             merged.setdefault(cid, set()).update(days)
     for ch in channels:
-        tid = re.search(r'tvg-id="([^"]*)"', ch["info"]).group(1)
+        tid_m = re.search(r'tvg-id="([^"]*)"', ch["info"])
+        tid = tid_m.group(1) if tid_m else ""
         days = merged.get(tid, set())
         missing = need - days
         name = ch["info"].split(",")[-1]
@@ -180,8 +182,7 @@ def first_variant(playlist, base):
             bw, best = int(m.group(1)), m.group(2)
     if best:
         return urllib.parse.urljoin(base, best)
-    lines = [l.strip() for l in txt.splitlines() if l.strip() and not l.startswith("#")]
-    return urllib.parse.urljoin(base, lines[-1]) if lines else None
+    return None
 
 
 def check_streams(channels):
@@ -202,20 +203,29 @@ def check_streams(channels):
             print(f"[FALHA] {name}: {host} listado em blocklist de malware")
             globals()["ok_all"] = False
             continue
-        body, code, ctype = curl(url, rng="0-4000")
+        body, code, ctype = curl(url)
         if code not in (200, 206) or b"#EXTM3U" not in body:
             print(f"[FALHA] {name}: manifesto HLS invalido (http {code})")
             globals()["ok_all"] = False
             continue
-        variant = first_variant(body, url)
+        media_text = body.decode("utf-8", "replace")
+        if "#EXT-X-STREAM-INF" in media_text:
+            variant = first_variant(body, url)
+            if not variant:
+                print(f"[FALHA] {name}: master sem variante")
+                globals()["ok_all"] = False
+                continue
+            media_bytes, media_code, _ = curl(variant)
+            media_url = variant
+            media_text = media_bytes.decode("utf-8", "replace")
+        else:
+            media_url = url
+        lines = [l.strip() for l in media_text.splitlines()
+                 if l.strip() and not l.startswith("#")]
         seg_b, seg_c, seg_t = b"", 0, ""
-        if variant:
-            pl, pc, _ = curl(variant, rng="0-3000")
-            lines = [l.strip() for l in pl.decode("utf-8", "replace").splitlines()
-                     if l.strip() and not l.startswith("#")]
-            if lines:
-                seg = urllib.parse.urljoin(variant, lines[-1])
-                seg_b, seg_c, seg_t = curl(seg, rng="0-2000")
+        if lines:
+            seg = urllib.parse.urljoin(media_url, lines[-1])
+            seg_b, seg_c, seg_t = curl(seg, rng="0-2000")
         is_ts = seg_b[:1] == b"\x47"
         is_fmp4 = b"styp" in seg_b[:16] or b"moof" in seg_b[:16]
         if seg_c in (200, 206) and (is_ts or is_fmp4) and len(seg_b) > 100:
