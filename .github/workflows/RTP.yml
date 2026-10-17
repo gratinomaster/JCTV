@@ -33,6 +33,7 @@ jobs:
           use crawl4ai
           salve em VOD.m3u e salve só ele 
           use group-title="RTP"
+          não salve nenhum .py
           EOF
 
       - name: Run OpenCode
