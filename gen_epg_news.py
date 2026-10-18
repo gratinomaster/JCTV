@@ -14,6 +14,7 @@ Retencao: ontem ate hoje+7 dias. Saida: XMLTV valido, comprimido em gzip,
 compativel com TiviMate/Kodi (todo <programme> referencia um <channel>).
 """
 import gzip
+import html
 import re
 import sys
 import time
@@ -33,10 +34,10 @@ MAP = {
 }
 
 LOGOS = {
-    "ABC.News.Live.us2": "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/logos/abc-news-live.jpg",
+    "ABC.News.Live.us2": "https://keyframe-cdn.abcnews.com/streamprovider11.jpg",
     "CBS.News.National.Stream.us2": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg",
-    "Fox.News.Channel.HD.us2": "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/logos/fox-news-channel.jpg",
-    "Fox.Business.HD.us2": "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/logos/fox-business-network.jpg",
+    "Fox.News.Channel.HD.us2": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg",
+    "Fox.Business.HD.us2": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg",
 }
 
 NAMES = {
@@ -87,7 +88,11 @@ def parse_window(data):
         title = title_re.search(inner)
         if not title:
             continue
-        t = sax.escape(title.group(1).strip())
+
+        def clean(match):
+            return sax.escape(html.unescape(match.group(1).strip()))
+
+        t = clean(title)
         d = desc_re.search(inner)
         s = sub_re.search(inner)
         c = cat_re.search(inner)
@@ -95,9 +100,9 @@ def parse_window(data):
             '<programme start="{st} +0000" stop="{sp} +0000" channel="{ch}">'
             "<title lang=\"en\">{t}</title>{sub}{desc}{cat}</programme>".format(
                 st=st, sp=sp, ch=sax.escape(ch, {'"': "&quot;"}), t=t,
-                sub=f'<sub-title lang="en">{sax.escape(s.group(1).strip())}</sub-title>' if s else "",
-                desc=f'<desc lang="en">{sax.escape(d.group(1).strip())}</desc>' if d else "",
-                cat=f'<category lang="en">{sax.escape(c.group(1).strip())}</category>' if c else "",
+                sub=f'<sub-title lang="en">{clean(s)}</sub-title>' if s else "",
+                desc=f'<desc lang="en">{clean(d)}</desc>' if d else "",
+                cat=f'<category lang="en">{clean(c)}</category>' if c else "",
             )
         )
         channels[ch] = True
