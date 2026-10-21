@@ -194,26 +194,33 @@ def check_structure(channels):
 
 
 def load_epg(url, cache):
+    """Baixa o XMLTV e devolve {canal: {datas com programa}}.
+
+    Le o XML em fluxo (iterparse) em vez de ET.fromstring: os guias do
+    iptv-epg.org passam de 500 MB descomprimidos e a arvore inteira estoura
+    a memoria do CI.
+    """
     if url in cache:
         return cache[url]
-    body, code, _ = curl(url, timeout=60)
+    body, code, _ = curl(url, timeout=240)
     if code != 200 or not body:
         cache[url] = None
         return None
     data = body
     if data[:2] == b"\x1f\x8b":
         data = gzip.decompress(data)
+    prog = {}
     try:
-        root = ET.fromstring(data.decode("utf-8", "replace"))
+        for _, elem in ET.iterparse(io.BytesIO(data), events=("end",)):
+            if elem.tag == "programme":
+                start = elem.get("start", "")
+                cid = elem.get("channel", "")
+                if len(start) >= 8:
+                    prog.setdefault(cid, set()).add(start[:8])
+                elem.clear()
     except ET.ParseError:
         cache[url] = None
         return None
-    prog = {}
-    for p in root.findall("programme"):
-        start = p.get("start", "")
-        cid = p.get("channel", "")
-        if len(start) >= 8:
-            prog.setdefault(cid, set()).add(start[:8])
     cache[url] = prog
     return prog
 
