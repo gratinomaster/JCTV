@@ -13,6 +13,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
@@ -54,6 +55,19 @@ def curl(url, rng=None, timeout=TIMEOUT):
     return body, code, ctype.decode("utf-8", "replace")
 
 
+def resolve(base, ref):
+    """Junta ref a base e herda o token de query (hdnea/hash) se faltar.
+
+    CDN como Akamai e Disney exigem o mesmo token da URL mae na variante
+    e no segmento; sem isso o player recebe 403 num stream que funciona.
+    """
+    url = urllib.parse.urljoin(base, ref)
+    base_q = urllib.parse.urlparse(base).query
+    if base_q and not urllib.parse.urlparse(url).query:
+        url += ("&" if "?" in url else "?") + base_q
+    return url
+
+
 def is_media(data):
     """Confirma que o segmento traz midia de verdade."""
     if not data or len(data) < 128:
@@ -87,7 +101,7 @@ def pick_variant(text, base):
             bw, best = cur, m.group(2).strip()
             codecs = cm.group(1) if cm else ""
     if best:
-        return urllib.parse.urljoin(base, best), codecs
+        return resolve(base, best), codecs
     return None, ""
 
 
@@ -123,7 +137,7 @@ def init_has_video(text, base):
     m = re.search(r'#EXT-X-MAP:URI="([^"]+)"', text)
     if not m:
         return None
-    data, code, _ = curl(urllib.parse.urljoin(base, m.group(1)), rng="0-8191")
+    data, code, _ = curl(resolve(base, m.group(1)), rng="0-8191")
     if code not in (200, 206) or not data:
         return None
     return mp4_has_video(data)
@@ -157,7 +171,7 @@ def segment_ok(text, base):
     cand = list(dict.fromkeys([segs[-1], segs[0]]))
     code = 0
     for seg in cand:
-        sb, sc, _ = curl(urllib.parse.urljoin(base, seg), rng="0-4095")
+        sb, sc, _ = curl(resolve(base, seg), rng="0-4095")
         code = sc
         if sc in (200, 206) and is_media(sb):
             return True, ""
@@ -195,12 +209,19 @@ def test_once(url):
     return segment_ok(text, base)
 
 
-def test_url(url):
-    """Retorna (ok, motivo). Falhas transitórias sao retestadas."""
-    ok, why = test_once(url)
-    if ok or why.startswith("DRM"):
-        return ok, why
-    return test_once(url)
+def test_url(url, attempts=4):
+    """Retorna (ok, motivo). Falhas transitórias sao retestadas.
+
+    CDN costuma responder 403/timeout sob carga; so manda pro arquivo
+    depois de varias tentativas seguidas falharem.
+    """
+    why = ""
+    for i in range(attempts):
+        ok, why = test_once(url)
+        if ok or why.startswith("DRM"):
+            return ok, why
+        time.sleep(2 + 2 * i)
+    return False, why
 
 
 def parse(path):
