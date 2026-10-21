@@ -6,23 +6,34 @@ Checa:
   2. tvg-id presente e existente no EPG; tvg-logo em .jpg (sem imgur).
   3. EPG: baixa os url-tvg/x-tvg-url e confirma programacao para
      hoje, amanha e depois de amanha em cada canal.
-  4. Streams: HTTPS + dominio limpo (anti-virus: Spamhaus DBL/SURBL) +
-     manifesto HLS real com segmento de video servido.
+  4. Streams: HTTPS + dominio limpo (anti-virus: Spamhaus DBL/SURBL +
+     URLhaus + Phishing.Database) + manifesto HLS real com segmento de video.
   5. Logos: respondem 200 com content-type de imagem.
 """
 import datetime
 import gzip
 import io
+import os
 import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 
 M3U = "lista5.m3u"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 TIMEOUT = 25
+
+# Blocklists publicas de malware/phishing (host -> categoria).
+BLOCKLIST_SOURCES = (
+    ("URLhaus", "https://urlhaus.abuse.ch/downloads/hostfile/"),
+    ("Phishing.Database", "https://raw.githubusercontent.com/mitchellkrogza/"
+                           "Phishing.Database/master/phishing-domains-ACTIVE.txt"),
+)
+BLOCKLIST_CACHE = "/tmp/opencode"
+BLOCKLIST_MAX_AGE = 24 * 3600
 
 ok_all = True
 
@@ -60,6 +71,71 @@ def dns_listed(domain):
             if line.startswith("127.") and not line.startswith("127.255."):
                 return True
     return False
+
+
+_blocklists = {}
+
+
+def blocklists():
+    """Baixa (uma vez por dia) as blocklists de host de malware/phishing."""
+    if _blocklists:
+        return _blocklists
+    for name, url in BLOCKLIST_SOURCES:
+        path = os.path.join(BLOCKLIST_CACHE, "blocklist_%s.txt" % name.lower().split(".")[0])
+        body = b""
+        if os.path.exists(path) and (time.time() - os.path.getmtime(path)) < BLOCKLIST_MAX_AGE:
+            try:
+                body = open(path, "rb").read()
+            except OSError:
+                body = b""
+        if not body:
+            body, code, _ = curl(url, timeout=180)
+            if code == 200 and body:
+                os.makedirs(BLOCKLIST_CACHE, exist_ok=True)
+                with open(path, "wb") as f:
+                    f.write(body)
+        hosts = set()
+        for line in body.decode("utf-8", "replace").splitlines():
+            line = line.strip().lower()
+            if not line or line.startswith("#") or line.startswith("!"):
+                continue
+            parts = line.split()
+            if not parts:
+                continue
+            # URLhaus usa "127.0.0.1<TAB>host"; as demais usam um host por linha.
+            if len(parts) >= 2 and re.match(r"^\d+\.\d+\.\d+\.\d+$", parts[0]):
+                host = parts[1]
+            else:
+                host = parts[0]
+            host = host.strip(".")
+            if host and "/" not in host:
+                hosts.add(host)
+        _blocklists[name] = hosts
+        print(f"  blocklist {name}: {len(hosts)} hosts")
+    return _blocklists
+
+
+def host_listed(host):
+    """True se o host (ou dominio pai) estiver em alguma blocklist."""
+    host = (host or "").lower().strip(".")
+    if not host:
+        return None
+    parts = host.split(".")
+    candidates = {host}
+    for i in range(1, len(parts) - 1):
+        candidates.add(".".join(parts[i:]))
+    for name, hosts in blocklists().items():
+        for c in candidates:
+            if c in hosts:
+                return name
+    return None
+
+
+def malware_listed(host):
+    """Anti-virus: DNS (Spamhaus/SURBL) + blocklists de host (URLhaus/Phishing)."""
+    if dns_listed(host):
+        return "Spamhaus/SURBL (DNS)"
+    return host_listed(host)
 
 
 def parse_channels():
@@ -199,7 +275,7 @@ def check_streams(channels):
             print(f"[FALHA] {name}: host e IP literal")
             globals()["ok_all"] = False
             continue
-        if dns_listed(host):
+        if malware_listed(host):
             print(f"[FALHA] {name}: {host} listado em blocklist de malware")
             globals()["ok_all"] = False
             continue
@@ -241,6 +317,11 @@ def check_logos(channels):
         name = ch["info"].split(",")[-1]
         logo = re.search(r'tvg-logo="([^"]*)"', ch["info"])
         if not logo:
+            continue
+        lhost = urllib.parse.urlparse(logo.group(1)).hostname or ""
+        if malware_listed(lhost):
+            print(f"[FALHA] {name}: host do logo {lhost} listado em blocklist de malware")
+            globals()["ok_all"] = False
             continue
         _, code, ctype = curl(logo.group(1), rng="0-200")
         if code in (200, 206) and ctype.startswith("image/"):
