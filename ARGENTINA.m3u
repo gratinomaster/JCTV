@@ -34,7 +34,7 @@ http://190.108.83.69:8000/play/a01d/index.m3u8
 http://45.173.231.22:8000/play/a053/index.m3u8
 
 #EXTINF:-1 tvg-id="ELNueve.ar" tvg-name="El Nueve" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/elnueve-ar.png" group-title="ARGENTINA",El Nueve 35.1 - TDA 35.1
-http://15.204.246.24:8080/elnueveHD/index.m3u8
+https://access.cdn.rcs.net.ar/mnp/elnueve_hls/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-name="America TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/america-ar.png" group-title="ARGENTINA",América 36.1 - TDA 36.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 Chrome/124.0 Mobile Safari/537.36
