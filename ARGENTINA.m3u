@@ -28,7 +28,7 @@ https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
 #EXTINF:-1 tvg-id="ELTrece.ar" tvg-name="El Trece" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png" group-title="ARGENTINA",El Trece 33.1 - TDA 33.1
-http://190.108.83.69:8000/play/a01d/index.m3u8
+https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
 
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="ARGENTINA",Telefe 34.1 - TDA 34.1
 http://45.173.231.22:8000/play/a053/index.m3u8
