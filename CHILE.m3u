@@ -18,7 +18,7 @@ https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Mega 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Megados.jpg" group-title="CHILE - TV Aberta" tvg-chno="9.2",Mega 2
 http://15.204.196.147:22880/MEGA2-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-name="Chilevision" tvg-logo="https://iptv-epg.org/images/KVJI8H1Mt-VVIWzDW7uMtp5t5SE5evJfhSnK8mVVOLyH9GwpRNebO10-f16PpOqBevY7xmR1YpscJOd5MqV4N9vdszzkvRuTyAXxXlUcHYfkqiQ" group-title="CHILE - TV Aberta" tvg-chno="11.1",Chilevision
-http://15.204.246.24:8080/CHVHD/index.m3u8
+https://redirector.dps.live/hls/chv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal13.cl" tvg-name="Canal 13" tvg-logo="https://iptv-epg.org/images/Bi77AbrIzZZyaUvWD_ViK_P-F7NeICTqJ06utRrVetbKNAI_fB3O1Dk-ssOMwtw32NU7sIkR6inJc5qMm0WhLkRC3-rFrwyu_qfMjPGvfQ" group-title="CHILE - TV Aberta" tvg-chno="13.1",Canal 13
 https://iptv.bitred.cl/c13/index.m3u8
 #EXTINF:-1 tvg-name="T13" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/chile/t13-cl.png" group-title="CHILE - TV Aberta" tvg-chno="13.2",T13
@@ -27,7 +27,7 @@ https://redirector.dps.live/hls/t13/playlist.m3u8
 https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-name="TVR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png" group-title="CHILE - TV Aberta" tvg-chno="14.1",TVR
 https://redirector.dps.live/hls/tvr/playlist.m3u8
-#EXTINF:-1 tvg-id="EnlaceTBN.cl" tvg-name="Enlace TBN" tvg-logo="https://iptv-epg.org/images/S1n20JrW69OwXj663DJEzSTf8yKNTuc6BI_yDh22khV07G1evNzXJoCbHORPnqrsFVMls6gbLLzpPx8LEjLm0l-RYPv-LOJvjLHS2524nE4x" group-title="CHILE - TV Aberta" tvg-chno="15.1",Enlace TBN
+#EXTINF:-1 tvg-id="EnlaceTBN.cl" tvg-name="15.1 BPB" tvg-logo="https://iptv-epg.org/images/S1n20JrW69OwXj663DJEzSTf8yKNTuc6BI_yDh22khV07G1evNzXJoCbHORPnqrsFVMls6gbLLzpPx8LEjLm0l-RYPv-LOJvjLHS2524nE4x" group-title="CHILE - TV Aberta" tvg-chno="15.1",15.1 BPB
 https://v2.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.cl" tvg-name="Nuevo Tiempo" tvg-logo="https://iptv-epg.org/images/W16KMCRiYWnnZFr-37CiRAUwKB6-RLNy8aQeqOJQ2hslnqhluqZr6iCs-VT6d-48jC7oFEd1fMmZVoD0lr1cdQumOnoJWOFeDZU7RYMmdP1fEOs" group-title="CHILE - TV Aberta" tvg-chno="25.1",Nuevo Tiempo
 https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
@@ -69,3 +69,7 @@ https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 http://45.170.130.224:8000/play/a025/index.m3u8
 #EXTINF:-1 tvg-name="Tevex" tvg-logo="https://tevex.cl/brand/tevex-metadata.jpeg" group-title="CHILE - Negocios" tvg-chno="54",Tevex
 https://v2.tustreaming.cl/tevex/index.m3u8
+#EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://iptv-epg.org/images/-fj9SLlX9-HlWIE_f4xvGFc3sZDo4G4DECdxCvWSyRPTl9mavQcWnnsRRvux5ylYDqjmgFlZlC3zsj4cl1vz-zqQ_U1TCq90KxBrB90" group-title="CHILE - TV Aberta" tvg-chno="4.1",La Red
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/TV%2B_%282020%29.png/320px-TV%2B_%282020%29.png" group-title="CHILE - TV Aberta" tvg-chno="5.1",TV+
+https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
