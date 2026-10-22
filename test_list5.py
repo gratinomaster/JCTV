@@ -28,7 +28,8 @@ TIMEOUT = 25
 
 # Blocklists publicas de malware/phishing (host -> categoria).
 BLOCKLIST_SOURCES = (
-    ("URLhaus", "https://urlhaus.abuse.ch/downloads/hostfile/"),
+    ("OpenPhish", "https://openphish.com/feed.txt"),
+    ("StevenBlack", "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"),
     ("Phishing.Database", "https://raw.githubusercontent.com/mitchellkrogza/"
                            "Phishing.Database/master/phishing-domains-ACTIVE.txt"),
 )
@@ -105,6 +106,9 @@ def blocklists():
             # URLhaus usa "127.0.0.1<TAB>host"; as demais usam um host por linha.
             if len(parts) >= 2 and re.match(r"^\d+\.\d+\.\d+\.\d+$", parts[0]):
                 host = parts[1]
+            elif "://" in parts[0]:
+                # OpenPhish publica URLs completas; extrai o host.
+                host = urllib.parse.urlparse(parts[0]).hostname or ""
             else:
                 host = parts[0]
             host = host.strip(".")
