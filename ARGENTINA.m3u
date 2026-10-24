@@ -17,6 +17,8 @@ https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_900.m3u8
 
 #EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5N" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/c5n-ar.png" group-title="ARGENTINA",C5N 25.2 - TDA 25.2
 http://138.59.227.20:8000/play/a05v/index.m3u8
+#EXTINF:-1 tvg-id="LaNacionPlus.ar" tvg-name="LN+" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/la-nacion-plus-ar.png" group-title="ARGENTINA",LN+ 25.3 - TDA 25.3
+https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live
 
 #EXTINF:-1 tvg-id="teleSUR.ar" tvg-name="teleSUR" tvg-logo="https://iptv-epg.org/images/ZY3BT2dqyQtWbc9TnDutXCbypDMUL6Vs-G7uRH6YAVdZJ_PbZkvUH5ygIMTLiW-cucDtyjNrD4iXvH1g13XdSCeRBMmbN3iaG71u_PiX1yTPMX4" group-title="ARGENTINA",teleSUR 25.4 - TDA 25.4
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
