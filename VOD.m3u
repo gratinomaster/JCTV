@@ -11,3 +11,7 @@ https://ztnr.rtve.es/ztnr/res/TDP_TELEDEPORTE.m3u8
 https://ztnr.rtve.es/ztnr/res/CLAN.m3u8
 #EXTINF:-1 group-title="VOD",La 1 Catalunya
 https://ztnr.rtve.es/ztnr/res/La1_CAT.m3u8
+#EXTINF:-1 group-title="VOD",La 1 Madrid
+https://ztnr.rtve.es/ztnr/res/La1_MAD.m3u8
+#EXTINF:-1 group-title="VOD",Canal 24 Horas
+https://rtvelivestream-lvlt.rtve.es/24h.m3u8
