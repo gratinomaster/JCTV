@@ -9,3 +9,10 @@
 https://www.canal10.com.uy/contenidos/vivo.html
 #EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay 24/7 - Antel TV (requer conta)
 https://www.anteltv.com.uy/
+
+# Reality show - La Granja VIP (Mexico) - temporada atual, sem reprises
+#EXTINF:-1 tvg-name="La Granja VIP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/La_Granja_VIP_logo.png/320px-La_Granja_VIP_logo.png" group-title="UMA | Reality",La Granja VIP (México)
+#link placeholder - buscar fonte válida
+# Reality show - Grande Fratello (Italia) - temporada atual, sem reprises
+#EXTINF:-1 tvg-name="Grande Fratello" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Grande_Fratello_logo.png/320px-Grande_Fratello_logo.png" group-title="UMA | Reality",Grande Fratello (Italia)
+#link placeholder - buscar fonte válida

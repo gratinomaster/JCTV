@@ -1,14 +1,4 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-cl.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
-# Lista Chile - TV digital terrestre na ordem oficial do line-up, depois noticias, esportes, regionais, musica e negocios.
-# EPGs (https, testados com a grade de 2026-10-21): iptv-epg.org CL (181 canais) + epgshare01 CL1 (90 canais).
-# Os tvg-id seguem a nomenclatura do iptv-epg.org (ex.: Mega.cl); o epgshare01 usa outra convencao (ex.: Canal.Mega.(Chile).cl) e por isso nao casa com eles.
-# tvg-id somente reais (presentes no EPG); canais que nao tem id real no EPG ficam sem tvg-id.
-# Logos: icones oficiais do EPG (PNG) e logotipos oficiais/Wikipedia (PNG/JPG). Sem .svg e sem i.imgur.com.
-# Todos os streams foram testados com ffmpeg (primeiro frame + transcodificacao) em 2026-10-21.
-# Removidos por estarem offline: La Red (4.1), TV+ (5.1 - todos os links transmitiam Tevex), TVN 3, NCTV (duplicata do Enlace TBN) e Telecanal (frame preto).
-# Adicionados: 13C (13.3) e TV Senado (institucional), os dois com tvg-id real.
-# Correcoes: Canal 13 agora usa iptv.bitred.cl (Teletrece confirmado no 1o frame) e "Meganoticias" aponta para o sinal real (o link anterior estava preto).
-# URLs em IP literal (http) sao as unicas disponiveis para Chilevision, CNN Chile, Via X, Mega 2 e Meganoticias.
 #EXTINF:-1 tvg-id="UCVTV.cl" tvg-name="UCV TV" tvg-logo="https://iptv-epg.org/images/qcvAlKKjdzYbFwSWdgptXosy9gV23Szm_XPe98Oro9sQ3G9vnLNTHw0xAnji91XsNMxpHZfZ3ob0wAEf62N1IRq2_gird7c1fgGwZZ4" group-title="CHILE - TV Aberta" tvg-chno="5.3",UCV TV
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVN.cl" tvg-name="TVN" tvg-logo="https://iptv-epg.org/images/BVk8UwTw-9CrhRNDYZ3Ljyj3YB_fOMhcxZPI0yvNzN5zv9dQu7boKQ6zII0kxacl3PTAxLK7ffPHNKsi-vnyoL-mAYLNeCihbobB" group-title="CHILE - TV Aberta" tvg-chno="7.1",TVN
@@ -69,7 +59,3 @@ https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 http://45.170.130.224:8000/play/a025/index.m3u8
 #EXTINF:-1 tvg-name="Tevex" tvg-logo="https://tevex.cl/brand/tevex-metadata.jpeg" group-title="CHILE - Negocios" tvg-chno="54",Tevex
 https://v2.tustreaming.cl/tevex/index.m3u8
-#EXTINF:-1 tvg-id="LaRed.cl" tvg-name="La Red" tvg-logo="https://iptv-epg.org/images/-fj9SLlX9-HlWIE_f4xvGFc3sZDo4G4DECdxCvWSyRPTl9mavQcWnnsRRvux5ylYDqjmgFlZlC3zsj4cl1vz-zqQ_U1TCq90KxBrB90" group-title="CHILE - TV Aberta" tvg-chno="4.1",La Red
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/TV%2B_%282020%29.png/320px-TV%2B_%282020%29.png" group-title="CHILE - TV Aberta" tvg-chno="5.1",TV+
-https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
