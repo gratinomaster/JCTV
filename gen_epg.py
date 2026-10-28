@@ -1139,18 +1139,20 @@ def drop_overlaps(blocks):
     entao o mesmo programa pode aparecer duas vezes com horarios diferentes
     (o reportv grava em -0400 e o iptv-epg em +0000) ou vir repetido dentro
     de uma fonte. Como o TiviMate desenha a grade em ordem cronologica, o
-    primeiro que comeca e o que fica; o sobreposto e descartado.
+    primeiro que comeca e o que fica; o sobreposto e descartado. Programa com
+    duracao zero ou negativa (o iptv-epg publica alguns marcadores assim) nao
+    entra: o TiviMate nao desenha faixa nenhuma e o guia fica com um buraco.
     """
     kept = []
     last_stop = None
     for b in blocks:
         start = block_start(b)
-        if start is None:
+        stop = block_stop(b)
+        if start is None or (stop is not None and stop <= start):
             continue
         if last_stop is not None and start < last_stop:
             continue
         kept.append(b)
-        stop = block_stop(b)
         if stop is not None:
             last_stop = stop
     return kept
