@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 group-title="RTP",RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1793246400_598d7297d52fcfa7be81c9ac3e20c21545511c2f
+#EXTINF:-1 group-title="RTP",RTP2
+https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8?tk=1793246400_0227d32719d03dbb3b95de98674189363dd531db
+#EXTINF:-1 group-title="RTP",RTP3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
+#EXTINF:-1 group-title="RTP",RTPMEMORIA
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTPAFRICA
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTPACORES
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTPINTERNACIONAL
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
