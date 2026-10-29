@@ -23,6 +23,8 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_2026100
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_20261009213118e030t0434.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",A Prova dos Factos Episódio 31 - de 23 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_20261023213118e031t0425.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Bom Dia Portugal de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16046/p16046_1_20261029090118e216t0571.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Bom Dia Portugal Fim de Semana de 18 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_20261018090118e084t0350.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Bom Dia Portugal Fim de Semana de 24 out 2026
@@ -31,6 +33,10 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_20261025090118e086t0420.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Cinemax Episódio 17 - de 24 abr 2025
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14895/p14895_1_20250424132456e017t1629d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Direto RTP Mundo
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",Direto RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1793332800_f2905b05b8565d3374f5430f41d52ad6a19e781c
 #EXTINF:-1 group-title="RTP",E Agora? Episódio 18 - de 12 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16551/p16551_1_20261012000000e018t8415.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",E Agora? Episódio 19 - de 19 out 2026
@@ -73,12 +79,16 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_20261027220728e295t7114.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Jornal 2 de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_20261028223730e296t3246.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Jornal da Tarde de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16047/p16047_1_20261029140118e302t0309.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 09 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260709161006e020t2308d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 16 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260716001005e022t5190d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 23 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260723161006e021t6563d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Notícias 11 de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16157/p16157_1_20261029112726e297t0382.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",O Outro Lado Episódio 26 - de 14 jul 2025
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14403/p14403_1_20250714000000e026t2794.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",O Outro Lado Episódio 27 - de 21 jul 2025
@@ -121,12 +131,16 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_20261027150724e150t4247.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Sociedade Civil Episódio 151 - de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_20261028161004e151t6773d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Telejornal Açores de 28 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16191/p16191_1_20261028212146et6775.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 26 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261026205718e299t0539.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 27 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261027205718e300t0308.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261028205718e301t0281.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Telejornal Madeira de 28 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/telejmadeira/tjmadeira_1_20261028214149e299t2674.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Todas as Palavras Episódio 46 - de 01 fev 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14532/p14532_1_20260201161004e046t9155d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Todas as Palavras Episódio 47 - de 07 fev 2026
