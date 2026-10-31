@@ -32,9 +32,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          Analise os arquivos do repositório e atualize a playlist
-          lista5.m3u conforme as instruções do projeto.
-          Não exclua arquivos de backup nem arquivos fora do repositório.
+          remova os arquivos de backup que estão no meu pc
           EOF
 
       - name: Run OpenCode
