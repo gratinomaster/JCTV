@@ -1,3 +1,4 @@
+
 name: NEWSWORLD
 
 on:
@@ -19,19 +20,26 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Install OpenCode
         run: |
           curl -fsSL https://opencode.ai/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          exclua todos arquivos de backup que estejam no meu computador
+          Analise os arquivos do repositório e atualize a playlist
+          lista5.m3u conforme as instruções do projeto.
+          Não exclua arquivos de backup nem arquivos fora do repositório.
           EOF
 
       - name: Run OpenCode
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Executando OpenCode..."
           opencode run "$(cat prompt.txt)"
@@ -43,34 +51,46 @@ jobs:
 
           if [ -f lista5.m3u ]; then
             echo "Playlist criada:"
-            cat lista5.m3u
+            ls -lh lista5.m3u
           else
-            echo "lista5.m3u não foi criado"
+            echo "ERRO: lista5.m3u não foi criado"
+            exit 1
           fi
 
-      - name: Commit and Push safely
+      - name: Commit and Push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git add . || true
-          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
+          git add lista5.m3u
 
-          # tenta sincronizar e enviar sem sobrescrever ninguém
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit"
+            exit 0
+          fi
+
+          git commit -m "Atualização automática da playlist"
+
+          BRANCH="${GITHUB_REF_NAME}"
+
           for i in {1..10}; do
             echo "Tentativa $i de push..."
 
-            git fetch origin
+            git fetch origin "$BRANCH"
 
-            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
-              echo "Conflito no rebase, abortando e tentando novamente..."
+            git rebase "origin/$BRANCH" || {
               git rebase --abort
-              sleep 5
-              continue
+              echo "Falha no rebase"
+              exit 1
             }
 
-            git push origin HEAD && break
+            if git push origin HEAD:"$BRANCH"; then
+              echo "Push realizado com sucesso!"
+              exit 0
+            fi
 
-            echo "Push falhou, tentando novamente em 5s..."
             sleep 5
           done
+
+          echo "ERRO: Não foi possível enviar alterações"
+          exit 1
