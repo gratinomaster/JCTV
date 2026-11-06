@@ -5,6 +5,10 @@ https://www.youtube.com/results?search_query=bigg+boss&sp=CAMSAkAB
 
 #EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",UNIVERSAL
 https://www.youtube.com/results?search_query=UNIVERSAL&sp=CAMSAkAB
+
+#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",PODCAST
+https://www.youtube.com/results?search_query=PODCAST&sp=CAASAkAB
+
 #EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/TUNo33rJfSv06L2UyQWsOPUMJglHptsHR2mFZOshcXL45xRJ1YgpRZWpb76IChbSBwyG1TBUvA=s900-c-k-c0x00ffffff-no-rj", CNN BRASIL
 https://www.youtube.com/@CNNbrasil/live
 
