@@ -6,6 +6,15 @@
 #EXTHTTP:{"user-agent":"Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 Chrome/124.0 Mobile Safari/537.36"}
 https://g5.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ELTrece.ar" tvg-name="El Trece" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png" group-title="ARGENTINA",El Trece 33.1 - TDA 33.1
+https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
+
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="ARGENTINA",Telefe 34.1 - TDA 34.1
+http://45.173.231.22:8000/play/a053/index.m3u8
+
+#EXTINF:-1 tvg-id="ELNueve.ar" tvg-name="El Nueve" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/elnueve-ar.png" group-title="ARGENTINA",El Nueve 35.1 - TDA 35.1
+http://45.188.229.33:8000/play/a1a5/index.m3u8?hls
+
 #EXTINF:-1 tvg-name="UNIFE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/UNIFE.jpg" group-title="ARGENTINA",UNIFE 25.1 - TDA 25.1
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
@@ -29,14 +38,7 @@ https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemax.ar" tvg-name="Telemax" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telemax-ar.png" group-title="ARGENTINA",Telemax 26.3 - TDA 26.3
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
-#EXTINF:-1 tvg-id="ELTrece.ar" tvg-name="El Trece" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png" group-title="ARGENTINA",El Trece 33.1 - TDA 33.1
-https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
 
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="ARGENTINA",Telefe 34.1 - TDA 34.1
-http://45.173.231.22:8000/play/a053/index.m3u8
-
-#EXTINF:-1 tvg-id="ELNueve.ar" tvg-name="El Nueve" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/elnueve-ar.png" group-title="ARGENTINA",El Nueve 35.1 - TDA 35.1
-http://45.188.229.33:8000/play/a1a5/index.m3u8?hls
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-name="America TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/america-ar.png" group-title="ARGENTINA",América 36.1 - TDA 36.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 Chrome/124.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
