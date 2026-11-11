@@ -49,7 +49,7 @@ jobs:
 
       - name: Instalar OpenCode
         run: |
-          curl -fsSL https://opencode.ai/install | bash
+          curl -fsSL https://opencode.ai/v2/install | bash
           echo "$HOME/.opencode/bin" >> $GITHUB_PATH
 
       - name: Criar prompt
