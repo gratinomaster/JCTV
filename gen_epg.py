@@ -98,6 +98,7 @@ TZ_BY_ID = {
     "CGTNSpanish.cn": "America/Montevideo",             # guia uruguayo
     "DePelícula.mx": "America/New_York",                # guia dos EUA
     "AztecaInternacional.us": "America/Mexico_City",    # guia mexicano
+    "TelemundoInternacional.ar": "America/Mexico_City",  # guia mexicano (apelido)
 }
 
 KORYO_EPG_URL = "https://koryo.tv/api/epg/b2ad0bb59619601b6dd7069a.dat"
@@ -227,6 +228,11 @@ ALIASES = {
     "Sony.ar": [("ar", "Canal.Sony.(Argentina).ar")],
     "AMC.ar": [("cl", "Canal.AMC.(Chile).cl")],  # sinal pan-regional, sem AR1
     "TelemundoInternacional.ar": [("mx", "Canal.Telemundo.(México).mx")],
+    # O pacote uruguaio do epgshare01 carrega os canais argentinos que o AR1
+    # nao tem (o mesmo horario de parede do Rio da Prata, -0300).
+    "TN.ar": [("uy", "[TODONOT].TODO.NOTICIAS.uy")],
+    "Canal26.ar": [("uy", "[CAN26SD].Canal.26.uy")],
+    "France24enEspanol.ar": [("uy", "FRANCE.24.ESPAÑOL.HD.uy")],
     # A grade da Argentina, e nao a do Telefe Internacional: o mesmo nome de
     # canal com outra ordem de exibicao (a Internacional e 24/7, com repeticao
     # de madrugada), gravada no horario do Mexico e 3 horas atrasada aqui.
@@ -237,11 +243,18 @@ ALIASES = {
     "LaRed.cl": [("cl", "Canal.La.Red.(Chile).cl")],
     "Mega.cl": [("cl", "Canal.Mega.(Chile).cl")],
     "Canal13.cl": [("cl", "Canal.13.de.Chile.cl")],
+    # Feed internacional, o mesmo no Chile e no Uruguai (horario de parede
+    # igual, -0300, na epoca em que o Chile esta em horario de verao).
+    "NuevoTiempo.cl": [("uy", "[NUEVOPE].NUEVO.TIEMPO.uy")],
     "TVChile.cl": [("cl", "TV.Chile.cl")],
     "ViaX.cl": [("cl", "Canal.Vía.X.cl")],
     "ZonaLatina.cl": [("cl", "Canal.Zona.Latina.cl")],
     # Mexico
-    "AztecaUno.mx": [("mx", "Canal.Azteca.Uno.-1.Hora.mx")],
+    # O id principal primeiro; as variantes "-1/-2 Horas" sao o mesmo canal
+    # com a grade deslocada para os fusos do Mexico (e as vezes vazias).
+    "AztecaUno.mx": [("mx", "Canal.Azteca.Uno.mx"),
+                     ("mx", "Canal.Azteca.Uno.-1.Hora.mx"),
+                     ("mx", "Canal.Azteca.Uno.-2.Horas.mx")],
     "MilenioTV.mx": [("mx", "Canal.Milenio.TV.mx")],
     "TVUNAM.mx": [("mx", "Canal.TVUNAM.mx")],
     "CanalMexiquense.mx": [("mx", "Canal.Mexiquense.TV.mx")],
@@ -260,6 +273,14 @@ ALIASES = {
     "AztecaInternacional.us": [("mx", "Azteca.(XHOR).mx")],
 }
 
+# Mesmo emissor listado duas vezes com tvg-ids diferentes: a grade do tvg-id
+# que tem fonte serve para o gemeo, remapeando o canal de cada <programme>.
+# A teleSUR e um caso classico: feed venezuelano (Telesur.ve, via reportv) e
+# feed da TDA argentina (teleSUR.ar, sem fonte propria hoje).
+SAME_CHANNEL_AS = {
+    "teleSUR.ar": "Telesur.ve",
+}
+
 # Desempate na mistura: quando duas fontes cobrem a mesma quantidade de
 # programas, vale a da fonte oficial (grade do proprio emissor).
 SOURCE_RANK = {
@@ -275,6 +296,19 @@ SOURCE_RANK = {
 # Fuentes que gravam horario de parede (os digitos do programa sao a hora
 # local do canal, e o atributo de fuso e reescrito para o pais do tvg-id).
 WALL_CLOCK_SOURCES = {"iptv-epg", "epgshare01"}
+
+# Titulo que so ocupa lugar na grade sem informar nada. O iptv-epg preenche
+# canal sem dados com um "No Data" por hora; se isso entrasse no guia
+# contaria como cobertura na mistura e atropelaria a grade real que outra
+# fonte tem para o mesmo canal (mesma logica do preenchimento 24h da
+# Al Jazeera, ignorado la no coletor dela).
+PLACEHOLDER_TITLE = re.compile(
+    r"^\s*(?:no[\s._-]*(?:data|information|info)"
+    r"|n\s*/\s*a"
+    r"|sem[\s._-]*informa[çc][ãa]o"
+    r"|sin[\s._-]*informaci[oó]n)[\s.]*$",
+    re.I,
+)
 
 # De qual fonte saiu cada <programme> que entrou no arquivo, para a conferencia
 # de fuso saber o que eh horario local e o que ja vem em UTC.
@@ -716,8 +750,13 @@ def extract_xmltv(url, wanted, oldest_ok, newest_ok, retries=1, delay=5):
                     if cid in wanted:
                         start = parse_xmltv_time(elem.get("start", ""))
                         if start is not None and oldest_ok <= start <= newest_ok:
-                            block = ET.tostring(elem, encoding="unicode")
-                            programmes.setdefault(cid, []).append(block)
+                            # "No Data" e afins nao sao programacao de
+                            # verdade: nao entram, para nao contar como
+                            # cobertura na mistura (ver PLACEHOLDER_TITLE).
+                            if not PLACEHOLDER_TITLE.match(
+                                    elem.findtext("title") or ""):
+                                block = ET.tostring(elem, encoding="unicode")
+                                programmes.setdefault(cid, []).append(block)
                     elem.clear()
     finally:
         try:
@@ -1513,6 +1552,17 @@ def main():
         epg_files = {}
     collect_epgshare01(candidates, wanted_set, epg_files, oldest_ok, newest_ok)
     collect_globo(candidates, wanted_set)
+
+    # Gemeos de emissor (ver SAME_CHANNEL_AS): se o tvg-id gemelo nao conseguiu
+    # grade em nenhuma fonte, herda a do canal de origem.
+    for dst, src in SAME_CHANNEL_AS.items():
+        if dst in wanted_set and candidates.get(src) and not candidates.get(dst):
+            for source, chb, blocks, tz in candidates[src]:
+                add_candidate(
+                    candidates, dst, source,
+                    remap_channel_block(chb, src, dst) if chb else None,
+                    [remap_channel_ref(b, src, dst) for b in blocks], tz)
+            print(f"    {dst}: grade reutilizada de {src} (mesmo emissor)")
 
     print("\n=== ETAPA 3: Montar EPGFULL.xml.gz ===")
     xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>',
