@@ -1,19 +1,22 @@
- 
-# ================================
-# 1️⃣ Instalar OpenCode
-# ================================
-!curl -fsSL https://opencode.ai/install | bash
 
 # ================================
-# 2️⃣ Ajustar PATH (Colab não carrega .bashrc automaticamente)
+# 1️⃣ Instalar OpenCode V2
+# ================================
+!curl -fsSL https://opencode.ai/v2/install | bash
+
+# ================================
+# 2️⃣ Ajustar PATH
 # ================================
 import os
+
 os.environ["PATH"] = "/root/.opencode/bin:" + os.environ["PATH"]
 
 # ================================
 # 3️⃣ Verificar instalação
 # ================================
-!opencode --version
+OPENCODE = "/root/.opencode/bin/opencode"
+
+!{OPENCODE} --version
 
 # ================================
 # 4️⃣ Fazer pergunta
@@ -27,4 +30,7 @@ EM MP3 E SALVE NA MESMA PASTA
 print("Pergunta:", pergunta)
 print("\nResposta do OpenCode:\n")
 
-!opencode run "{pergunta}"
+# ================================
+# 5️⃣ Executar OpenCode V2
+# ================================
+!{OPENCODE} run "{pergunta}"
