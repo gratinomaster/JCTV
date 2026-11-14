@@ -1,6 +1,2 @@
-acesse https://www.google.com/search?q=rtp&sca_esv=4c56c920eaf0b657&udm=vids&biw=1528&bih=732&tbs=qdr%3Ad&sxsrf=APpeQns5pe_IkcCACzvPHgkdmwaASNtHaA%3A1791776213601&ei=1VXMasufJPqj1sQPgM-S8Qo&ved=2ahUKEwiL3unFxrOXAxX6kZUCHYCnJK4Q4dUDegQIBRAM&uact=5&oq=rtp&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIgNydHAyChAAGIAEGIoFGEMyCBAAGIAEGLEDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgUQABiABDIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAESNkQUPwIWPIOcAN4AJABAJgBb6ABpgOqAQMwLjS4AQPIAQD4AQGYAgagAsQDqAIAwgINEAAYgAQYigUYQxixA8ICBhAAGAcYHsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYigUYsQMYgwGYAwKIBgGSBwMyLjSgB74SsgcDMC40uAe5A8IHBTAuMi40yAcTgAgB&sclient=gws-wiz-modeless-video
-entre em cada um dos links
-use crawl4ai
-salve em VOD.m3u e salve só ele 
-use group-title="RTP"
-não salve nenhum .py
+corrija o lista5.m3u 
+para que todos os canais tenham epg valido, atualizado, teste para ver se o epg funciona, pode ser que seja necessario varios epgs para que todos os canais tenham guia, caso haja sinais de afiliadas, procure o epg para cada afiliada, insira a url do epg no arquivo .m3u,veja se tem a programação do dia de hoje e amanhã, e depois de amanhã, remova canais que não passarem no teste do anti-virus, adcione tvg-logo onde não exista, tem que estar em .jpg, não deixe links de canais sem o # na linha de cima, os que tiverem tvg-logo que não sejam .jpg devem ser trocados para .jpg, teste se funcionam, não gosto de imgur.com
