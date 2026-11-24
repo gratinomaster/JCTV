@@ -1,21 +1,29 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/a83212af-dbf1-4b52-aa36-02cb8eb3a541/unenc-all-7df784f6-829c-4eb8-a50a-8f6efd99cecb-82e0422f-8c07-4761-9144-f7839deabc31.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Storm system sweeping up the East Coast; tracking more storms taking aim at the West Coast | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/a83212af-dbf1-4b52-aa36-02cb8eb3a541/r/e95699cf-bf37-4898-8a75-1eb582f52519/1fb3-MAIN/03/1200_complete-d3153282-0eb6-4453-8945-91d30cb58ebf.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/c9175fa4-dfa2-4cbb-a7c4-0a869771489c/unenc-all-ce4e5550-4d0c-45e6-9d67-528b607e0543-d914f353-06bc-4482-be65-6beed4767c63.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/c9175fa4-dfa2-4cbb-a7c4-0a869771489c/r/2ab9da1a-a9ec-483a-8f96-b0550fe963a1/f86a-MAIN/03/1200_complete-decba950-b889-4336-bda6-9ea0fed06321.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/c9175fa4-dfa2-4cbb-a7c4-0a869771489c/r/2ab9da1a-a9ec-483a-8f96-b0550fe963a1/f86a-MAIN/03/1800_complete-decba950-b889-4336-bda6-9ea0fed06321.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Storm system sweeping up the East Coast; tracking more storms taking aim at the West Coast | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1795492797~acl=/*~hmac=c99bd5b4c5036f5d28bb87ec96a438d2d0d0d54c7ba42fc764d25620717c8daa
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1795492797~acl=/*~hmac=c99bd5b4c5036f5d28bb87ec96a438d2d0d0d54c7ba42fc764d25620717c8daa
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1795565604~acl=/*~hmac=d2125e96f6ba7dc5a22937006c712b046f8820ca8329455e9db111a4977522b6
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1795565603~acl=/*~hmac=69a137f07a13234dd4f6f85c49495cc798c98c7efbd3d0b071c8795a354b4dbb
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0e1a3a8a-7c76-44d1-8ca3-902fe3706999:ATL/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0e1a3a8a-7c76-44d1-8ca3-902fe3706999:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0e1a3a8a-7c76-44d1-8ca3-902fe3706999:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0e1a3a8a-7c76-44d1-8ca3-902fe3706999:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0e1a3a8a-7c76-44d1-8ca3-902fe3706999:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
