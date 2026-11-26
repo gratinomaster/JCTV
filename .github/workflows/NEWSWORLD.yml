@@ -19,15 +19,32 @@ jobs:
       contents: write
 
     steps:
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # ==========================================
+      # INSTALAR DEPENDÊNCIAS
+      # ==========================================
+
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg curl jq python3 git
+          sudo apt-get install -y \
+            ffmpeg \
+            curl \
+            jq \
+            python3 \
+            git
+
+      # ==========================================
+      # INSTALAR OPENCODE
+      # ==========================================
 
       - name: Install OpenCode
         run: |
@@ -35,12 +52,12 @@ jobs:
           echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
       # ==========================================
-      # CONFIGURAÇÃO DAS PLAYLISTS
-      # MODIFIQUE SOMENTE ESTA LISTA
+      # CONFIGURAR PLAYLISTS
+      # MODIFIQUE SOMENTE AQUI
       # ==========================================
 
       - name: Configure playlists
-        id: playlists
+        id: config
         shell: bash
         run: |
           PLAYLISTS=(
@@ -49,39 +66,42 @@ jobs:
           )
 
           {
-            echo "files<<EOF"
+            echo "files<<PLAYLIST_EOF"
             printf '%s\n' "${PLAYLISTS[@]}"
-            echo "EOF"
+            echo "PLAYLIST_EOF"
           } >> "$GITHUB_OUTPUT"
 
           for file in "${PLAYLISTS[@]}"; do
             if [ ! -f "$file" ]; then
-              echo "ERRO: Playlist não encontrada: $file"
+              echo "ERRO: Arquivo não encontrado: $file"
               exit 1
             fi
           done
 
+          echo "Playlists configuradas:"
+          printf '%s\n' "${PLAYLISTS[@]}"
+
       # ==========================================
-      # CONFIGURAÇÃO NÃO INTERATIVA
+      # CONFIGURAR OPENCODE
       # ==========================================
 
       - name: Configure OpenCode
         run: |
-          cat > opencode.json <<'EOF'
+          cat > opencode.json <<'CONFIG_EOF'
           {
             "$schema": "https://opencode.ai/config.json",
             "websearch": false
           }
-          EOF
+          CONFIG_EOF
 
       # ==========================================
-      # CRIAR PROMPT AUTOMATICAMENTE
+      # CRIAR PROMPT
       # ==========================================
-
 
       - name: Create prompt
+        shell: bash
         run: |
-          cat << 'EOF' > prompt.txt
+          cat > prompt.txt <<'PROMPT_EOF'
           exclua todos arquivos do meu computador que sejam logs do ffmpeg
           leia bbb.txt e adcione a UMA.m3u, não quero transmissão de reprises de temporadas antigas
           depois acesse YT.m3u8
@@ -99,16 +119,17 @@ jobs:
           não salve o .py que for gerado
           o link do epg deve começar com https
           abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
-          não use tvg-ids inventados
+          não use tvg-ids inventados, apenas reais
           se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje, caso haja mais de um divida com virgulas
           use leitor de imagens para ver se o tvg logo está correto
           não quero .svg
           o logo das emissoras tem que ser atual
           veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija, assista ao primeiro frame para ver se é o canal certo, veja se cada canal está exibindo o logo dele para ver se está correto o nome do canal, mas antes pesquise se os links já tem algum titulo em algum site na internet, de forma a saber o titulo de cada canal, sabe?
           não gosto de i.imgur.com
-          EOF
+          PROMPT_EOF
 
-          } > prompt.txt
+          echo "Prompt criado:"
+          wc -l prompt.txt
 
       # ==========================================
       # EXECUTAR OPENCODE
@@ -120,7 +141,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          echo "Iniciando NEWSWORLD..."
+          echo "Executando NEWSWORLD..."
 
           opencode run "$(cat prompt.txt)"
 
@@ -130,7 +151,8 @@ jobs:
 
       - name: Validate playlists
         env:
-          PLAYLIST_FILES: ${{ steps.playlists.outputs.files }}
+          PLAYLIST_FILES: ${{ steps.config.outputs.files }}
+        shell: bash
         run: |
           set -euo pipefail
 
@@ -142,7 +164,7 @@ jobs:
               exit 1
             fi
 
-            echo "Verificando $file"
+            echo "Verificando: $file"
 
             grep -c '^#EXTINF:' "$file" || true
 
@@ -156,7 +178,8 @@ jobs:
 
       - name: Commit and Push safely
         env:
-          PLAYLIST_FILES: ${{ steps.playlists.outputs.files }}
+          PLAYLIST_FILES: ${{ steps.config.outputs.files }}
+        shell: bash
         run: |
           set -euo pipefail
 
@@ -179,13 +202,13 @@ jobs:
           BRANCH="$GITHUB_REF_NAME"
 
           for i in $(seq 1 10); do
-            echo "Tentativa $i/10"
+            echo "Tentativa de push $i/10"
 
             git fetch origin "$BRANCH"
 
             if ! git rebase "origin/$BRANCH"; then
-              git rebase --abort || true
               echo "Conflito no rebase."
+              git rebase --abort || true
               exit 1
             fi
 
@@ -194,8 +217,9 @@ jobs:
               exit 0
             fi
 
+            echo "Push falhou. Tentando novamente..."
             sleep 10
           done
 
-          echo "Falha no push."
+          echo "Não foi possível realizar o push."
           exit 1
