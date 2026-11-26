@@ -233,6 +233,13 @@ jobs:
 
           git commit -m "Atualização automática NEWSWORLD"
 
+          # O OpenCode pode criar arquivos auxiliares ou alterar arquivos que
+          # não fazem parte das playlists. Eles não devem bloquear o rebase.
+          if [ -n "$(git status --porcelain)" ]; then
+            git stash push --include-untracked \
+              -m "NEWSWORLD: alterações não relacionadas às playlists"
+          fi
+
           BRANCH="$GITHUB_REF_NAME"
 
           for i in $(seq 1 10); do
