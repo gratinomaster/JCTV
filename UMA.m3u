@@ -1,49 +1,18 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-uy.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
-# Gran Hermano Uruguay - temporada 2026 (estreia 20/09/2026), sem reprises de edicoes antigas.
-# A casa 24/7 (transmissao continua, sem reprise) e exclusiva do Antel TV (plano pago, exige conta) e do canal 106 do DirecTV no Uruguai; nao existe HLS publico e livre.
-# Galas: domingo a quinta as 21:15. Debate: sexta as 21:15. Ambas no Canal 10 (TV aberta).
-# Testes (2026-10-21): zetatv (cdnw1.zetatv.com.uy) responde 403; o player do Canal 10 (/resources/_post/canal10/get-vivo.php) exige sessao/login; o dgo.com hoje redireciona para teledynemarine.com; no CDN publico do Antel (livedelta.cdn.antel.net.uy) so existe url_canalu.m3u8.
-# Por isso as entradas abaixo apontam para os players oficiais (nao sao HLS livre).
-# tvg-id "CANAL10.uy" (iptv-epg.org) e real e traz a grade de hoje, com "Gran Hermano" as 21:15; tvg-id "[CXB10].CANAL.10.uy" (epgshare01) e real e traz "Gran Hermano: Uruguay" 24/7.
-#EXTINF:-1 tvg-id="CANAL10.uy" tvg-name="Canal 10 Uruguay" tvg-logo="https://www.canal10.com.uy/css-custom/229/images/ogimage-canal10.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay - Canal 10 (vivo oficial)
-https://www.canal10.com.uy/contenidos/vivo.html
-#EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA | Gran Hermano",Gran Hermano Uruguay 24/7 
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz,https://iptv-epg.org/files/b78d62b7ed18e78893d6a1cf66c27db2/epg-uy.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz,https://iptv-epg.org/files/b78d62b7ed18e78893d6a1cf66c27db2/epg-uy.xml.gz"
+# UMA — realities em andamento. Sem reprises de temporadas antigas.
+# Informações de bbb.txt consolidadas em 26/11/2026 (panorama original 31/10/2026):
+# 🇺🇾 Gran Hermano Uruguay: estreia 20/09/2026, final prevista dez/2026, Canal 10, Eduardo "Colo" Gianarelli, 21 participantes, casa em Buenos Aires. Galas dom-qui 21h15; debate sex 21h15. 24h no Antel TV (conta), DirecTV 106 e DGO (inclusive plano gratuito). Prêmio: casa pré-fabricada + automóvel. EM ANDAMENTO.
+# 🇦🇺 Big Brother 17: estreia 26/10/2026, Network 10, Mel Tracina, 14 participantes, Brisbane, dom-sex, 24h no 10 Play/App 10, prêmio A$ 100 mil. EM ANDAMENTO.
+# 🇬🇧 Big Brother 23: encerrado em 05/11/2026 (ITV2/ITVX); excluído para não exibir reprise.
+# 🇮🇹 Grande Fratello VIP 9: 17/09/2026 a 11/12/2026, Canale 5 / Mediaset Infinity, Ilary Blasi, opinionistas Cesara Buonamici e Selvaggia Lucarelli, 18 participantes, Lumina Studios (Roma), 24h no Infinity, prêmio € 100 mil. EM ANDAMENTO; o player exige conta/geo e não oferece HLS livre.
+# 🇲🇽 La Granja VIP 2: estreia 06/09/2026, Azteca Uno / Disney+, Adal Ramones e Kristal Silva, 20 participantes, galas dom 20h, diários seg-sex 20h30, 24h no Disney+, prêmio MX$ 2 milhões. EM ANDAMENTO.
+# 🇵🇹 Big Brother All Stars: 06/09/2026 a 31/12/2026, TVI / TVI Reality, Maria Botelho Moniz, 18 concorrentes (7 vencedores de edições anteriores), 24h na TVI Reality, prêmio € 50 mil + troféu. EM ANDAMENTO.
+# 🇮🇳 Bigg Boss: 6 edições simultâneas — Hindi 20 (Colors/JioHotstar, Salman Khan), Tamil 10 (Star Vijay, Vijay Sethupathi), Telugu 10 (Star Maa, Nagarjuna), Kannada 13 (Colors Kannada, Kichcha Sudeep), Malayalam 8 (Asianet, Mohanlal), Bangla (Star Jalsha, Sourav Ganguly). Feed 24h no JioHotstar. EM ANDAMENTO.
+# 🇵🇭 Pinoy Big Brother Collab 3.0: estreia 24/10/2026, GMA / iWant, 16 participantes, apresentadores Bianca Gonzalez, Robi Domingo, Melai Cantiveros, Enchong Dee, Alexa Ilacad, Gabbi Garcia e Michael Sager; livestream 8h-24h (não é 24h integral). EM ANDAMENTO.
+# Próximas estreias, sem link enquanto não estiverem no ar: Espanha GH VIP 9 (nov/2026, Telecinco/Infinity), Chile GH 3 (nov-dez/2026, Chilevisión), Finlândia BB Suomi (27/12/2026, MTV3/Katsomo), Albânia BB VIP 6 (2026-27), Argentina GH 14 (2027), Paraguai GH Paraguay (2027).
+# EPG real verificado hoje (26/11/2026): [CXB10].CANAL.10.uy possui 20 programas no dia, com "Gran Hermano: Uruguay" às 00:15 e 20:15. O id CANAL10.uy (iptv-epg) traz apenas "No Data" hoje e foi substituído.
+# Link 24/7 testado com ffmpeg em 26/11/2026: decode OK, primeiro frame 1280x720. Os players oficiais (Canal 10, Antel TV, Mediaset Infinity, Disney+) ficam apenas como referência: não são HLS livre e foram removidos como entradas reproduzíveis.
+#EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Canal 10 Uruguay" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_np0rr7qb_zGRxwTYJXxFGXeVAoGKrlPj8s4SUyJwsRLA=s176-c-k-c0x00ffffff-no-rj" group-title="UMA | TDT Uruguai | Gran Hermano",Gran Hermano Uruguay 24/7 - Canal 10
 https://183.giatvcdn.com/ssh101/ssh101/minitv/chunks.m3u8
-#EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay 24/7 - Antel TV (requer conta)
-https://www.anteltv.com.uy/
-
-# Reality show - La Granja VIP (Mexico) - temporada atual, sem reprises
-#EXTINF:-1 tvg-name="La Granja VIP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/La_Granja_VIP_logo.png/320px-La_Granja_VIP_logo.png" group-title="UMA | Reality",La Granja VIP (México)
-#link placeholder - buscar fonte válida
-# Reality show - Grande Fratello (Italia) - temporada atual, sem reprises
-#EXTINF:-1 tvg-name="Grande Fratello" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Grande_Fratello_logo.png/320px-Grande_Fratello_logo.png" group-title="UMA | Reality",Grande Fratello (Italia)
-#link placeholder - buscar fonte válida
-
-# Conteúdo adicionado conforme bbb.txt
-# Gran Hermano Uruguay - temporada 2026 (estreia 20/09/2026), sem reprises de edicoes antigas
-# 24/7 ativo - conforme informações de bbb.txt
-
-# From bbb.txt - Gran Hermano Uruguay 2026 (no old season replays)
-# 🇺🇾 Uruguai — Gran Hermano Uruguay
-# 🟢 ATIVO
-# Estreia: 20/09/2026
-# Canal: Canal 10
-# Apresentador: Eduardo “Colo” Gianarelli
-# Casa: Buenos Aires
-# Participantes iniciais: 21
-# 24/7: SIM
-# Antel TV: sinal exclusivo 24 horas, inclusive pela web/app. 
-# E
-# EL PAIS
-# DirecTV: canal 106 no Uruguai
-# DGO: 24 horas
-# DGO Free: a própria página atual do DGO Uruguai lista “Gran Hermano 24 h en vivo” inclusive no Plano Gratuito. 
-# D
-# DIRECTV GO
-# Galas: domingo a quinta, 21:15
-# Debate: sexta, 21:15
-# Prêmio: casa pré-fabricada + automóvel 0
-# 🇲🇽 México — La Granja VIP
-# Reality show de confinamento.
-# 🇮🇹 Itália — Grande Fratello
-# Reality show de confinamento.
+#EXTINF:-1 tvg-name="La Granja VIP México" tvg-logo="https://yt3.ggpht.com/mq4bNjO7PbZN3x0YpfqS9j2mbO2tbNL6mBwoXzMg7m6TdCx4a0gomHvTEt16km2QkmdNNz_AGA=s176-c-k-c0x00ffffff-no-rj" group-title="UMA | Reality",La Granja VIP México - canal oficial (YouTube)
+https://www.youtube.com/@lagranjavipmx/live

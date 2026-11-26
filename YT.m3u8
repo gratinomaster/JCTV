@@ -1,192 +1,84 @@
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/-icEfyNkl60/hq720.jpg",A FAZENDA
-https://www.youtube.com/results?search_query=a+fazenda&sp=CAMSAkAB
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",BIG BOSS
-https://www.youtube.com/results?search_query=bigg+boss&sp=CAMSAkAB
-
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6q5qQipT0qPuniPbKtD3Mk34x4VehGRA7N3uFgY_eeA&s=10",LA MANSION VIP
-https://www.youtube.com/@hotspanishvlogs/live
-
-#EXTINF:-1 tvg-name="TV 10 Rivera" group-title="YT",TV 10 Rivera (Rivera) - canal oficial no YouTube
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz,https://iptv-epg.org/files/4e72342fe8b3deccc0199ecc4357bf5f/epg-br.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz,https://iptv-epg.org/files/4e72342fe8b3deccc0199ecc4357bf5f/epg-br.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+# YT.m3u8 revisado em 26/11/2026. 64 links avaliados: removidos 8 páginas de busca, 14 canais fora do ar no momento, 4 handles YouTube com 404, 1 canal Twitch inexistente e 1 duplicata (CNN Brasil). Restaram 38 canais ativos.
+# Status LIVE confirmado no HTML oficial de cada canal (título da transmissão e proprietário conferidos). Redirects corrigidos: Azteca Noticias -> /AztecaNoticias/live; Noticias Telemundo Ahora -> /noticias/live.
+# Ordem: TDT uruguaia primeiro (Canal 4, Canal 10; TV 10 Rivera depois como canal do interior), seguidos por reality, notícias do Brasil, notícias da América Latina, notícias internacionais, finanças e outros.
+# tvg-id: apenas IDs reais presentes nos EPGs do cabeçalho e com programação em 26/11/2026. Canais sem correspondência real ficaram sem tvg-id; nenhum ID foi inventado.
+# Logos: avatar atual da emissora, extraído da própria página oficial do canal. Todos HTTPS, image/jpeg, sem .svg e sem i.imgur.com. Logos antigos/errados (ex.: CNN Brasil em Televisa Tijuana e CNN en Español) foram substituídos.
+# Segurança: todos os links finais são HTTPS e permanecem em youtube.com; páginas de busca, redirects suspeitos e links para domínios desconhecidos foram removidos.
+# Limitação: o ffmpeg deste ambiente não resolve streams do YouTube sem cookies; o status ao vivo foi validado na página oficial. O único HLS direto da lista (UMA.m3u) foi decodificado com ffmpeg (primeiro frame 1280x720).
+#EXTINF:-1 tvg-id="[MONTTV].Canal.4.uy" tvg-name="Canal 4" tvg-logo="https://yt3.ggpht.com/avZl9rOQpeQFrznAQ0N0q9djwICM8fdzB5ZHmZER7XWkbp8JPWg9J0tIjz2psGZa-1Z0VUf-jw=s176-c-k-c0x00ffffff-no-rj" group-title="TDT URUGUAI",Canal 4 (Montevideo)
+https://www.youtube.com/@canal4uy/live
+#EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Canal 10 Uruguay" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_np0rr7qb_zGRxwTYJXxFGXeVAoGKrlPj8s4SUyJwsRLA=s176-c-k-c0x00ffffff-no-rj" group-title="TDT URUGUAI",Canal 10 Uruguay
+https://www.youtube.com/@Canal10UruguayOficial/live
+#EXTINF:-1 tvg-name="TV 10 Rivera" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_kNX0X2vuZqF4fEYuVoy8_QdlUTN5KA_FQFIkxyBHgMuzw=s176-c-k-c0x00ffffff-no-rj" group-title="URUGUAI INTERIOR",TV 10 Rivera (Rivera)
 https://www.youtube.com/@TV10RiveraUY/live
-
-#EXTINF:-1 tvg-name="Canal 7 Tacuarembo" group-title="YT",Canal 7 Tacuarembo (Tacuarembo) - canal oficial no YouTube
-https://www.youtube.com/@Canal7Tacuaremb%C3%B3/live
-
-#EXTINF:-1 tvg-name="Canal 12 Melo" group-title="YT",Canal 12 Melo (Cerro Largo) - canal oficial no YouTube
-https://www.youtube.com/@canal12melocl/live
-
-#EXTINF:-1 tvg-name="Canal 9 Telerocha" group-title="YT",Canal 9 Telerocha (Rocha) - canal oficial no YouTube
-https://www.youtube.com/@telerocha/live
-
-#EXTINF:-1 tvg-name="Canal 11 Treinta y Tres" group-title="YT",Canal 11 Treinta y Tres - canal oficial no YouTube
-https://www.youtube.com/@canal11treintaytres/live
-
-#EXTINF:-1 tvg-name="Artigas TV" group-title="YT",Artigas TV - Canal 3 (Artigas) - canal oficial no YouTube
-https://www.youtube.com/@artigastv/live
-
-#EXTINF:-1 tvg-name="Durazno TV" group-title="YT",Durazno TV - Canal 7 (Durazno) - canal oficial no YouTube
-https://www.youtube.com/@duraznotv/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",PAPA
-https://www.youtube.com/results?search_query=PAPA&sp=CAMSAkAB
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",UNIVERSAL
-https://www.youtube.com/results?search_query=IGLESIA+UNIVERSAL&sp=CAMSAkAB
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",PODCAST
-https://www.youtube.com/results?search_query=PODCAST&sp=CAASAkAB
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",ENTREVISTA
-https://www.youtube.com/results?search_query=entrevista&sp=CAMSAkAB
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",TRUMP
-https://www.youtube.com/results?search_query=TRUMP&sp=CAASAkAB
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://i.ytimg.com/vi/JGDWMRXZvYs/hq720.jpg",BOLSONARO
-https://www.youtube.com/results?search_query=BOLSONARO&sp=EgJAAQ%253D%253D
-
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="" tvg-logo="https://yt3.ggpht.com/NvbzRmJuyeZp7HJC8Gly8pqzVSY36wdvhWmb0KQ36idjR-PJfoQpA13GgkWFvZ-Nd8_6xlwVFA=s68-c-k-c0x00ffffff-no-rj",EL NUEVE
-https://www.youtube.com/@elnueve/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/TUNo33rJfSv06L2UyQWsOPUMJglHptsHR2mFZOshcXL45xRJ1YgpRZWpb76IChbSBwyG1TBUvA=s900-c-k-c0x00ffffff-no-rj", CNN BRASIL
-https://www.youtube.com/@CNNbrasil/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/lr_3S8j16R3n7djPQP81Thl5aPGMfBZJf_lIb64vo41LXn5-Ejo2M-DCeyVCxitbf0IMAZigig=s900-c-k-c0x00ffffff-no-rj",CNN ESPAÑOL
-https://www.youtube.com/@cnnee/live
-
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/lr_3S8j16R3n7djPQP81Thl5aPGMfBZJf_lIb64vo41LXn5-Ejo2M-DCeyVCxitbf0IMAZigig=s900-c-k-c0x00ffffff-no-rj", Televisa Tijuana
-https://www.youtube.com/@televisatijuanaof/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/kx6PBie40tb0wxvKWe0axmtX2uMw_QoLn9EBaTgLSR2oIKyg3335-zDcM08mkr8z42Y_qk36=s900-c-k-c0x00ffffff-no-rj", Televisa Veracruz Oficial
-https://www.youtube.com/@TelevisaVeracruzOficial/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/8vYy-7fhWLi-ATklYbT1DRz9rmr_OEO7x8ar-BWGgfhVRpiYf0ioHvNYD8orGPBGtkVAsKfVfw=s900-c-k-c0x00ffffff-no-rj", Azteca Noticias
-https://www.youtube.com/@aztecanoticias/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/FeiYVv5eGZP_Tvi1Oqr2u9EXzzxdXIPVsumSlrQ9g4wV0DLbWVT_K03dDUnsLBM1rSzVpbGQrA=s900-c-k-c0x00ffffff-no-rj", Televisa Mexicali
-https://www.youtube.com/@televisamexicaliof/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/5SXA8eyKxNLPHeAyqarnjynjTultMVgLkviP24FPl-QiqTveKndanDhjInYPZa7CHAM6oja4jXg=s900-c-k-c0x00ffffff-no-rj", Canal 23 Televisa Ensenada
-https://www.youtube.com/@canal23televisaensenada97/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k_I0iTeZLhP_tm3tXrvRroluPTmFPqAtp2e353c3tOCNHw=s900-c-k-c0x00ffffff-no-rj", Multimedios
-https://www.youtube.com/@multimedios/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/qkAD1o0O4hb319n8DjBiLIsQOiTRWghCCIWU4VXhwDVIxBxN3O9j5NJFka8mX1sXB8TM9t0l=s900-c-k-c0x00ffffff-no-rj", N+ Monterrey
-https://www.youtube.com/@Nmasmty/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/dHWWoN9qQQz6IXAAU7VdROXXhql4QA_1Nc1W4pYzHcbnrSy4YOtrXwyrqbIEdyWv_gnddgWY=s900-c-k-c0x00ffffff-no-rj", Noticias Caracol
-https://www.youtube.com/@noticiascaracol/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/6f5kt0aVtJljXAxiOI41WL3Bx-_x2NlgxPmARclT1qZM1KKOV9fqj87Vmj6bqTOPeNv22A5JPJg=s900-c-k-c0x00ffffff-no-rj", Noticias RCN
-https://www.youtube.com/@NoticiasRCN/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lrAFsc7C4t12A8gv6_XmQkv3vn30y-N4nmFVoP1h9tT9M=s900-c-k-c0x00ffffff-no-rj", Noticias Telemundo Ahora
-https://www.youtube.com/@noticias/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/80ab3f45-28e1-4adc-852a-f39101a90af1-profile_image-600x600.png", La Casa de Alofoke
-https://www.twitch.tv/lacasadealofok2
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kzqAgL2TukPL1ijpuPdoOgU75Av9cdQVf0mahAZSySyA=s900-c-k-c0x00ffffff-no-rj", France 24 Español
-https://www.youtube.com/@France24_es/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/i9_e34m-ObKpqCshARRsxhTA2wFPE-Ct0ZHg_HTWg0TrD27sTGZ9Vi25zDF0PsBwVKtyhkYvnQ=s900-c-k-c0x00ffffff-no-rj", Euronews Español
-https://www.youtube.com/@euronewses/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/mzF9dxkU1hpd_zUYk626Cz_GzyzMUjFjhbVauEiKazpyuOtOx8gRhiiLWpsdeVaD2TTFOBE=s900-c-k-c0x00ffffff-no-rj", Euronews Português
-https://www.youtube.com/@euronewspt/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/QMLULS5EGnzwRiUWTA1Tcgtp0QIFh81ves0_Z467FgrsqvusufUGsq_b7wD3G4gfzsBjZ20r8g=s900-c-k-c0x00ffffff-no-rj", Televisa Puebla
-https://www.youtube.com/@televisapuebla/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/UJigSNiHyI34NGLT8uAeYwhe36WEjRt1xkiCXUFhiO2Y5wx2ZuPNtZEkQkui5TGXGih99gvN=s900-c-k-c0x00ffffff-no-rj", Car Chase Channel ABC
-https://www.youtube.com/@CarChaseChannelABC/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/mq4bNjO7PbZN3x0YpfqS9j2mbO2tbNL6mBwoXzMg7m6TdCx4a0gomHvTEt16km2QkmdNNz_AGA=s900-c-k-c0x00ffffff-no-rj", La Granja VIP MX
+#EXTINF:-1 tvg-name="La Mansión VIP" tvg-logo="https://yt3.ggpht.com/n0HJq9ZHh1Ab4SwrPgl9qOXY_2F1P1dnbKrWnGDNSb8E9H55FiHh6f4UzV1CjLaW8qqlh-5tFg=s176-c-k-c0x00ffffff-no-rj" group-title="REALITY",La Mansión VIP (HotSpanish Vlogs)
+https://www.youtube.com/@hotspanishvlogs/live
+#EXTINF:-1 tvg-name="La Granja VIP México" tvg-logo="https://yt3.ggpht.com/mq4bNjO7PbZN3x0YpfqS9j2mbO2tbNL6mBwoXzMg7m6TdCx4a0gomHvTEt16km2QkmdNNz_AGA=s176-c-k-c0x00ffffff-no-rj" group-title="REALITY",La Granja VIP México
 https://www.youtube.com/@lagranjavipmx/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/rZ_DYlsiijy1ZB6WZc6QRdM--zAmtSTWcgqmlG3YmeflEc1xr-grEHMY7Fpm2FLZorUfJpUgMA=s900-c-k-c0x00ffffff-no-rj", La Casa de Los Gemelos
-https://www.youtube.com/@ZonaGemelosYT/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/A7xX3qo4plFB-n_szIJtoJFnkTz-UDY9fjvampJxR0PYm7nHhkOMlRYiKEze6zwp6hKuWa1UYj4=s900-c-k-c0x00ffffff-no-rj", Televisa Guadalajara
-https://www.youtube.com/@televisaguadalajara/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/GJ8V0NX6NddGh9bf4zED4tsjPjjBK2hdp5FWHMy09pV7sdSkkE3yEhCRSch4waEb9ZavyUrWfw=s900-c-k-c0x00ffffff-no-rj", ABC News
-https://www.youtube.com/@ABCNews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_niBFv49gSx4rr1afMZU_Pv7SeuPKO2SMHvv0Ar7OKxM4o=s900-c-k-c0x00ffffff-no-rj", CBS News
-https://www.youtube.com/@CBSNews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/PJj5jtuEOi5UmkFy4IBonj5WcabNcnJAIJe-jZMd1ArwIuVyQxFH_2zryBHwvfv6mJujwRpWDCM=s900-c-k-c0x00ffffff-no-rj", NBC News
-https://www.youtube.com/@NBCNews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/3_uPF3ufjORBgR9Ii_4XoSw92CeIWI2FabiuH-kXT321ykNrWC0bmpdsmm7bdzlynDiX3Qx2ZQ=s900-c-k-c0x00ffffff-no-rj", SBT News Exclusivo
-https://www.youtube.com/live/ab0btHNogxo
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/3_uPF3ufjORBgR9Ii_4XoSw92CeIWI2FabiuH-kXT321ykNrWC0bmpdsmm7bdzlynDiX3Qx2ZQ=s900-c-k-c0x00ffffff-no-rj", SBT News
-https://www.youtube.com/@SBTNews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/EPbkNb6s7LnU4mE0ZH4C4-hEt-XcxnTC5DzWhxh7EVFwseSMWC2p6E88xBlOoQXzD-5exgYAcQ=s900-c-k-c0x00ffffff-no-rj", GloboNews
-https://www.youtube.com/@globonews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nSKxlnuIFDeJU7XR8i2dif72HmhW_CGUESk_oVs4Q=s900-c-k-c0x00ffffff-no-rj", CNN en Español
-https://www.youtube.com/@CNNEspanol/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/H6Fh64z_Vb9AYevqCPwgeyRAyd4mye6fqU2HN5Jj1RWtrtK5lbU3B2Nkxc_nJfpN_WpI5_flfBk=s900-c-k-c0x00ffffff-no-rj", CNN TÜRK
-https://www.youtube.com/@cnnturk/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/2VFfT-mhe2qrdSoDncnXfwv3sJCBgBkYN2bRnOY8BirGvmqsiao7MXvAO8X9qO_bc-KQYOdl=s900-c-k-c0x00ffffff-no-rj", CNN Indonesia
-https://www.youtube.com/@CNNIDOFFICIAL/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/TUNo33rJfSv06L2UyQWsOPUMJglHptsHR2mFZOshcXL45xRJ1YgpRZWpb76IChbSBwyG1TBUvA=s900-c-k-c0x00ffffff-no-rj", CNN Brasil
+#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://yt3.ggpht.com/5YL-zwHIAMhDZkRYCxzcPJBI4UwN5cuthbsYdtaqvWelN1xer6VtAurbBtf6XVG7wrevPs_0=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS BRASIL",CNN Brasil
 https://www.youtube.com/@CNNbrasil/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/pPyDHsYpdECHazLgGgZUofzNXIG08ixreVNca8L8sBTFouzHnWYE3IxIR_7NbLahMaEK4B3c04U=s900-c-k-c0x00ffffff-no-rj", CNN Brasil Business Money
+#EXTINF:-1 tvg-name="CNN Brasil Money" tvg-logo="https://yt3.ggpht.com/6j-ork-gWGYCVPz9UichQ6kfJWR_Dzd0NSTEQheYTn2HeRZZKqhmx5i6y88aBMNxNvJnJU_n=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS BRASIL",CNN Brasil Money
 https://www.youtube.com/@cnnbrmoney/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/kx0LD-59QalmfMvu02Tu1VW2VMhHH8FtUj88u8Ejmdc0st9Bbt98ZhCeGYa9rCwXKvIOHuvD=s900-c-k-c0x00ffffff-no-rj", Laatus Oficial
-https://www.youtube.com/@Laatusoficial/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/19Mn-c2vgddWAYZTUALP8lil43kLOefuq5iuUpZzaVOOJurGY50734wt0S3IChre33zFz-Q9oZsq1JwLorAp_Q=s0-br30", TC News Oficial
-https://www.youtube.com/@tcnewsoficial/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/qOFiYAdF8bAVeIn9Jkos5afp7pmQ08h0ZXc4pDZwq5A4KkDLqsg2xR-IzW37H7qeIAVZ3ZzxXQ=s900-c-k-c0x00ffffff-no-rj", Arena Trader
-https://www.youtube.com/@ArenaTrader/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_ntHX0J_zLfJwc2acqj8opsIUvE7Y6I3MYYxt76v5Ytaw=s900-c-k-c0x00ffffff-no-rj", Clear Corretora de Valores
-https://www.youtube.com/@ClearCorretoradeValores/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lEGwZsJ303-1ykYFyDdDXZIfF-Ypp1kZxed6BGLhu042Q=s900-c-k-c0x00ffffff-no-rj", Charlles Nader Sharks School
-https://www.youtube.com/@CharllesNaderSHARKSSCHOOL/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/Xcmsp_2aHFP8yUwaoHvkg1HcQeGuKj1vXn-m5bQN3D6muS49tfu-IXipG8N6ZnezZmT4pVuBHw=s900-c-k-c0x00ffffff-no-rj", TOP GAIN
-https://www.youtube.com/@TOPGAIN/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/qqad5hNhAtWZblXQwSFFki_sqD0xied7pUw3con6MAsAenTbt0ZF6r0lqP3BCl8ZWQw_PyyOKA=s900-c-k-c0x00ffffff-no-rj", Band Jornalismo
-https://www.youtube.com/@bandjornalismo/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kB82wdV2FKXv23JJueujoffzLXWOYyuEQ25Y_eZc9c0w=s900-c-k-c0x00ffffff-no-rj", Stories das Celebridades
-https://www.youtube.com/@stories_das_celebridades/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/CwUxBSaJR4C0WlLhG_UWp252wMzmfl3NjPHeByT26oDK9hx9CEK8FxS8GdLRMXmtzBd1UKvmgg=s900-c-k-c0x00ffffff-no-rj", CM Capital Ao Vivo
-https://www.youtube.com/@cmcapitalaovivo/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/cFONa5kFReaxOqatNZNqIiH1OOSzM0L2mZOlHTn5uuqNIzvz2D1O53Ytz10sIJFrfIHxdPu5=s900-c-k-c0x00ffffff-no-rj", 6abc Philadelphia
-https://www.youtube.com/@6abcActionNews/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/WvPbU5zz7WDluX8bkYz0IKUAMcNJf17r_rTj1mCKYAuTEAkL1l5GjgMequS8EFfVq_l1tkXBiA=s900-c-k-c0x00ffffff-no-rj", ABC13 Houston
-https://www.youtube.com/@ABC13Houston/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kWR8DJdVkkDAEtQeqLxAGnjhyD-G19l7shndvnTQxrv9I=s900-c-k-c0x00ffffff-no-rj", 4 News Now
-https://www.youtube.com/@4NewsNow/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/aFll6hZv30m0y0jJbjNYLlyuzYtOPQ7ctxXD7XW2ND8tmEhV8yHrHo8PSFcmb5LlrazeRJLd1A=s900-c-k-c0x00ffffff-no-rj", ARY News
-https://www.youtube.com/@ARYNewsOfficial/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/rkNeLtjg1hVake2IXu7Huher8U0TNxWO2u63CpM10zgGnkEWcUlSvt1Wog54xNx18IJUssY4kZ4=s900-c-k-c0x00ffffff-no-rj", CBS 42
-https://www.youtube.com/@CBS42/live
-
-#EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/PQzlb5315W7PXUfJuZJcxiqHgUBFn9XRRwDyLui9nZNyhRIniOtJj9ogwMaCssSjH38rJ737=s900-c-k-c0x00ffffff-no-rj", Rádio TV CDL SP
+#EXTINF:-1 tvg-name="SBT News" tvg-logo="https://yt3.ggpht.com/3_uPF3ufjORBgR9Ii_4XoSw92CeIWI2FabiuH-kXT321ykNrWC0bmpdsmm7bdzlynDiX3Qx2ZQ=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS BRASIL",SBT News
+https://www.youtube.com/@SBTNews/live
+#EXTINF:-1 tvg-name="Rádio TV CDL SP" tvg-logo="https://yt3.ggpht.com/PQzlb5315W7PXUfJuZJcxiqHgUBFn9XRRwDyLui9nZNyhRIniOtJj9ogwMaCssSjH38rJ737=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS BRASIL",Rádio TV CDL SP
 https://www.youtube.com/@radiotvcdlsp/live
+#EXTINF:-1 tvg-name="El Nueve" tvg-logo="https://yt3.ggpht.com/NvbzRmJuyeZp7HJC8Gly8pqzVSY36wdvhWmb0KQ36idjR-PJfoQpA13GgkWFvZ-Nd8_6xlwVFA=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",El Nueve (Canal 9 Argentina)
+https://www.youtube.com/@elnueve/live
+#EXTINF:-1 tvg-name="Azteca Noticias" tvg-logo="https://yt3.ggpht.com/8vYy-7fhWLi-ATklYbT1DRz9rmr_OEO7x8ar-BWGgfhVRpiYf0ioHvNYD8orGPBGtkVAsKfVfw=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Azteca Noticias
+https://www.youtube.com/AztecaNoticias/live
+#EXTINF:-1 tvg-id="[CARAI].CARACOL.INTERNATIONAL.uy" tvg-name="Noticias Caracol" tvg-logo="https://yt3.ggpht.com/dHWWoN9qQQz6IXAAU7VdROXXhql4QA_1Nc1W4pYzHcbnrSy4YOtrXwyrqbIEdyWv_gnddgWY=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Noticias Caracol
+https://www.youtube.com/@noticiascaracol/live
+#EXTINF:-1 tvg-id="RCN.co" tvg-name="Noticias RCN" tvg-logo="https://yt3.ggpht.com/6f5kt0aVtJljXAxiOI41WL3Bx-_x2NlgxPmARclT1qZM1KKOV9fqj87Vmj6bqTOPeNv22A5JPJg=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Noticias RCN
+https://www.youtube.com/@NoticiasRCN/live
+#EXTINF:-1 tvg-name="Noticias Telemundo" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_lrAFsc7C4t12A8gv6_XmQkv3vn30y-N4nmFVoP1h9tT9M=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Noticias Telemundo Ahora
+https://www.youtube.com/noticias/live
+#EXTINF:-1 tvg-id="Canal.Multimedios.Plus.mx" tvg-name="Multimedios" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_k_I0iTeZLhP_tm3tXrvRroluPTmFPqAtp2e353c3tOCNHw=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Multimedios
+https://www.youtube.com/@multimedios/live
+#EXTINF:-1 tvg-name="N+ Monterrey" tvg-logo="https://yt3.ggpht.com/qkAD1o0O4hb319n8DjBiLIsQOiTRWghCCIWU4VXhwDVIxBxN3O9j5NJFka8mX1sXB8TM9t0l=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",N+ Monterrey
+https://www.youtube.com/@Nmasmty/live
+#EXTINF:-1 tvg-name="Televisa Tijuana" tvg-logo="https://yt3.ggpht.com/lr_3S8j16R3n7djPQP81Thl5aPGMfBZJf_lIb64vo41LXn5-Ejo2M-DCeyVCxitbf0IMAZigig=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Televisa Tijuana
+https://www.youtube.com/@televisatijuanaof/live
+#EXTINF:-1 tvg-name="Televisa Veracruz" tvg-logo="https://yt3.ggpht.com/kx6PBie40tb0wxvKWe0axmtX2uMw_QoLn9EBaTgLSR2oIKyg3335-zDcM08mkr8z42Y_qk36=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Televisa Veracruz
+https://www.youtube.com/@TelevisaVeracruzOficial/live
+#EXTINF:-1 tvg-name="Televisa Mexicali" tvg-logo="https://yt3.ggpht.com/FeiYVv5eGZP_Tvi1Oqr2u9EXzzxdXIPVsumSlrQ9g4wV0DLbWVT_K03dDUnsLBM1rSzVpbGQrA=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Televisa Mexicali
+https://www.youtube.com/@televisamexicaliof/live
+#EXTINF:-1 tvg-name="Canal 23 Televisa Ensenada" tvg-logo="https://yt3.ggpht.com/5SXA8eyKxNLPHeAyqarnjynjTultMVgLkviP24FPl-QiqTveKndanDhjInYPZa7CHAM6oja4jXg=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Canal 23 Televisa Ensenada
+https://www.youtube.com/@canal23televisaensenada97/live
+#EXTINF:-1 tvg-name="Televisa Puebla" tvg-logo="https://yt3.ggpht.com/ldGG3UQgjfPvOTOnG6NiXxg5vwRiX8NdQ7QY8BaebEdJ5jRDdXGvH6BeIrgbTTlKZsUz_Y7R5Z4=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Televisa Puebla
+https://www.youtube.com/@televisapuebla/live
+#EXTINF:-1 tvg-name="Televisa Guadalajara" tvg-logo="https://yt3.ggpht.com/84F71ZIfliCPUxYXZBhUlKER3DFqJlQjPdkyNNYtynwZbuhYeo7BN-3FZe_XKWiwuORNqfLq=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS LATAM",Televisa Guadalajara
+https://www.youtube.com/@televisaguadalajara/live
+#EXTINF:-1 tvg-id="CNN.EN.ESPAÑOL.HD.uy" tvg-name="CNN en Español" tvg-logo="https://yt3.ggpht.com/qJilPlEd7fVYRubTX0mCPq1zIi9ackBZX3klGEXycg4juHDFAsV7Xc2D_pY43Jii-vUM-d7Ycw=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",CNN en Español
+https://www.youtube.com/@cnnee/live
+#EXTINF:-1 tvg-id="FRANCE.24.ESPAÑOL.HD.uy" tvg-name="France 24 Español" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_kzqAgL2TukPL1ijpuPdoOgU75Av9cdQVf0mahAZSySyA=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",France 24 Español
+https://www.youtube.com/@France24_es/live
+#EXTINF:-1 tvg-id="Euronews.es" tvg-name="Euronews Español" tvg-logo="https://yt3.ggpht.com/i9_e34m-ObKpqCshARRsxhTA2wFPE-Ct0ZHg_HTWg0TrD27sTGZ9Vi25zDF0PsBwVKtyhkYvnQ=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",Euronews Español
+https://www.youtube.com/@euronewses/live
+#EXTINF:-1 tvg-id="Euronews.pt" tvg-name="Euronews Português" tvg-logo="https://yt3.ggpht.com/mzF9dxkU1hpd_zUYk626Cz_GzyzMUjFjhbVauEiKazpyuOtOx8gRhiiLWpsdeVaD2TTFOBE=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",Euronews Português
+https://www.youtube.com/@euronewspt/live
+#EXTINF:-1 tvg-id="CNN.TÜRK.HD.tr" tvg-name="CNN Türk" tvg-logo="https://yt3.ggpht.com/H6Fh64z_Vb9AYevqCPwgeyRAyd4mye6fqU2HN5Jj1RWtrtK5lbU3B2Nkxc_nJfpN_WpI5_flfBk=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",CNN Türk
+https://www.youtube.com/@cnnturk/live
+#EXTINF:-1 tvg-name="CNN Indonesia" tvg-logo="https://yt3.ggpht.com/2VFfT-mhe2qrdSoDncnXfwv3sJCBgBkYN2bRnOY8BirGvmqsiao7MXvAO8X9qO_bc-KQYOdl=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",CNN Indonesia
+https://www.youtube.com/@CNNIDOFFICIAL/live
+#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-name="ABC News" tvg-logo="https://yt3.ggpht.com/GJ8V0NX6NddGh9bf4zED4tsjPjjBK2hdp5FWHMy09pV7sdSkkE3yEhCRSch4waEb9ZavyUrWfw=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",ABC News
+https://www.youtube.com/@ABCNews/live
+#EXTINF:-1 tvg-name="NBC News" tvg-logo="https://yt3.ggpht.com/PJj5jtuEOi5UmkFy4IBonj5WcabNcnJAIJe-jZMd1ArwIuVyQxFH_2zryBHwvfv6mJujwRpWDCM=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",NBC News
+https://www.youtube.com/@NBCNews/live
+#EXTINF:-1 tvg-id="WPVI-DT.us_locals1" tvg-name="6abc Philadelphia" tvg-logo="https://yt3.ggpht.com/cFONa5kFReaxOqatNZNqIiH1OOSzM0L2mZOlHTn5uuqNIzvz2D1O53Ytz10sIJFrfIHxdPu5=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",6abc Philadelphia
+https://www.youtube.com/@6abcActionNews/live
+#EXTINF:-1 tvg-id="KTRK-DT.us_locals1" tvg-name="ABC13 Houston" tvg-logo="https://yt3.ggpht.com/WvPbU5zz7WDluX8bkYz0IKUAMcNJf17r_rTj1mCKYAuTEAkL1l5GjgMequS8EFfVq_l1tkXBiA=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",ABC13 Houston
+https://www.youtube.com/@ABC13Houston/live
+#EXTINF:-1 tvg-id="KXLY-DT.us_locals1" tvg-name="4 News Now" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_kWR8DJdVkkDAEtQeqLxAGnjhyD-G19l7shndvnTQxrv9I=s176-c-k-c0x00ffffff-no-rj" group-title="NOTICIAS INTERNACIONAL",4 News Now
+https://www.youtube.com/@4NewsNow/live
+#EXTINF:-1 tvg-name="Arena Trader" tvg-logo="https://yt3.ggpht.com/qOFiYAdF8bAVeIn9Jkos5afp7pmQ08h0ZXc4pDZwq5A4KkDLqsg2xR-IzW37H7qeIAVZ3ZzxXQ=s176-c-k-c0x00ffffff-no-rj" group-title="FINANCAS",Arena Trader
+https://www.youtube.com/@ArenaTrader/live
+#EXTINF:-1 tvg-name="Clear Corretora" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_ntHX0J_zLfJwc2acqj8opsIUvE7Y6I3MYYxt76v5Ytaw=s176-c-k-c0x00ffffff-no-rj" group-title="FINANCAS",Clear Corretora
+https://www.youtube.com/@ClearCorretoradeValores/live
+#EXTINF:-1 tvg-name="TOP GAIN" tvg-logo="https://yt3.ggpht.com/Xcmsp_2aHFP8yUwaoHvkg1HcQeGuKj1vXn-m5bQN3D6muS49tfu-IXipG8N6ZnezZmT4pVuBHw=s176-c-k-c0x00ffffff-no-rj" group-title="FINANCAS",TOP GAIN
+https://www.youtube.com/@TOPGAIN/live
+#EXTINF:-1 tvg-name="CM Capital" tvg-logo="https://yt3.ggpht.com/CwUxBSaJR4C0WlLhG_UWp252wMzmfl3NjPHeByT26oDK9hx9CEK8FxS8GdLRMXmtzBd1UKvmgg=s176-c-k-c0x00ffffff-no-rj" group-title="FINANCAS",CM Capital
+https://www.youtube.com/@cmcapitalaovivo/live
+#EXTINF:-1 tvg-name="Car Chase Channel ABC" tvg-logo="https://yt3.ggpht.com/UJigSNiHyI34NGLT8uAeYwhe36WEjRt1xkiCXUFhiO2Y5wx2ZuPNtZEkQkui5TGXGih99gvN=s176-c-k-c0x00ffffff-no-rj" group-title="OUTROS",Car Chase Channel ABC
+https://www.youtube.com/@CarChaseChannelABC/live
