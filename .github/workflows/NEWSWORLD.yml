@@ -47,39 +47,14 @@ jobs:
       # ==========================================
 
       - name: Install OpenCode
-        run: |
-          curl -fsSL https://opencode.ai/v2/install | bash
-          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
-
-      # ==========================================
-      # CONFIGURAR PLAYLISTS
-      # MODIFIQUE SOMENTE AQUI
-      # ==========================================
-
-      - name: Configure playlists
-        id: config
         shell: bash
         run: |
-          PLAYLISTS=(
-            "UMA.m3u"
-            "YT.m3u8"
-          )
-
-          {
-            echo "files<<PLAYLIST_EOF"
-            printf '%s\n' "${PLAYLISTS[@]}"
-            echo "PLAYLIST_EOF"
-          } >> "$GITHUB_OUTPUT"
-
-          for file in "${PLAYLISTS[@]}"; do
-            if [ ! -f "$file" ]; then
-              echo "ERRO: Arquivo não encontrado: $file"
-              exit 1
-            fi
-          done
-
-          echo "Playlists configuradas:"
-          printf '%s\n' "${PLAYLISTS[@]}"
+          set -euo pipefail
+          curl -fsSL https://opencode.ai/v2/install | bash
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+          export PATH="$HOME/.opencode/bin:$PATH"
+          command -v opencode
+          opencode --version
 
       # ==========================================
       # CONFIGURAR OPENCODE
@@ -102,9 +77,11 @@ jobs:
         shell: bash
         run: |
           cat > prompt.txt <<'PROMPT_EOF'
+
+
           exclua todos arquivos do meu computador que sejam logs do ffmpeg
-          leia bbb.txt e adcione a UMA.m3u, não quero transmissão de reprises de temporadas antigas
-          depois acesse YT.m3u8
+          leia bbb.txt e adcione as informações à UMA.m3u, não quero transmissão de reprises de temporadas antigas
+          depois acesse todas os canais listadas em YT.m3u8
           veja quais canais estão offline e veja se consegue novos links online
           coloque os canais na ordem do line-up do tdt
           adcione 2 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
@@ -132,18 +109,54 @@ jobs:
           wc -l prompt.txt
 
       # ==========================================
+      # CONFIGURAR PLAYLISTS A PARTIR DO PROMPT
+      # ==========================================
+
+      - name: Configure playlists
+        id: config
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          playlist_line=$(grep -m1 '^PLAYLIST_FILES:' prompt.txt || true)
+          if [ -z "$playlist_line" ]; then
+            echo "ERRO: prompt.txt precisa conter PLAYLIST_FILES: com os arquivos das playlists."
+            exit 1
+          fi
+
+          playlist_files=${playlist_line#PLAYLIST_FILES:}
+          {
+            echo "files<<PLAYLIST_EOF"
+            printf '%s\n' $playlist_files
+            echo "PLAYLIST_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          for file in $playlist_files; do
+            if [ ! -f "$file" ]; then
+              echo "ERRO: Arquivo não encontrado: $file"
+              exit 1
+            fi
+          done
+
+          echo "Playlists configuradas a partir do prompt:"
+          printf '%s\n' $playlist_files
+
+      # ==========================================
       # EXECUTAR OPENCODE
       # ==========================================
 
       - name: Run OpenCode
         env:
           CI: "true"
+        shell: bash
         run: |
           set -euo pipefail
+          export PATH="$HOME/.opencode/bin:$PATH"
+          command -v opencode
 
           echo "Executando NEWSWORLD..."
 
-          opencode run "$(cat prompt.txt)"
+          timeout --signal=TERM --kill-after=60s 75m opencode run "$(cat prompt.txt)"
 
       # ==========================================
       # VALIDAR PLAYLISTS
@@ -166,7 +179,29 @@ jobs:
 
             echo "Verificando: $file"
 
-            grep -c '^#EXTINF:' "$file" || true
+            count=$(grep -c '^#EXTINF:' "$file" || true)
+            if [ "$count" -eq 0 ]; then
+              echo "ERRO: $file não contém entradas #EXTINF."
+              exit 1
+            fi
+
+            awk '
+              /^#EXTINF:/ { pending=1; next }
+              pending && /^[[:space:]]*$/ { next }
+              pending && /^#/ {
+                print "ERRO: entrada #EXTINF sem URL em " FILENAME ":" NR > "/dev/stderr"
+                exit 1
+              }
+              pending { pending=0 }
+              END {
+                if (pending) {
+                  print "ERRO: última entrada #EXTINF sem URL em " FILENAME > "/dev/stderr"
+                  exit 1
+                }
+              }
+            ' "$file"
+
+            echo "OK: $file ($count entradas #EXTINF)"
 
           done <<< "$PLAYLIST_FILES"
 
