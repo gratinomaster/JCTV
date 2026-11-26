@@ -1,3 +1,4 @@
+
 name: NEWSWORLD
 
 on:
@@ -12,18 +13,71 @@ concurrency:
 jobs:
   opencode:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
 
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg curl jq python3 git
 
       - name: Install OpenCode
         run: |
           curl -fsSL https://opencode.ai/v2/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+
+      # ==========================================
+      # CONFIGURAÇÃO DAS PLAYLISTS
+      # MODIFIQUE SOMENTE ESTA LISTA
+      # ==========================================
+
+      - name: Configure playlists
+        id: playlists
+        shell: bash
+        run: |
+          PLAYLISTS=(
+            "UMA.m3u"
+            "YT.m3u8"
+          )
+
+          {
+            echo "files<<EOF"
+            printf '%s\n' "${PLAYLISTS[@]}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          for file in "${PLAYLISTS[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "ERRO: Playlist não encontrada: $file"
+              exit 1
+            fi
+          done
+
+      # ==========================================
+      # CONFIGURAÇÃO NÃO INTERATIVA
+      # ==========================================
+
+      - name: Configure OpenCode
+        run: |
+          cat > opencode.json <<'EOF'
+          {
+            "$schema": "https://opencode.ai/config.json",
+            "websearch": false
+          }
+          EOF
+
+      # ==========================================
+      # CRIAR PROMPT AUTOMATICAMENTE
+      # ==========================================
+
 
       - name: Create prompt
         run: |
@@ -45,7 +99,7 @@ jobs:
           não salve o .py que for gerado
           o link do epg deve começar com https
           abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
-          não use tvg-ids inventados, apenas reais
+          não use tvg-ids inventados
           se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje, caso haja mais de um divida com virgulas
           use leitor de imagens para ver se o tvg logo está correto
           não quero .svg
@@ -54,46 +108,94 @@ jobs:
           não gosto de i.imgur.com
           EOF
 
+          } > prompt.txt
+
+      # ==========================================
+      # EXECUTAR OPENCODE
+      # ==========================================
+
       - name: Run OpenCode
+        env:
+          CI: "true"
         run: |
-          echo "Executando OpenCode..."
+          set -euo pipefail
+
+          echo "Iniciando NEWSWORLD..."
+
           opencode run "$(cat prompt.txt)"
 
-      - name: Check generated files
-        run: |
-          echo "Arquivos no diretório:"
-          ls -la
+      # ==========================================
+      # VALIDAR PLAYLISTS
+      # ==========================================
 
-          if [ -f lista5.m3u ]; then
-            echo "Playlist criada:"
-            cat lista5.m3u
-          else
-            echo "lista5.m3u não foi criado"
-          fi
+      - name: Validate playlists
+        env:
+          PLAYLIST_FILES: ${{ steps.playlists.outputs.files }}
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r file; do
+            [ -n "$file" ] || continue
+
+            if [ ! -s "$file" ]; then
+              echo "ERRO: $file está vazio ou não existe."
+              exit 1
+            fi
+
+            echo "Verificando $file"
+
+            grep -c '^#EXTINF:' "$file" || true
+
+          done <<< "$PLAYLIST_FILES"
+
+          git diff --check
+
+      # ==========================================
+      # COMMIT E PUSH
+      # ==========================================
 
       - name: Commit and Push safely
+        env:
+          PLAYLIST_FILES: ${{ steps.playlists.outputs.files }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          set -euo pipefail
 
-          git add . || true
-          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # tenta sincronizar e enviar sem sobrescrever ninguém
-          for i in {1..10}; do
-            echo "Tentativa $i de push..."
+          while IFS= read -r file; do
+            [ -n "$file" ] || continue
+            git add -- "$file"
+          done <<< "$PLAYLIST_FILES"
 
-            git fetch origin
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nas playlists."
+            exit 0
+          fi
 
-            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
-              echo "Conflito no rebase, abortando e tentando novamente..."
-              git rebase --abort
-              sleep 5
-              continue
-            }
+          git commit -m "Atualização automática NEWSWORLD"
 
-            git push origin HEAD && break
+          BRANCH="$GITHUB_REF_NAME"
 
-            echo "Push falhou, tentando novamente em 5s..."
-            sleep 5
+          for i in $(seq 1 10); do
+            echo "Tentativa $i/10"
+
+            git fetch origin "$BRANCH"
+
+            if ! git rebase "origin/$BRANCH"; then
+              git rebase --abort || true
+              echo "Conflito no rebase."
+              exit 1
+            fi
+
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Push realizado com sucesso."
+              exit 0
+            fi
+
+            sleep 10
           done
+
+          echo "Falha no push."
+          exit 1
