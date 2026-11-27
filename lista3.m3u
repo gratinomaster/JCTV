@@ -1,3 +1,12 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzk1NzY0OTc5LCJpYXQiOjE3OTU3NDMzNzksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.WTLzeiM-UTCNqke-i3REMcgSICkF9hmojqMgFAYvZ6MPV88gwZtviErhJyGdYMDh0Ur3fPmOEoSlSilbmHLSoAVmLfUMFS2552LYJxiuYmimnl2hUjsLjeJk24nn_FR44X8sRZ5UTNv2GojpSpuzYubXul44k4MYObY7tv14TEp4WyyuXzt44Mfh5aQcMv7ncXS0kXOQ-IsrQwPlGjqVKbTJBBIqT0m8W55lpaECMSZprXBVK-dpVmWGsRpu-6OVRulb3892QrLoEGLhG_sjttwvwfBAefMwriARP-vJG19LljpUb8x295mztaVZYgBkXI7wZQ9IPjxQwbbUmluP0Q/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-br.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-br.xml.gz"
+# NEWS WORLD — atualizado e testado com ffmpeg em 27/11/2026. Ordem do line-up do TDT (canal virtual de São Paulo): TV Brasil 1.1, Record News 7.2 (subcanal da Record 7.1); rádios sem número TDT (CBN SP) vêm por último.
+# EPG único (https, testado em navegador e com curl): https://iptv-epg.org/files/epg-br.xml.gz — TVBrasil.br (57 programas em 27/11) e RecordNews.br (31 programas em 27/11). IDs copiados literalmente do XMLTV; CBN SP não tem id real em nenhum EPG público verificado, por isso não recebe tvg-id inventado.
+# Links verificados quanto a redirecionamentos suspeitos: nenhum executável, apenas CDN de vídeo/áudio. Logos: PNG atuais (2023 da TV Brasil e Record News; 2019 da CBN SP), lidos por OCR — nenhum formato vetorial e nenhum host de imagens indesejado.
+# Ex-EPTV1/EPTV2 (afiliadas Globo) removidas: páginas G1 encerradas/404 em 27/11/2026, sem HLS para testar; os ids "EPTV..." do EPG traziam programação esportiva errada.
+# CBN SP: o antigo JWT de vídeo expirava às 07:36Z de 27/11 e foi trocado pelo stream oficial durável da StreamTheWorld (usado pelo próprio player da Globo). O primeiro frame do antigo vídeo foi conferido por OCR ("CBN Madrugada / Paulo Galvão") e confirmava o canal. Backup AAC: https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC.aac?dist=site
+#EXTINF:-1 tvg-id="TVBrasil.br" tvg-name="TV Brasil" tvg-chno="1.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/TvBrasil23.png" group-title="NEWS WORLD | TV Aberta",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="RecordNews.br" tvg-name="Record News" tvg-chno="7.2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/Record_News_Logo_2023.png" group-title="NEWS WORLD | TV Aberta",Record News
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 tvg-name="CBN SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/CBN_S%C3%A3o_Paulo_logo_2019.png" group-title="NEWS WORLD | Radio",CBN SP
+https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SP.mp3?dist=site
