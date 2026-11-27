@@ -1,12 +1,18 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-br.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-br.xml.gz"
-# NEWS WORLD — atualizado e testado com ffmpeg em 27/11/2026. Ordem do line-up do TDT (canal virtual de São Paulo): TV Brasil 1.1, Record News 7.2 (subcanal da Record 7.1); rádios sem número TDT (CBN SP) vêm por último.
-# EPG único (https, testado em navegador e com curl): https://iptv-epg.org/files/epg-br.xml.gz — TVBrasil.br (57 programas em 27/11) e RecordNews.br (31 programas em 27/11). IDs copiados literalmente do XMLTV; CBN SP não tem id real em nenhum EPG público verificado, por isso não recebe tvg-id inventado.
-# Links verificados quanto a redirecionamentos suspeitos: nenhum executável, apenas CDN de vídeo/áudio. Logos: PNG atuais (2023 da TV Brasil e Record News; 2019 da CBN SP), lidos por OCR — nenhum formato vetorial e nenhum host de imagens indesejado.
-# Ex-EPTV1/EPTV2 (afiliadas Globo) removidas: páginas G1 encerradas/404 em 27/11/2026, sem HLS para testar; os ids "EPTV..." do EPG traziam programação esportiva errada.
-# CBN SP: o antigo JWT de vídeo expirava às 07:36Z de 27/11 e foi trocado pelo stream oficial durável da StreamTheWorld (usado pelo próprio player da Globo). O primeiro frame do antigo vídeo foi conferido por OCR ("CBN Madrugada / Paulo Galvão") e confirmava o canal. Backup AAC: https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC.aac?dist=site
+# NEWS WORLD — revisado e testado com ffmpeg/ffprobe em 27/11/2026. Ordem do line-up do TDT (São Paulo): TV Brasil 1.1, Record News 7.2 (subcanal da Record 7.1), TV Câmara 8.1; rádios sem número TDT (CBN SP e CBN RJ) vêm por último.
+# EPG único, HTTPS, copiado literalmente do XMLTV: https://iptv-epg.org/files/epg-br.xml.gz — TVBrasil.br (57 programas em 27/11), RecordNews.br (31), TVCamara.br (23). Nenhum tvg-id inventado: CBN SP/RJ não têm id real em EPG público verificado e por isso não recebem tvg-id.
+# Adicionados em 27/11/2026, mesmo estilo informativo/jornalístico da lista: TV Câmara (TV aberta, canal virtual 8.1 em SP conforme Wikipedia) e CBN Rio de Janeiro (rádio irmã da CBN SP).
+# Links verificados quanto a redirecionamentos: apenas CDNs oficiais de vídeo/áudio (EBC, Otteravision/Record, Câmara dos Deputados, StreamTheWorld/Globo), sem executáveis. Logos PNG atuais e lidos por OCR: tvBrasil, #RecordNews, Marca TV Câmara 2018, CBN SP 90,5 FM e CBN RJ 92,5 FM. Sem .svg e sem i.imgur.com.
+# Primeiro frame conferido por OCR em 27/11/2026: TV Brasil exibe "tvBrasil"; Record News exibe "#RecordNews" e aba "LINK RECORD NEWS"; TV Câmara exibe "CÂMARA DOS DEPUTADOS". Nenhum canal com nome trocado (ex.: Telefe transmitindo América).
+# Ex-EPTV1/EPTV2 (afiliadas Globo) continuam removidas: páginas G1 encerradas/404, sem HLS testável e com ids de EPG de programação esportiva errada. Nenhuma entrada #EXTINF sem link.
+# CBN SP/RJ: streams oficiais duráveis da StreamTheWorld (os mesmos usados pelo player da Globo). Backup AAC da CBN SP: https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC.aac?dist=site
 #EXTINF:-1 tvg-id="TVBrasil.br" tvg-name="TV Brasil" tvg-chno="1.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/TvBrasil23.png" group-title="NEWS WORLD | TV Aberta",TV Brasil
 https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="RecordNews.br" tvg-name="Record News" tvg-chno="7.2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/Record_News_Logo_2023.png" group-title="NEWS WORLD | TV Aberta",Record News
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 tvg-id="TVCamara.br" tvg-name="TV Câmara" tvg-chno="8.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Marca_TV_C%C3%A2mara_-_2018.png" group-title="NEWS WORLD | TV Aberta",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-name="CBN SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/CBN_S%C3%A3o_Paulo_logo_2019.png" group-title="NEWS WORLD | Radio",CBN SP
 https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SP.mp3?dist=site
+#EXTINF:-1 tvg-name="CBN RJ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/53/CBN_Rio_de_Janeiro_logo_2019.png" group-title="NEWS WORLD | Radio",CBN RJ
+https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_RJ.mp3?dist=site
